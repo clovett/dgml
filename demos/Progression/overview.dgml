@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="ActionManager" Category="Model" Label="ActionManager" />
+    <Node Id="AdvancedSelector" Category="Styles" Label="Advanced Selector" />
+    <Node Id="Automation" Category="Test" Label="Automation" />
+    <Node Id="AutomationPeer" Category="Test" Label="AutomationPeer" />
+    <Node Id="C# Provider" Category="Provider" Label="C# Provider" />
+    <Node Id="CascadeBrowser" Category="UI" Label="CascadeBrowser" />
+    <Node Id="CircularAnalyzer" Category="Analyzer" Label="Circular Analyzer" />
+    <Node Id="Commands" Category="Test" Label="Commands" />
+    <Node Id="DSL Provider" Category="Provider" Label="DSL Provider" />
+    <Node Id="DependencyMatrixLayout" Category="Layout" Label="DependencyMatrixLayout" />
+    <Node Id="Explorer" Category="VS" Label="Architecture Explorer" />
+    <Node Id="Gestures" Category="UI" Label="Gestures" />
+    <Node Id="GraphCommandLine" Category="Console" Label="GraphCommandLine" />
+    <Node Id="GraphControl" Category="UI" Label="GraphControl" />
+    <Node Id="GraphDocument" Category="VS" Label="GraphDocument" />
+    <Node Id="GraphDocumentWindowPane" Category="VS" Label="GraphDocumentWindowPane" />
+    <Node Id="GraphModel" Category="Model" Label="GraphModel" />
+    <Node Id="HubAnalyzer" Category="Analyzer" Label="Hub Analyzer" />
+    <Node Id="IGraphLayout" Category="Group" Group="Collapsed" Label="IGraphLayout" />
+    <Node Id="IProvider" Category="Group" Group="Collapsed" Label="IProvider" />
+    <Node Id="IProvider(Analyzer)" Category="Group" Group="Collapsed" Label="IProvider (Analyzer)" />
+    <Node Id="LMR Provider" Category="Provider" Label="LMR Provider" />
+    <Node Id="Legend" Category="Styles" Label="Legend" />
+    <Node Id="MSAGL" Category="Layout" Label="SugiyamaLayout" />
+    <Node Id="MSBuild Provider" Category="Provider" Label="MSBuild Provider" />
+    <Node Id="MdsLayout" Category="Layout" Label="MdsLayout" />
+    <Node Id="ProgressionPackage" Category="VS" Label="ProgressionPackage" />
+    <Node Id="QueryManager" Category="Query" Label="QueryManager" />
+    <Node Id="StackLayout" Category="Layout" Label="StackLayout" />
+    <Node Id="StyleSet" Category="Styles" Label="StyleSet" />
+    <Node Id="TFS Provider" Category="Provider" Label="TFS Provider" />
+    <Node Id="UnreferencedAnalyzer" Category="Analyzer" Label="Unreferenced Analyzer" />
+    <Node Id="UnusedAnalyzer" Category="Analyzer" Label="Unused Analyzer" />
+    <Node Id="VB Provider" Category="Provider" Label="VB Provider" />
+    <Node Id="VS Provider" Category="Provider" Label="VS Provider" />
+    <Node Id="VirtualCanvas" Category="UI" Label="VirtualCanvas" />
+    <Node Id="XmlEditor" Category="VS" Label="XmlEditor" />
+  </Nodes>
+  <Links>
+    <Link Source="ActionManager" Target="GraphModel" />
+    <Link Source="ActionManager" Target="IProvider" />
+    <Link Source="C# Provider" Target="GraphModel" />
+    <Link Source="CircularAnalyzer" Target="GraphModel" />
+    <Link Source="Commands" Target="Explorer" />
+    <Link Source="Commands" Target="GraphDocumentWindowPane" />
+    <Link Source="DSL Provider" Target="GraphModel" />
+    <Link Source="DependencyMatrixLayout" Target="GraphModel" />
+    <Link Source="Explorer" Target="ActionManager" />
+    <Link Source="Explorer" Target="CascadeBrowser" />
+    <Link Source="Explorer" Target="GraphModel" />
+    <Link Source="Explorer" Target="IProvider" />
+    <Link Source="Explorer" Target="QueryManager" />
+    <Link Source="GraphCommandLine" Target="ActionManager" />
+    <Link Source="GraphCommandLine" Target="IProvider" />
+    <Link Source="GraphCommandLine" Target="QueryManager" />
+    <Link Source="GraphControl" Target="AdvancedSelector" />
+    <Link Source="GraphControl" Target="AutomationPeer" />
+    <Link Source="GraphControl" Target="Gestures" />
+    <Link Source="GraphControl" Target="GraphModel" />
+    <Link Source="GraphControl" Target="IGraphLayout" />
+    <Link Source="GraphControl" Target="IProvider(Analyzer)" />
+    <Link Source="GraphControl" Target="Legend" />
+    <Link Source="GraphControl" Target="StyleSet" />
+    <Link Source="GraphControl" Target="VirtualCanvas" />
+    <Link Source="GraphDocument" Target="GraphControl" />
+    <Link Source="GraphDocument" Target="GraphModel" />
+    <Link Source="GraphDocument" Target="XmlEditor" />
+    <Link Source="GraphDocumentWindowPane" Target="GraphControl" />
+    <Link Source="GraphDocumentWindowPane" Target="GraphDocument" />
+    <Link Source="IGraphLayout" Target="DependencyMatrixLayout" Category="Contains" />
+    <Link Source="IGraphLayout" Target="MSAGL" Category="Contains" />
+    <Link Source="IGraphLayout" Target="MdsLayout" Category="Contains" />
+    <Link Source="IGraphLayout" Target="StackLayout" Category="Contains" />
+    <Link Source="IProvider" Target="C# Provider" Category="Contains" />
+    <Link Source="IProvider" Target="DSL Provider" Category="Contains" />
+    <Link Source="IProvider" Target="LMR Provider" Category="Contains" />
+    <Link Source="IProvider" Target="MSBuild Provider" Category="Contains" />
+    <Link Source="IProvider" Target="TFS Provider" Category="Contains" />
+    <Link Source="IProvider" Target="VB Provider" Category="Contains" />
+    <Link Source="IProvider" Target="VS Provider" Category="Contains" />
+    <Link Source="IProvider(Analyzer)" Target="CircularAnalyzer" Category="Contains" />
+    <Link Source="IProvider(Analyzer)" Target="HubAnalyzer" Category="Contains" />
+    <Link Source="IProvider(Analyzer)" Target="UnreferencedAnalyzer" Category="Contains" />
+    <Link Source="IProvider(Analyzer)" Target="UnusedAnalyzer" Category="Contains" />
+    <Link Source="LMR Provider" Target="GraphModel" />
+    <Link Source="Legend" Target="StyleSet" />
+    <Link Source="MSAGL" Target="GraphModel" />
+    <Link Source="MSBuild Provider" Target="GraphModel" />
+    <Link Source="MdsLayout" Target="GraphModel" />
+    <Link Source="ProgressionPackage" Target="Automation" />
+    <Link Source="ProgressionPackage" Target="Explorer" />
+    <Link Source="ProgressionPackage" Target="GraphDocumentWindowPane" />
+    <Link Source="ProgressionPackage" Target="IProvider" />
+    <Link Source="QueryManager" Target="ActionManager" />
+    <Link Source="StackLayout" Target="GraphModel" />
+    <Link Source="TFS Provider" Target="GraphModel" />
+    <Link Source="UnreferencedAnalyzer" Target="GraphModel" />
+    <Link Source="UnusedAnalyzer" Target="GraphModel" />
+    <Link Source="VB Provider" Target="GraphModel" />
+    <Link Source="VS Provider" Target="GraphModel" />
+    <Link Source="XmlEditor" Target="GraphDocument" />
+  </Links>
+  <Categories>
+    <Category Id="Analyzer" Icon="..\Icons\Gears.png" Shape="None" />
+    <Category Id="Console" Icon="..\Icons\Console.png" Shape="None" />
+    <Category Id="Contains" Label="Contains" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="Group" Label="Group" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="Groups" />
+    <Category Id="Layout" Icon="..\Icons\DgmlFile.png" Shape="None" />
+    <Category Id="Model" Icon="..\Icons\XSD.png" Shape="None" />
+    <Category Id="Provider" Icon="..\Icons\AddIn.png" Shape="None" />
+    <Category Id="Query" Icon="..\Icons\xslt.png" Shape="None" />
+    <Category Id="Styles" Icon="..\Icons\Styles.png" Shape="None" />
+    <Category Id="Test" Icon="..\Icons\Macro.png" Shape="None" />
+    <Category Id="UI" Icon="..\Icons\Screen.png" Shape="None" />
+    <Category Id="VS" Icon="..\Icons\VisualStudio.png" Shape="None" />
+  </Categories>
+  <Properties>
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.Progression.GraphModel.GroupStyle" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="Shape" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Group" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Group')" />
+      <Setter Property="Background" Value="#80008080" />
+    </Style>
+    <Style TargetType="Node">
+      <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+  </Styles>
+</DirectedGraph>

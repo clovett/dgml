@@ -1,0 +1,144 @@
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Microsoft.VisualStudio.Progression.GraphDataObject" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="This class provides IDataObject support for exchanging DGML data via the clipboard and drag/drop." IsAbstract="True" Label="GraphDataObject" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.Graph" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="Represents a directed graph, consisting of nodes and links." Label="Graph" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.GraphCategory" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="Graph Categories are used to specify category information on a GraphObject, like nodes and links." Label="GraphCategory" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.GraphMetadata" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="This class is used to provide more information about a GraphProperty, including localized strings and flags for controlling how the property appears in a Property Grid window." Label="GraphMetadata" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="This class makes an object extensible by adding a strongly typed property bag of name/value pairs." IsAbstract="True" Label="GraphObject" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.GraphProperties" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="Static class which defines a set of commonly used GraphProperty objects" IsAbstract="True" Label="GraphProperties" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.GraphProperty" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="Graph Properties are used to annotate a GraphObject, like nodes and links." Label="GraphProperty" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.GraphSerializer" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="GraphSerializer is used to serialize Graph objects." Label="GraphSerializer" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.GraphTransactionEnlistment" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="Contains the enlistment information for the transaction. The enlistment contains a list of enlistable objects. Each enlistable object also has a corresponding isolation object (the isolator). During write operations, changes are never directly applied to the enlistable object (e.g. a TransactedList), but is instead kept as a change set in the isolation object. (e.g. the TransactedListIsolator). During read operations, enlistable object retrieve the applicable isolation object from the enlistment (as defined by the current transaction on the thread). The view of the enlistable object and the data from the isolator is then merged to provide a merged view of the underlying enlistable object and the isolated changes. During commit, the set of enlisted objects are enumerated, and the corresponding isolator change is applied to it. Interesting functions: ---------------------- static GetOrCreateEnlistment() - Get/Create an enlistment based on the transaction on the thread GetOrCreateIsolator() - Get/Add an enlistable object to the enlistment and return the isolator object for it. static TryGetIsolatorForRead() - See if there is a transaction on the thread, and check whether this object is already enlisted in it. If so, return the isolator. If not, return null." Label="GraphTransactionEnlistment" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.GraphTransactionScope" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="Represents a highly optimized wrapper around System.Transactions.TransactionScope. This extensively uses thread local storage and is thus thread-bound. GraphTransactionScope is meant to be called from a using() class, same as TransactionScope." Label="GraphTransactionScope" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.GraphUpdatedEventArgs" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="Provides changes to a graph object" Label="GraphUpdatedEventArgs" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.GraphUpdatedEventHandler" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" Label="GraphUpdatedEventHandler" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.Link" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="Represents a link in the directed graph" Label="Link" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.LinkFilter" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="A delegate to use in the GetFiltered method." Label="LinkFilter" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.Links" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="This class manages a collection of Links. This class does not preserve the order in which you added the links, so when you enumerate them you will get them back in a random order." Label="Links" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.LinksUpdatedEventArgs" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="Provides data for the following transaction event: Graph.TransactionCompleted" Label="LinksUpdatedEventArgs" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.LinksUpdatedEventHandler" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" Label="LinksUpdatedEventHandler" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="Represents a node in the directed graph" Label="Node" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.NodeFilter" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="A delegate to use in the GetFiltered method." Label="NodeFilter" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.Nodes" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="This class provides methods for manipulating a collection of Nodes. This class does not preserve the order in which you added the nodes, so when you enumerate them you will get them back in a random order." Label="Nodes" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.NodesUpdatedEventArgs" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="Provides data for the following transaction event: Graph.TransactionCompleted" Label="NodesUpdatedEventArgs" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.NodesUpdatedEventHandler" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" Label="NodesUpdatedEventHandler" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.SerializationErrorEventArgs" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="This class is used to communicate serialization errors if the caller passes a handler to the serializer." Label="SerializationErrorEventArgs" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="System.Collections.Generic.IEnumerable`1&lt;Microsoft.VisualStudio.Progression.GraphModel.Link&gt;" Category="External" Access="Public" Assembly="mscorlib" IsAbstract="True" Label="IEnumerable&lt;Link&gt;" Namespace="System.Collections.Generic">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="System.Collections.Generic.IEnumerable`1&lt;Microsoft.VisualStudio.Progression.GraphModel.Node&gt;" Category="External" Access="Public" Assembly="mscorlib" IsAbstract="True" Label="IEnumerable&lt;Node&gt;" Namespace="System.Collections.Generic">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="System.Collections.IEnumerable" Category="External" Access="Public" Assembly="mscorlib" IsAbstract="True" Label="IEnumerable" Namespace="System.Collections">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="System.IDisposable" Category="External" Access="Public" Assembly="mscorlib" IsAbstract="True" Label="IDisposable" Namespace="System">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="System.IEquatable`1&lt;Microsoft.VisualStudio.Progression.GraphModel.GraphCategory&gt;" Category="External" Access="Public" Assembly="mscorlib" IsAbstract="True" Label="IEquatable&lt;GraphCategory&gt;" Namespace="System">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="System.IEquatable`1&lt;Microsoft.VisualStudio.Progression.GraphModel.GraphProperty&gt;" Category="External" Access="Public" Assembly="mscorlib" IsAbstract="True" Label="IEquatable&lt;GraphProperty&gt;" Namespace="System">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="System.Runtime.Serialization.ISerializable" Category="External" Access="Public" Assembly="mscorlib" IsAbstract="True" Label="ISerializable" Namespace="System.Runtime.Serialization">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="System.Transactions.IEnlistmentNotification" Category="External" Access="Public" Assembly="System.Transactions" IsAbstract="True" Label="IEnlistmentNotification" Namespace="System.Transactions">
+      <Category Ref="Interface" />
+    </Node>
+  </Nodes>
+  <Links>
+    <Link Source="Microsoft.VisualStudio.Progression.GraphDataObject" Target="Microsoft.VisualStudio.Progression.GraphModel.Graph" Category="Calls" Tip="Method: GetSubset" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphDataObject" Target="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="Calls" Tip="Template Argument" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Graph" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Graph" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphUpdatedEventHandler" Category="Calls" Tip="Method: add_Updated, argument: value&#xD;&#xA;Method: remove_Updated, argument: value&#xD;&#xA;Method: add_Updating, argument: value&#xD;&#xA;Method: remove_Updating, argument: value" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Graph" Target="Microsoft.VisualStudio.Progression.GraphModel.Link" Category="Calls" Tip="Template Argument" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Graph" Target="Microsoft.VisualStudio.Progression.GraphModel.Links" Category="Calls" Tip="Method: get_Links&#xD;&#xA;Property: Links" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Graph" Target="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="Calls" Tip="Method: ImportSubset&#xD;&#xA;Method: ImportSubset, argument: node&#xD;&#xA;Template Argument&#xD;&#xA;Method: RenameNode&#xD;&#xA;Method: RenameNode, argument: existingNode" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Graph" Target="Microsoft.VisualStudio.Progression.GraphModel.Nodes" Category="Calls" Tip="Method: get_Nodes&#xD;&#xA;Property: Nodes" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.GraphCategory" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphMetadata" Category="Calls" Tip="Method: get_Metadata&#xD;&#xA;Method: Register, argument: metadata&#xD;&#xA;Property: Metadata" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.GraphMetadata" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphCategory" Category="Calls" Tip="Method: GetValue, argument: category&#xD;&#xA;Method: AddCategory, argument: category&#xD;&#xA;Method: RemoveCategory&#xD;&#xA;Method: RemoveCategory, argument: property&#xD;&#xA;Method: HasCategory, argument: category&#xD;&#xA;Template Argument&#xD;&#xA;Method: GetFirstCategory" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphProperty" Category="Calls" Tip="Template Argument&#xD;&#xA;Method: get_Item, argument: property&#xD;&#xA;Method: set_Item, argument: property&#xD;&#xA;Method: SetValue, argument: property&#xD;&#xA;Method: HasValue, argument: property&#xD;&#xA;Method: GetValue, argument: property&#xD;&#xA;Method: GetValueAsString, argument: property&#xD;&#xA;Method: ClearValue, argument: property" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.GraphProperties" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphProperty" Category="Calls" Tip="Field: BaseUri&#xD;&#xA;Field: BasedOn&#xD;&#xA;Field: Group&#xD;&#xA;Field: IsContainment&#xD;&#xA;Field: IsPseudo&#xD;&#xA;Field: IsTag&#xD;&#xA;Field: Label&#xD;&#xA;Field: SourceNode&#xD;&#xA;Field: TargetNode&#xD;&#xA;Field: UniqueId&#xD;&#xA;Field: Visibility" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.GraphProperty" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphMetadata" Category="Calls" Tip="Method: get_Metadata&#xD;&#xA;Method: Register, argument: metadata&#xD;&#xA;Property: Metadata" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.GraphSerializer" Target="Microsoft.VisualStudio.Progression.GraphModel.Graph" Category="Calls" Tip="Method: .ctor, argument: graph&#xD;&#xA;Method: Load&#xD;&#xA;Method: Deserialize&#xD;&#xA;Method: Save, argument: graph&#xD;&#xA;Method: Serialize, argument: graph" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.GraphSerializer" Target="Microsoft.VisualStudio.Progression.GraphModel.SerializationErrorEventArgs" Category="Calls" Tip="Template Argument" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.GraphTransactionScope" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphTransactionEnlistment" Category="Calls" Tip="Method: GetOrCreateEnlistment" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.GraphUpdatedEventArgs" Target="Microsoft.VisualStudio.Progression.GraphModel.Graph" Category="Calls" Tip="Method: get_Graph&#xD;&#xA;Property: Graph" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.GraphUpdatedEventArgs" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphTransactionEnlistment" Category="Calls" Tip="Method: get_Enlistment&#xD;&#xA;Property: Enlistment" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.GraphUpdatedEventArgs" Target="Microsoft.VisualStudio.Progression.GraphModel.Link" Category="Calls" Tip="Template Argument" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.GraphUpdatedEventArgs" Target="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="Calls" Tip="Template Argument" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.GraphUpdatedEventHandler" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphUpdatedEventArgs" Category="Calls" Tip="Method: Invoke, argument: e&#xD;&#xA;Method: BeginInvoke, argument: e" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Link" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphCategory" Category="Calls" Tip="Method: .ctor, argument: category" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Link" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Link" Target="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="Calls" Tip="Method: get_Source&#xD;&#xA;Method: get_Target&#xD;&#xA;Method: .ctor, argument: source&#xD;&#xA;Method: .ctor, argument: target&#xD;&#xA;Property: Source&#xD;&#xA;Property: Target" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.LinkFilter" Target="Microsoft.VisualStudio.Progression.GraphModel.Link" Category="Calls" Tip="Method: Invoke, argument: link&#xD;&#xA;Method: BeginInvoke, argument: link" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Links" Target="Microsoft.VisualStudio.Progression.GraphModel.Graph" Category="Calls" Tip="Method: get_Graph&#xD;&#xA;Property: Graph" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Links" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphCategory" Category="Calls" Tip="Method: GetOrCreate, argument: category&#xD;&#xA;Method: Remove, argument: category&#xD;&#xA;Array" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Links" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphProperty" Category="Calls" Tip="Method: GetByProperty, argument: property" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Links" Target="Microsoft.VisualStudio.Progression.GraphModel.Link" Category="Calls" Tip="Method: Add&#xD;&#xA;Method: Add, argument: link&#xD;&#xA;Template Argument&#xD;&#xA;Method: GetOrCreate&#xD;&#xA;Method: Get&#xD;&#xA;Method: Remove&#xD;&#xA;Method: Remove, argument: link" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Links" Target="Microsoft.VisualStudio.Progression.GraphModel.LinkFilter" Category="Calls" Tip="Method: GetFiltered, argument: filter" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Links" Target="Microsoft.VisualStudio.Progression.GraphModel.LinksUpdatedEventHandler" Category="Calls" Tip="Method: add_LinksUpdated, argument: value&#xD;&#xA;Method: remove_LinksUpdated, argument: value" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Links" Target="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="Calls" Tip="Method: GetOrCreate, argument: source&#xD;&#xA;Method: GetOrCreate, argument: target" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.LinksUpdatedEventArgs" Target="Microsoft.VisualStudio.Progression.GraphModel.Graph" Category="Calls" Tip="Method: get_Graph&#xD;&#xA;Property: Graph" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.LinksUpdatedEventArgs" Target="Microsoft.VisualStudio.Progression.GraphModel.Link" Category="Calls" Tip="Template Argument" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.LinksUpdatedEventHandler" Target="Microsoft.VisualStudio.Progression.GraphModel.LinksUpdatedEventArgs" Category="Calls" Tip="Method: Invoke, argument: e&#xD;&#xA;Method: BeginInvoke, argument: e" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Node" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphCategory" Category="Calls" Tip="Method: .ctor, argument: category&#xD;&#xA;Array" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Node" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Node" Target="Microsoft.VisualStudio.Progression.GraphModel.Link" Category="Calls" Tip="Template Argument&#xD;&#xA;Method: AddLink, argument: link&#xD;&#xA;Method: RemoveLink, argument: link" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.NodeFilter" Target="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="Calls" Tip="Method: Invoke, argument: node&#xD;&#xA;Method: BeginInvoke, argument: node" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Nodes" Target="Microsoft.VisualStudio.Progression.GraphModel.Graph" Category="Calls" Tip="Method: get_Graph&#xD;&#xA;Property: Graph" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Nodes" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphCategory" Category="Calls" Tip="Method: GetOrCreate, argument: category&#xD;&#xA;Array" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Nodes" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphProperty" Category="Calls" Tip="Method: GetByProperty, argument: property" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Nodes" Target="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="Calls" Tip="Method: Add&#xD;&#xA;Method: Add, argument: node&#xD;&#xA;Template Argument&#xD;&#xA;Method: GetOrCreate&#xD;&#xA;Method: get_Item&#xD;&#xA;Method: Get&#xD;&#xA;Method: Remove&#xD;&#xA;Method: Remove, argument: node&#xD;&#xA;Property: Item" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Nodes" Target="Microsoft.VisualStudio.Progression.GraphModel.NodeFilter" Category="Calls" Tip="Method: GetFiltered, argument: filter" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Nodes" Target="Microsoft.VisualStudio.Progression.GraphModel.NodesUpdatedEventHandler" Category="Calls" Tip="Method: add_NodesUpdated, argument: value&#xD;&#xA;Method: remove_NodesUpdated, argument: value" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.NodesUpdatedEventArgs" Target="Microsoft.VisualStudio.Progression.GraphModel.Graph" Category="Calls" Tip="Method: get_Graph&#xD;&#xA;Property: Graph" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.NodesUpdatedEventArgs" Target="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="Calls" Tip="Template Argument" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.NodesUpdatedEventHandler" Target="Microsoft.VisualStudio.Progression.GraphModel.NodesUpdatedEventArgs" Category="Calls" Tip="Method: Invoke, argument: e&#xD;&#xA;Method: BeginInvoke, argument: e" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Graph" Target="System.Runtime.Serialization.ISerializable" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.GraphCategory" Target="System.IEquatable`1&lt;Microsoft.VisualStudio.Progression.GraphModel.GraphCategory&gt;" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.GraphProperty" Target="System.IEquatable`1&lt;Microsoft.VisualStudio.Progression.GraphModel.GraphProperty&gt;" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.GraphTransactionEnlistment" Target="System.IDisposable" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.GraphTransactionEnlistment" Target="System.Transactions.IEnlistmentNotification" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.GraphTransactionScope" Target="System.IDisposable" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Links" Target="System.Collections.Generic.IEnumerable`1&lt;Microsoft.VisualStudio.Progression.GraphModel.Link&gt;" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Links" Target="System.Collections.IEnumerable" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Nodes" Target="System.Collections.Generic.IEnumerable`1&lt;Microsoft.VisualStudio.Progression.GraphModel.Node&gt;" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Nodes" Target="System.Collections.IEnumerable" Category="InheritsFrom" />
+  </Links>
+  <Categories>
+    <Category Id="Calls" Label="Calls" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Called by" IsContainment="True" OutgoingActionLabel="Calls" />
+    <Category Id="Class" Label="Class" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="Classes" />
+    <Category Id="InheritsFrom" Label="Inherits From" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Inherited By" OutgoingActionLabel="Inherits From" />
+    <Category Id="External" Label="External" Background="#FF80A0A0" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="External" />
+    <Category Id="Interface" Label="Interface" Background="#FF008080" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="Interface" />
+  </Categories>
+  <Properties>
+    <Property Id="Access" Label="Access" Description="The access modifiers" Group="CLR Properties" DataType="System.String" />
+    <Property Id="Assembly" Label="Assembly" Description="The owning assembly" Group="CLR Properties" DataType="System.String" />
+    <Property Id="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="DefaultAction" DataType="System.String" />
+    <Property Id="HelpText" Label="Help" Description="XML documentation" Group="CLR Properties" DataType="System.String" />
+    <Property Id="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsAbstract" DataType="System.Boolean" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Namespace" Label="Namespace" Description="The containing CLR namespace" Group="CLR Properties" DataType="System.String" />
+    <Property Id="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="Tip" DataType="System.String" />
+    <Property Id="Background" Label="Background" Description="Background color" DataType="System.Windows.Media.Brush" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Link" GroupLabel="InheritsFrom" ValueLabel="Has category">
+      <Condition Expression="HasCategory('InheritsFrom')" />
+      <Setter Property="Stroke" Value="#FF0080FF" />
+      <Setter Property="StrokeDashArray" Value="3 3" />
+    </Style>
+  </Styles>
+</DirectedGraph>

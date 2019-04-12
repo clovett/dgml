@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<groupBy>
+  <group DisplayName="WPF" AttractConsumers="False">
+    <patterns>
+      <pattern RegEx="WindowsBase.*"/>
+      <pattern RegEx="Reach.*"/>
+      <pattern RegEx="Presentation.*"/>
+      <pattern RegEx="System.Printing.*"/>
+      <pattern RegEx="UIAutomation.*"/>
+      <pattern RegEx="WindowsFormsIntegration.*"/>
+    </patterns>
+  </group>
+  <group DisplayName=".NET" AttractConsumers="False">
+    <patterns>
+      <pattern RegEx="System.*"/>
+      <pattern RegEx="mscorlib.*"/>
+      <pattern RegEx="Accessibility.*"/>
+    </patterns>
+  </group>
+  <group DisplayName="Native" AttractConsumers="False">
+    <patterns>
+      <pattern RegEx="stdole.*"/>
+      <pattern RegEx="Microsoft.VisualC.*"/>
+    </patterns>
+  </group>
+  <group DisplayName="VS" AttractConsumers="False">
+    <patterns>
+      <pattern RegEx="Microsoft.VisualStudio.OLE.*"/>
+      <pattern RegEx="Microsoft.VisualStudio.Shell.*"/>
+      <pattern RegEx="Microsoft.VisualStudio.Text.*"/>
+      <pattern RegEx="Microsoft.VisualStudio.Package.*"/>
+      <pattern RegEx="Microsoft.VisualStudio.Xml.*"/>
+      <pattern RegEx="EnvDTE.*"/>
+      <pattern RegEx="Microsoft.MSXML.*"/>
+      <pattern RegEx="Microsoft.VisualStudio.Project.*"/>
+      <pattern RegEx="Microsoft.VisualStudio.VSHelp.*"/>
+    </patterns>
+  </group>
+  <group DisplayName="Progression" AttractConsumers="False">
+    <patterns>
+      <pattern RegEx=".*"/>
+    </patterns>
+  </group>
+</groupBy>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg stroke-linecap="round" font-size="12" font-family="Segoe UI" width="501.9733333333333" height="338" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <image id="..\Icons\Compass.ico" width="32" height="32" xlink:href="data:image/png;base64,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" />
+  </defs>
+  <rect width="421.9733333333333" height="258" fill="#FFFFFF" />
+  <g transform="translate(20,20)">
+    <rect y="216" rx="3" ry="3" width="136.10000000000002" height="42" fill="#FFFFFF" stroke="#A5A6A9" stroke-width="1" />
+    <use x="10" y="221" xlink:href="#..\Icons\Compass.ico" />
+    <text x="47" y="241.95" fill="#000000">Center/Bottom</text>
+    <rect x="159.09333333333331" y="144" rx="3" ry="3" width="131.70333333333332" height="42" fill="#FFFFFF" stroke="#A5A6A9" stroke-width="1" />
+    <use x="169.09333333333331" y="149" xlink:href="#..\Icons\Compass.ico" />
+    <text x="206.09333333333331" y="169.95" fill="#000000">Center/Center</text>
+    <rect x="269.51" rx="3" ry="3" width="115.88999999999999" height="42" fill="#FFFFFF" stroke="#A5A6A9" stroke-width="1" />
+    <use x="279.51" y="5" xlink:href="#..\Icons\Compass.ico" />
+    <text x="316.51" y="25.950000000000003" fill="#000000">Center/Top</text>
+    <rect x="146.43999999999994" y="72" rx="3" ry="3" width="120.8366666666667" height="42" fill="#FFFFFF" stroke="#A5A6A9" stroke-width="1" />
+    <use x="156.43999999999994" y="77" xlink:href="#..\Icons\Compass.ico" />
+    <text x="193.43999999999994" y="97.95" fill="#000000">Left/Bottom</text>
+    <rect y="72" rx="3" ry="3" width="116.44" height="42" fill="#FFFFFF" stroke="#A5A6A9" stroke-width="1" />
+    <use x="10" y="77" xlink:href="#..\Icons\Compass.ico" />
+    <text x="47" y="97.95" fill="#000000">Left/Center</text>
+    <rect rx="3" ry="3" width="100.62666666666667" height="42" fill="#FFFFFF" stroke="#A5A6A9" stroke-width="1" />
+    <use x="10" y="5" xlink:href="#..\Icons\Compass.ico" />
+    <text x="47" y="25.950000000000003" fill="#000000">Left/Top</text>
+    <rect x="-1.4210854715202004E-14" y="144" rx="3" ry="3" width="129.09333333333331" height="42" fill="#FFFFFF" stroke="#A5A6A9" stroke-width="1" />
+    <use x="9.9999999999999858" y="149" xlink:href="#..\Icons\Compass.ico" />
+    <text x="46.999999999999986" y="169.95" fill="#000000">Right/Bottom</text>
+    <rect x="297.27666666666664" y="72" rx="3" ry="3" width="124.69666666666666" height="42" fill="#FFFFFF" stroke="#A5A6A9" stroke-width="1" />
+    <use x="307.27666666666664" y="77" xlink:href="#..\Icons\Compass.ico" />
+    <text x="344.27666666666664" y="97.95" fill="#000000">Right/Center</text>
+    <rect x="130.62666666666667" rx="3" ry="3" width="108.88333333333333" height="42" fill="#FFFFFF" stroke="#A5A6A9" stroke-width="1" />
+    <use x="140.62666666666667" y="5" xlink:href="#..\Icons\Compass.ico" />
+    <text x="177.62666666666667" y="25.950000000000003" fill="#000000">Right/Top</text>
+  </g>
+</svg>

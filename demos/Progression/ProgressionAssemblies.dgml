@@ -1,0 +1,1042 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Accessibility" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Accessibility" Location="$(SystemRoot)\assembly\GAC_MSIL\Accessibility\v4.0_4.0.0.0__b03f5f7f11d50a3a\Accessibility.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="EnvDTE" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="EnvDTE" Location="$(SystemRoot)\assembly\GAC\EnvDTE\8.0.0.0__b03f5f7f11d50a3a\EnvDTE.dll" RuntimeVersion="v1.0.3705" Version="8.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="EnvDTE80" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="EnvDTE80" Location="$(SystemRoot)\assembly\GAC\EnvDTE80\8.0.0.0__b03f5f7f11d50a3a\EnvDTE80.dll" RuntimeVersion="v1.0.3705" Version="8.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="G1" Category="Group" Group="Expanded" Label="WPF" />
+    <Node Id="G2" Category="Group" Group="Expanded" Label=".NET Runtime" />
+    <Node Id="G4" Category="Group" Group="Expanded" Label="Native" />
+    <Node Id="G5" Category="Group" Group="Expanded" Label="MSBuild" />
+    <Node Id="G6" Category="MegaGroup" Group="Expanded" Label="Progression" />
+    <Node Id="G7" Category="MegaGroup" Group="Expanded" Label="VS" />
+    <Node Id="Microsoft.Build.Framework" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.Build.Framework" Location="$(SystemRoot)\assembly\GAC_MSIL\Microsoft.Build.Framework\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Framework.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.Build.Tasks.v4.0" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.Build.Tasks.v4.0" Location="$(SystemRoot)\assembly\GAC_MSIL\Microsoft.Build.Tasks.v4.0\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Tasks.v4.0.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.Build.Utilities.v3.5" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.Build.Utilities.v3.5" Location="$(SystemRoot)\assembly\GAC_MSIL\Microsoft.Build.Utilities.v3.5\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Utilities.v3.5.dll" RuntimeVersion="v4.0.11006" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.Build.Utilities.v4.0" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.Build.Utilities.v4.0" Location="$(SystemRoot)\assembly\GAC_MSIL\Microsoft.Build.Utilities.v4.0\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Utilities.v4.0.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.MSXML" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.MSXML" Location="$(SystemRoot)\assembly\GAC_MSIL\Microsoft.MSXML\8.0.0.0__b03f5f7f11d50a3a\Microsoft.MSXML.dll" RuntimeVersion="v2.0.50727" Version="8.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.Msagl" Category="Assembly" Kind="ConsoleApplication" Label="Microsoft.Msagl" Location="unknown:location" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualBasic.LanguageService" Category="Assembly" Kind="ConsoleApplication" Label="Microsoft.VisualBasic.LanguageService" Location="unknown:location" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualC" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualC" Location="$(SystemRoot)\assembly\GAC_MSIL\Microsoft.VisualC\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualC.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.CSharp.Services.Language" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.CSharp.Services.Language" Location="$(app)\IDE\Microsoft.VisualStudio.CSharp.Services.Language.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.CSharp.Services.Language.Interop" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.CSharp.Services.Language.Interop" Location="$(app)\IDE\Microsoft.VisualStudio.CSharp.Services.Language.Interop.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.CallHierarchy.Package.Definitions" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.CallHierarchy.Package.Definitions" Location="$(app)\IDE\Microsoft.VisualStudio.CallHierarchy.Package.Definitions.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.CommandBars" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.CommandBars" Location="$(SystemRoot)\assembly\GAC\Microsoft.VisualStudio.CommandBars\8.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.CommandBars.dll" RuntimeVersion="v1.0.3705" Version="8.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.ComponentModelHost" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.ComponentModelHost" Location="$(app)\IDE\Microsoft.VisualStudio.ComponentModelHost.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.CoreUtility" Category="Assembly" Kind="ConsoleApplication" Label="Microsoft.VisualStudio.CoreUtility" Location="unknown:location" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Debugger.Interop" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Debugger.Interop" Location="$(SystemRoot)\assembly\GAC\Microsoft.VisualStudio.Debugger.Interop\8.0.1.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Interop.dll" RuntimeVersion="v1.1.4322" Version="8.0.1.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Designer.Interfaces" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Designer.Interfaces" Location="$(SystemRoot)\assembly\GAC\Microsoft.VisualStudio.Designer.Interfaces\1.0.5000.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Designer.Interfaces.dll" RuntimeVersion="v1.1.4322" Version="1.0.5000.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Editor" Category="Assembly" Kind="ConsoleApplication" Label="Microsoft.VisualStudio.Editor" Location="unknown:location" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Gel" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Gel" Location="$(app)\IDE\Microsoft.VisualStudio.Gel.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Language.CallHierarchy" Category="Assembly" Kind="ConsoleApplication" Label="Microsoft.VisualStudio.Language.CallHierarchy" Location="unknown:location" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Language.GenerateType" Category="Assembly" Kind="ConsoleApplication" Label="Microsoft.VisualStudio.Language.GenerateType" Location="unknown:location" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Language.QuickSearch.Implementation" Category="Assembly" Kind="ConsoleApplication" Label="Microsoft.VisualStudio.Language.QuickSearch.Implementation" Location="unknown:location" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Language.QuickSearch.Interfaces" Category="Assembly" Kind="ConsoleApplication" Label="Microsoft.VisualStudio.Language.QuickSearch.Interfaces" Location="unknown:location" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Modeling.Sdk.10.0" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Modeling.Sdk.10.0" Location="$(SystemRoot)\assembly\GAC_MSIL\Microsoft.VisualStudio.Modeling.Sdk.10.0\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Modeling.Sdk.10.0.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Modeling.Sdk.Diagrams.10.0" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Modeling.Sdk.Diagrams.10.0" Location="$(SystemRoot)\assembly\GAC_MSIL\Microsoft.VisualStudio.Modeling.Sdk.Diagrams.10.0\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Modeling.Sdk.Diagrams.10.0.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Modeling.Sdk.Diagrams.GraphObject.10.0" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Modeling.Sdk.Diagrams.GraphObject.10.0" Location="$(SystemRoot)\assembly\GAC_32\Microsoft.VisualStudio.Modeling.Sdk.Diagrams.GraphObject.10.0\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Modeling.Sdk.Diagrams.GraphObject.10.0.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Modeling.Sdk.Shell.10.0" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Modeling.Sdk.Shell.10.0" Location="$(SystemRoot)\assembly\GAC_MSIL\Microsoft.VisualStudio.Modeling.Sdk.Shell.10.0\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Modeling.Sdk.Shell.10.0.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.OLE.Interop" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.OLE.Interop" Location="$(SystemRoot)\assembly\GAC\Microsoft.VisualStudio.OLE.Interop\7.1.40304.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.OLE.Interop.dll" RuntimeVersion="v1.1.4322" Version="7.1.40304.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Package.LanguageService.10.0" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Package.LanguageService.10.0" Location="$(SystemRoot)\assembly\GAC_MSIL\Microsoft.VisualStudio.Package.LanguageService.10.0\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Package.LanguageService.10.0.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Progression.Analyzers" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Progression.Analyzers" Location="D:\drop\Microsoft.VisualStudio.Progression.Analyzers.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0" />
+    <Node Id="Microsoft.VisualStudio.Progression.CascadeBrowser" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Progression.CascadeBrowser" Location="D:\drop\Microsoft.VisualStudio.Progression.CascadeBrowser.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0" />
+    <Node Id="Microsoft.VisualStudio.Progression.CodeSchema" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Progression.CodeSchema" Location="D:\drop\Microsoft.VisualStudio.Progression.CodeSchema.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0" />
+    <Node Id="Microsoft.VisualStudio.Progression.CommandLine" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Progression.CommandLine" Location="D:\drop\Microsoft.VisualStudio.Progression.CommandLine.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0" />
+    <Node Id="Microsoft.VisualStudio.Progression.Common" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Progression.Common" Location="D:\drop\Microsoft.VisualStudio.Progression.Common.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0" />
+    <Node Id="Microsoft.VisualStudio.Progression.CoreProviders" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Progression.CoreProviders" Location="D:\drop\Microsoft.VisualStudio.Progression.CoreProviders.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0" />
+    <Node Id="Microsoft.VisualStudio.Progression.DataManager" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Progression.DataManager" Location="D:\drop\Microsoft.VisualStudio.Progression.DataManager.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0" />
+    <Node Id="Microsoft.VisualStudio.Progression.DslProvider" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Progression.DslProvider" Location="D:\drop\Microsoft.VisualStudio.Progression.DslProvider.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphControl" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Progression.GraphControl" Location="D:\drop\Microsoft.VisualStudio.Progression.GraphControl.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Progression.GraphModel" Location="D:\drop\Microsoft.VisualStudio.Progression.GraphModel.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0" />
+    <Node Id="Microsoft.VisualStudio.Progression.InstanceTracking" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Progression.InstanceTracking" Location="D:\drop\Microsoft.VisualStudio.Progression.InstanceTracking.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0" />
+    <Node Id="Microsoft.VisualStudio.Progression.Interfaces" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Progression.Interfaces" Location="D:\drop\Microsoft.VisualStudio.Progression.Interfaces.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0" />
+    <Node Id="Microsoft.VisualStudio.Progression.LMRProvider" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Progression.LMRProvider" Location="D:\drop\Microsoft.VisualStudio.Progression.LMRProvider.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0" />
+    <Node Id="Microsoft.VisualStudio.Progression.LanguageService.CSharp" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Progression.LanguageService.CSharp" Location="D:\drop\Microsoft.VisualStudio.Progression.LanguageService.CSharp.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0" />
+    <Node Id="Microsoft.VisualStudio.Progression.MetricsProvider" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Progression.MetricsProvider" Location="D:\drop\Microsoft.VisualStudio.Progression.MetricsProvider.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0" />
+    <Node Id="Microsoft.VisualStudio.Progression.ProgressionBrowser" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Progression.ProgressionBrowser" Location="D:\drop\Microsoft.VisualStudio.Progression.ProgressionBrowser.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0" />
+    <Node Id="Microsoft.VisualStudio.Progression.VBProvider" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Progression.VBProvider" Location="D:\drop\Microsoft.VisualStudio.Progression.VBProvider.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0" />
+    <Node Id="Microsoft.VisualStudio.Progression.VSPackage" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Progression.VSPackage" Location="D:\drop\Microsoft.VisualStudio.Progression.VSPackage.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0" />
+    <Node Id="Microsoft.VisualStudio.Progression.VSProvider" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Progression.VSProvider" Location="D:\drop\Microsoft.VisualStudio.Progression.VSProvider.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0" />
+    <Node Id="Microsoft.VisualStudio.Progression.WpfCommon" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Progression.WpfCommon" Location="D:\drop\Microsoft.VisualStudio.Progression.WpfCommon.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0" />
+    <Node Id="Microsoft.VisualStudio.ProjectAggregator" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.ProjectAggregator" Location="$(SystemRoot)\assembly\GAC_MSIL\Microsoft.VisualStudio.ProjectAggregator\8.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.ProjectAggregator.dll" RuntimeVersion="v2.0.50727" Version="8.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Settings" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Settings" Location="$(SystemRoot)\assembly\GAC_32\Microsoft.VisualStudio.Settings\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Settings.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Shell" Location="$(SystemRoot)\assembly\GAC_MSIL\Microsoft.VisualStudio.Shell\2.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Shell.dll" RuntimeVersion="v2.0.50727" Version="2.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.10.0" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Shell.10.0" Location="$(SystemRoot)\assembly\GAC_MSIL\Microsoft.VisualStudio.Shell.10.0\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Shell.10.0.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.Design" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Shell.Design" Location="$(SystemRoot)\assembly\GAC_MSIL\Microsoft.VisualStudio.Shell.Design\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Shell.Design.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.Interop" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Shell.Interop" Location="$(SystemRoot)\assembly\GAC\Microsoft.VisualStudio.Shell.Interop\7.1.40304.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Shell.Interop.dll" RuntimeVersion="v1.1.4322" Version="7.1.40304.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.Interop.10.0" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Shell.Interop.10.0" Location="$(SystemRoot)\assembly\GAC\Microsoft.VisualStudio.Shell.Interop.10.0\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Shell.Interop.10.0.dll" RuntimeVersion="v1.0.3705" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.Interop.8.0" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Shell.Interop.8.0" Location="$(SystemRoot)\assembly\GAC\Microsoft.VisualStudio.Shell.Interop.8.0\8.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Shell.Interop.8.0.dll" RuntimeVersion="v1.1.4322" Version="8.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.Interop.9.0" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Shell.Interop.9.0" Location="$(SystemRoot)\assembly\GAC\Microsoft.VisualStudio.Shell.Interop.9.0\9.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Shell.Interop.9.0.dll" RuntimeVersion="v1.0.3705" Version="9.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.UI" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.Shell.UI" Location="$(app)\IDE\Microsoft.VisualStudio.Shell.UI.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Text.UI" Category="Assembly" Kind="ConsoleApplication" Label="Microsoft.VisualStudio.Text.UI" Location="unknown:location" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Text.UI.Wpf" Category="Assembly" Kind="ConsoleApplication" Label="Microsoft.VisualStudio.Text.UI.Wpf" Location="unknown:location" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.TextManager.Interop" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.TextManager.Interop" Location="$(SystemRoot)\assembly\GAC\Microsoft.VisualStudio.TextManager.Interop\7.1.40304.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.TextManager.Interop.dll" RuntimeVersion="v1.1.4322" Version="7.1.40304.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.TextManager.Interop.8.0" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.TextManager.Interop.8.0" Location="$(SystemRoot)\assembly\GAC\Microsoft.VisualStudio.TextManager.Interop.8.0\8.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.TextManager.Interop.8.0.dll" RuntimeVersion="v1.1.4322" Version="8.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.TextTemplating.10.0" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.TextTemplating.10.0" Location="$(SystemRoot)\assembly\GAC_MSIL\Microsoft.VisualStudio.TextTemplating.10.0\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.TextTemplating.10.0.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.TextTemplating.Interfaces.10.0" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.TextTemplating.Interfaces.10.0" Location="$(SystemRoot)\assembly\GAC_MSIL\Microsoft.VisualStudio.TextTemplating.Interfaces.10.0\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.TextTemplating.Interfaces.10.0.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.TextTemplating.VSHost.10.0" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.TextTemplating.VSHost.10.0" Location="$(SystemRoot)\assembly\GAC_MSIL\Microsoft.VisualStudio.TextTemplating.VSHost.10.0\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.TextTemplating.VSHost.10.0.dll" RuntimeVersion="v4.0.20217" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.VCProjectEngine" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.VCProjectEngine" Location="$(SystemRoot)\assembly\GAC\Microsoft.VisualStudio.VCProjectEngine\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.VCProjectEngine.dll" RuntimeVersion="v1.0.3705" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.VSHelp" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualStudio.VSHelp" Location="$(SystemRoot)\assembly\GAC\Microsoft.VisualStudio.VSHelp\7.0.3300.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.VSHelp.dll" RuntimeVersion="v1.0.3705" Version="7.0.3300.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.VisualBasic.LanguageService" Category="Assembly" Kind="ConsoleApplication" Label="Microsoft.VisualStudio.VisualBasic.LanguageService" Location="unknown:location" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.XmlEditor" Category="Assembly" Kind="ConsoleApplication" Label="Microsoft.VisualStudio.XmlEditor" Location="unknown:location" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="NewGroup1" Category="Group" Group="Expanded" Label="CommandLine" />
+    <Node Id="NewGroup10" Category="Group" Group="Expanded" Label="Interop" />
+    <Node Id="NewGroup11" Category="Group" Group="Expanded" Label="Shell" />
+    <Node Id="NewGroup2" Category="Group" Group="Expanded" Label="Core" />
+    <Node Id="NewGroup3" Category="Group" Group="Expanded" Label="VS Package" />
+    <Node Id="NewGroup4" Category="Group" Group="Expanded" Label="Providers" />
+    <Node Id="NewGroup5" Category="Group" Group="Expanded" Label="UI" />
+    <Node Id="NewGroup6" Category="Group" Group="Expanded" Label="Language Services" />
+    <Node Id="NewGroup7" Category="Group" Group="Expanded" Label="DSL Toolkit" />
+    <Node Id="NewGroup8" Category="Group" Group="Expanded" Label="Text" />
+    <Node Id="NewGroup9" Category="Group" Group="Expanded" Label="Automation" />
+    <Node Id="PresentationCFFRasterizer" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="PresentationCFFRasterizer" Location="$(SystemRoot)\assembly\GAC_MSIL\PresentationCFFRasterizer\v4.0_4.0.0.0__31bf3856ad364e35\PresentationCFFRasterizer.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="PresentationCore" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="PresentationCore" Location="$(SystemRoot)\assembly\GAC_32\PresentationCore\v4.0_4.0.0.0__31bf3856ad364e35\PresentationCore.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="PresentationFramework" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="PresentationFramework" Location="$(SystemRoot)\assembly\GAC_MSIL\PresentationFramework\v4.0_4.0.0.0__31bf3856ad364e35\PresentationFramework.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="PresentationUI" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="PresentationUI" Location="$(SystemRoot)\assembly\GAC_MSIL\PresentationUI\v4.0_4.0.0.0__31bf3856ad364e35\PresentationUI.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="ReachFramework" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="ReachFramework" Location="$(SystemRoot)\assembly\GAC_MSIL\ReachFramework\v4.0_4.0.0.0__31bf3856ad364e35\ReachFramework.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.Compiler" Category="Assembly" Kind="ConsoleApplication" Label="System.Compiler" Location="unknown:location" Version="1.0.10719.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.ComponentModel.Composition" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="System.ComponentModel.Composition" Location="$(SystemRoot)\assembly\GAC_MSIL\System.ComponentModel.Composition\4.0.0.0__b77a5c561934e089\System.ComponentModel.Composition.dll" RuntimeVersion="v2.0.50727" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.Configuration" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Configuration" Location="$(SystemRoot)\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.Configuration.Install" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Configuration.Install" Location="$(SystemRoot)\assembly\GAC_MSIL\System.Configuration.Install\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.Install.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.Core" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Core" Location="$(SystemRoot)\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.Data" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Data" Location="$(SystemRoot)\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.Data.OracleClient" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Data.OracleClient" Location="$(SystemRoot)\assembly\GAC_32\System.Data.OracleClient\v4.0_4.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.Data.SqlXml" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Data.SqlXml" Location="$(SystemRoot)\assembly\GAC_MSIL\System.Data.SqlXml\v4.0_4.0.0.0__b77a5c561934e089\System.Data.SqlXml.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.Deployment" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Deployment" Location="$(SystemRoot)\assembly\GAC_MSIL\System.Deployment\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Deployment.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.Design" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Design" Location="$(SystemRoot)\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.DirectoryServices" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="System.DirectoryServices" Location="$(SystemRoot)\assembly\GAC_MSIL\System.DirectoryServices\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.DirectoryServices.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.DirectoryServices.Protocols" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="System.DirectoryServices.Protocols" Location="$(SystemRoot)\assembly\GAC_MSIL\System.DirectoryServices.Protocols\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.DirectoryServices.Protocols.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.Drawing" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Drawing" Location="$(SystemRoot)\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.Drawing.Design" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Drawing.Design" Location="$(SystemRoot)\assembly\GAC_MSIL\System.Drawing.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.Design.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.EnterpriseServices" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="System.EnterpriseServices" Location="$(SystemRoot)\assembly\GAC_32\System.EnterpriseServices\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.Printing" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Printing" Location="$(SystemRoot)\assembly\GAC_32\System.Printing\v4.0_4.0.0.0__31bf3856ad364e35\System.Printing.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.Runtime.Remoting" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Runtime.Remoting" Location="$(SystemRoot)\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.Runtime.Serialization.Formatters.Soap" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Runtime.Serialization.Formatters.Soap" Location="$(SystemRoot)\assembly\GAC_MSIL\System.Runtime.Serialization.Formatters.Soap\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.Serialization.Formatters.Soap.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.Security" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Security" Location="$(SystemRoot)\assembly\GAC_MSIL\System.Security\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Security.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.ServiceProcess" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="System.ServiceProcess" Location="$(SystemRoot)\assembly\GAC_MSIL\System.ServiceProcess\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.ServiceProcess.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.Transactions" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Transactions" Location="$(SystemRoot)\assembly\GAC_32\System.Transactions\v4.0_4.0.0.0__b77a5c561934e089\System.Transactions.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.Web" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Web" Location="$(SystemRoot)\assembly\GAC_32\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.Web.RegularExpressions" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Web.RegularExpressions" Location="$(SystemRoot)\assembly\GAC_MSIL\System.Web.RegularExpressions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.RegularExpressions.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.Web.Services" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Web.Services" Location="$(SystemRoot)\assembly\GAC_MSIL\System.Web.Services\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.Windows.Forms" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Windows.Forms" Location="$(SystemRoot)\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.Xaml" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Xaml" Location="$(SystemRoot)\assembly\GAC_MSIL\System.Xaml\v4.0_4.0.0.0__b77a5c561934e089\System.Xaml.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.Xml" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Xml" Location="$(SystemRoot)\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.Xml.Linq" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Xml.Linq" Location="$(SystemRoot)\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="UIAutomationProvider" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="UIAutomationProvider" Location="$(SystemRoot)\assembly\GAC_MSIL\UIAutomationProvider\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationProvider.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="UIAutomationTypes" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="UIAutomationTypes" Location="$(SystemRoot)\assembly\GAC_MSIL\UIAutomationTypes\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationTypes.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="VSLangProj" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="VSLangProj" Location="$(SystemRoot)\assembly\GAC\VSLangProj\7.0.3300.0__b03f5f7f11d50a3a\VSLangProj.dll" RuntimeVersion="v1.0.3705" Version="7.0.3300.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="VSLangProj2" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="VSLangProj2" Location="$(SystemRoot)\assembly\GAC\VSLangProj2\7.0.5000.0__b03f5f7f11d50a3a\VSLangProj2.dll" RuntimeVersion="v1.1.4322" Version="7.0.5000.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="VSLangProj80" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="VSLangProj80" Location="$(SystemRoot)\assembly\GAC\VSLangProj80\8.0.0.0__b03f5f7f11d50a3a\VSLangProj80.dll" RuntimeVersion="v1.0.3705" Version="8.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="VsWebSite.Interop" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="VsWebSite.Interop" Location="$(SystemRoot)\assembly\GAC\VsWebSite.Interop\8.0.0.0__b03f5f7f11d50a3a\VsWebSite.Interop.dll" RuntimeVersion="v1.0.3705" Version="8.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="VsWebSite.Interop90" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="VsWebSite.Interop90" Location="$(SystemRoot)\assembly\GAC\VsWebSite.Interop90\10.0.0.0__b03f5f7f11d50a3a\VsWebSite.Interop90.dll" RuntimeVersion="v1.0.3705" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="WindowsBase" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="WindowsBase" Location="$(SystemRoot)\assembly\GAC_MSIL\WindowsBase\v4.0_4.0.0.0__31bf3856ad364e35\WindowsBase.dll" RuntimeVersion="v4.0.20217" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="stdole" Category="Assembly" Kind="DynamicallyLinkedLibrary" Label="stdole" Location="$(SystemRoot)\assembly\GAC\stdole\7.0.3300.0__b03f5f7f11d50a3a\stdole.dll" RuntimeVersion="v1.0.3705" Version="7.0.3300.0">
+      <Category Ref="External" />
+    </Node>
+  </Nodes>
+  <Links>
+    <Link Source="EnvDTE" Target="stdole" Category="References" />
+    <Link Source="EnvDTE80" Target="EnvDTE" Category="References" />
+    <Link Source="EnvDTE80" Target="stdole" Category="References" />
+    <Link Source="G1" Target="PresentationCFFRasterizer" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G1" Target="PresentationCore" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G1" Target="PresentationFramework" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G1" Target="PresentationUI" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G1" Target="ReachFramework" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G1" Target="System.Printing" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G1" Target="UIAutomationProvider" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G1" Target="UIAutomationTypes" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G1" Target="WindowsBase" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G2" Target="Accessibility" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G2" Target="System.Compiler" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G2" Target="System.ComponentModel.Composition" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G2" Target="System.Configuration" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G2" Target="System.Configuration.Install" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G2" Target="System.Core" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G2" Target="System.Data" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G2" Target="System.Data.OracleClient" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G2" Target="System.Data.SqlXml" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G2" Target="System.Deployment" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G2" Target="System.Design" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G2" Target="System.DirectoryServices" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G2" Target="System.DirectoryServices.Protocols" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G2" Target="System.Drawing" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G2" Target="System.Drawing.Design" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G2" Target="System.EnterpriseServices" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G2" Target="System.Runtime.Remoting" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G2" Target="System.Runtime.Serialization.Formatters.Soap" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G2" Target="System.Security" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G2" Target="System.ServiceProcess" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G2" Target="System.Transactions" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G2" Target="System.Web" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G2" Target="System.Web.RegularExpressions" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G2" Target="System.Web.Services" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G2" Target="System.Windows.Forms" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G2" Target="System.Xaml" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G2" Target="System.Xml" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G2" Target="System.Xml.Linq" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G4" Target="Microsoft.VisualC" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G4" Target="stdole" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G5" Target="Microsoft.Build.Framework" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G5" Target="Microsoft.Build.Tasks.v4.0" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G5" Target="Microsoft.Build.Utilities.v3.5" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G5" Target="Microsoft.Build.Utilities.v4.0" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="G6" Target="NewGroup1" Category="Contains" />
+    <Link Source="G6" Target="NewGroup2" Category="Contains" />
+    <Link Source="G6" Target="NewGroup3" Category="Contains" />
+    <Link Source="G6" Target="NewGroup4" Category="Contains" />
+    <Link Source="G6" Target="NewGroup5" Category="Contains" />
+    <Link Source="G7" Target="NewGroup10" Category="Contains" />
+    <Link Source="G7" Target="NewGroup11" Category="Contains" />
+    <Link Source="G7" Target="NewGroup6" Category="Contains" />
+    <Link Source="G7" Target="NewGroup7" Category="Contains" />
+    <Link Source="G7" Target="NewGroup8" Category="Contains" />
+    <Link Source="G7" Target="NewGroup9" Category="Contains" />
+    <Link Source="Microsoft.Build.Framework" Target="WindowsBase" Category="References" />
+    <Link Source="Microsoft.Build.Tasks.v4.0" Target="Microsoft.Build.Framework" Category="References" />
+    <Link Source="Microsoft.Build.Tasks.v4.0" Target="Microsoft.Build.Utilities.v4.0" Category="References" />
+    <Link Source="Microsoft.Build.Tasks.v4.0" Target="PresentationFramework" Category="References" />
+    <Link Source="Microsoft.Build.Tasks.v4.0" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.Build.Tasks.v4.0" Target="System.Design" Category="References" />
+    <Link Source="Microsoft.Build.Tasks.v4.0" Target="System.Drawing" Category="References" />
+    <Link Source="Microsoft.Build.Tasks.v4.0" Target="System.Security" Category="References" />
+    <Link Source="Microsoft.Build.Tasks.v4.0" Target="System.Windows.Forms" Category="References" />
+    <Link Source="Microsoft.Build.Tasks.v4.0" Target="System.Xml" Category="References" />
+    <Link Source="Microsoft.Build.Utilities.v3.5" Target="Microsoft.Build.Framework" Category="References" />
+    <Link Source="Microsoft.Build.Utilities.v3.5" Target="System.Xml" Category="References" />
+    <Link Source="Microsoft.Build.Utilities.v4.0" Target="Microsoft.Build.Framework" Category="References" />
+    <Link Source="Microsoft.Build.Utilities.v4.0" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.Build.Utilities.v4.0" Target="System.Xml" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="EnvDTE" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="EnvDTE80" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="Microsoft.Build.Utilities.v3.5" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="Microsoft.MSXML" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="Microsoft.VisualStudio.CSharp.Services.Language.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="Microsoft.VisualStudio.CallHierarchy.Package.Definitions" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="Microsoft.VisualStudio.ComponentModelHost" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="Microsoft.VisualStudio.CoreUtility" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="Microsoft.VisualStudio.Debugger.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="Microsoft.VisualStudio.Editor" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="Microsoft.VisualStudio.Gel" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="Microsoft.VisualStudio.Language.CallHierarchy" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="Microsoft.VisualStudio.Language.GenerateType" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="Microsoft.VisualStudio.Language.QuickSearch.Implementation" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="Microsoft.VisualStudio.Language.QuickSearch.Interfaces" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="Microsoft.VisualStudio.OLE.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="Microsoft.VisualStudio.Shell" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="Microsoft.VisualStudio.Shell.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="Microsoft.VisualStudio.Shell.Interop.8.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="Microsoft.VisualStudio.Shell.Interop.9.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="Microsoft.VisualStudio.Shell.UI" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="Microsoft.VisualStudio.Text.UI" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="Microsoft.VisualStudio.Text.UI.Wpf" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="Microsoft.VisualStudio.TextManager.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="Microsoft.VisualStudio.TextManager.Interop.8.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="PresentationCore" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="PresentationFramework" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="System.Drawing" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="System.Windows.Forms" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="System.Xml.Linq" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="VSLangProj" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="VsWebSite.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CSharp.Services.Language" Target="WindowsBase" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CallHierarchy.Package.Definitions" Target="Microsoft.VisualStudio.Language.CallHierarchy" Category="References" />
+    <Link Source="Microsoft.VisualStudio.CommandBars" Target="stdole" Category="References" />
+    <Link Source="Microsoft.VisualStudio.ComponentModelHost" Target="System.ComponentModel.Composition" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Debugger.Interop" Target="Microsoft.VisualStudio.OLE.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Debugger.Interop" Target="stdole" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Gel" Target="Microsoft.VisualStudio.OLE.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Gel" Target="Microsoft.VisualStudio.Shell.10.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Gel" Target="Microsoft.VisualStudio.Shell.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Gel" Target="Microsoft.VisualStudio.Shell.Interop.10.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Gel" Target="Microsoft.VisualStudio.VSHelp" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Gel" Target="PresentationCore" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Gel" Target="PresentationFramework" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Gel" Target="System.Drawing" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Gel" Target="System.Windows.Forms" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Gel" Target="WindowsBase" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.10.0" Target="System.ComponentModel.Composition" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.10.0" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.10.0" Target="System.Drawing" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.10.0" Target="System.Windows.Forms" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.10.0" Target="System.Xml" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.10.0" Target="WindowsBase" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Diagrams.10.0" Target="Accessibility" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Diagrams.10.0" Target="Microsoft.VisualStudio.Modeling.Sdk.10.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Diagrams.10.0" Target="Microsoft.VisualStudio.Modeling.Sdk.Diagrams.GraphObject.10.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Diagrams.10.0" Target="System.ComponentModel.Composition" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Diagrams.10.0" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Diagrams.10.0" Target="System.Design" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Diagrams.10.0" Target="System.Drawing" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Diagrams.10.0" Target="System.Windows.Forms" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Diagrams.10.0" Target="System.Xml" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Diagrams.GraphObject.10.0" Target="Microsoft.VisualC" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Shell.10.0" Target="EnvDTE" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Shell.10.0" Target="Microsoft.VisualStudio.Modeling.Sdk.10.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Shell.10.0" Target="Microsoft.VisualStudio.Modeling.Sdk.Diagrams.10.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Shell.10.0" Target="Microsoft.VisualStudio.Modeling.Sdk.Diagrams.GraphObject.10.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Shell.10.0" Target="Microsoft.VisualStudio.OLE.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Shell.10.0" Target="Microsoft.VisualStudio.Shell.10.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Shell.10.0" Target="Microsoft.VisualStudio.Shell.Design" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Shell.10.0" Target="Microsoft.VisualStudio.Shell.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Shell.10.0" Target="Microsoft.VisualStudio.Shell.Interop.8.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Shell.10.0" Target="Microsoft.VisualStudio.TextManager.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Shell.10.0" Target="Microsoft.VisualStudio.TextManager.Interop.8.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Shell.10.0" Target="Microsoft.VisualStudio.VSHelp" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Shell.10.0" Target="Microsoft.VisualStudio.XmlEditor" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Shell.10.0" Target="PresentationCore" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Shell.10.0" Target="PresentationFramework" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Shell.10.0" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Shell.10.0" Target="System.Design" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Shell.10.0" Target="System.Drawing" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Shell.10.0" Target="System.Drawing.Design" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Modeling.Sdk.Shell.10.0" Target="System.Windows.Forms" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Package.LanguageService.10.0" Target="Microsoft.MSXML" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Package.LanguageService.10.0" Target="Microsoft.VisualStudio.OLE.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Package.LanguageService.10.0" Target="Microsoft.VisualStudio.Shell.10.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Package.LanguageService.10.0" Target="Microsoft.VisualStudio.Shell.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Package.LanguageService.10.0" Target="Microsoft.VisualStudio.Shell.Interop.9.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Package.LanguageService.10.0" Target="Microsoft.VisualStudio.TextManager.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Package.LanguageService.10.0" Target="Microsoft.VisualStudio.TextManager.Interop.8.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Package.LanguageService.10.0" Target="System.Drawing" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Package.LanguageService.10.0" Target="System.Windows.Forms" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Package.LanguageService.10.0" Target="System.Xml" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.Analyzers" Target="Microsoft.VisualStudio.Progression.GraphModel" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.Analyzers" Target="Microsoft.VisualStudio.Progression.Interfaces" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.Analyzers" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CascadeBrowser" Target="Microsoft.VisualStudio.Progression.WpfCommon" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CascadeBrowser" Target="PresentationCore" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CascadeBrowser" Target="PresentationFramework" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CascadeBrowser" Target="WindowsBase" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CodeSchema" Target="EnvDTE" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CodeSchema" Target="EnvDTE80" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CodeSchema" Target="Microsoft.VisualStudio.Progression.Common" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CodeSchema" Target="Microsoft.VisualStudio.Progression.GraphModel" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CodeSchema" Target="Microsoft.VisualStudio.Progression.Interfaces" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CodeSchema" Target="Microsoft.VisualStudio.Shell.10.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CodeSchema" Target="Microsoft.VisualStudio.Shell.Design" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CodeSchema" Target="Microsoft.VisualStudio.Shell.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CodeSchema" Target="Microsoft.VisualStudio.VCProjectEngine" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CodeSchema" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CodeSchema" Target="VSLangProj" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CodeSchema" Target="VSLangProj80" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CodeSchema" Target="WindowsBase" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CommandLine" Target="Microsoft.VisualStudio.Progression.Common" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CommandLine" Target="Microsoft.VisualStudio.Progression.DataManager" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CommandLine" Target="Microsoft.VisualStudio.Progression.GraphModel" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CommandLine" Target="Microsoft.VisualStudio.Progression.Interfaces" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CommandLine" Target="Microsoft.VisualStudio.Progression.WpfCommon" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CommandLine" Target="PresentationFramework" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CommandLine" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CommandLine" Target="WindowsBase" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.Common" Target="Microsoft.VisualStudio.Progression.GraphModel" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.Common" Target="Microsoft.VisualStudio.Progression.Interfaces" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.Common" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.Common" Target="WindowsBase" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CoreProviders" Target="Microsoft.VisualStudio.Progression.Common" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CoreProviders" Target="Microsoft.VisualStudio.Progression.GraphModel" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CoreProviders" Target="Microsoft.VisualStudio.Progression.Interfaces" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CoreProviders" Target="PresentationFramework" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CoreProviders" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CoreProviders" Target="System.Windows.Forms" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.CoreProviders" Target="WindowsBase" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.DataManager" Target="Microsoft.VisualStudio.Progression.CodeSchema" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.DataManager" Target="Microsoft.VisualStudio.Progression.Common" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.DataManager" Target="Microsoft.VisualStudio.Progression.GraphModel" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.DataManager" Target="Microsoft.VisualStudio.Progression.Interfaces" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.DataManager" Target="PresentationCore" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.DataManager" Target="PresentationFramework" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.DataManager" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.DataManager" Target="WindowsBase" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.DslProvider" Target="Microsoft.VisualStudio.Modeling.Sdk.10.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.DslProvider" Target="Microsoft.VisualStudio.Modeling.Sdk.Shell.10.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.DslProvider" Target="Microsoft.VisualStudio.Progression.CodeSchema" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.DslProvider" Target="Microsoft.VisualStudio.Progression.Common" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.DslProvider" Target="Microsoft.VisualStudio.Progression.GraphModel" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.DslProvider" Target="Microsoft.VisualStudio.Progression.Interfaces" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.DslProvider" Target="Microsoft.VisualStudio.Shell.10.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.DslProvider" Target="Microsoft.VisualStudio.Shell.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.DslProvider" Target="Microsoft.VisualStudio.Shell.Interop.9.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.DslProvider" Target="Microsoft.VisualStudio.TextTemplating.VSHost.10.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.DslProvider" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.DslProvider" Target="WindowsBase" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphControl" Target="Microsoft.Msagl" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphControl" Target="Microsoft.VisualStudio.Progression.Common" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphControl" Target="Microsoft.VisualStudio.Progression.GraphModel" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphControl" Target="Microsoft.VisualStudio.Progression.Interfaces" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphControl" Target="Microsoft.VisualStudio.Progression.WpfCommon" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphControl" Target="PresentationCore" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphControl" Target="PresentationFramework" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphControl" Target="ReachFramework" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphControl" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphControl" Target="System.Printing" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphControl" Target="System.Xml" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphControl" Target="UIAutomationProvider" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphControl" Target="UIAutomationTypes" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphControl" Target="WindowsBase" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel" Target="PresentationCore" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel" Target="System.Transactions" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel" Target="System.Xml" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel" Target="System.Xml.Linq" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.InstanceTracking" Target="Microsoft.VisualStudio.Progression.CodeSchema" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.InstanceTracking" Target="Microsoft.VisualStudio.Progression.GraphModel" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.InstanceTracking" Target="Microsoft.VisualStudio.Progression.Interfaces" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.InstanceTracking" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.InstanceTracking" Target="System.Xml" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.Interfaces" Target="Microsoft.VisualStudio.Progression.GraphModel" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.Interfaces" Target="PresentationCore" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.Interfaces" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.Interfaces" Target="System.Transactions" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.Interfaces" Target="WindowsBase" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.LMRProvider" Target="EnvDTE" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.LMRProvider" Target="Microsoft.VisualStudio.OLE.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.LMRProvider" Target="Microsoft.VisualStudio.Progression.CodeSchema" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.LMRProvider" Target="Microsoft.VisualStudio.Progression.Common" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.LMRProvider" Target="Microsoft.VisualStudio.Progression.GraphModel" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.LMRProvider" Target="Microsoft.VisualStudio.Progression.Interfaces" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.LMRProvider" Target="Microsoft.VisualStudio.Shell.10.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.LMRProvider" Target="Microsoft.VisualStudio.Shell.Design" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.LMRProvider" Target="Microsoft.VisualStudio.Shell.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.LMRProvider" Target="Microsoft.VisualStudio.Shell.Interop.10.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.LMRProvider" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.LanguageService.CSharp" Target="EnvDTE" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.LanguageService.CSharp" Target="Microsoft.VisualStudio.CSharp.Services.Language" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.LanguageService.CSharp" Target="Microsoft.VisualStudio.Progression.CodeSchema" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.LanguageService.CSharp" Target="Microsoft.VisualStudio.Progression.Common" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.LanguageService.CSharp" Target="Microsoft.VisualStudio.Progression.GraphModel" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.LanguageService.CSharp" Target="Microsoft.VisualStudio.Progression.Interfaces" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.LanguageService.CSharp" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.LanguageService.CSharp" Target="WindowsBase" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.MetricsProvider" Target="EnvDTE" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.MetricsProvider" Target="Microsoft.VisualStudio.Progression.CodeSchema" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.MetricsProvider" Target="Microsoft.VisualStudio.Progression.Common" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.MetricsProvider" Target="Microsoft.VisualStudio.Progression.GraphModel" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.MetricsProvider" Target="Microsoft.VisualStudio.Progression.Interfaces" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.MetricsProvider" Target="Microsoft.VisualStudio.Progression.VSProvider" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.MetricsProvider" Target="PresentationFramework" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.MetricsProvider" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.MetricsProvider" Target="System.Xml" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.MetricsProvider" Target="WindowsBase" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.ProgressionBrowser" Target="Microsoft.VisualStudio.Progression.CascadeBrowser" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.ProgressionBrowser" Target="Microsoft.VisualStudio.Progression.Common" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.ProgressionBrowser" Target="Microsoft.VisualStudio.Progression.GraphModel" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.ProgressionBrowser" Target="Microsoft.VisualStudio.Progression.Interfaces" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.ProgressionBrowser" Target="Microsoft.VisualStudio.Progression.WpfCommon" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.ProgressionBrowser" Target="PresentationCore" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.ProgressionBrowser" Target="PresentationFramework" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.ProgressionBrowser" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.ProgressionBrowser" Target="UIAutomationTypes" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.ProgressionBrowser" Target="WindowsBase" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VBProvider" Target="EnvDTE" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VBProvider" Target="Microsoft.VisualBasic.LanguageService" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VBProvider" Target="Microsoft.VisualStudio.Progression.CodeSchema" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VBProvider" Target="Microsoft.VisualStudio.Progression.Common" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VBProvider" Target="Microsoft.VisualStudio.Progression.GraphModel" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VBProvider" Target="Microsoft.VisualStudio.Progression.Interfaces" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VBProvider" Target="Microsoft.VisualStudio.VisualBasic.LanguageService" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VBProvider" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VBProvider" Target="System.Transactions" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VBProvider" Target="WindowsBase" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="EnvDTE" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="EnvDTE80" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="Microsoft.VisualStudio.CommandBars" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="Microsoft.VisualStudio.Gel" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="Microsoft.VisualStudio.OLE.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="Microsoft.VisualStudio.Package.LanguageService.10.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="Microsoft.VisualStudio.Progression.CascadeBrowser" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="Microsoft.VisualStudio.Progression.CodeSchema" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="Microsoft.VisualStudio.Progression.Common" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="Microsoft.VisualStudio.Progression.DataManager" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="Microsoft.VisualStudio.Progression.GraphControl" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="Microsoft.VisualStudio.Progression.GraphModel" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="Microsoft.VisualStudio.Progression.Interfaces" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="Microsoft.VisualStudio.Progression.ProgressionBrowser" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="Microsoft.VisualStudio.Progression.WpfCommon" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="Microsoft.VisualStudio.Shell.10.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="Microsoft.VisualStudio.Shell.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="Microsoft.VisualStudio.Shell.Interop.10.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="Microsoft.VisualStudio.Shell.Interop.8.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="Microsoft.VisualStudio.TextManager.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="Microsoft.VisualStudio.XmlEditor" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="PresentationCore" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="PresentationFramework" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="ReachFramework" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="System.Design" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="System.Drawing" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="System.Runtime.Remoting" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="System.Windows.Forms" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="System.Xml" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="System.Xml.Linq" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSPackage" Target="WindowsBase" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSProvider" Target="EnvDTE" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSProvider" Target="EnvDTE80" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSProvider" Target="Microsoft.VisualStudio.Progression.CodeSchema" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSProvider" Target="Microsoft.VisualStudio.Progression.Common" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSProvider" Target="Microsoft.VisualStudio.Progression.GraphModel" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSProvider" Target="Microsoft.VisualStudio.Progression.Interfaces" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSProvider" Target="Microsoft.VisualStudio.Progression.WpfCommon" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSProvider" Target="PresentationCore" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSProvider" Target="PresentationFramework" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSProvider" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSProvider" Target="VSLangProj" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.VSProvider" Target="WindowsBase" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.WpfCommon" Target="Microsoft.VisualStudio.Progression.Interfaces" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.WpfCommon" Target="PresentationCore" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.WpfCommon" Target="PresentationFramework" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.WpfCommon" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Progression.WpfCommon" Target="WindowsBase" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Settings" Target="Microsoft.VisualC" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell" Target="EnvDTE" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell" Target="Microsoft.VisualStudio.OLE.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell" Target="Microsoft.VisualStudio.ProjectAggregator" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell" Target="Microsoft.VisualStudio.Shell.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell" Target="Microsoft.VisualStudio.Shell.Interop.8.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell" Target="Microsoft.VisualStudio.TextManager.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell" Target="Microsoft.VisualStudio.VSHelp" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell" Target="System.Design" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell" Target="System.Drawing" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell" Target="System.Drawing.Design" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell" Target="System.Windows.Forms" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell" Target="System.Xml" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.10.0" Target="EnvDTE" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.10.0" Target="Microsoft.VisualStudio.OLE.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.10.0" Target="Microsoft.VisualStudio.ProjectAggregator" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.10.0" Target="Microsoft.VisualStudio.Settings" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.10.0" Target="Microsoft.VisualStudio.Shell.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.10.0" Target="Microsoft.VisualStudio.Shell.Interop.10.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.10.0" Target="Microsoft.VisualStudio.Shell.Interop.8.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.10.0" Target="Microsoft.VisualStudio.Shell.Interop.9.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.10.0" Target="Microsoft.VisualStudio.TextManager.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.10.0" Target="Microsoft.VisualStudio.TextManager.Interop.8.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.10.0" Target="Microsoft.VisualStudio.VSHelp" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.10.0" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.10.0" Target="System.Design" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.10.0" Target="System.Drawing" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.10.0" Target="System.Drawing.Design" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.10.0" Target="System.Windows.Forms" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.10.0" Target="System.Xml" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.Design" Target="EnvDTE" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.Design" Target="Microsoft.VisualStudio.Designer.Interfaces" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.Design" Target="Microsoft.VisualStudio.OLE.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.Design" Target="Microsoft.VisualStudio.Shell.10.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.Design" Target="Microsoft.VisualStudio.Shell.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.Design" Target="Microsoft.VisualStudio.Shell.Interop.10.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.Design" Target="Microsoft.VisualStudio.Shell.Interop.8.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.Design" Target="Microsoft.VisualStudio.TextManager.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.Design" Target="System.Configuration" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.Design" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.Design" Target="System.Design" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.Design" Target="System.Drawing" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.Design" Target="System.Windows.Forms" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.Design" Target="System.Xml" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.Interop" Target="Microsoft.VisualStudio.OLE.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.Interop" Target="Microsoft.VisualStudio.TextManager.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.Interop.10.0" Target="Microsoft.VisualStudio.OLE.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.Interop.10.0" Target="Microsoft.VisualStudio.Shell.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.Interop.10.0" Target="Microsoft.VisualStudio.Shell.Interop.8.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.Interop.10.0" Target="Microsoft.VisualStudio.TextManager.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.Interop.8.0" Target="Microsoft.VisualStudio.OLE.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.Interop.8.0" Target="Microsoft.VisualStudio.Shell.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.Interop.8.0" Target="Microsoft.VisualStudio.TextManager.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.Interop.8.0" Target="Microsoft.VisualStudio.TextManager.Interop.8.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.Interop.9.0" Target="Microsoft.VisualStudio.OLE.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.Interop.9.0" Target="Microsoft.VisualStudio.Shell.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.Interop.9.0" Target="Microsoft.VisualStudio.Shell.Interop.8.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.Interop.9.0" Target="Microsoft.VisualStudio.TextManager.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.UI" Target="Microsoft.VisualStudio.Gel" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.UI" Target="Microsoft.VisualStudio.Shell.Interop.10.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.UI" Target="Microsoft.VisualStudio.VSHelp" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.UI" Target="PresentationCore" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.UI" Target="PresentationFramework" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.UI" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.UI" Target="System.Xml" Category="References" />
+    <Link Source="Microsoft.VisualStudio.Shell.UI" Target="WindowsBase" Category="References" />
+    <Link Source="Microsoft.VisualStudio.TextManager.Interop" Target="Microsoft.VisualStudio.OLE.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.TextManager.Interop.8.0" Target="Microsoft.MSXML" Category="References" />
+    <Link Source="Microsoft.VisualStudio.TextManager.Interop.8.0" Target="Microsoft.VisualStudio.OLE.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.TextManager.Interop.8.0" Target="Microsoft.VisualStudio.Shell.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.TextManager.Interop.8.0" Target="Microsoft.VisualStudio.TextManager.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.TextTemplating.10.0" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualStudio.TextTemplating.Interfaces.10.0" Target="Microsoft.VisualStudio.Shell.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.TextTemplating.VSHost.10.0" Target="EnvDTE" Category="References" />
+    <Link Source="Microsoft.VisualStudio.TextTemplating.VSHost.10.0" Target="EnvDTE80" Category="References" />
+    <Link Source="Microsoft.VisualStudio.TextTemplating.VSHost.10.0" Target="Microsoft.VisualStudio.Designer.Interfaces" Category="References" />
+    <Link Source="Microsoft.VisualStudio.TextTemplating.VSHost.10.0" Target="Microsoft.VisualStudio.Modeling.Sdk.10.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.TextTemplating.VSHost.10.0" Target="Microsoft.VisualStudio.OLE.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.TextTemplating.VSHost.10.0" Target="Microsoft.VisualStudio.Shell.10.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.TextTemplating.VSHost.10.0" Target="Microsoft.VisualStudio.Shell.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.TextTemplating.VSHost.10.0" Target="Microsoft.VisualStudio.Shell.Interop.8.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.TextTemplating.VSHost.10.0" Target="Microsoft.VisualStudio.TextManager.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.TextTemplating.VSHost.10.0" Target="Microsoft.VisualStudio.TextTemplating.10.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.TextTemplating.VSHost.10.0" Target="Microsoft.VisualStudio.TextTemplating.Interfaces.10.0" Category="References" />
+    <Link Source="Microsoft.VisualStudio.TextTemplating.VSHost.10.0" Target="Microsoft.VisualStudio.VSHelp" Category="References" />
+    <Link Source="Microsoft.VisualStudio.TextTemplating.VSHost.10.0" Target="System.Drawing" Category="References" />
+    <Link Source="Microsoft.VisualStudio.TextTemplating.VSHost.10.0" Target="System.Windows.Forms" Category="References" />
+    <Link Source="Microsoft.VisualStudio.TextTemplating.VSHost.10.0" Target="VSLangProj" Category="References" />
+    <Link Source="Microsoft.VisualStudio.TextTemplating.VSHost.10.0" Target="VsWebSite.Interop" Category="References" />
+    <Link Source="Microsoft.VisualStudio.TextTemplating.VSHost.10.0" Target="VsWebSite.Interop90" Category="References" />
+    <Link Source="Microsoft.VisualStudio.TextTemplating.VSHost.10.0" Target="WindowsBase" Category="References" />
+    <Link Source="NewGroup1" Target="Microsoft.VisualStudio.Progression.CommandLine" Category="Contains" />
+    <Link Source="NewGroup10" Target="Microsoft.VisualStudio.Debugger.Interop" Category="Contains" />
+    <Link Source="NewGroup10" Target="Microsoft.VisualStudio.OLE.Interop" Category="Contains" />
+    <Link Source="NewGroup10" Target="Microsoft.VisualStudio.Settings" Category="Contains" />
+    <Link Source="NewGroup10" Target="Microsoft.VisualStudio.Shell.Interop" Category="Contains" />
+    <Link Source="NewGroup10" Target="Microsoft.VisualStudio.Shell.Interop.10.0" Category="Contains" />
+    <Link Source="NewGroup10" Target="Microsoft.VisualStudio.Shell.Interop.8.0" Category="Contains" />
+    <Link Source="NewGroup10" Target="Microsoft.VisualStudio.Shell.Interop.9.0" Category="Contains" />
+    <Link Source="NewGroup10" Target="Microsoft.VisualStudio.VSHelp" Category="Contains" />
+    <Link Source="NewGroup10" Target="VsWebSite.Interop" Category="Contains" />
+    <Link Source="NewGroup10" Target="VsWebSite.Interop90" Category="Contains" />
+    <Link Source="NewGroup11" Target="Microsoft.VisualStudio.CommandBars" Category="Contains" />
+    <Link Source="NewGroup11" Target="Microsoft.VisualStudio.Designer.Interfaces" Category="Contains" />
+    <Link Source="NewGroup11" Target="Microsoft.VisualStudio.Gel" Category="Contains" />
+    <Link Source="NewGroup11" Target="Microsoft.VisualStudio.ProjectAggregator" Category="Contains" />
+    <Link Source="NewGroup11" Target="Microsoft.VisualStudio.Shell" Category="Contains" />
+    <Link Source="NewGroup11" Target="Microsoft.VisualStudio.Shell.10.0" Category="Contains" />
+    <Link Source="NewGroup11" Target="Microsoft.VisualStudio.Shell.Design" Category="Contains" />
+    <Link Source="NewGroup2" Target="Microsoft.VisualStudio.Progression.Common" Category="Contains" />
+    <Link Source="NewGroup2" Target="Microsoft.VisualStudio.Progression.GraphModel" Category="Contains" />
+    <Link Source="NewGroup2" Target="Microsoft.VisualStudio.Progression.Interfaces" Category="Contains" />
+    <Link Source="NewGroup3" Target="Microsoft.VisualStudio.Progression.VSPackage" Category="Contains" />
+    <Link Source="NewGroup4" Target="Microsoft.VisualStudio.Progression.Analyzers" Category="Contains" />
+    <Link Source="NewGroup4" Target="Microsoft.VisualStudio.Progression.CodeSchema" Category="Contains" />
+    <Link Source="NewGroup4" Target="Microsoft.VisualStudio.Progression.CoreProviders" Category="Contains" />
+    <Link Source="NewGroup4" Target="Microsoft.VisualStudio.Progression.DataManager" Category="Contains" />
+    <Link Source="NewGroup4" Target="Microsoft.VisualStudio.Progression.DslProvider" Category="Contains" />
+    <Link Source="NewGroup4" Target="Microsoft.VisualStudio.Progression.InstanceTracking" Category="Contains" />
+    <Link Source="NewGroup4" Target="Microsoft.VisualStudio.Progression.LMRProvider" Category="Contains" />
+    <Link Source="NewGroup4" Target="Microsoft.VisualStudio.Progression.LanguageService.CSharp" Category="Contains" />
+    <Link Source="NewGroup4" Target="Microsoft.VisualStudio.Progression.MetricsProvider" Category="Contains" />
+    <Link Source="NewGroup4" Target="Microsoft.VisualStudio.Progression.VBProvider" Category="Contains" />
+    <Link Source="NewGroup4" Target="Microsoft.VisualStudio.Progression.VSProvider" Category="Contains" />
+    <Link Source="NewGroup5" Target="Microsoft.Msagl" Category="Contains" />
+    <Link Source="NewGroup5" Target="Microsoft.VisualStudio.Progression.CascadeBrowser" Category="Contains" />
+    <Link Source="NewGroup5" Target="Microsoft.VisualStudio.Progression.GraphControl" Category="Contains" />
+    <Link Source="NewGroup5" Target="Microsoft.VisualStudio.Progression.ProgressionBrowser" Category="Contains" />
+    <Link Source="NewGroup5" Target="Microsoft.VisualStudio.Progression.WpfCommon" Category="Contains" />
+    <Link Source="NewGroup6" Target="Microsoft.MSXML" Category="Contains" />
+    <Link Source="NewGroup6" Target="Microsoft.VisualBasic.LanguageService" Category="Contains" />
+    <Link Source="NewGroup6" Target="Microsoft.VisualStudio.CSharp.Services.Language" Category="Contains" />
+    <Link Source="NewGroup6" Target="Microsoft.VisualStudio.CSharp.Services.Language.Interop" Category="Contains" />
+    <Link Source="NewGroup6" Target="Microsoft.VisualStudio.CallHierarchy.Package.Definitions" Category="Contains" />
+    <Link Source="NewGroup6" Target="Microsoft.VisualStudio.Language.CallHierarchy" Category="Contains" />
+    <Link Source="NewGroup6" Target="Microsoft.VisualStudio.Language.GenerateType" Category="Contains" />
+    <Link Source="NewGroup6" Target="Microsoft.VisualStudio.Package.LanguageService.10.0" Category="Contains" />
+    <Link Source="NewGroup6" Target="Microsoft.VisualStudio.TextManager.Interop.8.0" Category="Contains" />
+    <Link Source="NewGroup6" Target="Microsoft.VisualStudio.VisualBasic.LanguageService" Category="Contains" />
+    <Link Source="NewGroup6" Target="Microsoft.VisualStudio.XmlEditor" Category="Contains" />
+    <Link Source="NewGroup7" Target="Microsoft.VisualStudio.Modeling.Sdk.10.0" Category="Contains" />
+    <Link Source="NewGroup7" Target="Microsoft.VisualStudio.Modeling.Sdk.Diagrams.10.0" Category="Contains" />
+    <Link Source="NewGroup7" Target="Microsoft.VisualStudio.Modeling.Sdk.Diagrams.GraphObject.10.0" Category="Contains" />
+    <Link Source="NewGroup7" Target="Microsoft.VisualStudio.Modeling.Sdk.Shell.10.0" Category="Contains" />
+    <Link Source="NewGroup7" Target="Microsoft.VisualStudio.TextTemplating.10.0" Category="Contains" />
+    <Link Source="NewGroup7" Target="Microsoft.VisualStudio.TextTemplating.Interfaces.10.0" Category="Contains" />
+    <Link Source="NewGroup7" Target="Microsoft.VisualStudio.TextTemplating.VSHost.10.0" Category="Contains" />
+    <Link Source="NewGroup8" Target="Microsoft.VisualStudio.ComponentModelHost" Category="Contains" />
+    <Link Source="NewGroup8" Target="Microsoft.VisualStudio.CoreUtility" Category="Contains" />
+    <Link Source="NewGroup8" Target="Microsoft.VisualStudio.Editor" Category="Contains" />
+    <Link Source="NewGroup8" Target="Microsoft.VisualStudio.Language.QuickSearch.Implementation" Category="Contains" />
+    <Link Source="NewGroup8" Target="Microsoft.VisualStudio.Language.QuickSearch.Interfaces" Category="Contains" />
+    <Link Source="NewGroup8" Target="Microsoft.VisualStudio.Shell.UI" Category="Contains" />
+    <Link Source="NewGroup8" Target="Microsoft.VisualStudio.Text.UI" Category="Contains" />
+    <Link Source="NewGroup8" Target="Microsoft.VisualStudio.Text.UI.Wpf" Category="Contains" />
+    <Link Source="NewGroup8" Target="Microsoft.VisualStudio.TextManager.Interop" Category="Contains" />
+    <Link Source="NewGroup9" Target="EnvDTE" Category="Contains" />
+    <Link Source="NewGroup9" Target="EnvDTE80" Category="Contains" />
+    <Link Source="NewGroup9" Target="Microsoft.VisualStudio.VCProjectEngine" Category="Contains" AttractConsumers="False" Seeder="True" />
+    <Link Source="NewGroup9" Target="VSLangProj" Category="Contains" />
+    <Link Source="NewGroup9" Target="VSLangProj2" Category="Contains" />
+    <Link Source="NewGroup9" Target="VSLangProj80" Category="Contains" />
+    <Link Source="PresentationCFFRasterizer" Target="WindowsBase" Category="References" />
+    <Link Source="PresentationCore" Target="Microsoft.VisualC" Category="References" />
+    <Link Source="PresentationCore" Target="PresentationCFFRasterizer" Category="References" />
+    <Link Source="PresentationCore" Target="System.Deployment" Category="References" />
+    <Link Source="PresentationCore" Target="System.Drawing" Category="References" />
+    <Link Source="PresentationCore" Target="System.Xml" Category="References" />
+    <Link Source="PresentationCore" Target="UIAutomationProvider" Category="References" />
+    <Link Source="PresentationCore" Target="UIAutomationTypes" Category="References" />
+    <Link Source="PresentationCore" Target="WindowsBase" Category="References" />
+    <Link Source="PresentationFramework" Target="PresentationCore" Category="References" />
+    <Link Source="PresentationFramework" Target="PresentationUI" Category="References" />
+    <Link Source="PresentationFramework" Target="ReachFramework" Category="References" />
+    <Link Source="PresentationFramework" Target="System.Data" Category="References" />
+    <Link Source="PresentationFramework" Target="System.Deployment" Category="References" />
+    <Link Source="PresentationFramework" Target="System.Drawing" Category="References" />
+    <Link Source="PresentationFramework" Target="System.Printing" Category="References" />
+    <Link Source="PresentationFramework" Target="System.Xaml" Category="References" />
+    <Link Source="PresentationFramework" Target="System.Xml" Category="References" />
+    <Link Source="PresentationFramework" Target="UIAutomationProvider" Category="References" />
+    <Link Source="PresentationFramework" Target="UIAutomationTypes" Category="References" />
+    <Link Source="PresentationFramework" Target="WindowsBase" Category="References" />
+    <Link Source="PresentationUI" Target="PresentationCore" Category="References" />
+    <Link Source="PresentationUI" Target="PresentationFramework" Category="References" />
+    <Link Source="PresentationUI" Target="ReachFramework" Category="References" />
+    <Link Source="PresentationUI" Target="System.DirectoryServices" Category="References" />
+    <Link Source="PresentationUI" Target="System.Drawing" Category="References" />
+    <Link Source="PresentationUI" Target="System.Printing" Category="References" />
+    <Link Source="PresentationUI" Target="System.Security" Category="References" />
+    <Link Source="PresentationUI" Target="System.Windows.Forms" Category="References" />
+    <Link Source="PresentationUI" Target="UIAutomationProvider" Category="References" />
+    <Link Source="PresentationUI" Target="UIAutomationTypes" Category="References" />
+    <Link Source="PresentationUI" Target="WindowsBase" Category="References" />
+    <Link Source="ReachFramework" Target="PresentationCore" Category="References" />
+    <Link Source="ReachFramework" Target="PresentationFramework" Category="References" />
+    <Link Source="ReachFramework" Target="System.Drawing" Category="References" />
+    <Link Source="ReachFramework" Target="System.Printing" Category="References" />
+    <Link Source="ReachFramework" Target="System.Security" Category="References" />
+    <Link Source="ReachFramework" Target="System.Xml" Category="References" />
+    <Link Source="ReachFramework" Target="WindowsBase" Category="References" />
+    <Link Source="System.ComponentModel.Composition" Target="System.Core" Category="References" />
+    <Link Source="System.Configuration" Target="System.Security" Category="References" />
+    <Link Source="System.Configuration" Target="System.Xml" Category="References" />
+    <Link Source="System.Configuration.Install" Target="System.Runtime.Serialization.Formatters.Soap" Category="References" />
+    <Link Source="System.Configuration.Install" Target="System.Windows.Forms" Category="References" />
+    <Link Source="System.Core" Target="System.Security" Category="References" />
+    <Link Source="System.Core" Target="System.Xml" Category="References" />
+    <Link Source="System.Data" Target="Microsoft.VisualC" Category="References" />
+    <Link Source="System.Data" Target="System.Configuration" Category="References" />
+    <Link Source="System.Data" Target="System.EnterpriseServices" Category="References" />
+    <Link Source="System.Data" Target="System.Transactions" Category="References" />
+    <Link Source="System.Data" Target="System.Xml" Category="References" />
+    <Link Source="System.Data.OracleClient" Target="System.Configuration" Category="References" />
+    <Link Source="System.Data.OracleClient" Target="System.Data" Category="References" />
+    <Link Source="System.Data.OracleClient" Target="System.EnterpriseServices" Category="References" />
+    <Link Source="System.Data.OracleClient" Target="System.Transactions" Category="References" />
+    <Link Source="System.Data.SqlXml" Target="System.Xml" Category="References" />
+    <Link Source="System.Deployment" Target="System.Drawing" Category="References" />
+    <Link Source="System.Deployment" Target="System.Security" Category="References" />
+    <Link Source="System.Deployment" Target="System.Windows.Forms" Category="References" />
+    <Link Source="System.Deployment" Target="System.Xml" Category="References" />
+    <Link Source="System.Design" Target="Accessibility" Category="References" />
+    <Link Source="System.Design" Target="System.Configuration" Category="References" />
+    <Link Source="System.Design" Target="System.Data" Category="References" />
+    <Link Source="System.Design" Target="System.Data.OracleClient" Category="References" />
+    <Link Source="System.Design" Target="System.Drawing" Category="References" />
+    <Link Source="System.Design" Target="System.Drawing.Design" Category="References" />
+    <Link Source="System.Design" Target="System.Runtime.Serialization.Formatters.Soap" Category="References" />
+    <Link Source="System.Design" Target="System.Web" Category="References" />
+    <Link Source="System.Design" Target="System.Web.RegularExpressions" Category="References" />
+    <Link Source="System.Design" Target="System.Windows.Forms" Category="References" />
+    <Link Source="System.Design" Target="System.Xml" Category="References" />
+    <Link Source="System.DirectoryServices" Target="System.Configuration" Category="References" />
+    <Link Source="System.DirectoryServices" Target="System.Xml" Category="References" />
+    <Link Source="System.DirectoryServices.Protocols" Target="System.DirectoryServices" Category="References" />
+    <Link Source="System.DirectoryServices.Protocols" Target="System.Xml" Category="References" />
+    <Link Source="System.Drawing.Design" Target="System.Drawing" Category="References" />
+    <Link Source="System.Drawing.Design" Target="System.Windows.Forms" Category="References" />
+    <Link Source="System.EnterpriseServices" Target="Microsoft.VisualC" Category="References" />
+    <Link Source="System.EnterpriseServices" Target="System.DirectoryServices" Category="References" />
+    <Link Source="System.EnterpriseServices" Target="System.Runtime.Remoting" Category="References" />
+    <Link Source="System.EnterpriseServices" Target="System.Transactions" Category="References" />
+    <Link Source="System.EnterpriseServices" Target="System.Xml" Category="References" />
+    <Link Source="System.Printing" Target="Microsoft.VisualC" Category="References" />
+    <Link Source="System.Printing" Target="PresentationCore" Category="References" />
+    <Link Source="System.Printing" Target="PresentationFramework" Category="References" />
+    <Link Source="System.Printing" Target="ReachFramework" Category="References" />
+    <Link Source="System.Printing" Target="System.Drawing" Category="References" />
+    <Link Source="System.Printing" Target="System.Xml" Category="References" />
+    <Link Source="System.Printing" Target="WindowsBase" Category="References" />
+    <Link Source="System.Runtime.Remoting" Target="System.DirectoryServices" Category="References" />
+    <Link Source="System.Runtime.Remoting" Target="System.Runtime.Serialization.Formatters.Soap" Category="References" />
+    <Link Source="System.Runtime.Remoting" Target="System.Web" Category="References" />
+    <Link Source="System.Runtime.Remoting" Target="System.Xml" Category="References" />
+    <Link Source="System.Runtime.Serialization.Formatters.Soap" Target="System.Xml" Category="References" />
+    <Link Source="System.Security" Target="System.Xml" Category="References" />
+    <Link Source="System.ServiceProcess" Target="System.Configuration.Install" Category="References" />
+    <Link Source="System.ServiceProcess" Target="System.Drawing" Category="References" />
+    <Link Source="System.ServiceProcess" Target="System.Windows.Forms" Category="References" />
+    <Link Source="System.Transactions" Target="System.Configuration" Category="References" />
+    <Link Source="System.Transactions" Target="System.EnterpriseServices" Category="References" />
+    <Link Source="System.Transactions" Target="System.Xml" Category="References" />
+    <Link Source="System.Web" Target="Microsoft.Build.Framework" Category="References" />
+    <Link Source="System.Web" Target="Microsoft.Build.Tasks.v4.0" Category="References" />
+    <Link Source="System.Web" Target="Microsoft.Build.Utilities.v4.0" Category="References" />
+    <Link Source="System.Web" Target="System.Configuration" Category="References" />
+    <Link Source="System.Web" Target="System.Core" Category="References" />
+    <Link Source="System.Web" Target="System.Data" Category="References" />
+    <Link Source="System.Web" Target="System.Design" Category="References" />
+    <Link Source="System.Web" Target="System.DirectoryServices" Category="References" />
+    <Link Source="System.Web" Target="System.DirectoryServices.Protocols" Category="References" />
+    <Link Source="System.Web" Target="System.Drawing" Category="References" />
+    <Link Source="System.Web" Target="System.EnterpriseServices" Category="References" />
+    <Link Source="System.Web" Target="System.ServiceProcess" Category="References" />
+    <Link Source="System.Web" Target="System.Web.RegularExpressions" Category="References" />
+    <Link Source="System.Web" Target="System.Web.Services" Category="References" />
+    <Link Source="System.Web" Target="System.Windows.Forms" Category="References" />
+    <Link Source="System.Web" Target="System.Xml" Category="References" />
+    <Link Source="System.Web.Services" Target="System.Configuration" Category="References" />
+    <Link Source="System.Web.Services" Target="System.Data" Category="References" />
+    <Link Source="System.Web.Services" Target="System.Design" Category="References" />
+    <Link Source="System.Web.Services" Target="System.DirectoryServices" Category="References" />
+    <Link Source="System.Web.Services" Target="System.EnterpriseServices" Category="References" />
+    <Link Source="System.Web.Services" Target="System.Web" Category="References" />
+    <Link Source="System.Web.Services" Target="System.Xml" Category="References" />
+    <Link Source="System.Windows.Forms" Target="Accessibility" Category="References" />
+    <Link Source="System.Windows.Forms" Target="System.Configuration" Category="References" />
+    <Link Source="System.Windows.Forms" Target="System.Deployment" Category="References" />
+    <Link Source="System.Windows.Forms" Target="System.Drawing" Category="References" />
+    <Link Source="System.Windows.Forms" Target="System.Runtime.Serialization.Formatters.Soap" Category="References" />
+    <Link Source="System.Windows.Forms" Target="System.Security" Category="References" />
+    <Link Source="System.Windows.Forms" Target="System.Xml" Category="References" />
+    <Link Source="System.Xaml" Target="System.Xml" Category="References" />
+    <Link Source="System.Xaml" Target="WindowsBase" Category="References" />
+    <Link Source="System.Xml" Target="System.Configuration" Category="References" />
+    <Link Source="System.Xml" Target="System.Data.SqlXml" Category="References" />
+    <Link Source="System.Xml.Linq" Target="System.Core" Category="References" />
+    <Link Source="System.Xml.Linq" Target="System.Xml" Category="References" />
+    <Link Source="UIAutomationProvider" Target="UIAutomationTypes" Category="References" />
+    <Link Source="UIAutomationProvider" Target="WindowsBase" Category="References" />
+    <Link Source="VSLangProj" Target="EnvDTE" Category="References" />
+    <Link Source="VSLangProj2" Target="EnvDTE" Category="References" />
+    <Link Source="VSLangProj2" Target="VSLangProj" Category="References" />
+    <Link Source="VSLangProj80" Target="EnvDTE" Category="References" />
+    <Link Source="VSLangProj80" Target="VSLangProj" Category="References" />
+    <Link Source="VSLangProj80" Target="VSLangProj2" Category="References" />
+    <Link Source="VsWebSite.Interop" Target="EnvDTE" Category="References" />
+    <Link Source="VsWebSite.Interop90" Target="EnvDTE" Category="References" />
+    <Link Source="VsWebSite.Interop90" Target="VsWebSite.Interop" Category="References" />
+    <Link Source="WindowsBase" Target="System.Security" Category="References" />
+    <Link Source="WindowsBase" Target="System.Xml" Category="References" />
+  </Links>
+  <Categories>
+    <Category Id="Assembly" Label="Assembly" BasedOn="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="Assemblies" />
+    <Category Id="Contains" Label="Contains" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="External" Label="External" Background="#FF80A0A0" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="External" />
+    <Category Id="File" Label="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="Files" />
+    <Category Id="Group" Label="Group" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="Groups" />
+    <Category Id="MegaGroup" />
+    <Category Id="References" Label="References" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Referenced By" OutgoingActionLabel="References" />
+  </Categories>
+  <Properties>
+    <Property Id="AttractConsumers" DataType="System.Boolean" />
+    <Property Id="Background" Label="Background" Description="Background color" DataType="System.Windows.Media.Brush" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.Progression.GraphModel.GroupStyle" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Kind" Label="Kind" Description="Kind of Assembly" Group="CLR Properties" DataType="System.String" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Location" Label="Location" Description="Location of Assembly" Group="CLR Properties" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="RuntimeVersion" Label="Runtime Version" Description="The target runtime version" Group="CLR Properties" DataType="System.String" />
+    <Property Id="Seeder" Label="Seeder" Description="Seeder" DataType="System.Boolean" />
+    <Property Id="Version" Label="Version" Description="The version number" Group="CLR Properties" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Assembly" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Assembly')" />
+      <Setter Property="Background" Value="#FF008080" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Group" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Group')" />
+      <Setter Property="Background" Value="#B0D0B0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="MegaGroup" ValueLabel="Has category">
+      <Condition Expression="HasCategory('MegaGroup')" />
+      <Setter Property="Background" Value="#A0C0A0" />
+    </Style>
+    <Style TargetType="Link">
+      <Setter Property="Stroke" Value="Teal" />
+      <Setter Property="Background" Value="Teal" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="app" Value="D:\Program Files\Microsoft Visual Studio 10.0\Common7" />
+    <Path Id="Fx" Value="C:\Windows\Microsoft.NET\Framework\v4.0.20328" />
+    <Path Id="SystemRoot" Value="C:\Windows" />
+  </Paths>
+</DirectedGraph>

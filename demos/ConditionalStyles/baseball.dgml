@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph Layout="ForceDirected" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Adam Platt" Category="Medium" IsHiddenByHub="True" Visibility="Hidden" />
+    <Node Id="Adam Riggs" Category="Medium" IsHub="True" />
+    <Node Id="Andy Pettitte" Label="Andy Pettitte" />
+    <Node Id="Bart Miadich" Label="Bart Miadich" />
+    <Node Id="Brendan Donnelly" Label="Brendan Donnelly" />
+    <Node Id="Brian McNamee" Category="Medium" IsHub="True" />
+    <Node Id="Brian Roberts" Label="Brian Roberts" />
+    <Node Id="Chad Allen" Label="Chad Allen" />
+    <Node Id="Chris Donnels" Category="Hub" IsHub="True" />
+    <Node Id="Chuck Knoblauch" Label="Chuck Knoblauch" />
+    <Node Id="Cody McKay" Category="Leaf" />
+    <Node Id="David Justice" Category="Hub" />
+    <Node Id="David Segui" Category="Hub" IsHub="True" />
+    <Node Id="Denny Neagle" Category="Hub" IsHub="True" />
+    <Node Id="Eric Gagné" Label="Eric Gagné" />
+    <Node Id="F P Santangelo" Category="Medium" IsHiddenByHub="True" Visibility="Hidden" />
+    <Node Id="Fernando Vina" Category="Leaf" />
+    <Node Id="Gary Bennett Jr" Label="Gary Bennett Jr" />
+    <Node Id="Glenallen Hill" Category="Leaf" IsHiddenByHub="True" Visibility="Hidden" />
+    <Node Id="Gregg Zaun" Label="Gregg Zaun" />
+    <Node Id="Hal Morris" Category="Leaf" />
+    <Node Id="Howie Clark" Label="Howie Clark" />
+    <Node Id="Jack Cust" Label="Jack Cust" />
+    <Node Id="Jason Christiansen" Category="Leaf" />
+    <Node Id="Jason Grimsley" Category="Hub" IsHub="True" />
+    <Node Id="Jeff Williams" Label="Jeff Williams" />
+    <Node Id="Jerry Hairston Jr" Category="Medium" />
+    <Node Id="Jim Parque" Category="Leaf" />
+    <Node Id="Josias Manzanillo" Category="Leaf" />
+    <Node Id="Kent Mercker" Label="Kent Mercker" />
+    <Node Id="Kevin Brown" Label="Kevin Brown" />
+    <Node Id="Kevin Young" Category="Leaf" />
+    <Node Id="Kirk Radomski" Category="Root" IsHub="True" />
+    <Node Id="Larry Bigbie" Category="Medium" IsHub="True" />
+    <Node Id="Lenny Dykstra" Category="Leaf" />
+    <Node Id="Mark Carreon" Category="Leaf" />
+    <Node Id="Matt Franco" Category="Leaf" />
+    <Node Id="Matt Herges" IsHub="True" Label="Matt Herges" />
+    <Node Id="Miguel Tejada" IsHiddenByHub="True" Label="Miguel Tejada" Visibility="Hidden" />
+    <Node Id="Mike Bell" Category="Leaf" />
+    <Node Id="Mike Judd" Label="Mike Judd" />
+    <Node Id="Mike Lansing" Category="Medium" />
+    <Node Id="Mike Stanton" Category="Leaf" />
+    <Node Id="Mo Vaughn" IsHiddenByHub="True" Label="Mo Vaughn" Visibility="Hidden" />
+    <Node Id="Nock Logan" IsHiddenByHub="True" Label="Nock Logan" Visibility="Hidden" />
+    <Node Id="Paul Lo Duca" Category="Medium" IsHub="True" />
+    <Node Id="Phil Hiatt" Category="Leaf" IsHiddenByHub="True" Visibility="Hidden" />
+    <Node Id="Ricky Stone" IsHiddenByHub="True" Label="Ricky Stone" Visibility="Hidden" />
+    <Node Id="Roger Clemens" IsHiddenByHub="True" Label="Roger Clemens" Visibility="Hidden" />
+    <Node Id="Ron Villone" Category="Medium" IsHub="True" />
+    <Node Id="Rondell White" Category="Leaf" IsHub="True" />
+    <Node Id="Ryan Franklin" IsHiddenByHub="True" Label="Ryan Franklin" Visibility="Hidden" />
+    <Node Id="Stephen Randolph" IsHiddenByHub="True" Label="Stephen Randolph" Visibility="Hidden" />
+    <Node Id="Tim Laker" IsHiddenByHub="True" Label="Tim Laker" Visibility="Hidden" />
+    <Node Id="Todd Hundley" Category="Hub" IsHub="True" />
+    <Node Id="Todd Pratt" Category="Leaf" IsHiddenByHub="True" Visibility="Hidden" />
+    <Node Id="Todd Seyler" Category="Medium" IsHub="True" />
+    <Node Id="Todd Williams" Category="Leaf" IsHiddenByHub="True" Visibility="Hidden" />
+  </Nodes>
+  <Links>
+    <Link Source="Adam Platt" Target="Miguel Tejada" />
+    <Link Source="Adam Riggs" Target="Bart Miadich" />
+    <Link Source="Adam Riggs" Target="Brendan Donnelly" />
+    <Link Source="Brian McNamee" Target="Andy Pettitte" />
+    <Link Source="Brian McNamee" Target="Chuck Knoblauch" />
+    <Link Source="Brian McNamee" Target="David Justice" />
+    <Link Source="Brian McNamee" Target="Jason Grimsley" />
+    <Link Source="Brian McNamee" Target="Roger Clemens" />
+    <Link Source="Chris Donnels" Target="Chad Allen" />
+    <Link Source="Chris Donnels" Target="Stephen Randolph" />
+    <Link Source="David Segui" Target="F P Santangelo" />
+    <Link Source="David Segui" Target="Jerry Hairston Jr" />
+    <Link Source="David Segui" Target="Larry Bigbie" />
+    <Link Source="David Segui" Target="Mike Lansing" />
+    <Link Source="David Segui" Target="Tim Laker" />
+    <Link Source="Denny Neagle" Target="Gary Bennett Jr" />
+    <Link Source="Denny Neagle" Target="Ron Villone" />
+    <Link Source="F P Santangelo" Target="Adam Platt" />
+    <Link Source="Glenallen Hill" Target="Mo Vaughn" />
+    <Link Source="Jason Grimsley" Target="Gregg Zaun" />
+    <Link Source="Kirk Radomski" Target="Chris Donnels" />
+    <Link Source="Kirk Radomski" Target="Cody McKay" />
+    <Link Source="Kirk Radomski" Target="David Justice" />
+    <Link Source="Kirk Radomski" Target="David Segui" />
+    <Link Source="Kirk Radomski" Target="Denny Neagle" />
+    <Link Source="Kirk Radomski" Target="Fernando Vina" />
+    <Link Source="Kirk Radomski" Target="Glenallen Hill" />
+    <Link Source="Kirk Radomski" Target="Hal Morris" />
+    <Link Source="Kirk Radomski" Target="Jason Christiansen" />
+    <Link Source="Kirk Radomski" Target="Jason Grimsley" />
+    <Link Source="Kirk Radomski" Target="Jim Parque" />
+    <Link Source="Kirk Radomski" Target="Josias Manzanillo" />
+    <Link Source="Kirk Radomski" Target="Kent Mercker" />
+    <Link Source="Kirk Radomski" Target="Kevin Young" />
+    <Link Source="Kirk Radomski" Target="Lenny Dykstra" />
+    <Link Source="Kirk Radomski" Target="Mark Carreon" />
+    <Link Source="Kirk Radomski" Target="Matt Franco" />
+    <Link Source="Kirk Radomski" Target="Mike Bell" />
+    <Link Source="Kirk Radomski" Target="Mike Stanton" />
+    <Link Source="Kirk Radomski" Target="Phil Hiatt" />
+    <Link Source="Kirk Radomski" Target="Rondell White" />
+    <Link Source="Kirk Radomski" Target="Todd Pratt" />
+    <Link Source="Kirk Radomski" Target="Todd Williams" />
+    <Link Source="Larry Bigbie" Target="Brian Roberts" />
+    <Link Source="Larry Bigbie" Target="Howie Clark" />
+    <Link Source="Larry Bigbie" Target="Jack Cust" />
+    <Link Source="Paul Lo Duca" Target="Adam Riggs" />
+    <Link Source="Paul Lo Duca" Target="Eric Gagné" />
+    <Link Source="Paul Lo Duca" Target="Kevin Brown" />
+    <Link Source="Paul Lo Duca" Target="Matt Herges" />
+    <Link Source="Paul Lo Duca" Target="Todd Hundley" />
+    <Link Source="Ron Villone" Target="Ryan Franklin" />
+    <Link Source="Rondell White" Target="Nock Logan" />
+    <Link Source="Todd Hundley" Target="Kirk Radomski" />
+    <Link Source="Todd Seyler" Target="Jeff Williams" />
+    <Link Source="Todd Seyler" Target="Matt Herges" />
+    <Link Source="Todd Seyler" Target="Mike Judd" />
+    <Link Source="Todd Seyler" Target="Paul Lo Duca" />
+    <Link Source="Todd Seyler" Target="Ricky Stone" />
+  </Links>
+  <Categories>
+    <Category Id="Hub" />
+    <Category Id="Leaf" />
+    <Category Id="Medium" />
+    <Category Id="Root" />
+  </Categories>
+  <Properties>
+    <Property Id="IsHiddenByHub" DataType="System.Boolean" />
+    <Property Id="IsHub" Label="Hub" Description="Node is in the top 25% of highly connected nodes.  Other nodes not directly connecting these hubs have been hidden to simplify the graph." DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Root" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Root')" />
+      <Setter Property="Background" Value="#FFFFA500" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Leaf" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Leaf')" />
+      <Setter Property="Background" Value="#FFA52A2A" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Medium" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Medium')" />
+      <Setter Property="Background" Value="#FF0000FF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Hub" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Hub')" />
+      <Setter Property="Background" Value="#FF008080" />
+    </Style>
+  </Styles>
+</DirectedGraph>

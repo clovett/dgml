@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<groupBy>
+  <group DisplayName="WPF" AttractConsumers="False">
+    <patterns>
+      <pattern RegEx="WindowsBase.*"/>
+      <pattern RegEx="Reach.*"/>
+      <pattern RegEx="Presentation.*"/>
+      <pattern RegEx="System.Printing.*"/>
+      <pattern RegEx="System.Xaml.*"/>
+      <pattern RegEx="UIAutomation.*"/>
+      <pattern RegEx="WindowsFormsIntegration.*"/>
+    </patterns>
+  </group>
+
+  <group DisplayName=".NET Runtime" AttractConsumers="False">
+    <patterns>
+      <pattern RegEx="System"/>
+      <pattern RegEx="mscorlib.*"/>
+    </patterns>
+  </group>
+  <group DisplayName=".NET" AttractConsumers="False">
+    <patterns>
+      <pattern RegEx="System\..*"/>
+      <pattern RegEx="Accessibility.*"/>
+      <pattern RegEx=".NET Runtime"/>
+    </patterns>
+  </group>
+  <group DisplayName="Native" AttractConsumers="False">
+    <patterns>
+      <pattern RegEx="stdole.*"/>
+      <pattern RegEx="Microsoft.VisualC.*"/>
+    </patterns>
+  </group>
+
+  <group DisplayName="MSBuild" AttractConsumers="False">
+    <patterns>
+      <pattern RegEx="Microsoft.Build.*"/>
+    </patterns>
+  </group>
+
+  <group DisplayName="Core" AttractConsumers="False">
+    <patterns>
+      <pattern RegEx="Microsoft.VisualStudio.Progression.GraphModel.*"/>
+      <pattern RegEx="Microsoft.VisualStudio.Progression.Common.*"/>
+      <pattern RegEx="Microsoft.VisualStudio.Progression.WpfCommon.*"/>
+      <pattern RegEx="Microsoft.VisualStudio.Progression.Interfaces.*"/>
+    </patterns>
+  </group>
+
+  <group DisplayName="Providers" AttractConsumers="False">
+    <patterns>
+      <pattern RegEx="Microsoft.VisualStudio.Progression.*Provider.*"/>
+      <pattern RegEx="Microsoft.VisualStudio.Progression.CodeSchema.*"/>
+      <pattern RegEx="Microsoft.VisualStudio.Progression.Analyzers.*"/>
+      <pattern RegEx="Microsoft.VisualStudio.Progression.PowerToy.*"/>
+      <pattern RegEx="Microsoft.VisualStudio.Progression.InstanceTracking.*"/>
+      <pattern RegEx="Microsoft.VisualStudio.Progression.LanguageService.*"/>
+    </patterns>
+  </group>
+  
+  <group DisplayName="Progression" AttractConsumers="False">
+    <patterns>
+      <pattern RegEx="Microsoft.VisualStudio.Progression.*"/>
+      <pattern RegEx="Microsoft.MSAGL.*"/>
+    </patterns>
+  </group>
+
+  <group DisplayName="VS" AttractConsumers="False">
+    <patterns>
+      <pattern RegEx="Microsoft.VisualStudio.CommandBars.*"/>
+      <pattern RegEx="Microsoft.VisualStudio.Designer.*"/>
+      <pattern RegEx="Microsoft.VisualStudio.Editor.*"/>
+      <pattern RegEx="Microsoft.VisualStudio.Gel.*"/>
+      <pattern RegEx="Microsoft.VisualStudio.OLE.*"/>
+      <pattern RegEx="Microsoft.VisualStudio.Language.*"/>
+      <pattern RegEx="Microsoft.VisualStudio.Shell.*"/>
+      <pattern RegEx="Microsoft.VisualStudio.Text.*"/>
+      <pattern RegEx="Microsoft.VisualStudio.Package.*"/>
+      <pattern RegEx="Microsoft.VisualStudio.Settings.*"/>
+      <pattern RegEx="Microsoft.VisualStudio.Xml.*"/>
+      <pattern RegEx="EnvDTE.*"/>
+      <pattern RegEx="VSLangProj.*"/>
+      <pattern RegEx="Microsoft.MSXML.*"/>
+      <pattern RegEx="Microsoft.VisualStudio.Project.*"/>
+      <pattern RegEx="Microsoft.VisualStudio.VSHelp.*"/>
+
+      <pattern RegEx=".*"/>
+    </patterns>
+  </group>
+</groupBy>

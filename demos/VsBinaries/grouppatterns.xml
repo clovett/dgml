@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<groupBy>
+
+  <group DisplayName="Visual Studio Interop" AttractConsumers="False">
+    <patterns>
+      <pattern RegEx=".*\.Interop\..*"/>
+    </patterns>
+  </group>
+  
+  <group DisplayName="Team Foundation.Common" AttractConsumers="False">
+    <patterns>
+      <pattern RegEx="^microsoft\.teamfoundation\.common\.dll"/>
+    </patterns>
+  </group>
+
+  <group DisplayName="DSL Toolkit" AttractConsumers="False">
+    <patterns>
+      <pattern RegEx="^microsoft\.visualstudio\.modeling.*"/>
+    </patterns>
+  </group>
+
+  <group DisplayName="Team Foundation Client">
+    <patterns>
+      <pattern RegEx="^microsoft\.teamfoundation\.versioncontrol\..*"/>
+      <pattern RegEx=".*\.teamfoundation.*\.workitemtracking\..*"/>
+    </patterns>
+  </group>
+
+  <group DisplayName="VSTS Test">
+    <patterns>
+      <pattern RegEx="^microsoft\.visualstudio\.qualitytools\..*"/>
+      <pattern RegEx="^mstest.*"/>
+      <pattern RegEx="^VSCOVREPORT\.EXE"/>
+    </patterns>
+  </group>
+
+  <group DisplayName="VSTS Developer">
+    <patterns>
+      <pattern RegEx="^microsoft\.visualstudio\.coverage\..*"/>
+      <pattern RegEx="^system\.compiler\..*"/>
+      <pattern RegEx="^microsoft\.cci\..*"/>
+      <pattern RegEx="^microsoft\.specsharp\..*"/>
+      <pattern RegEx="^refactor\..*"/>
+      <pattern RegEx=".*teamdeveloper.*"/>
+      <pattern RegEx="^fxcop.*"/>
+    </patterns>
+  </group>
+
+  <group DisplayName="VSTA ">
+    <patterns>
+      <pattern RegEx=".*teamarch.*"/>
+      <pattern RegEx=".*progression.*"/>
+    </patterns>
+  </group>
+
+
+  <group DisplayName="Team Foundation Server">
+    <patterns>
+      <pattern RegEx="^microsoft\.visualstudio\.team.*"/>
+      <pattern RegEx="^microsoft\.team.*"/>
+      <!--<pattern RegEx=".*teamfoundation.*"/>-->
+      <pattern RegEx="^tf.*"/>
+    </patterns>
+  </group>
+
+
+  <group DisplayName="CIDER">
+    <patterns>
+      <pattern RegEx="^microsoft\.windows.design.*"/>
+      <pattern RegEx=".*presentationdesign.*"/>
+      <pattern RegEx="microsoft\.visualstudio\.xaml.*"/>
+      <pattern RegEx="microsoft\.expression\..*"/>
+    </patterns>
+  </group>
+
+
+  <group DisplayName="System Definition Model">
+    <patterns>
+      <pattern RegEx=".*\.sdm\..*"/>
+      <pattern RegEx="^sdm.*"/>
+      <pattern RegEx="microsoft\.visualstudio\.enterprisetools.*"/>
+      <pattern RegEx="microsoft\.visualstudio\.modeling\..*\.dll"/>
+    </patterns>
+  </group>
+
+  <group DisplayName="Visual C++">
+    <patterns>
+      <pattern RegEx=".*vsproj.*"/>
+      <pattern RegEx="^c1.*\..*"/>
+      <pattern RegEx="^c2.*\..*"/>
+      <pattern RegEx="^cl.*\..*"/>
+      <pattern RegEx="^c1ast.*"/>
+      <pattern RegEx="^c1xxast.*"/>
+      <pattern RegEx="^mspdb.*"/>
+      <pattern RegEx="^vsbuild.*"/>
+      <pattern RegEx="^bsc.*\.exe"/>
+      <pattern RegEx="^astutil\.exe"/>
+      <pattern RegEx="^astio\.exe"/>
+      <pattern RegEx="^ncb.*"/>
+      <pattern RegEx=".*visualvs\..*"/>
+      <pattern RegEx=".*visualc\..*"/>
+      <pattern RegEx="vcexpress.*"/>
+      <pattern RegEx="lib\..*"/>
+      <pattern RegEx="link\..*"/>
+      <pattern RegEx="nmake.*"/>
+      <pattern RegEx="ncdump.*"/>
+      <pattern RegEx="^microsoft\.visualstudio\.vc.*"/>
+      <pattern RegEx="^microsoft\.visualstudio\.vc.*"/>
+    </patterns>
+  </group>
+
+
+  <group DisplayName="Visual C#">
+    <patterns>
+      <pattern RegEx="csc\.exe"/>
+      <pattern RegEx="vcsexpress.*"/>
+      <pattern RegEx=".*compsvcspkg.*"/>
+    </patterns>
+  </group>
+
+
+  <group DisplayName="Visual Basic">
+    <patterns>
+      <pattern RegEx="vbexpress.*"/>
+      <pattern RegEx="vbu\.exe"/>
+      <pattern RegEx="vbc\.exe"/>
+      <pattern RegEx=".*msvb.*"/>
+      <pattern RegEx=".*vbupgrade.*"/>
+      <pattern RegEx=".*visualbasic.*"/>
+      <pattern RegEx=".*vb7.*"/>
+    </patterns>
+  </group>
+
+
+  <group DisplayName="Visual J#">
+    <patterns>
+      <pattern RegEx="^microsoft\.visualj.*"/>
+      <pattern RegEx="vjexpress.*"/>
+    </patterns>
+  </group>
+
+
+  <group DisplayName="Visual Source Safe">
+    <patterns>
+      <pattern RegEx=".*scci.*"/>
+      <pattern RegEx="^ss.*"/>
+      <pattern RegEx=".*ssscc.*"/>
+      <pattern RegEx="^vss.*"/>
+    </patterns>
+  </group>
+
+
+  <group DisplayName="Help">
+    <patterns>
+      <pattern RegEx="dexplore.*"/>
+      <pattern RegEx="csspkg.*"/>
+      <pattern RegEx="csspkg.*"/>
+    </patterns>
+  </group>
+
+  <group DisplayName="VSA / VSTO">
+    <patterns>
+      <pattern RegEx="^vsa.*"/>
+      <pattern RegEx=".*\.vsa\..*"/>
+      <pattern RegEx="^vsto.*"/>
+      <pattern RegEx=".*\.tools.office\..*"/>
+      <pattern RegEx=".*\.officetools\..*"/>
+    </patterns>
+  </group>
+
+
+
+  <group DisplayName="MSBuild">
+    <patterns>
+      <pattern RegEx="^msbuild.*"/>
+      <pattern RegEx="^vsmsbuild\.exe"/>
+      <pattern RegEx="^build.*"/>
+      <pattern RegEx="\.build\.*"/>
+      <pattern RegEx="^nunit\..*"/>
+    </patterns>
+  </group>
+
+
+  <group DisplayName="Venus">
+    <patterns>
+      <pattern RegEx="^web.*"/>
+      <pattern RegEx=".*website.*"/>
+      <pattern RegEx="^microsoft\.web\..*"/>
+      <pattern RegEx="vwdexpress.exe"/>      
+    </patterns>
+  </group>
+
+
+
+  <group DisplayName="FabriKam">
+    <patterns>
+      <pattern RegEx=".*fabrikam.*"/>
+      <pattern RegEx=".*westcoastsales.*"/>
+      <pattern RegEx="^sales.*"/>      
+    </patterns>
+  </group>
+
+  <group DisplayName="Visual Studio Platform">
+    <patterns>
+      <pattern RegEx="msenv.*\.dll"/>
+      <pattern RegEx="envdte.*\.dll"/>
+      <pattern RegEx="^microsoft\.visualstudio\."/>
+      <pattern RegEx="vslangproj.*"/>
+      <pattern RegEx="msdis150.dll"/>
+      <pattern RegEx="vsct.*"/>
+      <pattern RegEx="maui.*"/>
+      <pattern RegEx="devenv.*"/>
+      <pattern RegEx="microsoft.mshtml.*"/>
+      <pattern RegEx="microsoft.wizardframework.*"/>
+      <pattern RegEx="rascal.*"/>
+      <pattern RegEx="tshell.*"/>
+      <pattern RegEx="vsta.*"/>
+      <pattern RegEx="^microsoft\.vsdesigner.*"/>
+      <pattern RegEx="^microsoft\.data.*"/>
+    </patterns>
+  </group>
+
+
+  <group DisplayName="VS Perf">
+    <patterns>
+      <pattern RegEx="^vsperf.*"/>
+    </patterns>
+  </group>
+
+
+  <group DisplayName="CRT 10.0" AttractConsumers="False">
+    <patterns>
+      <pattern RegEx="^atl100.*"/>
+      <pattern RegEx="^mscrt100.*"/>
+      <pattern RegEx="^mfc.*100.*"/>
+      <pattern RegEx="^msv.*100.*"/>
+      <pattern RegEx="^mfc.*100.*"/>
+    </patterns>
+  </group>
+
+
+  <group DisplayName="CRT 9.0" AttractConsumers="False">
+    <patterns>
+      <pattern RegEx="^atl90.*"/>
+      <pattern RegEx="^mscrt90.*"/>
+      <pattern RegEx="^mfc.*80.*"/>
+      <pattern RegEx="^msv.*90.*"/>
+      <pattern RegEx="^mfc.*90.*"/>
+    </patterns>
+  </group>
+
+
+  <group DisplayName="OS" AttractConsumers="False">
+    <patterns>
+      <pattern RegEx="^kernel32\.dll"/>
+      <pattern RegEx="^user32\.dll"/>
+      <pattern RegEx="^advapi32\.dll"/>
+      <pattern RegEx="^version\.dll"/>
+      <pattern RegEx="^shlwapi\.dll"/>
+      <pattern RegEx="^ole32\.dll"/>
+      <pattern RegEx="^oleaut32\.dll"/>
+      <pattern RegEx="^imagehlp\.dll"/>
+      <pattern RegEx="^gdiplus\.dll"/>
+      <pattern RegEx="^msi\.dll"/>
+
+    </patterns>
+  </group>
+
+
+  <group DisplayName=".Net runtime" AttractConsumers="False">
+    <patterns>
+      <pattern RegEx="^mscorlib\.dll"/>
+      <pattern RegEx="^mscoree\.dll"/>
+      <pattern RegEx="^system\..*"/>
+    </patterns>
+  </group>
+
+</groupBy>

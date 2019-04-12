@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="TopToBottom" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Set.AboutForm" Category="Class" Access="public" IsAbstract="False" IsCodeType="True" Label="AboutForm" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" LinesOfCode="276" Location="Intra-solution code model information" />
+    <Node Id="Set.Board" Category="Class" Access="public" IsAbstract="False" IsCodeType="True" Label="Board" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" LinesOfCode="696" Location="Intra-solution code model information" />
+    <Node Id="Set.BoardData" Category="Class" Access="public" IsAbstract="False" IsCodeType="True" Label="BoardData" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" LinesOfCode="13" Location="Intra-solution code model information" />
+    <Node Id="Set.Card" Category="Class" Access="public" IsAbstract="False" IsCodeType="True" Label="Card" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" LinesOfCode="183" Location="Intra-solution code model information" />
+    <Node Id="Set.CardArray" Category="Class" Access="public" IsAbstract="False" IsCodeType="True" Label="CardArray" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" LinesOfCode="82" Location="Intra-solution code model information" />
+    <Node Id="Set.CardGraphics" Category="Class" Access="public" IsAbstract="False" IsCodeType="True" Label="CardGraphics" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" LinesOfCode="229" Location="Intra-solution code model information" />
+    <Node Id="Set.Deck" Category="Class" Access="public" IsAbstract="False" IsCodeType="True" Label="Deck" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" LinesOfCode="111" Location="Intra-solution code model information" />
+    <Node Id="Set.GameClient" Category="Class" Access="public" IsAbstract="False" IsCodeType="True" Label="GameClient" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" LinesOfCode="242" Location="Intra-solution code model information" />
+    <Node Id="Set.GameEventArgs" Category="Class" Access="public" IsAbstract="False" IsCodeType="True" Label="GameEventArgs" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" LinesOfCode="13" Location="Intra-solution code model information" />
+    <Node Id="Set.GameListener" Category="Class" Access="public" IsAbstract="False" IsCodeType="True" Label="GameListener" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" LinesOfCode="167" Location="Intra-solution code model information" />
+    <Node Id="Set.GameNetwork" Category="Class" Access="public" IsAbstract="True" IsCodeType="True" Label="GameNetwork" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" LinesOfCode="409" Location="Intra-solution code model information" />
+    <Node Id="Set.GameServer" Category="Class" Access="public" IsAbstract="False" IsCodeType="True" Label="GameServer" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" LinesOfCode="305" Location="Intra-solution code model information" />
+    <Node Id="Set.GameZoneForm" Category="Class" Access="public" IsAbstract="False" IsCodeType="True" Label="GameZoneForm" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" LinesOfCode="385" Location="Intra-solution code model information" />
+    <Node Id="Set.HostForm" Category="Class" Access="public" IsAbstract="False" IsCodeType="True" Label="HostForm" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" LinesOfCode="419" Location="Intra-solution code model information" />
+    <Node Id="Set.InfiniteProgress" Category="Class" Access="public" IsAbstract="False" IsCodeType="True" Label="InfiniteProgress" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" LinesOfCode="82" Location="Intra-solution code model information" />
+    <Node Id="Set.JoinForm" Category="Class" Access="public" IsAbstract="False" IsCodeType="True" Label="JoinForm" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" LinesOfCode="641" Location="Intra-solution code model information" />
+    <Node Id="Set.Players" Category="Class" Access="public" IsAbstract="False" IsCodeType="True" Label="Players" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" LinesOfCode="224" Location="Intra-solution code model information" />
+    <Node Id="Set.SetForm" Category="Class" Access="public" IsAbstract="False" IsCodeType="True" Label="SetForm" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" LinesOfCode="1492" Location="Intra-solution code model information" />
+    <Node Id="Set.SetResources" Category="Class" Access="public" IsAbstract="False" IsCodeType="True" Label="SetResources" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" LinesOfCode="86" Location="Intra-solution code model information" />
+    <Node Id="Set.Settings" Category="Class" Access="public" IsAbstract="False" IsCodeType="True" Label="Settings" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" LinesOfCode="121" Location="Intra-solution code model information" />
+    <Node Id="Set.SettingsForm" Category="Class" Access="public" IsAbstract="False" IsCodeType="True" Label="SettingsForm" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" LinesOfCode="213" Location="Intra-solution code model information" />
+    <Node Id="Set.Status" Category="Class" Access="public" IsAbstract="False" IsCodeType="True" Label="Status" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" LinesOfCode="224" Location="Intra-solution code model information" />
+    <Node Id="Set.UDDIQuery" Category="Class" Access="public" IsAbstract="False" IsCodeType="True" Label="UDDIQuery" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" LinesOfCode="56" Location="Intra-solution code model information" />
+    <Node Id="Set.WinnerForm" Category="Class" Access="public" IsAbstract="False" IsCodeType="True" Label="WinnerForm" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" LinesOfCode="191" Location="Intra-solution code model information" />
+    <Node Id="Set.XmlMessage" Category="Class" Access="public" IsAbstract="False" IsCodeType="True" Label="XmlMessage" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" LinesOfCode="228" Location="Intra-solution code model information" />
+  </Nodes>
+  <Links>
+    <Link Source="Set.AboutForm" Target="Set.SetResources" Category="Calls" />
+    <Link Source="Set.Board" Target="Set.CardArray" Category="Calls" />
+    <Link Source="Set.Board" Target="Set.Deck" Category="Calls" />
+    <Link Source="Set.Board" Target="Set.Players" Category="Calls" />
+    <Link Source="Set.Board" Target="Set.SetResources" Category="Calls" />
+    <Link Source="Set.Board" Target="Set.Status" Category="Calls" />
+    <Link Source="Set.BoardData" Target="Set.CardArray" Category="Calls" />
+    <Link Source="Set.BoardData" Target="Set.Deck" Category="Calls" />
+    <Link Source="Set.BoardData" Target="Set.Players" Category="Calls" />
+    <Link Source="Set.Card" Target="Set.CardGraphics" Category="Calls" />
+    <Link Source="Set.CardArray" Target="Set.Card" Category="Calls" />
+    <Link Source="Set.Deck" Target="Set.Card" Category="Calls" />
+    <Link Source="Set.Deck" Target="Set.CardArray" Category="Calls" />
+    <Link Source="Set.GameClient" Target="Set.GameNetwork" Category="InheritsFrom" />
+    <Link Source="Set.GameEventArgs" Target="Set.XmlMessage" Category="Calls" />
+    <Link Source="Set.GameListener" Target="Set.GameNetwork" Category="Calls" />
+    <Link Source="Set.GameNetwork" Target="Set.GameListener" Category="Calls" />
+    <Link Source="Set.GameNetwork" Target="Set.SetResources" Category="Calls" />
+    <Link Source="Set.GameServer" Target="Set.GameNetwork" Category="InheritsFrom" />
+    <Link Source="Set.GameServer" Target="Set.XmlMessage" Category="Calls" />
+    <Link Source="Set.GameZoneForm" Target="Set.GameNetwork" Category="Calls" />
+    <Link Source="Set.GameZoneForm" Target="Set.InfiniteProgress" Category="Calls" />
+    <Link Source="Set.GameZoneForm" Target="Set.SetResources" Category="Calls" />
+    <Link Source="Set.GameZoneForm" Target="Set.Settings" Category="Calls" />
+    <Link Source="Set.GameZoneForm" Target="Set.UDDIQuery" Category="Calls" />
+    <Link Source="Set.HostForm" Target="Set.GameNetwork" Category="Calls" />
+    <Link Source="Set.HostForm" Target="Set.SetResources" Category="Calls" />
+    <Link Source="Set.HostForm" Target="Set.Settings" Category="Calls" />
+    <Link Source="Set.JoinForm" Target="Set.GameClient" Category="Calls" />
+    <Link Source="Set.JoinForm" Target="Set.SetResources" Category="Calls" />
+    <Link Source="Set.JoinForm" Target="Set.Settings" Category="Calls" />
+    <Link Source="Set.JoinForm" Target="Set.Status" Category="Calls" />
+    <Link Source="Set.SetForm" Target="Set.Board" Category="Calls" />
+    <Link Source="Set.SetForm" Target="Set.GameNetwork" Category="Calls" />
+    <Link Source="Set.SetForm" Target="Set.Players" Category="Calls" />
+    <Link Source="Set.SetForm" Target="Set.SetResources" Category="Calls" />
+    <Link Source="Set.SetForm" Target="Set.Status" Category="Calls" />
+    <Link Source="Set.Settings" Target="Set.SetForm" Category="Calls" />
+    <Link Source="Set.SettingsForm" Target="Set.Settings" Category="Calls" />
+    <Link Source="Set.Status" Target="Set.Players" Category="Calls" />
+    <Link Source="Set.Status" Target="Set.SetResources" Category="Calls" />
+    <Link Source="Set.WinnerForm" Target="Set.SetResources" Category="Calls" />
+  </Links>
+  <Categories>
+    <Category Id="Calls" Label="Calls" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="False" IncomingActionLabel="Called By" IsContainment="False" OutgoingActionLabel="Calls" />
+    <Category Id="Class" Label="Class" CanBeDataDriven="True" DefaultAction="9" IsProviderRoot="False" NavigationActionLabel="Classes" />
+    <Category Id="InheritsFrom" Label="Inherits From" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Inherited By" IsContainment="False" OutgoingActionLabel="Inherits From" />
+  </Categories>
+  <Properties>
+    <Property Id="Access" Label="Access" Description="The access modifiers" Group="CLR Properties" DataType="System.String" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Progression.Layout.GraphDirection" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsAbstract" Label="IsAbstract" Description="IsAbstract" DataType="System.Boolean" />
+    <Property Id="IsCodeType" Label="IsCodeType" Description="IsCodeType" DataType="System.Boolean" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Language" Label="Language" Description="Language" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="LinesOfCode" Label="LinesOfCode" Description="LinesOfCode" DataType="System.Int32" />
+    <Property Id="Location" Label="Location" Description="Location of Assembly" Group="CLR Properties" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Class" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Class')" />
+      <Setter Property="Background" Value="#FF008000" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="LinesOfCode" ValueLabel="Function">
+      <Condition Expression="LinesOfCode &gt; 0" />
+      <Setter Property="FontSize" Expression="Math.Max(9,Math.Sqrt(LinesOfCode))" />
+      <Setter Property="FontFamily" Value="Papyrus" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Link" ValueLabel="Selected">
+      <Setter Property="SelectedStroke" Value="Green" />
+    </Style>
+  </Styles>
+</DirectedGraph>

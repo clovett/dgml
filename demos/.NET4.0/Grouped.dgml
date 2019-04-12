@@ -1,0 +1,1227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="ADODB" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="ADODB" Location="$(SystemRoot)\assembly\GAC\ADODB\7.0.3300.0__b03f5f7f11d50a3a\ADODB.dll" RuntimeVersion="v1.1.4322" Version="7.0.3300.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Accessibility" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="Accessibility" Location="$(ReferenceAssemblies4.0)\Accessibility.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="CustomMarshalers" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="CustomMarshalers" Location="$(ReferenceAssemblies4.0)\CustomMarshalers.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="G1" Category="Group" Group="Expanded" Label="MSBuild" />
+    <Node Id="G10" Category="Group" Group="Expanded" Label="ServiceModel" />
+    <Node Id="G11" Category="Group" Group="Expanded" Label="Enterprise" />
+    <Node Id="G12" Category="Group" Group="Expanded" Label="Automation" />
+    <Node Id="G13" Category="Group" Group="Expanded" Label="WPF" />
+    <Node Id="G14" Category="Group" Group="Expanded" Label="Compilers" />
+    <Node Id="G15" Category="Group" Group="Expanded" Label=".Net runtime" />
+    <Node Id="G2" Category="Group" Group="Expanded" Label="IEHost" />
+    <Node Id="G3" Category="Group" Group="Expanded" Label="Install" />
+    <Node Id="G4" Category="Group" Group="Expanded" Label="Entities" />
+    <Node Id="G5" Category="Group" Group="Expanded" Label="Data" />
+    <Node Id="G6" Category="Group" Group="Expanded" Label="Workflow" />
+    <Node Id="G7" Category="Group" Group="Expanded" Label="WinForms" />
+    <Node Id="G8" Category="Group" Group="Expanded" Label="Speech" />
+    <Node Id="G9" Category="Group" Group="Expanded" Label="Web" />
+    <Node Id="IEExecRemote" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="IEExecRemote" Location="$(ReferenceAssemblies4.0)\IEExecRemote.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="IEHost" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="IEHost" Location="$(ReferenceAssemblies4.0)\IEHost.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="IIEHost" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="IIEHost" Location="$(ReferenceAssemblies4.0)\IIEHost.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="ISymWrapper" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="ISymWrapper" Location="$(ReferenceAssemblies4.0)\ISymWrapper.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="MSDATASRC" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="MSDATASRC" Location="$(SystemRoot)\assembly\GAC\MSDATASRC\7.0.3300.0__b03f5f7f11d50a3a\MSDATASRC.dll" RuntimeVersion="v1.0.3705" Version="7.0.3300.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.Build" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.Build" Location="$(ReferenceAssemblies4.0)\Microsoft.Build.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="Microsoft.Build.Conversion.v3.5" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.Build.Conversion.v3.5" Location="$(ReferenceAssemblies4.0)\Microsoft.Build.Conversion.v3.5.dll" RuntimeVersion="v4.0.11006" Version="4.0.0.0" />
+    <Node Id="Microsoft.Build.Conversion.v4.0" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.Build.Conversion.v4.0" Location="$(ReferenceAssemblies4.0)\Microsoft.Build.Conversion.v4.0.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="Microsoft.Build.Engine" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.Build.Engine" Location="$(ReferenceAssemblies4.0)\Microsoft.Build.Engine.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="Microsoft.Build.Framework" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.Build.Framework" Location="$(ReferenceAssemblies4.0)\Microsoft.Build.Framework.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="Microsoft.Build.Tasks.v3.5" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.Build.Tasks.v3.5" Location="$(ReferenceAssemblies4.0)\Microsoft.Build.Tasks.v3.5.dll" RuntimeVersion="v4.0.11006" Version="4.0.0.0" />
+    <Node Id="Microsoft.Build.Tasks.v4.0" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.Build.Tasks.v4.0" Location="$(ReferenceAssemblies4.0)\Microsoft.Build.Tasks.v4.0.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="Microsoft.Build.Utilities.v3.5" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.Build.Utilities.v3.5" Location="$(ReferenceAssemblies4.0)\Microsoft.Build.Utilities.v3.5.dll" RuntimeVersion="v4.0.11006" Version="4.0.0.0" />
+    <Node Id="Microsoft.Build.Utilities.v4.0" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.Build.Utilities.v4.0" Location="$(ReferenceAssemblies4.0)\Microsoft.Build.Utilities.v4.0.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="Microsoft.CSharp" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.CSharp" Location="$(ReferenceAssemblies4.0)\Microsoft.CSharp.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="Microsoft.JScript" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.JScript" Location="$(ReferenceAssemblies4.0)\Microsoft.JScript.dll" RuntimeVersion="v4.0.20406" Version="10.0.0.0" />
+    <Node Id="Microsoft.StdFormat" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.StdFormat" Location="$(SystemRoot)\assembly\GAC\Microsoft.StdFormat\7.0.3300.0__b03f5f7f11d50a3a\Microsoft.StdFormat.dll" RuntimeVersion="v1.0.3705" Version="7.0.3300.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.Transactions.Bridge" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.Transactions.Bridge" Location="$(SystemRoot)\assembly\GAC_MSIL\Microsoft.Transactions.Bridge\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.Transactions.Bridge.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualBasic" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualBasic" Location="$(ReferenceAssemblies4.0)\Microsoft.VisualBasic.dll" RuntimeVersion="v4.0.20406" Version="10.0.0.0" />
+    <Node Id="Microsoft.VisualBasic.Activities.Compiler" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualBasic.Activities.Compiler" Location="$(SystemRoot)\assembly\GAC_32\Microsoft.VisualBasic.Activities.Compiler\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualBasic.Activities.Compiler.dll" RuntimeVersion="v4.0.20406" Version="10.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="Microsoft.VisualBasic.Compatibility" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualBasic.Compatibility" Location="$(ReferenceAssemblies4.0)\Microsoft.VisualBasic.Compatibility.dll" RuntimeVersion="v4.0.20406" Version="10.0.0.0" />
+    <Node Id="Microsoft.VisualBasic.Compatibility.Data" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualBasic.Compatibility.Data" Location="$(ReferenceAssemblies4.0)\Microsoft.VisualBasic.Compatibility.Data.dll" RuntimeVersion="v4.0.20406" Version="10.0.0.0" />
+    <Node Id="Microsoft.VisualC" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualC" Location="$(ReferenceAssemblies4.0)\Microsoft.VisualC.Dll" RuntimeVersion="v4.0.20406" Version="10.0.0.0" />
+    <Node Id="Microsoft.VisualC.STLCLR" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="Microsoft.VisualC.STLCLR" Location="$(ReferenceAssemblies4.0)\Microsoft.VisualC.STLCLR.dll" RuntimeVersion="v4.0.20406" Version="1.0.0.0" />
+    <Node Id="Microsoft.Workflow.Compiler" Category="CodeSchema_Assembly" Kind="ConsoleApplication" Label="Microsoft.Workflow.Compiler" Location="$(SystemRoot)\assembly\GAC_MSIL\Microsoft.Workflow.Compiler\v4.0_4.0.0.0__31bf3856ad364e35\Microsoft.Workflow.Compiler.exe" RuntimeVersion="v4.0.20406" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="PresentationBuildTasks" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="PresentationBuildTasks" Location="$(ReferenceAssemblies4.0)\PresentationBuildTasks.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="PresentationCFFRasterizer" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="PresentationCFFRasterizer" Location="$(SystemRoot)\assembly\GAC_MSIL\PresentationCFFRasterizer\v4.0_4.0.0.0__31bf3856ad364e35\PresentationCFFRasterizer.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="PresentationCore" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="PresentationCore" Location="$(ReferenceAssemblies4.0)\PresentationCore.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="PresentationFramework" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="PresentationFramework" Location="$(ReferenceAssemblies4.0)\PresentationFramework.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="PresentationFramework.Aero" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="PresentationFramework.Aero" Location="$(ReferenceAssemblies4.0)\PresentationFramework.Aero.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="PresentationFramework.Classic" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="PresentationFramework.Classic" Location="$(ReferenceAssemblies4.0)\PresentationFramework.Classic.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="PresentationFramework.Luna" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="PresentationFramework.Luna" Location="$(ReferenceAssemblies4.0)\PresentationFramework.Luna.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="PresentationFramework.Royale" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="PresentationFramework.Royale" Location="$(ReferenceAssemblies4.0)\PresentationFramework.Royale.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="PresentationUI" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="PresentationUI" Location="$(SystemRoot)\assembly\GAC_MSIL\PresentationUI\v4.0_4.0.0.0__31bf3856ad364e35\PresentationUI.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="ReachFramework" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="ReachFramework" Location="$(ReferenceAssemblies4.0)\ReachFramework.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="ReferenceAssemblyBuildTask" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="ReferenceAssemblyBuildTask" Location="$(ReferenceAssemblies4.0)\ReferenceAssemblyBuildTask.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="SMDiagnostics" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="SMDiagnostics" Location="$(SystemRoot)\assembly\GAC_MSIL\SMDiagnostics\v4.0_4.0.0.0__b77a5c561934e089\SMDiagnostics.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System" Location="$(ReferenceAssemblies4.0)\System.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Activities" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Activities" Location="$(ReferenceAssemblies4.0)\System.Activities.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Activities.Core.Design" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Activities.Core.Design" Location="$(ReferenceAssemblies4.0)\System.Activities.Core.Design.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Activities.Design" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Activities.Design" Location="$(ReferenceAssemblies4.0)\System.Activities.Design.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Activities.Design.Base" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Activities.Design.Base" Location="$(ReferenceAssemblies4.0)\System.Activities.Design.Base.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Activities.Extended" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Activities.Extended" Location="$(ReferenceAssemblies4.0)\System.Activities.Extended.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.AddIn" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.AddIn" Location="$(ReferenceAssemblies4.0)\System.AddIn.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.AddIn.Contract" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.AddIn.Contract" Location="$(ReferenceAssemblies4.0)\System.AddIn.Contract.dll" RuntimeVersion="v2.0.50727" Version="2.0.0.0" />
+    <Node Id="System.Caching" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Caching" Location="$(ReferenceAssemblies4.0)\System.Caching.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.ComponentModel.Composition" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.ComponentModel.Composition" Location="$(ReferenceAssemblies4.0)\System.ComponentModel.Composition.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.ComponentModel.DataAnnotations" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.ComponentModel.DataAnnotations" Location="$(ReferenceAssemblies4.0)\System.ComponentModel.DataAnnotations.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Configuration" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Configuration" Location="$(ReferenceAssemblies4.0)\System.configuration.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Configuration.Install" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Configuration.Install" Location="$(ReferenceAssemblies4.0)\System.Configuration.Install.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Core" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Core" Location="$(ReferenceAssemblies4.0)\System.Core.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Data" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Data" Location="$(ReferenceAssemblies4.0)\System.Data.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Data.DataSetExtensions" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Data.DataSetExtensions" Location="$(ReferenceAssemblies4.0)\System.Data.DataSetExtensions.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Data.Entity" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Data.Entity" Location="$(ReferenceAssemblies4.0)\System.Data.Entity.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Data.Entity.Design" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Data.Entity.Design" Location="$(ReferenceAssemblies4.0)\System.Data.Entity.Design.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Data.Linq" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Data.Linq" Location="$(ReferenceAssemblies4.0)\System.Data.Linq.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Data.OracleClient" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Data.OracleClient" Location="$(ReferenceAssemblies4.0)\System.Data.OracleClient.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Data.Services" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Data.Services" Location="$(ReferenceAssemblies4.0)\System.Data.Services.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Data.Services.Client" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Data.Services.Client" Location="$(ReferenceAssemblies4.0)\System.Data.Services.Client.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Data.Services.Design" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Data.Services.Design" Location="$(ReferenceAssemblies4.0)\System.Data.Services.Design.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Data.SqlXml" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Data.SqlXml" Location="$(ReferenceAssemblies4.0)\System.Data.SqlXml.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Deployment" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Deployment" Location="$(ReferenceAssemblies4.0)\System.Deployment.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Design" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Design" Location="$(ReferenceAssemblies4.0)\System.Design.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.DirectoryServices" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.DirectoryServices" Location="$(ReferenceAssemblies4.0)\System.DirectoryServices.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.DirectoryServices.AccountManagement" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.DirectoryServices.AccountManagement" Location="$(ReferenceAssemblies4.0)\System.DirectoryServices.AccountManagement.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.DirectoryServices.Protocols" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.DirectoryServices.Protocols" Location="$(ReferenceAssemblies4.0)\System.DirectoryServices.Protocols.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Drawing" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Drawing" Location="$(ReferenceAssemblies4.0)\System.Drawing.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Drawing.Design" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Drawing.Design" Location="$(ReferenceAssemblies4.0)\System.Drawing.Design.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Dynamic" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Dynamic" Location="$(ReferenceAssemblies4.0)\System.Dynamic.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.EnterpriseServices" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.EnterpriseServices" Location="$(ReferenceAssemblies4.0)\System.EnterpriseServices.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.IO.Log" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.IO.Log" Location="$(ReferenceAssemblies4.0)\System.IO.Log.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.IdentityModel" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.IdentityModel" Location="$(ReferenceAssemblies4.0)\System.IdentityModel.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.IdentityModel.Selectors" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.IdentityModel.Selectors" Location="$(ReferenceAssemblies4.0)\System.IdentityModel.Selectors.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Management" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Management" Location="$(ReferenceAssemblies4.0)\System.Management.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Management.Automation" Category="CodeSchema_Assembly" Kind="ConsoleApplication" Label="System.Management.Automation" Location="unknown:location" Version="1.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="System.Management.Instrumentation" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Management.Instrumentation" Location="$(ReferenceAssemblies4.0)\System.Management.Instrumentation.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Messaging" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Messaging" Location="$(ReferenceAssemblies4.0)\System.Messaging.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Net" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Net" Location="$(ReferenceAssemblies4.0)\System.Net.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Printing" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Printing" Location="$(ReferenceAssemblies4.0)\System.Printing.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Runtime" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Runtime" Location="$(ReferenceAssemblies4.0)\System.Runtime.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Runtime.Remoting" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Runtime.Remoting" Location="$(ReferenceAssemblies4.0)\System.Runtime.Remoting.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Runtime.Serialization" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Runtime.Serialization" Location="$(ReferenceAssemblies4.0)\System.Runtime.Serialization.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Runtime.Serialization.Formatters.Soap" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Runtime.Serialization.Formatters.Soap" Location="$(ReferenceAssemblies4.0)\System.Runtime.Serialization.Formatters.Soap.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Security" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Security" Location="$(ReferenceAssemblies4.0)\System.Security.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.ServiceModel" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.ServiceModel" Location="$(ReferenceAssemblies4.0)\System.ServiceModel.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.ServiceModel.Activities" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.ServiceModel.Activities" Location="$(ReferenceAssemblies4.0)\System.ServiceModel.Activities.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.ServiceModel.Channels" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.ServiceModel.Channels" Location="$(ReferenceAssemblies4.0)\System.ServiceModel.Channels.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.ServiceModel.Discovery" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.ServiceModel.Discovery" Location="$(ReferenceAssemblies4.0)\System.ServiceModel.Discovery.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.ServiceModel.Routing" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.ServiceModel.Routing" Location="$(ReferenceAssemblies4.0)\System.ServiceModel.Routing.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.ServiceModel.Web" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.ServiceModel.Web" Location="$(ReferenceAssemblies4.0)\System.ServiceModel.Web.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.ServiceProcess" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.ServiceProcess" Location="$(ReferenceAssemblies4.0)\System.ServiceProcess.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Speech" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Speech" Location="$(ReferenceAssemblies4.0)\System.Speech.dll" RuntimeVersion="v2.0.50727" Version="3.0.0.0" />
+    <Node Id="System.Transactions" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Transactions" Location="$(ReferenceAssemblies4.0)\System.Transactions.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Web" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Web" Location="$(ReferenceAssemblies4.0)\System.Web.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Web.Abstractions" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Web.Abstractions" Location="$(ReferenceAssemblies4.0)\System.Web.Abstractions.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Web.DataVisualization" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Web.DataVisualization" Location="$(ReferenceAssemblies4.0)\System.Web.DataVisualization.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Web.DataVisualization.Design" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Web.DataVisualization.Design" Location="$(ReferenceAssemblies4.0)\System.Web.DataVisualization.Design.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Web.DynamicData" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Web.DynamicData" Location="$(ReferenceAssemblies4.0)\System.Web.DynamicData.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Web.DynamicData.Design" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Web.DynamicData.Design" Location="$(ReferenceAssemblies4.0)\System.Web.DynamicData.Design.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Web.Entity" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Web.Entity" Location="$(ReferenceAssemblies4.0)\System.Web.Entity.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Web.Entity.Design" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Web.Entity.Design" Location="$(ReferenceAssemblies4.0)\System.Web.Entity.Design.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Web.Extensions" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Web.Extensions" Location="$(ReferenceAssemblies4.0)\System.Web.Extensions.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Web.Extensions.Design" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Web.Extensions.Design" Location="$(ReferenceAssemblies4.0)\System.Web.Extensions.Design.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Web.Mobile" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Web.Mobile" Location="$(ReferenceAssemblies4.0)\System.Web.Mobile.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Web.RegularExpressions" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Web.RegularExpressions" Location="$(ReferenceAssemblies4.0)\System.Web.RegularExpressions.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Web.Routing" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Web.Routing" Location="$(ReferenceAssemblies4.0)\System.Web.Routing.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Web.Services" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Web.Services" Location="$(ReferenceAssemblies4.0)\System.Web.Services.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Windows.Forms" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Windows.Forms" Location="$(ReferenceAssemblies4.0)\System.Windows.Forms.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Windows.Forms.DataVisualization" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Windows.Forms.DataVisualization" Location="$(ReferenceAssemblies4.0)\System.Windows.Forms.DataVisualization.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Windows.Forms.DataVisualization.Design" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Windows.Forms.DataVisualization.Design" Location="$(ReferenceAssemblies4.0)\System.Windows.Forms.DataVisualization.Design.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Windows.Presentation" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Windows.Presentation" Location="$(ReferenceAssemblies4.0)\System.Windows.Presentation.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Workflow.Activities" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Workflow.Activities" Location="$(ReferenceAssemblies4.0)\System.Workflow.Activities.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Workflow.ComponentModel" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Workflow.ComponentModel" Location="$(ReferenceAssemblies4.0)\System.Workflow.ComponentModel.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Workflow.Runtime" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Workflow.Runtime" Location="$(ReferenceAssemblies4.0)\System.Workflow.Runtime.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.WorkflowServices" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.WorkflowServices" Location="$(ReferenceAssemblies4.0)\System.WorkflowServices.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Xaml" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Xaml" Location="$(ReferenceAssemblies4.0)\System.Xaml.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Xaml.Hosting" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Xaml.Hosting" Location="$(ReferenceAssemblies4.0)\System.Xaml.Hosting.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Xml" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Xml" Location="$(ReferenceAssemblies4.0)\System.XML.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="System.Xml.Linq" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="System.Xml.Linq" Location="$(ReferenceAssemblies4.0)\System.Xml.Linq.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="UIAutomationClient" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="UIAutomationClient" Location="$(ReferenceAssemblies4.0)\UIAutomationClient.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="UIAutomationClientsideProviders" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="UIAutomationClientsideProviders" Location="$(ReferenceAssemblies4.0)\UIAutomationClientsideProviders.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="UIAutomationProvider" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="UIAutomationProvider" Location="$(ReferenceAssemblies4.0)\UIAutomationProvider.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="UIAutomationTypes" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="UIAutomationTypes" Location="$(ReferenceAssemblies4.0)\UIAutomationTypes.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="WindowsBase" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="WindowsBase" Location="$(ReferenceAssemblies4.0)\WindowsBase.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="WindowsFormsIntegration" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="WindowsFormsIntegration" Location="$(ReferenceAssemblies4.0)\WindowsFormsIntegration.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="XamlBuildTask" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="XamlBuildTask" Location="$(ReferenceAssemblies4.0)\XamlBuildTask.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0" />
+    <Node Id="mscorlib" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="mscorlib" Location="$(Fx)\mscorlib.dll" RuntimeVersion="v4.0.20406" Version="4.0.0.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="stdole" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="stdole" Location="$(SystemRoot)\assembly\GAC\stdole\7.0.3300.0__b03f5f7f11d50a3a\stdole.dll" RuntimeVersion="v1.0.3705" Version="7.0.3300.0">
+      <Category Ref="External" />
+    </Node>
+    <Node Id="sysglobl" Category="CodeSchema_Assembly" Kind="DynamicallyLinkedLibrary" Label="sysglobl" Location="$(SystemRoot)\assembly\GAC_MSIL\sysglobl\2.0.0.0__b03f5f7f11d50a3a\sysglobl.dll" RuntimeVersion="v2.0.50727" Version="2.0.0.0">
+      <Category Ref="External" />
+    </Node>
+  </Nodes>
+  <Links>
+    <Link Source="ADODB" Target="mscorlib" Category="References" />
+    <Link Source="Accessibility" Target="mscorlib" Category="References" />
+    <Link Source="CustomMarshalers" Target="Microsoft.VisualC" Category="References" />
+    <Link Source="CustomMarshalers" Target="mscorlib" Category="References" />
+    <Link Source="G1" Target="Microsoft.Build" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G1" Target="Microsoft.Build.Conversion.v3.5" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G1" Target="Microsoft.Build.Conversion.v4.0" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G1" Target="Microsoft.Build.Engine" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G1" Target="Microsoft.Build.Framework" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G1" Target="Microsoft.Build.Tasks.v3.5" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G1" Target="Microsoft.Build.Tasks.v4.0" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G1" Target="Microsoft.Build.Utilities.v3.5" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G1" Target="Microsoft.Build.Utilities.v4.0" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G1" Target="ReferenceAssemblyBuildTask" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G10" Target="System.ServiceModel" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G10" Target="System.ServiceModel.Activities" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G10" Target="System.ServiceModel.Channels" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G10" Target="System.ServiceModel.Discovery" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G10" Target="System.ServiceModel.Routing" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G10" Target="System.ServiceModel.Web" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G10" Target="System.ServiceProcess" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G11" Target="Microsoft.Transactions.Bridge" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G11" Target="System.Deployment" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G11" Target="System.DirectoryServices" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G11" Target="System.DirectoryServices.AccountManagement" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G11" Target="System.DirectoryServices.Protocols" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G11" Target="System.EnterpriseServices" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G11" Target="System.IO.Log" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G11" Target="System.IdentityModel" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G11" Target="System.IdentityModel.Selectors" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G11" Target="System.Management" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G11" Target="System.Management.Automation" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G11" Target="System.Management.Instrumentation" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G11" Target="System.Messaging" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G11" Target="System.Transactions" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G12" Target="Accessibility" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G12" Target="UIAutomationClient" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G12" Target="UIAutomationClientsideProviders" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G12" Target="UIAutomationProvider" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G12" Target="UIAutomationTypes" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G13" Target="PresentationBuildTasks" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G13" Target="PresentationCFFRasterizer" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G13" Target="PresentationCore" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G13" Target="PresentationFramework" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G13" Target="PresentationFramework.Aero" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G13" Target="PresentationFramework.Classic" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G13" Target="PresentationFramework.Luna" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G13" Target="PresentationFramework.Royale" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G13" Target="PresentationUI" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G13" Target="ReachFramework" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G13" Target="System.Printing" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G13" Target="System.Xaml" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G13" Target="System.Xaml.Hosting" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G13" Target="WindowsBase" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G13" Target="WindowsFormsIntegration" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G13" Target="XamlBuildTask" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G14" Target="CustomMarshalers" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G14" Target="ISymWrapper" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G14" Target="MSDATASRC" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G14" Target="Microsoft.CSharp" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G14" Target="Microsoft.JScript" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G14" Target="Microsoft.StdFormat" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G14" Target="Microsoft.VisualBasic" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G14" Target="Microsoft.VisualBasic.Activities.Compiler" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G14" Target="Microsoft.VisualBasic.Compatibility" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G14" Target="Microsoft.VisualBasic.Compatibility.Data" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G14" Target="Microsoft.VisualC" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G14" Target="Microsoft.VisualC.STLCLR" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G14" Target="stdole" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G15" Target="SMDiagnostics" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G15" Target="System" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G15" Target="System.AddIn" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G15" Target="System.AddIn.Contract" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G15" Target="System.Caching" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G15" Target="System.ComponentModel.Composition" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G15" Target="System.ComponentModel.DataAnnotations" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G15" Target="System.Configuration" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G15" Target="System.Core" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G15" Target="System.Dynamic" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G15" Target="System.Net" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G15" Target="System.Runtime" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G15" Target="System.Runtime.Remoting" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G15" Target="System.Runtime.Serialization" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G15" Target="System.Runtime.Serialization.Formatters.Soap" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G15" Target="System.Security" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G15" Target="mscorlib" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G2" Target="IEExecRemote" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G2" Target="IEHost" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G2" Target="IIEHost" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G3" Target="System.Configuration.Install" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G4" Target="System.Data.Entity" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G4" Target="System.Data.Entity.Design" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G4" Target="System.Data.Services" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G4" Target="System.Data.Services.Client" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G4" Target="System.Data.Services.Design" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G5" Target="ADODB" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G5" Target="System.Data" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G5" Target="System.Data.DataSetExtensions" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G5" Target="System.Data.Linq" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G5" Target="System.Data.OracleClient" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G5" Target="System.Data.SqlXml" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G5" Target="System.Xml" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G5" Target="System.Xml.Linq" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G6" Target="Microsoft.Workflow.Compiler" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G6" Target="System.Activities" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G6" Target="System.Activities.Core.Design" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G6" Target="System.Activities.Design" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G6" Target="System.Activities.Design.Base" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G6" Target="System.Activities.Extended" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G6" Target="System.Workflow.Activities" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G6" Target="System.Workflow.ComponentModel" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G6" Target="System.Workflow.Runtime" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G6" Target="System.WorkflowServices" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G7" Target="System.Design" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G7" Target="System.Drawing" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G7" Target="System.Drawing.Design" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G7" Target="System.Windows.Forms" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G7" Target="System.Windows.Forms.DataVisualization" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G7" Target="System.Windows.Forms.DataVisualization.Design" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G7" Target="System.Windows.Presentation" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G8" Target="System.Speech" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G8" Target="sysglobl" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G9" Target="System.Web" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G9" Target="System.Web.Abstractions" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G9" Target="System.Web.DataVisualization" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G9" Target="System.Web.DataVisualization.Design" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G9" Target="System.Web.DynamicData" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G9" Target="System.Web.DynamicData.Design" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G9" Target="System.Web.Entity" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G9" Target="System.Web.Entity.Design" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G9" Target="System.Web.Extensions" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G9" Target="System.Web.Extensions.Design" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G9" Target="System.Web.Mobile" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G9" Target="System.Web.RegularExpressions" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G9" Target="System.Web.Routing" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="G9" Target="System.Web.Services" Category="Contains" AttractConsumers="True" Seeder="True" />
+    <Link Source="IEExecRemote" Target="mscorlib" Category="References" />
+    <Link Source="IEHost" Target="IIEHost" Category="References" />
+    <Link Source="IEHost" Target="System" Category="References" />
+    <Link Source="IEHost" Target="System.Security" Category="References" />
+    <Link Source="IEHost" Target="System.Xml" Category="References" />
+    <Link Source="IEHost" Target="mscorlib" Category="References" />
+    <Link Source="IIEHost" Target="mscorlib" Category="References" />
+    <Link Source="ISymWrapper" Target="Microsoft.VisualC" Category="References" />
+    <Link Source="ISymWrapper" Target="System" Category="References" />
+    <Link Source="ISymWrapper" Target="mscorlib" Category="References" />
+    <Link Source="MSDATASRC" Target="mscorlib" Category="References" />
+    <Link Source="Microsoft.Build" Target="Microsoft.Build.Framework" Category="References" />
+    <Link Source="Microsoft.Build" Target="System" Category="References" />
+    <Link Source="Microsoft.Build" Target="System.Configuration" Category="References" />
+    <Link Source="Microsoft.Build" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.Build" Target="System.Xml" Category="References" />
+    <Link Source="Microsoft.Build" Target="mscorlib" Category="References" />
+    <Link Source="Microsoft.Build.Conversion.v3.5" Target="Microsoft.Build.Engine" Category="References" />
+    <Link Source="Microsoft.Build.Conversion.v3.5" Target="System" Category="References" />
+    <Link Source="Microsoft.Build.Conversion.v3.5" Target="System.Xml" Category="References" />
+    <Link Source="Microsoft.Build.Conversion.v3.5" Target="mscorlib" Category="References" />
+    <Link Source="Microsoft.Build.Conversion.v4.0" Target="Microsoft.Build" Category="References" />
+    <Link Source="Microsoft.Build.Conversion.v4.0" Target="Microsoft.Build.Engine" Category="References" />
+    <Link Source="Microsoft.Build.Conversion.v4.0" Target="System" Category="References" />
+    <Link Source="Microsoft.Build.Conversion.v4.0" Target="System.Xml" Category="References" />
+    <Link Source="Microsoft.Build.Conversion.v4.0" Target="mscorlib" Category="References" />
+    <Link Source="Microsoft.Build.Engine" Target="Microsoft.Build.Framework" Category="References" />
+    <Link Source="Microsoft.Build.Engine" Target="System" Category="References" />
+    <Link Source="Microsoft.Build.Engine" Target="System.Configuration" Category="References" />
+    <Link Source="Microsoft.Build.Engine" Target="System.Xml" Category="References" />
+    <Link Source="Microsoft.Build.Engine" Target="mscorlib" Category="References" />
+    <Link Source="Microsoft.Build.Framework" Target="System" Category="References" />
+    <Link Source="Microsoft.Build.Framework" Target="WindowsBase" Category="References" />
+    <Link Source="Microsoft.Build.Framework" Target="mscorlib" Category="References" />
+    <Link Source="Microsoft.Build.Tasks.v3.5" Target="Microsoft.Build.Framework" Category="References" />
+    <Link Source="Microsoft.Build.Tasks.v3.5" Target="Microsoft.Build.Utilities.v3.5" Category="References" />
+    <Link Source="Microsoft.Build.Tasks.v3.5" Target="System" Category="References" />
+    <Link Source="Microsoft.Build.Tasks.v3.5" Target="System.Design" Category="References" />
+    <Link Source="Microsoft.Build.Tasks.v3.5" Target="System.Drawing" Category="References" />
+    <Link Source="Microsoft.Build.Tasks.v3.5" Target="System.Security" Category="References" />
+    <Link Source="Microsoft.Build.Tasks.v3.5" Target="System.Windows.Forms" Category="References" />
+    <Link Source="Microsoft.Build.Tasks.v3.5" Target="System.Xml" Category="References" />
+    <Link Source="Microsoft.Build.Tasks.v3.5" Target="mscorlib" Category="References" />
+    <Link Source="Microsoft.Build.Tasks.v4.0" Target="Microsoft.Build.Framework" Category="References" />
+    <Link Source="Microsoft.Build.Tasks.v4.0" Target="Microsoft.Build.Utilities.v4.0" Category="References" />
+    <Link Source="Microsoft.Build.Tasks.v4.0" Target="System" Category="References" />
+    <Link Source="Microsoft.Build.Tasks.v4.0" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.Build.Tasks.v4.0" Target="System.Design" Category="References" />
+    <Link Source="Microsoft.Build.Tasks.v4.0" Target="System.Security" Category="References" />
+    <Link Source="Microsoft.Build.Tasks.v4.0" Target="System.Windows.Forms" Category="References" />
+    <Link Source="Microsoft.Build.Tasks.v4.0" Target="System.Xaml" Category="References" />
+    <Link Source="Microsoft.Build.Tasks.v4.0" Target="System.Xml" Category="References" />
+    <Link Source="Microsoft.Build.Tasks.v4.0" Target="mscorlib" Category="References" />
+    <Link Source="Microsoft.Build.Utilities.v3.5" Target="Microsoft.Build.Framework" Category="References" />
+    <Link Source="Microsoft.Build.Utilities.v3.5" Target="System" Category="References" />
+    <Link Source="Microsoft.Build.Utilities.v3.5" Target="System.Xml" Category="References" />
+    <Link Source="Microsoft.Build.Utilities.v3.5" Target="mscorlib" Category="References" />
+    <Link Source="Microsoft.Build.Utilities.v4.0" Target="Microsoft.Build.Framework" Category="References" />
+    <Link Source="Microsoft.Build.Utilities.v4.0" Target="System" Category="References" />
+    <Link Source="Microsoft.Build.Utilities.v4.0" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.Build.Utilities.v4.0" Target="System.Xml" Category="References" />
+    <Link Source="Microsoft.Build.Utilities.v4.0" Target="mscorlib" Category="References" />
+    <Link Source="Microsoft.CSharp" Target="System" Category="References" />
+    <Link Source="Microsoft.CSharp" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.CSharp" Target="System.Dynamic" Category="References" />
+    <Link Source="Microsoft.CSharp" Target="mscorlib" Category="References" />
+    <Link Source="Microsoft.JScript" Target="System" Category="References" />
+    <Link Source="Microsoft.JScript" Target="System.Xml" Category="References" />
+    <Link Source="Microsoft.JScript" Target="mscorlib" Category="References" />
+    <Link Source="Microsoft.StdFormat" Target="mscorlib" Category="References" />
+    <Link Source="Microsoft.Transactions.Bridge" Target="SMDiagnostics" Category="References" />
+    <Link Source="Microsoft.Transactions.Bridge" Target="System" Category="References" />
+    <Link Source="Microsoft.Transactions.Bridge" Target="System.Configuration" Category="References" />
+    <Link Source="Microsoft.Transactions.Bridge" Target="System.IdentityModel" Category="References" />
+    <Link Source="Microsoft.Transactions.Bridge" Target="System.Runtime" Category="References" />
+    <Link Source="Microsoft.Transactions.Bridge" Target="System.Runtime.Serialization" Category="References" />
+    <Link Source="Microsoft.Transactions.Bridge" Target="System.ServiceModel" Category="References" />
+    <Link Source="Microsoft.Transactions.Bridge" Target="System.Transactions" Category="References" />
+    <Link Source="Microsoft.Transactions.Bridge" Target="System.Xml" Category="References" />
+    <Link Source="Microsoft.Transactions.Bridge" Target="mscorlib" Category="References" />
+    <Link Source="Microsoft.VisualBasic" Target="System" Category="References" />
+    <Link Source="Microsoft.VisualBasic" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualBasic" Target="System.Deployment" Category="References" />
+    <Link Source="Microsoft.VisualBasic" Target="System.Drawing" Category="References" />
+    <Link Source="Microsoft.VisualBasic" Target="System.Management" Category="References" />
+    <Link Source="Microsoft.VisualBasic" Target="System.Runtime.Remoting" Category="References" />
+    <Link Source="Microsoft.VisualBasic" Target="System.Web" Category="References" />
+    <Link Source="Microsoft.VisualBasic" Target="System.Windows.Forms" Category="References" />
+    <Link Source="Microsoft.VisualBasic" Target="System.Xml.Linq" Category="References" />
+    <Link Source="Microsoft.VisualBasic" Target="mscorlib" Category="References" />
+    <Link Source="Microsoft.VisualBasic.Activities.Compiler" Target="Microsoft.VisualBasic" Category="References" />
+    <Link Source="Microsoft.VisualBasic.Activities.Compiler" Target="Microsoft.VisualC" Category="References" />
+    <Link Source="Microsoft.VisualBasic.Activities.Compiler" Target="System" Category="References" />
+    <Link Source="Microsoft.VisualBasic.Activities.Compiler" Target="System.Core" Category="References" />
+    <Link Source="Microsoft.VisualBasic.Activities.Compiler" Target="mscorlib" Category="References" />
+    <Link Source="Microsoft.VisualBasic.Compatibility" Target="Microsoft.VisualBasic" Category="References" />
+    <Link Source="Microsoft.VisualBasic.Compatibility" Target="System" Category="References" />
+    <Link Source="Microsoft.VisualBasic.Compatibility" Target="System.Design" Category="References" />
+    <Link Source="Microsoft.VisualBasic.Compatibility" Target="System.Drawing" Category="References" />
+    <Link Source="Microsoft.VisualBasic.Compatibility" Target="System.Web" Category="References" />
+    <Link Source="Microsoft.VisualBasic.Compatibility" Target="System.Windows.Forms" Category="References" />
+    <Link Source="Microsoft.VisualBasic.Compatibility" Target="mscorlib" Category="References" />
+    <Link Source="Microsoft.VisualBasic.Compatibility" Target="stdole" Category="References" />
+    <Link Source="Microsoft.VisualBasic.Compatibility.Data" Target="ADODB" Category="References" />
+    <Link Source="Microsoft.VisualBasic.Compatibility.Data" Target="MSDATASRC" Category="References" />
+    <Link Source="Microsoft.VisualBasic.Compatibility.Data" Target="Microsoft.StdFormat" Category="References" />
+    <Link Source="Microsoft.VisualBasic.Compatibility.Data" Target="Microsoft.VisualBasic" Category="References" />
+    <Link Source="Microsoft.VisualBasic.Compatibility.Data" Target="Microsoft.VisualBasic.Compatibility" Category="References" />
+    <Link Source="Microsoft.VisualBasic.Compatibility.Data" Target="System" Category="References" />
+    <Link Source="Microsoft.VisualBasic.Compatibility.Data" Target="System.Drawing" Category="References" />
+    <Link Source="Microsoft.VisualBasic.Compatibility.Data" Target="System.Security" Category="References" />
+    <Link Source="Microsoft.VisualBasic.Compatibility.Data" Target="System.Windows.Forms" Category="References" />
+    <Link Source="Microsoft.VisualBasic.Compatibility.Data" Target="mscorlib" Category="References" />
+    <Link Source="Microsoft.VisualC" Target="mscorlib" Category="References" />
+    <Link Source="Microsoft.VisualC.STLCLR" Target="System" Category="References" />
+    <Link Source="Microsoft.VisualC.STLCLR" Target="mscorlib" Category="References" />
+    <Link Source="Microsoft.Workflow.Compiler" Target="System" Category="References" />
+    <Link Source="Microsoft.Workflow.Compiler" Target="System.Runtime.Serialization" Category="References" />
+    <Link Source="Microsoft.Workflow.Compiler" Target="System.Workflow.ComponentModel" Category="References" />
+    <Link Source="Microsoft.Workflow.Compiler" Target="System.Xml" Category="References" />
+    <Link Source="Microsoft.Workflow.Compiler" Target="mscorlib" Category="References" />
+    <Link Source="PresentationBuildTasks" Target="Microsoft.Build.Framework" Category="References" />
+    <Link Source="PresentationBuildTasks" Target="Microsoft.Build.Utilities.v3.5" Category="References" />
+    <Link Source="PresentationBuildTasks" Target="System" Category="References" />
+    <Link Source="PresentationBuildTasks" Target="System.Xml" Category="References" />
+    <Link Source="PresentationBuildTasks" Target="mscorlib" Category="References" />
+    <Link Source="PresentationCFFRasterizer" Target="System" Category="References" />
+    <Link Source="PresentationCFFRasterizer" Target="WindowsBase" Category="References" />
+    <Link Source="PresentationCFFRasterizer" Target="mscorlib" Category="References" />
+    <Link Source="PresentationCore" Target="Microsoft.VisualC" Category="References" />
+    <Link Source="PresentationCore" Target="PresentationCFFRasterizer" Category="References" />
+    <Link Source="PresentationCore" Target="System" Category="References" />
+    <Link Source="PresentationCore" Target="System.Deployment" Category="References" />
+    <Link Source="PresentationCore" Target="System.Drawing" Category="References" />
+    <Link Source="PresentationCore" Target="System.Xml" Category="References" />
+    <Link Source="PresentationCore" Target="UIAutomationProvider" Category="References" />
+    <Link Source="PresentationCore" Target="UIAutomationTypes" Category="References" />
+    <Link Source="PresentationCore" Target="WindowsBase" Category="References" />
+    <Link Source="PresentationCore" Target="mscorlib" Category="References" />
+    <Link Source="PresentationFramework" Target="Accessibility" Category="References" />
+    <Link Source="PresentationFramework" Target="PresentationCore" Category="References" />
+    <Link Source="PresentationFramework" Target="PresentationUI" Category="References" />
+    <Link Source="PresentationFramework" Target="ReachFramework" Category="References" />
+    <Link Source="PresentationFramework" Target="System" Category="References" />
+    <Link Source="PresentationFramework" Target="System.Data" Category="References" />
+    <Link Source="PresentationFramework" Target="System.Deployment" Category="References" />
+    <Link Source="PresentationFramework" Target="System.Drawing" Category="References" />
+    <Link Source="PresentationFramework" Target="System.Printing" Category="References" />
+    <Link Source="PresentationFramework" Target="System.Xaml" Category="References" />
+    <Link Source="PresentationFramework" Target="System.Xml" Category="References" />
+    <Link Source="PresentationFramework" Target="UIAutomationProvider" Category="References" />
+    <Link Source="PresentationFramework" Target="UIAutomationTypes" Category="References" />
+    <Link Source="PresentationFramework" Target="WindowsBase" Category="References" />
+    <Link Source="PresentationFramework" Target="mscorlib" Category="References" />
+    <Link Source="PresentationFramework.Aero" Target="PresentationCore" Category="References" />
+    <Link Source="PresentationFramework.Aero" Target="PresentationFramework" Category="References" />
+    <Link Source="PresentationFramework.Aero" Target="System" Category="References" />
+    <Link Source="PresentationFramework.Aero" Target="WindowsBase" Category="References" />
+    <Link Source="PresentationFramework.Aero" Target="mscorlib" Category="References" />
+    <Link Source="PresentationFramework.Classic" Target="PresentationCore" Category="References" />
+    <Link Source="PresentationFramework.Classic" Target="PresentationFramework" Category="References" />
+    <Link Source="PresentationFramework.Classic" Target="System" Category="References" />
+    <Link Source="PresentationFramework.Classic" Target="WindowsBase" Category="References" />
+    <Link Source="PresentationFramework.Classic" Target="mscorlib" Category="References" />
+    <Link Source="PresentationFramework.Luna" Target="PresentationCore" Category="References" />
+    <Link Source="PresentationFramework.Luna" Target="PresentationFramework" Category="References" />
+    <Link Source="PresentationFramework.Luna" Target="System" Category="References" />
+    <Link Source="PresentationFramework.Luna" Target="WindowsBase" Category="References" />
+    <Link Source="PresentationFramework.Luna" Target="mscorlib" Category="References" />
+    <Link Source="PresentationFramework.Royale" Target="PresentationCore" Category="References" />
+    <Link Source="PresentationFramework.Royale" Target="PresentationFramework" Category="References" />
+    <Link Source="PresentationFramework.Royale" Target="System" Category="References" />
+    <Link Source="PresentationFramework.Royale" Target="WindowsBase" Category="References" />
+    <Link Source="PresentationFramework.Royale" Target="mscorlib" Category="References" />
+    <Link Source="PresentationUI" Target="PresentationCore" Category="References" />
+    <Link Source="PresentationUI" Target="PresentationFramework" Category="References" />
+    <Link Source="PresentationUI" Target="ReachFramework" Category="References" />
+    <Link Source="PresentationUI" Target="System" Category="References" />
+    <Link Source="PresentationUI" Target="System.DirectoryServices" Category="References" />
+    <Link Source="PresentationUI" Target="System.Drawing" Category="References" />
+    <Link Source="PresentationUI" Target="System.Printing" Category="References" />
+    <Link Source="PresentationUI" Target="System.Security" Category="References" />
+    <Link Source="PresentationUI" Target="System.Windows.Forms" Category="References" />
+    <Link Source="PresentationUI" Target="UIAutomationProvider" Category="References" />
+    <Link Source="PresentationUI" Target="UIAutomationTypes" Category="References" />
+    <Link Source="PresentationUI" Target="WindowsBase" Category="References" />
+    <Link Source="PresentationUI" Target="mscorlib" Category="References" />
+    <Link Source="ReachFramework" Target="PresentationCore" Category="References" />
+    <Link Source="ReachFramework" Target="PresentationFramework" Category="References" />
+    <Link Source="ReachFramework" Target="System" Category="References" />
+    <Link Source="ReachFramework" Target="System.Drawing" Category="References" />
+    <Link Source="ReachFramework" Target="System.Printing" Category="References" />
+    <Link Source="ReachFramework" Target="System.Security" Category="References" />
+    <Link Source="ReachFramework" Target="System.Xml" Category="References" />
+    <Link Source="ReachFramework" Target="WindowsBase" Category="References" />
+    <Link Source="ReachFramework" Target="mscorlib" Category="References" />
+    <Link Source="ReferenceAssemblyBuildTask" Target="Microsoft.Build.Framework" Category="References" />
+    <Link Source="ReferenceAssemblyBuildTask" Target="Microsoft.Build.Utilities.v4.0" Category="References" />
+    <Link Source="ReferenceAssemblyBuildTask" Target="System" Category="References" />
+    <Link Source="ReferenceAssemblyBuildTask" Target="System.Activities" Category="References" />
+    <Link Source="ReferenceAssemblyBuildTask" Target="mscorlib" Category="References" />
+    <Link Source="SMDiagnostics" Target="System" Category="References" />
+    <Link Source="SMDiagnostics" Target="System.Configuration" Category="References" />
+    <Link Source="SMDiagnostics" Target="System.Runtime" Category="References" />
+    <Link Source="SMDiagnostics" Target="System.Xml" Category="References" />
+    <Link Source="SMDiagnostics" Target="mscorlib" Category="References" />
+    <Link Source="System" Target="System.Configuration" Category="References" />
+    <Link Source="System" Target="System.Xml" Category="References" />
+    <Link Source="System" Target="mscorlib" Category="References" />
+    <Link Source="System.Activities" Target="Microsoft.VisualBasic" Category="References" />
+    <Link Source="System.Activities" Target="Microsoft.VisualBasic.Activities.Compiler" Category="References" />
+    <Link Source="System.Activities" Target="System" Category="References" />
+    <Link Source="System.Activities" Target="System.Core" Category="References" />
+    <Link Source="System.Activities" Target="System.Runtime" Category="References" />
+    <Link Source="System.Activities" Target="System.Runtime.Serialization" Category="References" />
+    <Link Source="System.Activities" Target="System.ServiceModel" Category="References" />
+    <Link Source="System.Activities" Target="System.Transactions" Category="References" />
+    <Link Source="System.Activities" Target="System.Workflow.ComponentModel" Category="References" />
+    <Link Source="System.Activities" Target="System.Workflow.Runtime" Category="References" />
+    <Link Source="System.Activities" Target="System.WorkflowServices" Category="References" />
+    <Link Source="System.Activities" Target="System.Xaml" Category="References" />
+    <Link Source="System.Activities" Target="System.Xml" Category="References" />
+    <Link Source="System.Activities" Target="System.Xml.Linq" Category="References" />
+    <Link Source="System.Activities" Target="WindowsBase" Category="References" />
+    <Link Source="System.Activities" Target="mscorlib" Category="References" />
+    <Link Source="System.Activities.Core.Design" Target="PresentationCore" Category="References" />
+    <Link Source="System.Activities.Core.Design" Target="PresentationFramework" Category="References" />
+    <Link Source="System.Activities.Core.Design" Target="System" Category="References" />
+    <Link Source="System.Activities.Core.Design" Target="System.Activities" Category="References" />
+    <Link Source="System.Activities.Core.Design" Target="System.Activities.Design" Category="References" />
+    <Link Source="System.Activities.Core.Design" Target="System.Activities.Design.Base" Category="References" />
+    <Link Source="System.Activities.Core.Design" Target="System.Activities.Extended" Category="References" />
+    <Link Source="System.Activities.Core.Design" Target="System.Configuration" Category="References" />
+    <Link Source="System.Activities.Core.Design" Target="System.Core" Category="References" />
+    <Link Source="System.Activities.Core.Design" Target="System.Data" Category="References" />
+    <Link Source="System.Activities.Core.Design" Target="System.Management.Automation" Category="References" />
+    <Link Source="System.Activities.Core.Design" Target="System.Runtime" Category="References" />
+    <Link Source="System.Activities.Core.Design" Target="System.Runtime.Serialization" Category="References" />
+    <Link Source="System.Activities.Core.Design" Target="System.ServiceModel" Category="References" />
+    <Link Source="System.Activities.Core.Design" Target="System.ServiceModel.Activities" Category="References" />
+    <Link Source="System.Activities.Core.Design" Target="System.Xaml" Category="References" />
+    <Link Source="System.Activities.Core.Design" Target="System.Xml" Category="References" />
+    <Link Source="System.Activities.Core.Design" Target="System.Xml.Linq" Category="References" />
+    <Link Source="System.Activities.Core.Design" Target="WindowsBase" Category="References" />
+    <Link Source="System.Activities.Core.Design" Target="mscorlib" Category="References" />
+    <Link Source="System.Activities.Design" Target="PresentationCore" Category="References" />
+    <Link Source="System.Activities.Design" Target="PresentationFramework" Category="References" />
+    <Link Source="System.Activities.Design" Target="ReachFramework" Category="References" />
+    <Link Source="System.Activities.Design" Target="System" Category="References" />
+    <Link Source="System.Activities.Design" Target="System.Activities" Category="References" />
+    <Link Source="System.Activities.Design" Target="System.Activities.Design.Base" Category="References" />
+    <Link Source="System.Activities.Design" Target="System.Core" Category="References" />
+    <Link Source="System.Activities.Design" Target="System.Drawing" Category="References" />
+    <Link Source="System.Activities.Design" Target="System.Printing" Category="References" />
+    <Link Source="System.Activities.Design" Target="System.Runtime" Category="References" />
+    <Link Source="System.Activities.Design" Target="System.ServiceModel.Activities" Category="References" />
+    <Link Source="System.Activities.Design" Target="System.Xaml" Category="References" />
+    <Link Source="System.Activities.Design" Target="System.Xml" Category="References" />
+    <Link Source="System.Activities.Design" Target="System.Xml.Linq" Category="References" />
+    <Link Source="System.Activities.Design" Target="WindowsBase" Category="References" />
+    <Link Source="System.Activities.Design" Target="mscorlib" Category="References" />
+    <Link Source="System.Activities.Design.Base" Target="PresentationCore" Category="References" />
+    <Link Source="System.Activities.Design.Base" Target="PresentationFramework" Category="References" />
+    <Link Source="System.Activities.Design.Base" Target="System" Category="References" />
+    <Link Source="System.Activities.Design.Base" Target="System.Drawing" Category="References" />
+    <Link Source="System.Activities.Design.Base" Target="System.Runtime" Category="References" />
+    <Link Source="System.Activities.Design.Base" Target="System.Windows.Forms" Category="References" />
+    <Link Source="System.Activities.Design.Base" Target="UIAutomationProvider" Category="References" />
+    <Link Source="System.Activities.Design.Base" Target="UIAutomationTypes" Category="References" />
+    <Link Source="System.Activities.Design.Base" Target="WindowsBase" Category="References" />
+    <Link Source="System.Activities.Design.Base" Target="WindowsFormsIntegration" Category="References" />
+    <Link Source="System.Activities.Design.Base" Target="mscorlib" Category="References" />
+    <Link Source="System.Activities.Extended" Target="System" Category="References" />
+    <Link Source="System.Activities.Extended" Target="System.Activities" Category="References" />
+    <Link Source="System.Activities.Extended" Target="System.Core" Category="References" />
+    <Link Source="System.Activities.Extended" Target="System.Management.Automation" Category="References" />
+    <Link Source="System.Activities.Extended" Target="System.Runtime" Category="References" />
+    <Link Source="System.Activities.Extended" Target="System.Runtime.Serialization" Category="References" />
+    <Link Source="System.Activities.Extended" Target="WindowsBase" Category="References" />
+    <Link Source="System.Activities.Extended" Target="mscorlib" Category="References" />
+    <Link Source="System.AddIn" Target="System" Category="References" />
+    <Link Source="System.AddIn" Target="System.AddIn.Contract" Category="References" />
+    <Link Source="System.AddIn" Target="System.Runtime.Remoting" Category="References" />
+    <Link Source="System.AddIn" Target="mscorlib" Category="References" />
+    <Link Source="System.AddIn.Contract" Target="mscorlib" Category="References" />
+    <Link Source="System.Caching" Target="System" Category="References" />
+    <Link Source="System.Caching" Target="System.Configuration" Category="References" />
+    <Link Source="System.Caching" Target="mscorlib" Category="References" />
+    <Link Source="System.ComponentModel.Composition" Target="System" Category="References" />
+    <Link Source="System.ComponentModel.Composition" Target="System.Core" Category="References" />
+    <Link Source="System.ComponentModel.Composition" Target="mscorlib" Category="References" />
+    <Link Source="System.ComponentModel.DataAnnotations" Target="System" Category="References" />
+    <Link Source="System.ComponentModel.DataAnnotations" Target="System.Core" Category="References" />
+    <Link Source="System.ComponentModel.DataAnnotations" Target="mscorlib" Category="References" />
+    <Link Source="System.Configuration" Target="System" Category="References" />
+    <Link Source="System.Configuration" Target="System.Security" Category="References" />
+    <Link Source="System.Configuration" Target="System.Xml" Category="References" />
+    <Link Source="System.Configuration" Target="mscorlib" Category="References" />
+    <Link Source="System.Configuration.Install" Target="System" Category="References" />
+    <Link Source="System.Configuration.Install" Target="System.Runtime.Serialization.Formatters.Soap" Category="References" />
+    <Link Source="System.Configuration.Install" Target="System.Windows.Forms" Category="References" />
+    <Link Source="System.Configuration.Install" Target="mscorlib" Category="References" />
+    <Link Source="System.Core" Target="System" Category="References" />
+    <Link Source="System.Core" Target="System.Security" Category="References" />
+    <Link Source="System.Core" Target="System.Xml" Category="References" />
+    <Link Source="System.Core" Target="mscorlib" Category="References" />
+    <Link Source="System.Data" Target="Microsoft.VisualC" Category="References" />
+    <Link Source="System.Data" Target="System" Category="References" />
+    <Link Source="System.Data" Target="System.Configuration" Category="References" />
+    <Link Source="System.Data" Target="System.EnterpriseServices" Category="References" />
+    <Link Source="System.Data" Target="System.Transactions" Category="References" />
+    <Link Source="System.Data" Target="System.Xml" Category="References" />
+    <Link Source="System.Data" Target="mscorlib" Category="References" />
+    <Link Source="System.Data.DataSetExtensions" Target="System" Category="References" />
+    <Link Source="System.Data.DataSetExtensions" Target="System.Core" Category="References" />
+    <Link Source="System.Data.DataSetExtensions" Target="System.Data" Category="References" />
+    <Link Source="System.Data.DataSetExtensions" Target="mscorlib" Category="References" />
+    <Link Source="System.Data.Entity" Target="System" Category="References" />
+    <Link Source="System.Data.Entity" Target="System.Configuration" Category="References" />
+    <Link Source="System.Data.Entity" Target="System.Core" Category="References" />
+    <Link Source="System.Data.Entity" Target="System.Data" Category="References" />
+    <Link Source="System.Data.Entity" Target="System.Runtime.Serialization" Category="References" />
+    <Link Source="System.Data.Entity" Target="System.Transactions" Category="References" />
+    <Link Source="System.Data.Entity" Target="System.Xml" Category="References" />
+    <Link Source="System.Data.Entity" Target="System.Xml.Linq" Category="References" />
+    <Link Source="System.Data.Entity" Target="mscorlib" Category="References" />
+    <Link Source="System.Data.Entity.Design" Target="System" Category="References" />
+    <Link Source="System.Data.Entity.Design" Target="System.Core" Category="References" />
+    <Link Source="System.Data.Entity.Design" Target="System.Data" Category="References" />
+    <Link Source="System.Data.Entity.Design" Target="System.Data.Entity" Category="References" />
+    <Link Source="System.Data.Entity.Design" Target="System.Web" Category="References" />
+    <Link Source="System.Data.Entity.Design" Target="System.Xml" Category="References" />
+    <Link Source="System.Data.Entity.Design" Target="mscorlib" Category="References" />
+    <Link Source="System.Data.Linq" Target="System" Category="References" />
+    <Link Source="System.Data.Linq" Target="System.Core" Category="References" />
+    <Link Source="System.Data.Linq" Target="System.Data" Category="References" />
+    <Link Source="System.Data.Linq" Target="System.Runtime.Serialization" Category="References" />
+    <Link Source="System.Data.Linq" Target="System.Transactions" Category="References" />
+    <Link Source="System.Data.Linq" Target="System.Xml" Category="References" />
+    <Link Source="System.Data.Linq" Target="System.Xml.Linq" Category="References" />
+    <Link Source="System.Data.Linq" Target="mscorlib" Category="References" />
+    <Link Source="System.Data.OracleClient" Target="System" Category="References" />
+    <Link Source="System.Data.OracleClient" Target="System.Configuration" Category="References" />
+    <Link Source="System.Data.OracleClient" Target="System.Data" Category="References" />
+    <Link Source="System.Data.OracleClient" Target="System.EnterpriseServices" Category="References" />
+    <Link Source="System.Data.OracleClient" Target="System.Transactions" Category="References" />
+    <Link Source="System.Data.OracleClient" Target="mscorlib" Category="References" />
+    <Link Source="System.Data.Services" Target="System" Category="References" />
+    <Link Source="System.Data.Services" Target="System.Core" Category="References" />
+    <Link Source="System.Data.Services" Target="System.Data" Category="References" />
+    <Link Source="System.Data.Services" Target="System.Data.Entity" Category="References" />
+    <Link Source="System.Data.Services" Target="System.Data.Linq" Category="References" />
+    <Link Source="System.Data.Services" Target="System.Data.Services.Client" Category="References" />
+    <Link Source="System.Data.Services" Target="System.Runtime.Serialization" Category="References" />
+    <Link Source="System.Data.Services" Target="System.ServiceModel" Category="References" />
+    <Link Source="System.Data.Services" Target="System.ServiceModel.Web" Category="References" />
+    <Link Source="System.Data.Services" Target="System.Web" Category="References" />
+    <Link Source="System.Data.Services" Target="System.Xml" Category="References" />
+    <Link Source="System.Data.Services" Target="System.Xml.Linq" Category="References" />
+    <Link Source="System.Data.Services" Target="mscorlib" Category="References" />
+    <Link Source="System.Data.Services.Client" Target="System" Category="References" />
+    <Link Source="System.Data.Services.Client" Target="System.Core" Category="References" />
+    <Link Source="System.Data.Services.Client" Target="System.Xml" Category="References" />
+    <Link Source="System.Data.Services.Client" Target="System.Xml.Linq" Category="References" />
+    <Link Source="System.Data.Services.Client" Target="mscorlib" Category="References" />
+    <Link Source="System.Data.Services.Design" Target="System" Category="References" />
+    <Link Source="System.Data.Services.Design" Target="System.Core" Category="References" />
+    <Link Source="System.Data.Services.Design" Target="System.Data.Entity" Category="References" />
+    <Link Source="System.Data.Services.Design" Target="System.Data.Services.Client" Category="References" />
+    <Link Source="System.Data.Services.Design" Target="System.Xml" Category="References" />
+    <Link Source="System.Data.Services.Design" Target="mscorlib" Category="References" />
+    <Link Source="System.Data.SqlXml" Target="System" Category="References" />
+    <Link Source="System.Data.SqlXml" Target="System.Xml" Category="References" />
+    <Link Source="System.Data.SqlXml" Target="mscorlib" Category="References" />
+    <Link Source="System.Deployment" Target="System" Category="References" />
+    <Link Source="System.Deployment" Target="System.Drawing" Category="References" />
+    <Link Source="System.Deployment" Target="System.Security" Category="References" />
+    <Link Source="System.Deployment" Target="System.Windows.Forms" Category="References" />
+    <Link Source="System.Deployment" Target="System.Xml" Category="References" />
+    <Link Source="System.Deployment" Target="mscorlib" Category="References" />
+    <Link Source="System.Design" Target="Accessibility" Category="References" />
+    <Link Source="System.Design" Target="System" Category="References" />
+    <Link Source="System.Design" Target="System.Configuration" Category="References" />
+    <Link Source="System.Design" Target="System.Data" Category="References" />
+    <Link Source="System.Design" Target="System.Data.OracleClient" Category="References" />
+    <Link Source="System.Design" Target="System.Drawing" Category="References" />
+    <Link Source="System.Design" Target="System.Drawing.Design" Category="References" />
+    <Link Source="System.Design" Target="System.Runtime.Serialization.Formatters.Soap" Category="References" />
+    <Link Source="System.Design" Target="System.Web" Category="References" />
+    <Link Source="System.Design" Target="System.Web.RegularExpressions" Category="References" />
+    <Link Source="System.Design" Target="System.Windows.Forms" Category="References" />
+    <Link Source="System.Design" Target="System.Xml" Category="References" />
+    <Link Source="System.Design" Target="mscorlib" Category="References" />
+    <Link Source="System.DirectoryServices" Target="System" Category="References" />
+    <Link Source="System.DirectoryServices" Target="System.Configuration" Category="References" />
+    <Link Source="System.DirectoryServices" Target="System.Xml" Category="References" />
+    <Link Source="System.DirectoryServices" Target="mscorlib" Category="References" />
+    <Link Source="System.DirectoryServices.AccountManagement" Target="System" Category="References" />
+    <Link Source="System.DirectoryServices.AccountManagement" Target="System.Configuration" Category="References" />
+    <Link Source="System.DirectoryServices.AccountManagement" Target="System.DirectoryServices" Category="References" />
+    <Link Source="System.DirectoryServices.AccountManagement" Target="System.DirectoryServices.Protocols" Category="References" />
+    <Link Source="System.DirectoryServices.AccountManagement" Target="System.Xml" Category="References" />
+    <Link Source="System.DirectoryServices.AccountManagement" Target="mscorlib" Category="References" />
+    <Link Source="System.DirectoryServices.Protocols" Target="System" Category="References" />
+    <Link Source="System.DirectoryServices.Protocols" Target="System.DirectoryServices" Category="References" />
+    <Link Source="System.DirectoryServices.Protocols" Target="System.Xml" Category="References" />
+    <Link Source="System.DirectoryServices.Protocols" Target="mscorlib" Category="References" />
+    <Link Source="System.Drawing" Target="System" Category="References" />
+    <Link Source="System.Drawing" Target="mscorlib" Category="References" />
+    <Link Source="System.Drawing.Design" Target="System" Category="References" />
+    <Link Source="System.Drawing.Design" Target="System.Drawing" Category="References" />
+    <Link Source="System.Drawing.Design" Target="System.Windows.Forms" Category="References" />
+    <Link Source="System.Drawing.Design" Target="mscorlib" Category="References" />
+    <Link Source="System.Dynamic" Target="System" Category="References" />
+    <Link Source="System.Dynamic" Target="System.Core" Category="References" />
+    <Link Source="System.Dynamic" Target="mscorlib" Category="References" />
+    <Link Source="System.EnterpriseServices" Target="Microsoft.VisualC" Category="References" />
+    <Link Source="System.EnterpriseServices" Target="System" Category="References" />
+    <Link Source="System.EnterpriseServices" Target="System.DirectoryServices" Category="References" />
+    <Link Source="System.EnterpriseServices" Target="System.Runtime.Remoting" Category="References" />
+    <Link Source="System.EnterpriseServices" Target="System.Transactions" Category="References" />
+    <Link Source="System.EnterpriseServices" Target="System.Xml" Category="References" />
+    <Link Source="System.EnterpriseServices" Target="mscorlib" Category="References" />
+    <Link Source="System.IO.Log" Target="SMDiagnostics" Category="References" />
+    <Link Source="System.IO.Log" Target="System" Category="References" />
+    <Link Source="System.IO.Log" Target="System.Runtime" Category="References" />
+    <Link Source="System.IO.Log" Target="mscorlib" Category="References" />
+    <Link Source="System.IdentityModel" Target="SMDiagnostics" Category="References" />
+    <Link Source="System.IdentityModel" Target="System" Category="References" />
+    <Link Source="System.IdentityModel" Target="System.Core" Category="References" />
+    <Link Source="System.IdentityModel" Target="System.Runtime" Category="References" />
+    <Link Source="System.IdentityModel" Target="System.Runtime.Serialization" Category="References" />
+    <Link Source="System.IdentityModel" Target="System.Security" Category="References" />
+    <Link Source="System.IdentityModel" Target="System.Web" Category="References" />
+    <Link Source="System.IdentityModel" Target="System.Xml" Category="References" />
+    <Link Source="System.IdentityModel" Target="mscorlib" Category="References" />
+    <Link Source="System.IdentityModel.Selectors" Target="SMDiagnostics" Category="References" />
+    <Link Source="System.IdentityModel.Selectors" Target="System" Category="References" />
+    <Link Source="System.IdentityModel.Selectors" Target="System.IdentityModel" Category="References" />
+    <Link Source="System.IdentityModel.Selectors" Target="System.Runtime" Category="References" />
+    <Link Source="System.IdentityModel.Selectors" Target="System.Runtime.Serialization" Category="References" />
+    <Link Source="System.IdentityModel.Selectors" Target="System.Xml" Category="References" />
+    <Link Source="System.IdentityModel.Selectors" Target="mscorlib" Category="References" />
+    <Link Source="System.Management" Target="Microsoft.JScript" Category="References" />
+    <Link Source="System.Management" Target="System" Category="References" />
+    <Link Source="System.Management" Target="System.Configuration.Install" Category="References" />
+    <Link Source="System.Management" Target="mscorlib" Category="References" />
+    <Link Source="System.Management.Instrumentation" Target="System" Category="References" />
+    <Link Source="System.Management.Instrumentation" Target="System.Configuration.Install" Category="References" />
+    <Link Source="System.Management.Instrumentation" Target="System.Core" Category="References" />
+    <Link Source="System.Management.Instrumentation" Target="System.Management" Category="References" />
+    <Link Source="System.Management.Instrumentation" Target="mscorlib" Category="References" />
+    <Link Source="System.Messaging" Target="System" Category="References" />
+    <Link Source="System.Messaging" Target="System.Configuration.Install" Category="References" />
+    <Link Source="System.Messaging" Target="System.DirectoryServices" Category="References" />
+    <Link Source="System.Messaging" Target="System.Drawing" Category="References" />
+    <Link Source="System.Messaging" Target="System.Transactions" Category="References" />
+    <Link Source="System.Messaging" Target="System.Windows.Forms" Category="References" />
+    <Link Source="System.Messaging" Target="System.Xml" Category="References" />
+    <Link Source="System.Messaging" Target="mscorlib" Category="References" />
+    <Link Source="System.Net" Target="System" Category="References" />
+    <Link Source="System.Net" Target="mscorlib" Category="References" />
+    <Link Source="System.Printing" Target="Microsoft.VisualC" Category="References" />
+    <Link Source="System.Printing" Target="PresentationCore" Category="References" />
+    <Link Source="System.Printing" Target="PresentationFramework" Category="References" />
+    <Link Source="System.Printing" Target="ReachFramework" Category="References" />
+    <Link Source="System.Printing" Target="System" Category="References" />
+    <Link Source="System.Printing" Target="System.Drawing" Category="References" />
+    <Link Source="System.Printing" Target="System.Xml" Category="References" />
+    <Link Source="System.Printing" Target="WindowsBase" Category="References" />
+    <Link Source="System.Printing" Target="mscorlib" Category="References" />
+    <Link Source="System.Runtime" Target="System" Category="References" />
+    <Link Source="System.Runtime" Target="System.Configuration" Category="References" />
+    <Link Source="System.Runtime" Target="System.Core" Category="References" />
+    <Link Source="System.Runtime" Target="System.ServiceModel" Category="References" />
+    <Link Source="System.Runtime" Target="System.Transactions" Category="References" />
+    <Link Source="System.Runtime" Target="System.WorkflowServices" Category="References" />
+    <Link Source="System.Runtime" Target="System.Xaml" Category="References" />
+    <Link Source="System.Runtime" Target="System.Xml" Category="References" />
+    <Link Source="System.Runtime" Target="System.Xml.Linq" Category="References" />
+    <Link Source="System.Runtime" Target="mscorlib" Category="References" />
+    <Link Source="System.Runtime.Remoting" Target="System" Category="References" />
+    <Link Source="System.Runtime.Remoting" Target="System.DirectoryServices" Category="References" />
+    <Link Source="System.Runtime.Remoting" Target="System.Runtime.Serialization.Formatters.Soap" Category="References" />
+    <Link Source="System.Runtime.Remoting" Target="System.Web" Category="References" />
+    <Link Source="System.Runtime.Remoting" Target="System.Xml" Category="References" />
+    <Link Source="System.Runtime.Remoting" Target="mscorlib" Category="References" />
+    <Link Source="System.Runtime.Serialization" Target="SMDiagnostics" Category="References" />
+    <Link Source="System.Runtime.Serialization" Target="System" Category="References" />
+    <Link Source="System.Runtime.Serialization" Target="System.Configuration" Category="References" />
+    <Link Source="System.Runtime.Serialization" Target="System.Runtime" Category="References" />
+    <Link Source="System.Runtime.Serialization" Target="System.Xml" Category="References" />
+    <Link Source="System.Runtime.Serialization" Target="mscorlib" Category="References" />
+    <Link Source="System.Runtime.Serialization.Formatters.Soap" Target="System.Xml" Category="References" />
+    <Link Source="System.Runtime.Serialization.Formatters.Soap" Target="mscorlib" Category="References" />
+    <Link Source="System.Security" Target="System" Category="References" />
+    <Link Source="System.Security" Target="System.Xml" Category="References" />
+    <Link Source="System.Security" Target="mscorlib" Category="References" />
+    <Link Source="System.ServiceModel" Target="Microsoft.Transactions.Bridge" Category="References" />
+    <Link Source="System.ServiceModel" Target="SMDiagnostics" Category="References" />
+    <Link Source="System.ServiceModel" Target="System" Category="References" />
+    <Link Source="System.ServiceModel" Target="System.Configuration" Category="References" />
+    <Link Source="System.ServiceModel" Target="System.Core" Category="References" />
+    <Link Source="System.ServiceModel" Target="System.DirectoryServices" Category="References" />
+    <Link Source="System.ServiceModel" Target="System.EnterpriseServices" Category="References" />
+    <Link Source="System.ServiceModel" Target="System.IdentityModel" Category="References" />
+    <Link Source="System.ServiceModel" Target="System.IdentityModel.Selectors" Category="References" />
+    <Link Source="System.ServiceModel" Target="System.Messaging" Category="References" />
+    <Link Source="System.ServiceModel" Target="System.Runtime" Category="References" />
+    <Link Source="System.ServiceModel" Target="System.Runtime.Serialization" Category="References" />
+    <Link Source="System.ServiceModel" Target="System.Security" Category="References" />
+    <Link Source="System.ServiceModel" Target="System.ServiceProcess" Category="References" />
+    <Link Source="System.ServiceModel" Target="System.Transactions" Category="References" />
+    <Link Source="System.ServiceModel" Target="System.Web" Category="References" />
+    <Link Source="System.ServiceModel" Target="System.Web.RegularExpressions" Category="References" />
+    <Link Source="System.ServiceModel" Target="System.Web.Services" Category="References" />
+    <Link Source="System.ServiceModel" Target="System.Xaml.Hosting" Category="References" />
+    <Link Source="System.ServiceModel" Target="System.Xml" Category="References" />
+    <Link Source="System.ServiceModel" Target="WindowsBase" Category="References" />
+    <Link Source="System.ServiceModel" Target="mscorlib" Category="References" />
+    <Link Source="System.ServiceModel.Activities" Target="System" Category="References" />
+    <Link Source="System.ServiceModel.Activities" Target="System.Activities" Category="References" />
+    <Link Source="System.ServiceModel.Activities" Target="System.Configuration" Category="References" />
+    <Link Source="System.ServiceModel.Activities" Target="System.Core" Category="References" />
+    <Link Source="System.ServiceModel.Activities" Target="System.Data" Category="References" />
+    <Link Source="System.ServiceModel.Activities" Target="System.IdentityModel" Category="References" />
+    <Link Source="System.ServiceModel.Activities" Target="System.Runtime" Category="References" />
+    <Link Source="System.ServiceModel.Activities" Target="System.Runtime.Serialization" Category="References" />
+    <Link Source="System.ServiceModel.Activities" Target="System.ServiceModel" Category="References" />
+    <Link Source="System.ServiceModel.Activities" Target="System.ServiceModel.Channels" Category="References" />
+    <Link Source="System.ServiceModel.Activities" Target="System.Transactions" Category="References" />
+    <Link Source="System.ServiceModel.Activities" Target="System.Web" Category="References" />
+    <Link Source="System.ServiceModel.Activities" Target="System.Workflow.Activities" Category="References" />
+    <Link Source="System.ServiceModel.Activities" Target="System.Workflow.Runtime" Category="References" />
+    <Link Source="System.ServiceModel.Activities" Target="System.WorkflowServices" Category="References" />
+    <Link Source="System.ServiceModel.Activities" Target="System.Xaml" Category="References" />
+    <Link Source="System.ServiceModel.Activities" Target="System.Xml" Category="References" />
+    <Link Source="System.ServiceModel.Activities" Target="System.Xml.Linq" Category="References" />
+    <Link Source="System.ServiceModel.Activities" Target="WindowsBase" Category="References" />
+    <Link Source="System.ServiceModel.Activities" Target="mscorlib" Category="References" />
+    <Link Source="System.ServiceModel.Channels" Target="System" Category="References" />
+    <Link Source="System.ServiceModel.Channels" Target="System.Configuration" Category="References" />
+    <Link Source="System.ServiceModel.Channels" Target="System.Runtime" Category="References" />
+    <Link Source="System.ServiceModel.Channels" Target="System.Runtime.Serialization" Category="References" />
+    <Link Source="System.ServiceModel.Channels" Target="System.ServiceModel" Category="References" />
+    <Link Source="System.ServiceModel.Channels" Target="System.ServiceModel.Web" Category="References" />
+    <Link Source="System.ServiceModel.Channels" Target="System.Web.Services" Category="References" />
+    <Link Source="System.ServiceModel.Channels" Target="System.WorkflowServices" Category="References" />
+    <Link Source="System.ServiceModel.Channels" Target="System.Xml" Category="References" />
+    <Link Source="System.ServiceModel.Channels" Target="WindowsBase" Category="References" />
+    <Link Source="System.ServiceModel.Channels" Target="mscorlib" Category="References" />
+    <Link Source="System.ServiceModel.Discovery" Target="System" Category="References" />
+    <Link Source="System.ServiceModel.Discovery" Target="System.Configuration" Category="References" />
+    <Link Source="System.ServiceModel.Discovery" Target="System.Runtime" Category="References" />
+    <Link Source="System.ServiceModel.Discovery" Target="System.Runtime.Serialization" Category="References" />
+    <Link Source="System.ServiceModel.Discovery" Target="System.ServiceModel" Category="References" />
+    <Link Source="System.ServiceModel.Discovery" Target="System.Xml" Category="References" />
+    <Link Source="System.ServiceModel.Discovery" Target="System.Xml.Linq" Category="References" />
+    <Link Source="System.ServiceModel.Discovery" Target="mscorlib" Category="References" />
+    <Link Source="System.ServiceModel.Routing" Target="System" Category="References" />
+    <Link Source="System.ServiceModel.Routing" Target="System.Configuration" Category="References" />
+    <Link Source="System.ServiceModel.Routing" Target="System.Core" Category="References" />
+    <Link Source="System.ServiceModel.Routing" Target="System.Runtime" Category="References" />
+    <Link Source="System.ServiceModel.Routing" Target="System.Runtime.Serialization" Category="References" />
+    <Link Source="System.ServiceModel.Routing" Target="System.ServiceModel" Category="References" />
+    <Link Source="System.ServiceModel.Routing" Target="System.Transactions" Category="References" />
+    <Link Source="System.ServiceModel.Routing" Target="System.Xml" Category="References" />
+    <Link Source="System.ServiceModel.Routing" Target="mscorlib" Category="References" />
+    <Link Source="System.ServiceModel.Web" Target="SMDiagnostics" Category="References" />
+    <Link Source="System.ServiceModel.Web" Target="System" Category="References" />
+    <Link Source="System.ServiceModel.Web" Target="System.Configuration" Category="References" />
+    <Link Source="System.ServiceModel.Web" Target="System.Core" Category="References" />
+    <Link Source="System.ServiceModel.Web" Target="System.Runtime" Category="References" />
+    <Link Source="System.ServiceModel.Web" Target="System.Runtime.Serialization" Category="References" />
+    <Link Source="System.ServiceModel.Web" Target="System.ServiceModel" Category="References" />
+    <Link Source="System.ServiceModel.Web" Target="System.Web" Category="References" />
+    <Link Source="System.ServiceModel.Web" Target="System.Web.Extensions" Category="References" />
+    <Link Source="System.ServiceModel.Web" Target="System.Xml" Category="References" />
+    <Link Source="System.ServiceModel.Web" Target="System.Xml.Linq" Category="References" />
+    <Link Source="System.ServiceModel.Web" Target="mscorlib" Category="References" />
+    <Link Source="System.ServiceProcess" Target="System" Category="References" />
+    <Link Source="System.ServiceProcess" Target="System.Configuration.Install" Category="References" />
+    <Link Source="System.ServiceProcess" Target="System.Drawing" Category="References" />
+    <Link Source="System.ServiceProcess" Target="System.Windows.Forms" Category="References" />
+    <Link Source="System.ServiceProcess" Target="mscorlib" Category="References" />
+    <Link Source="System.Speech" Target="System" Category="References" />
+    <Link Source="System.Speech" Target="System.Xml" Category="References" />
+    <Link Source="System.Speech" Target="mscorlib" Category="References" />
+    <Link Source="System.Speech" Target="sysglobl" Category="References" />
+    <Link Source="System.Transactions" Target="System" Category="References" />
+    <Link Source="System.Transactions" Target="System.Configuration" Category="References" />
+    <Link Source="System.Transactions" Target="System.EnterpriseServices" Category="References" />
+    <Link Source="System.Transactions" Target="System.Xml" Category="References" />
+    <Link Source="System.Transactions" Target="mscorlib" Category="References" />
+    <Link Source="System.Web" Target="Microsoft.Build.Framework" Category="References" />
+    <Link Source="System.Web" Target="Microsoft.Build.Tasks.v4.0" Category="References" />
+    <Link Source="System.Web" Target="Microsoft.Build.Utilities.v4.0" Category="References" />
+    <Link Source="System.Web" Target="System" Category="References" />
+    <Link Source="System.Web" Target="System.Configuration" Category="References" />
+    <Link Source="System.Web" Target="System.Core" Category="References" />
+    <Link Source="System.Web" Target="System.Data" Category="References" />
+    <Link Source="System.Web" Target="System.Design" Category="References" />
+    <Link Source="System.Web" Target="System.DirectoryServices" Category="References" />
+    <Link Source="System.Web" Target="System.DirectoryServices.Protocols" Category="References" />
+    <Link Source="System.Web" Target="System.Drawing" Category="References" />
+    <Link Source="System.Web" Target="System.EnterpriseServices" Category="References" />
+    <Link Source="System.Web" Target="System.ServiceProcess" Category="References" />
+    <Link Source="System.Web" Target="System.Web.RegularExpressions" Category="References" />
+    <Link Source="System.Web" Target="System.Web.Services" Category="References" />
+    <Link Source="System.Web" Target="System.Windows.Forms" Category="References" />
+    <Link Source="System.Web" Target="System.Xml" Category="References" />
+    <Link Source="System.Web" Target="mscorlib" Category="References" />
+    <Link Source="System.Web.Abstractions" Target="System.Web" Category="References" />
+    <Link Source="System.Web.Abstractions" Target="mscorlib" Category="References" />
+    <Link Source="System.Web.DataVisualization" Target="System" Category="References" />
+    <Link Source="System.Web.DataVisualization" Target="System.Data" Category="References" />
+    <Link Source="System.Web.DataVisualization" Target="System.Drawing" Category="References" />
+    <Link Source="System.Web.DataVisualization" Target="System.Web" Category="References" />
+    <Link Source="System.Web.DataVisualization" Target="System.Xml" Category="References" />
+    <Link Source="System.Web.DataVisualization" Target="mscorlib" Category="References" />
+    <Link Source="System.Web.DataVisualization.Design" Target="System" Category="References" />
+    <Link Source="System.Web.DataVisualization.Design" Target="System.Configuration" Category="References" />
+    <Link Source="System.Web.DataVisualization.Design" Target="System.Design" Category="References" />
+    <Link Source="System.Web.DataVisualization.Design" Target="System.Drawing" Category="References" />
+    <Link Source="System.Web.DataVisualization.Design" Target="System.Drawing.Design" Category="References" />
+    <Link Source="System.Web.DataVisualization.Design" Target="System.Web" Category="References" />
+    <Link Source="System.Web.DataVisualization.Design" Target="System.Web.DataVisualization" Category="References" />
+    <Link Source="System.Web.DataVisualization.Design" Target="System.Windows.Forms" Category="References" />
+    <Link Source="System.Web.DataVisualization.Design" Target="System.Xml" Category="References" />
+    <Link Source="System.Web.DataVisualization.Design" Target="mscorlib" Category="References" />
+    <Link Source="System.Web.DynamicData" Target="System" Category="References" />
+    <Link Source="System.Web.DynamicData" Target="System.ComponentModel.DataAnnotations" Category="References" />
+    <Link Source="System.Web.DynamicData" Target="System.Core" Category="References" />
+    <Link Source="System.Web.DynamicData" Target="System.Data" Category="References" />
+    <Link Source="System.Web.DynamicData" Target="System.Data.Entity" Category="References" />
+    <Link Source="System.Web.DynamicData" Target="System.Data.Linq" Category="References" />
+    <Link Source="System.Web.DynamicData" Target="System.Drawing" Category="References" />
+    <Link Source="System.Web.DynamicData" Target="System.Web" Category="References" />
+    <Link Source="System.Web.DynamicData" Target="System.Web.Entity" Category="References" />
+    <Link Source="System.Web.DynamicData" Target="System.Web.Extensions" Category="References" />
+    <Link Source="System.Web.DynamicData" Target="System.Xml.Linq" Category="References" />
+    <Link Source="System.Web.DynamicData" Target="mscorlib" Category="References" />
+    <Link Source="System.Web.DynamicData.Design" Target="System" Category="References" />
+    <Link Source="System.Web.DynamicData.Design" Target="System.Core" Category="References" />
+    <Link Source="System.Web.DynamicData.Design" Target="System.Design" Category="References" />
+    <Link Source="System.Web.DynamicData.Design" Target="System.Drawing" Category="References" />
+    <Link Source="System.Web.DynamicData.Design" Target="System.Web" Category="References" />
+    <Link Source="System.Web.DynamicData.Design" Target="System.Web.DynamicData" Category="References" />
+    <Link Source="System.Web.DynamicData.Design" Target="mscorlib" Category="References" />
+    <Link Source="System.Web.Entity" Target="System" Category="References" />
+    <Link Source="System.Web.Entity" Target="System.Core" Category="References" />
+    <Link Source="System.Web.Entity" Target="System.Data" Category="References" />
+    <Link Source="System.Web.Entity" Target="System.Data.Entity" Category="References" />
+    <Link Source="System.Web.Entity" Target="System.Drawing" Category="References" />
+    <Link Source="System.Web.Entity" Target="System.Web" Category="References" />
+    <Link Source="System.Web.Entity" Target="System.Web.Extensions" Category="References" />
+    <Link Source="System.Web.Entity" Target="mscorlib" Category="References" />
+    <Link Source="System.Web.Entity.Design" Target="System" Category="References" />
+    <Link Source="System.Web.Entity.Design" Target="System.Configuration" Category="References" />
+    <Link Source="System.Web.Entity.Design" Target="System.Core" Category="References" />
+    <Link Source="System.Web.Entity.Design" Target="System.Data" Category="References" />
+    <Link Source="System.Web.Entity.Design" Target="System.Data.Entity" Category="References" />
+    <Link Source="System.Web.Entity.Design" Target="System.Design" Category="References" />
+    <Link Source="System.Web.Entity.Design" Target="System.Drawing" Category="References" />
+    <Link Source="System.Web.Entity.Design" Target="System.Web" Category="References" />
+    <Link Source="System.Web.Entity.Design" Target="System.Web.Entity" Category="References" />
+    <Link Source="System.Web.Entity.Design" Target="System.Windows.Forms" Category="References" />
+    <Link Source="System.Web.Entity.Design" Target="mscorlib" Category="References" />
+    <Link Source="System.Web.Extensions" Target="System" Category="References" />
+    <Link Source="System.Web.Extensions" Target="System.Configuration" Category="References" />
+    <Link Source="System.Web.Extensions" Target="System.Core" Category="References" />
+    <Link Source="System.Web.Extensions" Target="System.Data" Category="References" />
+    <Link Source="System.Web.Extensions" Target="System.Data.Entity" Category="References" />
+    <Link Source="System.Web.Extensions" Target="System.Data.Linq" Category="References" />
+    <Link Source="System.Web.Extensions" Target="System.Data.Services.Client" Category="References" />
+    <Link Source="System.Web.Extensions" Target="System.Data.Services.Design" Category="References" />
+    <Link Source="System.Web.Extensions" Target="System.Design" Category="References" />
+    <Link Source="System.Web.Extensions" Target="System.Drawing" Category="References" />
+    <Link Source="System.Web.Extensions" Target="System.Runtime.Serialization" Category="References" />
+    <Link Source="System.Web.Extensions" Target="System.ServiceModel" Category="References" />
+    <Link Source="System.Web.Extensions" Target="System.ServiceModel.Web" Category="References" />
+    <Link Source="System.Web.Extensions" Target="System.Web" Category="References" />
+    <Link Source="System.Web.Extensions" Target="System.Web.Services" Category="References" />
+    <Link Source="System.Web.Extensions" Target="System.Windows.Forms" Category="References" />
+    <Link Source="System.Web.Extensions" Target="System.Xml" Category="References" />
+    <Link Source="System.Web.Extensions" Target="mscorlib" Category="References" />
+    <Link Source="System.Web.Extensions.Design" Target="System" Category="References" />
+    <Link Source="System.Web.Extensions.Design" Target="System.Data" Category="References" />
+    <Link Source="System.Web.Extensions.Design" Target="System.Data.Linq" Category="References" />
+    <Link Source="System.Web.Extensions.Design" Target="System.Design" Category="References" />
+    <Link Source="System.Web.Extensions.Design" Target="System.Drawing" Category="References" />
+    <Link Source="System.Web.Extensions.Design" Target="System.Web" Category="References" />
+    <Link Source="System.Web.Extensions.Design" Target="System.Web.Extensions" Category="References" />
+    <Link Source="System.Web.Extensions.Design" Target="System.Windows.Forms" Category="References" />
+    <Link Source="System.Web.Extensions.Design" Target="mscorlib" Category="References" />
+    <Link Source="System.Web.Mobile" Target="System" Category="References" />
+    <Link Source="System.Web.Mobile" Target="System.Configuration" Category="References" />
+    <Link Source="System.Web.Mobile" Target="System.Data" Category="References" />
+    <Link Source="System.Web.Mobile" Target="System.Design" Category="References" />
+    <Link Source="System.Web.Mobile" Target="System.Drawing" Category="References" />
+    <Link Source="System.Web.Mobile" Target="System.Web" Category="References" />
+    <Link Source="System.Web.Mobile" Target="System.Web.RegularExpressions" Category="References" />
+    <Link Source="System.Web.Mobile" Target="System.Windows.Forms" Category="References" />
+    <Link Source="System.Web.Mobile" Target="System.Xml" Category="References" />
+    <Link Source="System.Web.Mobile" Target="mscorlib" Category="References" />
+    <Link Source="System.Web.RegularExpressions" Target="System" Category="References" />
+    <Link Source="System.Web.RegularExpressions" Target="mscorlib" Category="References" />
+    <Link Source="System.Web.Routing" Target="System.Web" Category="References" />
+    <Link Source="System.Web.Routing" Target="mscorlib" Category="References" />
+    <Link Source="System.Web.Services" Target="System" Category="References" />
+    <Link Source="System.Web.Services" Target="System.Configuration" Category="References" />
+    <Link Source="System.Web.Services" Target="System.Data" Category="References" />
+    <Link Source="System.Web.Services" Target="System.Design" Category="References" />
+    <Link Source="System.Web.Services" Target="System.DirectoryServices" Category="References" />
+    <Link Source="System.Web.Services" Target="System.EnterpriseServices" Category="References" />
+    <Link Source="System.Web.Services" Target="System.Web" Category="References" />
+    <Link Source="System.Web.Services" Target="System.Xml" Category="References" />
+    <Link Source="System.Web.Services" Target="mscorlib" Category="References" />
+    <Link Source="System.Windows.Forms" Target="Accessibility" Category="References" />
+    <Link Source="System.Windows.Forms" Target="System" Category="References" />
+    <Link Source="System.Windows.Forms" Target="System.Configuration" Category="References" />
+    <Link Source="System.Windows.Forms" Target="System.Deployment" Category="References" />
+    <Link Source="System.Windows.Forms" Target="System.Drawing" Category="References" />
+    <Link Source="System.Windows.Forms" Target="System.Runtime.Serialization.Formatters.Soap" Category="References" />
+    <Link Source="System.Windows.Forms" Target="System.Security" Category="References" />
+    <Link Source="System.Windows.Forms" Target="System.Xml" Category="References" />
+    <Link Source="System.Windows.Forms" Target="mscorlib" Category="References" />
+    <Link Source="System.Windows.Forms.DataVisualization" Target="System" Category="References" />
+    <Link Source="System.Windows.Forms.DataVisualization" Target="System.Data" Category="References" />
+    <Link Source="System.Windows.Forms.DataVisualization" Target="System.Drawing" Category="References" />
+    <Link Source="System.Windows.Forms.DataVisualization" Target="System.Windows.Forms" Category="References" />
+    <Link Source="System.Windows.Forms.DataVisualization" Target="System.Xml" Category="References" />
+    <Link Source="System.Windows.Forms.DataVisualization" Target="mscorlib" Category="References" />
+    <Link Source="System.Windows.Forms.DataVisualization.Design" Target="System" Category="References" />
+    <Link Source="System.Windows.Forms.DataVisualization.Design" Target="System.Design" Category="References" />
+    <Link Source="System.Windows.Forms.DataVisualization.Design" Target="System.Drawing" Category="References" />
+    <Link Source="System.Windows.Forms.DataVisualization.Design" Target="System.Drawing.Design" Category="References" />
+    <Link Source="System.Windows.Forms.DataVisualization.Design" Target="System.Windows.Forms" Category="References" />
+    <Link Source="System.Windows.Forms.DataVisualization.Design" Target="System.Windows.Forms.DataVisualization" Category="References" />
+    <Link Source="System.Windows.Forms.DataVisualization.Design" Target="mscorlib" Category="References" />
+    <Link Source="System.Windows.Presentation" Target="PresentationCore" Category="References" />
+    <Link Source="System.Windows.Presentation" Target="PresentationFramework" Category="References" />
+    <Link Source="System.Windows.Presentation" Target="System.AddIn" Category="References" />
+    <Link Source="System.Windows.Presentation" Target="System.AddIn.Contract" Category="References" />
+    <Link Source="System.Windows.Presentation" Target="System.Core" Category="References" />
+    <Link Source="System.Windows.Presentation" Target="WindowsBase" Category="References" />
+    <Link Source="System.Windows.Presentation" Target="mscorlib" Category="References" />
+    <Link Source="System.Workflow.Activities" Target="System" Category="References" />
+    <Link Source="System.Workflow.Activities" Target="System.Configuration" Category="References" />
+    <Link Source="System.Workflow.Activities" Target="System.DirectoryServices" Category="References" />
+    <Link Source="System.Workflow.Activities" Target="System.Drawing" Category="References" />
+    <Link Source="System.Workflow.Activities" Target="System.Web" Category="References" />
+    <Link Source="System.Workflow.Activities" Target="System.Web.Services" Category="References" />
+    <Link Source="System.Workflow.Activities" Target="System.Windows.Forms" Category="References" />
+    <Link Source="System.Workflow.Activities" Target="System.Workflow.ComponentModel" Category="References" />
+    <Link Source="System.Workflow.Activities" Target="System.Workflow.Runtime" Category="References" />
+    <Link Source="System.Workflow.Activities" Target="System.Xml" Category="References" />
+    <Link Source="System.Workflow.Activities" Target="mscorlib" Category="References" />
+    <Link Source="System.Workflow.ComponentModel" Target="Microsoft.Build.Framework" Category="References" />
+    <Link Source="System.Workflow.ComponentModel" Target="Microsoft.Build.Tasks.v4.0" Category="References" />
+    <Link Source="System.Workflow.ComponentModel" Target="Microsoft.Build.Utilities.v4.0" Category="References" />
+    <Link Source="System.Workflow.ComponentModel" Target="Microsoft.Workflow.Compiler" Category="References" />
+    <Link Source="System.Workflow.ComponentModel" Target="System" Category="References" />
+    <Link Source="System.Workflow.ComponentModel" Target="System.Configuration" Category="References" />
+    <Link Source="System.Workflow.ComponentModel" Target="System.Design" Category="References" />
+    <Link Source="System.Workflow.ComponentModel" Target="System.Drawing" Category="References" />
+    <Link Source="System.Workflow.ComponentModel" Target="System.Transactions" Category="References" />
+    <Link Source="System.Workflow.ComponentModel" Target="System.Web" Category="References" />
+    <Link Source="System.Workflow.ComponentModel" Target="System.Windows.Forms" Category="References" />
+    <Link Source="System.Workflow.ComponentModel" Target="System.Xml" Category="References" />
+    <Link Source="System.Workflow.ComponentModel" Target="mscorlib" Category="References" />
+    <Link Source="System.Workflow.Runtime" Target="System" Category="References" />
+    <Link Source="System.Workflow.Runtime" Target="System.Configuration" Category="References" />
+    <Link Source="System.Workflow.Runtime" Target="System.Data" Category="References" />
+    <Link Source="System.Workflow.Runtime" Target="System.Design" Category="References" />
+    <Link Source="System.Workflow.Runtime" Target="System.Messaging" Category="References" />
+    <Link Source="System.Workflow.Runtime" Target="System.Runtime.Remoting" Category="References" />
+    <Link Source="System.Workflow.Runtime" Target="System.Transactions" Category="References" />
+    <Link Source="System.Workflow.Runtime" Target="System.Web" Category="References" />
+    <Link Source="System.Workflow.Runtime" Target="System.Workflow.ComponentModel" Category="References" />
+    <Link Source="System.Workflow.Runtime" Target="System.Xml" Category="References" />
+    <Link Source="System.Workflow.Runtime" Target="mscorlib" Category="References" />
+    <Link Source="System.WorkflowServices" Target="SMDiagnostics" Category="References" />
+    <Link Source="System.WorkflowServices" Target="System" Category="References" />
+    <Link Source="System.WorkflowServices" Target="System.Activities" Category="References" />
+    <Link Source="System.WorkflowServices" Target="System.Configuration" Category="References" />
+    <Link Source="System.WorkflowServices" Target="System.Data" Category="References" />
+    <Link Source="System.WorkflowServices" Target="System.Design" Category="References" />
+    <Link Source="System.WorkflowServices" Target="System.Drawing" Category="References" />
+    <Link Source="System.WorkflowServices" Target="System.IdentityModel" Category="References" />
+    <Link Source="System.WorkflowServices" Target="System.Messaging" Category="References" />
+    <Link Source="System.WorkflowServices" Target="System.Runtime" Category="References" />
+    <Link Source="System.WorkflowServices" Target="System.Runtime.Serialization" Category="References" />
+    <Link Source="System.WorkflowServices" Target="System.ServiceModel" Category="References" />
+    <Link Source="System.WorkflowServices" Target="System.ServiceModel.Activities" Category="References" />
+    <Link Source="System.WorkflowServices" Target="System.Transactions" Category="References" />
+    <Link Source="System.WorkflowServices" Target="System.Web" Category="References" />
+    <Link Source="System.WorkflowServices" Target="System.Web.Services" Category="References" />
+    <Link Source="System.WorkflowServices" Target="System.Windows.Forms" Category="References" />
+    <Link Source="System.WorkflowServices" Target="System.Workflow.Activities" Category="References" />
+    <Link Source="System.WorkflowServices" Target="System.Workflow.ComponentModel" Category="References" />
+    <Link Source="System.WorkflowServices" Target="System.Workflow.Runtime" Category="References" />
+    <Link Source="System.WorkflowServices" Target="System.Xml" Category="References" />
+    <Link Source="System.WorkflowServices" Target="System.Xml.Linq" Category="References" />
+    <Link Source="System.WorkflowServices" Target="mscorlib" Category="References" />
+    <Link Source="System.Xaml" Target="System" Category="References" />
+    <Link Source="System.Xaml" Target="System.Xml" Category="References" />
+    <Link Source="System.Xaml" Target="WindowsBase" Category="References" />
+    <Link Source="System.Xaml" Target="mscorlib" Category="References" />
+    <Link Source="System.Xaml.Hosting" Target="System" Category="References" />
+    <Link Source="System.Xaml.Hosting" Target="System.Configuration" Category="References" />
+    <Link Source="System.Xaml.Hosting" Target="System.Core" Category="References" />
+    <Link Source="System.Xaml.Hosting" Target="System.Runtime" Category="References" />
+    <Link Source="System.Xaml.Hosting" Target="System.Web" Category="References" />
+    <Link Source="System.Xaml.Hosting" Target="System.Xaml" Category="References" />
+    <Link Source="System.Xaml.Hosting" Target="System.Xml" Category="References" />
+    <Link Source="System.Xaml.Hosting" Target="mscorlib" Category="References" />
+    <Link Source="System.Xml" Target="System" Category="References" />
+    <Link Source="System.Xml" Target="System.Configuration" Category="References" />
+    <Link Source="System.Xml" Target="System.Data.SqlXml" Category="References" />
+    <Link Source="System.Xml" Target="mscorlib" Category="References" />
+    <Link Source="System.Xml.Linq" Target="System" Category="References" />
+    <Link Source="System.Xml.Linq" Target="System.Core" Category="References" />
+    <Link Source="System.Xml.Linq" Target="System.Xml" Category="References" />
+    <Link Source="System.Xml.Linq" Target="mscorlib" Category="References" />
+    <Link Source="UIAutomationClient" Target="Accessibility" Category="References" />
+    <Link Source="UIAutomationClient" Target="System" Category="References" />
+    <Link Source="UIAutomationClient" Target="UIAutomationProvider" Category="References" />
+    <Link Source="UIAutomationClient" Target="UIAutomationTypes" Category="References" />
+    <Link Source="UIAutomationClient" Target="WindowsBase" Category="References" />
+    <Link Source="UIAutomationClient" Target="mscorlib" Category="References" />
+    <Link Source="UIAutomationClientsideProviders" Target="Accessibility" Category="References" />
+    <Link Source="UIAutomationClientsideProviders" Target="System" Category="References" />
+    <Link Source="UIAutomationClientsideProviders" Target="UIAutomationClient" Category="References" />
+    <Link Source="UIAutomationClientsideProviders" Target="UIAutomationProvider" Category="References" />
+    <Link Source="UIAutomationClientsideProviders" Target="UIAutomationTypes" Category="References" />
+    <Link Source="UIAutomationClientsideProviders" Target="WindowsBase" Category="References" />
+    <Link Source="UIAutomationClientsideProviders" Target="mscorlib" Category="References" />
+    <Link Source="UIAutomationProvider" Target="UIAutomationTypes" Category="References" />
+    <Link Source="UIAutomationProvider" Target="WindowsBase" Category="References" />
+    <Link Source="UIAutomationProvider" Target="mscorlib" Category="References" />
+    <Link Source="UIAutomationTypes" Target="mscorlib" Category="References" />
+    <Link Source="WindowsBase" Target="Accessibility" Category="References" />
+    <Link Source="WindowsBase" Target="System" Category="References" />
+    <Link Source="WindowsBase" Target="System.Security" Category="References" />
+    <Link Source="WindowsBase" Target="System.Xml" Category="References" />
+    <Link Source="WindowsBase" Target="mscorlib" Category="References" />
+    <Link Source="WindowsFormsIntegration" Target="PresentationCore" Category="References" />
+    <Link Source="WindowsFormsIntegration" Target="PresentationFramework" Category="References" />
+    <Link Source="WindowsFormsIntegration" Target="System" Category="References" />
+    <Link Source="WindowsFormsIntegration" Target="System.Drawing" Category="References" />
+    <Link Source="WindowsFormsIntegration" Target="System.Windows.Forms" Category="References" />
+    <Link Source="WindowsFormsIntegration" Target="UIAutomationProvider" Category="References" />
+    <Link Source="WindowsFormsIntegration" Target="WindowsBase" Category="References" />
+    <Link Source="WindowsFormsIntegration" Target="mscorlib" Category="References" />
+    <Link Source="XamlBuildTask" Target="Microsoft.Build.Framework" Category="References" />
+    <Link Source="XamlBuildTask" Target="Microsoft.Build.Utilities.v4.0" Category="References" />
+    <Link Source="XamlBuildTask" Target="System" Category="References" />
+    <Link Source="XamlBuildTask" Target="System.Core" Category="References" />
+    <Link Source="XamlBuildTask" Target="System.Runtime" Category="References" />
+    <Link Source="XamlBuildTask" Target="System.Xaml" Category="References" />
+    <Link Source="XamlBuildTask" Target="System.Xml" Category="References" />
+    <Link Source="XamlBuildTask" Target="System.Xml.Linq" Category="References" />
+    <Link Source="XamlBuildTask" Target="WindowsBase" Category="References" />
+    <Link Source="XamlBuildTask" Target="mscorlib" Category="References" />
+    <Link Source="stdole" Target="mscorlib" Category="References" />
+    <Link Source="sysglobl" Target="System.Xml" Category="References" />
+    <Link Source="sysglobl" Target="mscorlib" Category="References" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Assembly" Label="Assembly" BasedOn="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Assembly" IsProviderRoot="False" NavigationActionLabel="Assemblies" />
+    <Category Id="Contains" Label="Contains" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="External" Label="External" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Used by" IsContainment="True" OutgoingActionLabel="External" />
+    <Category Id="File" Label="File" CanBeDataDriven="True" Icon="File" IsProviderRoot="False" NavigationActionLabel="Files" />
+    <Category Id="Group" Label="Group" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="Groups" />
+    <Category Id="References" Label="References" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Referenced By" OutgoingActionLabel="References" />
+  </Categories>
+  <Properties>
+    <Property Id="AttractConsumers" DataType="System.Boolean" />
+    <Property Id="Background" Label="Background" Description="Background color" DataType="System.Windows.Media.Brush" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.Progression.GraphModel.GroupStyle" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Kind" Label="Kind" Description="Kind of Assembly" Group="CLR Properties" DataType="System.String" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Location" Label="Location" Description="Location of Assembly" Group="CLR Properties" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="RuntimeVersion" Label="Runtime Version" Description="The target runtime version" Group="CLR Properties" DataType="System.String" />
+    <Property Id="Seeder" Label="Seeder" Description="Seeder" DataType="System.Boolean" />
+    <Property Id="Version" Label="Version" Description="The version number" Group="CLR Properties" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Group" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Group')" />
+      <Setter Property="Background" Value="#FFC0E0C0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="External" ValueLabel="Has category">
+      <Condition Expression="HasCategory('External')" />
+      <Setter Property="Background" Value="#FFC0C0C0" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="Fx" Value="C:\Windows\Microsoft.NET\Framework\v4.0.20406" />
+    <Path Id="ReferenceAssemblies4.0" Value="C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" />
+    <Path Id="SystemRoot" Value="C:\Windows" />
+  </Paths>
+</DirectedGraph>

@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="TopToBottom" Layout="Sugiyama" ZoomLevel="1.79349302363413" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="EnvDTE.IExtensibleObject" Category="External" Access="Public" Assembly="EnvDTE" IsAbstract="True" Label="IExtensibleObject" Namespace="EnvDTE">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.OLE.Interop.IOleComponent" Category="External" Access="Public" Assembly="Microsoft.VisualStudio.OLE.Interop" IsAbstract="True" Label="IOleComponent" Namespace="Microsoft.VisualStudio.OLE.Interop">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.OLE.Interop.IServiceProvider" Category="External" Access="Public" Assembly="Microsoft.VisualStudio.OLE.Interop" IsAbstract="True" Label="IServiceProvider" Namespace="Microsoft.VisualStudio.OLE.Interop">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Progression.Action" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Interfaces" HelpText="Action class, used to wrap up all properties for actions registered with the DataManager" Label="Action" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.ActionSetOp" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Common" HelpText="Operator for a set of Query Actions. When executed, it executes each of the contained actions in sequence" Label="ActionSetOp" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.AlphaComparer" Category="Class" Access="Private" Assembly="Microsoft.VisualStudio.Progression.GraphControl" HelpText="Used for comparing Node DisplayNames" Label="AlphaComparer" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.Analyzer" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Analyzers" HelpText="This is a utility class used by analyzers to take care of reporting errors in a way that doesn't change the DataManager if nothing has changed from one run to another." IsAbstract="True" Label="Analyzer" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.BindableRun" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphControl" HelpText="A subclass of the Run element that exposes a DependencyProperty property to allow data binding." Label="BindableRun" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.BrowserGroup" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Interfaces" HelpText="BrowserGroup, used to wrap up all properties for browser groups registered with the DataManager" Label="BrowserGroup" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.BrowserToolWindowPane" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.VSPackage" HelpText="This is the class that represents the tool window pane" Label="BrowserToolWindowPane" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.CascadeBrowser" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.CascadeBrowser" HelpText="Cascade browser control" Label="CascadeBrowser" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.CircularReferenceDetector" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Analyzers" HelpText="Used to detecte circular references over multiple degrees of seperation using Tarjan's algorithm for finding strongly connected components. A group of vertices has the property of being strongly connected if each vertex of the group can be reached from each other vertex of the group, which by definition means the scc is circular." Label="CircularReferenceDetector" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.CommandService" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Common" Label="CommandService" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.ContentHolder" Category="Class" Access="Private" Assembly="Microsoft.VisualStudio.Progression.VSPackage" HelpText="This subclass of ElementHost contains the root WPF object" Label="ContentHolder" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.DataManager" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.DataManager" HelpText="The DataManager owns the dgml data and a set of translators that operator on the data. It also controls state transitions between the translators and has the ability to dynamically discover, load, and add new translators into the translation pipeline." Label="DataManager" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.DependencyMatrixLayout" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphControl" HelpText="This class provides a dependency matrix layout" Label="DependencyMatrixLayout" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.DynamicProperties" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.VSPackage" HelpText="This class implements ICustomTypeDescriptor and is used to populate a property grid with browsable GraphProperties from a given GraphObject, pulling localized property names and descriptions from the GraphProperty.Metadata." Label="DynamicProperties" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.EditingContext" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Common" HelpText="The EditingContext class contains contextual state about a designer. It stores one ContextItem per Type. Examples of context item state include the set of currently selected objects stored in a Selection object." Label="EditingContext" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.EditorFactory" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.VSPackage" HelpText="Factory for creating our editor object. It implements the IVsEditoryFactory interface and when a .dgml file is opened it creates a GraphControl docView and a VsTextBuffer for the docData." IsSealed="True" Label="EditorFactory" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.ErrorInformation" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphControl" HelpText="This class provides bindable error information for the ErrorInformationPage.xaml." Label="ErrorInformation" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.ErrorProvider" Category="Class" Access="Private" Assembly="Microsoft.VisualStudio.Progression.VSPackage" HelpText="Implements IGraphError and reports error in the VS error provider." Label="ErrorProvider" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.ErrorTaskProvider" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.VSPackage" HelpText="Custom VS Error List Provider class" Label="ErrorTaskProvider" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.ExecuteActionCompletedEventArgs" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Interfaces" HelpText="The args class for the ExecuteActionCompleted event" Label="ExecuteActionCompletedEventArgs" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.ExecuteQueryVisitor" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Common" HelpText="Executes a query in the data manager" Label="ExecuteQueryVisitor" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.ExponentialDoubleAnimation" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.WpfCommon" HelpText="This class provides a non-linear DoubleAnimation." Label="ExponentialDoubleAnimation" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.FilterOp" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Common" HelpText="Query operator for a Node Filter selection. When executed, it selects or excludes the members that contain the specified sub-string based on the value of the IsInclude flag" Label="FilterOp" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.GlassNodeShape" Category="Class" Access="Private" Assembly="Microsoft.VisualStudio.Progression.GraphControl" HelpText="This class is used to encapsulate the Visual properties of the Node with Glass style." Label="GlassNodeShape" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphCategoryDescriptor" Category="Class" Access="Private" Assembly="Microsoft.VisualStudio.Progression.VSPackage" HelpText="This is a custom PropertyDescriptor that is used to populate a row in the PropertyGrid with GraphCategory information and corresponding localized strings for labels and descriptions." Label="GraphCategoryDescriptor" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphControl" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphControl" HelpText="Directed Graph Canvas Control" Label="GraphControl" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphControlAutomationObject" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.VSPackage" HelpText="The object that is returned via VS Automation (DTE)" Label="GraphControlAutomationObject" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphControlTask" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.VSPackage" HelpText="Custom VS Task class" Label="GraphControlTask" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphControlTaskProvider" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.VSPackage" HelpText="Custom VS Task List Provider class" Label="GraphControlTaskProvider" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphDocument" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.VSPackage" HelpText="The GraphDocument encapsulates the IVsTextLines buffer and associated DataManager. It then keeps the two in sync. todo: switch all this to the new managed text buffer when it becomes available." Label="GraphDocument" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphDocumentWindowPane" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.VSPackage" Label="GraphDocumentWindowPane" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphLayout" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphControl" HelpText="A base class shared by our internal graph layout objects just to save common code." Label="GraphLayout" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.Graph" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="Represents a directed graph, consisting of nodes and links." Label="Graph" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.GraphCategory" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="Graph Categories are used to specify category information on a GraphObject, like nodes and links." Label="GraphCategory" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.GraphMetadata" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="This class is used to provide more information about a GraphProperty, including localized strings and flags for controlling how the property appears in a Property Grid window." Label="GraphMetadata" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="This class makes an object extensible by adding a strongly typed property bag of name/value pairs." IsAbstract="True" Label="GraphObject" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.GraphProperty" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="Graph Properties are used to annotate a GraphObject, like nodes and links." Label="GraphProperty" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.Link" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="Represents a link in the directed graph" Label="Link" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.Links" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="This class manages a collection of Links. This class does not preserve the order in which you added the links, so when you enumerate them you will get them back in a random order." Label="Links" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="Represents a node in the directed graph" Label="Node" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.Nodes" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphModel" HelpText="This class provides methods for manipulating a collection of Nodes. This class does not preserve the order in which you added the nodes, so when you enumerate them you will get them back in a random order." Label="Nodes" Namespace="Microsoft.VisualStudio.Progression.GraphModel" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphPropertyDescriptor" Category="Class" Access="Private" Assembly="Microsoft.VisualStudio.Progression.VSPackage" HelpText="This is a custom PropertyDescriptor that is used to populate a row in the PropertyGrid with XmlAttribute information and corresponding localized strings for labels and descriptions." Label="GraphPropertyDescriptor" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.GridLengthAnimation" Category="Class" Access="Private" Assembly="Microsoft.VisualStudio.Progression.CascadeBrowser" HelpText="This class animates a grid length (used for the sliding column animations)" Label="GridLengthAnimation" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.GroupNodeShape" Category="Class" Access="Private" Assembly="Microsoft.VisualStudio.Progression.GraphControl" HelpText="This class is used to encapsulate the Visual properties of the Group Container Node." Label="GroupNodeShape" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.HashChangeset" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Common" HelpText="A simple node changeset class." Label="HashChangeset" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.IChangeset" Category="Interface" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Interfaces" HelpText="Provides the public interface for Changesets. Changesets are used by providers to communicate to the DataManager about new/modified data which the DataManager or one of the other translators in the chain might be interested in. One use of changesets is by the Progression Browser, which uses changesets to figure out what nodes should be displayed in a node column after actions have been processed by providers." IsAbstract="True" Label="IChangeset" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.ICommandService" Category="Interface" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Interfaces" HelpText="The command service manages the dispatching of commands to registered command handlers. This mechanism is used to provide remote access to interesting commands in the product that are easily accessible via DTE." IsAbstract="True" Label="ICommandService" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.IDataManager" Category="Interface" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Interfaces" HelpText="Provides the public interface for Data Managers" IsAbstract="True" Label="IDataManager" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.IDgqlVisitor" Category="Interface" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Common" HelpText="Interface used to implement the Execute methods for each of the operators" IsAbstract="True" Label="IDgqlVisitor" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.IEditingContext" Category="Interface" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Interfaces" HelpText="An IEditingContext is used to get host specific objects for managing external state like IServiceProvider, IGraphError, Selection, etc." IsAbstract="True" Label="IEditingContext" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.IGraphError" Category="Interface" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Interfaces" HelpText="Interface implemented by objects that handle exceptions for Progression" IsAbstract="True" Label="IGraphError" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.IGraphLayout" Category="Interface" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphControl" HelpText="This interface is for plugging in a custom layout engine for the graph control." IsAbstract="True" Label="IGraphLayout" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.INodeNavigator" Category="Interface" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphControl" HelpText="Interface for navigating the UI to select a particular node and scroll it into view." IsAbstract="True" Label="INodeNavigator" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.IPendingAction" Category="Interface" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Interfaces" HelpText="Interface for invoked actions that are now pending execution" IsAbstract="True" Label="IPendingAction" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.IPendingActionIterator" Category="Interface" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Interfaces" HelpText="Interface for iterating over pending actions data" IsAbstract="True" Label="IPendingActionIterator" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.IProgressionBrowser" Category="Interface" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Interfaces" HelpText="Provides access to the Progression Browser" IsAbstract="True" Label="IProgressionBrowser" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.IPropertyBag" Category="Interface" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Interfaces" HelpText="PropertyBag used to map keys to values" IsAbstract="True" Label="IPropertyBag" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.IQueryExecutor" Category="Interface" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Interfaces" HelpText="Used to execute queries" IsAbstract="True" Label="IQueryExecutor" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.IQueryManager" Category="Interface" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Interfaces" HelpText="The query manager is used to execute a collection of queries. The queries are executed asynchronously and callbacks are fired when the queries complete." IsAbstract="True" Label="IQueryManager" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.ITranslator" Category="Interface" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Interfaces" HelpText="ITranslator defines the interface for translator components in the state machine / data pipeline" IsAbstract="True" Label="ITranslator" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.IVirtualChildManager" Category="Interface" Access="Public" Assembly="Microsoft.VisualStudio.Progression.WpfCommon" HelpText="This interface is implemented by the object that controls how the WPF objects are created when they are scrolled into view by the VirtualCanvas." IsAbstract="True" Label="IVirtualChildManager" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.IVSGraphControl" Category="Interface" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Interfaces" HelpText="Interface for the Graph Control package automation object" IsAbstract="True" Label="IVSGraphControl" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.IVsProgression" Category="Interface" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Interfaces" HelpText="The Progression service interface." IsAbstract="True" Label="IVsProgression" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.LinkDensityComparer" Category="Class" Access="Private" Assembly="Microsoft.VisualStudio.Progression.GraphControl" HelpText="Used for comparing link density of nodes" Label="LinkDensityComparer" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.LinkShape" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphControl" HelpText="The visual presentation of a Link" Label="LinkShape" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.MapZoom" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.WpfCommon" HelpText="The MapZoom gesture provides animated mouse wheel zooming behavior as well as a general management of the scale and translate transformations and a &quot;ScrollIntoView&quot; method than can be used by other gestures." Label="MapZoom" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.NavigationButton" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphControl" HelpText="NavigationButton is a control that contains two buttons for doing bi-directional navigation left and right." Label="NavigationButton" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.NavigationPath" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Interfaces" HelpText="NavigationPath, used to wrap up all properties for navigation paths registered with the DataManager" Label="NavigationPath" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.NodeSetBase" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Common" HelpText="Base for all NodeSet operands, including NodeSetOp, FilterOp and RootSetOp" IsAbstract="True" Label="NodeSetBase" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.NodeSetOp" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Common" HelpText="Query operator for a Node selection. When executed, it selects or excludes the specified Member based on the value of the IsInclude flag" Label="NodeSetOp" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.NodeShape" Category="Class" Access="Private" Assembly="Microsoft.VisualStudio.Progression.GraphControl" HelpText="This class is used to encapsulate the Visual properties of the Node." Label="NodeShape" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.PendingAction" Category="Class" Access="Private" Assembly="Microsoft.VisualStudio.Progression.DataManager" HelpText="Interface for invoked actions that are now pending execution" Label="PendingAction" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.PendingActionIterator" Category="Class" Access="Private" Assembly="Microsoft.VisualStudio.Progression.DataManager" HelpText="Interface for iterating over pending actions data" Label="PendingActionIterator" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.PlainNodeShape" Category="Class" Access="Private" Assembly="Microsoft.VisualStudio.Progression.GraphControl" Label="PlainNodeShape" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.ProgressionBrowser" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.ProgressionBrowser" HelpText="Hosts all of the custom controls" Label="ProgressionBrowser" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.ProgressionBrowserProxy" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.ProgressionBrowser" Label="ProgressionBrowserProxy" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.ProgressionErrorTask" Category="Class" Access="Private" Assembly="Microsoft.VisualStudio.Progression.VSPackage" HelpText="Error task specific to progression" Label="ProgressionErrorTask" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.ProgressionPackage" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.VSPackage" HelpText="The package for Progression inside Visual Studio" Label="ProgressionPackage" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.PropertyBag" Category="Class" Access="Private" Assembly="Microsoft.VisualStudio.Progression.VSPackage" HelpText="PropertyBag used to map keys to values" Label="PropertyBag" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.ProviderOp" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Common" HelpText="Query operator for a list of Providers When executed, the operator adds the Actions specified by the Providers to the Actions namespace for use by any subsequent actions in the query" Label="ProviderOp" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.QueryExecutor" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Common" HelpText="Used to execute queries" Label="QueryExecutor" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.QueryManager" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.DataManager" HelpText="This class is used to manage queries and query execution" Label="QueryManager" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.QueryOperation" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Common" HelpText="Base class for all DGQL operators" IsAbstract="True" Label="QueryOperation" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.SelectionRectVisual" Category="Class" Access="Private" Assembly="Microsoft.VisualStudio.Progression.WpfCommon" HelpText="Create a host visual derived from the FrameworkElement class for drawing the selection rubber band." Label="SelectionRectVisual" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.SquareLayout" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphControl" HelpText="The basic layout converter tries to fit the nodes into a square" Label="SquareLayout" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.StackDiagramLayout" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphControl" HelpText="Used to create a stack diagram" Label="StackDiagramLayout" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.SugiyamaLayout" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.GraphControl" Label="SugiyamaLayout" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.Translator" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Common" HelpText="The Translator class contains the dependency property definitions used by translators as attached properties." IsAbstract="True" Label="Translator" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.UnreferencedNodeDetector" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Analyzers" HelpText="Used to find unreferenced nodes" Label="UnreferencedNodeDetector" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.UnusedReferenceDetector" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.Analyzers" HelpText="Detects unused references from containers to other containers" Label="UnusedReferenceDetector" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Progression.VirtualCanvas" Category="Class" Access="Public" Assembly="Microsoft.VisualStudio.Progression.WpfCommon" HelpText="VirtualCanvas dynamically figures out which children are visible and creates their visuals and which children are no longer visible (due to scrolling or zooming) and destroys their visuals. This helps manage the memory consumption when you have so many objects that creating all the WPF visuals would take too much memory." Label="VirtualCanvas" Namespace="Microsoft.VisualStudio.Progression" />
+    <Node Id="Microsoft.VisualStudio.Shell.ErrorListProvider" Category="External" Access="Public" Assembly="Microsoft.VisualStudio.Shell.9.0" Label="ErrorListProvider" Namespace="Microsoft.VisualStudio.Shell">
+      <Category Ref="Class" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.ErrorTask" Category="External" Access="Public" Assembly="Microsoft.VisualStudio.Shell.9.0" Label="ErrorTask" Namespace="Microsoft.VisualStudio.Shell">
+      <Category Ref="Class" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.Interop.IVsBroadcastMessageEvents" Category="External" Access="Public" Assembly="Microsoft.VisualStudio.Shell.Interop" IsAbstract="True" Label="IVsBroadcastMessageEvents" Namespace="Microsoft.VisualStudio.Shell.Interop">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory" Category="External" Access="Public" Assembly="Microsoft.VisualStudio.Shell.Interop" IsAbstract="True" Label="IVsEditorFactory" Namespace="Microsoft.VisualStudio.Shell.Interop">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.Interop.IVsErrorItem" Category="External" Access="Public" Assembly="Microsoft.VisualStudio.Shell.Interop.8.0" IsAbstract="True" Label="IVsErrorItem" Namespace="Microsoft.VisualStudio.Shell.Interop">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.Interop.IVsPackage" Category="External" Access="Public" Assembly="Microsoft.VisualStudio.Shell.Interop" IsAbstract="True" Label="IVsPackage" Namespace="Microsoft.VisualStudio.Shell.Interop">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionOpts" Category="External" Access="Public" Assembly="Microsoft.VisualStudio.Shell.Interop" IsAbstract="True" Label="IVsPersistSolutionOpts" Namespace="Microsoft.VisualStudio.Shell.Interop">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.Interop.IVsProvideUserContext" Category="External" Access="Public" Assembly="Microsoft.VisualStudio.Shell.Interop" IsAbstract="True" Label="IVsProvideUserContext" Namespace="Microsoft.VisualStudio.Shell.Interop">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.Interop.IVsTaskItem" Category="External" Access="Public" Assembly="Microsoft.VisualStudio.Shell.Interop" IsAbstract="True" Label="IVsTaskItem" Namespace="Microsoft.VisualStudio.Shell.Interop">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.Interop.IVsTaskProvider" Category="External" Access="Public" Assembly="Microsoft.VisualStudio.Shell.Interop" IsAbstract="True" Label="IVsTaskProvider" Namespace="Microsoft.VisualStudio.Shell.Interop">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.Interop.IVsTaskProvider2" Category="External" Access="Public" Assembly="Microsoft.VisualStudio.Shell.Interop" IsAbstract="True" Label="IVsTaskProvider2" Namespace="Microsoft.VisualStudio.Shell.Interop">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.Interop.IVsTaskProvider3" Category="External" Access="Public" Assembly="Microsoft.VisualStudio.Shell.Interop.8.0" IsAbstract="True" Label="IVsTaskProvider3" Namespace="Microsoft.VisualStudio.Shell.Interop">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.Interop.IVsToolWindowFactory" Category="External" Access="Public" Assembly="Microsoft.VisualStudio.Shell.Interop" IsAbstract="True" Label="IVsToolWindowFactory" Namespace="Microsoft.VisualStudio.Shell.Interop">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.Interop.IVsUserSettings" Category="External" Access="Public" Assembly="Microsoft.VisualStudio.Shell.Interop.8.0" IsAbstract="True" Label="IVsUserSettings" Namespace="Microsoft.VisualStudio.Shell.Interop">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.Interop.IVsUserSettingsMigration" Category="External" Access="Public" Assembly="Microsoft.VisualStudio.Shell.Interop.9.0" IsAbstract="True" Label="IVsUserSettingsMigration" Namespace="Microsoft.VisualStudio.Shell.Interop">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.Interop.IVsWindowFrameNotify3" Category="External" Access="Public" Assembly="Microsoft.VisualStudio.Shell.Interop.8.0" IsAbstract="True" Label="IVsWindowFrameNotify3" Namespace="Microsoft.VisualStudio.Shell.Interop">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.Interop.IVsWindowPane" Category="External" Access="Public" Assembly="Microsoft.VisualStudio.Shell.Interop" IsAbstract="True" Label="IVsWindowPane" Namespace="Microsoft.VisualStudio.Shell.Interop">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.Package" Category="External" Access="Public" Assembly="Microsoft.VisualStudio.Shell.9.0" IsAbstract="True" Label="Package" Namespace="Microsoft.VisualStudio.Shell">
+      <Category Ref="Class" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.ProvideXmlViewAttribute" Category="Class" Access="Private" Assembly="Microsoft.VisualStudio.Progression.VSPackage" HelpText="This attribute adds a logical view to the editor created by an editor factory." IsSealed="True" Label="ProvideXmlViewAttribute" Namespace="Microsoft.VisualStudio.Shell" />
+    <Node Id="Microsoft.VisualStudio.Shell.RegistrationAttribute" Category="External" Access="Public" Assembly="Microsoft.VisualStudio.Shell.9.0" IsAbstract="True" Label="RegistrationAttribute" Namespace="Microsoft.VisualStudio.Shell">
+      <Category Ref="Class" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.Task" Category="External" Access="Public" Assembly="Microsoft.VisualStudio.Shell.9.0" Label="Task" Namespace="Microsoft.VisualStudio.Shell">
+      <Category Ref="Class" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.TaskProvider" Category="External" Access="Public" Assembly="Microsoft.VisualStudio.Shell.9.0" Label="TaskProvider" Namespace="Microsoft.VisualStudio.Shell">
+      <Category Ref="Class" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.ToolWindowPane" Category="External" Access="Public" Assembly="Microsoft.VisualStudio.Shell.9.0" IsAbstract="True" Label="ToolWindowPane" Namespace="Microsoft.VisualStudio.Shell">
+      <Category Ref="Class" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.Shell.WindowPane" Category="External" Access="Public" Assembly="Microsoft.VisualStudio.Shell.9.0" IsAbstract="True" Label="WindowPane" Namespace="Microsoft.VisualStudio.Shell">
+      <Category Ref="Class" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget" Category="External" Access="Public" Assembly="Microsoft.VisualStudio.TextManager.Interop" IsAbstract="True" Label="IVsFindTarget" Namespace="Microsoft.VisualStudio.TextManager.Interop">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.TextManager.Interop.IVsTextBufferDataEvents" Category="External" Access="Public" Assembly="Microsoft.VisualStudio.TextManager.Interop" IsAbstract="True" Label="IVsTextBufferDataEvents" Namespace="Microsoft.VisualStudio.TextManager.Interop">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="Microsoft.VisualStudio.TextManager.Interop.IVsTextLinesEvents" Category="External" Access="Public" Assembly="Microsoft.VisualStudio.TextManager.Interop" IsAbstract="True" Label="IVsTextLinesEvents" Namespace="Microsoft.VisualStudio.TextManager.Interop">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="System.Collections.Generic.IComparer`1&lt;System.String&gt;" Category="External" Access="Public" Assembly="mscorlib" IsAbstract="True" Label="IComparer&lt;String&gt;" Namespace="System.Collections.Generic">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="System.Collections.Generic.IEnumerable`1&lt;Microsoft.VisualStudio.Progression.GraphModel.Link&gt;" Category="External" Access="Public" Assembly="mscorlib" IsAbstract="True" Label="IEnumerable&lt;Link&gt;" Namespace="System.Collections.Generic">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="System.Collections.Generic.IEnumerable`1&lt;Microsoft.VisualStudio.Progression.GraphModel.Node&gt;" Category="External" Access="Public" Assembly="mscorlib" IsAbstract="True" Label="IEnumerable&lt;Node&gt;" Namespace="System.Collections.Generic">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="System.Collections.IEnumerable" Category="External" Access="Public" Assembly="mscorlib" HelpText="Exposes the enumerator, which supports a simple iteration over a non-generic collection." IsAbstract="True" Label="IEnumerable" Namespace="System.Collections">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="System.ComponentModel.AsyncCompletedEventArgs" Category="External" Access="Public" Assembly="System" HelpText="Provides data for the MethodNameCompleted event." Label="AsyncCompletedEventArgs" Namespace="System.ComponentModel">
+      <Category Ref="Class" />
+    </Node>
+    <Node Id="System.ComponentModel.Design.IServiceContainer" Category="External" Access="Public" Assembly="System" HelpText="Provides a container for services." IsAbstract="True" Label="IServiceContainer" Namespace="System.ComponentModel.Design">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="System.ComponentModel.ICustomTypeDescriptor" Category="External" Access="Public" Assembly="System" HelpText="Provides an interface that supplies dynamic custom type information for an object." IsAbstract="True" Label="ICustomTypeDescriptor" Namespace="System.ComponentModel">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="System.ComponentModel.INotifyPropertyChanged" Category="External" Access="Public" Assembly="System" HelpText="Notifies clients that a property value has changed." IsAbstract="True" Label="INotifyPropertyChanged" Namespace="System.ComponentModel">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="System.ComponentModel.ISupportInitialize" Category="External" Access="Public" Assembly="System" HelpText="Specifies that this object supports a simple, transacted notification for batch initialization." IsAbstract="True" Label="ISupportInitialize" Namespace="System.ComponentModel">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="System.ComponentModel.PropertyDescriptor" Category="External" Access="Public" Assembly="System" HelpText="Provides an abstraction of a property on a class." IsAbstract="True" Label="PropertyDescriptor" Namespace="System.ComponentModel">
+      <Category Ref="Class" />
+    </Node>
+    <Node Id="System.IEquatable`1&lt;Microsoft.VisualStudio.Progression.GraphModel.GraphCategory&gt;" Category="External" Access="Public" Assembly="mscorlib" IsAbstract="True" Label="IEquatable&lt;GraphCategory&gt;" Namespace="System">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="System.IEquatable`1&lt;Microsoft.VisualStudio.Progression.GraphModel.GraphProperty&gt;" Category="External" Access="Public" Assembly="mscorlib" IsAbstract="True" Label="IEquatable&lt;GraphProperty&gt;" Namespace="System">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="System.Runtime.Serialization.ISerializable" Category="External" Access="Public" Assembly="mscorlib" HelpText="Allows an object to control its own serialization and deserialization." IsAbstract="True" Label="ISerializable" Namespace="System.Runtime.Serialization">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="System.Windows.Controls.Canvas" Category="External" Access="Public" Assembly="PresentationFramework" Label="Canvas" Namespace="System.Windows.Controls">
+      <Category Ref="Class" />
+    </Node>
+    <Node Id="System.Windows.Controls.Primitives.IScrollInfo" Category="External" Access="Public" Assembly="PresentationFramework" IsAbstract="True" Label="IScrollInfo" Namespace="System.Windows.Controls.Primitives">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="System.Windows.Controls.UserControl" Category="External" Access="Public" Assembly="PresentationFramework" Label="UserControl" Namespace="System.Windows.Controls">
+      <Category Ref="Class" />
+    </Node>
+    <Node Id="System.Windows.Controls.VirtualizingPanel" Category="External" Access="Public" Assembly="PresentationFramework" IsAbstract="True" Label="VirtualizingPanel" Namespace="System.Windows.Controls">
+      <Category Ref="Class" />
+    </Node>
+    <Node Id="System.Windows.DependencyObject" Category="External" Access="Public" Assembly="WindowsBase" Label="DependencyObject" Namespace="System.Windows">
+      <Category Ref="Class" />
+    </Node>
+    <Node Id="System.Windows.Documents.Run" Category="External" Access="Public" Assembly="PresentationFramework" Label="Run" Namespace="System.Windows.Documents">
+      <Category Ref="Class" />
+    </Node>
+    <Node Id="System.Windows.Forms.Integration.ElementHost" Category="External" Access="Public" Assembly="WindowsFormsIntegration" Label="ElementHost" Namespace="System.Windows.Forms.Integration">
+      <Category Ref="Class" />
+    </Node>
+    <Node Id="System.Windows.FrameworkElement" Category="External" Access="Public" Assembly="PresentationFramework" Label="FrameworkElement" Namespace="System.Windows">
+      <Category Ref="Class" />
+    </Node>
+    <Node Id="System.Windows.IFrameworkInputElement" Category="External" Access="Public" Assembly="PresentationFramework" IsAbstract="True" Label="IFrameworkInputElement" Namespace="System.Windows">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="System.Windows.IInputElement" Category="External" Access="Public" Assembly="PresentationCore" IsAbstract="True" Label="IInputElement" Namespace="System.Windows">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="System.Windows.Markup.IComponentConnector" Category="External" Access="Public" Assembly="WindowsBase" IsAbstract="True" Label="IComponentConnector" Namespace="System.Windows.Markup">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="System.Windows.Markup.IHaveResources" Category="External" Access="Private" Assembly="PresentationFramework" IsAbstract="True" Label="IHaveResources" Namespace="System.Windows.Markup">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="System.Windows.Media.Animation.Animatable" Category="External" Access="Public" Assembly="PresentationCore" IsAbstract="True" Label="Animatable" Namespace="System.Windows.Media.Animation">
+      <Category Ref="Class" />
+    </Node>
+    <Node Id="System.Windows.Media.Animation.AnimationTimeline" Category="External" Access="Public" Assembly="PresentationCore" IsAbstract="True" Label="AnimationTimeline" Namespace="System.Windows.Media.Animation">
+      <Category Ref="Class" />
+    </Node>
+    <Node Id="System.Windows.Media.Animation.DoubleAnimation" Category="External" Access="Public" Assembly="PresentationCore" Label="DoubleAnimation" Namespace="System.Windows.Media.Animation">
+      <Category Ref="Class" />
+    </Node>
+    <Node Id="System.Windows.Media.Animation.IAnimatable" Category="External" Access="Public" Assembly="PresentationCore" IsAbstract="True" Label="IAnimatable" Namespace="System.Windows.Media.Animation">
+      <Category Ref="Interface" />
+    </Node>
+    <Node Id="System.Windows.Media.Composition.DUCE+IResource" Category="External" Access="Private" Assembly="PresentationCore" IsAbstract="True" Label="IResource" Namespace="&lt;empty namespace&gt;">
+      <Category Ref="Interface" />
+    </Node>
+  </Nodes>
+  <Links>
+    <Link Source="Microsoft.VisualStudio.Progression.Action" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.ActionSetOp" Target="Microsoft.VisualStudio.Progression.QueryOperation" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.AlphaComparer" Target="System.Collections.Generic.IComparer`1&lt;System.String&gt;" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.BindableRun" Target="System.Windows.Documents.Run" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.BrowserGroup" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.BrowserToolWindowPane" Target="Microsoft.VisualStudio.OLE.Interop.IOleComponent" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.BrowserToolWindowPane" Target="Microsoft.VisualStudio.Shell.Interop.IVsWindowFrameNotify3" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.BrowserToolWindowPane" Target="Microsoft.VisualStudio.Shell.ToolWindowPane" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.CascadeBrowser" Target="System.Windows.Controls.UserControl" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.CascadeBrowser" Target="System.Windows.Markup.IComponentConnector" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.CircularReferenceDetector" Target="Microsoft.VisualStudio.Progression.Analyzer" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.CommandService" Target="Microsoft.VisualStudio.Progression.ICommandService" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.ContentHolder" Target="System.Windows.Forms.Integration.ElementHost" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.DataManager" Target="Microsoft.VisualStudio.Progression.IDataManager" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.DataManager" Target="System.Windows.Controls.UserControl" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.DependencyMatrixLayout" Target="Microsoft.VisualStudio.Progression.GraphLayout" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.DynamicProperties" Target="System.ComponentModel.ICustomTypeDescriptor" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.EditingContext" Target="Microsoft.VisualStudio.Progression.IEditingContext" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.EditorFactory" Target="Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.ErrorInformation" Target="System.ComponentModel.INotifyPropertyChanged" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.ErrorProvider" Target="Microsoft.VisualStudio.Progression.IGraphError" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.ErrorTaskProvider" Target="Microsoft.VisualStudio.Shell.ErrorListProvider" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.ExecuteActionCompletedEventArgs" Target="System.ComponentModel.AsyncCompletedEventArgs" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.ExecuteQueryVisitor" Target="Microsoft.VisualStudio.Progression.IDgqlVisitor" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.ExponentialDoubleAnimation" Target="System.Windows.Media.Animation.DoubleAnimation" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.FilterOp" Target="Microsoft.VisualStudio.Progression.NodeSetBase" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GlassNodeShape" Target="Microsoft.VisualStudio.Progression.NodeShape" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphCategoryDescriptor" Target="System.ComponentModel.PropertyDescriptor" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphControl" Target="Microsoft.VisualStudio.Progression.INodeNavigator" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphControl" Target="Microsoft.VisualStudio.Progression.IVirtualChildManager" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphControl" Target="System.Windows.Controls.UserControl" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphControl" Target="System.Windows.Markup.IComponentConnector" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphControlAutomationObject" Target="Microsoft.VisualStudio.Progression.IVSGraphControl" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphControlAutomationObject" Target="Microsoft.VisualStudio.Progression.IVsProgression" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphControlTask" Target="Microsoft.VisualStudio.Shell.Task" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphControlTaskProvider" Target="Microsoft.VisualStudio.Shell.TaskProvider" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphDocument" Target="Microsoft.VisualStudio.TextManager.Interop.IVsTextBufferDataEvents" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphDocument" Target="Microsoft.VisualStudio.TextManager.Interop.IVsTextLinesEvents" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphDocumentWindowPane" Target="EnvDTE.IExtensibleObject" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphDocumentWindowPane" Target="Microsoft.VisualStudio.OLE.Interop.IOleComponent" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphDocumentWindowPane" Target="Microsoft.VisualStudio.Shell.Interop.IVsWindowFrameNotify3" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphDocumentWindowPane" Target="Microsoft.VisualStudio.Shell.WindowPane" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphDocumentWindowPane" Target="Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphLayout" Target="Microsoft.VisualStudio.Progression.IGraphLayout" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Graph" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Graph" Target="System.Runtime.Serialization.ISerializable" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.GraphCategory" Target="System.IEquatable`1&lt;Microsoft.VisualStudio.Progression.GraphModel.GraphCategory&gt;" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.GraphMetadata" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.GraphProperty" Target="System.IEquatable`1&lt;Microsoft.VisualStudio.Progression.GraphModel.GraphProperty&gt;" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Link" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Links" Target="System.Collections.Generic.IEnumerable`1&lt;Microsoft.VisualStudio.Progression.GraphModel.Link&gt;" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Links" Target="System.Collections.IEnumerable" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Node" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Nodes" Target="System.Collections.Generic.IEnumerable`1&lt;Microsoft.VisualStudio.Progression.GraphModel.Node&gt;" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphModel.Nodes" Target="System.Collections.IEnumerable" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GraphPropertyDescriptor" Target="System.ComponentModel.PropertyDescriptor" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GridLengthAnimation" Target="System.Windows.Media.Animation.AnimationTimeline" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.GroupNodeShape" Target="Microsoft.VisualStudio.Progression.NodeShape" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.HashChangeset" Target="Microsoft.VisualStudio.Progression.IChangeset" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.LinkDensityComparer" Target="System.Collections.Generic.IComparer`1&lt;System.String&gt;" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.LinkShape" Target="System.Windows.Controls.Canvas" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.MapZoom" Target="System.Windows.Media.Animation.Animatable" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.NavigationButton" Target="System.Windows.Controls.UserControl" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.NavigationButton" Target="System.Windows.Markup.IComponentConnector" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.NavigationPath" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.NodeSetBase" Target="Microsoft.VisualStudio.Progression.QueryOperation" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.NodeSetOp" Target="Microsoft.VisualStudio.Progression.NodeSetBase" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.NodeShape" Target="System.Windows.Controls.Canvas" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.PendingAction" Target="Microsoft.VisualStudio.Progression.IPendingAction" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.PendingActionIterator" Target="Microsoft.VisualStudio.Progression.IPendingActionIterator" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.PlainNodeShape" Target="Microsoft.VisualStudio.Progression.NodeShape" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.ProgressionBrowser" Target="Microsoft.VisualStudio.Progression.Translator" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.ProgressionBrowserProxy" Target="Microsoft.VisualStudio.Progression.IProgressionBrowser" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.ProgressionErrorTask" Target="Microsoft.VisualStudio.Shell.ErrorTask" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.ProgressionPackage" Target="Microsoft.VisualStudio.Shell.Package" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.PropertyBag" Target="Microsoft.VisualStudio.Progression.IPropertyBag" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.ProviderOp" Target="Microsoft.VisualStudio.Progression.QueryOperation" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.QueryExecutor" Target="Microsoft.VisualStudio.Progression.IQueryExecutor" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.QueryManager" Target="Microsoft.VisualStudio.Progression.IQueryManager" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.SelectionRectVisual" Target="System.Windows.FrameworkElement" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.SquareLayout" Target="Microsoft.VisualStudio.Progression.GraphLayout" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.StackDiagramLayout" Target="Microsoft.VisualStudio.Progression.GraphLayout" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.SugiyamaLayout" Target="Microsoft.VisualStudio.Progression.GraphLayout" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.Translator" Target="Microsoft.VisualStudio.Progression.ITranslator" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.Translator" Target="System.Windows.DependencyObject" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.UnreferencedNodeDetector" Target="Microsoft.VisualStudio.Progression.Analyzer" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.UnusedReferenceDetector" Target="Microsoft.VisualStudio.Progression.Analyzer" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.VirtualCanvas" Target="System.Windows.Controls.Primitives.IScrollInfo" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Progression.VirtualCanvas" Target="System.Windows.Controls.VirtualizingPanel" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Shell.ErrorTask" Target="Microsoft.VisualStudio.Shell.Interop.IVsErrorItem" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Shell.Package" Target="Microsoft.VisualStudio.OLE.Interop.IServiceProvider" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Shell.Package" Target="Microsoft.VisualStudio.Shell.Interop.IVsPackage" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Shell.Package" Target="Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionOpts" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Shell.Package" Target="Microsoft.VisualStudio.Shell.Interop.IVsToolWindowFactory" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Shell.Package" Target="Microsoft.VisualStudio.Shell.Interop.IVsUserSettings" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Shell.Package" Target="Microsoft.VisualStudio.Shell.Interop.IVsUserSettingsMigration" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Shell.Package" Target="System.ComponentModel.Design.IServiceContainer" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Shell.ProvideXmlViewAttribute" Target="Microsoft.VisualStudio.Shell.RegistrationAttribute" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Shell.Task" Target="Microsoft.VisualStudio.Shell.Interop.IVsProvideUserContext" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Shell.Task" Target="Microsoft.VisualStudio.Shell.Interop.IVsTaskItem" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Shell.TaskProvider" Target="Microsoft.VisualStudio.Shell.Interop.IVsTaskProvider" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Shell.TaskProvider" Target="Microsoft.VisualStudio.Shell.Interop.IVsTaskProvider2" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Shell.TaskProvider" Target="Microsoft.VisualStudio.Shell.Interop.IVsTaskProvider3" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Shell.WindowPane" Target="Microsoft.VisualStudio.Shell.Interop.IVsBroadcastMessageEvents" Category="InheritsFrom" />
+    <Link Source="Microsoft.VisualStudio.Shell.WindowPane" Target="Microsoft.VisualStudio.Shell.Interop.IVsWindowPane" Category="InheritsFrom" />
+    <Link Source="System.Windows.FrameworkElement" Target="System.ComponentModel.ISupportInitialize" Category="InheritsFrom" />
+    <Link Source="System.Windows.FrameworkElement" Target="System.Windows.IFrameworkInputElement" Category="InheritsFrom" />
+    <Link Source="System.Windows.FrameworkElement" Target="System.Windows.IInputElement" Category="InheritsFrom" />
+    <Link Source="System.Windows.FrameworkElement" Target="System.Windows.Markup.IHaveResources" Category="InheritsFrom" />
+    <Link Source="System.Windows.Media.Animation.Animatable" Target="System.Windows.Media.Animation.IAnimatable" Category="InheritsFrom" />
+    <Link Source="System.Windows.Media.Animation.Animatable" Target="System.Windows.Media.Composition.DUCE+IResource" Category="InheritsFrom" />
+  </Links>
+  <Categories>
+    <Category Id="Class" Label="Class" CanBeDataDriven="True" DefaultAction="9" IsProviderRoot="False" NavigationActionLabel="Classes" />
+    <Category Id="External" Label="External" Description="External" Group="External dependency" />
+    <Category Id="InheritsFrom" Label="Inherits From" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Inherited By" IsContainment="False" OutgoingActionLabel="Inherits From" />
+    <Category Id="Interface" Label="Interface" CanBeDataDriven="True" DefaultAction="9" IsProviderRoot="False" NavigationActionLabel="Interface" />
+  </Categories>
+  <Properties>
+    <Property Id="Access" Label="Access" Description="Access" DataType="System.String" />
+    <Property Id="Assembly" Label="Assembly" Description="The owning assembly" Group="CLR Properties" DataType="System.String" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Progression.Layout.GraphDirection" />
+    <Property Id="HelpText" Label="Help" Description="XML documentation" Group="CLR Properties" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsAbstract" Label="IsAbstract" Description="IsAbstract" DataType="System.Boolean" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="IsSealed" Label="Sealed" Description="Whether class is sealed" Group="CLR Properties" DataType="System.String" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="Namespace" Label="Namespace" Description="The containing CLR namespace" Group="CLR Properties" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Class" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Class')" />
+      <Setter Property="Background" Value="#FF008000" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="External" ValueLabel="Has category">
+      <Condition Expression="HasCategory('External')" />
+      <Setter Property="Background" Value="DarkCyan" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Interface" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Interface')" />
+      <Setter Property="Background" Value="DarkSeaGreen" />
+    </Style>
+  </Styles>
+</DirectedGraph>

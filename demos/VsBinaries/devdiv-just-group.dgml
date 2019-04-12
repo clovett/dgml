@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="TopToBottom" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="G1" Category="Group" Bounds="127.87,518.827500000001,130.26,25.96" Label="Visual Studio Interop" />
+    <Node Id="G10" Category="Group" Bounds="765.961666666667,0,150.076666666667,25.96" ErrorMessage="Circular reference found involving:  System Definition Model (G10)" IsStronglyConnected="True" Label="System Definition Model" />
+    <Node Id="G11" Category="Group" Bounds="868.803333333333,172.9425,78.3933333333333,25.96" ErrorMessage="Circular reference found involving:  Visual C++ (G11)" IsStronglyConnected="True" Label="Visual C++" />
+    <Node Id="G12" Category="Group" Bounds="1438.46833333333,461.18,69.0633333333333,25.96" Label="Visual C#" />
+    <Node Id="G13" Category="Group" Bounds="1306.46333333333,0,81.0733333333333,25.96" Label="Visual Basic" />
+    <Node Id="G15" Category="Group" Bounds="268.735,230.59,116.53,25.96" Label="Visual Source Safe" />
+    <Node Id="G16" Category="Group" Bounds="1326,461.18,50,25.96" Label="Help" />
+    <Node Id="G17" Category="Group" Bounds="1054.29,403.5325,81.4200000000001,25.96" ErrorMessage="Circular reference found involving:  VSA / VSTO (G17)" IsStronglyConnected="True" Label="VSA / VSTO" />
+    <Node Id="G18" Category="Group" Bounds="927.15,461.18,63.7,25.96" ErrorMessage="Circular reference found involving:  MSBuild (G18)" IsStronglyConnected="True" Label="MSBuild" />
+    <Node Id="G19" Category="Group" Bounds="1004.18,288.2375,51.64,25.96" Label="Venus" />
+    <Node Id="G2" Category="Group" Bounds="448.443333333334,288.2375,163.113333333333,25.96" ErrorMessage="Circular reference found involving:  Team Foundation.Common (G2)" IsStronglyConnected="True" Label="Team Foundation.Common" />
+    <Node Id="G20" Category="Group" Bounds="1054.45333333333,345.885,69.0933333333332,25.96" Label="FabriKam" />
+    <Node Id="G21" Category="Group" Bounds="772.613333333333,57.6475,136.773333333333,25.96" ErrorMessage="Circular reference found involving:  Visual Studio Platform (G21)" IsStronglyConnected="True" Label="Visual Studio Platform" />
+    <Node Id="G22" Category="Group" Bounds="1105.20166666667,172.9425,57.5966666666666,25.96" ErrorMessage="Circular reference found involving:  VS Perf (G22)" IsStronglyConnected="True" Label="VS Perf" />
+    <Node Id="G23" Category="Group" Bounds="1230.17333333333,518.8275,65.6533333333334,25.96" Label="CRT 10.0" />
+    <Node Id="G24" Category="Group" Bounds="1573.40833333333,576.475,59.1833333333334,25.96" Label="CRT 9.0" />
+    <Node Id="G3" Category="Group" Bounds="970.628333333333,115.295,78.7433333333333,25.96" ErrorMessage="Circular reference found involving:  DSL Toolkit (G3)" IsStronglyConnected="True" Label="DSL Toolkit" />
+    <Node Id="G4" Category="Group" Bounds="285.388333333334,461.18,145.223333333333,25.96" ErrorMessage="Circular reference found involving:  Team Foundation Client (G4)" IsStronglyConnected="True" Label="Team Foundation Client" />
+    <Node Id="G5" Category="Group" Bounds="603.953333333334,403.5325,70.0933333333334,25.96" ErrorMessage="Circular reference found involving:  VSTS Test (G5)" IsStronglyConnected="True" Label="VSTS Test" />
+    <Node Id="G6" Category="Group" Bounds="687.153333333333,230.59,103.693333333333,25.96" ErrorMessage="Circular reference found involving:  VSTS Developer (G6)" IsStronglyConnected="True" Label="VSTS Developer" />
+    <Node Id="G8" Category="Group" Bounds="410.066666666667,345.885,147.866666666667,25.96" ErrorMessage="Circular reference found involving:  Team Foundation Server (G8)" IsStronglyConnected="True" Label="Team Foundation Server" />
+    <Node Id="G9" Category="Group" Bounds="38.8583333333333,2.27373675443232E-13,52.2833333333333,25.96" Label="CIDER" />
+  </Nodes>
+  <Links>
+    <Link Source="G10" Target="G1" Bounds="128.885711669922,15.8871049880981,637.075958251953,494.108286857605" />
+    <Link Source="G10" Target="G21" Bounds="841,25.9599990844727,0,22.6875" IsCircularLink="True" />
+    <Link Source="G10" Target="G3" Bounds="916.038330078125,20.8165435791016,200.961669921875,94.5283432006836" IsCircularLink="True" />
+    <Link Source="G11" Target="G18" Bounds="934.118713378906,198.902496337891,28.7581787109375,253.280792236328" IsCircularLink="True" />
+    <Link Source="G11" Target="G21" Bounds="841,92.6074981689453,36.828369140625,80.3350067138672" IsCircularLink="True" />
+    <Link Source="G11" Target="G23" Bounds="946.182678222656,198.151031494141,316.817321777344,311.676483154297" />
+    <Link Source="G11" Target="G6" Bounds="777.453369140625,196.945983886719,91.5372924804688,30.1208038330078" IsCircularLink="True" />
+    <Link Source="G12" Target="G23" Bounds="1304.70703125,487.140014648438,152.531616210938,37.7980346679688" />
+    <Link Source="G13" Target="G1" Bounds="105.358100891113,15.7842054367065,1201.10527801514,494.257267951965" />
+    <Link Source="G13" Target="G11" Bounds="955.9453125,25.9599990844727,387.4521484375,147.542701721191" />
+    <Link Source="G13" Target="G17" Bounds="1110.27416992188,25.9599990844727,254.346069335938,370.399864196777" />
+    <Link Source="G13" Target="G18" Bounds="973.013916015625,25.9599990844727,373.986083984375,427.801963806152" />
+    <Link Source="G13" Target="G21" Bounds="918.324523925781,17.4396133422852,388.138854980469,44.0535316467285" />
+    <Link Source="G13" Target="G23" Bounds="1304.65161132813,25.9599990844727,104.466064453125,497.51033782959" />
+    <Link Source="G13" Target="G24" Bounds="1387.53662109375,17.5441360473633,215.46337890625,549.930839538574" />
+    <Link Source="G15" Target="G1" Bounds="199.41374206543,256.549987792969,101.917831420898,253.649566650391" />
+    <Link Source="G15" Target="G2" Bounds="373.383270263672,256.549987792969,102.936340332031,29.1954040527344" />
+    <Link Source="G15" Target="G23" Bounds="385.265014648438,252.497253417969,835.928344726563,276.520812988281" />
+    <Link Source="G15" Target="G4" Bounds="310.641967773438,256.549987792969,41.3485107421875,195.957824707031" />
+    <Link Source="G15" Target="G8" Bounds="330.152252197266,256.549987792969,123.534423828125,84.8401184082031" />
+    <Link Source="G16" Target="G23" Bounds="1299.5322265625,487.140014648438,40.209716796875,27.8949584960938" />
+    <Link Source="G17" Target="G1" Bounds="267.125640869141,429.492492675781,851.874359130859,100.007690429688" />
+    <Link Source="G17" Target="G18" Bounds="999.469848632813,429.492492675781,77.5172119140625,32.5165405273438" IsCircularLink="True" />
+    <Link Source="G17" Target="G21" Bounds="918.355590820313,77.0716552734375,287.926391601563,326.460845947266" IsCircularLink="True" />
+    <Link Source="G17" Target="G23" Bounds="1127.42321777344,429.492492675781,114.479248046875,83.3115844726563" />
+    <Link Source="G18" Target="G11" Bounds="904.846008300781,207.891143798828,51.3019409179688,253.288848876953" IsCircularLink="True" />
+    <Link Source="G19" Target="G1" Bounds="267.0849609375,314.197509765625,750.756286621094,210.169555664063" />
+    <Link Source="G19" Target="G23" Bounds="1055.81994628906,308.3603515625,205.3525390625,201.498199462891" />
+    <Link Source="G2" Target="G8" Bounds="527.54248046875,314.197509765625,23.112060546875,28.5017395019531" IsCircularLink="True" />
+    <Link Source="G20" Target="G17" Bounds="1090.35095214844,371.845001220703,2.3663330078125,22.73583984375" />
+    <Link Source="G21" Target="G1" Bounds="138.788619995117,83.6074981689453,643.456802368164,426.547836303711" />
+    <Link Source="G21" Target="G11" Bounds="855.410339355469,83.6074981689453,43.9591674804688,80.9924774169922" IsCircularLink="True" />
+    <Link Source="G21" Target="G17" Bounds="909.386657714844,75.8422088623047,328.336730957031,323.327041625977" IsCircularLink="True" />
+    <Link Source="G21" Target="G18" Bounds="909.386657714844,75.4352111816406,297.024841308594,389.338623046875" IsCircularLink="True" />
+    <Link Source="G21" Target="G19" Bounds="869.820678710938,83.6074981689453,147.398010253906,196.979263305664" />
+    <Link Source="G21" Target="G22" Bounds="909.386657714844,78.7060241699219,212.820983886719,86.4062652587891" IsCircularLink="True" />
+    <Link Source="G21" Target="G23" Bounds="909.386657714844,75.0871353149414,605.801208496094,452.809715270996" />
+    <Link Source="G21" Target="G3" Bounds="909.169311523438,81.7285995483398,101.307739257813,25.1265411376953" IsCircularLink="True" />
+    <Link Source="G21" Target="G4" Bounds="207.4375,83.6074981689453,578.352905273438,371.060775756836" IsCircularLink="True" />
+    <Link Source="G21" Target="G5" Bounds="663.022766113281,83.6074981689453,193.152160644531,314.440292358398" IsCircularLink="True" />
+    <Link Source="G21" Target="G6" Bounds="739,83.6074981689453,56.0670166015625,137.982498168945" IsCircularLink="True" />
+    <Link Source="G21" Target="G8" Bounds="425.670257568359,83.6074981689453,389.661346435547,257.748672485352" IsCircularLink="True" />
+    <Link Source="G22" Target="G23" Bounds="1154.26452636719,198.902496337891,384.735473632813,328.541961669922" />
+    <Link Source="G22" Target="G6" Bounds="799.739013671875,194.381942749023,305.462646484375,39.0491943359375" IsCircularLink="True" />
+    <Link Source="G23" Target="G24" Bounds="1295.82666015625,537.373291015625,268.708374023438,45.5599365234375" />
+    <Link Source="G3" Target="G1" Bounds="149.102783203125,139.739410400391,821.918518066406,373.064666748047" />
+    <Link Source="G3" Target="G10" Bounds="924.948120117188,24.3936767578125,128.051879882813,90.9013214111328" IsCircularLink="True" />
+    <Link Source="G3" Target="G11" Bounds="947.830993652344,141.255004882813,47.7586669921875,28.2276306152344" IsCircularLink="True" />
+    <Link Source="G3" Target="G18" Bounds="965.009521484375,141.255004882813,106.67138671875,311.252807617188" IsCircularLink="True" />
+    <Link Source="G3" Target="G19" Bounds="1010,141.255004882813,16.9615478515625,138.067932128906" />
+    <Link Source="G3" Target="G21" Bounds="894.221557617188,86.1289367675781,84.2557983398438,29.1660614013672" IsCircularLink="True" />
+    <Link Source="G3" Target="G23" Bounds="1038.82067871094,141.255004882813,213.579223632813,369.536804199219" />
+    <Link Source="G4" Target="G1" Bounds="243.47492980957,487.140014648438,82.1018218994141,29.0176391601563" />
+    <Link Source="G4" Target="G2" Bounds="363.092468261719,317.214111328125,121.951965332031,143.965881347656" IsCircularLink="True" />
+    <Link Source="G4" Target="G21" Bounds="191.592391967773,85.3366317749023,581.451187133789,375.843360900879" IsCircularLink="True" />
+    <Link Source="G4" Target="G23" Bounds="390.423248291016,487.140014648438,830.755462646484,43.2203979492188" />
+    <Link Source="G4" Target="G8" Bounds="362.503234863281,374.491271972656,69.66357421875,86.688720703125" IsCircularLink="True" />
+    <Link Source="G5" Target="G1" Bounds="267.108276367188,429.492492675781,367.088256835938,97.1553955078125" />
+    <Link Source="G5" Target="G11" Bounds="653.860656738281,204.438629150391,229.931213378906,199.093872070313" IsCircularLink="True" />
+    <Link Source="G5" Target="G18" Bounds="674.046691894531,422.826110839844,244.245910644531,44.0005187988281" IsCircularLink="True" />
+    <Link Source="G5" Target="G2" Bounds="573.093444824219,317.379913330078,65.9065551757813,86.152587890625" IsCircularLink="True" />
+    <Link Source="G5" Target="G21" Bounds="652.960021972656,92.5692291259766,186.010009765625,310.963272094727" IsCircularLink="True" />
+    <Link Source="G5" Target="G23" Bounds="639,429.492492675781,582.182861328125,100.383422851563" />
+    <Link Source="G5" Target="G4" Bounds="430.086791992188,423.702362060547,173.866516113281,35.6689453125" IsCircularLink="True" />
+    <Link Source="G5" Target="G6" Bounds="648.006469726563,265.379150390625,89.248291015625,138.153350830078" IsCircularLink="True" />
+    <Link Source="G5" Target="G8" Bounds="510.490936279297,376.701293945313,93.4623718261719,30.87158203125" IsCircularLink="True" />
+    <Link Source="G6" Target="G1" Bounds="193,255.142135620117,494.610656738281,254.68537902832" />
+    <Link Source="G6" Target="G18" Bounds="753.410339355469,256.549987792969,187.359924316406,198.045379638672" IsCircularLink="True" />
+    <Link Source="G6" Target="G2" Bounds="589.606872558594,256.549987792969,106.162109375,29.4614868164063" IsCircularLink="True" />
+    <Link Source="G6" Target="G21" Bounds="675,83.938591003418,89.339599609375,146.651405334473" IsCircularLink="True" />
+    <Link Source="G6" Target="G23" Bounds="768.120910644531,256.549987792969,480.625183105469,254.905731201172" />
+    <Link Source="G8" Target="G1" Bounds="215.328811645508,371.845001220703,241.788619995117,141.191009521484" />
+    <Link Source="G8" Target="G11" Bounds="243.283676147461,196.712783813477,616.698867797852,149.172225952148" IsCircularLink="True" />
+    <Link Source="G8" Target="G18" Bounds="504.124725341797,371.845001220703,414.078765869141,97.8481750488281" IsCircularLink="True" />
+    <Link Source="G8" Target="G2" Bounds="484,319.127777099609,17.7557067871094,26.7572326660156" IsCircularLink="True" />
+    <Link Source="G8" Target="G21" Bounds="396.803833007813,86.4977722167969,397.395446777344,259.387237548828" IsCircularLink="True" />
+    <Link Source="G8" Target="G23" Bounds="472.705963134766,371.845001220703,748.490570068359,156.953948974609" />
+    <Link Source="G8" Target="G4" Bounds="373.970916748047,371.845001220703,84.3606567382813,82.3001708984375" IsCircularLink="True" />
+    <Link Source="G8" Target="G5" Bounds="538.038757324219,371.845001220703,77.9487915039063,26.3564147949219" IsCircularLink="True" />
+    <Link Source="G8" Target="G6" Bounds="553.800048828125,262.551727294922,164.082946777344,83.3332824707031" IsCircularLink="True" />
+    <Link Source="G9" Target="G1" Bounds="1,24.5485000610352,117.969734191895,496.145286560059" />
+    <Link Source="G9" Target="G21" Bounds="91.1416702270508,14.4852914810181,673.32006072998,43.1061124801636" />
+    <Link Source="G9" Target="G5" Bounds="90.9498062133789,24.0156326293945,567.05330657959,370.785148620605" />
+  </Links>
+  <Categories>
+    <Category Id="Group" Label="Group" Background="#8080C0C0" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="Groups" />
+  </Categories>
+  <Properties>
+    <Property Id="Background" Label="Background" Description="Background color" DataType="System.Windows.Media.Brush" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="ErrorMessage" Label="Error" Description="Error" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="IsCircularLink" Label="Circular Link" Description="Link connects part of a strongly coupled component" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="IsStronglyConnected" Label="Circular References" Description="Node is part of a strongly coupled component" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="ToolTip" DataType="System.String" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Circular References" ToolTip="Node is part of a strongly coupled component" ValueLabel="Nodes">
+      <Condition Expression="IsStronglyConnected" />
+      <Setter Property="Stroke" Value="#D02030" />
+      <Setter Property="StrokeThickness" Value="2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Circular References" ToolTip="Node is part of a strongly coupled component" ValueLabel="Links">
+      <Condition Expression="IsCircularLink" />
+      <Setter Property="Stroke" Value="#D02030" />
+      <Setter Property="StrokeThickness" Value="2" />
+    </Style>
+  </Styles>
+</DirectedGraph>

@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="TopToBottom" Layout="ForceDirected" Offset="42.7559868068211,251.522825434077" ZoomLevel="0.702807677237917" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="AdvancedSelection" Category="Epic" Bounds="1183.15271073876,1265.06031596187,144.79980313185,26.0064697985167" Label="Advanced Selection" UseManualLocation="True">
+      <Category Ref="Removed" />
+    </Node>
+    <Node Id="Analyze" Category="Story" Bounds="1546.82029899718,1097.46924554423,61.0533333333333,25.96" Complete="4" Label="Analyze" UseManualLocation="True" />
+    <Node Id="Background/Stroke/Icon" Category="Interaction" Bounds="1401.49407554921,216.030782308826,216.136666666667,25.96" Label="Background/Stroke/Foreground/Icon" UseManualLocation="True" />
+    <Node Id="Browse" Category="Story" Bounds="1533.89143315158,773.448381901043,58.126666666667,25.96" Complete="5" Label="Browse" UseManualLocation="True" />
+    <Node Id="Bump" Category="Options" Bounds="986.416184928874,503.844371479122,79.0599999999999,25.96" Complete="5" Label="Bump" UseManualLocation="True">
+      <Category Ref="New" />
+    </Node>
+    <Node Id="Butterfly" Category="Epic" Bounds="1378.47185898229,1282.16272219407,85.7298031318505,26.0064697985172" UseManualLocation="True">
+      <Category Ref="Removed" />
+    </Node>
+    <Node Id="CodeIndexDatabase" Category="Story" Bounds="891.674934895833,841.200829019184,160.433333333333,25.96" Label="Code Index Database" UseManualLocation="True">
+      <Category Ref="New" />
+    </Node>
+    <Node Id="Collapse" Category="Intention" Bounds="1671.48787189044,771.772982983078,64.8033333333333,25.96" Complete="5" Label="Collapse" UseManualLocation="True" />
+    <Node Id="Complexity" Category="Interaction" Bounds="1673.78314877646,1037.40600882649,50,25.96" Complete="4" Label="Hubs" UseManualLocation="True" />
+    <Node Id="Cycles" Category="Interaction" Bounds="1669.50086698008,1159.58508462855,53.0566666666668,25.96" Complete="4" Label="Cycles" UseManualLocation="True" />
+    <Node Id="DependencyMatrix" Category="Epic" Bounds="1128.08811876238,721.029347318944,144.123136465184,26.0064697985172" Label="Dependency Matrix" UseManualLocation="True">
+      <Category Ref="Removed" />
+    </Node>
+    <Node Id="Direction" Category="Options" Bounds="1196.59597652473,583.25366327003,68.1066666666666,25.96" Complete="5" Label="Direction" UseManualLocation="True" />
+    <Node Id="Drag/Drop" Category="Intention" Bounds="571.002109319828,778.543245433186,77.1066666666666,25.96" Complete="1" Label="Drag/Drop" UseManualLocation="True" />
+    <Node Id="Edit" Category="Story" Bounds="712.158518996622,859.501321763236,50,25.96" Complete="2" Label="Edit" UseManualLocation="True" />
+    <Node Id="Expand" Category="Intention" Bounds="1666.34975607623,715.627827453557,58.5933333333332,25.96" Complete="5" Label="Expand" UseManualLocation="True" />
+    <Node Id="Export" Category="Story" Bounds="1054.31653107117,1379.20921890417,53.8999999999996,25.96" Complete="4" Label="Export" UseManualLocation="True" />
+    <Node Id="FastIncrementalLayout" Category="Story" Bounds="785.104623926658,659.968401359721,173.61,25.96" Label="Fast Incremental Layout" UseManualLocation="True">
+      <Category Ref="New" />
+    </Node>
+    <Node Id="Filtering" Category="Epic" Bounds="1311.32071760158,1193.07099579846,62.9533333333334,25.96" UseManualLocation="True" />
+    <Node Id="GotoDGML" Category="Epic" Bounds="1487.03876942816,930.968401359721,82.7200000000003,25.96" Label="Goto DGML" UseManualLocation="True" />
+    <Node Id="GotoReference" Category="Epic" Bounds="1621.03876942816,941.968401359721,102.193333333334,25.96" Label="Goto Reference" UseManualLocation="True" />
+    <Node Id="Graph Document Experience" Category="Epic" Bounds="1176.7093467157,1044.56951779344,207.41,25.96" Complete="4" Label="DGML Graph Document Experience" />
+    <Node Id="Grouping" Category="Intention" Bounds="317.57276756336,1000.78438456736,70.0433333333331,25.96" Complete="4" Label="Grouping" UseManualLocation="True" />
+    <Node Id="Image" Category="Intention" Bounds="1049.65403035482,1470.20475341797,52.9799999999996,25.96" Complete="4" Label="Image" UseManualLocation="True" />
+    <Node Id="Labels" Category="Intention" Bounds="533.125490939209,977.706574675026,81.0866666666666,25.96" Complete="2" Label="Labels" UseManualLocation="True">
+      <Category Ref="New" />
+    </Node>
+    <Node Id="Layered Layout" Category="Intention" Bounds="1140.44001610535,654.745158464643,100.093333333333,25.96" Complete="5" Label="Layered Layout" UseManualLocation="True" />
+    <Node Id="Layers" Category="Interaction" Bounds="1673.72646817535,1103.62498462855,91.6433333333334,25.96" Complete="3" Label="Unreferenced" UseManualLocation="True" />
+    <Node Id="LayoutInformation" Category="Intention" Bounds="834.038769428158,1417.5535743374,106.43,25.96" Label="with layout" UseManualLocation="True">
+      <Category Ref="New" />
+    </Node>
+    <Node Id="Legend" Category="Intention" Bounds="1438.00637017275,432.760914464825,59.126666666667,25.96" Complete="4" Label="Legend" UseManualLocation="True" />
+    <Node Id="LinkNavigation" Category="Epic" Bounds="1689.03876942816,861.968401359721,102.3,25.96" Label="Link Navigation" UseManualLocation="True" />
+    <Node Id="Load" Category="Intention" Bounds="882.658599853516,1326.89658691406,50,25.96" Complete="5" Label="Load" UseManualLocation="True" />
+    <Node Id="ManualLayout" Category="Intention" Bounds="961.02015794721,582.82172813131,197.85,41.9233333333332" Complete="5" Label="ManualLayout" UseManualLocation="True">
+      <Category Ref="Big" />
+      <Category Ref="New" />
+    </Node>
+    <Node Id="Move" Category="Options" Bounds="860.678439058883,524.534158610899,77.8299999999999,25.96" Complete="5" Label="Move" UseManualLocation="True">
+      <Category Ref="New" />
+    </Node>
+    <Node Id="Navigation" Category="Epic" Bounds="1568.03876942816,866.968401359721,77.7033333333334,25.96" UseManualLocation="True" />
+    <Node Id="Neighborhood" Category="Epic" Bounds="1408.89984034858,1226.15615239556,119.196469798517,26.0064697985172" UseManualLocation="True">
+      <Category Ref="Removed" />
+    </Node>
+    <Node Id="NewColorPicker" Category="Options" Bounds="1631.2277085367,276.847629623858,137.1,25.96" Label="New color picker" UseManualLocation="True">
+      <Category Ref="New" />
+    </Node>
+    <Node Id="NewNode1" Category="Interaction" Bounds="331.142636920562,1071.51911677967,77.2733333333333,25.96" Complete="5" Label="Add group" UseManualLocation="True" />
+    <Node Id="NewNode15" Category="Interaction" Bounds="95.5120427836617,978.066140046986,170.273333333333,25.96" Complete="2" Label="Change leaf into group" UseManualLocation="True">
+      <Category Ref="New" />
+    </Node>
+    <Node Id="NewNode16" Category="Interaction" Bounds="105.645445048421,1038.09892394222,170.273333333333,25.96" Complete="2" Label="Change group into leaf" UseManualLocation="True">
+      <Category Ref="New" />
+    </Node>
+    <Node Id="NewNode17" Category="Story" Bounds="990.819043358879,1104.03593459171,55.2633333333333,25.96" Complete="3" Label="Search" UseManualLocation="True" />
+    <Node Id="NewNode18" Category="Intention" Bounds="570.644588216146,1038.850078125,90.2866666666669,25.96" Complete="5" Label="Edit selection" UseManualLocation="True" />
+    <Node Id="NewNode19" Category="Story" Bounds="698.941373719125,780.5831454332,81.3566666666666,25.96" Complete="4" Label="Undo/Redo" UseManualLocation="True" />
+    <Node Id="NewNode2" Category="Interaction" Bounds="196.891073036744,1101.05902394222,98.2433333333333,25.96" Complete="5" Label="Remove group" UseManualLocation="True" />
+    <Node Id="NewNode20" Category="Intention" Bounds="925.403975694924,1037.14812314742,50,25.96" Complete="5" Label="Find" UseManualLocation="True" />
+    <Node Id="NewNode27" Category="Interaction" Bounds="1279.90713396078,363.022380949105,124.8,25.96" Complete="3" Label="Style node property" UseManualLocation="True" />
+    <Node Id="NewNode28" Category="Interaction" Bounds="1268.15252454553,282.062322404183,125.236666666667,25.96" Complete="3" Label="Style node category" UseManualLocation="True" />
+    <Node Id="NewNode29" Category="Interaction" Bounds="1460.70721611453,307.550006385899,116.203333333333,25.96" Complete="3" Label="Style link property" UseManualLocation="True" />
+    <Node Id="NewNode3" Category="Interaction" Bounds="279.785372861776,922.106040047255,126.826666666667,25.96" Complete="5" Label="Remove from group" UseManualLocation="True" />
+    <Node Id="NewNode30" Category="Interaction" Bounds="1564.35316080363,363.510106385899,116.64,25.96" Complete="3" Label="Style link category" UseManualLocation="True" />
+    <Node Id="NewNode35" Category="Story" Bounds="1783.33617098094,1273.47772408334,68.1700000000001,25.96" Complete="5" Label="Selection" UseManualLocation="True" />
+    <Node Id="NewNode36" Category="Intention" Bounds="1832.01853679705,1382.89280092895,51.4433333333336,25.96" Complete="5" Label="Select" UseManualLocation="True" />
+    <Node Id="NewNode37" Category="Interaction" Bounds="1913.46187013038,1436.89658568887,55.7766666666666,25.96" Complete="5" Label="Extend" UseManualLocation="True" />
+    <Node Id="NewNode38" Category="Intention" Bounds="1670.93907082563,1307.26078839773,50.2466666666669,25.96" Complete="5" Label="Invert" UseManualLocation="True" />
+    <Node Id="NewNode39" Category="Intention" Bounds="1914.40767506324,1266.96376502225,110.113333333333,25.96" Complete="5" Label="Select connected" UseManualLocation="True" />
+    <Node Id="NewNode4" Category="Interaction" Bounds="386.106220333132,768.305369552536,147.726666666667,25.96" Complete="1" Label="Move within graph" UseManualLocation="True">
+      <Category Ref="New" />
+    </Node>
+    <Node Id="NewNode40" Category="Interaction" Bounds="2022.2050045352,1355.23476576345,70.7633333333333,25.96" Complete="5" Label="Outgoing" UseManualLocation="True" />
+    <Node Id="NewNode41" Category="Interaction" Bounds="2096.09803142378,1290.8340665912,69.6566666666668,25.96" Complete="5" Label="Incoming" UseManualLocation="True" />
+    <Node Id="NewNode42" Category="Interaction" Bounds="1982.59538303589,1189.71678265877,92.2233333333334,25.96" Complete="5" Label="All connected" UseManualLocation="True" />
+    <Node Id="NewNode43" Category="Interaction" Bounds="463.419411015531,1096.89100131963,103.223333333333,25.96" Complete="5" Label="Cut/Copy/Paste" UseManualLocation="True" />
+    <Node Id="NewNode44" Category="Interaction" Bounds="2113.13657272492,1203.0284984588,64.3400000000001,25.96" Complete="5" Label="Children" UseManualLocation="True" />
+    <Node Id="NewNode45" Category="Interaction" Bounds="596.642744348864,1112.43488559697,50,25.96" Complete="5" Label="Hide" UseManualLocation="True" />
+    <Node Id="NewNode47" Category="Interaction" Bounds="676.642744348864,1094.810260304,54.2166666666667,25.96" Complete="5" Label="Delete" UseManualLocation="True" />
+    <Node Id="NewNode48" Category="Interaction" Bounds="1687.72349899759,1377.86344098339,50,25.96" Complete="5" Label="Clear" UseManualLocation="True" />
+    <Node Id="NewNode49" Category="Interaction" Bounds="1663.35506935946,1441.90344098339,88.8266666666668,25.96" Complete="5" Label="Rubber band" UseManualLocation="True" />
+    <Node Id="NewNode5" Category="Interaction" Bounds="478.694668207782,707.622073239806,140.7,25.96" Complete="4" Label="Copy to another graph" UseManualLocation="True" />
+    <Node Id="NewNode50" Category="Options" Bounds="2012.91003808867,1447.59252999769,54.4433333333336,25.96" Complete="5" Label="Nodes" UseManualLocation="True" />
+    <Node Id="NewNode51" Category="Options" Bounds="1950.29081370055,1521.2697996556,50,25.96" Complete="5" Label="Links" UseManualLocation="True" />
+    <Node Id="NewNode52" Category="Options" Bounds="1852.1026363464,1513.68608324568,58.373333333333,25.96" Complete="5" Label="Groups" UseManualLocation="True" />
+    <Node Id="NewNode53" Category="Intention" Bounds="1269.008564643,488.653834442724,88.3266666666668,25.96" Complete="2" Label="Recategorize" UseManualLocation="True" />
+    <Node Id="NewNode54" Category="Interaction" Bounds="1616.50133037042,467.70227396691,63.29,25.96" Complete="4" Label="Tagging" UseManualLocation="True" />
+    <Node Id="NewNode55" Category="Interaction" Bounds="1212.3277055367,432.693736572266,90.9666666666667,25.96" Complete="2" Label="Property Grid" UseManualLocation="True" />
+    <Node Id="NewNode8" Category="Intention" Bounds="715.825761894514,963.310119819363,134.816666666667,25.9599999999999" Complete="1" Label="Add New Nodes" UseManualLocation="True">
+      <Category Ref="New" />
+    </Node>
+    <Node Id="NewNode9" Category="Intention" Bounds="475.675651287609,859.572755756886,126.776666666667,25.96" Complete="1" Label="Add New Links" UseManualLocation="True">
+      <Category Ref="New" />
+    </Node>
+    <Node Id="NowInsde" Category="Epic" Bounds="842.747921549479,1223.96836425781,107.293333333333,25.96" Label="Now Inside" UseManualLocation="True">
+      <Category Ref="New" />
+    </Node>
+    <Node Id="Pan" Category="Intention" Bounds="1505.14607256027,651.211880826332,50,25.96" Complete="5" Label="Pan" UseManualLocation="True" />
+    <Node Id="Persist" Category="Story" Bounds="1000.8502406665,1274.31749704653,54.3299999999999,25.96" Complete="5" Label="Persist" UseManualLocation="True" />
+    <Node Id="QuickClusters" Category="Intention" Bounds="915.123088551667,761.579424743129,92.0799999999999,25.96" Complete="4" Label="QuickClusters" UseManualLocation="True" />
+    <Node Id="QuickFind" Category="Story" Bounds="827.038769428158,1135.96840135972,100.873333333333,25.96" UseManualLocation="True">
+      <Category Ref="New" />
+    </Node>
+    <Node Id="Save" Category="Intention" Bounds="962.658599853516,1361.5934773374,50,25.96" Complete="5" Label="Save" UseManualLocation="True" />
+    <Node Id="Scroll" Category="Intention" Bounds="1600.42199377237,649.284642396004,50,25.96" Complete="5" Label="Scroll" UseManualLocation="True" />
+    <Node Id="Select Layout" Category="Story" Bounds="1035.71462392666,681.65006724452,55.4499999999998,25.96" Complete="5" Label="Layout" UseManualLocation="True" />
+    <Node Id="Show/HideCrossGroupLinks" Category="Epic" Bounds="1283.63403035482,1338.16929199259,176.676666666667,25.96" Label="Show/Hide Cross Group Links" UseManualLocation="True" />
+    <Node Id="SolutionExplorerIntegration" Category="Story" Bounds="968.674927166522,903.160926018038,352.263333333333,41.9233333333333" Label="Solution Explorer Integration" UseManualLocation="True">
+      <Category Ref="Big" />
+      <Category Ref="New" />
+    </Node>
+    <Node Id="Stylize" Category="Story" Bounds="1412.41487843559,501.576940914857,53.7633333333333,25.96" Complete="3" Label="Stylize" UseManualLocation="True" />
+    <Node Id="Themes" Category="Intention" Bounds="1509.74133037042,505.417531952594,76.7600000000002,25.96" Complete="4" Label="Categorize" UseManualLocation="True" />
+    <Node Id="ToolBar" Category="Epic" Bounds="983.041254882812,1175.96836425781,60.4133333333336,25.96" UseManualLocation="True" />
+    <Node Id="XPS" Category="Intention" Bounds="958.08270267249,1473.5136713374,50,25.96" Complete="4" Label="XPS" UseManualLocation="True" />
+    <Node Id="Zoom" Category="Intention" Bounds="1443.2914864225,742.171980826332,51.2399999999998,25.96" Complete="5" Label="Zoom" UseManualLocation="True" />
+  </Nodes>
+  <Links>
+    <Link Source="Analyze" Target="Complexity" Bounds="1603.59000122001,1066.36117572621,62.894467050671,31.108069818016" />
+    <Link Source="Analyze" Target="Cycles" Bounds="1602.14732944321,1123.42924554423,61.4131939972381,32.1424018282964" />
+    <Link Source="Analyze" Target="Layers" Bounds="1607.87363233051,1111.77071284439,56.8612567103462,2.46146401143073" />
+    <Link Source="Background/Stroke/Icon" Target="NewColorPicker" Bounds="1550.1596232814,241.990782308826,100.448372898529,32.1159936593974" />
+    <Link Source="Browse" Target="Collapse" Bounds="1592.01809981825,785.245148551473,70.470407939699,0.837735382650862" />
+    <Link Source="Browse" Target="Expand" Bounds="1591.0086270674,744.494976293134,68.1785795215687,29.7089009252752" />
+    <Link Source="Browse" Target="Navigation" Bounds="1569.05276555332,799.408381901043,27.912758200674,59.4141778934762" />
+    <Link Source="Browse" Target="Pan" Bounds="1535.96300379038,685.864225424814,23.5078864104626,87.5841564762294" />
+    <Link Source="Browse" Target="Scroll" Bounds="1569.48505152162,683.284481309713,45.3617851219251,90.1639005913302" />
+    <Link Source="Browse" Target="Zoom" Bounds="1503.07157814975,766.512757788827,30.8198550018258,10.2498992534269" />
+    <Link Source="Drag/Drop" Target="NewNode4" Bounds="542.811881718885,786.955219015009,28.1902276009432,1.92938019208077" />
+    <Link Source="Drag/Drop" Target="NewNode5" Bounds="565.960947747872,740.42866420861,32.5198069382122,38.1145812245762" />
+    <Link Source="Edit" Target="Drag/Drop" Bounds="637.613555814951,809.324782293593,79.0863751566072,50.1765394696434" />
+    <Link Source="Edit" Target="Grouping" Bounds="394.822750370895,881.665945887059,317.335768625727,116.584390234868" />
+    <Link Source="Edit" Target="Labels" Bounds="598.914836234469,885.461321763236,120.291043727556,86.9720459802455" />
+    <Link Source="Edit" Target="NewNode18" Bounds="629.615978987606,885.461321763236,98.758590865336,145.935101451998" />
+    <Link Source="Edit" Target="NewNode19" Bounds="737.563320810987,815.538771910613,1.37104159818512,43.9625498526225" />
+    <Link Source="Edit" Target="NewNode8" Bounds="742.919697149922,885.461321763236,30.902054829274,69.6226815090259" />
+    <Link Source="Edit" Target="NewNode9" Bounds="611.452317369112,872.490336902633,100.70620162751,0.0363152178338169" />
+    <Link Source="Export" Target="Image" Bounds="1077.38057113466,1405.16921890417,3.15526408804249,56.0497612635227" />
+    <Link Source="Export" Target="XPS" Bounds="1003.08755843568,1405.16921890417,64.6650179946156,62.1100156005853" />
+    <Link Source="Filtering" Target="AdvancedSelection" Bounds="1278.24728161936,1219.03099579846,48.8245511932935,40.3001876454625" />
+    <Link Source="Filtering" Target="Butterfly" Bounds="1354.23700214274,1219.03099579846,49.6889660109152,56.379748510609" />
+    <Link Source="Filtering" Target="Neighborhood" Bounds="1374.27405093491,1214.34165669204,36.1522319218022,9.52216124355687" />
+    <Link Source="Filtering" Target="Show/HideCrossGroupLinks" Bounds="1345.4072786833,1219.03099579846,22.1810645809101,110.314891131199" />
+    <Link Source="Graph Document Experience" Target="Analyze" Bounds="1353.27266863569,1070.52951779344,184.687142817837,32.9027494814943" />
+    <Link Source="Graph Document Experience" Target="Browse" Bounds="1293.94104811629,805.639760823713,248.993180142087,238.929756969727" />
+    <Link Source="Graph Document Experience" Target="Edit" Bounds="770.677745826635,883.900146054184,471.634642826845,160.669371739256" />
+    <Link Source="Graph Document Experience" Target="Filtering" Bounds="1285.86703202436,1070.52951779344,47.9919848244533,114.243886774873" />
+    <Link Source="Graph Document Experience" Target="NewNode17" Bounds="1054.85908453564,1070.52951779344,168.375290906975,38.2216224897159" />
+    <Link Source="Graph Document Experience" Target="NewNode35" Bounds="1310.86475603888,1070.52951779344,467.82680774925,199.419058710727" />
+    <Link Source="Graph Document Experience" Target="Persist" Bounds="1048.93055163717,1070.52951779344,217.224081425465,197.729677152188" />
+    <Link Source="Graph Document Experience" Target="Select Layout" Bounds="1079.68701171875,714.589965820313,274.004760742188,329.9794921875" />
+    <Link Source="Graph Document Experience" Target="SolutionExplorerIntegration" Bounds="1172.52621069492,951.396425960721,94.6959813564924,93.173091832719" />
+    <Link Source="Graph Document Experience" Target="Stylize" Bounds="1285.39624023438,536.345825195313,149.337158203125,508.2236328125" />
+    <Link Source="Graph Document Experience" Target="ToolBar" Bounds="1047.71556253094,1070.52951779344,206.307226785527,101.466835138493" />
+    <Link Source="Grouping" Target="NewNode1" Bounds="355.747900671194,1026.74438456736,8.75320929305428,36.0291313522853" />
+    <Link Source="Grouping" Target="NewNode15" Bounds="274.442478225979,1003.43859572603,43.1302893373807,5.69856831658069" />
+    <Link Source="Grouping" Target="NewNode16" Bounds="255.838962759832,1021.84051461417,61.7338048035282,14.2360510886833" />
+    <Link Source="Grouping" Target="NewNode2" Bounds="266.364105470908,1026.74438456736,72.4339151935332,68.1475815973909" />
+    <Link Source="Grouping" Target="NewNode3" Bounds="345.815963969846,957.0025438172,5.2284052373704,43.7818407501602" />
+    <Link Source="Layered Layout" Target="Direction" Bounds="1197.7786116673,617.060249656659,21.170699187458,37.6849088079845" />
+    <Link Source="Legend" Target="NewNode27" Bounds="1373.48494011881,393.360275550748,70.7704194983028,39.4006389140769" />
+    <Link Source="Legend" Target="NewNode28" Bounds="1374.49377441406,315.316375732422,83.8128662109375,117.444549560547" />
+    <Link Source="Legend" Target="NewNode29" Bounds="1472.88141761466,341.839543458992,37.2071131851412,90.9213710058327" />
+    <Link Source="Legend" Target="NewNode30" Bounds="1495.67968102104,393.139325918447,89.703640393845,40.0510065547934" />
+    <Link Source="Load" Target="LayoutInformation" Bounds="892.151528659436,1352.85658691406,12.5855677727894,55.9166450055588" />
+    <Link Source="ManualLayout" Target="Bump" Bounds="1034.29827970203,538.186487439156,17.4513499121883,44.6352406921541" />
+    <Link Source="ManualLayout" Target="Move" Bounds="939.318829874669,553.931639663464,69.9053680289488,28.8900884678462" />
+    <Link Source="Navigation" Target="GotoDGML" Bounds="1551.29306782333,892.928401359721,39.6782771256628,32.3526030709301" />
+    <Link Source="Navigation" Target="GotoReference" Bounds="1618.18217076149,892.928401359721,36.7544990244821,42.2497881345109" />
+    <Link Source="Navigation" Target="LinkNavigation" Bounds="1645.74210276149,877.204381375406,34.3029914418578,1.28669993780341" />
+    <Link Source="NewNode17" Target="NewNode20" Bounds="970.027254913451,1069.41719283165,35.2185588456483,34.6187417600624" />
+    <Link Source="NewNode17" Target="QuickFind" Bounds="936.358897753769,1123.27481427306,54.46014560511,12.3358284132207" />
+    <Link Source="NewNode18" Target="NewNode43" Bounds="545.36248365416,1064.810078125,47.8926496243308,27.5885338577557" />
+    <Link Source="NewNode18" Target="NewNode45" Bounds="616.82068364463,1064.810078125,3.07546375761558,38.6531610341733" />
+    <Link Source="NewNode18" Target="NewNode47" Bounds="636.19103179938,1064.810078125,39.5633421584914,25.1693087439801" />
+    <Link Source="NewNode27" Target="Background/Stroke/Icon" Bounds="1357.07650505795,247.932034777452,130.95624285908,115.090346171653" />
+    <Link Source="NewNode28" Target="Background/Stroke/Icon" Bounds="1365.91640088265,245.108822162414,100.057845291803,36.9535002417687" />
+    <Link Source="NewNode29" Target="Background/Stroke/Icon" Bounds="1511.77851144783,250.945196386374,5.71896127263949,56.6048099995249" />
+    <Link Source="NewNode30" Target="Background/Stroke/Icon" Bounds="1530.43969726563,248.056365966797,87.2662353515625,115.453735351563" />
+    <Link Source="NewNode35" Target="NewNode36" Bounds="1822.20425076038,1299.43772408334,27.6409664478667,75.0101944850032" />
+    <Link Source="NewNode35" Target="NewNode38" Bounds="1729.85606538386,1295.9460847293,53.4801055970786,14.8874440161114" />
+    <Link Source="NewNode35" Target="NewNode39" Bounds="1851.50617098094,1282.68778024014,53.9097525136981,2.30964612970024" />
+    <Link Source="NewNode36" Target="NewNode37" Bounds="1877.83616164192,1408.85280092895,35.8579624843806,23.1606947486648" />
+    <Link Source="NewNode36" Target="NewNode48" Bounds="1746.71809132573,1392.02241578943,85.3004454713212,2.95832570027869" />
+    <Link Source="NewNode36" Target="NewNode49" Bounds="1749.13124177244,1405.99243763759,82.8905465217133,32.6156262681684" />
+    <Link Source="NewNode37" Target="NewNode50" Bounds="1969.23853679705,1452.89630148888,34.7238012152234,3.7598521902612" />
+    <Link Source="NewNode37" Target="NewNode51" Bounds="1946.57163690405,1462.85658568887,20.1389113371499,50.0634686132487" />
+    <Link Source="NewNode37" Target="NewNode52" Bounds="1896.98636637893,1462.85658568887,34.2115309406663,43.7403743845261" />
+    <Link Source="NewNode39" Target="NewNode40" Bounds="1982.42248004194,1292.92376502225,55.84745787356,55.9416781749937" />
+    <Link Source="NewNode39" Target="NewNode41" Bounds="2024.52100839657,1288.08325944995,62.6737926075284,9.26559881985031" />
+    <Link Source="NewNode39" Target="NewNode42" Bounds="1979.419039324,1222.81834604661,33.8562631792911,44.1454189756382" />
+    <Link Source="NewNode39" Target="NewNode44" Bounds="2005.16345242416,1230.6220403568,99.9512520533176,36.3417246654512" />
+    <Link Source="NewNode53" Target="NewNode55" Bounds="1276.98165708196,465.051861996882,23.3492349178828,23.601972445842" />
+    <Link Source="Persist" Target="Export" Bounds="1034.60490987215,1300.27749704653,35.9978077365595,70.9066767752336" />
+    <Link Source="Persist" Target="Load" Bounds="940.772933458887,1298.94400500545,60.5827629159894,26.4662299833765" />
+    <Link Source="Persist" Target="Save" Bounds="997.437927833675,1300.27749704653,24.5753269942614,53.147033826036" />
+    <Link Source="Save" Target="LayoutInformation" Bounds="918.404206577418,1387.38596377822,46.2659497711114,25.7860804706331" />
+    <Link Source="Select Layout" Target="DependencyMatrix" Bounds="1091.16462392666,702.620954697329,55.2213678601952,15.9158786496305" />
+    <Link Source="Select Layout" Target="FastIncrementalLayout" Bounds="967.657505733144,683.787296480618,68.057118193516,7.70423274554412" />
+    <Link Source="Select Layout" Target="Layered Layout" Bounds="1091.16462392666,680.175120817972,40.5323743061244,8.58358975996032" />
+    <Link Source="Select Layout" Target="ManualLayout" Bounds="1061.09739369794,633.738410655441,1.84294756715644,47.911656589079" />
+    <Link Source="Select Layout" Target="QuickClusters" Bounds="984.863473665597,707.61006724452,61.9671160999849,48.4274497347174" />
+    <Link Source="SolutionExplorerIntegration" Target="CodeIndexDatabase" Bounds="1012.32499931547,870.5355887349,80.6586744240687,32.6253372831378" />
+    <Link Source="Stylize" Target="Legend" Bounds="1444.62939582051,467.045691734092,14.1872108625555,34.5312491807654" />
+    <Link Source="Stylize" Target="NewNode53" Bounds="1366.28835610865,507.076304725167,46.126522326944,4.72626066993217" />
+    <Link Source="Stylize" Target="Themes" Bounds="1466.17821176892,515.50563553277,34.5687180796342,1.21998227256358" />
+    <Link Source="Themes" Target="NewNode54" Bounds="1582.54571374579,495.579396531119,26.0918139790156,9.83813542147527" />
+    <Link Source="ToolBar" Target="NowInsde" Bounds="936.318688545909,1201.01104769428,47.5633003265564,19.5376404810136" />
+  </Links>
+  <Categories>
+    <Category Id="Big" />
+    <Category Id="Epic" />
+    <Category Id="Intention" />
+    <Category Id="Interaction" />
+    <Category Id="New" Label="New" IsTag="True" />
+    <Category Id="Options" />
+    <Category Id="Removed" Label="Removed" IsTag="True" />
+    <Category Id="Story" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="Complete" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsTag" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="Offset" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Big" ValueLabel="True">
+      <Condition Expression="HasCategory('Big')" />
+      <Setter Property="FontSize" Value="24" />
+      <Setter Property="FontWeight" Value="Bold" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="New" ValueLabel="True">
+      <Condition Expression="HasCategory('New')" />
+      <Setter Property="Icon" Value="..\icons\new.gif" />
+      <Setter Property="Background" Value="#c0ffc0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Removed" ValueLabel="True">
+      <Condition Expression="HasCategory('Removed')" />
+      <Setter Property="Icon" Value="..\icons\removed.png" />
+      <Setter Property="Background" Value="#ffc0c0" />
+    </Style>
+  </Styles>
+</DirectedGraph>

@@ -1,0 +1,134 @@
+﻿<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+    <Nodes>
+        <Node Id=".NET" Category="Product" Label=".NET" />
+        <Node Id="Australia" Category="Place" Label="Australia" />
+        <Node Id="California" Category="Place" Label="California" />
+        <Node Id="Cupertino" Category="Place" Label="Cupertino" />
+        <Node Id="LosAltos" Category="Place" Label="Los Altos" />
+        <Node Id="IBM" Category="Company" Label="IBM" />
+        <Node Id="IE" Category="Product" Label="IE" />
+        <Node Id="Linq" Category="Technology" Label="Linq" />
+        <Node Id="Logica" Category="Company" Label="Logica" />
+        <Node Id="MLSF" Category="Technology" Label="MLSF" />
+        <Node Id="MSXML" Category="Technology" Label="MSXML" />
+        <Node Id="Microsoft" Category="Company" Label="Microsoft" />
+        <Node Id="CommonPoint" Category="Product" Label="CommonPoint" />
+        <Node Id="OS/2" Category="Product" Label="OS/2" />
+        <Node Id="Progression" Category="Technology" Label="Progression" />
+        <Node Id="SanJose" Category="Place" Label="San Jose" />
+        <Node Id="Seattle" Category="Place" Label="Seattle" />
+        <Node Id="Springwood" Category="Place" Label="Springwood" />
+        <Node Id="Sydney" Category="Place" Label="Sydney" />
+        <Node Id="System.Xml" Category="Technology" Label="System.Xml" />
+        <Node Id="Taligent" Category="Company" Label="Taligent" />
+        <Node Id="UNSW" Category="Company" Label="University NSW" />
+        <Node Id="NSW" Category="Place" Label="NSW"/>
+        <Node Id="USA" Category="Place" Label="USA" />
+        <Node Id="Visual Studio" Category="Product" Label="Visual Studio" />
+        <Node Id="Walkabout" Category="Company" Label="Walkabout" />
+        <Node Id="Washington" Category="Place" Label="Washington" />
+        <Node Id="WebBrowser" Category="Product" Label="Web Browser for kids" />
+        <Node Id="X#" Category="Technology" Label="X#" />
+        <Node Id="XmlEditor" Category="Technology" Label="XML Editor" />
+        <Node Id="clovett" Category="Person" Label="Chris Lovett" />
+    </Nodes>
+    <Links>
+        <Link Source=".NET" Target="System.Xml" Category="Contains" Label="PM"/>
+        <Link Source=".NET" Target="X#" Category="Contains" Label="Incubator"/>
+        <Link Source="Australia" Target="NSW" Category="Contains" Label="State"/>
+        <Link Source="NSW" Target="Sydney" Category="Contains" Label="City"/>
+        <Link Source="California" Target="Cupertino" Category="Contains" Label="City" />
+        <Link Source="California" Target="LosAltos" Category="Contains" Label="City" />
+        <Link Source="California" Target="SanJose" Category="Contains" Label="City" />
+        <Link Source="Cupertino" Target="Taligent" Category="Contains" />
+        <Link Source="LosAltos" Target="Walkabout" Category="Contains" />
+        <Link Source="IBM" Target="OS/2" Category="Technology" Label="Dev"/>
+        <Link Source="IBM" Target="Taligent" Category="Work" Label="Apply/IBM Joint Venture"/>
+        <Link Source="IE" Target="MSXML" Category="Shipped" Label="Dev"/>
+        <Link Source="Logica" Target="IBM" Category="Work" />
+        <Link Source="Logica" Target="OS/2" Category="Technology" Label="Dev"/>
+        <Link Source="Microsoft" Target=".NET" Category="Contains" Label="WebData"/>
+        <Link Source="Microsoft" Target="IE" Category="Contains" Label="WebData"/>
+        <Link Source="Microsoft" Target="Visual Studio" Category="Contains" />
+        <Link Source="SanJose" Target="IBM" Category="Contains" />
+        <Link Source="Seattle" Target="Microsoft" Category="Contains" />
+        <Link Source="Sydney" Target="Springwood" Category="Contains" Label="Town"/>
+        <Link Source="Sydney" Target="USA" Category="Near" Label="Moved to"/>
+        <Link Source="Springwood" Target="clovett" Category="Contains" Label="From"/>
+        <Link Source="UNSW" Target="Logica" Category="Work" Label="First job"/>
+        <Link Source="Sydney" Target="UNSW" Category="Contains" />
+        <Link Source="Taligent" Target="CommonPoint" Category="Technology" Label="Dev"/>
+        <Link Source="Taligent" Target="Walkabout" Category="Work" Label="Startup"/>
+        <Link Source="USA" Target="California" Category="Contains" Label="State" />
+        <Link Source="USA" Target="Washington" Category="Contains" Label="State" />
+        <Link Source="Visual Studio" Target="Progression" Category="Contains"  Label="Architect"/>
+        <Link Source="Visual Studio" Target="XmlEditor" Category="Contains" Label="Architect"/>
+        <Link Source="Walkabout" Target="Microsoft" Category="Work" Label="Aquired by"/>
+        <Link Source="Walkabout" Target="WebBrowser" Category="Technology" Label="Founder" />
+        <Link Source="Washington" Target="Seattle" Category="Contains" Label="City" />
+        <Link Source="X#" Target="Linq" Category="Influenced" Label="Influenced"/>
+        <Link Source="XmlEditor" Target="MLSF" Category="Contains" Label="VSIP SDK"/>
+        <Link Source="clovett" Target="UNSW" Category="Worked" Label="Computer Science"/>
+    </Links>
+    <Categories>
+        <Category Id="Company" Background="#FF800000" />
+        <Category Id="Contains" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+        <Category Id="Influenced" />
+        <Category Id="Near" />
+        <Category Id="Person" Background="#FFA0E0C0" Foreground="#FF000080" Icon="..\Icons\User.png" Shape="None" />
+        <Category Id="Place" Background="#FF008000" />
+        <Category Id="Product" Background="#FF008080" />
+        <Category Id="Shipped" />
+        <Category Id="Team" Background="#FF0000FF" />
+        <Category Id="Technology" Background="#FF800080" />
+        <Category Id="Work" />
+        <Category Id="Worked" />
+    </Categories>
+    <Properties>
+        <Property Id="Background" DataType="Brush" />
+        <Property Id="CanBeDataDriven" DataType="Boolean" />
+        <Property Id="CanLinkedNodesBeDataDriven" DataType="Boolean" />
+        <Property Id="Foreground" DataType="Brush" />
+        <Property Id="Icon" DataType="String" />
+        <Property Id="IncomingActionLabel" DataType="String" />
+        <Property Id="IsContainment" DataType="Boolean" />
+        <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="String" />
+        <Property Id="OutgoingActionLabel" DataType="String" />
+    </Properties>
+    <Styles>
+        <Style TargetType="Node" >
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+        <Style TargetType="Link" GroupLabel="Work" ValueLabel="Link">
+            <Condition Expression="HasCategory('Work')" />
+            <Setter Property="StrokeThickness" Value="2" />
+            <Setter Property="Stroke" Value="#FF800000" />
+            <Setter Property="Background" Value="#FF800000" />
+        </Style>
+        <Style TargetType="Node" GroupLabel="Technology" ValueLabel="Has category">
+            <Condition Expression="HasCategory('Technology')" />
+            <Setter Property="Shape" Value="None" />
+            <Setter Property="Icon" Value="..\Icons\Broadcast.png" />
+        </Style>
+        <Style TargetType="Node" GroupLabel="Place" ValueLabel="Has category">
+            <Condition Expression="HasCategory('Place')" />
+            <Setter Property="Shape" Value="None" />
+            <Setter Property="Icon" Value="..\Icons\Earth.png" />
+        </Style>
+        <Style TargetType="Node" GroupLabel="Team" ValueLabel="Has category">
+            <Condition Expression="HasCategory('Team')" />
+            <Setter Property="Shape" Value="None" />
+            <Setter Property="Icon" Value="..\Icons\Product.png" />
+        </Style>
+        <Style TargetType="Node" GroupLabel="Product" ValueLabel="Has category">
+            <Condition Expression="HasCategory('Product')" />
+            <Setter Property="Shape" Value="None" />
+            <Setter Property="Icon" Value="..\Icons\Product.png" />
+        </Style>
+        <Style TargetType="Node" GroupLabel="Company" ValueLabel="Has category">
+            <Condition Expression="HasCategory('Company')" />
+            <Setter Property="Shape" Value="None" />
+            <Setter Property="Icon" Value="..\Icons\Company.png" />
+        </Style>
+    </Styles>
+</DirectedGraph>

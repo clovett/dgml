@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph ImportFrom="file:///C:/temp/set.dgml" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Set.AboutForm" Category="Help" Label="AboutForm" />
+    <Node Id="Set.Board" Category="Model" Label="Board" />
+    <Node Id="Set.BoardData" Category="Model" Label="BoardData" />
+    <Node Id="Set.Card" Category="Model" Label="Card" />
+    <Node Id="Set.CardArray" Category="Model" Label="CardArray" />
+    <Node Id="Set.CardGraphics" Category="Form" Label="CardGraphics" />
+    <Node Id="Set.Deck" Category="Model" Label="Deck" />
+    <Node Id="Set.ErrorLog" Category="Config" Label="ErrorLog" />
+    <Node Id="Set.GameClient" Category="Web" Label="GameClient" />
+    <Node Id="Set.GameListener" Category="Web" Label="GameListener" />
+    <Node Id="Set.GameNetwork" Category="Web" Label="GameNetwork" />
+    <Node Id="Set.GameServer" Category="Web" Label="GameServer" />
+    <Node Id="Set.GameZoneForm" Category="Form" Label="GameZoneForm" />
+    <Node Id="Set.HostForm" Category="Form" Label="HostForm" />
+    <Node Id="Set.IPInfo" Category="Web" Label="IPInfo" />
+    <Node Id="Set.InfiniteProgress" Category="Form" Label="InfiniteProgress" />
+    <Node Id="Set.JoinForm" Category="Form" Label="JoinForm" />
+    <Node Id="Set.Player" Category="Model" Label="Player" />
+    <Node Id="Set.Players" Category="Model" Label="Players" />
+    <Node Id="Set.SetForm" Category="Form" Label="SetForm" />
+    <Node Id="Set.Settings" Category="Config" Label="Settings" />
+    <Node Id="Set.SettingsForm" Category="Form" Label="SettingsForm" />
+    <Node Id="Set.SoapMessage" Category="Web" Label="SoapMessage" />
+    <Node Id="Set.Status" Category="Form" Label="Status" />
+    <Node Id="Set.UDDIHandler" Category="Web" Label="UDDIHandler" />
+    <Node Id="Set.UDDIQuery" Category="Web" Label="UDDIQuery" />
+    <Node Id="Set.WinnerForm" Category="Form" Label="WinnerForm" />
+    <Node Id="Set.XmlMessage" Category="Model" Label="XmlMessage" />
+    <Node Id="setsharp.localhost.SetService" Category="Web" Label="SetService" />
+  </Nodes>
+  <Links>
+    <Link Source="Set.Board" Target="Set.Players" Category="Method: .ctor, argument: players&#xD;&#xA;Method: get_Players&#xD;&#xA;Property: Players" />
+    <Link Source="Set.Board" Target="Set.Status" Category="Method: .ctor, argument: status" />
+    <Link Source="Set.Board" Target="Set.XmlMessage" Category="Method: ValidateMove, argument: msg" />
+    <Link Source="Set.BoardData" Target="Set.CardArray" Category="Field: hand" />
+    <Link Source="Set.BoardData" Target="Set.Deck" Category="Field: deck" />
+    <Link Source="Set.BoardData" Target="Set.Players" Category="Field: players" />
+    <Link Source="Set.Card" Target="Set.CardGraphics" />
+    <Link Source="Set.CardArray" Target="Set.Card" Category="Method: get_Item&#xD;&#xA;Method: set_Item, argument: value&#xD;&#xA;Property: Item" />
+    <Link Source="Set.Deck" Target="Set.Card" Category="Method: Next&#xD;&#xA;Method: get_Item&#xD;&#xA;Method: Find&#xD;&#xA;Property: Item" />
+    <Link Source="Set.GameClient" Target="Set.GameNetwork" Category="Inherits" />
+    <Link Source="Set.GameClient" Target="Set.IPInfo" Category="Method: AddClient, argument: client&#xD;&#xA;Method: Join, argument: host&#xD;&#xA;Method: SetHost, argument: host&#xD;&#xA;Method: SetTimeDelta, argument: toaddr" />
+    <Link Source="Set.GameClient" Target="Set.XmlMessage" Category="Method: HandleMessage, argument: msg&#xD;&#xA;Method: SendMessage, argument: msg" />
+    <Link Source="Set.GameListener" Target="Set.ErrorLog" />
+    <Link Source="Set.GameListener" Target="Set.IPInfo" Category="Field: local" />
+    <Link Source="Set.GameNetwork" Target="Set.ErrorLog" />
+    <Link Source="Set.GameNetwork" Target="Set.GameListener" Category="Field: udpListener&#xD;&#xA;Method: .ctor, argument: net" />
+    <Link Source="Set.GameNetwork" Target="Set.IPInfo" Category="Field: local&#xD;&#xA;Array&#xD;&#xA;Method: SetHost, argument: host&#xD;&#xA;Method: AddClient, argument: client&#xD;&#xA;Method: SetTimeDelta, argument: toaddr&#xD;&#xA;Method: SendMsg, argument: toaddr" />
+    <Link Source="Set.GameNetwork" Target="Set.XmlMessage" Category="Method: HandleMessage, argument: msg&#xD;&#xA;Method: SendMessage, argument: msg&#xD;&#xA;Method: SendMsg, argument: msg&#xD;&#xA;Method: TimeStamp, argument: msg&#xD;&#xA;Method: FireEvent, argument: msg" />
+    <Link Source="Set.GameNetwork" Target="setsharp.localhost.SetService" Category="Field: service" />
+    <Link Source="Set.GameServer" Target="Set.ErrorLog" />
+    <Link Source="Set.GameServer" Target="Set.GameNetwork" Category="Inherits" />
+    <Link Source="Set.GameServer" Target="Set.IPInfo" Category="Method: SetHost, argument: host&#xD;&#xA;Method: AddClient, argument: client&#xD;&#xA;Method: SetTimeDelta, argument: toaddr" />
+    <Link Source="Set.GameServer" Target="Set.XmlMessage" Category="Method: HandleMessage, argument: msg&#xD;&#xA;Method: SendMessage, argument: msg" />
+    <Link Source="Set.GameZoneForm" Target="Set.GameNetwork" Category="Method: .ctor, argument: net" />
+    <Link Source="Set.GameZoneForm" Target="Set.InfiniteProgress" />
+    <Link Source="Set.GameZoneForm" Target="Set.Settings" Category="Method: .ctor, argument: settings" />
+    <Link Source="Set.GameZoneForm" Target="Set.UDDIQuery" Category="Calls" />
+    <Link Source="Set.HostForm" Target="Set.GameNetwork" Category="Method: .ctor, argument: net" />
+    <Link Source="Set.HostForm" Target="Set.IPInfo" Category="Method: get_NetworkAdaptor&#xD;&#xA;Property: NetworkAdaptor" />
+    <Link Source="Set.HostForm" Target="Set.Settings" Category="Method: .ctor, argument: settings" />
+    <Link Source="Set.JoinForm" Target="Set.GameClient" Category="Method: .ctor, argument: net" />
+    <Link Source="Set.JoinForm" Target="Set.IPInfo" Category="Method: get_SelectedHost&#xD;&#xA;Property: SelectedHost" />
+    <Link Source="Set.JoinForm" Target="Set.Settings" Category="Method: .ctor, argument: settings" />
+    <Link Source="Set.JoinForm" Target="Set.Status" Category="Method: .ctor, argument: status" />
+    <Link Source="Set.JoinForm" Target="Set.XmlMessage" Category="Method: AddHost, argument: m" />
+    <Link Source="Set.Players" Target="Set.Player" />
+    <Link Source="Set.SetForm" Target="Set.AboutForm" />
+    <Link Source="Set.SetForm" Target="Set.Board" Category="Method: get_Board&#xD;&#xA;Property: Board" />
+    <Link Source="Set.SetForm" Target="Set.GameNetwork" Category="Method: get_Network&#xD;&#xA;Property: Network" />
+    <Link Source="Set.SetForm" Target="Set.GameZoneForm" />
+    <Link Source="Set.SetForm" Target="Set.HostForm" />
+    <Link Source="Set.SetForm" Target="Set.JoinForm" />
+    <Link Source="Set.SetForm" Target="Set.SettingsForm" />
+    <Link Source="Set.SetForm" Target="Set.WinnerForm" />
+    <Link Source="Set.SetForm" Target="Set.XmlMessage" Category="Method: HandleXmlMessage, argument: msg" />
+    <Link Source="Set.Settings" Target="Set.SetForm" Category="Method: .ctor, argument: frm" />
+    <Link Source="Set.SettingsForm" Target="Set.Settings" Category="Method: .ctor, argument: settings" />
+    <Link Source="Set.Status" Target="Set.Players" Category="Method: .ctor, argument: players&#xD;&#xA;Method: get_Players&#xD;&#xA;Method: set_Players, argument: value&#xD;&#xA;Property: Players" />
+    <Link Source="Set.UDDIQuery" Target="Set.SoapMessage" Category="Calls" />
+    <Link Source="Set.UDDIQuery" Target="Set.UDDIHandler" Category="Method: add_UDDIResult, argument: value&#xD;&#xA;Method: remove_UDDIResult, argument: value" />
+    <Link Source="Set.XmlMessage" Target="Set.IPInfo" Category="Field: from&#xD;&#xA;Field: to&#xD;&#xA;Method: .ctor, argument: from&#xD;&#xA;Method: .ctor, argument: to" />
+  </Links>
+  <Categories>
+    <Category Id="Calls" Label="Calls" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Called by" IsContainment="True" OutgoingActionLabel="Calls" />
+    <Category Id="Config" />
+    <Category Id="Field: deck" />
+    <Category Id="Field: from&#xD;&#xA;Field: to&#xD;&#xA;Method: .ctor, argument: from&#xD;&#xA;Method: .ctor, argument: to" />
+    <Category Id="Field: hand" />
+    <Category Id="Field: local" />
+    <Category Id="Field: local&#xD;&#xA;Array&#xD;&#xA;Method: SetHost, argument: host&#xD;&#xA;Method: AddClient, argument: client&#xD;&#xA;Method: SetTimeDelta, argument: toaddr&#xD;&#xA;Method: SendMsg, argument: toaddr" />
+    <Category Id="Field: players" />
+    <Category Id="Field: service" />
+    <Category Id="Field: udpListener&#xD;&#xA;Method: .ctor, argument: net" />
+    <Category Id="Form" />
+    <Category Id="Help" />
+    <Category Id="Inherits" />
+    <Category Id="Method: .ctor, argument: frm" />
+    <Category Id="Method: .ctor, argument: net" />
+    <Category Id="Method: .ctor, argument: players&#xD;&#xA;Method: get_Players&#xD;&#xA;Method: set_Players, argument: value&#xD;&#xA;Property: Players" />
+    <Category Id="Method: .ctor, argument: players&#xD;&#xA;Method: get_Players&#xD;&#xA;Property: Players" />
+    <Category Id="Method: .ctor, argument: settings" />
+    <Category Id="Method: .ctor, argument: status" />
+    <Category Id="Method: add_UDDIResult, argument: value&#xD;&#xA;Method: remove_UDDIResult, argument: value" />
+    <Category Id="Method: AddClient, argument: client&#xD;&#xA;Method: Join, argument: host&#xD;&#xA;Method: SetHost, argument: host&#xD;&#xA;Method: SetTimeDelta, argument: toaddr" />
+    <Category Id="Method: AddHost, argument: m" />
+    <Category Id="Method: get_Board&#xD;&#xA;Property: Board" />
+    <Category Id="Method: get_Item&#xD;&#xA;Method: set_Item, argument: value&#xD;&#xA;Property: Item" />
+    <Category Id="Method: get_Network&#xD;&#xA;Property: Network" />
+    <Category Id="Method: get_NetworkAdaptor&#xD;&#xA;Property: NetworkAdaptor" />
+    <Category Id="Method: get_SelectedHost&#xD;&#xA;Property: SelectedHost" />
+    <Category Id="Method: HandleMessage, argument: msg&#xD;&#xA;Method: SendMessage, argument: msg" />
+    <Category Id="Method: HandleMessage, argument: msg&#xD;&#xA;Method: SendMessage, argument: msg&#xD;&#xA;Method: SendMsg, argument: msg&#xD;&#xA;Method: TimeStamp, argument: msg&#xD;&#xA;Method: FireEvent, argument: msg" />
+    <Category Id="Method: HandleXmlMessage, argument: msg" />
+    <Category Id="Method: Next&#xD;&#xA;Method: get_Item&#xD;&#xA;Method: Find&#xD;&#xA;Property: Item" />
+    <Category Id="Method: SetHost, argument: host&#xD;&#xA;Method: AddClient, argument: client&#xD;&#xA;Method: SetTimeDelta, argument: toaddr" />
+    <Category Id="Method: ValidateMove, argument: msg" />
+    <Category Id="Model" />
+    <Category Id="Web" />
+  </Categories>
+  <Properties>
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="ImportFrom" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Web" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Web')" />
+      <Setter Property="Icon" Value="../Icons/Web.png" />
+      <Setter Property="Shape" Value="None" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Model" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Model')" />
+      <Setter Property="Icon" Value="../Icons/model.png" />
+      <Setter Property="Shape" Value="None" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Help" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Help')" />
+      <Setter Property="Icon" Value="../Icons/Help.png" />
+      <Setter Property="Shape" Value="None" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Form" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Form')" />
+      <Setter Property="Icon" Value="../Icons/winform.png" />
+      <Setter Property="Shape" Value="None" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Config" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Config')" />
+      <Setter Property="Icon" Value="../Icons/settings.png" />
+      <Setter Property="Shape" Value="None" />
+    </Style>
+    <Style TargetType="Node">
+      <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+  </Styles>
+</DirectedGraph>

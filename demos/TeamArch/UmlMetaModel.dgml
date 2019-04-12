@@ -1,0 +1,872 @@
+﻿<DirectedGraph lcd="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="IAbstraction" Category="Classes" />
+    <Node Id="IAcceptCallAction" Category="Actions" />
+    <Node Id="IAcceptEventAction" Category="Actions" />
+    <Node Id="IAction" Category="Actions" />
+    <Node Id="IActionExecutionSpecification" Category="Interactions" />
+    <Node Id="IActionInputPin" Category="Actions" />
+    <Node Id="IActivity" Category="Activities" />
+    <Node Id="IActivityEdge" Category="Activities" />
+    <Node Id="IActivityFinalNode" Category="Activities" />
+    <Node Id="IActivityGroup" Category="Activities" />
+    <Node Id="IActivityNode" Category="Activities" />
+    <Node Id="IActivityParameterNode" Category="Activities" />
+    <Node Id="IActivityPartition" Category="Activities" />
+    <Node Id="IActor" Category="UseCases" />
+    <Node Id="IAddStructuralFeatureValueAction" Category="Actions" />
+    <Node Id="IAddVariableValueAction" Category="Actions" />
+    <Node Id="IAnyReceiveEvent" Category="CommonBehaviors" />
+    <Node Id="IArtifact" Category="Deployments" />
+    <Node Id="IAssociation" Category="Classes" />
+    <Node Id="IAssociationClass" Category="Classes" />
+    <Node Id="IBehavior" Category="CommonBehaviors" />
+    <Node Id="IBehaviorExecutionSpecification" Category="Interactions" />
+    <Node Id="IBehavioralFeature" Category="Classes" />
+    <Node Id="IBehavioredClassifier" Category="CommonBehaviors" />
+    <Node Id="IBroadcastSignalAction" Category="Actions" />
+    <Node Id="ICallAction" Category="Actions" />
+    <Node Id="ICallBehaviorAction" Category="Actions" />
+    <Node Id="ICallEvent" Category="CommonBehaviors" />
+    <Node Id="ICallOperationAction" Category="Actions" />
+    <Node Id="ICentralBufferNode" Category="Activities" />
+    <Node Id="IChangeEvent" Category="CommonBehaviors" />
+    <Node Id="IClass" Category="Classes" />
+    <Node Id="IClassifier" Category="Classes" />
+    <Node Id="IClassifierTemplateParameter" Category="AuxiliaryConstructs" />
+    <Node Id="IClause" Category="Activities" />
+    <Node Id="IClearAssociationAction" Category="Actions" />
+    <Node Id="IClearStructuralFeatureAction" Category="Actions" />
+    <Node Id="IClearVariableAction" Category="Actions" />
+    <Node Id="ICollaboration" Category="CompositeStructures" />
+    <Node Id="ICollaborationUse" Category="CompositeStructures" />
+    <Node Id="ICombinedFragment" Category="Interactions" />
+    <Node Id="IComment" Category="Classes" />
+    <Node Id="ICommunicationPath" Category="Deployments" />
+    <Node Id="IComponent" Category="Components" />
+    <Node Id="IComponentRealization" Category="Components" />
+    <Node Id="IConditionalNode" Category="Activities" />
+    <Node Id="IConnectableElement" Category="CompositeStructures" />
+    <Node Id="IConnectableElementTemplateParameter" Category="AuxiliaryConstructs" />
+    <Node Id="IConnectionPointReference" Category="StateMachine" />
+    <Node Id="IConnector" Category="CompositeStructures" />
+    <Node Id="IConnectorEnd" Category="CompositeStructures" />
+    <Node Id="IConsiderIgnoreFragment" Category="Interactions" />
+    <Node Id="IConstraint" Category="Classes" />
+    <Node Id="IContinuation" Category="Interactions" />
+    <Node Id="IControlFlow" Category="Activities" />
+    <Node Id="IControlNode" Category="Activities" />
+    <Node Id="ICreateLinkAction" Category="Actions" />
+    <Node Id="ICreateLinkObjectAction" Category="Actions" />
+    <Node Id="ICreateObjectAction" Category="Actions" />
+    <Node Id="ICreationEvent" Category="Interactions" />
+    <Node Id="IDataStoreNode" Category="Activities" />
+    <Node Id="IDataType" Category="Classes" />
+    <Node Id="IDecisionNode" Category="Activities" />
+    <Node Id="IDependency" Category="Classes" />
+    <Node Id="IDeployedArtifact" Category="Deployments" />
+    <Node Id="IDeployment" Category="Deployments" />
+    <Node Id="IDeploymentSpecification" Category="Deployments" />
+    <Node Id="IDeploymentTarget" Category="Deployments" />
+    <Node Id="IDestroyLinkAction" Category="Actions" />
+    <Node Id="IDestroyObjectAction" Category="Actions" />
+    <Node Id="IDestructionEvent" Category="Interactions" />
+    <Node Id="IDevice" Category="Deployments" />
+    <Node Id="IDirectedRelationship" Category="Classes" />
+    <Node Id="IDuration" Category="CommonBehaviors" />
+    <Node Id="IDurationConstraint" Category="CommonBehaviors" />
+    <Node Id="IDurationInterval" Category="CommonBehaviors" />
+    <Node Id="IDurationObservation" Category="CommonBehaviors" />
+    <Node Id="IElement" Category="Classes" />
+    <Node Id="IElementImport" Category="Classes" />
+    <Node Id="IEncapsulatedClassifier" Category="CompositeStructures" />
+    <Node Id="IEnumeration" Category="Classes" />
+    <Node Id="IEnumerationLiteral" Category="Classes" />
+    <Node Id="IEvent" Category="CommonBehaviors" />
+    <Node Id="IExceptionHandler" Category="Activities" />
+    <Node Id="IExecutableNode" Category="Activities" />
+    <Node Id="IExecutionEnvironment" Category="Deployments" />
+    <Node Id="IExecutionEvent" Category="Interactions" />
+    <Node Id="IExecutionOccurrenceSpecification" Category="Interactions" />
+    <Node Id="IExecutionSpecification" Category="Interactions" />
+    <Node Id="IExpansionNode" Category="Activities" />
+    <Node Id="IExpansionRegion" Category="Activities" />
+    <Node Id="IExpression" Category="Classes" />
+    <Node Id="IExtend" Category="UseCases" />
+    <Node Id="IExtension" Category="AuxiliaryConstructs" />
+    <Node Id="IExtensionEnd" Category="AuxiliaryConstructs" />
+    <Node Id="IExtensionPoint" Category="UseCases" />
+    <Node Id="IFeature" Category="Classes" />
+    <Node Id="IFinalNode" Category="Activities" />
+    <Node Id="IFinalState" Category="StateMachine" />
+    <Node Id="IFlowFinalNode" Category="Activities" />
+    <Node Id="IForkNode" Category="Activities" />
+    <Node Id="IFunctionBehavior" Category="CommonBehaviors" />
+    <Node Id="IGate" Category="Interactions" />
+    <Node Id="IGeneralOrdering" Category="Interactions" />
+    <Node Id="IGeneralization" Category="Classes" />
+    <Node Id="IGeneralizationSet" Category="Classes" />
+    <Node Id="IImage" Category="AuxiliaryConstructs" />
+    <Node Id="IInclude" Category="UseCases" />
+    <Node Id="IInformationFlow" Category="AuxiliaryConstructs" />
+    <Node Id="IInformationItem" Category="AuxiliaryConstructs" />
+    <Node Id="IInitialNode" Category="Activities" />
+    <Node Id="IInputPin" Category="Actions" />
+    <Node Id="IInstanceSpecification" Category="Classes" />
+    <Node Id="IInstanceValue" Category="Classes" />
+    <Node Id="IInteraction" Category="Interactions" />
+    <Node Id="IInteractionConstraint" Category="Interactions" />
+    <Node Id="IInteractionFragment" Category="Interactions" />
+    <Node Id="IInteractionOperand" Category="Interactions" />
+    <Node Id="IInteractionUse" Category="Interactions" />
+    <Node Id="IInterface" Category="Classes" />
+    <Node Id="IInterfaceRealization" Category="Classes" />
+    <Node Id="IInterruptibleActivityRegion" Category="Activities" />
+    <Node Id="IInterval" Category="CommonBehaviors" />
+    <Node Id="IIntervalConstraint" Category="CommonBehaviors" />
+    <Node Id="IInvocationAction" Category="Actions" />
+    <Node Id="IJoinNode" Category="Activities" />
+    <Node Id="ILifeline" Category="Interactions" />
+    <Node Id="ILinkAction" Category="Actions" />
+    <Node Id="ILinkEndCreationData" Category="Actions" />
+    <Node Id="ILinkEndData" Category="Actions" />
+    <Node Id="ILinkEndDestructionData" Category="Actions" />
+    <Node Id="ILiteralBoolean" Category="Classes" />
+    <Node Id="ILiteralInteger" Category="Classes" />
+    <Node Id="ILiteralNull" Category="Classes" />
+    <Node Id="ILiteralSpecification" Category="Classes" />
+    <Node Id="ILiteralString" Category="Classes" />
+    <Node Id="ILiteralUnlimitedNatural" Category="Classes" />
+    <Node Id="ILoopNode" Category="Activities" />
+    <Node Id="IManifestation" Category="Deployments" />
+    <Node Id="IMergeNode" Category="Activities" />
+    <Node Id="IMessage" Category="Interactions" />
+    <Node Id="IMessageEnd" Category="Interactions" />
+    <Node Id="IMessageEvent" Category="CommonBehaviors" />
+    <Node Id="IMessageOccurrenceSpecification" Category="Interactions" />
+    <Node Id="IModel" Category="AuxiliaryConstructs" />
+    <Node Id="IMultiplicityElement" Category="Classes" />
+    <Node Id="INamedElement" Category="Classes" />
+    <Node Id="INamespace" Category="Classes" />
+    <Node Id="INode" Category="Deployments" />
+    <Node Id="IObjectFlow" Category="Activities" />
+    <Node Id="IObjectNode" Category="Activities" />
+    <Node Id="IObservation" Category="CommonBehaviors" />
+    <Node Id="IOccurrenceSpecification" Category="Interactions" />
+    <Node Id="IOpaqueAction" Category="Actions" />
+    <Node Id="IOpaqueBehavior" Category="CommonBehaviors" />
+    <Node Id="IOpaqueExpression" Category="Classes" />
+    <Node Id="IOperation" Category="Classes" />
+    <Node Id="IOperationTemplateParameter" Category="AuxiliaryConstructs" />
+    <Node Id="IOutputPin" Category="Actions" />
+    <Node Id="IPackage" Category="Classes" />
+    <Node Id="IPackageImport" Category="Classes" />
+    <Node Id="IPackageMerge" Category="Classes" />
+    <Node Id="IPackageableElement" Category="Classes" />
+    <Node Id="IParameter" Category="Classes" />
+    <Node Id="IParameterSet" Category="Activities" />
+    <Node Id="IParameterableElement" Category="AuxiliaryConstructs" />
+    <Node Id="IPartDecomposition" Category="Interactions" />
+    <Node Id="IPin" Category="Actions" />
+    <Node Id="IPort" Category="CompositeStructures" />
+    <Node Id="IPrimitiveType" Category="Classes" />
+    <Node Id="IProfile" Category="AuxiliaryConstructs" />
+    <Node Id="IProfileApplication" Category="AuxiliaryConstructs" />
+    <Node Id="IProperty" Category="Classes" />
+    <Node Id="IProtocolConformance" Category="StateMachine" />
+    <Node Id="IProtocolStateMachine" Category="StateMachine" />
+    <Node Id="IProtocolTransition" Category="StateMachine" />
+    <Node Id="IPseudostate" Category="StateMachine" />
+    <Node Id="IQualifierValue" Category="Actions" />
+    <Node Id="IRaiseExceptionAction" Category="Actions" />
+    <Node Id="IReadExtentAction" Category="Actions" />
+    <Node Id="IReadIsClassifiedObjectAction" Category="Actions" />
+    <Node Id="IReadLinkAction" Category="Actions" />
+    <Node Id="IReadLinkObjectEndAction" Category="Actions" />
+    <Node Id="IReadLinkObjectEndQualifierAction" Category="Actions" />
+    <Node Id="IReadSelfAction" Category="Actions" />
+    <Node Id="IReadStructuralFeatureAction" Category="Actions" />
+    <Node Id="IReadVariableAction" Category="Actions" />
+    <Node Id="IRealization" Category="Classes" />
+    <Node Id="IReceiveOperationEvent" Category="Interactions" />
+    <Node Id="IReceiveSignalEvent" Category="Interactions" />
+    <Node Id="IReception" Category="CommonBehaviors" />
+    <Node Id="IReclassifyObjectAction" Category="Actions" />
+    <Node Id="IRedefinableElement" Category="Classes" />
+    <Node Id="IRedefinableTemplateSignature" Category="AuxiliaryConstructs" />
+    <Node Id="IReduceAction" Category="Actions" />
+    <Node Id="IRegion" Category="StateMachine" />
+    <Node Id="IRelationship" Category="Classes" />
+    <Node Id="IRemoveStructuralFeatureValueAction" Category="Actions" />
+    <Node Id="IRemoveVariableValueAction" Category="Actions" />
+    <Node Id="IReplyAction" Category="Actions" />
+    <Node Id="ISendObjectAction" Category="Actions" />
+    <Node Id="ISendOperationEvent" Category="Interactions" />
+    <Node Id="ISendSignalAction" Category="Actions" />
+    <Node Id="ISendSignalEvent" Category="Interactions" />
+    <Node Id="ISequenceNode" Category="Activities" />
+    <Node Id="ISignal" Category="CommonBehaviors" />
+    <Node Id="ISignalEvent" Category="CommonBehaviors" />
+    <Node Id="ISlot" Category="Classes" />
+    <Node Id="IStartClassifierBehaviorAction" Category="Actions" />
+    <Node Id="IState" Category="StateMachine" />
+    <Node Id="IStateInvariant" Category="Interactions" />
+    <Node Id="IStateMachine" Category="StateMachine" />
+    <Node Id="IStereotype" Category="AuxiliaryConstructs" />
+    <Node Id="IStringExpression" Category="AuxiliaryConstructs" />
+    <Node Id="IStructuralFeature" Category="Classes" />
+    <Node Id="IStructuralFeatureAction" Category="Actions" />
+    <Node Id="IStructuredActivityNode" Category="Activities" />
+    <Node Id="IStructuredClassifier" Category="CompositeStructures" />
+    <Node Id="ISubstitution" Category="Classes" />
+    <Node Id="ITemplateBinding" Category="AuxiliaryConstructs" />
+    <Node Id="ITemplateParameter" Category="AuxiliaryConstructs" />
+    <Node Id="ITemplateParameterSubstitution" Category="AuxiliaryConstructs" />
+    <Node Id="ITemplateSignature" Category="AuxiliaryConstructs" />
+    <Node Id="ITemplateableElement" Category="AuxiliaryConstructs" />
+    <Node Id="ITestIdentityAction" Category="Actions" />
+    <Node Id="ITimeConstraint" Category="CommonBehaviors" />
+    <Node Id="ITimeEvent" Category="CommonBehaviors" />
+    <Node Id="ITimeExpression" Category="CommonBehaviors" />
+    <Node Id="ITimeInterval" Category="CommonBehaviors" />
+    <Node Id="ITimeObservation" Category="CommonBehaviors" />
+    <Node Id="ITransition" Category="StateMachine" />
+    <Node Id="ITrigger" Category="CommonBehaviors" />
+    <Node Id="IType" Category="Classes" />
+    <Node Id="ITypedElement" Category="Classes" />
+    <Node Id="IUnmarshallAction" Category="Actions" />
+    <Node Id="IUsage" Category="Classes" />
+    <Node Id="IUseCase" Category="UseCases" />
+    <Node Id="IValuePin" Category="Actions" />
+    <Node Id="IValueSpecification" Category="Classes" />
+    <Node Id="IValueSpecificationAction" Category="Actions" />
+    <Node Id="IVariable" Category="Activities" />
+    <Node Id="IVariableAction" Category="Actions" />
+    <Node Id="IVertex" Category="StateMachine" />
+    <Node Id="IWriteLinkAction" Category="Actions" />
+    <Node Id="IWriteStructuralFeatureAction" Category="Actions" />
+    <Node Id="IWriteVariableAction" Category="Actions" />
+    <Node Id="NewGroup2" Category="Actions" Group="Expanded" Label="Actions" />
+    <Node Id="NewGroup3" Category="Interactions" Group="Expanded" Label="Interactions" />
+    <Node Id="NewGroup1" Category="Classes" Group="Expanded" Label="Classes" />
+    <Node Id="NewGroup6" Category="CommonBehaviors" Group="Expanded" Label="CommonBehaviors" />
+    <Node Id="NewGroup4" Category="Activities" Group="Expanded" Label="Activities" />
+    <Node Id="NewGroup8" Category="AuxiliaryConstructs" Group="Expanded" Label="AuxiliaryConstructs" />
+    <Node Id="NewGroup10" Category="StateMachine" Group="Expanded" Label="State Machine" />
+    <Node Id="NewGroup9" Category="CompositeStructures" Group="Expanded" Label="CompositeStructures" />
+    <Node Id="NewGroup7" Category="Deployments" Group="Expanded" Label="Deployments" />
+    <Node Id="NewGroup5" Category="UseCases" Group="Expanded" Label="UseCases" />
+    <Node Id="NewGroup11" Category="Components" Group="Expanded" Label="Components" />
+  </Nodes>
+  <Links>
+    <Link Source="IAbstraction" Target="IDependency" Category="InheritsFrom" />
+    <Link Source="IAcceptCallAction" Target="IAcceptEventAction" Category="InheritsFrom" />
+    <Link Source="IAcceptEventAction" Target="IAction" Category="InheritsFrom" />
+    <Link Source="IAction" Target="IExecutableNode" Category="InheritsFrom" />
+    <Link Source="IActionExecutionSpecification" Target="IExecutionSpecification" Category="InheritsFrom" />
+    <Link Source="IActionInputPin" Target="IInputPin" Category="InheritsFrom" />
+    <Link Source="IActivity" Target="IBehavior" Category="InheritsFrom" />
+    <Link Source="IActivityEdge" Target="IRedefinableElement" Category="InheritsFrom" />
+    <Link Source="IActivityFinalNode" Target="IFinalNode" Category="InheritsFrom" />
+    <Link Source="IActivityGroup" Target="IElement" Category="InheritsFrom" />
+    <Link Source="IActivityNode" Target="IRedefinableElement" Category="InheritsFrom" />
+    <Link Source="IActivityParameterNode" Target="IObjectNode" Category="InheritsFrom" />
+    <Link Source="IActivityPartition" Target="IActivityGroup" Category="InheritsFrom" />
+    <Link Source="IActivityPartition" Target="INamedElement" Category="InheritsFrom" />
+    <Link Source="IActor" Target="IBehavioredClassifier" Category="InheritsFrom" />
+    <Link Source="IAddStructuralFeatureValueAction" Target="IWriteStructuralFeatureAction" Category="InheritsFrom" />
+    <Link Source="IAddVariableValueAction" Target="IWriteVariableAction" Category="InheritsFrom" />
+    <Link Source="IAnyReceiveEvent" Target="IMessageEvent" Category="InheritsFrom" />
+    <Link Source="IArtifact" Target="IClassifier" Category="InheritsFrom" />
+    <Link Source="IArtifact" Target="IDeployedArtifact" Category="InheritsFrom" />
+    <Link Source="IAssociation" Target="IClassifier" Category="InheritsFrom" />
+    <Link Source="IAssociation" Target="IRelationship" Category="InheritsFrom" />
+    <Link Source="IAssociationClass" Target="IAssociation" Category="InheritsFrom" />
+    <Link Source="IAssociationClass" Target="IClass" Category="InheritsFrom" />
+    <Link Source="IBehavior" Target="IClass" Category="InheritsFrom" />
+    <Link Source="IBehaviorExecutionSpecification" Target="IExecutionSpecification" Category="InheritsFrom" />
+    <Link Source="IBehavioralFeature" Target="IFeature" Category="InheritsFrom" />
+    <Link Source="IBehavioralFeature" Target="INamespace" Category="InheritsFrom" />
+    <Link Source="IBehavioredClassifier" Target="IClassifier" Category="InheritsFrom" />
+    <Link Source="IBroadcastSignalAction" Target="IInvocationAction" Category="InheritsFrom" />
+    <Link Source="ICallAction" Target="IInvocationAction" Category="InheritsFrom" />
+    <Link Source="ICallBehaviorAction" Target="ICallAction" Category="InheritsFrom" />
+    <Link Source="ICallEvent" Target="IMessageEvent" Category="InheritsFrom" />
+    <Link Source="ICallOperationAction" Target="ICallAction" Category="InheritsFrom" />
+    <Link Source="ICentralBufferNode" Target="IObjectNode" Category="InheritsFrom" />
+    <Link Source="IChangeEvent" Target="IEvent" Category="InheritsFrom" />
+    <Link Source="IClass" Target="IBehavioredClassifier" Category="InheritsFrom" />
+    <Link Source="IClass" Target="IEncapsulatedClassifier" Category="InheritsFrom" />
+    <Link Source="IClassifier" Target="INamespace" Category="InheritsFrom" />
+    <Link Source="IClassifier" Target="IRedefinableElement" Category="InheritsFrom" />
+    <Link Source="IClassifier" Target="ITemplateableElement" Category="InheritsFrom" />
+    <Link Source="IClassifier" Target="IType" Category="InheritsFrom" />
+    <Link Source="IClassifierTemplateParameter" Target="ITemplateParameter" Category="InheritsFrom" />
+    <Link Source="IClause" Target="IElement" Category="InheritsFrom" />
+    <Link Source="IClearAssociationAction" Target="IAction" Category="InheritsFrom" />
+    <Link Source="IClearStructuralFeatureAction" Target="IStructuralFeatureAction" Category="InheritsFrom" />
+    <Link Source="IClearVariableAction" Target="IVariableAction" Category="InheritsFrom" />
+    <Link Source="ICollaboration" Target="IBehavioredClassifier" Category="InheritsFrom" />
+    <Link Source="ICollaboration" Target="IStructuredClassifier" Category="InheritsFrom" />
+    <Link Source="ICollaborationUse" Target="INamedElement" Category="InheritsFrom" />
+    <Link Source="ICombinedFragment" Target="IInteractionFragment" Category="InheritsFrom" />
+    <Link Source="IComment" Target="IElement" Category="InheritsFrom" />
+    <Link Source="ICommunicationPath" Target="IAssociation" Category="InheritsFrom" />
+    <Link Source="IComponent" Target="IClass" Category="InheritsFrom" />
+    <Link Source="IComponent" Target="INamespace" Category="InheritsFrom" />
+    <Link Source="IComponentRealization" Target="IRealization" Category="InheritsFrom" />
+    <Link Source="IConditionalNode" Target="IStructuredActivityNode" Category="InheritsFrom" />
+    <Link Source="IConnectableElement" Target="IParameterableElement" Category="InheritsFrom" />
+    <Link Source="IConnectableElement" Target="ITypedElement" Category="InheritsFrom" />
+    <Link Source="IConnectableElementTemplateParameter" Target="ITemplateParameter" Category="InheritsFrom" />
+    <Link Source="IConnectionPointReference" Target="IVertex" Category="InheritsFrom" />
+    <Link Source="IConnector" Target="IFeature" Category="InheritsFrom" />
+    <Link Source="IConnectorEnd" Target="IMultiplicityElement" Category="InheritsFrom" />
+    <Link Source="IConsiderIgnoreFragment" Target="ICombinedFragment" Category="InheritsFrom" />
+    <Link Source="IConstraint" Target="IPackageableElement" Category="InheritsFrom" />
+    <Link Source="IContinuation" Target="IInteractionFragment" Category="InheritsFrom" />
+    <Link Source="IControlFlow" Target="IActivityEdge" Category="InheritsFrom" />
+    <Link Source="IControlNode" Target="IActivityNode" Category="InheritsFrom" />
+    <Link Source="ICreateLinkAction" Target="IWriteLinkAction" Category="InheritsFrom" />
+    <Link Source="ICreateLinkObjectAction" Target="ICreateLinkAction" Category="InheritsFrom" />
+    <Link Source="ICreateObjectAction" Target="IAction" Category="InheritsFrom" />
+    <Link Source="ICreationEvent" Target="IEvent" Category="InheritsFrom" />
+    <Link Source="IDataStoreNode" Target="ICentralBufferNode" Category="InheritsFrom" />
+    <Link Source="IDataType" Target="IClassifier" Category="InheritsFrom" />
+    <Link Source="IDecisionNode" Target="IControlNode" Category="InheritsFrom" />
+    <Link Source="IDependency" Target="IDirectedRelationship" Category="InheritsFrom" />
+    <Link Source="IDependency" Target="IPackageableElement" Category="InheritsFrom" />
+    <Link Source="IDeployedArtifact" Target="INamedElement" Category="InheritsFrom" />
+    <Link Source="IDeployment" Target="IDependency" Category="InheritsFrom" />
+    <Link Source="IDeploymentSpecification" Target="IArtifact" Category="InheritsFrom" />
+    <Link Source="IDeploymentTarget" Target="INamedElement" Category="InheritsFrom" />
+    <Link Source="IDestroyLinkAction" Target="IWriteLinkAction" Category="InheritsFrom" />
+    <Link Source="IDestroyObjectAction" Target="IAction" Category="InheritsFrom" />
+    <Link Source="IDestructionEvent" Target="IEvent" Category="InheritsFrom" />
+    <Link Source="IDevice" Target="INode" Category="InheritsFrom" />
+    <Link Source="IDirectedRelationship" Target="IRelationship" Category="InheritsFrom" />
+    <Link Source="IDuration" Target="IValueSpecification" Category="InheritsFrom" />
+    <Link Source="IDurationConstraint" Target="IIntervalConstraint" Category="InheritsFrom" />
+    <Link Source="IDurationInterval" Target="IInterval" Category="InheritsFrom" />
+    <Link Source="IDurationObservation" Target="IObservation" Category="InheritsFrom" />
+    <Link Source="IElementImport" Target="IDirectedRelationship" Category="InheritsFrom" />
+    <Link Source="IEncapsulatedClassifier" Target="IStructuredClassifier" Category="InheritsFrom" />
+    <Link Source="IEnumeration" Target="IDataType" Category="InheritsFrom" />
+    <Link Source="IEnumerationLiteral" Target="IInstanceSpecification" Category="InheritsFrom" />
+    <Link Source="IEvent" Target="IPackageableElement" Category="InheritsFrom" />
+    <Link Source="IExceptionHandler" Target="IElement" Category="InheritsFrom" />
+    <Link Source="IExecutableNode" Target="IActivityNode" Category="InheritsFrom" />
+    <Link Source="IExecutionEnvironment" Target="INode" Category="InheritsFrom" />
+    <Link Source="IExecutionEvent" Target="IEvent" Category="InheritsFrom" />
+    <Link Source="IExecutionOccurrenceSpecification" Target="IOccurrenceSpecification" Category="InheritsFrom" />
+    <Link Source="IExecutionSpecification" Target="IInteractionFragment" Category="InheritsFrom" />
+    <Link Source="IExpansionNode" Target="IObjectNode" Category="InheritsFrom" />
+    <Link Source="IExpansionRegion" Target="IStructuredActivityNode" Category="InheritsFrom" />
+    <Link Source="IExpression" Target="IValueSpecification" Category="InheritsFrom" />
+    <Link Source="IExtend" Target="IDirectedRelationship" Category="InheritsFrom" />
+    <Link Source="IExtend" Target="INamedElement" Category="InheritsFrom" />
+    <Link Source="IExtension" Target="IAssociation" Category="InheritsFrom" />
+    <Link Source="IExtensionEnd" Target="IProperty" Category="InheritsFrom" />
+    <Link Source="IExtensionPoint" Target="IRedefinableElement" Category="InheritsFrom" />
+    <Link Source="IFeature" Target="IRedefinableElement" Category="InheritsFrom" />
+    <Link Source="IFinalNode" Target="IControlNode" Category="InheritsFrom" />
+    <Link Source="IFinalState" Target="IState" Category="InheritsFrom" />
+    <Link Source="IFlowFinalNode" Target="IFinalNode" Category="InheritsFrom" />
+    <Link Source="IForkNode" Target="IControlNode" Category="InheritsFrom" />
+    <Link Source="IFunctionBehavior" Target="IOpaqueBehavior" Category="InheritsFrom" />
+    <Link Source="IGate" Target="IMessageEnd" Category="InheritsFrom" />
+    <Link Source="IGeneralOrdering" Target="INamedElement" Category="InheritsFrom" />
+    <Link Source="IGeneralization" Target="IDirectedRelationship" Category="InheritsFrom" />
+    <Link Source="IGeneralizationSet" Target="IPackageableElement" Category="InheritsFrom" />
+    <Link Source="IImage" Target="IElement" Category="InheritsFrom" />
+    <Link Source="IInclude" Target="IDirectedRelationship" Category="InheritsFrom" />
+    <Link Source="IInclude" Target="INamedElement" Category="InheritsFrom" />
+    <Link Source="IInformationFlow" Target="IDirectedRelationship" Category="InheritsFrom" />
+    <Link Source="IInformationFlow" Target="IPackageableElement" Category="InheritsFrom" />
+    <Link Source="IInformationItem" Target="IClassifier" Category="InheritsFrom" />
+    <Link Source="IInitialNode" Target="IControlNode" Category="InheritsFrom" />
+    <Link Source="IInputPin" Target="IPin" Category="InheritsFrom" />
+    <Link Source="IInstanceSpecification" Target="IDeployedArtifact" Category="InheritsFrom" />
+    <Link Source="IInstanceSpecification" Target="IDeploymentTarget" Category="InheritsFrom" />
+    <Link Source="IInstanceSpecification" Target="IPackageableElement" Category="InheritsFrom" />
+    <Link Source="IInstanceValue" Target="IValueSpecification" Category="InheritsFrom" />
+    <Link Source="IInteraction" Target="IBehavior" Category="InheritsFrom" />
+    <Link Source="IInteraction" Target="IInteractionFragment" Category="InheritsFrom" />
+    <Link Source="IInteractionConstraint" Target="IConstraint" Category="InheritsFrom" />
+    <Link Source="IInteractionFragment" Target="INamedElement" Category="InheritsFrom" />
+    <Link Source="IInteractionOperand" Target="IInteractionFragment" Category="InheritsFrom" />
+    <Link Source="IInteractionOperand" Target="INamespace" Category="InheritsFrom" />
+    <Link Source="IInteractionUse" Target="IInteractionFragment" Category="InheritsFrom" />
+    <Link Source="IInterface" Target="IClassifier" Category="InheritsFrom" />
+    <Link Source="IInterfaceRealization" Target="IRealization" Category="InheritsFrom" />
+    <Link Source="IInterruptibleActivityRegion" Target="IActivityGroup" Category="InheritsFrom" />
+    <Link Source="IInterval" Target="IValueSpecification" Category="InheritsFrom" />
+    <Link Source="IIntervalConstraint" Target="IConstraint" Category="InheritsFrom" />
+    <Link Source="IInvocationAction" Target="IAction" Category="InheritsFrom" />
+    <Link Source="IJoinNode" Target="IControlNode" Category="InheritsFrom" />
+    <Link Source="ILifeline" Target="INamedElement" Category="InheritsFrom" />
+    <Link Source="ILinkAction" Target="IAction" Category="InheritsFrom" />
+    <Link Source="ILinkEndCreationData" Target="ILinkEndData" Category="InheritsFrom" />
+    <Link Source="ILinkEndData" Target="IElement" Category="InheritsFrom" />
+    <Link Source="ILinkEndDestructionData" Target="ILinkEndData" Category="InheritsFrom" />
+    <Link Source="ILiteralBoolean" Target="ILiteralSpecification" Category="InheritsFrom" />
+    <Link Source="ILiteralInteger" Target="ILiteralSpecification" Category="InheritsFrom" />
+    <Link Source="ILiteralNull" Target="ILiteralSpecification" Category="InheritsFrom" />
+    <Link Source="ILiteralSpecification" Target="IValueSpecification" Category="InheritsFrom" />
+    <Link Source="ILiteralString" Target="ILiteralSpecification" Category="InheritsFrom" />
+    <Link Source="ILiteralUnlimitedNatural" Target="ILiteralSpecification" Category="InheritsFrom" />
+    <Link Source="ILoopNode" Target="IStructuredActivityNode" Category="InheritsFrom" />
+    <Link Source="IManifestation" Target="IAbstraction" Category="InheritsFrom" />
+    <Link Source="IMergeNode" Target="IControlNode" Category="InheritsFrom" />
+    <Link Source="IMessage" Target="INamedElement" Category="InheritsFrom" />
+    <Link Source="IMessageEnd" Target="INamedElement" Category="InheritsFrom" />
+    <Link Source="IMessageEvent" Target="IEvent" Category="InheritsFrom" />
+    <Link Source="IMessageOccurrenceSpecification" Target="IMessageEnd" Category="InheritsFrom" />
+    <Link Source="IMessageOccurrenceSpecification" Target="IOccurrenceSpecification" Category="InheritsFrom" />
+    <Link Source="IModel" Target="IPackage" Category="InheritsFrom" />
+    <Link Source="IMultiplicityElement" Target="IElement" Category="InheritsFrom" />
+    <Link Source="INamedElement" Target="IElement" Category="InheritsFrom" />
+    <Link Source="INamespace" Target="INamedElement" Category="InheritsFrom" />
+    <Link Source="INode" Target="IClass" Category="InheritsFrom" />
+    <Link Source="INode" Target="IDeploymentTarget" Category="InheritsFrom" />
+    <Link Source="IObjectFlow" Target="IActivityEdge" Category="InheritsFrom" />
+    <Link Source="IObjectNode" Target="IActivityNode" Category="InheritsFrom" />
+    <Link Source="IObjectNode" Target="ITypedElement" Category="InheritsFrom" />
+    <Link Source="IObservation" Target="IPackageableElement" Category="InheritsFrom" />
+    <Link Source="IOccurrenceSpecification" Target="IInteractionFragment" Category="InheritsFrom" />
+    <Link Source="IOpaqueAction" Target="IAction" Category="InheritsFrom" />
+    <Link Source="IOpaqueBehavior" Target="IBehavior" Category="InheritsFrom" />
+    <Link Source="IOpaqueExpression" Target="IValueSpecification" Category="InheritsFrom" />
+    <Link Source="IOperation" Target="IBehavioralFeature" Category="InheritsFrom" />
+    <Link Source="IOperation" Target="IParameterableElement" Category="InheritsFrom" />
+    <Link Source="IOperation" Target="ITemplateableElement" Category="InheritsFrom" />
+    <Link Source="IOperationTemplateParameter" Target="ITemplateParameter" Category="InheritsFrom" />
+    <Link Source="IOutputPin" Target="IPin" Category="InheritsFrom" />
+    <Link Source="IPackage" Target="INamespace" Category="InheritsFrom" />
+    <Link Source="IPackage" Target="IPackageableElement" Category="InheritsFrom" />
+    <Link Source="IPackage" Target="ITemplateableElement" Category="InheritsFrom" />
+    <Link Source="IPackageImport" Target="IDirectedRelationship" Category="InheritsFrom" />
+    <Link Source="IPackageMerge" Target="IDirectedRelationship" Category="InheritsFrom" />
+    <Link Source="IPackageableElement" Target="INamedElement" Category="InheritsFrom" />
+    <Link Source="IPackageableElement" Target="IParameterableElement" Category="InheritsFrom" />
+    <Link Source="IParameter" Target="IConnectableElement" Category="InheritsFrom" />
+    <Link Source="IParameter" Target="IMultiplicityElement" Category="InheritsFrom" />
+    <Link Source="IParameterSet" Target="INamedElement" Category="InheritsFrom" />
+    <Link Source="IParameterableElement" Target="IElement" Category="InheritsFrom" />
+    <Link Source="IPartDecomposition" Target="IInteractionUse" Category="InheritsFrom" />
+    <Link Source="IPin" Target="IMultiplicityElement" Category="InheritsFrom" />
+    <Link Source="IPin" Target="IObjectNode" Category="InheritsFrom" />
+    <Link Source="IPort" Target="IProperty" Category="InheritsFrom" />
+    <Link Source="IPrimitiveType" Target="IDataType" Category="InheritsFrom" />
+    <Link Source="IProfile" Target="IPackage" Category="InheritsFrom" />
+    <Link Source="IProfileApplication" Target="IDirectedRelationship" Category="InheritsFrom" />
+    <Link Source="IProperty" Target="IConnectableElement" Category="InheritsFrom" />
+    <Link Source="IProperty" Target="IDeploymentTarget" Category="InheritsFrom" />
+    <Link Source="IProperty" Target="IStructuralFeature" Category="InheritsFrom" />
+    <Link Source="IProperty" Target="ITemplateableElement" Category="InheritsFrom" />
+    <Link Source="IProtocolConformance" Target="IDirectedRelationship" Category="InheritsFrom" />
+    <Link Source="IProtocolStateMachine" Target="IStateMachine" Category="InheritsFrom" />
+    <Link Source="IProtocolTransition" Target="ITransition" Category="InheritsFrom" />
+    <Link Source="IPseudostate" Target="IVertex" Category="InheritsFrom" />
+    <Link Source="IQualifierValue" Target="IElement" Category="InheritsFrom" />
+    <Link Source="IRaiseExceptionAction" Target="IAction" Category="InheritsFrom" />
+    <Link Source="IReadExtentAction" Target="IAction" Category="InheritsFrom" />
+    <Link Source="IReadIsClassifiedObjectAction" Target="IAction" Category="InheritsFrom" />
+    <Link Source="IReadLinkAction" Target="ILinkAction" Category="InheritsFrom" />
+    <Link Source="IReadLinkObjectEndAction" Target="IAction" Category="InheritsFrom" />
+    <Link Source="IReadLinkObjectEndQualifierAction" Target="IAction" Category="InheritsFrom" />
+    <Link Source="IReadSelfAction" Target="IAction" Category="InheritsFrom" />
+    <Link Source="IReadStructuralFeatureAction" Target="IStructuralFeatureAction" Category="InheritsFrom" />
+    <Link Source="IReadVariableAction" Target="IVariableAction" Category="InheritsFrom" />
+    <Link Source="IRealization" Target="IAbstraction" Category="InheritsFrom" />
+    <Link Source="IReceiveOperationEvent" Target="IMessageEvent" Category="InheritsFrom" />
+    <Link Source="IReceiveSignalEvent" Target="IMessageEvent" Category="InheritsFrom" />
+    <Link Source="IReception" Target="IBehavioralFeature" Category="InheritsFrom" />
+    <Link Source="IReclassifyObjectAction" Target="IAction" Category="InheritsFrom" />
+    <Link Source="IRedefinableElement" Target="INamedElement" Category="InheritsFrom" />
+    <Link Source="IRedefinableTemplateSignature" Target="IRedefinableElement" Category="InheritsFrom" />
+    <Link Source="IRedefinableTemplateSignature" Target="ITemplateSignature" Category="InheritsFrom" />
+    <Link Source="IReduceAction" Target="IAction" Category="InheritsFrom" />
+    <Link Source="IRegion" Target="INamespace" Category="InheritsFrom" />
+    <Link Source="IRegion" Target="IRedefinableElement" Category="InheritsFrom" />
+    <Link Source="IRelationship" Target="IElement" Category="InheritsFrom" />
+    <Link Source="IRemoveStructuralFeatureValueAction" Target="IWriteStructuralFeatureAction" Category="InheritsFrom" />
+    <Link Source="IRemoveVariableValueAction" Target="IWriteVariableAction" Category="InheritsFrom" />
+    <Link Source="IReplyAction" Target="IAction" Category="InheritsFrom" />
+    <Link Source="ISendObjectAction" Target="IInvocationAction" Category="InheritsFrom" />
+    <Link Source="ISendOperationEvent" Target="IMessageEvent" Category="InheritsFrom" />
+    <Link Source="ISendSignalAction" Target="IInvocationAction" Category="InheritsFrom" />
+    <Link Source="ISendSignalEvent" Target="IMessageEvent" Category="InheritsFrom" />
+    <Link Source="ISequenceNode" Target="IStructuredActivityNode" Category="InheritsFrom" />
+    <Link Source="ISignal" Target="IClassifier" Category="InheritsFrom" />
+    <Link Source="ISignalEvent" Target="IMessageEvent" Category="InheritsFrom" />
+    <Link Source="ISlot" Target="IElement" Category="InheritsFrom" />
+    <Link Source="IStartClassifierBehaviorAction" Target="IAction" Category="InheritsFrom" />
+    <Link Source="IState" Target="INamespace" Category="InheritsFrom" />
+    <Link Source="IState" Target="IRedefinableElement" Category="InheritsFrom" />
+    <Link Source="IState" Target="IVertex" Category="InheritsFrom" />
+    <Link Source="IStateInvariant" Target="IInteractionFragment" Category="InheritsFrom" />
+    <Link Source="IStateMachine" Target="IBehavior" Category="InheritsFrom" />
+    <Link Source="IStereotype" Target="IClass" Category="InheritsFrom" />
+    <Link Source="IStringExpression" Target="IExpression" Category="InheritsFrom" />
+    <Link Source="IStringExpression" Target="ITemplateableElement" Category="InheritsFrom" />
+    <Link Source="IStructuralFeature" Target="IFeature" Category="InheritsFrom" />
+    <Link Source="IStructuralFeature" Target="IMultiplicityElement" Category="InheritsFrom" />
+    <Link Source="IStructuralFeature" Target="ITypedElement" Category="InheritsFrom" />
+    <Link Source="IStructuralFeatureAction" Target="IAction" Category="InheritsFrom" />
+    <Link Source="IStructuredActivityNode" Target="IAction" Category="InheritsFrom" />
+    <Link Source="IStructuredActivityNode" Target="IActivityGroup" Category="InheritsFrom" />
+    <Link Source="IStructuredActivityNode" Target="INamespace" Category="InheritsFrom" />
+    <Link Source="IStructuredClassifier" Target="IClassifier" Category="InheritsFrom" />
+    <Link Source="ISubstitution" Target="IRealization" Category="InheritsFrom" />
+    <Link Source="ITemplateBinding" Target="IDirectedRelationship" Category="InheritsFrom" />
+    <Link Source="ITemplateParameter" Target="IElement" Category="InheritsFrom" />
+    <Link Source="ITemplateParameterSubstitution" Target="IElement" Category="InheritsFrom" />
+    <Link Source="ITemplateSignature" Target="IElement" Category="InheritsFrom" />
+    <Link Source="ITemplateableElement" Target="IElement" Category="InheritsFrom" />
+    <Link Source="ITestIdentityAction" Target="IAction" Category="InheritsFrom" />
+    <Link Source="ITimeConstraint" Target="IIntervalConstraint" Category="InheritsFrom" />
+    <Link Source="ITimeEvent" Target="IEvent" Category="InheritsFrom" />
+    <Link Source="ITimeExpression" Target="IValueSpecification" Category="InheritsFrom" />
+    <Link Source="ITimeInterval" Target="IInterval" Category="InheritsFrom" />
+    <Link Source="ITimeObservation" Target="IObservation" Category="InheritsFrom" />
+    <Link Source="ITransition" Target="INamespace" Category="InheritsFrom" />
+    <Link Source="ITransition" Target="IRedefinableElement" Category="InheritsFrom" />
+    <Link Source="ITrigger" Target="INamedElement" Category="InheritsFrom" />
+    <Link Source="IType" Target="IPackageableElement" Category="InheritsFrom" />
+    <Link Source="ITypedElement" Target="INamedElement" Category="InheritsFrom" />
+    <Link Source="IUnmarshallAction" Target="IAction" Category="InheritsFrom" />
+    <Link Source="IUsage" Target="IDependency" Category="InheritsFrom" />
+    <Link Source="IUseCase" Target="IBehavioredClassifier" Category="InheritsFrom" />
+    <Link Source="IValuePin" Target="IInputPin" Category="InheritsFrom" />
+    <Link Source="IValueSpecification" Target="IPackageableElement" Category="InheritsFrom" />
+    <Link Source="IValueSpecification" Target="ITypedElement" Category="InheritsFrom" />
+    <Link Source="IValueSpecificationAction" Target="IAction" Category="InheritsFrom" />
+    <Link Source="IVariable" Target="IConnectableElement" Category="InheritsFrom" />
+    <Link Source="IVariable" Target="IMultiplicityElement" Category="InheritsFrom" />
+    <Link Source="IVariableAction" Target="IAction" Category="InheritsFrom" />
+    <Link Source="IVertex" Target="INamedElement" Category="InheritsFrom" />
+    <Link Source="IWriteLinkAction" Target="ILinkAction" Category="InheritsFrom" />
+    <Link Source="IWriteStructuralFeatureAction" Target="IStructuralFeatureAction" Category="InheritsFrom" />
+    <Link Source="IWriteVariableAction" Target="IVariableAction" Category="InheritsFrom" />
+    <Link Source="NewGroup1" Target="IAbstraction" Category="Contains" />
+    <Link Source="NewGroup1" Target="IAssociation" Category="Contains" />
+    <Link Source="NewGroup1" Target="IAssociationClass" Category="Contains" />
+    <Link Source="NewGroup1" Target="IBehavioralFeature" Category="Contains" />
+    <Link Source="NewGroup1" Target="IClass" Category="Contains" />
+    <Link Source="NewGroup1" Target="IClassifier" Category="Contains" />
+    <Link Source="NewGroup1" Target="IComment" Category="Contains" />
+    <Link Source="NewGroup1" Target="IConstraint" Category="Contains" />
+    <Link Source="NewGroup1" Target="IDataType" Category="Contains" />
+    <Link Source="NewGroup1" Target="IDependency" Category="Contains" />
+    <Link Source="NewGroup1" Target="IDirectedRelationship" Category="Contains" />
+    <Link Source="NewGroup1" Target="IElement" Category="Contains" />
+    <Link Source="NewGroup1" Target="IElementImport" Category="Contains" />
+    <Link Source="NewGroup1" Target="IEnumeration" Category="Contains" />
+    <Link Source="NewGroup1" Target="IEnumerationLiteral" Category="Contains" />
+    <Link Source="NewGroup1" Target="IExpression" Category="Contains" />
+    <Link Source="NewGroup1" Target="IFeature" Category="Contains" />
+    <Link Source="NewGroup1" Target="IGeneralization" Category="Contains" />
+    <Link Source="NewGroup1" Target="IGeneralizationSet" Category="Contains" />
+    <Link Source="NewGroup1" Target="IInstanceSpecification" Category="Contains" />
+    <Link Source="NewGroup1" Target="IInstanceValue" Category="Contains" />
+    <Link Source="NewGroup1" Target="IInterface" Category="Contains" />
+    <Link Source="NewGroup1" Target="IInterfaceRealization" Category="Contains" />
+    <Link Source="NewGroup1" Target="ILiteralBoolean" Category="Contains" />
+    <Link Source="NewGroup1" Target="ILiteralInteger" Category="Contains" />
+    <Link Source="NewGroup1" Target="ILiteralNull" Category="Contains" />
+    <Link Source="NewGroup1" Target="ILiteralSpecification" Category="Contains" />
+    <Link Source="NewGroup1" Target="ILiteralString" Category="Contains" />
+    <Link Source="NewGroup1" Target="ILiteralUnlimitedNatural" Category="Contains" />
+    <Link Source="NewGroup1" Target="IMultiplicityElement" Category="Contains" />
+    <Link Source="NewGroup1" Target="INamedElement" Category="Contains" />
+    <Link Source="NewGroup1" Target="INamespace" Category="Contains" />
+    <Link Source="NewGroup1" Target="IOpaqueExpression" Category="Contains" />
+    <Link Source="NewGroup1" Target="IOperation" Category="Contains" />
+    <Link Source="NewGroup1" Target="IPackage" Category="Contains" />
+    <Link Source="NewGroup1" Target="IPackageImport" Category="Contains" />
+    <Link Source="NewGroup1" Target="IPackageMerge" Category="Contains" />
+    <Link Source="NewGroup1" Target="IPackageableElement" Category="Contains" />
+    <Link Source="NewGroup1" Target="IParameter" Category="Contains" />
+    <Link Source="NewGroup1" Target="IPrimitiveType" Category="Contains" />
+    <Link Source="NewGroup1" Target="IProperty" Category="Contains" />
+    <Link Source="NewGroup1" Target="IRealization" Category="Contains" />
+    <Link Source="NewGroup1" Target="IRedefinableElement" Category="Contains" />
+    <Link Source="NewGroup1" Target="IRelationship" Category="Contains" />
+    <Link Source="NewGroup1" Target="ISlot" Category="Contains" />
+    <Link Source="NewGroup1" Target="IStructuralFeature" Category="Contains" />
+    <Link Source="NewGroup1" Target="ISubstitution" Category="Contains" />
+    <Link Source="NewGroup1" Target="IType" Category="Contains" />
+    <Link Source="NewGroup1" Target="ITypedElement" Category="Contains" />
+    <Link Source="NewGroup1" Target="IUsage" Category="Contains" />
+    <Link Source="NewGroup1" Target="IValueSpecification" Category="Contains" />
+    <Link Source="NewGroup10" Target="IConnectionPointReference" Category="Contains" />
+    <Link Source="NewGroup10" Target="IFinalState" Category="Contains" />
+    <Link Source="NewGroup10" Target="IProtocolConformance" Category="Contains" />
+    <Link Source="NewGroup10" Target="IProtocolStateMachine" Category="Contains" />
+    <Link Source="NewGroup10" Target="IProtocolTransition" Category="Contains" />
+    <Link Source="NewGroup10" Target="IPseudostate" Category="Contains" />
+    <Link Source="NewGroup10" Target="IRegion" Category="Contains" />
+    <Link Source="NewGroup10" Target="IState" Category="Contains" />
+    <Link Source="NewGroup10" Target="IStateMachine" Category="Contains" />
+    <Link Source="NewGroup10" Target="ITransition" Category="Contains" />
+    <Link Source="NewGroup10" Target="IVertex" Category="Contains" />
+    <Link Source="NewGroup11" Target="IComponent" Category="Contains" />
+    <Link Source="NewGroup11" Target="IComponentRealization" Category="Contains" />
+    <Link Source="NewGroup2" Target="IAcceptCallAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IAcceptEventAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IActionInputPin" Category="Contains" />
+    <Link Source="NewGroup2" Target="IAddStructuralFeatureValueAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IAddVariableValueAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IBroadcastSignalAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="ICallAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="ICallBehaviorAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="ICallOperationAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IClearAssociationAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IClearStructuralFeatureAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IClearVariableAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="ICreateLinkAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="ICreateLinkObjectAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="ICreateObjectAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IDestroyLinkAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IDestroyObjectAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IInputPin" Category="Contains" />
+    <Link Source="NewGroup2" Target="IInvocationAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="ILinkAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="ILinkEndCreationData" Category="Contains" />
+    <Link Source="NewGroup2" Target="ILinkEndData" Category="Contains" />
+    <Link Source="NewGroup2" Target="ILinkEndDestructionData" Category="Contains" />
+    <Link Source="NewGroup2" Target="IOpaqueAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IOutputPin" Category="Contains" />
+    <Link Source="NewGroup2" Target="IPin" Category="Contains" />
+    <Link Source="NewGroup2" Target="IQualifierValue" Category="Contains" />
+    <Link Source="NewGroup2" Target="IRaiseExceptionAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IReadExtentAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IReadIsClassifiedObjectAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IReadLinkAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IReadLinkObjectEndAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IReadLinkObjectEndQualifierAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IReadSelfAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IReadStructuralFeatureAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IReadVariableAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IReclassifyObjectAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IReduceAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IRemoveStructuralFeatureValueAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IRemoveVariableValueAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IReplyAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="ISendObjectAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="ISendSignalAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IStartClassifierBehaviorAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IStructuralFeatureAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="ITestIdentityAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IUnmarshallAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IValuePin" Category="Contains" />
+    <Link Source="NewGroup2" Target="IValueSpecificationAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IVariableAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IWriteLinkAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IWriteStructuralFeatureAction" Category="Contains" />
+    <Link Source="NewGroup2" Target="IWriteVariableAction" Category="Contains" />
+    <Link Source="NewGroup3" Target="IActionExecutionSpecification" Category="Contains" />
+    <Link Source="NewGroup3" Target="IBehaviorExecutionSpecification" Category="Contains" />
+    <Link Source="NewGroup3" Target="ICombinedFragment" Category="Contains" />
+    <Link Source="NewGroup3" Target="IConsiderIgnoreFragment" Category="Contains" />
+    <Link Source="NewGroup3" Target="IContinuation" Category="Contains" />
+    <Link Source="NewGroup3" Target="ICreationEvent" Category="Contains" />
+    <Link Source="NewGroup3" Target="IDestructionEvent" Category="Contains" />
+    <Link Source="NewGroup3" Target="IExecutionEvent" Category="Contains" />
+    <Link Source="NewGroup3" Target="IExecutionOccurrenceSpecification" Category="Contains" />
+    <Link Source="NewGroup3" Target="IExecutionSpecification" Category="Contains" />
+    <Link Source="NewGroup3" Target="IGate" Category="Contains" />
+    <Link Source="NewGroup3" Target="IGeneralOrdering" Category="Contains" />
+    <Link Source="NewGroup3" Target="IInteraction" Category="Contains" />
+    <Link Source="NewGroup3" Target="IInteractionConstraint" Category="Contains" />
+    <Link Source="NewGroup3" Target="IInteractionFragment" Category="Contains" />
+    <Link Source="NewGroup3" Target="IInteractionOperand" Category="Contains" />
+    <Link Source="NewGroup3" Target="IInteractionUse" Category="Contains" />
+    <Link Source="NewGroup3" Target="ILifeline" Category="Contains" />
+    <Link Source="NewGroup3" Target="IMessage" Category="Contains" />
+    <Link Source="NewGroup3" Target="IMessageEnd" Category="Contains" />
+    <Link Source="NewGroup3" Target="IMessageOccurrenceSpecification" Category="Contains" />
+    <Link Source="NewGroup3" Target="IOccurrenceSpecification" Category="Contains" />
+    <Link Source="NewGroup3" Target="IPartDecomposition" Category="Contains" />
+    <Link Source="NewGroup3" Target="IReceiveOperationEvent" Category="Contains" />
+    <Link Source="NewGroup3" Target="IReceiveSignalEvent" Category="Contains" />
+    <Link Source="NewGroup3" Target="ISendOperationEvent" Category="Contains" />
+    <Link Source="NewGroup3" Target="ISendSignalEvent" Category="Contains" />
+    <Link Source="NewGroup3" Target="IStateInvariant" Category="Contains" />
+    <Link Source="NewGroup4" Target="IActivity" Category="Contains" />
+    <Link Source="NewGroup4" Target="IActivityEdge" Category="Contains" />
+    <Link Source="NewGroup4" Target="IActivityFinalNode" Category="Contains" />
+    <Link Source="NewGroup4" Target="IActivityGroup" Category="Contains" />
+    <Link Source="NewGroup4" Target="IActivityNode" Category="Contains" />
+    <Link Source="NewGroup4" Target="IActivityParameterNode" Category="Contains" />
+    <Link Source="NewGroup4" Target="IActivityPartition" Category="Contains" />
+    <Link Source="NewGroup4" Target="ICentralBufferNode" Category="Contains" />
+    <Link Source="NewGroup4" Target="IClause" Category="Contains" />
+    <Link Source="NewGroup4" Target="IConditionalNode" Category="Contains" />
+    <Link Source="NewGroup4" Target="IControlFlow" Category="Contains" />
+    <Link Source="NewGroup4" Target="IControlNode" Category="Contains" />
+    <Link Source="NewGroup4" Target="IDataStoreNode" Category="Contains" />
+    <Link Source="NewGroup4" Target="IDecisionNode" Category="Contains" />
+    <Link Source="NewGroup4" Target="IExceptionHandler" Category="Contains" />
+    <Link Source="NewGroup4" Target="IExecutableNode" Category="Contains" />
+    <Link Source="NewGroup4" Target="IExpansionNode" Category="Contains" />
+    <Link Source="NewGroup4" Target="IExpansionRegion" Category="Contains" />
+    <Link Source="NewGroup4" Target="IFinalNode" Category="Contains" />
+    <Link Source="NewGroup4" Target="IFlowFinalNode" Category="Contains" />
+    <Link Source="NewGroup4" Target="IForkNode" Category="Contains" />
+    <Link Source="NewGroup4" Target="IInitialNode" Category="Contains" />
+    <Link Source="NewGroup4" Target="IInterruptibleActivityRegion" Category="Contains" />
+    <Link Source="NewGroup4" Target="IJoinNode" Category="Contains" />
+    <Link Source="NewGroup4" Target="ILoopNode" Category="Contains" />
+    <Link Source="NewGroup4" Target="IMergeNode" Category="Contains" />
+    <Link Source="NewGroup4" Target="IObjectFlow" Category="Contains" />
+    <Link Source="NewGroup4" Target="IObjectNode" Category="Contains" />
+    <Link Source="NewGroup4" Target="IParameterSet" Category="Contains" />
+    <Link Source="NewGroup4" Target="ISequenceNode" Category="Contains" />
+    <Link Source="NewGroup4" Target="IStructuredActivityNode" Category="Contains" />
+    <Link Source="NewGroup4" Target="IVariable" Category="Contains" />
+    <Link Source="NewGroup5" Target="IActor" Category="Contains" />
+    <Link Source="NewGroup5" Target="IExtend" Category="Contains" />
+    <Link Source="NewGroup5" Target="IExtensionPoint" Category="Contains" />
+    <Link Source="NewGroup5" Target="IInclude" Category="Contains" />
+    <Link Source="NewGroup5" Target="IUseCase" Category="Contains" />
+    <Link Source="NewGroup6" Target="IAnyReceiveEvent" Category="Contains" />
+    <Link Source="NewGroup6" Target="IBehavior" Category="Contains" />
+    <Link Source="NewGroup6" Target="IBehavioredClassifier" Category="Contains" />
+    <Link Source="NewGroup6" Target="ICallEvent" Category="Contains" />
+    <Link Source="NewGroup6" Target="IChangeEvent" Category="Contains" />
+    <Link Source="NewGroup6" Target="IDuration" Category="Contains" />
+    <Link Source="NewGroup6" Target="IDurationConstraint" Category="Contains" />
+    <Link Source="NewGroup6" Target="IDurationInterval" Category="Contains" />
+    <Link Source="NewGroup6" Target="IDurationObservation" Category="Contains" />
+    <Link Source="NewGroup6" Target="IEvent" Category="Contains" />
+    <Link Source="NewGroup6" Target="IFunctionBehavior" Category="Contains" />
+    <Link Source="NewGroup6" Target="IInterval" Category="Contains" />
+    <Link Source="NewGroup6" Target="IIntervalConstraint" Category="Contains" />
+    <Link Source="NewGroup6" Target="IMessageEvent" Category="Contains" />
+    <Link Source="NewGroup6" Target="IObservation" Category="Contains" />
+    <Link Source="NewGroup6" Target="IOpaqueBehavior" Category="Contains" />
+    <Link Source="NewGroup6" Target="IReception" Category="Contains" />
+    <Link Source="NewGroup6" Target="ISignal" Category="Contains" />
+    <Link Source="NewGroup6" Target="ISignalEvent" Category="Contains" />
+    <Link Source="NewGroup6" Target="ITimeConstraint" Category="Contains" />
+    <Link Source="NewGroup6" Target="ITimeEvent" Category="Contains" />
+    <Link Source="NewGroup6" Target="ITimeExpression" Category="Contains" />
+    <Link Source="NewGroup6" Target="ITimeInterval" Category="Contains" />
+    <Link Source="NewGroup6" Target="ITimeObservation" Category="Contains" />
+    <Link Source="NewGroup6" Target="ITrigger" Category="Contains" />
+    <Link Source="NewGroup7" Target="IArtifact" Category="Contains" />
+    <Link Source="NewGroup7" Target="ICommunicationPath" Category="Contains" />
+    <Link Source="NewGroup7" Target="IDeployedArtifact" Category="Contains" />
+    <Link Source="NewGroup7" Target="IDeployment" Category="Contains" />
+    <Link Source="NewGroup7" Target="IDeploymentSpecification" Category="Contains" />
+    <Link Source="NewGroup7" Target="IDeploymentTarget" Category="Contains" />
+    <Link Source="NewGroup7" Target="IDevice" Category="Contains" />
+    <Link Source="NewGroup7" Target="IExecutionEnvironment" Category="Contains" />
+    <Link Source="NewGroup7" Target="IManifestation" Category="Contains" />
+    <Link Source="NewGroup7" Target="INode" Category="Contains" />
+    <Link Source="NewGroup8" Target="IClassifierTemplateParameter" Category="Contains" />
+    <Link Source="NewGroup8" Target="IConnectableElementTemplateParameter" Category="Contains" />
+    <Link Source="NewGroup8" Target="IExtension" Category="Contains" />
+    <Link Source="NewGroup8" Target="IExtensionEnd" Category="Contains" />
+    <Link Source="NewGroup8" Target="IImage" Category="Contains" />
+    <Link Source="NewGroup8" Target="IInformationFlow" Category="Contains" />
+    <Link Source="NewGroup8" Target="IInformationItem" Category="Contains" />
+    <Link Source="NewGroup8" Target="IModel" Category="Contains" />
+    <Link Source="NewGroup8" Target="IOperationTemplateParameter" Category="Contains" />
+    <Link Source="NewGroup8" Target="IParameterableElement" Category="Contains" />
+    <Link Source="NewGroup8" Target="IProfile" Category="Contains" />
+    <Link Source="NewGroup8" Target="IProfileApplication" Category="Contains" />
+    <Link Source="NewGroup8" Target="IRedefinableTemplateSignature" Category="Contains" />
+    <Link Source="NewGroup8" Target="IStereotype" Category="Contains" />
+    <Link Source="NewGroup8" Target="IStringExpression" Category="Contains" />
+    <Link Source="NewGroup8" Target="ITemplateBinding" Category="Contains" />
+    <Link Source="NewGroup8" Target="ITemplateParameter" Category="Contains" />
+    <Link Source="NewGroup8" Target="ITemplateParameterSubstitution" Category="Contains" />
+    <Link Source="NewGroup8" Target="ITemplateSignature" Category="Contains" />
+    <Link Source="NewGroup8" Target="ITemplateableElement" Category="Contains" />
+    <Link Source="NewGroup9" Target="ICollaboration" Category="Contains" />
+    <Link Source="NewGroup9" Target="ICollaborationUse" Category="Contains" />
+    <Link Source="NewGroup9" Target="IConnectableElement" Category="Contains" />
+    <Link Source="NewGroup9" Target="IConnector" Category="Contains" />
+    <Link Source="NewGroup9" Target="IConnectorEnd" Category="Contains" />
+    <Link Source="NewGroup9" Target="IEncapsulatedClassifier" Category="Contains" />
+    <Link Source="NewGroup9" Target="IPort" Category="Contains" />
+    <Link Source="NewGroup9" Target="IStructuredClassifier" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="Contains" Label="Contains" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="InheritsFrom" Label="Inherits From" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Inherited By" OutgoingActionLabel="Inherits From" />
+    <Category Id="AuxiliaryConstructs" Label="AuxiliaryConstructs" Background="#A0C00000" IsTag="True" />
+    <Category Id="Classes" Label="Classes" Background="#A0FF0000" IsTag="True" />
+    <Category Id="CommonBehaviors" Label="CommonBehaviors" Background="#A092D050" IsTag="True" />
+    <Category Id="Components" Background="#A0B821B4" IsTag="True" />
+    <Category Id="CompositeStructures" Label="CompositeStructures" Background="#A0FFFF00" IsTag="True" />
+    <Category Id="Deployments" Background="#A092D050"/>
+    <Category Id="Interactions" Label="Interactions" Background="#A07094A0" IsTag="True" />
+    <Category Id="StateMachine" Label="StateMachine" Background="#A0FF0000" />
+    <Category Id="UseCases" Background="#A07094A0" />
+    <Category Id="Actions" Label="Actions" IsTag="True" Background="#A000B050" />
+    <Category Id="Activities" Label="Activities" Background="#A00070C0" IsTag="True" />
+  </Categories>
+  <Properties>
+    <Property Id="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.Progression.GraphModel.GroupStyle" />
+    <Property Id="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="lcd" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="Background" Label="Background" Description="Background color" DataType="System.Windows.Media.Brush" />
+    <Property Id="IsTag" DataType="System.Boolean" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Components" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Components')" />
+      <Setter Property="Background" Value="#A0F0E0A0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="UseCases" ValueLabel="Has category">
+      <Condition Expression="HasCategory('UseCases')" />
+      <Setter Property="Background" Value="#A07094A0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Deployments" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Deployments')" />
+      <Setter Property="Background" Value="#A050C070" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="CompositeStructures" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CompositeStructures')" />
+      <Setter Property="Background" Value="#A0D0C090" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="StateMachine" ValueLabel="Has category">
+      <Condition Expression="HasCategory('StateMachine')" />
+      <Setter Property="Background" Value="#A0C050A0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="AuxiliaryConstructs" ValueLabel="Has category">
+      <Condition Expression="HasCategory('AuxiliaryConstructs')" />
+      <Setter Property="Background" Value="#A0C08080" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Activities" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Activities')" />
+      <Setter Property="Background" Value="#A080A0C0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="CommonBehaviors" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CommonBehaviors')" />
+      <Setter Property="Background" Value="#A0B0E090" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Classes" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Classes')" />
+      <Setter Property="Background" Value="#A0A0A0C0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Interactions" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Interactions')" />
+      <Setter Property="Background" Value="#A0C0A0C0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Actions" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Actions')" />
+      <Setter Property="Background" Value="#A0C0C0A0" />
+    </Style>
+  </Styles>
+</DirectedGraph>
