@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="DeviceInterfaceMultipleTarget" Label="DeviceInterfaceMultipleTarget" Background="#FF000080" />
+    <Node Id="ContinuousRequestTarget1" Label="ContinuousRequestTarget" />
+    <Node Id="BufferPool1" Label="BufferPool" />
+    <Node Id="BufferPool2" Label="BufferPool" />
+    <Node Id="BufferPool3" Label="BufferPool" />
+    <Node Id="QueuedWorkItem1" Label="QueuedWorkItem" />
+    <Node Id="BufferQueue1" Label="BufferQueue" />
+    <Node Id="BufferPool4" Label="BufferPool" />
+    <Node Id="BufferPool5" Label="BufferPool" />
+    <Node Id="ScheduledTask1" Label="ScheduledTask" />
+    <Node Id="QueuedWorkItem2" Label="QueuedWorkItem" />
+    <Node Id="BufferQueue2" Label="BufferQueue" />
+    <Node Id="BufferPool6" Label="BufferPool" />
+    <Node Id="BufferPool7" Label="BufferPool" />
+    <Node Id="ScheduledTask2" Label="ScheduledTask" />
+    <Node Id="RequestTarget2" Label="RequestTarget" />
+    <Node Id="BufferPool8" Label="BufferPool" />
+    <Node Id="QueuedWorkItem3" Label="QueuedWorkItem" />
+    <Node Id="BufferQueue3" Label="BufferQueue" />
+    <Node Id="BufferPool9" Label="BufferPool" />
+    <Node Id="BufferPool10" Label="BufferPool" />
+    <Node Id="ScheduledTask3" Label="ScheduledTask" />
+    <Node Id="Rundown1" Label="Rundown" />
+    <Node Id="BufferQueue4" Label="BufferQueue" />
+    <Node Id="BufferPool11" Label="BufferPool" />
+    <Node Id="BufferPool12" Label="BufferPool" />
+  </Nodes>
+  <Links>
+    <Link Source="DeviceInterfaceMultipleTarget" Target="ContinuousRequestTarget1" Stroke="Orange" />
+    <Link Source="ContinuousRequestTarget1" Target="BufferPool1" />
+    <Link Source="ContinuousRequestTarget1" Target="BufferPool2" />
+    <Link Source="ContinuousRequestTarget1" Target="BufferPool3" />
+    <Link Source="ContinuousRequestTarget1" Target="QueuedWorkItem1" />
+    <Link Source="QueuedWorkItem1" Target="BufferQueue1" />
+    <Link Source="BufferQueue1" Target="BufferPool4" />
+    <Link Source="BufferQueue1" Target="BufferPool5" />
+    <Link Source="QueuedWorkItem1" Target="ScheduledTask1" />
+    <Link Source="ContinuousRequestTarget1" Target="QueuedWorkItem2" />
+    <Link Source="QueuedWorkItem2" Target="BufferQueue2" />
+    <Link Source="BufferQueue2" Target="BufferPool6" />
+    <Link Source="BufferQueue2" Target="BufferPool7" />
+    <Link Source="QueuedWorkItem2" Target="ScheduledTask2" />
+    <Link Source="DeviceInterfaceMultipleTarget" Target="RequestTarget2" Stroke="Orange" />
+    <Link Source="RequestTarget2" Target="BufferPool8" />
+    <Link Source="RequestTarget2" Target="QueuedWorkItem3" />
+    <Link Source="QueuedWorkItem3" Target="BufferQueue3" />
+    <Link Source="BufferQueue3" Target="BufferPool9" />
+    <Link Source="BufferQueue3" Target="BufferPool10" />
+    <Link Source="QueuedWorkItem3" Target="ScheduledTask3" />
+    <Link Source="DeviceInterfaceMultipleTarget" Target="Rundown1" Stroke="Orange" />
+    <Link Source="DeviceInterfaceMultipleTarget" Target="BufferQueue4" Stroke="Orange" />
+    <Link Source="BufferQueue4" Target="BufferPool11" />
+    <Link Source="BufferQueue4" Target="BufferPool12" />
+  </Links>
+  <Properties>
+    <Property Id="Background" Label="Background" DataType="Brush" />
+  </Properties>
+</DirectedGraph>
