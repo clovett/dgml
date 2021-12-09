@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg stroke-linecap="round" font-size="12" font-family="Segoe UI" width="505.55333333333294" height="180" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs />
+  <g transform="translate(20,20)">
+    <g id="mathlib">
+      <rect rx="5" ry="5" width="284.94666666666626" height="140" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+      <text x="122" y="17.950000000000003" fill="#000000">mathlib</text>
+      <rect x="5" y="27.96" width="274.94666666666626" height="107.03999999999999" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      <g id="mathlib.representation_theory-&gt;mathlib.algebra">
+        <path d="M 157.981363636364,64.9999892857143 L 96.9674276111751,91.4234040283407" fill="none" stroke="#A0A0A0" stroke-width="1.792481250360578" />
+        <path d="M 88.7086363636366,95.0000535714286 L 99.4746894587971,94.6965725140529 C 97.4973014382372,92.6469282435372 96.4375537841131,90.1998798131441 96.2954464964248,87.3554272228735 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.representation_theory-&gt;mathlib.linear_algebra">
+        <path d="M 186.845000000001,64.9999892857143 L 186.845000000001,86.0000342857143" fill="none" stroke="#A0A0A0" stroke-width="1" />
+        <path d="M 186.845000000001,95.0000535714286 L 190.845000000001,85.0000535714286 C 188.178333333334,86.0000342857143 185.511666666667,86.0000342857143 182.845000000001,85.0000535714286 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.algebra">
+        <rect x="20" y="95" rx="5" ry="5" width="79.690000000000509" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="40" y="112.95" fill="#000000">algebra</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+      <g id="mathlib.linear_algebra">
+        <rect x="129.93000000000029" y="95" rx="5" ry="5" width="113.82999999999993" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="148.93000000000029" y="112.95" fill="#000000">linear_algebra</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+      <g id="mathlib.representation_theory">
+        <rect x="108.74333333333425" y="40" rx="5" ry="5" width="156.203333333332" height="25" fill="none" stroke="#F9EC31" stroke-width="8" />
+        <rect x="108.74333333333425" y="40" rx="5" ry="5" width="156.203333333332" height="25" fill="#EEEEEE" stroke="#A0B862" stroke-width="4" />
+        <text x="127.74333333333425" y="57.95" fill="#000000">representation_theory</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A0B862" stroke-width="4" />
+      </g>
+    </g>
+    <text x="314.94666666666626" y="22.950000000000003" fill="#000000">LEGEND</text>
+    <text x="314.94666666666626" y="45.910000000000004" fill="#000000">Circular References</text>
+    <text x="314.94666666666626" y="68.87" fill="#000000">Center</text>
+    <rect x="435.55333333333294" y="32.96" width="20" height="20" fill="none" stroke="#D02030" stroke-width="1" />
+    <rect x="455.55333333333294" y="32.96" width="20" height="20" fill="none" stroke="#D02030" stroke-width="1" />
+    <rect x="435.55333333333294" y="55.92" width="20" height="20" fill="none" stroke="#A0B862" stroke-width="1" />
+    <rect x="304.94666666666626" width="180.60666666666668" height="85.92" fill="none" stroke="#000000" stroke-width="1" />
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg stroke-linecap="round" font-size="12" font-family="Segoe UI" width="445.64999999999884" height="180" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs />
+  <g transform="translate(20,20)">
+    <g id="mathlib">
+      <rect rx="5" ry="5" width="225.04333333333216" height="140" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+      <text x="92" y="17.950000000000003" fill="#000000">mathlib</text>
+      <rect x="5" y="27.96" width="215.04333333333216" height="107.03999999999999" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      <g id="mathlib.model_theory-&gt;mathlib.data">
+        <path d="M 126.627878787878,64.9999892857143 L 81.5478332910273,90.5608945984172" fill="none" stroke="#A0A0A0" stroke-width="1.792481250360578" />
+        <path d="M 73.7187878787876,95.0000535714286 L 84.3906812057625,93.547231208692 C 82.2054861293637,91.7207525733459 80.8901804526909,89.4010366234884 80.4447641757442,86.5880833591194 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.model_theory-&gt;mathlib.order">
+        <path d="M 148.673333333333,64.9999892857143 L 148.673333333333,86.0000342857143" fill="none" stroke="#A0A0A0" stroke-width="1" />
+        <path d="M 148.673333333333,95.0000535714286 L 152.673333333333,85.0000535714286 C 150.006666666666,86.0000342857143 147.339999999999,86.0000342857143 144.673333333333,85.0000535714286 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.data">
+        <rect x="20" y="95" rx="5" ry="5" width="63.346666666664532" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="39" y="112.95" fill="#000000">data</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+      <g id="mathlib.model_theory">
+        <rect x="92.303333333332375" y="40" rx="5" ry="5" width="112.73999999999978" height="25" fill="none" stroke="#F9EC31" stroke-width="8" />
+        <rect x="92.303333333332375" y="40" rx="5" ry="5" width="112.73999999999978" height="25" fill="#EEEEEE" stroke="#A0B862" stroke-width="4" />
+        <text x="111.30333333333238" y="57.95" fill="#000000">model_theory</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A0B862" stroke-width="4" />
+      </g>
+      <g id="mathlib.order">
+        <rect x="114.31333333333259" y="94.999999999999886" rx="5" ry="5" width="68.719999999999345" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="133.31333333333259" y="112.94999999999989" fill="#000000">order</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+    </g>
+    <text x="255.04333333333216" y="22.950000000000003" fill="#000000">LEGEND</text>
+    <text x="255.04333333333216" y="45.910000000000004" fill="#000000">Circular References</text>
+    <text x="255.04333333333216" y="68.87" fill="#000000">Center</text>
+    <rect x="375.64999999999884" y="32.96" width="20" height="20" fill="none" stroke="#D02030" stroke-width="1" />
+    <rect x="395.64999999999884" y="32.96" width="20" height="20" fill="none" stroke="#D02030" stroke-width="1" />
+    <rect x="375.64999999999884" y="55.92" width="20" height="20" fill="none" stroke="#A0B862" stroke-width="1" />
+    <rect x="245.04333333333216" width="180.60666666666668" height="85.92" fill="none" stroke="#000000" stroke-width="1" />
+  </g>
+</svg>

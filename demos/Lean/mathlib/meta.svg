@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg stroke-linecap="round" font-size="12" font-family="Segoe UI" width="328.84000000000026" height="235" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs />
+  <g transform="translate(20,20)">
+    <g id="mathlib">
+      <rect rx="5" ry="5" width="108.23333333333358" height="195" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+      <text x="34" y="17.950000000000003" fill="#000000">mathlib</text>
+      <rect x="5" y="27.96" width="98.233333333333576" height="162.04" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      <g id="mathlib.meta-&gt;mathlib.data">
+        <path d="M 54.1166666666667,120.000046153846 L 54.1166666666667,141.000089230769" fill="none" stroke="#A0A0A0" stroke-width="1.792481250360578" />
+        <path d="M 54.1166666666667,150.000107692308 L 58.1166666666667,140.000107692308 C 55.45,141.000089230769 52.7833333333334,141.000089230769 50.1166666666667,140.000107692308 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.tactic-&gt;mathlib.meta">
+        <path d="M 54.1166666666667,64.9999333333333 L 54.1166666666667,85.9999764102564" fill="none" stroke="#A0A0A0" stroke-width="2.792481250360578" />
+        <path d="M 54.1166666666667,94.9999948717949 L 58.1166666666667,84.9999948717949 C 55.45,85.9999764102564 52.7833333333334,85.9999764102564 50.1166666666667,84.9999948717949 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.data">
+        <rect x="22.443333333334522" y="150" rx="5" ry="5" width="63.346666666664532" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="41.443333333334522" y="167.95" fill="#000000">data</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+      <g id="mathlib.meta">
+        <rect x="20.723333333333244" y="95" rx="5" ry="5" width="66.786666666666974" height="25" fill="none" stroke="#F9EC31" stroke-width="8" />
+        <rect x="20.723333333333244" y="95" rx="5" ry="5" width="66.786666666666974" height="25" fill="#EEEEEE" stroke="#A0B862" stroke-width="4" />
+        <text x="40.723333333333244" y="112.95" fill="#000000">meta</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A0B862" stroke-width="4" />
+      </g>
+      <g id="mathlib.tactic">
+        <rect x="20" y="40" rx="5" ry="5" width="68.233333333333576" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="40" y="57.95" fill="#000000">tactic</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+    </g>
+    <text x="138.23333333333358" y="22.950000000000003" fill="#000000">LEGEND</text>
+    <text x="138.23333333333358" y="45.910000000000004" fill="#000000">Circular References</text>
+    <text x="138.23333333333358" y="68.87" fill="#000000">Center</text>
+    <rect x="258.84000000000026" y="32.96" width="20" height="20" fill="none" stroke="#D02030" stroke-width="1" />
+    <rect x="278.84000000000026" y="32.96" width="20" height="20" fill="none" stroke="#D02030" stroke-width="1" />
+    <rect x="258.84000000000026" y="55.92" width="20" height="20" fill="none" stroke="#A0B862" stroke-width="1" />
+    <rect x="128.23333333333358" width="180.60666666666668" height="85.92" fill="none" stroke="#000000" stroke-width="1" />
+  </g>
+</svg>

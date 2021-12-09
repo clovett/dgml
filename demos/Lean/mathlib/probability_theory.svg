@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg stroke-linecap="round" font-size="12" font-family="Segoe UI" width="500.54499999999928" height="180" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs />
+  <g transform="translate(20,20)">
+    <g id="mathlib">
+      <rect rx="5" ry="5" width="279.93833333333259" height="140" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+      <text x="119" y="17.950000000000003" fill="#000000">mathlib</text>
+      <rect x="5" y="27.96" width="269.93833333333259" height="107.03999999999999" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      <g id="mathlib.probability_theory-&gt;mathlib.algebra">
+        <path d="M 161.845000000001,64.9999892857143 L 98.1526923076927,91.5385076923077" fill="none" stroke="#A0A0A0" stroke-width="1" />
+        <path d="M 89.8450000000004,95.0000535714286 L 100.614230652185,94.8461992245946 C 98.6655137568546,92.7692765329343 97.6398708585309,90.3077388516811 97.5373019572144,87.4615861808351 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.probability_theory-&gt;mathlib.measure_theory">
+        <path d="M 191.845000000001,64.9999892857143 L 191.845000000001,86.0000342857143" fill="none" stroke="#A0A0A0" stroke-width="2.4036774610288019" />
+        <path d="M 191.845000000001,95.0000535714286 L 195.845000000001,85.0000535714286 C 193.178333333334,86.0000342857143 190.511666666668,86.0000342857143 187.845000000001,85.0000535714286 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.algebra">
+        <rect x="20" y="95" rx="5" ry="5" width="79.690000000000509" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="40" y="112.95" fill="#000000">algebra</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+      <g id="mathlib.measure_theory">
+        <rect x="129.75666666666712" y="95" rx="5" ry="5" width="124.17666666666628" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="148.75666666666712" y="112.95" fill="#000000">measure_theory</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+      <g id="mathlib.probability_theory">
+        <rect x="123.75166666666792" y="40" rx="5" ry="5" width="136.18666666666468" height="25" fill="none" stroke="#F9EC31" stroke-width="8" />
+        <rect x="123.75166666666792" y="40" rx="5" ry="5" width="136.18666666666468" height="25" fill="#EEEEEE" stroke="#A0B862" stroke-width="4" />
+        <text x="142.75166666666792" y="57.95" fill="#000000">probability_theory</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A0B862" stroke-width="4" />
+      </g>
+    </g>
+    <text x="309.93833333333259" y="22.950000000000003" fill="#000000">LEGEND</text>
+    <text x="309.93833333333259" y="45.910000000000004" fill="#000000">Circular References</text>
+    <text x="309.93833333333259" y="68.87" fill="#000000">Center</text>
+    <rect x="430.54499999999928" y="32.96" width="20" height="20" fill="none" stroke="#D02030" stroke-width="1" />
+    <rect x="450.54499999999928" y="32.96" width="20" height="20" fill="none" stroke="#D02030" stroke-width="1" />
+    <rect x="430.54499999999928" y="55.92" width="20" height="20" fill="none" stroke="#A0B862" stroke-width="1" />
+    <rect x="299.93833333333259" width="180.60666666666668" height="85.92" fill="none" stroke="#000000" stroke-width="1" />
+  </g>
+</svg>

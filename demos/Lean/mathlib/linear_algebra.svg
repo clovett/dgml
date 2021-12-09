@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg stroke-linecap="round" font-size="12" font-family="Segoe UI" width="1093.8771666666628" height="498.44784884384762" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs />
+  <g transform="translate(20,20)">
+    <g id="mathlib">
+      <rect rx="5" ry="5" width="873.2704999999961" height="458.44784884384762" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+      <text x="416" y="17.950000000000003" fill="#000000">mathlib</text>
+      <rect x="5" y="27.96" width="863.2704999999961" height="425.48784884384764" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      <g id="mathlib.algebra-&gt;mathlib.linear_algebra">
+        <path d="M 398.538129185579,119.999786858771 L 419.249750866698,225.045579713229" fill="none" stroke="#A0A0A0" stroke-width="3.3219280948873622" />
+        <path d="M 420.990742083282,233.875588561131 L 422.980754464694,223.290700714685 C 420.557899464286,224.787655258382 417.941602269111,225.303504168076 415.13186287917,224.838247443765 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.algebraic_geometry-&gt;mathlib.linear_algebra">
+        <path d="M 556.005158670925,203.87556803946 L 471.010817774549,231.127675548493" fill="none" stroke="#A0A0A0" stroke-width="1" />
+        <path d="M 462.440579481151,233.875588561131 L 473.184360460974,234.631346629294 C 471.417915972683,232.397340399883 470.603719576415,229.858010697104 470.74177127217,227.013357520957 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.analysis-&gt;mathlib.linear_algebra">
+        <path d="M 372.883058126348,200.304238468712 L 403.081010338054,227.814579824199" fill="none" stroke="#A0A0A0" stroke-width="2.8502198590705463" />
+        <path d="M 409.734146692397,233.875588561131 L 405.035556083891,224.184187924811 C 403.978937279768,226.828930299712 402.183083396339,228.800229348686 399.647994433603,230.098085071731 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.category_theory-&gt;mathlib.linear_algebra">
+        <path d="M 416.21644622472,64.9998308596589 L 419.047189077577,66.8846161123995 C 437.050854742618,78.8719442819301 446.052687575139,89.0571213188027 446.052687575139,97.4401472230171 L 446.052687575139,107.499778308074 C 446.052687575139,122.58922493566 441.616037099968,131.755906896127 432.742736149627,134.999824189475 L 430.524410912041,135.810803512812 C 423.287472101114,138.456496597161 420.662229597993,168.146829825222 422.648683402679,224.881803196996" fill="none" stroke="#A0A0A0" stroke-width="1" />
+        <path d="M 422.983251015862,233.875588561131 L 426.60874468644,223.73380392308 C 423.981095139034,224.832237658531 421.316271666325,224.93136873546 418.614274268315,224.031197153868 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.combinatorics-&gt;mathlib.linear_algebra">
+        <path d="M 134.329540019928,200.438213952799 L 357.884015383241,235.957381242693" fill="none" stroke="#A0A0A0" stroke-width="1.5" />
+        <path d="M 366.77252385448,237.369620558567 L 357.524065404821,231.850017646679 C 358.093236019106,234.640565195059 357.674794747377,237.274197290327 356.268741589632,239.750913932483 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.data-&gt;mathlib.linear_algebra">
+        <path d="M 455.609201258852,174.999906105785 L 432.783048083545,225.669788305854" fill="none" stroke="#A0A0A0" stroke-width="1.792481250360578" />
+        <path d="M 429.086436893225,233.875588561131 L 436.840800586379,226.400975279208 C 433.998721504141,226.217434096702 431.567374662949,225.122142515005 429.546760062804,223.115100534115 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.field_theory-&gt;mathlib.linear_algebra">
+        <path d="M 590.478921119996,148.653588744372 L 582.33002272004,150.760339731243 C 535.963041833865,162.747687952528 504.508790905714,175.929717160268 487.967269935584,190.306427354464 L 444.630488040658,227.971667157835" fill="none" stroke="#A0A0A0" stroke-width="2.5" />
+        <path d="M 437.837568215506,233.875588561131 L 448.009218984067,230.334752410948 C 445.5051428059,228.978025354213 443.755833275416,226.965308961457 442.761290392613,224.296603232681 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.geometry-&gt;mathlib.linear_algebra">
+        <path d="M 510.084817898779,119.999868482722 L 510.037385698855,120.438899106802 C 505.37767208354,163.569029689389 491.993304564243,193.639859165563 469.884283140964,210.651387535326 L 446.83386806305,228.387260260107" fill="none" stroke="#A0A0A0" stroke-width="1.792481250360578" />
+        <path d="M 439.700965871793,233.875588561131 L 450.065667137053,230.947625500928 C 447.646953530442,229.443986241852 446.020782595659,227.330534278362 445.187154332704,224.60726961046 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.linear_algebra-&gt;mathlib.order">
+        <path d="M 412.373354318876,258.875605662523 L 378.827979719953,296.713367893011" fill="none" stroke="#A0A0A0" stroke-width="2" />
+        <path d="M 372.857476427071,303.447842815215 L 382.48446525288,298.618651770356 C 379.825679326295,297.597886560581 377.83028011361,295.82884922544 376.498267614823,293.311539764931 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.linear_algebra-&gt;mathlib.set_theory">
+        <path d="M 422.556794823022,258.875605662523 L 412.090894983785,404.471074740766" fill="none" stroke="#A0A0A0" stroke-width="1.5" />
+        <path d="M 411.445608810661,413.447918061341 L 416.152298386856,403.760448152571 C 413.420796792894,404.566672627282 410.760993174675,404.37547685425 408.172887532202,403.186860833476 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.linear_algebra-&gt;mathlib.tactic">
+        <path d="M 419.763030404093,258.875605662523 L 403.29678129666,314.620757120457 C 398.339985743825,331.401586624248 394.577268920284,343.314194181253 392.008630826037,350.358579791473" fill="none" stroke="#A0A0A0" stroke-width="2.7297158093186491" />
+        <path d="M 388.063595392696,358.447880438278 L 396.042208419168,351.213121688063 C 393.207045074406,350.943029162322 390.810216577669,349.774130420624 388.851722928959,347.706425462969 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.linear_algebra-&gt;mathlib.group_theory">
+        <path d="M 382.169361099301,258.875605662523 L 291.69688700521,286.267635124078" fill="none" stroke="#A0A0A0" stroke-width="2.6609640474436813" />
+        <path d="M 283.083036313314,288.875620086272 L 293.813085337837,289.806237049 C 292.083255125565,287.543761079206 291.310518884856,284.99150916895 291.494876615712,282.149481318231 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.linear_algebra-&gt;mathlib.logic">
+        <path d="M 434.690463409645,258.875605662523 L 494.183883195457,325.066968819066" fill="none" stroke="#A0A0A0" stroke-width="1" />
+        <path d="M 500.20016378463,331.76057989006 L 496.490347231929,321.649335597427 C 495.175528904831,324.17566832829 493.192237486083,325.958269309843 490.540472975686,326.997138542085 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.measure_theory-&gt;mathlib.linear_algebra">
+        <path d="M 271.392729883048,203.87556803946 L 370.063218934545,231.453015914444" fill="none" stroke="#A0A0A0" stroke-width="2" />
+        <path d="M 378.731041602364,233.875588561131 L 370.176826905067,227.331475870128 C 370.422118568117,230.168894101375 369.704319300972,232.737137727512 368.02342910363,235.036206748541 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.number_theory-&gt;mathlib.linear_algebra">
+        <path d="M 626.679233343966,93.8754927933335 L 624.963292915639,94.9195323301321 C 613.091058141696,102.143024643463 593.547562784158,116.171128304698 566.332806843026,137.003843313839 L 446.931193394802,228.404985766814" fill="none" stroke="#A0A0A0" stroke-width="1.792481250360578" />
+        <path d="M 439.784687534529,233.875588561131 L 450.156625999778,230.973366572189 C 447.741652863198,229.463727108155 446.120733926406,227.346244425472 445.293869189404,224.620918524139 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.representation_theory-&gt;mathlib.linear_algebra">
+        <path d="M 699.556635696958,203.199597439368 L 489.070843141024,236.114815843856" fill="none" stroke="#A0A0A0" stroke-width="1" />
+        <path d="M 480.178907530912,237.505313506865 L 490.676834776514,239.912287446492 C 489.27684279144,237.432139616437 488.864843490609,234.797492071275 489.440836874022,232.008344811007 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.ring_theory-&gt;mathlib.linear_algebra">
+        <path d="M 203.874945364759,148.834837280226 L 215.62385549859,152.040316511736 C 263.470124150097,165.094312050099 289.358946091431,173.119728346942 293.290321322591,176.116565402263 L 298.007971599983,179.712769868649 C 305.084447016071,185.107076568227 308.622684724115,189.690413036816 308.622684724115,193.462779274414 L 308.622684724115,195.348962393214 C 308.622684724115,197.856938878565 334.000523055857,209.557504786221 384.756199719342,230.450660116182" fill="none" stroke="#A0A0A0" stroke-width="3.3774437510817346" />
+        <path d="M 393.079052667406,233.875588561131 L 385.353629465945,226.371067499908 C 385.263596475737,229.217644986762 384.248802962947,231.683675245601 382.309248927574,233.769158276426 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.topology-&gt;mathlib.linear_algebra">
+        <path d="M 286.482407432448,145.304200845649 L 286.631641718004,145.743231469729 C 301.292337055411,188.873362052316 324.571664366887,215.429700922528 356.469623652433,225.412248080367 L 374.923938296817,231.187572594202" fill="none" stroke="#A0A0A0" stroke-width="2.4036774610288019" />
+        <path d="M 383.513151301902,233.875588561131 L 375.164255568778,227.071476566357 C 375.322162860211,229.915096671095 374.525713733423,232.46004851731 372.774908188416,234.706332105001 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.algebra">
+        <rect x="356.22853311678284" y="94.9999183761044" rx="5" ry="5" width="79.690000000000509" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="376.22853311678284" y="112.94991837610441" fill="#000000">algebra</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+      <g id="mathlib.algebraic_geometry">
+        <rect x="522.91373333333013" y="178.87564218112448" rx="5" ry="5" width="144.15333333333365" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="542.91373333333013" y="196.82564218112447" fill="#000000">algebraic_geometry</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+      <g id="mathlib.analysis">
+        <rect x="318.7568666666665" y="175.30431505336276" rx="5" ry="5" width="80.809999999999491" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="337.7568666666665" y="193.25431505336275" fill="#000000">analysis</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+      <g id="mathlib.category_theory">
+        <rect x="334.84612361286327" y="40" rx="5" ry="5" width="125.19333333333634" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="354.84612361286327" y="57.95" fill="#000000">category_theory</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+      <g id="mathlib.combinatorics">
+        <rect x="20" y="178.87564218112448" rx="5" ry="5" width="114.57999999999993" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="39" y="196.82564218112447" fill="#000000">combinatorics</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+      <g id="mathlib.data">
+        <rect x="429.56696666666573" y="150.00000000000006" rx="5" ry="5" width="63.346666666664532" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="448.56696666666573" y="167.95000000000005" fill="#000000">data</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+      <g id="mathlib.field_theory">
+        <rect x="586.95206645011615" y="123.87564218112448" rx="5" ry="5" width="102.03666666666686" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="606.95206645011615" y="141.82564218112447" fill="#000000">field_theory</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+      <g id="mathlib.geometry">
+        <rect x="465.91863311678344" y="95.000000000000057" rx="5" ry="5" width="91.033333333332848" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="484.91863311678344" y="112.95000000000006" fill="#000000">geometry</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+      <g id="mathlib.group_theory">
+        <rect x="186.17872592718697" y="288.87563608320636" rx="5" ry="5" width="111.23666666666577" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="205.17872592718697" y="306.82563608320635" fill="#000000">group_theory</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+      <g id="mathlib.linear_algebra">
+        <rect x="366.5403381520772" y="233.87564218112448" rx="5" ry="5" width="113.82999999999993" height="25" fill="none" stroke="#F9EC31" stroke-width="8" />
+        <rect x="366.5403381520772" y="233.87564218112448" rx="5" ry="5" width="113.82999999999993" height="25" fill="#EEEEEE" stroke="#A0B862" stroke-width="4" />
+        <text x="385.5403381520772" y="251.82564218112447" fill="#000000">linear_algebra</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A0B862" stroke-width="4" />
+      </g>
+      <g id="mathlib.logic">
+        <rect x="478.70862237545236" y="331.76056655138473" rx="5" ry="5" width="65.4533333333311" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="497.70862237545236" y="349.71056655138472" fill="#000000">logic</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+      <g id="mathlib.measure_theory">
+        <rect x="164.58010000000013" y="178.87564218112448" rx="5" ry="5" width="124.17666666666628" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="183.58010000000013" y="196.82564218112447" fill="#000000">measure_theory</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+      <g id="mathlib.number_theory">
+        <rect x="586.95206645011638" y="68.87564218112459" rx="5" ry="5" width="120.54333333333307" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="605.95206645011638" y="86.825642181124593" fill="#000000">number_theory</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+      <g id="mathlib.order">
+        <rect x="327.41549259385272" y="303.44784884384762" rx="5" ry="5" width="68.719999999999345" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="346.41549259385272" y="321.39784884384761" fill="#000000">order</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+      <g id="mathlib.representation_theory">
+        <rect x="697.06716666666364" y="178.87564218112448" rx="5" ry="5" width="156.203333333332" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="716.06716666666364" y="196.82564218112447" fill="#000000">representation_theory</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+      <g id="mathlib.ring_theory">
+        <rect x="108.1783331167818" y="123.87564218112442" rx="5" ry="5" width="100.06000000000131" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="128.1783331167818" y="141.82564218112441" fill="#000000">ring_theory</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+      <g id="mathlib.set_theory">
+        <rect x="363.26706548152242" y="413.44784884384762" rx="5" ry="5" width="94.559999999997672" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="382.26706548152242" y="431.39784884384761" fill="#000000">set_theory</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+      <g id="mathlib.tactic">
+        <rect x="342.49127214803275" y="358.44784884384762" rx="5" ry="5" width="68.233333333333576" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="362.49127214803275" y="376.39784884384761" fill="#000000">tactic</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+      <g id="mathlib.topology">
+        <rect x="238.2384331167832" y="120.30431505336276" rx="5" ry="5" width="87.989999999999782" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="257.2384331167832" y="138.25431505336275" fill="#000000">topology</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+    </g>
+    <text x="903.2704999999961" y="22.950000000000003" fill="#000000">LEGEND</text>
+    <text x="903.2704999999961" y="45.910000000000004" fill="#000000">Circular References</text>
+    <text x="903.2704999999961" y="68.87" fill="#000000">Center</text>
+    <rect x="1023.8771666666628" y="32.96" width="20" height="20" fill="none" stroke="#D02030" stroke-width="1" />
+    <rect x="1043.8771666666628" y="32.96" width="20" height="20" fill="none" stroke="#D02030" stroke-width="1" />
+    <rect x="1023.8771666666628" y="55.92" width="20" height="20" fill="none" stroke="#A0B862" stroke-width="1" />
+    <rect x="893.2704999999961" width="180.60666666666668" height="85.92" fill="none" stroke="#000000" stroke-width="1" />
+  </g>
+</svg>
