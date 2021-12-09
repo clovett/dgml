@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg stroke-linecap="round" font-size="12" font-family="Segoe UI" width="437.79000000000087" height="180" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs />
+  <g transform="translate(20,20)">
+    <g id="mathlib">
+      <rect rx="5" ry="5" width="397.79000000000087" height="140" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+      <text x="178" y="17.950000000000003" fill="#000000">mathlib</text>
+      <rect x="5" y="27.96" width="387.79000000000087" height="107.03999999999999" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      <g id="mathlib.computability-&gt;mathlib.order">
+        <path d="M 244.673333333331,64.9999875 L 244.673333333331,86.00004" fill="none" stroke="#A0A0A0" stroke-width="1" />
+        <path d="M 244.673333333331,95.0000625 L 248.673333333331,85.0000625 C 246.006666666665,86.00004 243.339999999998,86.00004 240.673333333331,85.0000625 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.computability-&gt;mathlib.logic">
+        <path d="M 222.400606060604,64.9999875 L 176.794514358521,90.5953070352265" fill="none" stroke="#A0A0A0" stroke-width="1.5" />
+        <path d="M 168.946060606059,95.0000625 L 179.624227476609,93.5940922710478 C 177.447070332909,91.7580402282114 176.141958384134,89.4325738422416 175.708891630283,86.6176931131384 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.computability-&gt;mathlib.tactic">
+        <path d="M 267.173333333331,64.9999875 L 313.305917848237,90.6292651924264" fill="none" stroke="#A0A0A0" stroke-width="2.1609640474436809" />
+        <path d="M 321.173333333331,95.0000625 L 314.374341162103,86.6469968678156 C 313.953442993489,89.4637228448285 312.658392702985,91.7948075400243 310.48919029059,93.640250953403 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.computability-&gt;mathlib.data">
+        <path d="M 200.809696969695,64.9999875 L 91.7830444827606,96.0698366085294" fill="none" stroke="#A0A0A0" stroke-width="2.9036774610288019" />
+        <path d="M 83.1276386541984,98.5364092027742 L 93.8410087161021,99.6426198141429 C 92.148462576254,97.3521187127192 91.4176263892672,94.7875545043396 91.6485001551416,91.9489271890041 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="mathlib.computability">
+        <rect x="188.38666666666541" y="40" rx="5" ry="5" width="112.57333333333372" height="25" fill="none" stroke="#F9EC31" stroke-width="8" />
+        <rect x="188.38666666666541" y="40" rx="5" ry="5" width="112.57333333333372" height="25" fill="#EEEEEE" stroke="#A0B862" stroke-width="4" />
+        <text x="208.38666666666541" y="57.95" fill="#000000">computability</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A0B862" stroke-width="4" />
+      </g>
+      <g id="mathlib.data">
+        <rect x="20" y="95" rx="5" ry="5" width="63.346666666664532" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="39" y="112.95" fill="#000000">data</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+      <g id="mathlib.logic">
+        <rect x="113.94666666666308" y="95" rx="5" ry="5" width="65.453333333338378" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="133.94666666666308" y="112.95" fill="#000000">logic</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+      <g id="mathlib.order">
+        <rect x="210.31333333333157" y="95" rx="5" ry="5" width="68.720000000001164" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="230.31333333333157" y="112.95" fill="#000000">order</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+      <g id="mathlib.tactic">
+        <rect x="309.55666666666366" y="95" rx="5" ry="5" width="68.233333333337214" height="25" fill="#EEEEEE" stroke="#A5A6A9" stroke-width="1" />
+        <text x="329.55666666666366" y="112.95" fill="#000000">tactic</text>
+        <rect x="INF" y="INF" width="-INF" height="-INF" fill="#1E1E1E" stroke="#A5A6A9" stroke-width="1" />
+      </g>
+    </g>
+  </g>
+</svg>
