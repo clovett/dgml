@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="TopToBottom" Layout="Sugiyama" Offset="-380.583330154419,-289.220001220703" ZoomLevel="1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Class1" Category="Class" />
+    <Node Id="Constructor" Category="Method" />
+    <Node Id="Main" Category="Method" />
+    <Node Id="Report" Category="Method" />
+    <Node Id="Reporter" Category="Class" />
+    <Node Id="StandardGraphAssembly" Category="Assembly" />
+    <Node Id="args" Category="Variable" />
+    <Node Id="block" Category="Statement" />
+    <Node Id="c2" Category="Variable" />
+    <Node Id="foreach" Category="Statement" />
+  </Nodes>
+  <Links>
+    <Link Source="Class1" Target="Main" Label="Contains" />
+    <Link Source="Main" Target="Constructor" Category="Calls" Label="Calls" />
+    <Link Source="Main" Target="args" Label="Parameter" />
+    <Link Source="Main" Target="c2" Label="Assignment" />
+    <Link Source="Main" Target="foreach" Label="Contains" />
+    <Link Source="Reporter" Target="Constructor" Label="Contains" />
+    <Link Source="Reporter" Target="Report" Label="Contains" />
+    <Link Source="StandardGraphAssembly" Target="Class1" Label="Contains" />
+    <Link Source="StandardGraphAssembly" Target="Reporter" Label="Contains" />
+    <Link Source="block" Target="Report" Category="Calls" Label="Calls" />
+    <Link Source="block" Target="c2" Label="References" />
+    <Link Source="foreach" Target="args" Label="Enumeration" />
+    <Link Source="foreach" Target="block" Label="Body" />
+  </Links>
+  <Categories>
+    <Category Id="Assembly" Background="#FFC0FFC0" HorizontalAlignment="Left" Icon="..\Icons\assembly.png" />
+    <Category Id="Calls" Background="#FFC0C0FF" Icon="..\Icons\Calls_from_a_method.png" StrokeDashArray="2 2" />
+    <Category Id="Class" Background="#FFFFC0C0" HorizontalAlignment="Left" Icon="..\Icons\class.png" />
+    <Category Id="Method" Background="#FFC0C0FF" HorizontalAlignment="Left" Icon="..\Icons\method.png" />
+    <Category Id="Statement" Background="#FFC0C0C0" HorizontalAlignment="Left" Icon="..\Icons\compile.png" />
+    <Category Id="Variable" Background="#FFC0E0E0" HorizontalAlignment="Left" Icon="..\Icons\field.png" />
+  </Categories>
+  <Properties>
+    <Property Id="Background" Label="Background" Description="The background color" DataType="System.Windows.Media.Brush" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="HorizontalAlignment" DataType="System.Windows.HorizontalAlignment" />
+    <Property Id="Icon" Label="Icon" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="Offset" DataType="System.String" />
+    <Property Id="StrokeDashArray" DataType="System.Windows.Media.DoubleCollection" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Link">
+      <Setter Property="SelectedStroke" Value="Blue" />
+    </Style>
+  </Styles>
+</DirectedGraph>

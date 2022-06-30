@@ -1,15 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DirectedGraph GraphDirection="TopToBottom" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
-    <Node Id="Center/Bottom" HorizontalAlignment="Center" VerticalAlignment="Bottom" />
-    <Node Id="Center/Center" HorizontalAlignment="Center" VerticalAlignment="Center" />
-    <Node Id="Center/Top" HorizontalAlignment="Center" VerticalAlignment="Top" />
-    <Node Id="Left/Bottom" HorizontalAlignment="Left" VerticalAlignment="Bottom" />
-    <Node Id="Left/Center" HorizontalAlignment="Left" VerticalAlignment="Center" />
-    <Node Id="Left/Top" HorizontalAlignment="Left" VerticalAlignment="Top" />
-    <Node Id="Right/Bottom" HorizontalAlignment="Right" VerticalAlignment="Bottom" />
-    <Node Id="Right/Center" HorizontalAlignment="Right" VerticalAlignment="Center" />
-    <Node Id="Right/Top" HorizontalAlignment="Right" VerticalAlignment="Top" />
+    <Node Id="IconPlacement Bottom" IconPlacement="Bottom" />
+    <Node Id="IconPlacement Top" IconPlacement="Top" />
+    <Node Id="IconPlacement Right" IconPlacement="Right"  />
+    <Node Id="IconPlacement Left" IconPlacement="Left"  />
   </Nodes>
   <Links>
   </Links>

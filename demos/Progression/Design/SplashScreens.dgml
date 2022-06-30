@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@14 @8 Type=IGraphDocumentWindowPane Member=DisplaySplashScreenForEmptyDocument)" Category="CodeSchema_Method" Bounds="950.000653688674,71.9450917583355,254.684666743746,25.998000077079" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" DelayedCrossGroupLinksState="Fetched" Label="DisplaySplashScreenForEmptyDocument" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@3)" Category="File" Bounds="153.52034019263,999.291040649831,720.097003804738,246.032939421465" FilePath="D:\dd\ALM\src\Progression\Design\Images\ErrorMessages.png" Icon="Images/ErrorMessages.png" Label="" Shape="None" UseManualLocation="True" />
+    <Node Id="(@4 @5 @6 Member=OpenEditorLink)" Category="CodeSchema_Field" Bounds="518.872012169814,854.922920572288,122.804986395698,25.998000077079" CodeSchemaProperty_IsInternal="True" DelayedCrossGroupLinksState="Fetched" Label="OpenEditorLink" />
+    <Node Id="(@4 @8 @9 Member=IsSplashScreenVisible)" Category="CodeSchema_Property" Bounds="345.24849996146,509.942000693711,173.638000077079,25.998000077079" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="IsSplashScreenVisible" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@10" Category="CodeSchema_Class" Bounds="325.24849996146,300.950000385395,416.187666820825,254.990000385395" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Icon="CodeSchema_Class" Label="GraphControl" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@13" Category="CodeSchema_Class" Bounds="307.5525,-0.000279999987967017,449.579666743746,254.990500385395" Group="Expanded" Icon="CodeSchema_Class" Label="GraphDocumentWindowPane  ‎(Progression‎)" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@15" Category="CodeSchema_Interface" Bounds="930,30.9470005010137,294.684666743746,86.9960001541581" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Icon="CodeSchema_Interface" Label="IGraphDocumentWindowPane" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@18" Category="CodeSchema_Method" Bounds="327.5525,208.992000308316,168.474666743746,25.998000077079" Label="RegisterHyperlinkEvents‎" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@2" Category="File" Bounds="839.450107104907,209.375208398668,607.081231963104,266.03573089786" FilePath="D:\dd\ALM\src\Progression\Design\Images\EmptyDocScreen.png" Icon="Images/EmptyDocScreen.png" Label="" Shape="None" UseManualLocation="True" />
+    <Node Id="@20" Category="CodeSchema_Method" Bounds="616.531500038539,397.946000539553,104.904666743746,25.998000077079" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="DisplayError" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@21" Category="CodeSchema_Method" Bounds="526.455833333334,208.992120308328,169.954666743746,25.998000077079" Label="GetSplashScreen‎(string‎) " Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@23" Category="CodeSchema_Method" Bounds="437.490166628127,341.948000462474,149.041333410412,25.998000077079" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="DisplaySplashScreen" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@24" Category="CodeSchema_Method" Bounds="616.531500038539,341.948000462474,104.904666743746,25.998000077079" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="DisplayError" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@25" Category="CodeSchema_Method" Bounds="533.975833333334,40.9978200770911,151.628000077079,25.998000077079" Label="OnVisualsCompleted" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@26" Category="CodeSchema_Method" Bounds="429.497628131858,686.928902017601,154.968000077079,25.998000077079" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" DelayedCrossGroupLinksState="Fetched" Label="ErrorInformationPage" />
+    <Node Id="@27" Category="CodeSchema_Method" Bounds="531.9125,96.99592015417,155.754666743746,25.998000077079" Label="CheckForEmptyGraph‎" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@28" Category="CodeSchema_Method" Bounds="482.4475,152.994020231249,254.684666743746,25.998000077079" Label="DisplaySplashScreenForEmptyDocument‎" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@29" Category="CodeSchema_Property" Bounds="270.687491087157,742.926879616798,116.244666743746,25.9980000770793" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Document" />
+    <Node Id="@30" Category="CodeSchema_Field" Bounds="268.443695981396,798.924979693373,120.73232800105,25.998000077079" CodeSchemaProperty_IsInternal="True" DelayedCrossGroupLinksState="Fetched" Label="FlowDocument" />
+    <Node Id="@31" Category="CodeSchema_Method" Bounds="258.122026593364,686.928779539719,141.375605741957,25.998000077079" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="GetOpenEditorLink" />
+    <Node Id="@32" Category="CodeSchema_Method" Bounds="345.24849996146,397.946000539553,135.524666743746,25.998000077079" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="HideSplashScreen" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@33" Category="CodeSchema_Method" Bounds="433.333122753366,742.926918375023,147.297010834062,25.998000077079" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsGeneratedCode="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" DelayedCrossGroupLinksState="Fetched" Label="InitializeComponent" />
+    <Node Id="@34" Category="CodeSchema_Field" Bounds="438.646833294794,453.944000616632,146.728000077079,25.9980000770789" CodeSchemaProperty_IsInternal="True" DelayedCrossGroupLinksState="Fetched" Label="SplashScreenHolder" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@7" Category="CodeSchema_Class" Bounds="238.122009029772,645.93067946264,423.554986395698,302.832505894844" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="9" Group="Expanded" Icon="CodeSchema_Class" Label="ErrorInformationPage" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="DiagramControl" Category="CodeSchema_Class" Bounds="953.634148857241,565.862152340588,347.536000154158,363.830713913401" Group="Expanded">
+      <Category Ref="XAML" />
+    </Node>
+    <Node Id="ErrorInfoScroller" Category="CodeSchema_Class" Bounds="1134.39881560099,751.698463860799,126.771333410412,25.998000077079">
+      <Category Ref="XAML" />
+    </Node>
+    <Node Id="ErrorInformationIsShownInThis" Category="Comment" Bounds="258.122009029772,854.923079770957,230.75,73.8400000000001" Label="Error information is shown in this user control which uses WPF FlowDocument, because this way the user can select &amp; copy all the text." />
+    <Node Id="GraphControlUsesTheDiagramControlOverlayProperty" Category="Comment" Bounds="1014.11884265991,606.860252417667,226.566666666667,73.8400000000001" Label="GraphControl uses the DiagramControl Overlay property to put stuff inside the scroll viewer, but on top of the DiagramControl VirtualCanvases." />
+    <Node Id="Grid(Overlay)" Category="CodeSchema_Class" Bounds="973.634148857241,710.700358112595,307.536000154158,198.992408141393" Group="Expanded" Label="Grid (Overlay)">
+      <Category Ref="XAML" />
+    </Node>
+    <Node Id="LayoutStatusOverlay" Category="CodeSchema_Class" Bounds="993.63435149181,863.694666176909,149.008000077079,25.998000077079" Label="LayoutStatusOverlay">
+      <Category Ref="XAML" />
+    </Node>
+    <Node Id="ScrollViewer" Category="CodeSchema_Class" Bounds="933.634163783839,524.864046985127,387.536000154158,424.828900462474" Group="Expanded" UseManualLocation="True">
+      <Category Ref="XAML" />
+    </Node>
+    <Node Id="SplashScreenHolder" Category="CodeSchema_Class" Bounds="993.63421477306,807.69656609983,146.728000077079,25.998000077079">
+      <Category Ref="XAML" />
+    </Node>
+    <Node Id="ZoomWidget" Category="CodeSchema_Class" Bounds="993.634148857241,751.698458189674,110.764666743746,25.998000077079" Label="ZoomWidget">
+      <Category Ref="XAML" />
+    </Node>
+  </Nodes>
+  <Links>
+    <Link Source="@10" Target="(@4 @8 @9 Member=IsSplashScreenVisible)" Category="Contains" />
+    <Link Source="@10" Target="@20" Category="Contains" />
+    <Link Source="@10" Target="@23" Category="Contains" />
+    <Link Source="@10" Target="@24" Category="Contains" />
+    <Link Source="@10" Target="@32" Category="Contains" />
+    <Link Source="@10" Target="@34" Category="Contains" />
+    <Link Source="@10" Target="ScrollViewer" Bounds="741.436166782285,536.626606037081,184.212618786307,95.7664939873716" Label="XAML" LabelBounds="834.464999145394,566.77532453849,31.2433333333331,15.96" />
+    <Link Source="@13" Target="@15" Bounds="757.132166743746,89.6592029094754,163.910823438906,15.9549426518707" Label="implements" LabelBounds="797.494306466794,77.6766297699782,62.0433333333333,15.96" />
+    <Link Source="@13" Target="@18" Category="Contains" />
+    <Link Source="@13" Target="@21" Category="Contains" />
+    <Link Source="@13" Target="@25" Category="Contains" />
+    <Link Source="@13" Target="@27" Category="Contains" />
+    <Link Source="@13" Target="@28" Category="Contains" Bounds="910.317018854357,-12.7070179324993,43.197282084278,25.4337699478086" />
+    <Link Source="@15" Target="(@14 @8 Type=IGraphDocumentWindowPane Member=DisplaySplashScreenForEmptyDocument)" Category="Contains" />
+    <Link Source="@20" Target="@26" Category="CodeSchema_Calls" Bounds="102.598408183936,290.987886025001,202.770409019951,87.4346796784506" IsDelayedCrossGroupLink="True" Weight="1" />
+    <Link Source="@20" Target="@29" Category="CodeSchema_Calls" Bounds="79.4481617537124,290.987886025001,74.8456614566226,139.07123627229" IsDelayedCrossGroupLink="True" Weight="1" />
+    <Link Source="@20" Target="@31" Category="CodeSchema_Calls" Bounds="4.88200652939325,-1.64759114798394,170.34113618875,161.786790783247" IsDelayedCrossGroupLink="True" Weight="1" />
+    <Link Source="@21" Target="@2" Bounds="668.821919895031,234.990120385407,161.850542374753,36.6604097427943" />
+    <Link Source="@23" Target="@32" Category="CodeSchema_Calls" Bounds="443.82568359375,367.946014404297,45.2039489746094,25.5689697265625" Weight="1" />
+    <Link Source="@23" Target="@34" Category="CodeSchema_FieldReference" Bounds="512.010803222656,367.946014404297,0,76.9979858398438" Weight="3" />
+    <Link Source="@24" Target="@20" Category="CodeSchema_Calls" Bounds="668.983825683594,367.946014404297,0,21" Weight="1" />
+    <Link Source="@25" Target="@27" Bounds="609.789855957031,66.995849609375,0,21.0000457763672" />
+    <Link Source="@26" Target="@33" Category="CodeSchema_Calls" Bounds="506.981628170397,712.92690209468,1.70530256582424E-13,21.0000162803431" Weight="1" />
+    <Link Source="@27" Target="@28" Bounds="609.789855957031,122.993965148926,0,21.0000381469727" />
+    <Link Source="@27" Target="@32" Bounds="297.879780089655,-184.619126681994,608.335629458394,74.79340989463" />
+    <Link Source="@28" Target="@18" Bounds="466.412536621094,178.992065429688,97.4149169921875,27.5507659912109" />
+    <Link Source="@28" Target="@21" Bounds="609.789855957031,178.992065429688,0,21.0000457763672" />
+    <Link Source="@28" Target="@23" Bounds="189.620959406179,-234.947385048208,740.308342276607,177.670915104021" />
+    <Link Source="@29" Target="@30" Category="CodeSchema_FieldReference" Bounds="328.809832705061,768.924879693878,1.33215992264013E-05,21.0000999994968" Weight="1" />
+    <Link Source="@31" Target="@29" Category="CodeSchema_Calls" Bounds="328.80982642538,712.926779616799,1.87706450560654E-06,21.0000999999999" Weight="1" />
+    <Link Source="@32" Target="@34" Category="CodeSchema_FieldReference" Bounds="435.992034912109,423.944000244141,45.2039489746094,25.5690002441406" Weight="2" />
+    <Link Source="@7" Target="(@3)" Bounds="479.566404952753,948.763164306601,8.16943237929905,41.6957889681844" />
+    <Link Source="@7" Target="(@4 @5 @6 Member=OpenEditorLink)" Category="Contains" FetchingParent="@7" />
+    <Link Source="@7" Target="@26" Category="Contains" FetchingParent="@7" />
+    <Link Source="@7" Target="@29" Category="Contains" FetchingParent="@7" />
+    <Link Source="@7" Target="@30" Category="Contains" FetchingParent="@7" />
+    <Link Source="@7" Target="@31" Category="Contains" FetchingParent="@7" />
+    <Link Source="@7" Target="@33" Category="Contains" FetchingParent="@7" />
+    <Link Source="@7" Target="ErrorInformationIsShownInThis" Category="Contains" />
+    <Link Source="DiagramControl" Target="GraphControlUsesTheDiagramControlOverlayProperty" Category="Contains" />
+    <Link Source="DiagramControl" Target="Grid(Overlay)" Category="Contains" />
+    <Link Source="ErrorInfoScroller" Target="@7" Bounds="670.66843329686,767.464624029651,463.730384861215,20.2444682093148" />
+    <Link Source="GraphControlUsesTheDiagramControlOverlayProperty" Target="Grid(Overlay)" Bounds="1127.40216657556,680.700252417667,3.41457030117454E-06,21.0001056949284" />
+    <Link Source="Grid(Overlay)" Target="ErrorInfoScroller" Category="Contains" />
+    <Link Source="Grid(Overlay)" Target="LayoutStatusOverlay" Category="Contains" />
+    <Link Source="Grid(Overlay)" Target="SplashScreenHolder" Category="Contains" />
+    <Link Source="Grid(Overlay)" Target="ZoomWidget" Category="Contains" />
+    <Link Source="ScrollViewer" Target="DiagramControl" Category="Contains" Bounds="626.49883249596,239.147674591783,2.96642594431103,0.248548466217926" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Calls" Label="Calls" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Called By" OutgoingActionLabel="Calls" />
+    <Category Id="CodeSchema_Class" Label="Class" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Classes" />
+    <Category Id="CodeSchema_Field" Label="Field" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Fields" />
+    <Category Id="CodeSchema_FieldReference" Label="Field Reference" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Referenced By" OutgoingActionLabel="References Fields" />
+    <Category Id="CodeSchema_Interface" Label="Interface" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Interface" NavigationActionLabel="Interfaces" />
+    <Category Id="CodeSchema_Member" Label="Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Members" />
+    <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Methods" />
+    <Category Id="CodeSchema_Property" Label="Property" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Property" NavigationActionLabel="Properties" />
+    <Category Id="CodeSchema_Type" Label="Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Types" />
+    <Category Id="Comment" Label="Comment" Description="Represents a user defined comment on the diagram" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Comments" />
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="File" Label="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="File" NavigationActionLabel="Files" />
+    <Category Id="XAML" Label="XAML" IsTag="True" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsAbstract" Label="Is Abstract" Description="Flag to indicate member is 'Abstract' does not provide a full implementation" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsConstructor" Label="Is Constructor" Description="Flag to indicate the method is a constructor" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsFinal" Label="Is Final" Description="Flag to indicate the member is 'Final' and cannot be derived from" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsGeneratedCode" Label="Is Generated Code" Description="Flag indicating whether the code representing this node was generated" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsInternal" Label="Is Internal" Description="Flag to indicate the method is 'Internal'" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="Is Private" Description="Flag to indicate the scope is Private" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Is Public" Description="Flag to indicate the scope is Public" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsSpecialName" Label="Is Special Name" Description="Flag to indicate the method is treated in a special way by some compilers" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsVirtual" Label="Is Virtual" Description="Flag to indicate the method can be overridden" DataType="System.Boolean" />
+    <Property Id="DataVirtualized" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="DelayedChildNodesState" Label="Delayed Child Nodes State" Description="Unspecified if the delayed child nodes state is not specified. NotFetched if the group contains child nodes that are not fetched into the graph yet. Fetched if the group has all its delayed child nodes already fetched." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="DelayedCrossGroupLinksState" Label="Delayed Cross-Group Links State" Description="Unspecified if the delayed cross-group links state is not specified. NotFetched if delayed cross-group links on this node are not fetched into the graph yet. Fetched if all delayed cross-group links have already fetched." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="FetchedChildrenCount" DataType="System.Int32" />
+    <Property Id="FetchingParent" DataType="Microsoft.VisualStudio.GraphModel.GraphNodeId" />
+    <Property Id="FilePath" Label="File Path" Description="File Path" DataType="System.String" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsDelayedCrossGroupLink" Label="Is Delayed Cross-Group Link" Description="True if the link is a cross-group one fetched in delayed fashion." DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="IsTag" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="LabelBounds" DataType="System.Windows.Rect" />
+    <Property Id="Language" Label="Language" Description="Language" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="Shape" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Weight" Label="Weight" Description="Weight" DataType="System.Double" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="Member" Label="Member" ValueType="System.Object" />
+    <Name Id="Name" Label="Name" ValueType="System.String" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Parameter" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=file:///D:/dd/ALM/src/Progression/Design/Images/EmptyDocScreen.png" />
+    <Alias n="2" Id="(@1)" />
+    <Alias n="3" Uri="Assembly=file:///D:/dd/ALM/src/Progression/Design/Images/ErrorMessages.png" />
+    <Alias n="4" Uri="Assembly=$(e5823f1a-01d6-4f37-b8db-1425d3c13916.OutputPathUri)" />
+    <Alias n="5" Id="Namespace=Microsoft.VisualStudio.Progression.Controls" />
+    <Alias n="6" Id="Type=ErrorInformationPage" />
+    <Alias n="7" Id="(@4 @5 @6)" />
+    <Alias n="8" Id="Namespace=Microsoft.VisualStudio.Progression" />
+    <Alias n="9" Id="Type=GraphControl" />
+    <Alias n="10" Id="(@4 @8 @9)" />
+    <Alias n="11" Uri="Assembly=$(6017f6ad-4c52-42fb-9113-83523fb96514.OutputPathUri)" />
+    <Alias n="12" Id="Type=GraphDocumentWindowPane" />
+    <Alias n="13" Id="(@11 @8 @12)" />
+    <Alias n="14" Uri="Assembly=$(cda890c8-fcc7-4766-95bf-828b330265c4.OutputPathUri)" />
+    <Alias n="15" Id="(@14 @8 Type=IGraphDocumentWindowPane)" />
+    <Alias n="16" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll" />
+    <Alias n="17" Id="Namespace=System" />
+    <Alias n="18" Id="(@11 @8 @12 Member=(Name=RegisterHyperlinkEvents OverloadingParameters=[(@16 @17 Type=Boolean)]))" />
+    <Alias n="19" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.0/mscorlib.dll" />
+    <Alias n="20" Id="(@4 @8 @9 Member=(Name=DisplayError OverloadingParameters=[(@19 @17 Type=Exception)]))" />
+    <Alias n="21" Id="(@11 @8 @12 Member=(Name=GetSplashScreen OverloadingParameters=[(@16 @17 Type=String)]))" />
+    <Alias n="22" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.0/PresentationCore.dll" />
+    <Alias n="23" Id="(@4 @8 @9 Member=(Name=DisplaySplashScreen OverloadingParameters=[(@22 Namespace=System.Windows Type=UIElement)]))" />
+    <Alias n="24" Id="(@4 @8 @9 Member=(Name=DisplayError OverloadingParameters=[(@19 @17 Type=Exception),(@19 @17 Type=Boolean)]))" />
+    <Alias n="25" Id="(@11 @8 @12 Member=(Name=OnVisualsCompleted OverloadingParameters=[(@16 @17 Type=Object),(@16 @17 Type=EventArgs)]))" />
+    <Alias n="26" Id="(@4 @5 @6 Member=.ctor)" />
+    <Alias n="27" Id="(@11 @8 @12 Member=CheckForEmptyGraph)" />
+    <Alias n="28" Id="(@11 @8 @12 Member=DisplaySplashScreenForEmptyDocument)" />
+    <Alias n="29" Id="(@4 @5 @6 Member=Document)" />
+    <Alias n="30" Id="(@4 @5 @6 Member=FlowDocument)" />
+    <Alias n="31" Id="(@4 @5 @6 Member=GetOpenEditorLink)" />
+    <Alias n="32" Id="(@4 @8 @9 Member=HideSplashScreen)" />
+    <Alias n="33" Id="(@4 @5 @6 Member=InitializeComponent)" />
+    <Alias n="34" Id="(@4 @8 @9 Member=SplashScreenHolder)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="XAML" ValueLabel="True">
+      <Condition Expression="HasCategory('XAML')" />
+      <Setter Property="Background" Value="#FF7DBF7A" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Assembly" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#1C3068" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Namespace" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#4A65A0" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Interface" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Interface')" />
+      <Setter Property="Background" Value="#D3DCEF" />
+      <Setter Property="Icon" Value="CodeSchema_Interface" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Struct" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Struct')" />
+      <Setter Property="Background" Value="#D3DCEF" />
+      <Setter Property="Icon" Value="CodeSchema_Struct" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enumeration" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Enum')" />
+      <Setter Property="Background" Value="#D3DCEF" />
+      <Setter Property="Icon" Value="CodeSchema_Enum" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Delegate" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Delegate')" />
+      <Setter Property="Background" Value="#D3DCEF" />
+      <Setter Property="Icon" Value="CodeSchema_Delegate" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Class" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Class')" />
+      <Setter Property="Background" Value="#D3DCEF" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Property" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Property')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Property" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Method" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Method')" />
+      <Setter Property="Background" Value="#FFFFFFFF" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Event" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Event')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Event" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFFFFFFF" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Externals" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FFA08080" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Comment" ValueLabel="Has comment">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="6017f6ad-4c52-42fb-9113-83523fb96514.OutputPath" Value="D:\dd\ALM\binaries\Debug\Progression\GraphDocumentPackage\Microsoft.VisualStudio.GraphDocumentPackage.dll" />
+    <Path Id="6017f6ad-4c52-42fb-9113-83523fb96514.OutputPathUri" Value="file:///D:/dd/ALM/binaries/Debug/Progression/GraphDocumentPackage/Microsoft.VisualStudio.GraphDocumentPackage.dll" />
+    <Path Id="cda890c8-fcc7-4766-95bf-828b330265c4.OutputPath" Value="D:\dd\ALM\binaries\ClickOncePublication\Progression\Microsoft.VisualStudio.Progression.Interfaces.dll" />
+    <Path Id="cda890c8-fcc7-4766-95bf-828b330265c4.OutputPathUri" Value="file:///D:/dd/ALM/binaries/ClickOncePublication/Progression/Microsoft.VisualStudio.Progression.Interfaces.dll" />
+    <Path Id="e5823f1a-01d6-4f37-b8db-1425d3c13916.OutputPath" Value="D:\dd\ALM\binaries\ClickOncePublication\Progression\Microsoft.VisualStudio.Progression.GraphControl.dll" />
+    <Path Id="e5823f1a-01d6-4f37-b8db-1425d3c13916.OutputPathUri" Value="file:///D:/dd/ALM/binaries/ClickOncePublication/Progression/Microsoft.VisualStudio.Progression.GraphControl.dll" />
+    <Path Id="FxReferenceAssemblies" Value="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework" />
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
+  </Paths>
+</DirectedGraph>

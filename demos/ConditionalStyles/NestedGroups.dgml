@@ -1,0 +1,102 @@
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Allen" Label="Allen" Category="Person" />
+    <Node Id="CPlusPlus" Label="CPlusPlus" Category="Team"/>
+    <Node Id="CSharp" Label="CSharp" Category="Team"/>
+    <Node Id="Cameron" Label="Cameron" Category="Person"/>
+    <Node Id="Chris" Label="Chris" Category="Person"/>
+    <Node Id="Craig" Label="Craig" Category="Person"/>
+    <Node Id="DSL" Label="DSL" Category="Team"/>
+    <Node Id="DTP" Label="DTP" Category="Team"/>
+    <Node Id="Deon" Label="Deon" Category="Person"/>
+    <Node Id="DevDiv" Category="Group" Group="Expanded" Label="DevDiv" />
+    <Node Id="JP" Label="JP" Category="Person"/>
+    <Node Id="Jacob" Label="Jacob" Category="Person"/>
+    <Node Id="Microsoft" Category="Group" Group="Expanded" Label="Microsoft" />
+    <Node Id="Mohsen" Label="Mohsen" Category="Person"/>
+    <Node Id="Paul" Label="Paul" Category="Person"/>
+    <Node Id="Progression" Category="Group" Group="Expanded" Label="Progression" />
+    <Node Id="Sadi" Label="Sadi" Category="Person"/>
+    <Node Id="Scott" Label="Scott" Category="Person"/>
+    <Node Id="TFS" Label="TFS" Category="Team"/>
+    <Node Id="TeamArch" Category="Group" Group="Expanded" Label="TeamArch" />
+    <Node Id="Tracey" Label="Tracey" Category="Person"/>
+    <Node Id="VB" Label="VB" Category="Team"/>
+    <Node Id="Windows" Label="Windows" Category="Team"/>
+  </Nodes>
+  <Links>
+    <Link Source="Allen" Target="Craig" />
+    <Link Source="Chris" Target="Craig" />
+    <Link Source="Craig" Target="Mohsen" />
+    <Link Source="Deon" Target="Allen" />
+    <Link Source="DevDiv" Target="CPlusPlus" Category="Contains" />
+    <Link Source="DevDiv" Target="CSharp" Category="Contains" />
+    <Link Source="DevDiv" Target="DSL" Category="Contains" />
+    <Link Source="DevDiv" Target="DTP" Category="Contains" />
+    <Link Source="DevDiv" Target="Progression" Category="Contains" />
+    <Link Source="DevDiv" Target="TFS" Category="Contains" />
+    <Link Source="DevDiv" Target="TeamArch" Category="Contains" />
+    <Link Source="DevDiv" Target="VB" Category="Contains" />
+    <Link Source="DevDiv" Target="Windows" Label="Partner" />
+    <Link Source="JP" Target="Craig" />
+    <Link Source="Jacob" Target="Allen" />
+    <Link Source="Microsoft" Target="DevDiv" Category="Contains" />
+    <Link Source="Microsoft" Target="Windows" Category="Contains" />
+    <Link Source="Paul" Target="Allen" />
+    <Link Source="Progression" Target="Allen" Category="Contains" />
+    <Link Source="Progression" Target="CPlusPlus" />
+    <Link Source="Progression" Target="CSharp" />
+    <Link Source="Progression" Target="Chris" Category="Contains" />
+    <Link Source="Progression" Target="Craig" Category="Contains" />
+    <Link Source="Progression" Target="DTP" />
+    <Link Source="Progression" Target="Deon" Category="Contains" />
+    <Link Source="Progression" Target="JP" Category="Contains" />
+    <Link Source="Progression" Target="Jacob" Category="Contains" />
+    <Link Source="Progression" Target="Mohsen" Category="Contains" />
+    <Link Source="Progression" Target="Paul" Category="Contains" />
+    <Link Source="Progression" Target="Sadi" Category="Contains" />
+    <Link Source="Progression" Target="Scott" Category="Contains" />
+    <Link Source="Progression" Target="TFS" />
+    <Link Source="Progression" Target="Tracey" Category="Contains" />
+    <Link Source="Progression" Target="VB" />
+    <Link Source="Sadi" Target="Allen" />
+    <Link Source="Scott" Target="Allen" />
+    <Link Source="TeamArch" Target="Cameron" Category="Contains" />
+    <Link Source="TeamArch" Target="DSL" />
+    <Link Source="TeamArch" Target="DTP" />
+    <Link Source="TeamArch" Target="Progression" />
+    <Link Source="Tracey" Target="Mohsen" />
+  </Links>
+  <Categories>
+    <Category Id="Contains" Label="Contains" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="Person" Label="Person" DefaultAction="Microsoft.Contains" />
+    <Category Id="Team" />
+  </Categories>
+  <Properties>
+    <Property Id="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.Progression.GraphModel.GroupStyle" />
+    <Property Id="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="DefaultAction" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Team" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Team')" />
+      <Setter Property="Background" Value="#FF008080" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Person" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Person')" />
+      <Setter Property="Background" Value="#FF800080" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Group" ValueLabel="IsGroup">
+      <Condition Expression="HasCategory('Group')" />
+      <Setter Property="Background" Value="#A080C0A0" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Links" ValueLabel="IsLink">
+      <Setter Property="Stroke" Value="Green" />
+    </Style>
+  </Styles>
+</DirectedGraph>

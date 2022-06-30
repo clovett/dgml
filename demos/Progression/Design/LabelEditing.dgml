@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@13 Namespace=Microsoft.VisualStudio.OLE.Interop Type=IOleCommandTarget)" Category="CodeSchema_Interface" Bounds="657.401176771931,664.856198529518,171.494666743746,25.998000077079" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Interface" Label="IOleCommandTarget" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="5c7c6454-a822-4ac1-8b7b-22048c0fc3711" Category="Comment" Bounds="818.080702861425,508.615995483398,242.333333333334,73.8400000000001" Label="This watches all commands coming to our window and if it is Undo or Redo then it commits any pending edit before hand so that Undo/Redo do the right thing.," UseManualLocation="True" />
+    <Node Id="@12" Category="CodeSchema_Class" Bounds="143.082611883039,503.768621452396,238.588066168795,142.998392404503" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="69" Group="Expanded" Icon="CodeSchema_Class" Label="IconLabel" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@15" Category="CodeSchema_Method" Bounds="318.532462604143,220.06048594104,91.0316018913229,25.998000077079" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="BeginEdit" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@16" Category="CodeSchema_Method" Bounds="304.509642739972,164.054329019653,119.077272137244,25.998000077079" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="BeginEditLabel" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@18" Category="CodeSchema_Method" Bounds="100.200153581435,278.399739789187,123.719916836154,26.0119820048077" CodeSchemaProperty_IsProtected="True" CodeSchemaProperty_IsVirtual="True" DelayedCrossGroupLinksState="Fetched" Label="OnMouseDown" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@19" Category="CodeSchema_Method" Bounds="439.929851686721,222.454284769165,204.244666743746,25.998000077079" CodeSchemaProperty_IsProtected="True" CodeSchemaProperty_IsVirtual="True" DelayedCrossGroupLinksState="Fetched" Label="OnPreviewMouseLeftButtonUp" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@2" Category="File" Bounds="439.670678051834,507.999997501689,264.033358142924,87.010747184122" FilePath="D:\dd\ALM\src\Progression\Design\Images\LabelEditing.png" Icon="Images/LabelEditing.png" Label="" UseManualLocation="True" />
+    <Node Id="@21" Category="CodeSchema_Method" Bounds="801.814814251825,280.684757641602,115.731333410412,25.998000077079" Label="OnBeforeSave" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@23" Category="CodeSchema_Method" Bounds="196.540198810198,222.401603799927,91.0316018913229,25.9980000770789" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="BeginEdit" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@25" Category="CodeSchema_Method" Bounds="318.550178058245,276.058601480591,91.031601891323,25.998000077079" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="BeginEdit" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@26" Category="CodeSchema_Field" Bounds="242.306003783282,390.456100565064,77.502769044765,25.998000077079" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="_editor" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@27" Category="CodeSchema_Field" Bounds="163.08261641166,544.766721529475,77.5015992148257,26.0020183668307" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="_editor" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@28" Category="CodeSchema_Method" Bounds="270.584242975569,544.766808066929,91.0864350762654,25.998000077079" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="BeginEdit" UseManualLocation="True" />
+    <Node Id="@29" Category="CodeSchema_Method" Bounds="229.458615114455,334.411819559204,103.214666743746,25.998000077079" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="CommitEdit" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@30" Category="CodeSchema_Method" Bounds="163.082611883039,600.76891377982,103.214666743746,25.998000077079" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="CommitEdit" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@31" Category="CodeSchema_Method" Bounds="809.885591025914,224.686657564523,130.328000077079,25.998000077079" Label="OnCreate‎(‎) ‎: void" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@5" Category="CodeSchema_Class" Bounds="798.080702861425,411.619797467389,282.333333333334,190.836298016009" Group="Expanded" Icon="CodeSchema_Class" Label="CommitEditViewHelper" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@8" Category="CodeSchema_Class" Bounds="80.2001535814351,123.056228942574,583.974364849032,350.712316729227" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Label="GraphControl" UseManualLocation="True" />
+    <Node Id="@9" Category="CodeSchema_Class" Bounds="761.928535972203,183.688557487444,218.171333410412,142.994300231237" Group="Expanded" Icon="CodeSchema_Class" Label="GraphDocumentWindowPane" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="Exec" Category="CodeSchema_Method" Bounds="881.552050316375,452.617897544468,64.3946667437458,25.998000077079" />
+    <Node Id="GraphControl1" Category="Comment" Bounds="377.256315578215,332.056703045171,241.880587837711,121.71174262663" Label="GraphControl  ensures only one IconLabel is in edit mode at any given time.  It also does some finagling to ensure the visual exists and is scrolled into view.  GraphControl also handles the mouse events that turn on label editing and commit label editing." UseManualLocation="True" />
+    <Node Id="GraphObject" Category="CodeSchema_Class" Bounds="358.95624593314,676.767107558725,108.248000077079,25.998000077079" UseManualLocation="True" />
+    <Node Id="IconService" Category="CodeSchema_Class" Bounds="228.104805096552,676.767107558725,100.851333410412,25.998000077079" UseManualLocation="True" />
+    <Node Id="Image" Category="CodeSchema_Class" Bounds="229.987043662632,732.765207635804,73.9780000770791,25.998000077079" UseManualLocation="True" />
+    <Node Id="TextBox" Category="CodeSchema_Class" Bounds="115.553373822138,676.767107558725,82.5513334104123,25.998000077079" UseManualLocation="True" />
+  </Nodes>
+  <Links>
+    <Link Source="5c7c6454-a822-4ac1-8b7b-22048c0fc3711" Target="Exec" Bounds="920.632253709137,487.19008248044,6.83588329583063,21.4259130029581" />
+    <Link Source="@12" Target="@27" Category="Contains" />
+    <Link Source="@12" Target="@28" Category="Contains" FetchingParent="@12" />
+    <Link Source="@12" Target="@30" Category="Contains" FetchingParent="@12" />
+    <Link Source="@12" Target="GraphObject" Bounds="356.484476683359,646.767013856899,32.320083773575,24.5554484559341" Label="DataContext" LabelBounds="305.574596141284,660.637247964313,65.86,15.96" />
+    <Link Source="@12" Target="IconService" Bounds="272.464006401596,646.767013856899,2.97521942884958,21.0883489281654" />
+    <Link Source="@12" Target="Image" Bounds="218.704467773438,646.767028808594,24.5521087646484,80.4508666992188" />
+    <Link Source="@15" Target="@12" Category="References" Bounds="302.717239361725,-121.201866660679,100.528309151126,388.871617059339" IsDelayedCrossGroupLink="True" Weight="4" />
+    <Link Source="@15" Target="@25" Category="CodeSchema_Calls" Bounds="364.052375887985,246.058486018119,0.00664355551981544,21.0001159128427" Weight="1" />
+    <Link Source="@15" Target="@28" Bounds="339.068599503735,-121.201866660679,65.554191871605,429.686214122422" />
+    <Link Source="@15" Target="@29" Category="CodeSchema_Calls" Bounds="288.193389892578,246.058486938477,53.5348510742188,79.8088226318359" Weight="1" />
+    <Link Source="@16" Target="@15" Category="CodeSchema_Calls" Bounds="364.048269543398,190.052329096732,5.72363933315501E-06,21.0081568443083" Weight="1" />
+    <Link Source="@18" Target="@26" Category="CodeSchema_FieldReference" Bounds="174.010330200195,304.411712646484,75.0344696044922,80.7456665039063" Weight="1" />
+    <Link Source="@18" Target="@29" Category="CodeSchema_Calls" Bounds="189.696687024656,304.411721793995,55.604235043019,26.1677932235489" Weight="1" />
+    <Link Source="@19" Target="@25" Index="1" Bounds="415.703508806894,248.452285255825,83.1871649986483,25.0535792634983" />
+    <Link Source="@2" Target="@28" Bounds="370.667974966513,554.739376445921,69.0027086329234,1.69035557175584" />
+    <Link Source="@21" Target="@29" Bounds="341.634732001817,299.056844181193,460.180082250008,42.7298733126939" />
+    <Link Source="@23" Target="@12" Category="References" Bounds="282.417565121556,-121.209930930699,2.12501289838883,388.593365841957" IsDelayedCrossGroupLink="True" Weight="4" />
+    <Link Source="@23" Target="@25" Category="CodeSchema_Calls" Bounds="271.614264166898,248.399603877006,54.6549334278876,24.0358998030396" Weight="1" />
+    <Link Source="@23" Target="@29" Category="CodeSchema_Calls" Bounds="246.583179010121,248.399603877006,26.9955288670189,77.5129194304444" Weight="1" />
+    <Link Source="@25" Target="@12" Category="References" Bounds="305.424115493095,-65.2037663799175,97.396968566939,332.949069671962" IsDelayedCrossGroupLink="True" Weight="1" />
+    <Link Source="@25" Target="@26" Category="CodeSchema_FieldReference" Bounds="316.348602294922,302.056610107422,42.8848571777344,84.3006591796875" Weight="3" />
+    <Link Source="@25" Target="@28" Category="CodeSchema_Calls" Bounds="339.522253621606,-65.2037663799175,64.8458733417406,373.717667998138" IsDelayedCrossGroupLink="True" Weight="1" />
+    <Link Source="@25" Target="@29" Category="CodeSchema_Calls" Bounds="306.917892923522,302.05660155767,38.6586619248343,27.178993981809" Weight="1" />
+    <Link Source="@26" Target="@12" Category="References" Bounds="292.641719813524,46.8445353168598,29.2499081953336,220.616838642372" Weight="1" />
+    <Link Source="@27" Target="TextBox" Bounds="170.212222777103,343.383363919743,45.2148193957974,97.8588504607742" />
+    <Link Source="@29" Target="@26" Category="CodeSchema_FieldReference" Bounds="281.060748423958,360.409819636283,0.00321460039651811,21.0462810337632" Weight="3" />
+    <Link Source="@29" Target="@30" Category="CodeSchema_Calls" Bounds="235.276904198321,71.7636866230121,13.1254856721446,292.628829852158" IsDelayedCrossGroupLink="True" Weight="1" />
+    <Link Source="@31" Target="@5" Bounds="876.099463342555,252.467505897914,12.1295044126381,150.181533140774" Label="VSFPROPID_ViewHelper" LabelBounds="754.381459393311,-203.383351966887,126.453333333333,15.96" />
+    <Link Source="@5" Target="(@13 Namespace=Microsoft.VisualStudio.OLE.Interop Type=IOleCommandTarget)" Category="Implements" Bounds="764.857778294744,602.456095483398,64.8491908592728,56.4886538238642" IsDelayedCrossGroupLink="True" Label="implements" LabelBounds="798.596029107104,632.208503804089,62.0433333333333,15.96" />
+    <Link Source="@5" Target="5c7c6454-a822-4ac1-8b7b-22048c0fc3711" Category="Contains" />
+    <Link Source="@5" Target="Exec" Category="Contains" />
+    <Link Source="@8" Target="@15" Category="Contains" />
+    <Link Source="@8" Target="@16" Category="Contains" />
+    <Link Source="@8" Target="@18" Category="Contains" />
+    <Link Source="@8" Target="@19" Category="Contains" />
+    <Link Source="@8" Target="@23" Category="Contains" />
+    <Link Source="@8" Target="@25" Category="Contains" />
+    <Link Source="@8" Target="@26" Category="Contains" />
+    <Link Source="@8" Target="@29" Category="Contains" />
+    <Link Source="@8" Target="GraphControl1" Category="Contains" />
+    <Link Source="@9" Target="@21" Category="Contains" Bounds="943.227978622975,63.0246195453755,15.826825385222,22.6253411925988" />
+    <Link Source="@9" Target="@31" Category="Contains" />
+    <Link Source="Exec" Target="@29" Bounds="280.340325399012,76.1226904318001,385.536194531508,213.432112019895" />
+    <Link Source="IconService" Target="Image" Bounds="271.47691906019,702.765107635804,4.37139011251298,21.1857773370911" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Calls" Label="Calls" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Called By" OutgoingActionLabel="Calls" />
+    <Category Id="CodeSchema_Class" Label="Class" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Classes" />
+    <Category Id="CodeSchema_Field" Label="Field" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Fields" />
+    <Category Id="CodeSchema_FieldReference" Label="Field Reference" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Referenced By" OutgoingActionLabel="References Fields" />
+    <Category Id="CodeSchema_Interface" Label="Interface" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Interface" NavigationActionLabel="Interfaces" />
+    <Category Id="CodeSchema_Member" Label="Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Members" />
+    <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Methods" />
+    <Category Id="CodeSchema_Type" Label="Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Types" />
+    <Category Id="Comment" Label="Comment" Description="Represents a user defined comment on the diagram" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Comments" />
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="File" Label="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="File" NavigationActionLabel="Files" />
+    <Category Id="Implements" Label="Implements" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Implemented by" OutgoingActionLabel="Implements" />
+    <Category Id="References" Label="References" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Referenced By" OutgoingActionLabel="References" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsAbstract" Label="Is Abstract" Description="Flag to indicate member is 'Abstract' does not provide a full implementation" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="Is Private" Description="Flag to indicate the scope is Private" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsProtected" Label="Is Protected" Description="Flag to indicate the scope is Protected" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Is Public" Description="Flag to indicate the scope is Public" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsVirtual" Label="Is Virtual" Description="Flag to indicate the method can be overridden" DataType="System.Boolean" />
+    <Property Id="DataVirtualized" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="DelayedChildNodesState" Label="Delayed Child Nodes State" Description="Unspecified if the delayed child nodes state is not specified. NotFetched if the group contains child nodes that are not fetched into the graph yet. Fetched if the group has all its delayed child nodes already fetched." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="DelayedCrossGroupLinksState" Label="Delayed Cross-Group Links State" Description="Unspecified if the delayed cross-group links state is not specified. NotFetched if delayed cross-group links on this node are not fetched into the graph yet. Fetched if all delayed cross-group links have already fetched." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="FetchedChildrenCount" DataType="System.Int32" />
+    <Property Id="FetchingParent" DataType="Microsoft.VisualStudio.GraphModel.GraphNodeId" />
+    <Property Id="FilePath" Label="File Path" Description="File Path" DataType="System.String" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsDelayedCrossGroupLink" Label="Is Delayed Cross-Group Link" Description="True if the link is a cross-group one fetched in delayed fashion." DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="LabelBounds" DataType="System.Windows.Rect" />
+    <Property Id="Language" Label="Language" Description="Language" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Weight" Label="Weight" Description="Weight" DataType="System.Double" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="Member" Label="Member" ValueType="System.Object" />
+    <Name Id="Name" Label="Name" ValueType="System.String" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Parameter" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="ParentType" Label="Parent Type" ValueType="System.Object" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=file:///D:/dd/ALM/src/Progression/Design/Images/LabelEditing.png" />
+    <Alias n="2" Id="(@1)" />
+    <Alias n="3" Uri="Assembly=$(6017f6ad-4c52-42fb-9113-83523fb96514.OutputPathUri)" />
+    <Alias n="4" Id="Namespace=Microsoft.VisualStudio.Progression" />
+    <Alias n="5" Id="(@3 @4 Type=(Name=CommitEditViewHelper ParentType=GraphDocumentWindowPane))" />
+    <Alias n="6" Uri="Assembly=$(e5823f1a-01d6-4f37-b8db-1425d3c13916.OutputPathUri)" />
+    <Alias n="7" Id="Type=GraphControl" />
+    <Alias n="8" Id="(@6 @4 @7)" />
+    <Alias n="9" Id="(@3 @4 Type=GraphDocumentWindowPane)" />
+    <Alias n="10" Id="Namespace=Microsoft.VisualStudio.Progression.Controls" />
+    <Alias n="11" Id="Type=IconLabel" />
+    <Alias n="12" Id="(@6 @10 @11)" />
+    <Alias n="13" Uri="Assembly=file:///D:/dd/ALM/src/InternalApis/VSCommon/ref/v4.5/ret/Microsoft.VisualStudio.OLE.Interop.dll" />
+    <Alias n="14" Uri="Assembly=$(d72b7890-d6ea-40d9-bdf9-f5e5350d87b3.OutputPathUri)" />
+    <Alias n="15" Id="(@6 @4 @7 Member=(Name=BeginEdit OverloadingParameters=[(@14 Namespace=Microsoft.VisualStudio.GraphModel Type=GraphObject)]))" />
+    <Alias n="16" Id="(@6 @4 @7 Member=(Name=BeginEditLabel OverloadingParameters=[(@14 Namespace=Microsoft.VisualStudio.GraphModel Type=GraphObject)]))" />
+    <Alias n="17" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.0/PresentationCore.dll" />
+    <Alias n="18" Id="(@6 @4 @7 Member=(Name=OnMouseDown OverloadingParameters=[(@17 Namespace=System.Windows.Input Type=MouseButtonEventArgs)]))" />
+    <Alias n="19" Id="(@6 @4 @7 Member=(Name=OnPreviewMouseLeftButtonUp OverloadingParameters=[(@17 Namespace=System.Windows.Input Type=MouseButtonEventArgs)]))" />
+    <Alias n="20" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll" />
+    <Alias n="21" Id="(@3 @4 Type=GraphDocumentWindowPane Member=(Name=OnBeforeSave OverloadingParameters=[(@20 Namespace=System Type=Object),(@20 Namespace=System Type=EventArgs)]))" />
+    <Alias n="22" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.0/WindowsBase.dll" />
+    <Alias n="23" Id="(@6 @4 @7 Member=(Name=BeginEdit OverloadingParameters=[(@14 Namespace=Microsoft.VisualStudio.GraphModel Type=GraphObject),(@22 Namespace=System.Windows Type=Point)]))" />
+    <Alias n="24" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.0/mscorlib.dll" />
+    <Alias n="25" Id="(@6 @4 @7 Member=(Name=BeginEdit OverloadingParameters=[(@14 Namespace=Microsoft.VisualStudio.GraphModel Type=GraphObject),@12,(@24 Namespace=System Type=Int32)]))" />
+    <Alias n="26" Id="(@6 @4 @7 Member=_editor)" />
+    <Alias n="27" Id="(@6 @10 @11 Member=_editor)" />
+    <Alias n="28" Id="(@6 @10 @11 Member=BeginEdit)" />
+    <Alias n="29" Id="(@6 @4 @7 Member=CommitEdit)" />
+    <Alias n="30" Id="(@6 @10 @11 Member=CommitEdit)" />
+    <Alias n="31" Id="(@3 @4 Type=GraphDocumentWindowPane Member=OnCreate)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Is Private" ValueLabel="True">
+      <Condition Expression="CodeSchemaProperty_IsPrivate = 'True'" />
+      <Setter Property="Background" Value="#FF5C0E0E" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Is Private" ValueLabel="False">
+      <Condition Expression="CodeSchemaProperty_IsPrivate = 'False'" />
+      <Setter Property="Background" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Assembly" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#1C3068" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Namespace" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#4A65A0" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Interface" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Interface')" />
+      <Setter Property="Background" Value="#D3DCEF" />
+      <Setter Property="Icon" Value="CodeSchema_Interface" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Struct" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Struct')" />
+      <Setter Property="Background" Value="#D3DCEF" />
+      <Setter Property="Icon" Value="CodeSchema_Struct" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enumeration" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Enum')" />
+      <Setter Property="Background" Value="#D3DCEF" />
+      <Setter Property="Icon" Value="CodeSchema_Enum" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Delegate" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Delegate')" />
+      <Setter Property="Background" Value="#D3DCEF" />
+      <Setter Property="Icon" Value="CodeSchema_Delegate" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Class" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Class')" />
+      <Setter Property="Background" Value="#D3DCEF" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Property" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Property')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Property" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Method" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Method')" />
+      <Setter Property="Background" Value="#FFFFFFFF" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Event" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Event')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Event" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFFFFFFF" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Externals" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FFA08080" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Comment" ValueLabel="Has comment">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="6017f6ad-4c52-42fb-9113-83523fb96514.OutputPath" Value="D:\dd\ALM\binaries\Debug\Progression\GraphDocumentPackage\Microsoft.VisualStudio.GraphDocumentPackage.dll" />
+    <Path Id="6017f6ad-4c52-42fb-9113-83523fb96514.OutputPathUri" Value="file:///D:/dd/ALM/binaries/Debug/Progression/GraphDocumentPackage/Microsoft.VisualStudio.GraphDocumentPackage.dll" />
+    <Path Id="d72b7890-d6ea-40d9-bdf9-f5e5350d87b3.OutputPath" Value="D:\dd\ALM\binaries\ClickOncePublication\VMP\Microsoft.VisualStudio.GraphModel.dll" />
+    <Path Id="d72b7890-d6ea-40d9-bdf9-f5e5350d87b3.OutputPathUri" Value="file:///D:/dd/ALM/binaries/ClickOncePublication/VMP/Microsoft.VisualStudio.GraphModel.dll" />
+    <Path Id="e5823f1a-01d6-4f37-b8db-1425d3c13916.OutputPath" Value="D:\dd\ALM\binaries\ClickOncePublication\Progression\Microsoft.VisualStudio.Progression.GraphControl.dll" />
+    <Path Id="e5823f1a-01d6-4f37-b8db-1425d3c13916.OutputPathUri" Value="file:///D:/dd/ALM/binaries/ClickOncePublication/Progression/Microsoft.VisualStudio.Progression.GraphControl.dll" />
+    <Path Id="FxReferenceAssemblies" Value="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework" />
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
+  </Paths>
+</DirectedGraph>

@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="@10" Category="FileSystem.Category.FileOfType.dll" CodeSchemaProperty_StrongName="Microsoft.Msagl, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" FilePath="$(app)\IDE\PrivateAssemblies\Microsoft.Msagl.dll" Label="Microsoft.Msagl.dll">
+      <Category Ref="Category1" />
+      <Category Ref="CodeSchema_Assembly" />
+    </Node>
+    <Node Id="@12" Category="FileSystem.Category.FileOfType.dll" CodeSchemaProperty_StrongName="Microsoft.VisualStudio.Progression.GraphControl, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" FilePath="$(app)\IDE\PrivateAssemblies\Microsoft.VisualStudio.Progression.GraphControl.dll" Label="GraphControl.dll">
+      <Category Ref="Category1" />
+      <Category Ref="CodeSchema_Assembly" />
+    </Node>
+    <Node Id="@14" Category="FileSystem.Category.FileOfType.dll" CodeSchemaProperty_StrongName="Microsoft.VisualStudio.Progression.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" FilePath="$(app)\IDE\PrivateAssemblies\Microsoft.VisualStudio.Progression.Common.dll" Label="Common.dll">
+      <Category Ref="CodeSchema_Assembly" />
+    </Node>
+    <Node Id="@16" Category="FileSystem.Category.FileOfType.dll" CodeSchemaProperty_StrongName="Microsoft.VisualStudio.Progression.WpfCommon, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" FilePath="$(app)\IDE\PrivateAssemblies\Microsoft.VisualStudio.Progression.WpfCommon.dll" Label="WpfCommon.dll">
+      <Category Ref="Category1" />
+      <Category Ref="CodeSchema_Assembly" />
+    </Node>
+    <Node Id="@18" Category="FileSystem.Category.FileOfType.dll" CodeSchemaProperty_StrongName="Microsoft.VisualStudio.Progression.DataManager, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" FilePath="$(app)\IDE\PrivateAssemblies\Microsoft.VisualStudio.Progression.DataManager.dll" Label="DataManager.dll">
+      <Category Ref="CodeSchema_Assembly" />
+    </Node>
+    <Node Id="@2" Category="FileSystem.Category.FileOfType.dll" CodeSchemaProperty_StrongName="Microsoft.VisualStudio.Progression.CodeSchema, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" FilePath="$(app)\IDE\PrivateAssemblies\Microsoft.VisualStudio.Progression.CodeSchema.dll" Label="CodeSchema.dll">
+      <Category Ref="CodeSchema_Assembly" />
+    </Node>
+    <Node Id="@20" Category="FileSystem.Category.FileOfType.dll" CodeSchemaProperty_StrongName="Microsoft.VisualStudio.Progression.CascadeBrowser, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" FilePath="$(app)\IDE\PrivateAssemblies\Microsoft.VisualStudio.Progression.CascadeBrowser.dll" Label="CascadeBrowser.dll">
+      <Category Ref="CodeSchema_Assembly" />
+    </Node>
+    <Node Id="@22" Category="FileSystem.Category.FileOfType.dll" CodeSchemaProperty_StrongName="Microsoft.VisualStudio.Progression.ProgressionBrowser, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" FilePath="$(app)\IDE\PrivateAssemblies\Microsoft.VisualStudio.Progression.ProgressionBrowser.dll" Label="ProgressionBrowser.dll">
+      <Category Ref="CodeSchema_Assembly" />
+    </Node>
+    <Node Id="@24" Category="FileSystem.Category.FileOfType.dll" CodeSchemaProperty_StrongName="Microsoft.VisualStudio.Progression.Interfaces, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" FilePath="$(app)\IDE\PrivateAssemblies\Microsoft.VisualStudio.Progression.Interfaces.dll" Label="Interfaces.dll">
+      <Category Ref="CodeSchema_Assembly" />
+    </Node>
+    <Node Id="@4" Category="FileSystem.Category.FileOfType.dll" CodeSchemaProperty_StrongName="Microsoft.VisualStudio.Progression.VSPackage, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" FilePath="$(app)\IDE\PrivateAssemblies\Microsoft.VisualStudio.Progression.VSPackage.dll" Label="VSPackage.dll">
+      <Category Ref="CodeSchema_Assembly" />
+    </Node>
+    <Node Id="@6" Category="FileSystem.Category.FileOfType.dll" CodeSchemaProperty_StrongName="Microsoft.VisualStudio.Progression.CommandLine, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" FilePath="$(app)\IDE\PrivateAssemblies\Microsoft.VisualStudio.Progression.CommandLine.dll" Label="CommandLine.dll">
+      <Category Ref="CodeSchema_Assembly" />
+    </Node>
+    <Node Id="@8" Category="FileSystem.Category.FileOfType.dll" CodeSchemaProperty_StrongName="Microsoft.VisualStudio.Progression.GraphModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" FilePath="$(app)\IDE\PrivateAssemblies\Microsoft.VisualStudio.Progression.GraphModel.dll" Label="GraphModel.dll">
+      <Category Ref="CodeSchema_Assembly" />
+    </Node>
+    <Node Id="NewGroup1" Category="Category5" Group="Expanded" Label="Old UI (1.2mb)" />
+    <Node Id="NewGroup2" Category="Category3" Group="Expanded" Label="Microsoft.VisualStudio.Progression" />
+  </Nodes>
+  <Links>
+    <Link Source="@12" Target="@10" Category="References" ReferenceCount="5">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@12" Target="@14" Category="References" ReferenceCount="2">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@12" Target="@16" Category="References" ReferenceCount="4">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+      <Category Ref="Implements" />
+      <Category Ref="InheritsFrom" />
+    </Link>
+    <Link Source="@12" Target="@24" Category="References" ReferenceCount="2">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@12" Target="@8" Category="References" ReferenceCount="6">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+      <Category Ref="InheritsFrom" />
+    </Link>
+    <Link Source="@14" Target="@24" Category="References" ReferenceCount="1">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+      <Category Ref="Implements" />
+    </Link>
+    <Link Source="@14" Target="@8" Category="References" ReferenceCount="1">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@16" Target="@14" Category="References" ReferenceCount="1">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@16" Target="@24" Category="References" ReferenceCount="2">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+      <Category Ref="Implements" />
+    </Link>
+    <Link Source="@16" Target="@8" Category="References" ReferenceCount="1">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@18" Target="@14" Category="References" ReferenceCount="2">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@18" Target="@24" Category="References" ReferenceCount="1">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_FunctionPointer" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+      <Category Ref="Implements" />
+    </Link>
+    <Link Source="@18" Target="@8" Category="References" ReferenceCount="1">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@2" Target="@14" Category="References" ReferenceCount="3">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@2" Target="@24" Category="References" ReferenceCount="3">
+      <Category Ref="CodeSchema_AttributeUse" />
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+      <Category Ref="Implements" />
+    </Link>
+    <Link Source="@2" Target="@8" Category="References" ReferenceCount="4">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@20" Target="@16" Category="References" ReferenceCount="1">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@20" Target="@24" Category="References" ReferenceCount="1">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@22" Target="@14" Category="References" ReferenceCount="2">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@22" Target="@16" Category="References" ReferenceCount="1">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@22" Target="@20" Category="References" ReferenceCount="1">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@22" Target="@24" Category="References" ReferenceCount="1">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="Implements" />
+      <Category Ref="InheritsFrom" />
+    </Link>
+    <Link Source="@22" Target="@8" Category="References" ReferenceCount="2">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@24" Target="@8" Category="References" ReferenceCount="1">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+      <Category Ref="InheritsFrom" />
+    </Link>
+    <Link Source="@4" Target="@12" Category="References" ReferenceCount="2">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_FunctionPointer" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+      <Category Ref="InheritsFrom" />
+    </Link>
+    <Link Source="@4" Target="@14" Category="References" ReferenceCount="2">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+      <Category Ref="Implements" />
+    </Link>
+    <Link Source="@4" Target="@16" Category="References" ReferenceCount="2">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="InheritsFrom" />
+    </Link>
+    <Link Source="@4" Target="@18" Category="References" ReferenceCount="1">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@4" Target="@2" Category="References" ReferenceCount="2">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+      <Category Ref="Implements" />
+    </Link>
+    <Link Source="@4" Target="@20" Category="References" ReferenceCount="1">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@4" Target="@22" Category="References" ReferenceCount="1">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@4" Target="@24" Category="References" ReferenceCount="1">
+      <Category Ref="CodeSchema_AttributeUse" />
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+      <Category Ref="Implements" />
+    </Link>
+    <Link Source="@4" Target="@8" Category="References" ReferenceCount="3">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+      <Category Ref="InheritsFrom" />
+    </Link>
+    <Link Source="@6" Target="@14" Category="References" ReferenceCount="2">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="Implements" />
+    </Link>
+    <Link Source="@6" Target="@16" Category="References" />
+    <Link Source="@6" Target="@18" Category="References" ReferenceCount="1">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@6" Target="@24" Category="References" ReferenceCount="1">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+      <Category Ref="Implements" />
+    </Link>
+    <Link Source="@6" Target="@8" Category="References" ReferenceCount="2">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="NewGroup1" Target="@10" Category="Contains" />
+    <Link Source="NewGroup1" Target="@12" Category="Contains" />
+    <Link Source="NewGroup1" Target="@16" Category="Contains" />
+    <Link Source="NewGroup2" Target="@14" Category="Contains" />
+    <Link Source="NewGroup2" Target="@18" Category="Contains" />
+    <Link Source="NewGroup2" Target="@2" Category="Contains" />
+    <Link Source="NewGroup2" Target="@20" Category="Contains" />
+    <Link Source="NewGroup2" Target="@22" Category="Contains" />
+    <Link Source="NewGroup2" Target="@24" Category="Contains" />
+    <Link Source="NewGroup2" Target="@4" Category="Contains" />
+    <Link Source="NewGroup2" Target="@6" Category="Contains" />
+    <Link Source="NewGroup2" Target="@8" Category="Contains" />
+    <Link Source="NewGroup2" Target="NewGroup1" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="Category1" Label="Category 1" Background="#FFFF7F7F" IsTag="True" />
+    <Category Id="Category3" Label="Category 3" Background="#FF7FC9FF" IsTag="True" />
+    <Category Id="Category5" Label="Category 5" Background="#FFA17FFF" IsTag="True" />
+    <Category Id="CodeSchema_Assembly" Label="Assembly" BasedOn="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Assembly" IsProviderRoot="False" NavigationActionLabel="Assemblies" />
+    <Category Id="CodeSchema_AttributeUse" Label="Uses Attribute" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Used by" OutgoingActionLabel="Uses Attribute" />
+    <Category Id="CodeSchema_Calls" Label="Calls" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Called By" OutgoingActionLabel="Calls" />
+    <Category Id="CodeSchema_FunctionPointer" Label="Function Pointer" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Function Pointers" OutgoingActionLabel="Function Pointers" />
+    <Category Id="CodeSchema_ReturnTypeLink" Label="Return" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Return types" OutgoingActionLabel="Return types" />
+    <Category Id="Contains" Label="Contains" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="File" Label="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="File" IsProviderRoot="False" NavigationActionLabel="Files" />
+    <Category Id="FileSystem.Category.FileOfType.dll" Label="dll File" BasedOn="CodeSchema_Assembly" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="dll Files" />
+    <Category Id="Implements" Label="Implements" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Implemented by" OutgoingActionLabel="Implements" />
+    <Category Id="InheritsFrom" Label="Inherits From" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Inherited By" OutgoingActionLabel="Inherits From" />
+    <Category Id="References" Label="References" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Referenced By" OutgoingActionLabel="References" />
+  </Categories>
+  <Properties>
+    <Property Id="Background" Label="Background" Description="The background color" DataType="System.Windows.Media.Brush" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_StrongName" Label="StrongName" Description="StrongName" DataType="System.String" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="FilePath" Label="File Path" Description="File Path" DataType="System.String" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.Progression.GraphModel.GroupStyle" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="IsTag" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="ReferenceCount" Label="Reference Count" Description="Total number of links" DataType="System.Int32" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+  </QualifiedNames>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Category 5" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category5')" />
+      <Setter Property="Background" Value="#FFCFCFEF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Category 3" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category3')" />
+      <Setter Property="Background" Value="#FFAFC9FF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Category 1" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category1')" />
+      <Setter Property="Background" Value="Blue" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Assembly" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#1C3068" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Namespace" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#4A65A0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Type" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#D3DCEF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Method" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Method')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Generics" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Generics')" />
+      <Setter Property="Background" Value="#FFA080A0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Externals" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FFA08080" />
+    </Style>
+  </Styles>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(appUri)/IDE/PrivateAssemblies/Microsoft.VisualStudio.Progression.CodeSchema.dll" />
+    <Alias n="2" Id="(@1)" />
+    <Alias n="3" Uri="Assembly=$(appUri)/IDE/PrivateAssemblies/Microsoft.VisualStudio.Progression.VSPackage.dll" />
+    <Alias n="4" Id="(@3)" />
+    <Alias n="5" Uri="Assembly=$(appUri)/IDE/PrivateAssemblies/Microsoft.VisualStudio.Progression.CommandLine.dll" />
+    <Alias n="6" Id="(@5)" />
+    <Alias n="7" Uri="Assembly=$(appUri)/IDE/PrivateAssemblies/Microsoft.VisualStudio.Progression.GraphModel.dll" />
+    <Alias n="8" Id="(@7)" />
+    <Alias n="9" Uri="Assembly=$(appUri)/IDE/PrivateAssemblies/Microsoft.Msagl.dll" />
+    <Alias n="10" Id="(@9)" />
+    <Alias n="11" Uri="Assembly=$(appUri)/IDE/PrivateAssemblies/Microsoft.VisualStudio.Progression.GraphControl.dll" />
+    <Alias n="12" Id="(@11)" />
+    <Alias n="13" Uri="Assembly=$(appUri)/IDE/PrivateAssemblies/Microsoft.VisualStudio.Progression.Common.dll" />
+    <Alias n="14" Id="(@13)" />
+    <Alias n="15" Uri="Assembly=$(appUri)/IDE/PrivateAssemblies/Microsoft.VisualStudio.Progression.WpfCommon.dll" />
+    <Alias n="16" Id="(@15)" />
+    <Alias n="17" Uri="Assembly=$(appUri)/IDE/PrivateAssemblies/Microsoft.VisualStudio.Progression.DataManager.dll" />
+    <Alias n="18" Id="(@17)" />
+    <Alias n="19" Uri="Assembly=$(appUri)/IDE/PrivateAssemblies/Microsoft.VisualStudio.Progression.CascadeBrowser.dll" />
+    <Alias n="20" Id="(@19)" />
+    <Alias n="21" Uri="Assembly=$(appUri)/IDE/PrivateAssemblies/Microsoft.VisualStudio.Progression.ProgressionBrowser.dll" />
+    <Alias n="22" Id="(@21)" />
+    <Alias n="23" Uri="Assembly=$(appUri)/IDE/PrivateAssemblies/Microsoft.VisualStudio.Progression.Interfaces.dll" />
+    <Alias n="24" Id="(@23)" />
+  </IdentifierAliases>
+  <Paths>
+    <Path Id="app" Value="C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7" />
+    <Path Id="appUri" Value="file:///C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7" />
+  </Paths>
+</DirectedGraph>

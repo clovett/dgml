@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@13 @14 @15 Member=(Name=CancelOnLostCapture (OverloadingParameters=[(@17 @131 Type=MouseEventArgs)])))" Category="CodeSchema_Method" Bounds="1180.75380533854,694.832166734294,155.626666666667,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="CancelOnLostCapture" UseManualLocation="True" />
+    <Node Id="(@13 @14 @15 Member=(Name=MoveSelectionAndAutoScroll (OverloadingParameters=[(@17 @131 Type=MouseEventArgs)])))" Category="CodeSchema_Method" Bounds="892.625920817057,663.832287947069,195.156666666668,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="MoveSelectionAndAutoScroll" UseManualLocation="True" />
+    <Node Id="(@13 @14 @15 Member=(Name=OnLostMouseCapture (OverloadingParameters=[(@17 @131 Type=MouseEventArgs)])))" Category="CodeSchema_Method" Bounds="1137.78261230469,618.832044663984,156.54,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="OnLostMouseCapture" UseManualLocation="True" />
+    <Node Id="(@13 @14 @15 Member=(Name=StartMovingSelection (OverloadingParameters=[(@17 @131 Type=MouseEventArgs)])))" Category="CodeSchema_Method" Bounds="638.71477376302,650.160291734294,154.273333333334,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="StartMovingSelection" UseManualLocation="True" />
+    <Node Id="(@13 @14 @15 Member=(Name=StartMovingSelectionBumpMode (OverloadingParameters=[(@17 @131 Type=MouseEventArgs)])))" Category="CodeSchema_Method" Bounds="842.989320882161,587.832165876756,216.483333333334,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="StartMovingSelectionBumpMode" UseManualLocation="True" />
+    <Node Id="(@3 @4 @5 Member=(Name=DragSelection OverloadingParameters=[(@99 @131 Type=MouseEventArgs)]))" Category="CodeSchema_Method" Bounds="1045.8839819513,1254.69956633305,114.93,26" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="DragSelection" UseManualLocation="True" />
+    <Node Id="(@3 @4 @5 Member=(Name=EndDrag OverloadingParameters=[(@99 @131 Type=MouseEventArgs),@82]))" Category="CodeSchema_Method" Bounds="1210.81570721172,1260.9256405518,86.6866666666665,26" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="EndDrag" UseManualLocation="True" />
+    <Node Id="(@3 @4 @5 Member=(Name=StartDrag OverloadingParameters=[(@99 @131 Type=MouseEventArgs),@82]))" Category="CodeSchema_Method" Bounds="882.049769711718,1231.00620695805,91.5466666666671,26" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="StartDrag" UseManualLocation="True" />
+    <Node Id="(@7 @8 @11 Member=(Name=OnDragEnter (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Category="CodeSchema_Method" Bounds="1967.71997834795,1110.90010837944,109.973333333333,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="OnDragEnter" />
+    <Node Id="(@7 @8 @11 Member=(Name=OnDragLeave (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Category="CodeSchema_Method" Bounds="2286.37997834795,1051.20162205131,112.653333333334,26.0000000000002" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="OnDragLeave" />
+    <Node Id="(@7 @8 @11 Member=(Name=OnDragOver (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Category="CodeSchema_Method" Bounds="2127.7865229443,1075.18819431694,107.84,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="OnDragOver" />
+    <Node Id="(@7 @8 @11 Member=(Name=OnDrop (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Category="CodeSchema_Method" Bounds="2300.95331168128,975.201438945844,83.5066666666671,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="OnDrop" />
+    <Node Id="(@7 @8 @11 Member=(Name=OnExit OverloadingParameters=[@183,@82]))" Category="CodeSchema_Method" Bounds="2531.01343375159,1127.201499981,75.3866666666663,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="OnExit" />
+    <Node Id="(@7 @8 @11 Member=(Name=OnGiveFeedback OverloadingParameters=[@42,(@17 @76 Type=GiveFeedbackEventArgs)]))" Category="CodeSchema_Method" Bounds="2026.67896597815,999.188072246626,130.146666666667,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="OnGiveFeedback" UseManualLocation="True" />
+    <Node Id="(@7 @8 @11 Member=(Name=StartAutoScroll OverloadingParameters=[@183]))" Category="CodeSchema_Method" Bounds="2736.53306754065,1127.201499981,120.346666666666,26" CodeSchemaProperty_IsProtected="True" DelayedCrossGroupLinksState="Fetched" Label="StartAutoScroll" UseManualLocation="True" />
+    <Node Id="(@7 @8 @9 Member=(Name=OnDragEnter (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Category="CodeSchema_Method" Bounds="1567.83504850201,1894.42211914063,109.973333333333,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="OnDragEnter" UseManualLocation="True" />
+    <Node Id="(@7 @8 @9 Member=(Name=OnDragLeave (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Category="CodeSchema_Method" Bounds="1912.37847135357,1700.05456542969,112.653333333334,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="OnDragLeave" UseManualLocation="True" />
+    <Node Id="(@7 @8 @9 Member=(Name=OnDragSourceFinish (OverloadingParameters=[@42,(@17 @131 Type=MouseEventArgs)])))" Category="CodeSchema_Method" Bounds="1594.27972542258,1803.0439453125,149.13,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="OnDragSourceFinish" UseManualLocation="True">
+      <Category Ref="New" />
+    </Node>
+    <Node Id="(@7 @8 @9 Member=(Name=OnDragSourceMove (OverloadingParameters=[@42,(@17 @131 Type=MouseEventArgs)])))" Category="CodeSchema_Method" Bounds="2319.12124967388,1652.53149414063,148.613333333335,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="OnDragSourceMove" UseManualLocation="True" />
+    <Node Id="@10" Category="CodeSchema_Class" Bounds="1547.64466486648,1519.25649600491,1132.68360677083,618.927576248875" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="27" Group="Expanded" Label="GraphControlDragSourceGesture" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@12" Category="CodeSchema_Class" Bounds="1675.44012776772,816.440478290372,1268.67220115784,588.178862104492" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="33" Group="Expanded" Label="GraphDragDropGesture" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@16" Category="CodeSchema_Class" Bounds="618.71477376302,546.834065799677,969.189715169272,317.987579959892" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="48" Group="Expanded" Label="SingleNodeSelectionWithMouse" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@2" Category="File" Bounds="1725.09464105373,1065.15877836745,131.014794824895,121.015492693994" FilePath="D:\dd\ALM\src\Progression\Design\Images\DragDropWindow.png" Icon="Images/DragDropWindow.png" Label="" Shape="None" UseManualLocation="True" />
+    <Node Id="@265" Category="CodeSchema_Method" Bounds="2180.62753548118,1816.77221679688,143.57,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="OnDragSourceStart" UseManualLocation="True" />
+    <Node Id="@266" Category="CodeSchema_Method" Bounds="1823.56057259055,1808.1044921875,120.18,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="OnMouseEnter">
+      <Category Ref="New" />
+    </Node>
+    <Node Id="@268" Category="CodeSchema_Method" Bounds="2102.1761389968,1700.05456542969,122.860000000001,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="OnMouseLeave" UseManualLocation="True">
+      <Category Ref="New" />
+    </Node>
+    <Node Id="@269" Category="CodeSchema_Method" Bounds="2596.27676708231,1051.20137791069,122.860000000001,26.0000000000002" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="OnMouseLeave" />
+    <Node Id="@270" Category="CodeSchema_Method" Bounds="2282.20843375159,1162.18831638725,94.9966666666669,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="SetTooltip" UseManualLocation="True" />
+    <Node Id="@271" Category="CodeSchema_Method" Bounds="2119.91831168128,1186.90023044975,111.576666666667,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="HandlerExists" />
+    <Node Id="@272" Category="CodeSchema_Method" Bounds="1911.53843375159,1199.33907322319,106.336666666667,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="IsGraphData" />
+    <Node Id="@273" Category="CodeSchema_Method" Bounds="1808.71159130368,1275.33907322214,153.63,26" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" DelayedCrossGroupLinksState="Fetched" Label="GetDragSourceCount" UseManualLocation="True" />
+    <Node Id="@274" Category="CodeSchema_Method" Bounds="1728.53624136878,1009.15867836745,132.346666666666,26" CodeSchemaProperty_IsInternal="True" CodeSchemaProperty_IsStatic="True" DelayedCrossGroupLinksState="Fetched" Label="CreateDragVisual" />
+    <Node Id="@275" Category="CodeSchema_Method" Bounds="1386.38115559896,742.821057478319,181.523333333334,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="CancelSelectionMovement" UseManualLocation="True">
+      <Category Ref="New" />
+    </Node>
+    <Node Id="@276" Category="CodeSchema_Method" Bounds="1382.5783968099,818.821545759569,104.473333333333,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="IsEscapeKey" UseManualLocation="True">
+      <Category Ref="New" />
+    </Node>
+    <Node Id="@277" Category="CodeSchema_Method" Bounds="1386.3811328125,663.690931382734,147.559999999999,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="OnPreviewKeyDown" UseManualLocation="True">
+      <Category Ref="New" />
+    </Node>
+    <Node Id="@278" Category="CodeSchema_Method" Bounds="2793.29818960835,1213.20174412163,130.816666666668,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="OnAutoscrollTick" UseManualLocation="True" />
+    <Node Id="@279" Category="CodeSchema_Method" Bounds="2468.2348873692,1881.41772460938,192.093333333332,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="OnDragSourceGiveFeedback" UseManualLocation="True" />
+    <Node Id="@280" Category="CodeSchema_Method" Bounds="2060.6488717442,1934.29278564453,146.933333333333,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="QueryDragContinue" UseManualLocation="True" />
+    <Node Id="@281" Category="CodeSchema_Method" Bounds="2449.96343375159,1051.201499981,95.4866666666667,26.0000000000002" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="ShowError" />
+    <Node Id="@282" Category="CodeSchema_Field" Bounds="2110.63876269472,2054.29248046875,95.3966666666665,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="_cancelled" UseManualLocation="True" />
+    <Node Id="@283" Category="CodeSchema_Field" Bounds="2440.31497834795,1203.201499981,78.7833333333338,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="_cursor" />
+    <Node Id="@284" Category="CodeSchema_Field" Bounds="1881.37860969993,1890.76049804688,129.27,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="_doingDragDrop" UseManualLocation="True" />
+    <Node Id="@285" Category="CodeSchema_Field" Bounds="1864.67960660748,2065.44287109375,173.503333333333,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="_dragInsideGraphControl" />
+    <Node Id="@286" Category="CodeSchema_Field" Bounds="1727.80856575461,1884.10473632813,103.57,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="_isDragging">
+      <Category Ref="New" />
+    </Node>
+    <Node Id="@287" Category="CodeSchema_Field" Bounds="2257.58225553326,1936.42315673828,133.503333333333,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="_originalPositions" />
+    <Node Id="@288" Category="CodeSchema_Method" Bounds="1221.12991619609,1344.9275936768,86.6866666666665,26" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="EndDrag" UseManualLocation="True" />
+    <Node Id="@289" Category="CodeSchema_Event" Bounds="899.431498007148,1530.54011413801,165.274666743746,25.9980000770793" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="SelectionDragFinish" UseManualLocation="True">
+      <Category Ref="New" />
+    </Node>
+    <Node Id="@290" Category="CodeSchema_Event" Bounds="893.170359266094,1454.53982311215,155.338000077079,25.9980000770793" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="SelectionDragged" UseManualLocation="True" />
+    <Node Id="@291" Category="CodeSchema_Event" Bounds="1126.21613766986,1454.53982311215,159.714666743746,25.9980000770793" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="SelectionDragStart" UseManualLocation="True" />
+    <Node Id="@292" Category="CodeSchema_Method" Bounds="2459.19767382753,1763.27221679688,91.5466666666671,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="StartDrag" UseManualLocation="True" />
+    <Node Id="@293" Category="CodeSchema_Method" Bounds="2620.30510041826,1203.201499981,118.803333333333,26" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="StopAutoscroll" />
+    <Node Id="@6" Category="CodeSchema_Class" Bounds="844.766094581509,1190.00810688097,483.050488281248,386.530107334115" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="312" Group="Expanded" Label="DiagramControl" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="Comment1" Category="Comment" Bounds="683.617973225911,741.62204624785,249.463333333333,89.8000000000002" Label="Drag/Drop starts out as a selection gesture moving the nodes.  Each gesture state delegates to the DiagramControl StartDrag/DragSelection/EndDrag methods so it can be overridden by GraphControl. " UseManualLocation="True" />
+    <Node Id="Comment2" Category="Comment" Bounds="1171.29835449219,775.832635484294,157.28,25.96" Label="I added Escape key cancel" UseManualLocation="True" />
+    <Node Id="Comment3" Category="Comment" Bounds="864.76609458151,1330.69967131352,239.163333333333,73.8400000000001" Label="The DiagramControl raises the following events which allow the GraphControl to intercept these and decide whether it wants to start a real Drag/Dro poperation" UseManualLocation="True" />
+    <Node Id="Comment4" Category="Comment" Bounds="1567.6446139317,1588.28369628906,245.713333333333,105.76" Label="This class listens to those events from DiagramControl and checks whether the mouse as left the &quot;common parent&quot; of the section being moved or left the DiagramControl entirely in which case it starts a real WPF &quot;DoDragDrop&quot; operation." UseManualLocation="True" />
+    <Node Id="Comment5" Category="Comment" Bounds="2286.2807076817,2012.42383300781,240.183333333332,105.76" Label="This event is important since it detects if the mouse moves back inside the &quot;common parent&quot; of the selected nodes and &quot;cancels&quot; the drag drop operation so that we can revert back to selection move mode." UseManualLocation="True" />
+    <Node Id="Comment6" Category="Comment" Bounds="1908.87565885357,1560.25466308594,238.893333333333,89.8000000000002" Label="The problem is that OnDragLeave is not reliable and so we also need to watch the OnMouseLeave and OnMouseEnter methods (but only when _isDragging is true)" UseManualLocation="True" />
+    <Node Id="Comment7" Category="Comment" Bounds="1695.44012776772,857.438578367451,247.663333333333,121.72" Label="This class handles the &quot;drop&quot; side of a drag drop, including providing the visual feedback (translucent cursor window that moves with the mouse and shows the count of items being dropped).  It also manages the green feedback on the drop target node." UseManualLocation="True" />
+    <Node Id="Comment8" Category="Comment" Bounds="2595.2708588818,922.086908916547,233.76,57.8800000000001" Label="This class also manages autoscrolling of the when mouse hovers over the margin area around the edges." UseManualLocation="True" />
+    <Node Id="Comment9" Category="Comment" Bounds="2079.83138785315,1262.90033787058,247.806666666667,121.72" Label="One complexity in this class is that the cursor feedback has to come and go as the GraphControlDragSourceGesture decides to start/stop the DroDragDro poperation.  This is communicated via OnDragLeave which is called when drag/drop is cancelled." UseManualLocation="True" />
+  </Nodes>
+  <Links>
+    <Link Source="(@13 @14 @15 Member=(Name=CancelOnLostCapture (OverloadingParameters=[(@17 @131 Type=MouseEventArgs)])))" Target="(@3 @4 @5 Member=(Name=EndDrag OverloadingParameters=[(@99 @131 Type=MouseEventArgs),@82]))" Category="CodeSchema_Calls" Bounds="1234.88766692145,1181.80871667785,22.6536185245716,287.075220311783" IsDelayedCrossGroupLink="True" Weight="1" />
+    <Link Source="(@13 @14 @15 Member=(Name=MoveSelectionAndAutoScroll (OverloadingParameters=[(@17 @131 Type=MouseEventArgs)])))" Target="(@3 @4 @5 Member=(Name=DragSelection OverloadingParameters=[(@99 @131 Type=MouseEventArgs)]))" Category="CodeSchema_Calls" Bounds="993.657916386998,1150.80877771301,82.9212825078461,312.122921558456" IsDelayedCrossGroupLink="True" Weight="1" />
+    <Link Source="(@13 @14 @15 Member=(Name=OnLostMouseCapture (OverloadingParameters=[(@17 @131 Type=MouseEventArgs)])))" Target="(@13 @14 @15 Member=(Name=CancelOnLostCapture (OverloadingParameters=[(@17 @131 Type=MouseEventArgs)])))" Category="CodeSchema_Calls" Bounds="1223.32482223959,644.832044663984,23.5762597143109,42.1455622196946" Weight="3" />
+    <Link Source="(@13 @14 @15 Member=(Name=StartMovingSelection (OverloadingParameters=[(@17 @131 Type=MouseEventArgs)])))" Target="(@3 @4 @5 Member=(Name=StartDrag OverloadingParameters=[(@99 @131 Type=MouseEventArgs),@82]))" Category="CodeSchema_Calls" Bounds="723.222477523664,1137.13684167785,171.785251187179,302.970699639822" IsDelayedCrossGroupLink="True" Weight="1" />
+    <Link Source="(@13 @14 @15 Member=(Name=StartMovingSelectionBumpMode (OverloadingParameters=[(@17 @131 Type=MouseEventArgs)])))" Target="(@3 @4 @5 Member=(Name=StartDrag OverloadingParameters=[(@99 @131 Type=MouseEventArgs),@82]))" Category="CodeSchema_Calls" Bounds="909.259784598254,1074.8086556427,40.524593439177,364.183163837187" IsDelayedCrossGroupLink="True" Weight="1" />
+    <Link Source="(@3 @4 @5 Member=(Name=DragSelection OverloadingParameters=[(@99 @131 Type=MouseEventArgs)]))" Target="@290" Bounds="1015.91925048828,1280.69958496094,94.9811401367188,170.828002929688" />
+    <Link Source="(@3 @4 @5 Member=(Name=EndDrag OverloadingParameters=[(@99 @131 Type=MouseEventArgs),@82]))" Target="(@3 @4 @5 Member=(Name=DragSelection OverloadingParameters=[(@99 @131 Type=MouseEventArgs)]))" Category="CodeSchema_Calls" Bounds="1169.80632200434,1270.44320515535,41.0093852073794,1.69304009525149" Weight="1" />
+    <Link Source="(@3 @4 @5 Member=(Name=EndDrag OverloadingParameters=[(@99 @131 Type=MouseEventArgs),@82]))" Target="@288" Category="CodeSchema_Calls" Bounds="1255.75525005934,1286.9256405518,6.0249589450807,49.0690386099084" Weight="1" />
+    <Link Source="(@3 @4 @5 Member=(Name=EndDrag OverloadingParameters=[(@99 @131 Type=MouseEventArgs),@82]))" Target="@289" Bounds="1009.04858398438,1286.92565917969,232.688720703125,238.26806640625" />
+    <Link Source="(@3 @4 @5 Member=(Name=StartDrag OverloadingParameters=[(@99 @131 Type=MouseEventArgs),@82]))" Target="@291" Bounds="960.322387695313,1257.00622558594,233.13671875,189.849975585938" />
+    <Link Source="(@7 @8 @11 Member=(Name=OnDragEnter (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Target="@270" Category="CodeSchema_Calls" Bounds="2077.69331168128,1133.08631839994,195.638147220488,32.6837980429502" Weight="1" />
+    <Link Source="(@7 @8 @11 Member=(Name=OnDragEnter (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Target="@271" Category="CodeSchema_Calls" Bounds="2048.87765561062,1136.90010837944,92.5976278235248,45.9962811634587" Weight="1" />
+    <Link Source="(@7 @8 @11 Member=(Name=OnDragEnter (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Target="@272" Category="CodeSchema_Calls" Bounds="1978.16803898359,1136.90010837944,36.0129701371873,54.913043157479" Weight="1" />
+    <Link Source="(@7 @8 @11 Member=(Name=OnDragEnter (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Target="@273" Category="CodeSchema_Calls" Bounds="1888.66357421875,1136.90014648438,109.038940429688,129.52978515625" Weight="1" />
+    <Link Source="(@7 @8 @11 Member=(Name=OnDragEnter (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Target="@274" Category="CodeSchema_Calls" Bounds="1832.06070886271,1038.8262404389,161.513639361232,72.0738679405383" Weight="1" />
+    <Link Source="(@7 @8 @11 Member=(Name=OnDragEnter (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Target="@283" Category="CodeSchema_FieldReference" Bounds="2070.533203125,1136.90014648438,360.830322265625,74.258056640625" Weight="3" />
+    <Link Source="(@7 @8 @11 Member=(Name=OnDragLeave (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Target="(@7 @8 @11 Member=(Name=OnExit OverloadingParameters=[@183,@82]))" Category="CodeSchema_Calls" Bounds="2381.3646227239,1077.20162205131,142.204492122431,47.8208770126071" Weight="1" />
+    <Link Source="(@7 @8 @11 Member=(Name=OnDragOver (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Target="(@7 @8 @11 Member=(Name=StartAutoScroll OverloadingParameters=[@183]))" Category="CodeSchema_Calls" Bounds="2235.6265229443,1092.74845122438,491.93856074877,41.6054565966742" Weight="1" />
+    <Link Source="(@7 @8 @11 Member=(Name=OnDragOver (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Target="@270" Category="CodeSchema_Calls" Bounds="2203.82147092418,1101.18819431694,96.0115924303745,56.439232989851" Weight="1" />
+    <Link Source="(@7 @8 @11 Member=(Name=OnDragOver (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Target="@271" Category="CodeSchema_Calls" Bounds="2176.88753477924,1101.18819431694,4.12077859171495,76.7249887960622" Weight="1" />
+    <Link Source="(@7 @8 @11 Member=(Name=OnDragOver (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Target="@283" Category="CodeSchema_FieldReference" Bounds="2224.85791015625,1101.18823242188,229.54443359375,96.7452392578125" Weight="2" />
+    <Link Source="(@7 @8 @11 Member=(Name=OnDrop (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Target="(@7 @8 @11 Member=(Name=OnDragLeave (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Category="CodeSchema_Calls" Bounds="2342.70664501461,1001.20143894584,1.81898940354586E-12,41.0001831054661" Weight="1" />
+    <Link Source="(@7 @8 @11 Member=(Name=OnDrop (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Target="@281" Category="CodeSchema_Calls" Bounds="2369.21980249724,1001.20143894584,93.892924686777,46.0378218523434" Weight="1" />
+    <Link Source="(@7 @8 @11 Member=(Name=OnDrop (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Target="@288" Category="CodeSchema_FunctionPointer" Bounds="1281.12438474994,1095.47761402122,1047.3676903667,462.743219935291" IsDelayedCrossGroupLink="True" Weight="1" />
+    <Link Source="(@7 @8 @11 Member=(Name=OnDrop (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Target="@293" Category="CodeSchema_Calls" Bounds="2355.71362304688,1001.20141601563,274.874755859375,199.252319335938" Weight="1" />
+    <Link Source="(@7 @8 @11 Member=(Name=OnExit OverloadingParameters=[@183,@82]))" Target="@283" Category="CodeSchema_FieldReference" Bounds="2501.77450830348,1153.201499981,51.7085536904729,44.1555583190266" Weight="3" />
+    <Link Source="(@7 @8 @11 Member=(Name=OnExit OverloadingParameters=[@183,@82]))" Target="@293" Category="CodeSchema_Calls" Bounds="2587.69360919019,1153.201499981,65.6001918183251,44.9154466503833" Weight="1" />
+    <Link Source="(@7 @8 @11 Member=(Name=StartAutoScroll OverloadingParameters=[@183]))" Target="@278" Category="CodeSchema_FunctionPointer" Bounds="2806.07810370333,1153.201499981,37.9911190710573,52.6995527832173" Weight="1" />
+    <Link Source="(@7 @8 @11 Member=(Name=StartAutoScroll OverloadingParameters=[@183]))" Target="@293" Category="CodeSchema_Calls" Bounds="2707.26732136092,1153.201499981,69.4259842596698,45.0973616998488" Weight="1" />
+    <Link Source="(@7 @8 @9 Member=(Name=OnDragEnter (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Target="@285" Category="CodeSchema_FieldReference" Bounds="1647.8006969974,1920.42211914063,270.668073528688,140.865827918863" Weight="1" />
+    <Link Source="(@7 @8 @9 Member=(Name=OnDragLeave (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Target="@284" Category="CodeSchema_FieldReference" Bounds="1948.62382270017,1726.05456542969,18.5344842167244,155.768974580959" Weight="1" />
+    <Link Source="(@7 @8 @9 Member=(Name=OnDragLeave (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Target="@285" Category="CodeSchema_FieldReference" Bounds="1961.40734863281,1726.05456542969,54.531982421875,331.249145507813" Weight="1" />
+    <Link Source="(@7 @8 @9 Member=(Name=OnDragLeave (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Target="@286" Category="CodeSchema_FieldReference" Bounds="1786.53088378906,1726.05456542969,157.753295898438,149.482421875" Weight="1" />
+    <Link Source="(@7 @8 @9 Member=(Name=OnDragLeave (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Target="@292" Category="CodeSchema_Calls" Bounds="2025.0318046869,1719.69462921319,425.227760639192,50.127934427037" Weight="1" />
+    <Link Source="(@7 @8 @9 Member=(Name=OnDragSourceFinish (OverloadingParameters=[@42,(@17 @131 Type=MouseEventArgs)])))" Target="@286" Category="CodeSchema_FieldReference" Bounds="1686.60590078588,1829.0439453125,67.9639997209081,49.7451310681536" Weight="1" />
+    <Link Source="(@7 @8 @9 Member=(Name=OnDragSourceMove (OverloadingParameters=[@42,(@17 @131 Type=MouseEventArgs)])))" Target="@284" Category="CodeSchema_FieldReference" Bounds="1978.37277839094,1678.53149414063,390.640033613206,207.999129022777" Weight="1" />
+    <Link Source="(@7 @8 @9 Member=(Name=OnDragSourceMove (OverloadingParameters=[@42,(@17 @131 Type=MouseEventArgs)])))" Target="@287" Category="CodeSchema_FieldReference" Bounds="2329.62618853152,1678.53149414063,60.637767601072,249.146932010374" Weight="2" />
+    <Link Source="(@7 @8 @9 Member=(Name=OnDragSourceMove (OverloadingParameters=[@42,(@17 @131 Type=MouseEventArgs)])))" Target="@292" Category="CodeSchema_Calls" Bounds="2406.52210740128,1678.53149414063,78.9678175654985,78.3997746474265" Weight="1" />
+    <Link Source="@10" Target="(@7 @8 @9 Member=(Name=OnDragEnter (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Category="Contains" FetchingParent="@10" />
+    <Link Source="@10" Target="(@7 @8 @9 Member=(Name=OnDragLeave (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Category="Contains" FetchingParent="@10" />
+    <Link Source="@10" Target="(@7 @8 @9 Member=(Name=OnDragSourceFinish (OverloadingParameters=[@42,(@17 @131 Type=MouseEventArgs)])))" Category="Contains" FetchingParent="@10" />
+    <Link Source="@10" Target="(@7 @8 @9 Member=(Name=OnDragSourceMove (OverloadingParameters=[@42,(@17 @131 Type=MouseEventArgs)])))" Category="Contains" FetchingParent="@10" />
+    <Link Source="@10" Target="@265" Category="Contains" FetchingParent="@10" />
+    <Link Source="@10" Target="@266" Category="Contains" FetchingParent="@10" />
+    <Link Source="@10" Target="@268" Category="Contains" FetchingParent="@10" />
+    <Link Source="@10" Target="@279" Category="Contains" FetchingParent="@10" />
+    <Link Source="@10" Target="@280" Category="Contains" FetchingParent="@10" />
+    <Link Source="@10" Target="@282" Category="Contains" FetchingParent="@10" />
+    <Link Source="@10" Target="@284" Category="Contains" FetchingParent="@10" />
+    <Link Source="@10" Target="@285" Category="Contains" FetchingParent="@10" />
+    <Link Source="@10" Target="@286" Category="Contains" FetchingParent="@10" />
+    <Link Source="@10" Target="@287" Category="Contains" FetchingParent="@10" />
+    <Link Source="@10" Target="@292" Category="Contains" FetchingParent="@10" />
+    <Link Source="@10" Target="Comment4" Category="Contains" />
+    <Link Source="@10" Target="Comment5" Category="Contains" />
+    <Link Source="@10" Target="Comment6" Category="Contains" />
+    <Link Source="@12" Target="(@7 @8 @11 Member=(Name=OnDragEnter (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Category="Contains" FetchingParent="@12" />
+    <Link Source="@12" Target="(@7 @8 @11 Member=(Name=OnDragLeave (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Category="Contains" FetchingParent="@12" />
+    <Link Source="@12" Target="(@7 @8 @11 Member=(Name=OnDragOver (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Category="Contains" FetchingParent="@12" />
+    <Link Source="@12" Target="(@7 @8 @11 Member=(Name=OnDrop (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Category="Contains" FetchingParent="@12" />
+    <Link Source="@12" Target="(@7 @8 @11 Member=(Name=OnExit OverloadingParameters=[@183,@82]))" Category="Contains" FetchingParent="@12" />
+    <Link Source="@12" Target="(@7 @8 @11 Member=(Name=OnGiveFeedback OverloadingParameters=[@42,(@17 @76 Type=GiveFeedbackEventArgs)]))" Category="Contains" FetchingParent="@12" />
+    <Link Source="@12" Target="(@7 @8 @11 Member=(Name=StartAutoScroll OverloadingParameters=[@183]))" Category="Contains" FetchingParent="@12" />
+    <Link Source="@12" Target="@2" Category="Contains" />
+    <Link Source="@12" Target="@269" Category="Contains" FetchingParent="@12" />
+    <Link Source="@12" Target="@270" Category="Contains" FetchingParent="@12" />
+    <Link Source="@12" Target="@271" Category="Contains" FetchingParent="@12" />
+    <Link Source="@12" Target="@272" Category="Contains" FetchingParent="@12" />
+    <Link Source="@12" Target="@273" Category="Contains" FetchingParent="@12" />
+    <Link Source="@12" Target="@274" Category="Contains" FetchingParent="@12" />
+    <Link Source="@12" Target="@278" Category="Contains" FetchingParent="@12" />
+    <Link Source="@12" Target="@281" Category="Contains" FetchingParent="@12" />
+    <Link Source="@12" Target="@283" Category="Contains" FetchingParent="@12" />
+    <Link Source="@12" Target="@293" Category="Contains" FetchingParent="@12" />
+    <Link Source="@12" Target="Comment7" Category="Contains" />
+    <Link Source="@12" Target="Comment8" Category="Contains" />
+    <Link Source="@12" Target="Comment9" Category="Contains" />
+    <Link Source="@16" Target="(@13 @14 @15 Member=(Name=CancelOnLostCapture (OverloadingParameters=[(@17 @131 Type=MouseEventArgs)])))" Category="Contains" FetchingParent="@16" />
+    <Link Source="@16" Target="(@13 @14 @15 Member=(Name=MoveSelectionAndAutoScroll (OverloadingParameters=[(@17 @131 Type=MouseEventArgs)])))" Category="Contains" FetchingParent="@16" />
+    <Link Source="@16" Target="(@13 @14 @15 Member=(Name=OnLostMouseCapture (OverloadingParameters=[(@17 @131 Type=MouseEventArgs)])))" Category="Contains" FetchingParent="@16" />
+    <Link Source="@16" Target="(@13 @14 @15 Member=(Name=StartMovingSelection (OverloadingParameters=[(@17 @131 Type=MouseEventArgs)])))" Category="Contains" FetchingParent="@16" />
+    <Link Source="@16" Target="(@13 @14 @15 Member=(Name=StartMovingSelectionBumpMode (OverloadingParameters=[(@17 @131 Type=MouseEventArgs)])))" Category="Contains" FetchingParent="@16" />
+    <Link Source="@16" Target="@275" Category="Contains" FetchingParent="@16" />
+    <Link Source="@16" Target="@276" Category="Contains" FetchingParent="@16" />
+    <Link Source="@16" Target="@277" Category="Contains" FetchingParent="@16" />
+    <Link Source="@16" Target="Comment1" Category="Contains" />
+    <Link Source="@16" Target="Comment2" Category="Contains" />
+    <Link Source="@2" Target="@274" Bounds="1793.00319875606,1044.15159613333,0.833639443077118,21.0071956374495" />
+    <Link Source="@265" Target="@285" Category="CodeSchema_FieldReference" Bounds="1964.357421875,1842.77221679688,259.6005859375,215.04443359375" Weight="1" />
+    <Link Source="@265" Target="@286" Category="CodeSchema_FieldReference" Bounds="1840.28867240169,1839.99370524877,340.347050440687,48.467650175824" Weight="1" />
+    <Link Source="@265" Target="@287" Category="CodeSchema_FieldReference" Bounds="2260.2267492918,1842.77221679688,51.656297365148,85.937226958687" Weight="2" />
+    <Link Source="@266" Target="@285" Category="CodeSchema_FieldReference" Bounds="1876.67724609375,1834.1044921875,63.37890625,223.432861328125" Weight="1" />
+    <Link Source="@266" Target="@286" Category="CodeSchema_FieldReference" Bounds="1804.66063125757,1834.1044921875,61.1907736571004,44.6919806604262" Weight="1" />
+    <Link Source="@268" Target="@284" Category="CodeSchema_FieldReference" Bounds="1967.61478052795,1726.05456542969,181.158558869804,158.773888205126" Weight="1" />
+    <Link Source="@268" Target="@285" Category="CodeSchema_FieldReference" Bounds="1963.49959671607,1726.05456542969,192.55766014182,331.605333846776" Weight="1" />
+    <Link Source="@268" Target="@286" Category="CodeSchema_FieldReference" Bounds="1832.68859863281,1726.05456542969,310.508666992188,155.524169921875" Weight="1" />
+    <Link Source="@268" Target="@292" Category="CodeSchema_Calls" Bounds="2224.73030995033,1724.37420283184,225.617834814072,41.7823594449133" Weight="1" />
+    <Link Source="@269" Target="(@7 @8 @11 Member=(Name=OnExit OverloadingParameters=[@183,@82]))" Category="CodeSchema_Calls" Bounds="2590.77457644642,1077.20137791069,51.708530877876,44.1556703248355" Weight="1" />
+    <Link Source="@269" Target="@283" Category="CodeSchema_FieldReference" Bounds="2523.1259765625,1077.20141601563,129.450927734375,122.865112304688" Weight="1" />
+    <Link Source="@270" Target="@283" Category="CodeSchema_FieldReference" Bounds="2375.72977019035,1187.77199246719,55.9978010436816,15.3109997604618" Weight="4" />
+    <Link Source="@275" Target="(@3 @4 @5 Member=(Name=EndDrag OverloadingParameters=[(@99 @131 Type=MouseEventArgs),@82]))" Category="CodeSchema_Calls" Bounds="1250.71196145754,1229.79760827941,214.857208081265,241.336401824342" IsDelayedCrossGroupLink="True" Weight="1" />
+    <Link Source="@277" Target="@275" Category="CodeSchema_Calls" Bounds="1462.9509926773,689.690931382734,9.51352508294303,44.3304796913566" Weight="3" />
+    <Link Source="@277" Target="@276" Category="CodeSchema_Calls" Bounds="1374.77453613281,689.69091796875,65.0279541015625,123.27197265625" Weight="3" />
+    <Link Source="@280" Target="@282" Category="CodeSchema_FieldReference" Bounds="2136.73954715926,1960.29278564453,17.1928314815013,85.1776158887672" Weight="1" />
+    <Link Source="@280" Target="@285" Category="CodeSchema_FieldReference" Bounds="1976.85056213252,1960.29278564453,139.156749824337,99.9014316675775" Weight="1" />
+    <Link Source="@289" Target="(@7 @8 @9 Member=(Name=OnDragSourceFinish (OverloadingParameters=[@42,(@17 @131 Type=MouseEventArgs)])))" Bounds="1026.29226833498,1773.47055268777,557.872554545897,120.415545213817" />
+    <Link Source="@290" Target="(@7 @8 @9 Member=(Name=OnDragSourceMove (OverloadingParameters=[@42,(@17 @131 Type=MouseEventArgs)])))" Bounds="1037.5051637218,1688.75802823023,1256.97311035326,65.1942334564869" />
+    <Link Source="@291" Target="@265" Bounds="1247.23101117718,1697.47026166191,923.589191100578,210.047146634624" />
+    <Link Source="@292" Target="@279" Category="CodeSchema_FunctionPointer" Bounds="2511.49717242648,1789.27221679688,42.2203480170215,84.1021491001268" Weight="2" />
+    <Link Source="@292" Target="@280" Category="CodeSchema_FunctionPointer" Bounds="2170.47867538393,1789.27221679688,306.302032058981,141.251652398394" Weight="1" />
+    <Link Source="@292" Target="@282" Category="CodeSchema_FieldReference" Bounds="2172.97998046875,1789.27221679688,310.384765625,257.72119140625" Weight="2" />
+    <Link Source="@292" Target="@284" Category="CodeSchema_FieldReference" Bounds="2019.57727050781,1789.27221679688,457.237670898438,105.168701171875" Weight="2" />
+    <Link Source="@292" Target="@287" Category="CodeSchema_FieldReference" Bounds="2344.39314240789,1789.27221679688,147.015812445965,140.923034252753" Weight="1" />
+    <Link Source="@292" Target="@288" Category="CodeSchema_Calls" Bounds="1295.56155852058,1587.15772256544,1148.0853267157,271.072621927812" IsDelayedCrossGroupLink="True" Weight="1" />
+    <Link Source="@6" Target="(@3 @4 @5 Member=(Name=DragSelection OverloadingParameters=[(@99 @131 Type=MouseEventArgs)]))" Category="Contains" FetchingParent="@6" />
+    <Link Source="@6" Target="(@3 @4 @5 Member=(Name=EndDrag OverloadingParameters=[(@99 @131 Type=MouseEventArgs),@82]))" Category="Contains" FetchingParent="@6" />
+    <Link Source="@6" Target="(@3 @4 @5 Member=(Name=StartDrag OverloadingParameters=[(@99 @131 Type=MouseEventArgs),@82]))" Category="Contains" FetchingParent="@6" />
+    <Link Source="@6" Target="@288" Category="Contains" FetchingParent="@6" />
+    <Link Source="@6" Target="@289" Category="Contains" FetchingParent="@6" />
+    <Link Source="@6" Target="@290" Category="Contains" FetchingParent="@6" />
+    <Link Source="@6" Target="@291" Category="Contains" FetchingParent="@6" />
+    <Link Source="@6" Target="Comment3" Category="Contains" />
+    <Link Source="Comment2" Target="@275" Bounds="1328.53110095892,769.984634184128,51.0708305184985,7.4158193515857" />
+    <Link Source="Comment3" Target="@289" Bounds="1009.32415771484,1404.53967285156,50.7908325195313,121.048950195313" />
+    <Link Source="Comment3" Target="@290" Bounds="973.802507991036,1404.53967131352,5.55391585499433,41.0812888101327" />
+    <Link Source="Comment3" Target="@291" Bounds="1066.27513007651,1404.53967131352,102.747577048044,46.3024822945595" />
+    <Link Source="Comment5" Target="@280" Bounds="2172.36476221343,1963.87209740444,114.21142637413,49.5054972664095" />
+    <Link Source="Comment6" Target="@266" Bounds="1886.48046875,1650.0546875,73.0845947265625,149.123901367188" />
+    <Link Source="Comment6" Target="@268" Bounds="2084.61749440506,1650.05466308594,55.653263581532,44.3880280370606" />
+    <Link Source="Comment7" Target="@274" Bounds="1799.85529262855,979.15857836745,5.02351842814005,21.2416928105636" />
+    <Link Source="Comment8" Target="(@7 @8 @11 Member=(Name=StartAutoScroll OverloadingParameters=[@183]))" Bounds="2725.08619745705,979.966908916547,62.1370084505256,139.018009779694" />
+    <Link Source="Comment9" Target="(@7 @8 @11 Member=(Name=OnDragLeave (OverloadingParameters=[@42,(@17 @76 Type=DragEventArgs)])))" Bounds="2232.68408203125,1084.11083984375,93.403564453125,178.788452148438" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Calls" Label="Calls" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Called By" OutgoingActionLabel="Calls" />
+    <Category Id="CodeSchema_Class" Label="Class" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Classes" />
+    <Category Id="CodeSchema_Event" Label="Event" BasedOn="CodeSchema_Field" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Event" NavigationActionLabel="Events" />
+    <Category Id="CodeSchema_Field" Label="Field" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Fields" />
+    <Category Id="CodeSchema_FieldReference" Label="Field Reference" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Referenced By" OutgoingActionLabel="References Fields" />
+    <Category Id="CodeSchema_FunctionPointer" Label="Function Pointer" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Function Pointers" OutgoingActionLabel="Function Pointers" />
+    <Category Id="CodeSchema_Member" Label="Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Members" />
+    <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Methods" />
+    <Category Id="CodeSchema_Type" Label="Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Types" />
+    <Category Id="Comment" Label="Comment" Description="Represents a user defined comment on the diagram" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Comments" />
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="File" Label="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="File" NavigationActionLabel="Files" />
+    <Category Id="New" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsInternal" Label="Is Internal" Description="Flag to indicate the method is 'Internal'" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="Is Private" Description="Flag to indicate the scope is Private" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsProtected" Label="Is Protected" Description="Flag to indicate the scope is Protected" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Is Public" Description="Flag to indicate the scope is Public" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsStatic" Label="Is Static" Description="Flag to indicate the member is a static member" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="DelayedChildNodesState" Label="Delayed Child Nodes State" Description="Unspecified if the delayed child nodes state is not specified. NotFetched if the group contains child nodes that are not fetched into the graph yet. Fetched if the group has all its delayed child nodes already fetched." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="DelayedCrossGroupLinksState" Label="Delayed Cross-Group Links State" Description="Unspecified if the delayed cross-group links state is not specified. NotFetched if delayed cross-group links on this node are not fetched into the graph yet. Fetched if all delayed cross-group links have already fetched." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="FetchedChildrenCount" DataType="System.Int32" />
+    <Property Id="FetchingParent" DataType="Microsoft.VisualStudio.GraphModel.GraphNodeId" />
+    <Property Id="FilePath" Label="File Path" Description="File Path" DataType="System.String" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsDelayedCrossGroupLink" Label="Is Delayed Cross-Group Link" Description="True if the link is a cross-group one fetched in delayed fashion." DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Language" Label="Language" Description="Language" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="Shape" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Weight" Label="Weight" Description="Weight" DataType="System.Double" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="Member" Label="Member" ValueType="System.Object" />
+    <Name Id="Name" Label="Name" ValueType="System.String" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Parameter" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=file:///D:/dd/ALM/src/Progression/Design/Images/DragDropWindow.png" />
+    <Alias n="2" Id="(@1)" />
+    <Alias n="3" Uri="Assembly=$(e8bff5c7-961d-43b1-b6d0-a9387f941c21.OutputPathUri)" />
+    <Alias n="4" Id="Namespace=Microsoft.VisualStudio.Diagrams.View" />
+    <Alias n="5" Id="Type=DiagramControl" />
+    <Alias n="6" Id="(@3 @4 @5)" />
+    <Alias n="7" Uri="Assembly=$(e5823f1a-01d6-4f37-b8db-1425d3c13916.OutputPathUri)" />
+    <Alias n="8" Id="Namespace=Microsoft.VisualStudio.Progression" />
+    <Alias n="9" Id="Type=GraphControlDragSourceGesture" />
+    <Alias n="10" Id="(@7 @8 @9)" />
+    <Alias n="11" Id="Type=GraphDragDropGesture" />
+    <Alias n="12" Id="(@7 @8 @11)" />
+    <Alias n="13" Uri="Assembly=$(ac2617fe-4288-44d7-8f2a-20e00aa870a8.OutputPathUri)" />
+    <Alias n="14" Id="Namespace=Microsoft.VisualStudio.Diagrams.CoreGestures" />
+    <Alias n="15" Id="Type=SingleNodeSelectionWithMouse" />
+    <Alias n="16" Id="(@13 @14 @15)" />
+    <Alias n="17" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.0/PresentationCore.dll" />
+    <Alias n="23" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.0/mscorlib.dll" />
+    <Alias n="24" Id="Namespace=System" />
+    <Alias n="42" Id="(@23 @24 Type=Object)" />
+    <Alias n="76" Id="Namespace=System.Windows" />
+    <Alias n="131" Id="Namespace=System.Windows.Input" />
+    <Alias n="265" Id="(@7 @8 @9 Member=(Name=OnDragSourceStart (OverloadingParameters=[@42,(@17 @131 Type=MouseEventArgs)])))" />
+    <Alias n="266" Id="(@7 @8 @9 Member=(Name=OnMouseEnter (OverloadingParameters=[@42,(@17 @131 Type=MouseEventArgs)])))" />
+    <Alias n="268" Id="(@7 @8 @9 Member=(Name=OnMouseLeave (OverloadingParameters=[@42,(@17 @131 Type=MouseEventArgs)])))" />
+    <Alias n="269" Id="(@7 @8 @11 Member=(Name=OnMouseLeave (OverloadingParameters=[@42,(@17 @131 Type=MouseEventArgs)])))" />
+    <Alias n="270" Id="(@7 @8 @11 Member=(Name=SetTooltip OverloadingParameters=[(@17 @76 Type=DragDropEffects)]))" />
+    <Alias n="271" Id="(@7 @8 @11 Member=(Name=HandlerExists OverloadingParameters=[(@17 @76 Type=DragEventArgs)]))" />
+    <Alias n="272" Id="(@7 @8 @11 Member=(Name=IsGraphData OverloadingParameters=[(@17 @76 Type=DragEventArgs)]))" />
+    <Alias n="273" Id="(@7 @8 @11 Member=(Name=GetDragSourceCount OverloadingParameters=[(@17 @76 Type=IDataObject)]))" />
+    <Alias n="274" Id="(@7 @8 @11 Member=(Name=CreateDragVisual OverloadingParameters=[(@23 @24 Type=Int32)]))" />
+    <Alias n="275" Id="(@13 @14 @15 Member=(Name=CancelSelectionMovement OverloadingParameters=[(@17 @131 Type=KeyEventArgs)]))" />
+    <Alias n="276" Id="(@13 @14 @15 Member=(Name=IsEscapeKey OverloadingParameters=[(@17 @131 Type=KeyEventArgs)]))" />
+    <Alias n="277" Id="(@13 @14 @15 Member=(Name=OnPreviewKeyDown OverloadingParameters=[(@17 @131 Type=KeyEventArgs)]))" />
+    <Alias n="278" Id="(@7 @8 @11 Member=(Name=OnAutoscrollTick OverloadingParameters=[@42,(@23 @24 Type=EventArgs)]))" />
+    <Alias n="279" Id="(@7 @8 @9 Member=(Name=OnDragSourceGiveFeedback OverloadingParameters=[@42,(@17 @76 Type=GiveFeedbackEventArgs)]))" />
+    <Alias n="280" Id="(@7 @8 @9 Member=(Name=QueryDragContinue OverloadingParameters=[@42,(@17 @76 Type=QueryContinueDragEventArgs)]))" />
+    <Alias n="281" Id="(@7 @8 @11 Member=(Name=ShowError OverloadingParameters=[(@23 @24 Type=String),(@23 @24 Type=String),(@23 @24 Type=Exception)]))" />
+    <Alias n="282" Id="(@7 @8 @9 Member=_cancelled)" />
+    <Alias n="283" Id="(@7 @8 @11 Member=_cursor)" />
+    <Alias n="284" Id="(@7 @8 @9 Member=_doingDragDrop)" />
+    <Alias n="285" Id="(@7 @8 @9 Member=_dragInsideGraphControl)" />
+    <Alias n="286" Id="(@7 @8 @9 Member=_isDragging)" />
+    <Alias n="287" Id="(@7 @8 @9 Member=_originalPositions)" />
+    <Alias n="288" Id="(@3 @4 @5 Member=EndDrag)" />
+    <Alias n="289" Id="(@3 @4 @5 Member=SelectionDragFinish)" />
+    <Alias n="290" Id="(@3 @4 @5 Member=SelectionDragged)" />
+    <Alias n="291" Id="(@3 @4 @5 Member=SelectionDragStart)" />
+    <Alias n="292" Id="(@7 @8 @9 Member=StartDrag)" />
+    <Alias n="293" Id="(@7 @8 @11 Member=StopAutoscroll)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="New" ValueLabel="True">
+      <Condition Expression="HasCategory('New')" />
+      <Setter Property="Background" Value="#FF66EC64" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Assembly" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#1C3068" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Namespace" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#4A65A0" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Type" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#D3DCEF" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Method" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Method')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFEDEDED" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Externals" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FFA08080" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Comment" ValueLabel="Has comment">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="ac2617fe-4288-44d7-8f2a-20e00aa870a8.OutputPath" Value="D:\dd\progression\binaries\Debug\VMP\Microsoft.VisualStudio.Diagrams.CoreGestures.11.0.dll" />
+    <Path Id="ac2617fe-4288-44d7-8f2a-20e00aa870a8.OutputPathUri" Value="file:///D:/dd/progression/binaries/Debug/VMP/Microsoft.VisualStudio.Diagrams.CoreGestures.11.0.dll" />
+    <Path Id="e5823f1a-01d6-4f37-b8db-1425d3c13916.OutputPath" Value="D:\dd\progression\src\progression\Src\GraphControl\bin\Debug\Microsoft.VisualStudio.Progression.GraphControl.dll" />
+    <Path Id="e5823f1a-01d6-4f37-b8db-1425d3c13916.OutputPathUri" Value="file:///D:/dd/progression/src/progression/Src/GraphControl/bin/Debug/Microsoft.VisualStudio.Progression.GraphControl.dll" />
+    <Path Id="e8bff5c7-961d-43b1-b6d0-a9387f941c21.OutputPath" Value="D:\dd\progression\binaries\Debug\VMP\Microsoft.VisualStudio.Diagrams.View.11.0.dll" />
+    <Path Id="e8bff5c7-961d-43b1-b6d0-a9387f941c21.OutputPathUri" Value="file:///D:/dd/progression/binaries/Debug/VMP/Microsoft.VisualStudio.Diagrams.View.11.0.dll" />
+    <Path Id="FxReferenceAssemblies" Value="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework" />
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
+  </Paths>
+</DirectedGraph>

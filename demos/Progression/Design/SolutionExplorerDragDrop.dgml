@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Comment1" Category="Comment" Bounds="56.2144214094543,930.531201545806,242.31,105.76" Label="Merge the fetched data graph with the window graph and move the nodes to the drop location.  Also sets up the Delayed* properties so PR works on these new nodes.  This also makes sure parents are set as expanded groups." />
+    <Node Id="Comment2" Category="Comment" Bounds="986.999958089193,579.819076602551,236.643333333333,41.9200000000001" Label="Returns true if the source graph is not an in-canvas drag/drop." />
+    <Node Id="Comment3" Category="Comment" Bounds="166.18792888911,727.650838088774,179.21,25.96" Label="Adds all the Steps shown here" />
+    <Node Id="Comment4" Category="Comment" Bounds="535.371463841909,911.490937971587,231.516666666667,57.8800000000001" Label="Overridden to snapshot the SolutionAssemblies from the completed GetProducedAssemblies action." />
+    <Node Id="Comment5" Category="Comment" Bounds="995.76190226237,1077.5800352549,239.646666666667,25.96" Label="Add handler for FetchParentNodes action" UseManualLocation="True" />
+    <Node Id="NewGroup1" Bounds="147.624592110097,319.810541835114,241.683566242643,214.88" Group="Expanded" Label="RevealFromGraphGeneration" UseManualLocation="True" />
+    <Node Id="NewGroup2" Bounds="956.999801529948,452.898952090832,296.643589892578,274.800249023438" Group="Expanded" Label="RevealDropHandler" UseManualLocation="True" />
+    <Node Id="NewGroup3" Bounds="26.2143214094543,803.611033088775,459.157047432454,338.640318388675" Group="Expanded" Label="Steps" />
+    <Node Id="NewGroup4" Bounds="852.274999283854,1026.6200352549,413.133669645182,212.651791992188" Group="Expanded" Label="ProgressiveRevealProvider" />
+    <Node Id="NewGroup5" Category="New" Bounds="728.731092220052,1309.10568168149,243.523533333333,122.96" Group="Expanded" Label="FetchParentNodesCommand" UseManualLocation="True" />
+    <Node Id="NewGroup6" Bounds="1109.51066253255,1435.23211914062,220.833533333333,106.92" Group="Expanded" Label="GraphQueryHelper" />
+    <Node Id="NewGroup7" Bounds="775.23742528806,1482.06597668149,271.513533333334,106.92" Group="Expanded" Label="SqlStrings" />
+    <Node Id="NewNode1" Bounds="912.067256770833,777.69949611427,378.193546354167,198.920244140625" Group="Expanded" Label="Actions" UseManualLocation="True" />
+    <Node Id="NewNode10" Bounds="504.265707857459,327.375834960937,111.27,25.96" Label="AddProgressStep" />
+    <Node Id="NewNode11" Bounds="568.15128073644,835.530842971587,165.956666666667,25.96" Label="QueryAssemblyTimestamps" />
+    <Node Id="NewNode12" Bounds="348.524602175242,1006.49127213174,106.846666666667,25.96" Label="BuildIfNecessary" />
+    <Node Id="NewNode13" Bounds="990.439656212304,223.012954886113,180.01,106.92" Group="Expanded" Label="GraphDragDropGesture" UseManualLocation="True" />
+    <Node Id="NewNode14" Bounds="1049.19132165827,273.972955420171,62.5066666666667,25.96" Label="OnDrop" />
+    <Node Id="NewNode15" Bounds="986.999901529948,671.739201114269,62.5066666666668,25.96" Label="OnDrop" />
+    <Node Id="NewNode16" Bounds="614.952973444774,651.690694045806,77.74,25.96" Label="static Drop" />
+    <Node Id="NewNode17" Bounds="535.371489883576,759.570729446196,236.903333333333,25.96" Label="ProgressiveRevealDropExpansionHandler" />
+    <Node Id="NewNode18" Bounds="348.524551312612,854.571063606353,87.7633333333333,25.96" Label="FetchParents" />
+    <Node Id="NewNode19" Bounds="348.524525270946,930.531177131744,92.8766666666668,25.96" Label="FetchChildren" />
+    <Node Id="NewNode2" Category="New" Bounds="942.067356770833,828.65951564552,154.113333333334,42" Label="FetchParentNodes" />
+    <Node Id="NewNode20" Bounds="1150.180703125,828.65949611427,110.08,25.96" Label="FetchChildNodes" />
+    <Node Id="NewNode21" Bounds="141.681255922801,854.571033088775,71.3766666666667,25.96" Label="Complete" />
+    <Node Id="NewNode22" Bounds="1071.82326090495,503.858952090832,66.9966666666669,25.96" Label="CanDrop" />
+    <Node Id="NewNode23" Bounds="254.234643495433,1086.29135147745,166.043333333333,25.96" Label="EnsureDatabaseSyncedStep" />
+    <Node Id="NewNode24" Bounds="882.275099283854,1091.31062607521,63.4866666666667,25.96" Label="Initialize" />
+    <Node Id="NewNode25" Category="New" Bounds="955.130144856771,1167.27182724708,195.953333333333,42" Label="FetchParentNodesHandler" />
+    <Node Id="NewNode26" Bounds="820.227858886719,1376.10568168149,60.53,25.96" Label="Execute" />
+    <Node Id="NewNode27" Bounds="1139.51071392201,1486.19211722996,160.833333333333,25.96" Label="ExecuteSimpleGraphQuery" />
+    <Node Id="NewNode29" Bounds="805.23752528806,1533.02597668149,211.513333333333,25.96" Label="GetContainmentHierarchyProcedure" />
+    <Node Id="NewNode3" Category="New" Bounds="177.624748738607,462.690408214442,181.683333333333,42" Label="TryCheckFileTimestamp" />
+    <Node Id="NewNode4" Bounds="185.488028666178,370.770604137293,165.956666666667,25.96" Label="QueryAssemblyTimestamps" />
+    <Node Id="NewNode5" Category="New" Bounds="-3.7857525488788,584.690694045806,806.060675765788,587.560657431644" Group="Expanded" Label="ProgressiveRevealDropExpansionHandler" />
+    <Node Id="NewNode6" Bounds="56.2145484954323,1086.29124793252,148.02,25.96" Label="GetProducedAssemblies" />
+    <Node Id="NewNode7" Bounds="944.067288818359,920.659740254895,191.87,25.96" Label="Solution_AllAssembliesProduced" />
+    <Node Id="NewNode8" Bounds="224.049633702749,651.690724563384,63.4866666666667,25.96" Label="Initialize" />
+    <Node Id="NewNode9" Bounds="460.849041190792,276.415834960937,198.103333333333,106.92" Group="Expanded" Label="GraphGenerationController" UseManualLocation="True" />
+  </Nodes>
+  <Links>
+    <Link Source="Comment3" Target="NewGroup3" Bounds="255.7929094248,753.610838088774,1.47839504052172E-05,41.0001950000016" />
+    <Link Source="NewGroup1" Target="NewNode3" Category="Contains" />
+    <Link Source="NewGroup1" Target="NewNode4" Category="Contains" />
+    <Link Source="NewGroup1" Target="NewNode9" Bounds="389.30815835274,365.823315103727,63.0047556997125,21.0512933141991" Label="inherits" LabelBounds="415.133222257023,380.354563521393,39.0033333333333,15.9599999999999" />
+    <Link Source="NewGroup2" Target="Comment2" Category="Contains" />
+    <Link Source="NewGroup2" Target="NewNode15" Category="Contains" />
+    <Link Source="NewGroup2" Target="NewNode22" Category="Contains" />
+    <Link Source="NewGroup3" Target="Comment1" Category="Contains" Bounds="-155.443836099483,-164.916293778136,122.443441545501,20.0864612539635" Weight="1" />
+    <Link Source="NewGroup3" Target="NewNode12" Category="Contains" />
+    <Link Source="NewGroup3" Target="NewNode18" Category="Contains" />
+    <Link Source="NewGroup3" Target="NewNode19" Category="Contains" />
+    <Link Source="NewGroup3" Target="NewNode21" Category="Contains" />
+    <Link Source="NewGroup3" Target="NewNode23" Category="Contains" />
+    <Link Source="NewGroup3" Target="NewNode6" Category="Contains" />
+    <Link Source="NewGroup4" Target="Comment5" Category="Contains" />
+    <Link Source="NewGroup4" Target="NewNode24" Category="Contains" />
+    <Link Source="NewGroup4" Target="NewNode25" Category="Contains" />
+    <Link Source="NewGroup5" Target="NewNode26" Category="Contains" />
+    <Link Source="NewGroup6" Target="NewNode27" Category="Contains" />
+    <Link Source="NewGroup7" Target="NewNode29" Category="Contains" />
+    <Link Source="NewNode1" Target="NewNode2" Category="Contains" />
+    <Link Source="NewNode1" Target="NewNode20" Category="Contains" />
+    <Link Source="NewNode1" Target="NewNode7" Category="Contains" />
+    <Link Source="NewNode11" Target="Comment4" Bounds="651.129664528123,861.490833740235,8.16724854075801E-05,41.0001049804864" />
+    <Link Source="NewNode11" Target="NewNode4" Bounds="285.013418296298,403.650827653542,359.108676397001,431.880015318045" />
+    <Link Source="NewNode12" Target="NewNode3" Bounds="-122.223855084083,-327.968805118031,61.5406825798031,745.072663237861" />
+    <Link Source="NewNode13" Target="NewNode14" Category="Contains" />
+    <Link Source="NewNode14" Target="NewNode15" Bounds="1021.49952743694,299.932955420171,57.0195350890784,384.356284460406" />
+    <Link Source="NewNode15" Target="NewNode16" Bounds="705.419332896864,670.172531638295,281.5805660577,32.4028087603425" />
+    <Link Source="NewNode16" Target="NewNode17" Bounds="653.823020077911,677.650684814453,0.00012376763879729,72.9200354004037" Label="construct&#xD;&#xA;Start()" LabelBounds="657.823081961731,698.150699120042,49.0966666666668,31.9200000000003" />
+    <Link Source="NewNode18" Target="NewNode2" Bounds="440.073286539713,870.655034571099,493.016438824654,34.8735321034765" />
+    <Link Source="NewNode19" Target="NewNode20" Bounds="-38.4420497615443,-104.088620118029,510.039282064309,268.706776011048" />
+    <Link Source="NewNode21" Target="Comment1" Bounds="177.369018554688,880.531066894531,0,41" />
+    <Link Source="NewNode22" Target="Comment2" Bounds="1105.32141113281,529.818969726563,0,41" />
+    <Link Source="NewNode24" Target="Comment5" Bounds="945.761765950521,1099.33399724026,41.0209450013982,2.79431832302657" />
+    <Link Source="NewNode24" Target="NewNode2" Bounds="920.753634837455,897.657718692847,87.6250393034263,240.19619539612" />
+    <Link Source="NewNode25" Target="NewNode26" Bounds="869.9814962902,1209.27172851563,161.937082588751,160.498461170554" />
+    <Link Source="NewNode26" Target="NewNode27" Bounds="880.757858886719,1398.10424750673,286.985312607348,85.5176798693567" />
+    <Link Source="NewNode26" Target="NewNode29" Bounds="855.497357914717,1402.06569335938,47.2546632453777,122.562823070503" />
+    <Link Source="NewNode4" Target="NewNode3" Bounds="268.466156005859,396.730529785156,0,56.9600219726563" Label="refactor" LabelBounds="227.339492110097,421.730541835114,41.1266666666666,15.96" />
+    <Link Source="NewNode5" Target="Comment3" Category="Contains" />
+    <Link Source="NewNode5" Target="Comment4" Category="Contains" />
+    <Link Source="NewNode5" Target="NewGroup1" Bounds="302.111325114026,543.33479206968,11.9862707173903,41.3559019761262" Label="inherits" LabelBounds="265.097873649954,557.384960807966,39.0033333333334,15.96" Weight="2" />
+    <Link Source="NewNode5" Target="NewGroup3" Category="Contains" />
+    <Link Source="NewNode5" Target="NewNode11" Category="Contains" />
+    <Link Source="NewNode5" Target="NewNode16" Category="Contains" />
+    <Link Source="NewNode5" Target="NewNode17" Category="Contains" />
+    <Link Source="NewNode5" Target="NewNode8" Category="Contains" />
+    <Link Source="NewNode5" Target="NewNode9" Bounds="485.2781662598,391.973082398174,56.4373602207679,192.717611647632" Weight="1" />
+    <Link Source="NewNode6" Target="NewNode7" Bounds="-26.5228656540248,-407.924895123946,544.162808984211,645.81558473487" />
+    <Link Source="NewNode8" Target="Comment3" Bounds="255.792939927409,677.650724563384,2.05901508820716E-05,41.000113525391" />
+    <Link Source="NewNode8" Target="NewNode10" Bounds="421.902750859879,51.8334833216377,74.7046689995206,567.2054375768" />
+    <Link Source="NewNode9" Target="NewNode10" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="Comment" Label="Comment" Description="Represents a user defined comment on the diagram" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Comments" />
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="New" Label="New" Background="#FFFF7F7F" IsTag="True" />
+  </Categories>
+  <Properties>
+    <Property Id="Background" Label="Background" Description="The background color" DataType="System.Windows.Media.Brush" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="IsTag" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="LabelBounds" DataType="System.Windows.Rect" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Weight" Label="Weight" Description="Weight" DataType="System.Double" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="New" ValueLabel="Has category">
+      <Condition Expression="HasCategory('New')" />
+      <Setter Property="Icon" Value="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/New.png" />
+      <Setter Property="Background" Value="#FF249E59" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Assembly" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#1C3068" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Namespace" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#4A65A0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Type" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#D3DCEF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Method" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Method')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Generics" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Generics')" />
+      <Setter Property="Background" Value="#FFA080A0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Externals" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FFA08080" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Cross Group Link" ValueLabel="True">
+      <Condition Expression="IsCrossGroup Or IsCrossGroupArtery" />
+      <Setter Property="Stroke" Value="#E08080FF" />
+      <Setter Property="StrokeThickness" Value="1" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Comment" ValueLabel="Has comment">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>
+</DirectedGraph>

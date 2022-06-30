@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@10)" Category="FileSystem.Category.FileOfType.dgml" Bounds="30.5108698681004,385.279963287339,112.394666743746,25.998000077079" FilePath="D:\dd\ALM\src\Progression\Design\Printing.dgml" Label="Printing.dgml" Reference="Printing.dgml" />
+    <Node Id="(@11)" Category="FileSystem.Category.FileOfType.dgml" Bounds="71.5108698681004,441.277963364418,128.038000077079,25.998000077079" FilePath="D:\dd\ALM\src\Progression\Design\ProgressUI.dgml" Label="ProgressUI.dgml" Reference="ProgressUI.dgml" />
+    <Node Id="(@12)" Category="FileSystem.Category.FileOfType.dgml" Bounds="-57.3637968756453,553.273963518576,150.614666743746,25.998000077079" FilePath="D:\dd\ALM\src\Progression\Design\SemanticZoom.dgml" Label="SemanticZoom.dgml" Reference="SemanticZoom.dgml" />
+    <Node Id="(@13)" Category="FileSystem.Category.FileOfType.dgml" Bounds="-233.188463619391,665.269963672734,214.031333410412,25.9980000770793" FilePath="D:\dd\ALM\src\Progression\Design\Xml Buffer Syncrhonization.dgml" Label="Xml Buffer Syncrhonization.dgml" Reference="Xml%2520Buffer%2520Syncrhonization.dgml" />
+    <Node Id="(@14)" Category="FileSystem.Category.FileOfType.dgml" Bounds="-2.64379687564519,609.271963595655,210.488000077079,25.998000077079" FilePath="D:\dd\ALM\src\Progression\Design\SolutionExplorerDragDrop.dgml" Label="SolutionExplorerDragDrop.dgml" Reference="SolutionExplorerDragDrop.dgml" />
+    <Node Id="(@15)" Category="FileSystem.Category.FileOfType.dgml" Bounds="-81.8937968756452,441.277963364418,123.404666743746,25.998000077079" FilePath="D:\dd\ALM\src\Progression\Design\DragDrop.dgml" Label="DragDrop.dgml" Reference="DragDrop.dgml" />
+    <Node Id="(@16)" Category="FileSystem.Category.FileOfType.dgml" Bounds="103.4708698681,497.275963441497,143.308000077079,25.9980000770792" FilePath="D:\dd\ALM\src\Progression\Design\HoverToolbar.dgml" Label="HoverToolbar.dgml" Reference="HoverToolbar.dgml" />
+    <Node Id="(@17)" Category="FileSystem.Category.FileOfType.dgml" Bounds="172.905536611846,385.279963287339,116.978000077079,25.998000077079" FilePath="D:\dd\ALM\src\Progression\Design\Gestures.dgml" Label="Gestures.dgml" Reference="Gestures.dgml" />
+    <Node Id="(@18)" Category="FileSystem.Category.FileOfType.dgml" Bounds="-233.188463619391,553.273963518576,145.824666743746,25.998000077079" FilePath="D:\dd\ALM\src\Progression\Design\SplashScreens.dgml" Label="SplashScreens.dgml" Reference="SplashScreens.dgml" />
+    <Node Id="(@19)" Category="FileSystem.Category.FileOfType.dgml" Bounds="-233.188463619391,441.277963364418,121.294666743746,25.998000077079" FilePath="D:\dd\ALM\src\Progression\Design\Analyzers.dgml" Label="Analyzers.dgml" Reference="Analyzers.dgml" />
+    <Node Id="(@20)" Category="FileSystem.Category.FileOfType.dgml" Bounds="-67.3471302089786,497.275963441497,140.818000077079,25.9980000770792" FilePath="D:\dd\ALM\src\Progression\Design\VisualFactory.dgml" Label="VisualFactory.dgml" Reference="VisualFactory.dgml" />
+    <Node Id="(@21)" Category="FileSystem.Category.FileOfType.dgml" Bounds="-233.188463619391,609.271963595655,200.544666743746,25.998000077079" FilePath="D:\dd\ALM\src\Progression\Design\OutlineGeometryFactory.dgml" Label="OutlineGeometryFactory.dgml" Reference="OutlineGeometryFactory.dgml" />
+    <Node Id="(@7)" Category="FileSystem.Category.FileOfType.dgml" Bounds="-109.590463542312,385.279963287339,110.101333410412,25.998000077079" FilePath="D:\dd\ALM\src\Progression\Design\Legend.dgml" Label="Legend.dgml" Reference="Legend.dgml" />
+    <Node Id="(@8)" Category="FileSystem.Category.FileOfType.dgml" Bounds="-233.188463619391,385.279963287339,93.5980000770791,25.998000077079" FilePath="D:\dd\ALM\src\Progression\Design\Find.dgml" Label="Find.dgml" Reference="Find.dgml" />
+    <Node Id="(@9)" Category="FileSystem.Category.FileOfType.dgml" Bounds="-233.188463619391,497.275963441497,135.841333410412,25.9980000770792" FilePath="D:\dd\ALM\src\Progression\Design\LabelEditing.dgml" Label="LabelEditing.dgml" Reference="LabelEditing.dgml" />
+    <Node Id="3101c413-4930-46aa-b212-9c886639ea821" Category="Comment" Bounds="205.704241347649,207.866648860557,249.096666666667,105.76" Label="This data structure decides how to visualize multiple containment (turning it into a &quot;Containment Tree&quot;) and wraps our interaction with MSAGL.  This LayoutGraph is also how we plug into VirtualCanvas, they implement ISpatialItem." UseManualLocation="True" />
+    <Node Id="3a76b68b-c2a8-4687-a95a-19855909016a1" Category="Comment" Bounds="530.577021296089,252.720216420531,212.296666666667,57.88" Label="MSAGL has it's own light weight GeometryGraph that is also updated incrementally" UseManualLocation="True" />
+    <Node Id="55412aea-ae7a-45d9-a337-cd25c0068c5d1" Category="Comment" Bounds="-135.686456876464,-139.387034886056,247.266666666667,41.92" Label="We have the following data models behind a DGML document." UseManualLocation="True" />
+    <Node Id="79065bd8-be9c-424f-8909-3e3d8a30b76c1" Category="Comment" Bounds="-156.751610360967,197.239581655769,245.596666666667,73.84" Label="This is the &quot;View Model&quot; that we expose to 3rd parties, and is how &quot;commands&quot; are implemented.  We also &quot;bind&quot; these objects to WPF visuals." UseManualLocation="True" />
+    <Node Id="@2" Category="File" Bounds="593.41702129609,27.0331988429841,146.616666666667,148.976469710732" FilePath="Images\MSAGLGraph.png" Icon="Images/MSAGLGraph.png" IconPlacement="Top" Label="MSAGL GeometryGraph" Shape="None" UseManualLocation="True" />
+    <Node Id="@4" Category="File" Bounds="327.285007753121,-76.6502592357598,219.027775190134,229.987775190134" FilePath="LayoutGraph.png" Icon="LayoutGraph.png" IconPlacement="Top" Label="LayoutGraph" Shape="None" UseManualLocation="True" />
+    <Node Id="@6" Category="File" Bounds="-10.5974113138047,-56.0058343839931,212.026798173395,222.986798173395" FilePath="Images/GraphModel.png" Icon="Images/GraphModel.png" IconPlacement="Top" Label="Graph Model public API" Shape="None" />
+    <Node Id="Details" Bounds="-253.188463619391,344.319963287339,563.072000308316,366.948000462474" Group="Expanded" UseManualLocation="True" />
+  </Nodes>
+  <Links>
+    <Link Source="3101c413-4930-46aa-b212-9c886639ea821" Target="@4" Bounds="355.603057719641,161.469716744882,22.2567765062815,46.4178994947632" />
+    <Link Source="3a76b68b-c2a8-4687-a95a-19855909016a1" Target="@2" Bounds="641.517408452558,184.910619100626,11.2849243636068,67.7188075385663" />
+    <Link Source="79065bd8-be9c-424f-8909-3e3d8a30b76c1" Target="@6" Bounds="-7.22613084962214,174.277181201814,16.6174232827392,22.9404341508706" />
+    <Link Source="@2" Target="@4" Bounds="555.080932617188,75.2646789550781,38.3054809570313,10.5319519042969" />
+    <Link Source="@4" Target="@2" Bounds="546.402954101563,64.0632705688477,38.3054809570313,10.5319595336914" />
+    <Link Source="@4" Target="@6" Bounds="210.43586730957,48.1113777160645,116.939346313477,5.86814880371094" />
+    <Link Source="@6" Target="@4" Bounds="201.447174072266,40.0517463684082,116.939331054688,5.86814880371094" />
+    <Link Source="Details" Target="(@10)" Category="Contains" />
+    <Link Source="Details" Target="(@11)" Category="Contains" />
+    <Link Source="Details" Target="(@12)" Category="Contains" />
+    <Link Source="Details" Target="(@13)" Category="Contains" />
+    <Link Source="Details" Target="(@14)" Category="Contains" />
+    <Link Source="Details" Target="(@15)" Category="Contains" />
+    <Link Source="Details" Target="(@16)" Category="Contains" />
+    <Link Source="Details" Target="(@17)" Category="Contains" />
+    <Link Source="Details" Target="(@18)" Category="Contains" />
+    <Link Source="Details" Target="(@19)" Category="Contains" />
+    <Link Source="Details" Target="(@20)" Category="Contains" />
+    <Link Source="Details" Target="(@21)" Category="Contains" />
+    <Link Source="Details" Target="(@7)" Category="Contains" />
+    <Link Source="Details" Target="(@8)" Category="Contains" />
+    <Link Source="Details" Target="(@9)" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="Comment" Label="Comment" Description="Represents a user defined comment on the diagram" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Comments" />
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="File" Label="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="File" NavigationActionLabel="Files" />
+    <Category Id="FileSystem.Category.FileOfType.dgml" BasedOn="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel=".dgml Files" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="FilePath" Label="File Path" Description="File Path" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IconPlacement" DataType="System.Windows.Controls.Dock" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="IsReference" Label="IsReference" Description="Annotation to make a property into a reference property" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="Reference" Label="Reference" Description="Reference" DataType="System.String" IsReference="True" />
+    <Property Id="Shape" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=file:///D:/dd/ALM/src/Progression/Design/Images/MSAGLGraph.png" />
+    <Alias n="2" Id="(@1)" />
+    <Alias n="3" Uri="Assembly=file:///D:/dd/ALM/src/Progression/Design/Images/LayoutGraph.png" />
+    <Alias n="4" Id="(@3)" />
+    <Alias n="5" Uri="Assembly=file:///D:/dd/ALM/src/Progression/Design/Images/GraphModel.png" />
+    <Alias n="6" Id="(@5)" />
+    <Alias n="7" Uri="Assembly=file:///D:/dd/ALM/src/Progression/Design/Legend.dgml" />
+    <Alias n="8" Uri="Assembly=file:///D:/dd/ALM/src/Progression/Design/Find.dgml" />
+    <Alias n="9" Uri="Assembly=file:///D:/dd/ALM/src/Progression/Design/LabelEditing.dgml" />
+    <Alias n="10" Uri="Assembly=file:///D:/dd/ALM/src/Progression/Design/Printing.dgml" />
+    <Alias n="11" Uri="Assembly=file:///D:/dd/ALM/src/Progression/Design/ProgressUI.dgml" />
+    <Alias n="12" Uri="Assembly=file:///D:/dd/ALM/src/Progression/Design/SemanticZoom.dgml" />
+    <Alias n="13" Uri="Assembly=file:///D:/dd/ALM/src/Progression/Design/Xml Buffer Syncrhonization.dgml" />
+    <Alias n="14" Uri="Assembly=file:///D:/dd/ALM/src/Progression/Design/SolutionExplorerDragDrop.dgml" />
+    <Alias n="15" Uri="Assembly=file:///D:/dd/ALM/src/Progression/Design/DragDrop.dgml" />
+    <Alias n="16" Uri="Assembly=file:///D:/dd/ALM/src/Progression/Design/HoverToolbar.dgml" />
+    <Alias n="17" Uri="Assembly=file:///D:/dd/ALM/src/Progression/Design/Gestures.dgml" />
+    <Alias n="18" Uri="Assembly=file:///D:/dd/ALM/src/Progression/Design/SplashScreens.dgml" />
+    <Alias n="19" Uri="Assembly=file:///D:/dd/ALM/src/Progression/Design/Analyzers.dgml" />
+    <Alias n="20" Uri="Assembly=file:///D:/dd/ALM/src/Progression/Design/VisualFactory.dgml" />
+    <Alias n="21" Uri="Assembly=file:///D:/dd/ALM/src/Progression/Design/OutlineGeometryFactory.dgml" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Comment" ValueLabel="Has comment">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>
+</DirectedGraph>

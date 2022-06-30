@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1 @2 Type=(Name=GWL ParentType=Win32))" Category="CodeSchema_Enum" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="Win32.GWL" />
+    <Node Id="(@1 @2 Type=(Name=QuadTree @3))" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="QuadTree&lt;T&gt;" />
+    <Node Id="(@1 @2 Type=(Name=Selection @3))" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="Selection&lt;T&gt;" />
+    <Node Id="(@1 @2 Type=(Name=SelectionUpdateScope @3))" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="SelectionUpdateScope&lt;T&gt;" />
+    <Node Id="(@1 @2 Type=ActiveFieldUsageCollection)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="ActiveFieldUsageCollection" />
+    <Node Id="(@1 @2 Type=AdvancedSelection)" Category="CodeSchema_Class" CodeSchemaProperty_IsGeneratedCode="True" CodeSchemaProperty_IsPublic="True" Label="AdvancedSelection" />
+    <Node Id="(@1 @2 Type=AdvancedSelectionPopup)" Category="CodeSchema_Class" CodeSchemaProperty_IsGeneratedCode="True" CodeSchemaProperty_IsPublic="True" Label="AdvancedSelectionPopup" />
+    <Node Id="(@1 @2 Type=AutoScroll)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="AutoScroll" />
+    <Node Id="(@1 @2 Type=BoundsChangeEventArgs)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="BoundsChangeEventArgs" />
+    <Node Id="(@1 @2 Type=ColorExtensions)" Category="CodeSchema_Class" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="ColorExtensions" />
+    <Node Id="(@1 @2 Type=DataExchangeHandler)" Category="CodeSchema_Delegate" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="DataExchangeHandler" />
+    <Node Id="(@1 @2 Type=DispatchedProgressUIController)" Category="CodeSchema_Class" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="DispatchedProgressUIController" />
+    <Node Id="(@1 @2 Type=DragSourceGesture)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="DragSourceGesture" />
+    <Node Id="(@1 @2 Type=EdgeBehavior)" Category="CodeSchema_Enum" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="EdgeBehavior" />
+    <Node Id="(@1 @2 Type=ExponentialDoubleAnimation)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="ExponentialDoubleAnimation" />
+    <Node Id="(@1 @2 Type=Field)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="Field" />
+    <Node Id="(@1 @2 Type=FieldValue)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="FieldValue" />
+    <Node Id="(@1 @2 Type=FileDragDrop)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="FileDragDrop" />
+    <Node Id="(@1 @2 Type=FileEventArgs)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="FileEventArgs" />
+    <Node Id="(@1 @2 Type=GetVisual)" Category="CodeSchema_Delegate" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="GetVisual" />
+    <Node Id="(@1 @2 Type=HitTestHandler)" Category="CodeSchema_Delegate" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="HitTestHandler" />
+    <Node Id="(@1 @2 Type=HitTestHandlerBool)" Category="CodeSchema_Delegate" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="HitTestHandlerBool" />
+    <Node Id="(@1 @2 Type=HlsColor)" Category="CodeSchema_Struct" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="HlsColor" />
+    <Node Id="(@1 @2 Type=HoverGesture)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="HoverGesture" />
+    <Node Id="(@1 @2 Type=IVirtualChildManager)" Category="CodeSchema_Interface" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" Label="IVirtualChildManager" />
+    <Node Id="(@1 @2 Type=MapZoom)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="MapZoom" />
+    <Node Id="(@1 @2 Type=Pan)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="Pan" />
+    <Node Id="(@1 @2 Type=ProgressControl)" Category="CodeSchema_Class" CodeSchemaProperty_IsGeneratedCode="True" CodeSchemaProperty_IsPublic="True" Label="ProgressControl" />
+    <Node Id="(@1 @2 Type=ProgressTask)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="ProgressTask" />
+    <Node Id="(@1 @2 Type=ProgressUIController)" Category="CodeSchema_Class" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="ProgressUIController" />
+    <Node Id="(@1 @2 Type=RectangleSelectionGesture)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="RectangleSelectionGesture" />
+    <Node Id="(@1 @2 Type=TreeViewChooser)" Category="CodeSchema_Class" CodeSchemaProperty_IsGeneratedCode="True" CodeSchemaProperty_IsPublic="True" Label="TreeViewChooser" />
+    <Node Id="(@1 @2 Type=TypeToFind)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="TypeToFind" />
+    <Node Id="(@1 @2 Type=TypeToFindEventArgs)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="TypeToFindEventArgs" />
+    <Node Id="(@1 @2 Type=UniqueValueGenerator)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="UniqueValueGenerator" />
+    <Node Id="(@1 @2 Type=VirtualCanvas)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="VirtualCanvas" />
+    <Node Id="(@1 @2 Type=VisualChangeEventArgs)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="VisualChangeEventArgs" />
+    <Node Id="(@1 Namespace=Microsoft.VisualStudio.PlatformUI Type=GrayscaleImageConverter)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="GrayscaleImageConverter" />
+    <Node Id="(@1 Namespace=Microsoft.VisualStudio.Progression.WpfCommon Type=IconService)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="IconService" />
+    <Node Id="(@4 @2 Type=(Name=TransactedSelectionUpdateScope @3))" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="TransactedSelectionUpdateScope&lt;T&gt;" />
+    <Node Id="(@4 @2 Type=AnalyzerEventArgs)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="AnalyzerEventArgs" />
+    <Node Id="(@4 @2 Type=BindableRun)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="BindableRun" />
+    <Node Id="(@4 @2 Type=ColorSelectorPopup)" Category="CodeSchema_Class" CodeSchemaProperty_IsGeneratedCode="True" CodeSchemaProperty_IsPublic="True" Label="ColorSelectorPopup" />
+    <Node Id="(@4 @2 Type=ColorSetPicker)" Category="CodeSchema_Class" CodeSchemaProperty_IsGeneratedCode="True" CodeSchemaProperty_IsPublic="True" Label="ColorSetPicker" />
+    <Node Id="(@4 @2 Type=ColorStylePicker)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="ColorStylePicker" />
+    <Node Id="(@4 @2 Type=CrossGroupLinkStyle)" Category="CodeSchema_Enum" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="CrossGroupLinkStyle" />
+    <Node Id="(@4 @2 Type=DropDownButton)" Category="CodeSchema_Class" CodeSchemaProperty_IsGeneratedCode="True" CodeSchemaProperty_IsPublic="True" Label="DropDownButton" />
+    <Node Id="(@4 @2 Type=ErrorInformation)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="ErrorInformation" />
+    <Node Id="(@4 @2 Type=ExpandoCounter)" Category="CodeSchema_Class" CodeSchemaProperty_IsGeneratedCode="True" CodeSchemaProperty_IsPublic="True" Label="ExpandoCounter" />
+    <Node Id="(@4 @2 Type=FindTarget)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="FindTarget" />
+    <Node Id="(@4 @2 Type=GotoReference)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="GotoReference" />
+    <Node Id="(@4 @2 Type=GraphControl)" Category="CodeSchema_Class" CodeSchemaProperty_IsGeneratedCode="True" CodeSchemaProperty_IsPublic="True" Label="GraphControl" />
+    <Node Id="(@4 @2 Type=GraphControlProgress)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="GraphControlProgress" />
+    <Node Id="(@4 @2 Type=GraphDefaultStyles)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="GraphDefaultStyles" />
+    <Node Id="(@4 @2 Type=GraphDefaultStylesChangedEventArgs)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="GraphDefaultStylesChangedEventArgs" />
+    <Node Id="(@4 @2 Type=GraphDragDrop)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="GraphDragDrop" />
+    <Node Id="(@4 @2 Type=GraphDropEventArgs)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="GraphDropEventArgs" />
+    <Node Id="(@4 @2 Type=GraphEventArgs)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="GraphEventArgs" />
+    <Node Id="(@4 @2 Type=GraphFactories)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="GraphFactories" />
+    <Node Id="(@4 @2 Type=GraphLegend)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="GraphLegend" />
+    <Node Id="(@4 @2 Type=GraphObjectExtensions)" Category="CodeSchema_Class" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="GraphObjectExtensions" />
+    <Node Id="(@4 @2 Type=GraphPropertyExtensions)" Category="CodeSchema_Class" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="GraphPropertyExtensions" />
+    <Node Id="(@4 @2 Type=IEdgeGeometryFactory)" Category="CodeSchema_Interface" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" Label="IEdgeGeometryFactory" />
+    <Node Id="(@4 @2 Type=INodeNavigator)" Category="CodeSchema_Interface" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" Label="INodeNavigator" />
+    <Node Id="(@4 @2 Type=IconSelectorPopup)" Category="CodeSchema_Class" CodeSchemaProperty_IsGeneratedCode="True" CodeSchemaProperty_IsPublic="True" Label="IconSelectorPopup" />
+    <Node Id="(@4 @2 Type=IconSetPicker)" Category="CodeSchema_Class" CodeSchemaProperty_IsGeneratedCode="True" CodeSchemaProperty_IsPublic="True" Label="IconSetPicker" />
+    <Node Id="(@4 @2 Type=IconStylePicker)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="IconStylePicker" />
+    <Node Id="(@4 @2 Type=Legend)" Category="CodeSchema_Class" CodeSchemaProperty_IsGeneratedCode="True" CodeSchemaProperty_IsPublic="True" Label="Legend" />
+    <Node Id="(@4 @2 Type=LegendData)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="LegendData" />
+    <Node Id="(@4 @2 Type=LegendValue)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="LegendValue" />
+    <Node Id="(@4 @2 Type=LinkLayoutExtensions)" Category="CodeSchema_Class" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="LinkLayoutExtensions" />
+    <Node Id="(@4 @2 Type=LinkPropertyExtensions)" Category="CodeSchema_Class" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="LinkPropertyExtensions" />
+    <Node Id="(@4 @2 Type=LinkShape)" Category="CodeSchema_Class" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" Label="LinkShape" />
+    <Node Id="(@4 @2 Type=MathUtility)" Category="CodeSchema_Class" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="MathUtility" />
+    <Node Id="(@4 @2 Type=NavigationButton)" Category="CodeSchema_Class" CodeSchemaProperty_IsGeneratedCode="True" CodeSchemaProperty_IsPublic="True" Label="NavigationButton" />
+    <Node Id="(@4 @2 Type=NeighborhoodAnalyzer)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="NeighborhoodAnalyzer" />
+    <Node Id="(@4 @2 Type=NodePropertyExtensions)" Category="CodeSchema_Class" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="NodePropertyExtensions" />
+    <Node Id="(@4 @2 Type=NodeShape)" Category="CodeSchema_Class" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" Label="NodeShape" />
+    <Node Id="(@4 @2 Type=PathwayAnalyzer)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="PathwayAnalyzer" />
+    <Node Id="(@4 @2 Type=PlainLinkShape)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="PlainLinkShape" />
+    <Node Id="(@4 @2 Type=PlainView)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="PlainView" />
+    <Node Id="(@4 @2 Type=RectExtensions)" Category="CodeSchema_Class" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="RectExtensions" />
+    <Node Id="(@4 @2 Type=SetPickerPanel)" Category="CodeSchema_Class" CodeSchemaProperty_IsGeneratedCode="True" CodeSchemaProperty_IsPublic="True" Label="SetPickerPanel" />
+    <Node Id="(@4 @2 Type=UndoableGraphTransactionScope)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="UndoableGraphTransactionScope" />
+    <Node Id="(@4 @6 Type=DependencyMatrixSortMethod)" Category="CodeSchema_Enum" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="DependencyMatrixSortMethod" />
+    <Node Id="(@4 @6 Type=GraphDirection)" Category="CodeSchema_Enum" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="GraphDirection" />
+    <Node Id="(@4 @6 Type=Group)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="Group" />
+    <Node Id="(@4 @6 Type=LayoutManager)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="LayoutManager" />
+    <Node Id="(@4 @6 Type=ProgressEventArgs)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="ProgressEventArgs" />
+    <Node Id="(@4 Namespace=Microsoft.VisualStudio.Progression.Effects Type=Helpers)" Category="CodeSchema_Class" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="Helpers" />
+    <Node Id="(@4 Namespace=Microsoft.VisualStudio.Progression.Styles Type=ExpressionParser)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="ExpressionParser" />
+    <Node Id="(@5 @2 Type=Action)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="Action" />
+    <Node Id="(@5 @2 Type=ActionContext)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="ActionContext" />
+    <Node Id="(@5 @2 Type=ActionContextProgressEventArgs)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="ActionContextProgressEventArgs" />
+    <Node Id="(@5 @2 Type=ActionFlags)" Category="CodeSchema_Enum" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="ActionFlags" />
+    <Node Id="(@5 @2 Type=ActionHandler)" Category="CodeSchema_Delegate" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="ActionHandler" />
+    <Node Id="(@5 @2 Type=ActionHandlerCollection)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="ActionHandlerCollection" />
+    <Node Id="(@5 @2 Type=ActionListEventArgs)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="ActionListEventArgs" />
+    <Node Id="(@5 @2 Type=ActionToDgqlTranslator)" Category="CodeSchema_Delegate" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="ActionToDgqlTranslator" />
+    <Node Id="(@5 @2 Type=Actions)" Category="CodeSchema_Class" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="Actions" />
+    <Node Id="(@5 @2 Type=BrowserGroup)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="BrowserGroup" />
+    <Node Id="(@5 @2 Type=CategoryInitialization)" Category="CodeSchema_Delegate" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="CategoryInitialization" />
+    <Node Id="(@5 @2 Type=CommandHandler)" Category="CodeSchema_Delegate" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="CommandHandler" />
+    <Node Id="(@5 @2 Type=DataDrivenActionType)" Category="CodeSchema_Enum" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="DataDrivenActionType" />
+    <Node Id="(@5 @2 Type=DgmlProperties)" Category="CodeSchema_Class" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="DgmlProperties" />
+    <Node Id="(@5 @2 Type=GraphObjectActionProgress)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="GraphObjectActionProgress" />
+    <Node Id="(@5 @2 Type=GraphObjectActionProgressScope)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="GraphObjectActionProgressScope" />
+    <Node Id="(@5 @2 Type=GraphVisualProperties)" Category="CodeSchema_Class" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="GraphVisualProperties" />
+    <Node Id="(@5 @2 Type=IActionManager)" Category="CodeSchema_Interface" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" Label="IActionManager" />
+    <Node Id="(@5 @2 Type=ICommandService)" Category="CodeSchema_Interface" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" Label="ICommandService" />
+    <Node Id="(@5 @2 Type=IDTEWrapperCached)" Category="CodeSchema_Interface" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" Label="IDTEWrapperCached" />
+    <Node Id="(@5 @2 Type=IDataManager)" Category="CodeSchema_Interface" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" Label="IDataManager" />
+    <Node Id="(@5 @2 Type=IEditingContext)" Category="CodeSchema_Interface" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" Label="IEditingContext" />
+    <Node Id="(@5 @2 Type=IGraphDocument)" Category="CodeSchema_Interface" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" Label="IGraphDocument" />
+    <Node Id="(@5 @2 Type=IGraphStatus)" Category="CodeSchema_Interface" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" Label="IGraphStatus" />
+    <Node Id="(@5 @2 Type=IIconService)" Category="CodeSchema_Interface" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" Label="IIconService" />
+    <Node Id="(@5 @2 Type=INewQueryManager)" Category="CodeSchema_Interface" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" Label="INewQueryManager" />
+    <Node Id="(@5 @2 Type=IProgressTask)" Category="CodeSchema_Interface" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" Label="IProgressTask" />
+    <Node Id="(@5 @2 Type=IProgressionBrowser)" Category="CodeSchema_Interface" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" Label="IProgressionBrowser" />
+    <Node Id="(@5 @2 Type=IProvider)" Category="CodeSchema_Interface" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" Label="IProvider" />
+    <Node Id="(@5 @2 Type=IProviderData)" Category="CodeSchema_Interface" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" Label="IProviderData" />
+    <Node Id="(@5 @2 Type=IProviderLoader)" Category="CodeSchema_Interface" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" Label="IProviderLoader" />
+    <Node Id="(@5 @2 Type=IProviderMetadata)" Category="CodeSchema_Interface" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" Label="IProviderMetadata" />
+    <Node Id="(@5 @2 Type=IVSGraphControl)" Category="CodeSchema_Interface" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" Label="IVSGraphControl" />
+    <Node Id="(@5 @2 Type=IVsProgression)" Category="CodeSchema_Interface" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" Label="IVsProgression" />
+    <Node Id="(@5 @2 Type=LayoutStyle)" Category="CodeSchema_Enum" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="LayoutStyle" />
+    <Node Id="(@5 @2 Type=LinkCategories)" Category="CodeSchema_Class" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="LinkCategories" />
+    <Node Id="(@5 @2 Type=NodeCategories)" Category="CodeSchema_Class" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="NodeCategories" />
+    <Node Id="(@5 @2 Type=NodeListEventArgs)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="NodeListEventArgs" />
+    <Node Id="(@5 @2 Type=ProgressControlFormFactor)" Category="CodeSchema_Enum" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="ProgressControlFormFactor" />
+    <Node Id="(@5 @2 Type=ProviderAttribute)" Category="CodeSchema_Class" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="ProviderAttribute">
+      <Category Ref="CodeSchema_Attribute" />
+    </Node>
+    <Node Id="(@5 @2 Type=ProviderLoaderAttribute)" Category="CodeSchema_Class" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="ProviderLoaderAttribute">
+      <Category Ref="CodeSchema_Attribute" />
+    </Node>
+    <Node Id="(@5 @2 Type=ProviderMetadataAttribute)" Category="CodeSchema_Class" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="ProviderMetadataAttribute">
+      <Category Ref="CodeSchema_Attribute" />
+    </Node>
+    <Node Id="(@5 @2 Type=QueryContext)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="QueryContext" />
+    <Node Id="(@5 @2 Type=StepResult)" Category="CodeSchema_Enum" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="StepResult" />
+    <Node Id="(@5 @2 Type=SurrogateFlags)" Category="CodeSchema_Enum" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" Label="SurrogateFlags" />
+    <Node Id="@10" Category="CodeSchema_Interface" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" Label="IGraphLayout" />
+    <Node Id="@11" Category="CodeSchema_Interface" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" Label="IProgressUIController" />
+    <Node Id="@12" Category="CodeSchema_Class" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" Label="LegendStylePicker" />
+    <Node Id="@13" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="ListViewPopup" />
+    <Node Id="@14" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="SugiyamaLayout" />
+    <Node Id="@7" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="DependencyMatrixLayout" />
+    <Node Id="@8" Category="CodeSchema_Class" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" Label="DialogWindow" />
+    <Node Id="@9" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Label="GraphLayout" />
+  </Nodes>
+  <Links>
+    <Link Source="(@1 @2 Type=DispatchedProgressUIController)" Target="@11" Category="Implements" />
+    <Link Source="(@1 @2 Type=ProgressTask)" Target="(@5 @2 Type=IProgressTask)" Category="Implements" />
+    <Link Source="(@1 @2 Type=ProgressUIController)" Target="@11" Category="Implements" />
+    <Link Source="(@1 Namespace=Microsoft.VisualStudio.Progression.WpfCommon Type=IconService)" Target="(@5 @2 Type=IIconService)" Category="Implements" />
+    <Link Source="(@4 @2 Type=ColorSelectorPopup)" Target="@13" Category="InheritsFrom" />
+    <Link Source="(@4 @2 Type=ColorSetPicker)" Target="@8" Category="InheritsFrom" />
+    <Link Source="(@4 @2 Type=ColorStylePicker)" Target="@12" Category="InheritsFrom" />
+    <Link Source="(@4 @2 Type=GraphControl)" Target="(@4 @2 Type=INodeNavigator)" Category="Implements" />
+    <Link Source="(@4 @2 Type=IconSelectorPopup)" Target="@13" Category="InheritsFrom" />
+    <Link Source="(@4 @2 Type=IconSetPicker)" Target="@8" Category="InheritsFrom" />
+    <Link Source="(@4 @2 Type=IconStylePicker)" Target="@12" Category="InheritsFrom" />
+    <Link Source="(@4 @2 Type=PlainLinkShape)" Target="(@4 @2 Type=LinkShape)" Category="InheritsFrom" />
+    <Link Source="@14" Target="@10" Category="Implements" />
+    <Link Source="@14" Target="@9" Category="InheritsFrom" />
+    <Link Source="@7" Target="@10" Category="Implements" />
+    <Link Source="@7" Target="@9" Category="InheritsFrom" />
+    <Link Source="@9" Target="@10" Category="Implements" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Attribute" Label="Attribute" BasedOn="CodeSchema_Class" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Attribute" IsProviderRoot="False" NavigationActionLabel="Attributes" />
+    <Category Id="CodeSchema_Block" Label="Block" BasedOn="CodeSchema_Statement" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="Blocks" />
+    <Category Id="CodeSchema_Class" Label="Class" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" IsProviderRoot="False" NavigationActionLabel="Classes" />
+    <Category Id="CodeSchema_Delegate" Label="Delegate" BasedOn="CodeSchema_Class" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Delegate" IsProviderRoot="False" NavigationActionLabel="Delegates" />
+    <Category Id="CodeSchema_Enum" Label="Enum" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Enum" IsProviderRoot="False" NavigationActionLabel="Enums" />
+    <Category Id="CodeSchema_Interface" Label="Interface" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Interface" IsProviderRoot="False" NavigationActionLabel="Interfaces" />
+    <Category Id="CodeSchema_Statement" Label="Statement" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="Statement" />
+    <Category Id="CodeSchema_Struct" Label="Struct" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Struct" IsProviderRoot="False" NavigationActionLabel="Structs" />
+    <Category Id="CodeSchema_Type" Label="Type" BasedOn="CodeSchema_Block" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" IsProviderRoot="False" NavigationActionLabel="Types" />
+    <Category Id="Implements" Label="Implements" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Implemented by" OutgoingActionLabel="Implements" />
+    <Category Id="InheritsFrom" Label="Inherits From" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Inherited By" OutgoingActionLabel="Inherits From" />
+  </Categories>
+  <Properties>
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsAbstract" Label="IsAbstract" Description="IsAbstract" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsFinal" Label="IsFinal" Description="IsFinal" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsGeneratedCode" Label="IsGeneratedCode" Description="IsGeneratedCode" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="IsPublic" Description="IsPublic" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="GenericParameterCount" Label="Generic Parameter Count" ValueType="System.String" />
+    <Name Id="Name" Label="Name" ValueType="System.String" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="ParentType" Label="Parent Type" ValueType="System.Object" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=WpfCommon.dll" />
+    <Alias n="2" Id="Namespace=Microsoft.VisualStudio.Progression" />
+    <Alias n="3" Id="GenericParameterCount=1" />
+    <Alias n="4" Uri="Assembly=GraphControl.dll" />
+    <Alias n="5" Uri="Assembly=Interfaces.dll" />
+    <Alias n="6" Id="Namespace=Microsoft.VisualStudio.Progression.Layout" />
+    <Alias n="7" Id="(@4 @6 Type=DependencyMatrixLayout)" />
+    <Alias n="8" Id="(@1 @2 Type=DialogWindow)" />
+    <Alias n="9" Id="(@4 @6 Type=GraphLayout)" />
+    <Alias n="10" Id="(@4 @6 Type=IGraphLayout)" />
+    <Alias n="11" Id="(@5 @2 Type=IProgressUIController)" />
+    <Alias n="12" Id="(@4 @2 Type=LegendStylePicker)" />
+    <Alias n="13" Id="(@4 @2 Type=ListViewPopup)" />
+    <Alias n="14" Id="(@4 @6 Type=SugiyamaLayout)" />
+  </IdentifierAliases>
+</DirectedGraph>
