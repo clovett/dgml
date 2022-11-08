@@ -1,37 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DirectedGraph Background="#FF202030" BackgroundImage="Icons\Green Sea Turtle.jpg" GraphDirection="TopToBottom" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+<DirectedGraph Background="#FF202030" BackgroundImage="Icons\Green Sea Turtle.jpg" GraphDirection="TopToBottom" Layout="Sugiyama" Offset="-362.553702004468,-365.882837764188" ZoomLevel="1.42286436586759" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
-    <Node Id=".NET" Category="Group" Bounds="194.819986730475,227.880094150534,222.420007527669,141.9203" Group="Expanded" />
-    <Node Id=".NetGroupPatterns" Bounds="214.819986730475,323.840294150534,118.083333333333,25.96" Description="This is the group pattern XML data" Reference=".NET4.0\grouppatterns.xml" />
-    <Node Id=".NetGrouped" Bounds="308.696660924811,267.880194150534,88.5433333333333,25.96" Description="This is the top level graph if you collapse all containers" Reference=".NET4.0\Grouped.dgml" />
-    <Node Id=".NetRaw" Bounds="214.819987544277,267.880194150534,63.8766666666667,25.96" Description="This shows .NET 4.0 binary dependencies grouped by 'patterns'" Reference=".NET4.0\Assemblies.dgml" />
-    <Node Id="Baseball" Bounds="20,95.96,63.3299999999999,25.96" Description="This demo is great for showing force directed layout" Reference="conditionalstyles\baseball.dgml" />
-    <Node Id="Call Sequence" Bounds="373.58,40,94.03,25.96" Description="This demo shows a hyperthetical call sequence graph in DGML, it also shows some nice coloring schemes" Reference="conditionalstyles\CallSequence.dgml" />
-    <Node Id="Collapsed" Bounds="467.239994258145,323.840294150534,71.8699999999999,25.96" Description="This is the top level graph if you collapse all containers" Reference="vsbinaries\devdiv-just-group.dgml" />
-    <Node Id="ConditionalStyles" Category="Group" Bounds="0,0,203.436666666666,197.88" Group="Expanded" Label="ConditionalStyles" />
-    <Node Id="Coverage" Bounds="113.33,95.96,70.1066666666667,25.96" Description="This demo shows a how annotations can be styled.  It shows code coverage annotations on progression, where red is bad, orange is ok and green is good. The interesting thing is it helps you see clusters of poor coverage to help direct testing efforts.  This is using a nice Linq expression on the &lt;Style&gt; tag." Reference="conditionalstyles\Coverage.dgml" />
-    <Node Id="GraphModel" Bounds="636.456666666666,40,86.4133333333334,25.96" Description="This is the progression graph model" Reference="Progression\GraphModel.dgml" />
-    <Node Id="GraphModel Grouped" Bounds="679.82,95.96,136.323333333333,25.96" Description="This is the progression graph model grouped into semantic areas" Reference="Progression\GraphModelGrouped.dgml" />
-    <Node Id="Group Patterns" Bounds="569.109997920254,323.840294150534,99.45,25.96" Description="This is the group pattern XML data" Reference="vsbinaries\grouppatterns.xml" />
-    <Node Id="Grouped" Bounds="547.240006058275,267.880194150534,66.6233333333334,25.96" Description="This shows vs binary dependencies grouped by 'patterns'" Reference="vsbinaries\devdiv-grouped.dgml" />
-    <Node Id="LinesOfCode" Bounds="20,151.92,87.3233333333333,25.96" Description="This demo shows a how boxes can be scaled with styles to show a property (in this case lines of code)" Reference="conditionalstyles\LinesOfCode.dgml" />
-    <Node Id="Overview" Bounds="537.61,40,68.8466666666666,25.96" Description="This demo shows Progression architecture " Reference="progression\overview.dgml" />
-    <Node Id="PX4Topics" Bounds="740.594997920254,273.799602050781,76.0033333333333,25.96" Label="PX4 Topics" Reference="StateMachines\PX4_topics.dgml"/>
-    <Node Id="Progression" Category="Group" Bounds="517.61,0,318.533333333333,197.88" Group="Expanded" Label="Progression" />
-    <Node Id="ProgressionAssemblies" Bounds="537.61,151.92,141.13,25.96" Description="This is the progression assembly dependency graph" Reference="Progression\ProgressionAssemblies.dgml" />
-    <Node Id="ProgressionTypes" Bounds="537.61,95.96,112.21,25.96" Description="This is the progression type dependency graph" Reference="Progression\ProgressionTypes.dgml" />
-    <Node Id="Raw" Bounds="467.239996699551,267.880194150534,50.0000000000001,25.96" Description="This is the raw data" Reference="vsbinaries\devdiv-ungrouped.dgml" />
-    <Node Id="Sample Code" Bounds="253.436666666666,40,90.1433333333333,25.96" Description="This the C# source code that we are looking at" Reference="TeamArch\Program.cs" />
-    <Node Id="Sequence DGML" Bounds="253.436666666666,151.92,107.753333333333,25.96" Description="This raw DGML behind a sequence diagram - reverse engineered from code" Reference="TeamArch\SequenceDiagram.dgml" />
-    <Node Id="Set" Bounds="20,40,50,25.96" Description="This demo shows 'semantic icons' in a program showing UI/Model/Network classes" Reference="conditionalstyles\set.dgml" />
-    <Node Id="StateMachines" Bounds="718.559997920254,233.799502050781,120.073333333333,85.9602" Group="Expanded" Label="State Machines" UseManualLocation="True" />
-    <Node Id="Tagging" Category="Obsolete" Bounds="100,40,61.9433333333333,25.96" Description="Can be used for tagging demo" Reference="ConditionalStyles\Tagging.dgml" />
-    <Node Id="TeamArch" Category="Group" Bounds="233.436666666666,0,254.173333333333,197.88" Group="Expanded" Label="Modeling" />
-    <Node Id="UmlMetaModel" Bounds="253.436666666666,95.96,102.77,25.96" Description="This a reverse engineered diagram of Microsoft.VisualStudio.Uml.dll" Reference="TeamArch\UmlMetaModel.dgml" />
-    <Node Id="VS" Category="Group" Bounds="447.239994258145,227.880094150534,241.320003662109,141.9203" Group="Expanded" />
-    <Node Id="WPF" Category="Group" Bounds="-0.173346602857535,227.880159889405,164.993333333333,141.9203" Group="Expanded" Label="WPF" />
-    <Node Id="WPF Raw" Bounds="19.8266576696033,267.880259889405,69.0333333333333,25.96" Description="This raw WPF class dependency graph" Reference="WPF\wpf-raw.dgml" />
-    <Node Id="WPF by Namespace" Bounds="19.8266533971425,323.840359889405,124.993333333333,25.96" Description="This is the WPF class dependencies organized by graph" Reference="WPF\wpf-by-namespace.dgml" />
+    <Node Id=".NET" Category="Group" Bounds="123.544676005046,98.5590563515289,222.419999084473,141.9203" Group="Expanded" UseManualLocation="True" />
+    <Node Id=".NetGroupPatterns" Bounds="143.544682820638,194.519256351529,118.083333333333,25.96" Description="This is the group pattern XML data" Reference=".NET4.0\grouppatterns.xml" />
+    <Node Id=".NetGrouped" Bounds="237.421341756185,138.559156351529,88.5433333333333,25.96" Description="This is the top level graph if you collapse all containers" Reference=".NET4.0\Grouped.dgml" />
+    <Node Id=".NetRaw" Bounds="143.544676005046,138.559156351529,63.8766666666668,25.96" Description="This shows .NET 4.0 binary dependencies grouped by 'patterns'" Reference=".NET4.0\Assemblies.dgml" />
+    <Node Id="Baseball" Bounds="-43.8925581359863,-33.3612571738618,63.3299999999999,25.96" Description="This demo is great for showing force directed layout" Reference="ConditionalStyles\baseball.dgml" />
+    <Node Id="Call Sequence" Bounds="668.64397551184,205.841090698242,94.03,25.96" Description="This demo shows a hyperthetical call sequence graph in DGML, it also shows some nice coloring schemes" Label="Call Sequence" Reference="StateMachines\CallSequence.dgml" />
+    <Node Id="Collapsed" Bounds="395.964736416788,201.14645045166,71.8699999999998,25.96" Description="This is the top level graph if you collapse all containers" Reference="vsbinaries\devdiv-just-group.dgml" />
+    <Node Id="ComplexMinimalSFA" Bounds="668.602507005981,261.801188964844,128.54,25.96" Reference="StateMachines/ComplexMinimalSFA.dgml" />
+    <Node Id="ConditionalStyles" Category="Group" Bounds="-63.8925581359863,-129.321479456271,203.436665623983,197.88042228241" Group="Expanded" Label="ConditionalStyles" UseManualLocation="True" />
+    <Node Id="Coverage" Bounds="49.4374408213298,-33.3612571738618,70.1066666666667,25.96" Description="This demo shows a how annotations can be styled.  It shows code coverage annotations on progression, where red is bad, orange is ok and green is good. The interesting thing is it helps you see clusters of poor coverage to help direct testing efforts.  This is using a nice Linq expression on the &lt;Style&gt; tag." Reference="ConditionalStyles\Coverage.dgml" />
+    <Node Id="msodll_20.dgml" Category="File" Bounds="-34.051913221116,310.479556351529,124.234666743746,25.998000077079" Label="msodll_20.dgml" Reference="Office\msodll_20.dgml" />
+    <Node Id="GraphModel" Bounds="581.304232612248,-82.6940554395304,86.4133333333334,25.96" Description="This is the progression graph model" Reference="Progression\GraphModel.dgml" />
+    <Node Id="GraphModel Grouped" Bounds="624.667600939071,-26.7340477719889,136.323333333333,25.96" Description="This is the progression graph model grouped into semantic areas" Reference="Progression\GraphModelGrouped.dgml" />
+    <Node Id="Group Patterns" Bounds="497.834953701944,201.146434326172,99.45,25.96" Description="This is the group pattern XML data" Reference="vsbinaries\grouppatterns.xml" />
+    <Node Id="Grouped" Bounds="475.964961839965,145.186351318359,66.6233333333333,25.96" Description="This shows vs binary dependencies grouped by 'patterns'" Reference="vsbinaries\devdiv-grouped.dgml" />
+    <Node Id="LinesOfCode" Bounds="-43.892528330485,22.5988428261383,87.3233333333333,25.96" Description="This demo shows a how boxes can be scaled with styles to show a property (in this case lines of code)" Reference="ConditionalStyles\LinesOfCode.dgml" />
+    <Node Id="Office" Bounds="-54.051913221116,270.479456351529,164.234666743746,85.998200077079" Group="Expanded" UseManualLocation="True" />
+    <Node Id="Overview" Bounds="482.457565945581,-82.6940554395305,68.8466666666666,25.96" Description="This demo shows Progression architecture " Reference="progression\overview.dgml" />
+    <Node Id="PX4Topics" Bounds="801.871620368611,149.859752197266,76.0033333333333,25.96" Label="PX4 Topics" Reference="StateMachines\PX4_topics.dgml" UseManualLocation="True" />
+    <Node Id="Progression" Category="Group" Bounds="462.457561876571,-122.69415543953,318.533372395833,197.880310702515" Group="Expanded" Label="Progression" UseManualLocation="True" />
+    <Node Id="ProgressionAssemblies" Bounds="482.457561876571,29.2260552629842,141.13,25.96" Description="This is the progression assembly dependency graph" Reference="Progression\ProgressionAssemblies.dgml" />
+    <Node Id="ProgressionTypes" Bounds="482.457600939071,-26.73394858986,112.21,25.96" Description="This is the progression type dependency graph" Reference="Progression\ProgressionTypes.dgml" />
+    <Node Id="Raw" Bounds="395.964708340616,145.18635045166,50,25.96" Description="This is the raw data" Reference="vsbinaries\devdiv-ungrouped.dgml" />
+    <Node Id="Sample Code" Bounds="189.544214912053,-81.6884827423095,90.1433333333333,25.96" Description="This the C# source code that we are looking at" Reference="TeamArch\Program.cs" />
+    <Node Id="Sequence DGML" Bounds="189.544207587834,-25.7283520507812,107.753333333333,25.96" Description="This raw DGML behind a sequence diagram - reverse engineered from code" Reference="TeamArch\SequenceDiagram.dgml" />
+    <Node Id="Set" Bounds="-43.892539024353,-89.3213794562714,50,25.96" Description="This demo shows 'semantic icons' in a program showing UI/Model/Network classes" Reference="ConditionalStyles\set.dgml" />
+    <Node Id="StateMachines" Bounds="647.284953701944,109.84289041748,250.59,197.918398547363" Group="Expanded" Label="State Machines" UseManualLocation="True" />
+    <Node Id="StateMachines\TestModel.dgml" Bounds="667.284953701944,149.84299041748,104.586666666667,25.96" Label="TestModel.dgml" Reference="StateMachines\TestModel.dgml" />
+    <Node Id="Tagging" Category="Obsolete" Bounds="36.1074615987142,-89.3213571738618,61.9433333333333,25.96" Description="Can be used for tagging demo" Reference="ConditionalStyles\Tagging.dgml" />
+    <Node Id="TeamArch" Category="Group" Bounds="169.544207587834,-121.68858274231,262.913354288737,141.920330691528" Group="Expanded" Label="Modeling" UseManualLocation="True" />
+    <Node Id="UmlMetaModel" Bounds="309.687561876571,-81.6884541320801,102.77,25.96" Description="This a reverse engineered diagram of Microsoft.VisualStudio.Uml.dll" Reference="TeamArch\UmlMetaModel.dgml" />
+    <Node Id="VS" Category="Group" Bounds="375.964708340616,105.18625045166,241.320245361328,141.9203" Group="Expanded" UseManualLocation="True" />
+    <Node Id="WPF" Category="Group" Bounds="-71.448754564921,98.5590428261383,164.993333829244,141.920313525391" Group="Expanded" Label="WPF" UseManualLocation="True" />
+    <Node Id="WPF Raw" Bounds="-51.448754564921,138.559142826138,69.0333333333333,25.96" Description="This raw WPF class dependency graph" Reference="WPF\wpf-raw.dgml" />
+    <Node Id="WPF by Namespace" Bounds="-51.4487540690102,194.519256351529,124.993333333333,25.96" Description="This is the WPF class dependencies organized by graph" Reference="WPF\wpf-by-namespace.dgml" />
   </Nodes>
   <Links>
     <Link Source=".NET" Target=".NetGroupPatterns" Category="Contains" />
@@ -42,13 +46,16 @@
     <Link Source="ConditionalStyles" Target="LinesOfCode" Category="Contains" />
     <Link Source="ConditionalStyles" Target="Set" Category="Contains" />
     <Link Source="ConditionalStyles" Target="Tagging" Category="Contains" />
+    <Link Source="Office" Target="msodll_20.dgml" Category="Contains" />
     <Link Source="Progression" Target="GraphModel" Category="Contains" />
     <Link Source="Progression" Target="GraphModel Grouped" Category="Contains" />
     <Link Source="Progression" Target="Overview" Category="Contains" />
     <Link Source="Progression" Target="ProgressionAssemblies" Category="Contains" />
     <Link Source="Progression" Target="ProgressionTypes" Category="Contains" />
+    <Link Source="StateMachines" Target="Call Sequence" Category="Contains" />
+    <Link Source="StateMachines" Target="ComplexMinimalSFA" Category="Contains" />
     <Link Source="StateMachines" Target="PX4Topics" Category="Contains" />
-    <Link Source="TeamArch" Target="Call Sequence" Category="Contains" />
+    <Link Source="StateMachines" Target="StateMachines\TestModel.dgml" Category="Contains" />
     <Link Source="TeamArch" Target="Sample Code" Category="Contains" />
     <Link Source="TeamArch" Target="Sequence DGML" Category="Contains" />
     <Link Source="TeamArch" Target="UmlMetaModel" Category="Contains" />
@@ -61,6 +68,7 @@
   </Links>
   <Categories>
     <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="File" Label="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="File" NavigationActionLabel="Files" />
     <Category Id="Group" Label="Group" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="Groups" />
     <Category Id="Obsolete" Label="Obsolete" />
   </Categories>
@@ -75,6 +83,7 @@
     <Property Id="Expression" DataType="System.String" />
     <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
     <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="Icon" DataType="System.String" />
     <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
     <Property Id="IsContainment" DataType="System.Boolean" />
     <Property Id="IsEnabled" DataType="System.Boolean" />
@@ -83,6 +92,7 @@
     <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
     <Property Id="Layout" DataType="System.String" />
     <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="Offset" DataType="System.String" />
     <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
     <Property Id="Reference" Label="Reference" Description="Reference" DataType="System.String" IsReference="True" />
     <Property Id="TargetType" DataType="System.Type" />

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Groups>
+  <Group Name="Documents" Terms="document" />
+  <Group Name="UX" Terms="theme,input,ui,react,shell,progress," />
+  <Group Name="Graphics" Terms="graphics,directx,gdi,svg,image,bitmap,palette,color" />
+  <Group Name="Test" Terms="test, automation, mock" />
+  <Group Name="Debug" Terms="debug, diagnostics, crash, error, assert, dump, callstack" />
+  <Group Name="Telemetry" Terms="telemetry, perf, logging, trace, sqm, timing" />
+  <Group Name="Security" Terms="security, license, auth, crypto, dataprotection, privacy, appguard" />
+  <Group Name="Data" Terms="file, xml, zlib, json, xsd, directory" />
+  <Group Name="Networking" Terms="server, service, http, rest, stream" />
+  <Group Name="Platforms" Terms="android, ios, windows" />
+  <Group Name="Core" Terms="string,util,process,url,thread, memory, process, environment, datetime, core, variant, stlextensions, cppextensions, compiler, operatornew, precomp, motifcpp, comsec, heap" />
+  <Group Name="Sdk" Terms="sdk" />
+  <Group Name="Open Source" Terms="opensource" />
+</Groups>
