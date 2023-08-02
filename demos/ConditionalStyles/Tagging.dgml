@@ -1,111 +1,111 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+<DirectedGraph GraphDirection="TopToBottom" Layout="Sugiyama" Offset="-24.69402636140717,-426.5079450498317" ZoomLevel="Fit" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
-    <Node Id="Microsoft.VisualStudio.Progression.Action" Bounds="805.961666666667,61.6675000000002,54.0766666666668,25.96" Label="Action" />
-    <Node Id="Microsoft.VisualStudio.Progression.ActionContext" Bounds="793.378333333334,193.0425,95.2433333333333,25.96" Label="ActionContext" />
-    <Node Id="Microsoft.VisualStudio.Progression.ActionHandler" Bounds="793.041666666667,127.355,95.9166666666665,25.96" Label="ActionHandler" />
-    <Node Id="Microsoft.VisualStudio.Progression.ActionToDgqlTranslator" Category="Obsolete" Bounds="950.816666666667,123.335,172.366666666667,34" Label="ActionToDgqlTranslator" />
-    <Node Id="Microsoft.VisualStudio.Progression.BrowserGroup" Bounds="603.21,193.0425,95.5799999999999,25.96" Label="BrowserGroup" />
-    <Node Id="Microsoft.VisualStudio.Progression.CategoryInitialization" Bounds="164.966666666667,61.6675000000002,132.066666666667,25.96" HorizontalAlignment="Left" Label="CategoryInitialization" />
-    <Node Id="Microsoft.VisualStudio.Progression.ChangesetSubmissionEventArgs" Bounds="1977.35333333333,258.73,189.293333333333,25.96" HorizontalAlignment="Left" Label="ChangesetSubmissionEventArgs" />
-    <Node Id="Microsoft.VisualStudio.Progression.ChangesetSubmittedEventHandler" Bounds="2174.18833333333,193.0425,201.623333333333,25.96" HorizontalAlignment="Left" Label="ChangesetSubmittedEventHandler" />
-    <Node Id="Microsoft.VisualStudio.Progression.ExecuteActionCompletedEventArgs" Bounds="1478.96333333333,127.355,206.073333333333,25.96" HorizontalAlignment="Left" Label="ExecuteActionCompletedEventArgs" />
-    <Node Id="Microsoft.VisualStudio.Progression.ExecuteActionCompletedEventHandler" Bounds="1524.08,61.6675,223.84,25.96" HorizontalAlignment="Left" Label="ExecuteActionCompletedEventHandler" />
-    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.Graph" Bounds="1894.82166666667,258.73,52.3566666666666,25.96" Label="Graph" />
-    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.GraphCategory" Bounds="277.843333333333,127.355,100.313333333333,25.96" Label="GraphCategory" />
-    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.GraphMetadata" Bounds="31.5349999999998,61.6675000000002,102.93,25.96" Label="GraphMetadata" />
-    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Bounds="624.375,258.73,87.25,25.96" Label="GraphObject" />
-    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.Link" Category="Rename" Bounds="822.845,254.71,70.3099999999999,34" Label="Link" />
-    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="Rename" Bounds="1217.825,254.71,78.3499999999999,34" Label="Node" />
-    <Node Id="Microsoft.VisualStudio.Progression.IActionManager" Bounds="657.716666666666,127.355,104.566666666667,25.96" Label="IActionManager" />
-    <Node Id="Microsoft.VisualStudio.Progression.IChangeset" Bounds="1146.455,193.0425,79.0900000000001,25.96" HorizontalAlignment="Left" Label="IChangeset" />
-    <Node Id="Microsoft.VisualStudio.Progression.IDataManager" Bounds="727.408333333333,2.27373675443232E-13,95.1833333333334,25.96" HorizontalAlignment="Left" Label="IDataManager" />
-    <Node Id="Microsoft.VisualStudio.Progression.IEditingContext" Bounds="642.383333333333,61.6675000000002,101.233333333333,25.96" Label="IEditingContext" />
-    <Node Id="Microsoft.VisualStudio.Progression.IGraphError" Bounds="1002.415,193.0425,81.1700000000001,25.96" Label="IGraphError" />
-    <Node Id="Microsoft.VisualStudio.Progression.IPendingAction" Bounds="1248.77833333333,127.355,100.443333333333,25.96" HorizontalAlignment="Left" Label="IPendingAction" />
-    <Node Id="Microsoft.VisualStudio.Progression.IPendingActionIterator" Bounds="1128.235,61.6675000000001,139.53,25.96" HorizontalAlignment="Left" Label="IPendingActionIterator" />
-    <Node Id="Microsoft.VisualStudio.Progression.IProgressionBrowser" Bounds="1984.07666666667,193.0425,127.846666666667,25.96" HorizontalAlignment="Left" Label="IProgressionBrowser" />
-    <Node Id="Microsoft.VisualStudio.Progression.IQueryExecutor" Category="Obsolete" Bounds="1320.12833333333,189.0225,129.743333333333,34" Label="IQueryExecutor" />
-    <Node Id="Microsoft.VisualStudio.Progression.IQueryManager" Category="Obsolete" Bounds="1330.20833333333,57.6475000000002,131.583333333333,34" Label="IQueryManager" />
-    <Node Id="Microsoft.VisualStudio.Progression.ITranslator" Bounds="390.558333333333,61.6675000000002,74.8833333333332,25.96" HorizontalAlignment="Left" Label="ITranslator" />
-    <Node Id="Microsoft.VisualStudio.Progression.IVSGraphControl" Bounds="1993.59833333333,127.355,108.803333333333,25.96" Label="IVSGraphControl" />
-    <Node Id="Microsoft.VisualStudio.Progression.IVsProgression" Bounds="1730.14666666667,0,97.7066666666669,25.96" HorizontalAlignment="Left" Label="IVsProgression" />
-    <Node Id="Microsoft.VisualStudio.Progression.LinkCategories" Bounds="182.131666666667,2.27373675443232E-13,97.7366666666667,25.96" Label="LinkCategories" />
-    <Node Id="Microsoft.VisualStudio.Progression.NavigationPath" Bounds="471.511666666666,193.0425,100.976666666667,25.96" Label="NavigationPath" />
-    <Node Id="Microsoft.VisualStudio.Progression.NodeCategories" Bounds="30.1116666666667,2.27373675443232E-13,105.776666666667,25.96" Label="NodeCategories" />
-    <Node Id="Microsoft.VisualStudio.Progression.QueryCompleteEventArgs" Category="Obsolete" Bounds="1704.25333333333,189.0225,185.493333333333,34" Label="QueryCompleteEventArgs" />
-    <Node Id="Microsoft.VisualStudio.Progression.QueryCompleteHandler" Category="Obsolete" Bounds="1715.845,123.335,174.31,34" HorizontalAlignment="Left" Label="QueryCompleteHandler" />
-    <Node Id="System.ComponentModel.AsyncCompletedEventArgs" Bounds="1511.78,193.0425,162.44,25.96" Label="AsyncCompletedEventArgs" />
-    <Node Id="System.Uri" Category="External" Bounds="742,258.73,50,25.96" Label="Uri" />
-    <Node Id="System.Windows.Controls.Image" Category="External" Bounds="495.51,61.6675000000002,52.98,25.96" Label="Image" />
-    <Node Id="System.Windows.Media.Imaging.BitmapImage" Category="External" Bounds="890.835,61.6675000000001,90.3299999999999,25.96" Label="BitmapImage" />
-    <Node Id="System.Windows.Threading.Dispatcher" Category="External" Bounds="517.788333333333,258.73,76.4233333333334,25.96" Label="Dispatcher" />
-    <Node Id="ThisDiagramShowsHowYouCan" Category="Comment" Bounds="97.5799796121162,189.561347316517,242.913333333333,57.88" Label="This diagram shows how you can  use categories to communicate some changes you'd like to make to a design" UseManualLocation="True" />
+    <Node Id="Microsoft.VisualStudio.Progression.Action" Bounds="805.9616666666666,61.667500000000246,54.076666666666824,25.960000000000036" Label="Action" />
+    <Node Id="Microsoft.VisualStudio.Progression.ActionContext" Bounds="793.3783333333333,193.04250000000025,95.24333333333334,25.960000000000036" Label="ActionContext" />
+    <Node Id="Microsoft.VisualStudio.Progression.ActionHandler" Bounds="793.0416666666667,127.35500000000025,95.91666666666652,25.960000000000036" Label="ActionHandler" />
+    <Node Id="Microsoft.VisualStudio.Progression.ActionToDgqlTranslator" Category="Obsolete" Bounds="950.8166666666666,123.33500000000015,172.3666666666668,34" Label="ActionToDgqlTranslator" />
+    <Node Id="Microsoft.VisualStudio.Progression.BrowserGroup" Bounds="603.21,193.04250000000025,95.57999999999993,25.960000000000036" Label="BrowserGroup" />
+    <Node Id="Microsoft.VisualStudio.Progression.CategoryInitialization" Bounds="164.9666666666667,61.667500000000246,132.06666666666695,25.95999999999998" HorizontalAlignment="Left" Label="CategoryInitialization" />
+    <Node Id="Microsoft.VisualStudio.Progression.ChangesetSubmissionEventArgs" Bounds="1977.3533333333335,258.73000000000013,189.29333333333307,25.960000000000036" HorizontalAlignment="Left" Label="ChangesetSubmissionEventArgs" />
+    <Node Id="Microsoft.VisualStudio.Progression.ChangesetSubmittedEventHandler" Bounds="2174.1883333333335,193.04250000000002,201.623333333333,25.960000000000036" HorizontalAlignment="Left" Label="ChangesetSubmittedEventHandler" />
+    <Node Id="Microsoft.VisualStudio.Progression.ExecuteActionCompletedEventArgs" Bounds="1478.9633333333336,127.35500000000013,206.0733333333328,25.95999999999998" HorizontalAlignment="Left" Label="ExecuteActionCompletedEventArgs" />
+    <Node Id="Microsoft.VisualStudio.Progression.ExecuteActionCompletedEventHandler" Bounds="1524.0799999999997,61.66750000000036,223.84000000000015,25.959999999999923" HorizontalAlignment="Left" Label="ExecuteActionCompletedEventHandler" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.Graph" Bounds="1894.8216666666667,258.73,52.35666666666657,25.960000000000036" Label="Graph" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.GraphCategory" Bounds="277.8433333333335,127.35500000000025,100.31333333333305,25.95999999999998" Label="GraphCategory" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.GraphMetadata" Bounds="31.534999999999854,61.667500000000246,102.93,25.95999999999998" Label="GraphMetadata" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Bounds="624.375,258.73000000000025,87.25,25.960000000000036" Label="GraphObject" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.Link" Category="Rename" Bounds="822.845,254.71000000000015,70.30999999999995,34" Label="Link" />
+    <Node Id="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="Rename" Bounds="1217.825,254.71000000000015,78.34999999999991,34" Label="Node" />
+    <Node Id="Microsoft.VisualStudio.Progression.IActionManager" Bounds="657.7166666666665,127.35500000000025,104.56666666666706,25.960000000000036" Label="IActionManager" />
+    <Node Id="Microsoft.VisualStudio.Progression.IChangeset" Bounds="1146.455,193.04250000000013,79.09000000000015,25.960000000000036" HorizontalAlignment="Left" Label="IChangeset" />
+    <Node Id="Microsoft.VisualStudio.Progression.IDataManager" Bounds="727.4083333333333,2.2737367544323206E-13,95.1833333333334,25.95999999999998" HorizontalAlignment="Left" Label="IDataManager" />
+    <Node Id="Microsoft.VisualStudio.Progression.IEditingContext" Bounds="642.3833333333334,61.667500000000246,101.23333333333312,25.95999999999998" Label="IEditingContext" />
+    <Node Id="Microsoft.VisualStudio.Progression.IGraphError" Bounds="1002.415,193.04250000000013,81.17000000000007,25.960000000000036" Label="IGraphError" />
+    <Node Id="Microsoft.VisualStudio.Progression.IPendingAction" Bounds="1248.7783333333336,127.35500000000013,100.4433333333327,25.960000000000036" HorizontalAlignment="Left" Label="IPendingAction" />
+    <Node Id="Microsoft.VisualStudio.Progression.IPendingActionIterator" Bounds="1128.2350000000001,61.66750000000013,139.52999999999975,25.960000000000036" HorizontalAlignment="Left" Label="IPendingActionIterator" />
+    <Node Id="Microsoft.VisualStudio.Progression.IProgressionBrowser" Bounds="1984.0766666666668,193.04250000000002,127.84666666666635,25.960000000000036" HorizontalAlignment="Left" Label="IProgressionBrowser" />
+    <Node Id="Microsoft.VisualStudio.Progression.IQueryExecutor" Category="Obsolete" Bounds="1320.1283333333333,189.02250000000015,129.74333333333288,34" Label="IQueryExecutor" />
+    <Node Id="Microsoft.VisualStudio.Progression.IQueryManager" Category="Obsolete" Bounds="1330.2083333333333,57.64750000000015,131.58333333333303,34" Label="IQueryManager" />
+    <Node Id="Microsoft.VisualStudio.Progression.ITranslator" Bounds="390.5583333333334,61.667500000000246,74.88333333333321,25.960000000000036" HorizontalAlignment="Left" Label="ITranslator" />
+    <Node Id="Microsoft.VisualStudio.Progression.IVSGraphControl" Bounds="1993.5983333333334,127.35500000000002,108.80333333333328,25.960000000000036" Label="IVSGraphControl" />
+    <Node Id="Microsoft.VisualStudio.Progression.IVsProgression" Bounds="1730.1466666666665,0,97.70666666666693,25.960000000000036" HorizontalAlignment="Left" Label="IVsProgression" />
+    <Node Id="Microsoft.VisualStudio.Progression.LinkCategories" Bounds="182.13166666666666,2.2737367544323206E-13,97.73666666666668,25.960000000000008" Label="LinkCategories" />
+    <Node Id="Microsoft.VisualStudio.Progression.NavigationPath" Bounds="471.5116666666665,193.04250000000025,100.97666666666697,25.960000000000036" Label="NavigationPath" />
+    <Node Id="Microsoft.VisualStudio.Progression.NodeCategories" Bounds="30.11166666666668,2.2737367544323206E-13,105.77666666666698,25.960000000000008" Label="NodeCategories" />
+    <Node Id="Microsoft.VisualStudio.Progression.QueryCompleteEventArgs" Category="Obsolete" Bounds="1704.2533333333336,189.02250000000004,185.49333333333288,34" Label="QueryCompleteEventArgs" />
+    <Node Id="Microsoft.VisualStudio.Progression.QueryCompleteHandler" Category="Obsolete" Bounds="1715.8449999999998,123.33500000000004,174.30999999999995,34" HorizontalAlignment="Left" Label="QueryCompleteHandler" />
+    <Node Id="System.ComponentModel.AsyncCompletedEventArgs" Bounds="1511.7799999999997,193.04250000000013,162.44000000000005,25.960000000000036" Label="AsyncCompletedEventArgs" />
+    <Node Id="System.Uri" Category="External" Bounds="742,258.73000000000025,50,25.960000000000036" Label="Uri" />
+    <Node Id="System.Windows.Controls.Image" Category="External" Bounds="495.51,61.667500000000246,52.98000000000002,25.95999999999998" Label="Image" />
+    <Node Id="System.Windows.Media.Imaging.BitmapImage" Category="External" Bounds="890.835,61.66750000000013,90.32999999999993,25.95999999999998" Label="BitmapImage" />
+    <Node Id="System.Windows.Threading.Dispatcher" Category="External" Bounds="517.7883333333334,258.73000000000025,76.4233333333334,25.960000000000036" Label="Dispatcher" />
+    <Node Id="ThisDiagramShowsHowYouCan" Category="Comment" Bounds="0,318.7100000000001,242.91333333333296,57.879999999999995" Label="This diagram shows how you can  use categories to communicate some changes you'd like to make to a design" />
   </Nodes>
   <Links>
-    <Link Source="Microsoft.VisualStudio.Progression.Action" Target="Microsoft.VisualStudio.Progression.ActionHandler" Category="Method" Bounds="834.580810546875,87.6275024414063,3.75030517578125,30.7935104370117" />
-    <Link Source="Microsoft.VisualStudio.Progression.Action" Target="Microsoft.VisualStudio.Progression.ActionToDgqlTranslator" Category="Method" Bounds="860.038330078125,82.1100234985352,124.537353515625,38.0539627075195" />
-    <Link Source="Microsoft.VisualStudio.Progression.Action" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphCategory" Category="Method" Bounds="385.26318359375,87.1933975219727,422.144104003906,38.4929733276367" />
-    <Link Source="Microsoft.VisualStudio.Progression.Action" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Category="Inherits" Bounds="627,86.2696685791016,179.451049804688,165.915313720703" />
-    <Link Source="Microsoft.VisualStudio.Progression.Action" Target="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="MethodParameter" Bounds="859.994201660156,85.1403503417969,349.062316894531,175.480590820313" />
-    <Link Source="Microsoft.VisualStudio.Progression.ActionContext" Target="Microsoft.VisualStudio.Progression.Action" Category="Method" Bounds="868.449951171875,88.0303573608398,51.550048828125,105.012138366699" />
-    <Link Source="Microsoft.VisualStudio.Progression.ActionContext" Target="Microsoft.VisualStudio.Progression.GraphModel.Graph" Category="Method" Bounds="888.621643066406,213.470474243164,997.206481933594,56.9117279052734" />
-    <Link Source="Microsoft.VisualStudio.Progression.ActionContext" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Category="Method" Bounds="720.031555175781,219.002502441406,102.393859863281,39.1447143554688" />
-    <Link Source="Microsoft.VisualStudio.Progression.ActionContext" Target="Microsoft.VisualStudio.Progression.GraphModel.Link" Category="Method" Bounds="847.718505859375,219.002502441406,9.56292724609375,26.7360229492188" />
-    <Link Source="Microsoft.VisualStudio.Progression.ActionContext" Target="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="Method" Bounds="879.730041503906,219.002502441406,329.142639160156,47.7367858886719" />
-    <Link Source="Microsoft.VisualStudio.Progression.ActionContext" Target="System.Uri" Category="Method" Bounds="797.866271972656,219.002502441406,37.2056884765625,35.5183868408203" />
-    <Link Source="Microsoft.VisualStudio.Progression.ActionContext" Target="System.Windows.Threading.Dispatcher" Category="Method" Bounds="603.014770507813,219.002502441406,194.117492675781,42.3348693847656" />
-    <Link Source="Microsoft.VisualStudio.Progression.ActionHandler" Target="Microsoft.VisualStudio.Progression.ActionContext" Category="MethodParameter" Bounds="841,153.315002441406,0,30.7274932861328" />
-    <Link Source="Microsoft.VisualStudio.Progression.ActionToDgqlTranslator" Target="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="MethodParameter" Bounds="971,157.335006713867,237.8837890625,108.849411010742" />
-    <Link Source="Microsoft.VisualStudio.Progression.BrowserGroup" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Category="Inherits" Bounds="654.359252929688,219.002502441406,8.026611328125,31.0145568847656" />
-    <Link Source="Microsoft.VisualStudio.Progression.CategoryInitialization" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphCategory" Category="MethodParameter" Bounds="250.167419433594,87.6275024414063,51.2131042480469,34.6810302734375" />
-    <Link Source="Microsoft.VisualStudio.Progression.ChangesetSubmissionEventArgs" Target="Microsoft.VisualStudio.Progression.IChangeset" Category="Method" Bounds="1234.28796386719,217.818069458008,764.409790039063,40.9119415283203" />
-    <Link Source="Microsoft.VisualStudio.Progression.ChangesetSubmittedEventHandler" Target="Microsoft.VisualStudio.Progression.ChangesetSubmissionEventArgs" Category="MethodParameter" Bounds="2121.28076171875,219.002502441406,114.19873046875,36.9933013916016" />
-    <Link Source="Microsoft.VisualStudio.Progression.ExecuteActionCompletedEventArgs" Target="Microsoft.VisualStudio.Progression.IChangeset" Category="Method" Bounds="1233.74206542969,153.315002441406,262.103393554688,38.7509155273438" />
-    <Link Source="Microsoft.VisualStudio.Progression.ExecuteActionCompletedEventArgs" Target="System.ComponentModel.AsyncCompletedEventArgs" Category="Inherits" Bounds="1584.17358398438,153.315002441406,5.1663818359375,30.8510894775391" />
-    <Link Source="Microsoft.VisualStudio.Progression.ExecuteActionCompletedEventHandler" Target="Microsoft.VisualStudio.Progression.ExecuteActionCompletedEventArgs" Category="MethodParameter" Bounds="1598.38586425781,87.6275024414063,26.943603515625,32.7751617431641" />
-    <Link Source="Microsoft.VisualStudio.Progression.IActionManager" Target="Microsoft.VisualStudio.Progression.ActionContext" Category="MethodParameter" Bounds="735.885925292969,153.315002441406,71.1829223632813,35.693359375" />
-    <Link Source="Microsoft.VisualStudio.Progression.IChangeset" Target="Microsoft.VisualStudio.Progression.ChangesetSubmissionEventArgs" Category="MethodParameter" Bounds="1224.15112304688,218.536331176758,762.640258789063,39.1774444580078" />
-    <Link Source="Microsoft.VisualStudio.Progression.IChangeset" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Category="Method" Bounds="719.751525878906,217.784774780273,427.290344238281,40.2946014404297" />
-    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="Microsoft.VisualStudio.Progression.Action" Category="Method" Bounds="788.960021972656,25.9599990844727,27.6292114257813,28.775707244873" />
-    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="Microsoft.VisualStudio.Progression.BrowserGroup" Category="Method" Bounds="578.529418945313,21.3444538116455,148.87890625,166.314451217651" />
-    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="Microsoft.VisualStudio.Progression.GraphModel.Graph" Category="Method" Bounds="822.591674804688,14.3912858963013,1098.40832519531,235.338709831238" />
-    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphCategory" Category="MethodParameter" Bounds="334.995513916016,16.2854709625244,392.412811279297,102.509641647339" />
-    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Category="MethodParameter" Bounds="685.580261230469,25.9599990844727,84.7103881835938,225.129356384277" />
-    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="MethodParameter" Bounds="822.591674804688,17.2401561737061,434.408325195313,228.469850540161" />
-    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="Microsoft.VisualStudio.Progression.IChangeset" Category="MethodParameter" Bounds="822.591674804688,17.7102432250977,363.408325195313,166.332252502441" />
-    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="Microsoft.VisualStudio.Progression.IEditingContext" Category="Method" Bounds="717.452575683594,25.9599990844727,40.2877807617188,30.2981033325195" />
-    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="Microsoft.VisualStudio.Progression.IPendingAction" Category="Method" Bounds="822.591674804688,15.597882270813,476.408325195313,102.757121086121" />
-    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="Microsoft.VisualStudio.Progression.IPendingActionIterator" Category="Method" Bounds="822.591674804688,16.8660354614258,339.592895507813,40.9858474731445" />
-    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="Microsoft.VisualStudio.Progression.IQueryManager" Category="Method" Bounds="822.591674804688,15.4516582489014,530.644775390625,39.3095188140869" />
-    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="Microsoft.VisualStudio.Progression.ITranslator" Category="Method" Bounds="469.579254150391,18.1958560943604,257.829071044922,40.1942844390869" />
-    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="System.Uri" Category="MethodParameter" Bounds="634.58056640625,25.9599990844727,140.41943359375,224.149681091309" />
-    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="System.Windows.Controls.Image" Category="Method" Bounds="537.941162109375,18.9965362548828,189.467163085938,36.0178833007813" />
-    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="System.Windows.Media.Imaging.BitmapImage" Category="MethodParameter" Bounds="808.887878417969,25.9599990844727,84.8197021484375,32.4883155822754" />
-    <Link Source="Microsoft.VisualStudio.Progression.IGraphError" Target="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="MethodParameter" Bounds="1058.80822753906,219.002502441406,150.172973632813,43.6435852050781" />
-    <Link Source="Microsoft.VisualStudio.Progression.IPendingAction" Target="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="Method" Bounds="1265.30102539063,153.315002441406,29.7469482421875,92.8351135253906" />
-    <Link Source="Microsoft.VisualStudio.Progression.IPendingActionIterator" Target="Microsoft.VisualStudio.Progression.IPendingAction" Category="MethodParameter" Bounds="1218.15539550781,87.6275024414063,53.561767578125,34.7867813110352" />
-    <Link Source="Microsoft.VisualStudio.Progression.IProgressionBrowser" Target="Microsoft.VisualStudio.Progression.GraphModel.Graph" Category="Method" Bounds="1953.49523925781,219.002502441406,69.4093017578125,35.9001922607422" />
-    <Link Source="Microsoft.VisualStudio.Progression.IQueryExecutor" Target="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="Method" Bounds="1305.02880859375,223.022506713867,111.798828125,39.9239044189453" />
-    <Link Source="Microsoft.VisualStudio.Progression.IQueryManager" Target="Microsoft.VisualStudio.Progression.IQueryExecutor" Category="MethodParameter" Bounds="1392.74755859375,91.6474990844727,3.25244140625,88.613655090332" />
-    <Link Source="Microsoft.VisualStudio.Progression.IQueryManager" Target="Microsoft.VisualStudio.Progression.QueryCompleteHandler" Category="MethodParameter" Bounds="1461.79162597656,86.5202713012695,245.147705078125,39.7925491333008" />
-    <Link Source="Microsoft.VisualStudio.Progression.ITranslator" Target="Microsoft.VisualStudio.Progression.IDataManager" Category="Method" Bounds="430.371215820313,17.7608280181885,288.069091796875,43.9066715240479" />
-    <Link Source="Microsoft.VisualStudio.Progression.ITranslator" Target="System.Windows.Threading.Dispatcher" Category="Method" Bounds="430.746063232422,87.6274948120117,87.6006164550781,167.469505310059" />
-    <Link Source="Microsoft.VisualStudio.Progression.IVSGraphControl" Target="Microsoft.VisualStudio.Progression.GraphModel.Graph" Category="Method" Bounds="1955.75415039063,153.315002441406,187.245849609375,106.372650146484" />
-    <Link Source="Microsoft.VisualStudio.Progression.IVSGraphControl" Target="Microsoft.VisualStudio.Progression.IProgressionBrowser" Category="Method" Bounds="2048,153.315002441406,0,30.7274932861328" />
-    <Link Source="Microsoft.VisualStudio.Progression.IVsProgression" Target="Microsoft.VisualStudio.Progression.ExecuteActionCompletedEventHandler" Category="MethodParameter" Bounds="1701.28588867188,25.9599990844727,77.714111328125,33.6928672790527" />
-    <Link Source="Microsoft.VisualStudio.Progression.IVsProgression" Target="Microsoft.VisualStudio.Progression.GraphModel.Graph" Category="Method" Bounds="1827.85339355469,21.0727367401123,125.146606445313,230.882753372192" />
-    <Link Source="Microsoft.VisualStudio.Progression.IVsProgression" Target="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="MethodParameter" Bounds="1305.07983398438,17.9035530090332,425.066772460938,246.756786346436" />
-    <Link Source="Microsoft.VisualStudio.Progression.IVsProgression" Target="Microsoft.VisualStudio.Progression.QueryCompleteHandler" Category="MethodParameter" Bounds="1793.41027832031,25.9599990844727,17.5897216796875,88.5255508422852" />
-    <Link Source="Microsoft.VisualStudio.Progression.LinkCategories" Target="Microsoft.VisualStudio.Progression.CategoryInitialization" Category="MethodParameter" Bounds="231,25.9599990844727,0,26.7075004577637" />
-    <Link Source="Microsoft.VisualStudio.Progression.LinkCategories" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphCategory" Category="Field" Bounds="274.681335449219,25.9599990844727,53.3186645507813,92.3950042724609" />
-    <Link Source="Microsoft.VisualStudio.Progression.LinkCategories" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphMetadata" Category="MethodParameter" Bounds="104.991752624512,25.4553871154785,78.4746627807617,30.4389610290527" />
-    <Link Source="Microsoft.VisualStudio.Progression.NavigationPath" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Category="Inherits" Bounds="550.849940098423,219.002506713867,80.0925629911065,36.0347877353615" />
-    <Link Source="Microsoft.VisualStudio.Progression.NodeCategories" Target="Microsoft.VisualStudio.Progression.CategoryInitialization" Category="MethodParameter" Bounds="114.151580810547,25.9599990844727,77.38916015625,32.245922088623" />
-    <Link Source="Microsoft.VisualStudio.Progression.NodeCategories" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphCategory" Category="Field" Bounds="1,25.9599990844727,267.888397216797,108.437858581543" />
-    <Link Source="Microsoft.VisualStudio.Progression.NodeCategories" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphMetadata" Category="MethodParameter" Bounds="83,25.9599990844727,0,26.7075004577637" />
-    <Link Source="Microsoft.VisualStudio.Progression.QueryCompleteEventArgs" Target="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="MethodParameter" Bounds="1305.10913085938,217.304534912109,399.144165039063,48.5533142089844" />
-    <Link Source="Microsoft.VisualStudio.Progression.QueryCompleteHandler" Target="Microsoft.VisualStudio.Progression.QueryCompleteEventArgs" Category="MethodParameter" Bounds="1799.37145996094,157.335006713867,2.07568359375,22.7248077392578" />
+    <Link Source="Microsoft.VisualStudio.Progression.Action" Target="Microsoft.VisualStudio.Progression.ActionHandler" Category="Method" Bounds="834.580810546875,87.62750244140625,4.83837890625,39.727500915527344" />
+    <Link Source="Microsoft.VisualStudio.Progression.Action" Target="Microsoft.VisualStudio.Progression.ActionToDgqlTranslator" Category="Method" Bounds="860.038330078125,82.11002349853516,132.960205078125,41.2249755859375" />
+    <Link Source="Microsoft.VisualStudio.Progression.Action" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphCategory" Category="Method" Bounds="376.48321533203125,87.19339752197266,430.924072265625,40.4708251953125" />
+    <Link Source="Microsoft.VisualStudio.Progression.Action" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Category="Inherits" Bounds="627,86.26966857910156,179.4510498046875,172.46034240722656" />
+    <Link Source="Microsoft.VisualStudio.Progression.Action" Target="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="MethodParameter" Bounds="859.9942016601562,85.14035034179688,357.83074951171875,177.50869750976562" />
+    <Link Source="Microsoft.VisualStudio.Progression.ActionContext" Target="Microsoft.VisualStudio.Progression.Action" Category="Method" Bounds="860.0299682617188,84.85169219970703,59.97003173828125,108.19080352783203" />
+    <Link Source="Microsoft.VisualStudio.Progression.ActionContext" Target="Microsoft.VisualStudio.Progression.GraphModel.Graph" Category="Method" Bounds="888.6216430664062,213.47047424316406,1006.2000122070312,57.25126647949219" />
+    <Link Source="Microsoft.VisualStudio.Progression.ActionContext" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Category="Method" Bounds="711.3225708007812,219.00250244140625,111.10284423828125,41.414825439453125" />
+    <Link Source="Microsoft.VisualStudio.Progression.ActionContext" Target="Microsoft.VisualStudio.Progression.GraphModel.Link" Category="Method" Bounds="847.718505859375,219.00250244140625,10.27886962890625,35.70750427246094" />
+    <Link Source="Microsoft.VisualStudio.Progression.ActionContext" Target="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="Method" Bounds="879.7300415039062,219.00250244140625,338.09490966796875,48.661407470703125" />
+    <Link Source="Microsoft.VisualStudio.Progression.ActionContext" Target="System.Uri" Category="Method" Bounds="790.0054321289062,219.00250244140625,45.0665283203125,39.9010009765625" />
+    <Link Source="Microsoft.VisualStudio.Progression.ActionContext" Target="System.Windows.Threading.Dispatcher" Category="Method" Bounds="594.211669921875,219.00250244140625,202.92059326171875,44.20709228515625" />
+    <Link Source="Microsoft.VisualStudio.Progression.ActionHandler" Target="Microsoft.VisualStudio.Progression.ActionContext" Category="MethodParameter" Bounds="841,153.31500244140625,0,39.72749328613281" />
+    <Link Source="Microsoft.VisualStudio.Progression.ActionToDgqlTranslator" Target="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="MethodParameter" Bounds="971,157.3350067138672,246.824951171875,109.87620544433594" />
+    <Link Source="Microsoft.VisualStudio.Progression.BrowserGroup" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Category="Inherits" Bounds="654.3592529296875,219.00250244140625,10.281494140625,39.727508544921875" />
+    <Link Source="Microsoft.VisualStudio.Progression.CategoryInitialization" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphCategory" Category="MethodParameter" Bounds="250.16741943359375,87.62750244140625,58.6651611328125,39.727500915527344" />
+    <Link Source="Microsoft.VisualStudio.Progression.ChangesetSubmissionEventArgs" Target="Microsoft.VisualStudio.Progression.IChangeset" Category="Method" Bounds="1225.5450439453125,215.68238830566406,773.1527099609375,43.04762268066406" />
+    <Link Source="Microsoft.VisualStudio.Progression.ChangesetSubmittedEventHandler" Target="Microsoft.VisualStudio.Progression.ChangesetSubmissionEventArgs" Category="MethodParameter" Bounds="2112.7060546875,219.00250244140625,122.7734375,39.727508544921875" />
+    <Link Source="Microsoft.VisualStudio.Progression.ExecuteActionCompletedEventArgs" Target="Microsoft.VisualStudio.Progression.IChangeset" Category="Method" Bounds="1225.0462646484375,153.31500244140625,270.7991943359375,41.07109069824219" />
+    <Link Source="Microsoft.VisualStudio.Progression.ExecuteActionCompletedEventArgs" Target="System.ComponentModel.AsyncCompletedEventArgs" Category="Inherits" Bounds="1584.173583984375,153.31500244140625,6.65283203125,39.72749328613281" />
+    <Link Source="Microsoft.VisualStudio.Progression.ExecuteActionCompletedEventHandler" Target="Microsoft.VisualStudio.Progression.ExecuteActionCompletedEventArgs" Category="MethodParameter" Bounds="1592.6705322265625,87.62750244140625,32.658935546875,39.727500915527344" />
+    <Link Source="Microsoft.VisualStudio.Progression.IActionManager" Target="Microsoft.VisualStudio.Progression.ActionContext" Category="MethodParameter" Bounds="735.8859252929688,153.31500244140625,79.2281494140625,39.72749328613281" />
+    <Link Source="Microsoft.VisualStudio.Progression.IChangeset" Target="Microsoft.VisualStudio.Progression.ChangesetSubmissionEventArgs" Category="MethodParameter" Bounds="1224.151123046875,218.5363311767578,771.5826416015625,40.19367980957031" />
+    <Link Source="Microsoft.VisualStudio.Progression.IChangeset" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Category="Method" Bounds="710.916259765625,217.78477478027344,436.1256103515625,42.00871276855469" />
+    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="Microsoft.VisualStudio.Progression.Action" Category="Method" Bounds="788.9600219726562,25.959999084472656,33.36944580078125,35.70750045776367" />
+    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="Microsoft.VisualStudio.Progression.BrowserGroup" Category="Method" Bounds="578.5294189453125,21.344453811645508,148.87890625,171.69804191589355" />
+    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="Microsoft.VisualStudio.Progression.GraphModel.Graph" Category="Method" Bounds="822.5916748046875,14.39128589630127,1098.4083251953125,244.33872509002686" />
+    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphCategory" Category="MethodParameter" Bounds="332.21551513671875,16.285470962524414,395.19281005859375,111.06953239440918" />
+    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Category="MethodParameter" Bounds="441,25.959999084472656,296.00140380859375,235.50618743896484" />
+    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="MethodParameter" Bounds="822.5916748046875,17.240156173706055,434.4083251953125,237.46985054016113" />
+    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="Microsoft.VisualStudio.Progression.IChangeset" Category="MethodParameter" Bounds="822.5916748046875,17.710243225097656,363.4083251953125,175.3322525024414" />
+    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="Microsoft.VisualStudio.Progression.IEditingContext" Category="Method" Bounds="710.2596435546875,25.959999084472656,47.480712890625,35.70750045776367" />
+    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="Microsoft.VisualStudio.Progression.IPendingAction" Category="Method" Bounds="822.5916748046875,15.597882270812988,476.4083251953125,111.7571210861206" />
+    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="Microsoft.VisualStudio.Progression.IPendingActionIterator" Category="Method" Bounds="822.5916748046875,16.86603546142578,347.7440185546875,44.80146408081055" />
+    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="Microsoft.VisualStudio.Progression.IQueryManager" Category="Method" Bounds="822.5916748046875,15.451658248901367,539.16943359375,42.19584083557129" />
+    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="Microsoft.VisualStudio.Progression.ITranslator" Category="Method" Bounds="461.1971740722656,18.19585609436035,266.2111511230469,43.47164344787598" />
+    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="System.Uri" Category="MethodParameter" Bounds="634.58056640625,25.959999084472656,140.41943359375,232.77001190185547" />
+    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="System.Windows.Controls.Image" Category="Method" Bounds="531.880126953125,18.996536254882812,195.5281982421875,42.670963287353516" />
+    <Link Source="Microsoft.VisualStudio.Progression.IDataManager" Target="System.Windows.Media.Imaging.BitmapImage" Category="MethodParameter" Bounds="808.8878784179688,25.959999084472656,93.2242431640625,35.70750045776367" />
+    <Link Source="Microsoft.VisualStudio.Progression.IGraphError" Target="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="MethodParameter" Bounds="1058.8082275390625,219.00250244140625,159.0167236328125,45.31292724609375" />
+    <Link Source="Microsoft.VisualStudio.Progression.IPendingAction" Target="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="Method" Bounds="1262.5211181640625,153.31500244140625,32.52685546875,101.39500427246094" />
+    <Link Source="Microsoft.VisualStudio.Progression.IPendingActionIterator" Target="Microsoft.VisualStudio.Progression.IPendingAction" Category="MethodParameter" Bounds="1218.1553955078125,87.62750244140625,61.0843505859375,39.727500915527344" />
+    <Link Source="Microsoft.VisualStudio.Progression.IProgressionBrowser" Target="Microsoft.VisualStudio.Progression.GraphModel.Graph" Category="Method" Bounds="1945.501220703125,219.00250244140625,77.4033203125,40.034881591796875" />
+    <Link Source="Microsoft.VisualStudio.Progression.IQueryExecutor" Target="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="Method" Bounds="1296.175048828125,223.0225067138672,120.652587890625,41.53941345214844" />
+    <Link Source="Microsoft.VisualStudio.Progression.IQueryManager" Target="Microsoft.VisualStudio.Progression.IQueryExecutor" Category="MethodParameter" Bounds="1390.688720703125,91.64749908447266,5.311279296875,97.37500762939453" />
+    <Link Source="Microsoft.VisualStudio.Progression.IQueryManager" Target="Microsoft.VisualStudio.Progression.QueryCompleteHandler" Category="MethodParameter" Bounds="1461.7916259765625,86.52027130126953,254.0533447265625,41.09252166748047" />
+    <Link Source="Microsoft.VisualStudio.Progression.ITranslator" Target="Microsoft.VisualStudio.Progression.IDataManager" Category="Method" Bounds="430.3712158203125,17.00278663635254,297.037109375,44.66471290588379" />
+    <Link Source="Microsoft.VisualStudio.Progression.ITranslator" Target="System.Windows.Threading.Dispatcher" Category="Method" Bounds="409,87.62750244140625,108.788330078125,175.54498291015625" />
+    <Link Source="Microsoft.VisualStudio.Progression.IVSGraphControl" Target="Microsoft.VisualStudio.Progression.GraphModel.Graph" Category="Method" Bounds="1947.1783447265625,153.31500244140625,195.8216552734375,109.103271484375" />
+    <Link Source="Microsoft.VisualStudio.Progression.IVSGraphControl" Target="Microsoft.VisualStudio.Progression.IProgressionBrowser" Category="Method" Bounds="2048,153.31500244140625,0,39.72749328613281" />
+    <Link Source="Microsoft.VisualStudio.Progression.IVsProgression" Target="Microsoft.VisualStudio.Progression.ExecuteActionCompletedEventHandler" Category="MethodParameter" Bounds="1692.5142822265625,25.959999084472656,86.4857177734375,35.70750045776367" />
+    <Link Source="Microsoft.VisualStudio.Progression.IVsProgression" Target="Microsoft.VisualStudio.Progression.GraphModel.Graph" Category="Method" Bounds="1827.8533935546875,21.072736740112305,125.1466064453125,237.65727424621582" />
+    <Link Source="Microsoft.VisualStudio.Progression.IVsProgression" Target="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="MethodParameter" Bounds="1296.175048828125,17.903553009033203,433.9715576171875,248.06245040893555" />
+    <Link Source="Microsoft.VisualStudio.Progression.IVsProgression" Target="Microsoft.VisualStudio.Progression.QueryCompleteHandler" Category="MethodParameter" Bounds="1793.4102783203125,25.959999084472656,17.5897216796875,97.375" />
+    <Link Source="Microsoft.VisualStudio.Progression.LinkCategories" Target="Microsoft.VisualStudio.Progression.CategoryInitialization" Category="MethodParameter" Bounds="231,25.959999084472656,0,35.70750045776367" />
+    <Link Source="Microsoft.VisualStudio.Progression.LinkCategories" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphCategory" Category="Field" Bounds="274.68133544921875,25.959999084472656,53.31866455078125,101.39500427246094" />
+    <Link Source="Microsoft.VisualStudio.Progression.LinkCategories" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphMetadata" Category="MethodParameter" Bounds="98.08735656738281,25.455387115478516,85.37905883789062,36.21211242675781" />
+    <Link Source="Microsoft.VisualStudio.Progression.NavigationPath" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphObject" Category="Inherits" Bounds="550.8499145507812,219.00250244140625,88.3001708984375,39.727508544921875" />
+    <Link Source="Microsoft.VisualStudio.Progression.NodeCategories" Target="Microsoft.VisualStudio.Progression.CategoryInitialization" Category="MethodParameter" Bounds="114.15158081054688,25.959999084472656,85.69683837890625,35.70750045776367" />
+    <Link Source="Microsoft.VisualStudio.Progression.NodeCategories" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphCategory" Category="Field" Bounds="1,25.959999084472656,276.84332275390625,109.33728790283203" />
+    <Link Source="Microsoft.VisualStudio.Progression.NodeCategories" Target="Microsoft.VisualStudio.Progression.GraphModel.GraphMetadata" Category="MethodParameter" Bounds="83,25.959999084472656,0,35.70750045776367" />
+    <Link Source="Microsoft.VisualStudio.Progression.QueryCompleteEventArgs" Target="Microsoft.VisualStudio.Progression.GraphModel.Node" Category="MethodParameter" Bounds="1296.175048828125,217.30453491210938,408.0782470703125,49.64007568359375" />
+    <Link Source="Microsoft.VisualStudio.Progression.QueryCompleteHandler" Target="Microsoft.VisualStudio.Progression.QueryCompleteEventArgs" Category="MethodParameter" Bounds="1798.5528564453125,157.3350067138672,2.894287109375,31.6875" />
   </Links>
   <Categories>
     <Category Id="Comment" Label="Comment" Description="Represents a user defined comment on the diagram" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Comments" />
@@ -122,17 +122,20 @@
     <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
     <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
     <Property Id="Expression" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
     <Property Id="GroupLabel" DataType="System.String" />
     <Property Id="HorizontalAlignment" DataType="System.Windows.HorizontalAlignment" />
     <Property Id="IsEnabled" DataType="System.Boolean" />
     <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
     <Property Id="IsTag" DataType="System.Boolean" />
     <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
     <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="Offset" DataType="System.String" />
     <Property Id="TargetType" DataType="System.Type" />
-    <Property Id="UseManualLocation" DataType="System.Boolean" />
     <Property Id="Value" DataType="System.String" />
     <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="ZoomLevel" DataType="System.String" />
   </Properties>
   <Styles>
     <Style TargetType="Node" GroupLabel="Obsolete" ValueLabel="Has category">

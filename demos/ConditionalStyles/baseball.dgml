@@ -1,124 +1,124 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DirectedGraph Layout="ForceDirected" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+<DirectedGraph GraphDirection="BottomToTop" Layout="ForceDirected" Offset="-529.3856201171875,-162.56634521484375" ZoomLevel="Fit" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
     <Node Id="Adam Platt" Category="Medium" IsHiddenByHub="True" Visibility="Hidden" />
-    <Node Id="Adam Riggs" Category="Medium" Bounds="144.2901,373.972944041058,83.8466666666667,25.96" IsHub="True" />
-    <Node Id="Andy Pettitte" Bounds="689.188123372396,56.4092370714271,88.6933333333334,25.96" Label="Andy Pettitte" UseManualLocation="True" />
-    <Node Id="Bart Miadich" Bounds="112.857238687499,298.57947895392,86.61,25.96" Label="Bart Miadich" />
-    <Node Id="Brendan Donnelly" Bounds="7.105427357601E-15,372.046188068848,114.29,25.96" Label="Brendan Donnelly" />
-    <Node Id="Brian McNamee" Category="Medium" Bounds="598.625721842448,112.369337071427,104.436666666667,25.96" ErrorMessage="Node 'Brian McNamee' has a hub value of 8." Hub="8" IsHub="True" />
-    <Node Id="Brian Roberts" Bounds="850.769389022103,699.417653019908,90.6633333333333,25.96" Label="Brian Roberts" />
-    <Node Id="Chad Allen" Bounds="739.569451904297,224.289537071427,77.3000000000001,25.96" Label="Chad Allen" />
-    <Node Id="Chris Donnels" Category="Hub" Bounds="680.013601074219,280.249637071427,92.98,25.96" IsHub="True" />
-    <Node Id="Chuck Knoblauch" Bounds="584.520683613711,0,111.773333333333,25.96" Label="Chuck Knoblauch" />
-    <Node Id="Cody McKay" Category="Leaf" Bounds="443.793406575521,280.249637071427,85.8133333333333,25.96" />
-    <Node Id="David Justice" Category="Hub" Bounds="538.781538492839,168.329437071427,88.4866666666667,25.96" />
-    <Node Id="David Segui" Category="Hub" Bounds="675.508668212891,616.010237071427,82.9399999999999,25.96" ErrorMessage="Node 'David Segui' has a hub value of 10." Hub="10" IsHub="True" />
-    <Node Id="Denny Neagle" Category="Hub" Bounds="741.001278889974,392.169837071427,94.9733333333334,25.96" IsHub="True" />
-    <Node Id="Eric Gagné" Bounds="258.136866666666,358.99052972556,76.4533333333334,25.96" Label="Eric Gagné" />
+    <Node Id="Adam Riggs" Category="Medium" Bounds="144.29009999999994,373.95873235675464,83.8466666666668,25.960000000000036" IsHub="True" />
+    <Node Id="Andy Pettitte" Bounds="673.6264966827839,55.960000000000036,88.69333333333316,25.960000000000022" Label="Andy Pettitte" />
+    <Node Id="Bart Miadich" Bounds="112.74134224952559,298.6123336124355,86.61000000000013,25.960000000000036" Label="Bart Miadich" />
+    <Node Id="Brendan Donnelly" Bounds="0,372.03249507299165,114.28999999999996,25.960000000000036" Label="Brendan Donnelly" />
+    <Node Id="Brian McNamee" Category="Medium" Bounds="598.592248946883,111.92000000000013,104.43666666666695,25.960000000000008" ErrorMessage="Node 'Brian McNamee' has a hub value of 8." Hub="8" IsHub="True" />
+    <Node Id="Brian Roberts" Bounds="850.7703418465946,699.2933528119843,90.66333333333341,25.960000000000036" Label="Brian Roberts" />
+    <Node Id="Chad Allen" Bounds="739.6221212956049,223.8400000000001,77.30000000000018,25.960000000000036" Label="Chad Allen" />
+    <Node Id="Chris Donnels" Category="Hub" Bounds="680.1243357073197,279.8000000000002,92.98000000000002,25.960000000000036" IsHub="True" />
+    <Node Id="Chuck Knoblauch" Bounds="584.447898280052,0,111.77333333333308,25.959999999999994" Label="Chuck Knoblauch" />
+    <Node Id="Cody McKay" Category="Leaf" Bounds="443.90413570731965,279.8000000000001,85.81333333333333,25.960000000000036" />
+    <Node Id="David Justice" Category="Hub" Bounds="538.7694785517408,167.88000000000005,88.48666666666668,25.960000000000036" />
+    <Node Id="David Segui" Category="Hub" Bounds="675.4746928336998,615.5600000000004,82.94000000000005,25.960000000000036" ErrorMessage="Node 'David Segui' has a hub value of 10." Hub="10" IsHub="True" />
+    <Node Id="Denny Neagle" Category="Hub" Bounds="741.0520338384862,391.7200000000002,94.97333333333336,25.960000000000036" IsHub="True" />
+    <Node Id="Eric Gagné" Bounds="258.1368666666665,358.95018255561035,76.45333333333338,25.960000000000036" Label="Eric Gagné" />
     <Node Id="F P Santangelo" Category="Medium" IsHiddenByHub="True" Visibility="Hidden" />
-    <Node Id="Fernando Vina" Category="Leaf" Bounds="548.871943766276,616.010237071427,96.6366666666667,25.96" />
-    <Node Id="Gary Bennett Jr" Bounds="807.239025057918,335.76,100.496666666667,25.96" Label="Gary Bennett Jr" />
+    <Node Id="Fernando Vina" Category="Leaf" Bounds="548.8379261670332,615.5600000000004,96.63666666666677,25.960000000000036" />
+    <Node Id="Gary Bennett Jr" Bounds="807.3095546515367,335.7600000000002,100.4966666666669,25.960000000000036" Label="Gary Bennett Jr" />
     <Node Id="Glenallen Hill" Category="Leaf" IsHiddenByHub="True" Visibility="Hidden" />
-    <Node Id="Gregg Zaun" Bounds="675.788802083333,168.329437071427,82.6333333333333,25.96" Label="Gregg Zaun" />
-    <Node Id="Hal Morris" Category="Leaf" Bounds="425.168972981771,336.209737071427,74.9733333333333,25.96" />
-    <Node Id="Howie Clark" Bounds="734.593897738646,811.993712635645,83.2733333333333,25.96" Label="Howie Clark" />
-    <Node Id="Jack Cust" Bounds="798.615775224793,756.033712635645,68.5633333333333,25.96" Label="Jack Cust" />
-    <Node Id="Jason Christiansen" Category="Leaf" Bounds="677.583817952474,504.090037071427,117.013333333333,25.96" />
-    <Node Id="Jason Grimsley" Category="Hub" Bounds="611.246017659505,224.289537071427,98.3233333333334,25.96" IsHub="True" />
-    <Node Id="Jeff Williams" Bounds="131.507998872163,606.995575072991,85.7333333333333,25.96" Label="Jeff Williams" />
-    <Node Id="Jerry Hairston Jr" Category="Medium" Bounds="604.052522355437,677.139487639728,104.43,25.96" />
-    <Node Id="Jim Parque" Category="Leaf" Bounds="399.553611857096,392.169837071427,77.5366666666667,25.96" />
-    <Node Id="Josias Manzanillo" Category="Leaf" Bounds="469.699246622721,224.289537071427,111.546666666667,25.96" />
-    <Node Id="Kent Mercker" Bounds="559.606816813151,280.249637071427,90.4066666666666,25.96" Label="Kent Mercker" />
-    <Node Id="Kevin Brown" Bounds="112.605590542892,446.465497615904,85.3566666666667,25.96" Label="Kevin Brown" />
-    <Node Id="Kevin Young" Category="Leaf" Bounds="408.901454060872,504.090037071427,85.0633333333333,25.96" />
-    <Node Id="Kirk Radomski" Category="Root" Bounds="541.995806582151,417.946627676427,94.97,25.96" ErrorMessage="Node 'Kirk Radomski' has a hub value of 42." Hub="42" IsHub="True" />
-    <Node Id="Larry Bigbie" Category="Medium" Bounds="738.482622355437,700.073712635645,82.2866666666666,25.96" IsHub="True" />
-    <Node Id="Lenny Dykstra" Category="Leaf" Bounds="657.032895100911,560.050137071427,94.2233333333334,25.96" />
-    <Node Id="Mark Carreon" Category="Leaf" Bounds="708.479377848307,448.129937071427,92.2866666666666,25.96" />
-    <Node Id="Matt Franco" Category="Leaf" Bounds="682.143419596354,336.209737071427,83.8066666666666,25.96" />
-    <Node Id="Matt Herges" Bounds="270.634536806493,528.536367056484,85.71,25.96" IsHub="True" Label="Matt Herges" />
+    <Node Id="Gregg Zaun" Bounds="675.8047608113595,167.88,82.63333333333321,25.960000000000036" Label="Gregg Zaun" />
+    <Node Id="Hal Morris" Category="Leaf" Bounds="425.2169189408918,335.76000000000016,74.97333333333336,25.960000000000036" />
+    <Node Id="Howie Clark" Bounds="734.5854732389934,811.907267781445,83.27333333333331,25.960000000000036" Label="Howie Clark" />
+    <Node Id="Jack Cust" Bounds="798.6153979693618,755.9472677814449,68.56333333333328,25.960000000000036" Label="Jack Cust" />
+    <Node Id="Jason Christiansen" Category="Leaf" Bounds="677.6353018098902,503.6400000000003,117.01333333333287,25.960000000000036" />
+    <Node Id="Jason Grimsley" Category="Hub" Bounds="611.2986879622713,223.8400000000001,98.32333333333327,25.960000000000036" IsHub="True" />
+    <Node Id="Jeff Williams" Bounds="131.3730984214369,606.9037941027684,85.73333333333335,25.960000000000036" Label="Jeff Williams" />
+    <Node Id="Jerry Hairston Jr" Category="Medium" Bounds="604.0534751799281,677.1690111357033,104.42999999999995,25.960000000000036" />
+    <Node Id="Jim Parque" Category="Leaf" Bounds="399.6009725431658,391.7200000000002,77.53666666666663,25.960000000000036" />
+    <Node Id="Josias Manzanillo" Category="Leaf" Bounds="469.75192129560446,223.84000000000012,111.54666666666708,25.960000000000065" />
+    <Node Id="Kent Mercker" Bounds="559.717569040653,279.8000000000002,90.40666666666675,25.960000000000036" Label="Kent Mercker" />
+    <Node Id="Kevin Brown" Bounds="112.62355834038965,446.4161787222065,85.35666666666657,25.960000000000036" Label="Kevin Brown" />
+    <Node Id="Kevin Young" Category="Leaf" Bounds="408.95015156774247,503.6400000000003,85.06333333333333,25.960000000000036" />
+    <Node Id="Kirk Radomski" Category="Root" Bounds="542.0408426461948,417.94657912488805,94.97000000000003,25.960000000000036" ErrorMessage="Node 'Kirk Radomski' has a hub value of 42." Hub="42" IsHub="True" />
+    <Node Id="Larry Bigbie" Category="Medium" Bounds="738.4835751799276,699.9872677814449,82.28666666666663,25.960000000000036" IsHub="True" />
+    <Node Id="Lenny Dykstra" Category="Leaf" Bounds="657.1724011446598,559.6000000000004,94.22333333333336,25.960000000000036" />
+    <Node Id="Mark Carreon" Category="Leaf" Bounds="708.5300101893813,447.6800000000003,92.28666666666663,25.960000000000036" />
+    <Node Id="Matt Franco" Category="Leaf" Bounds="682.1835602398725,335.7600000000002,83.80666666666662,25.960000000000036" />
+    <Node Id="Matt Herges" Bounds="270.6205387637185,528.5041408288764,85.71000000000004,25.960000000000036" IsHub="True" Label="Matt Herges" />
     <Node Id="Miguel Tejada" IsHiddenByHub="True" Label="Miguel Tejada" Visibility="Hidden" />
-    <Node Id="Mike Bell" Category="Leaf" Bounds="558.852803771409,558.850188669147,68.1800000000001,25.96" />
-    <Node Id="Mike Judd" Bounds="54.837670139827,530.150889478321,74.4166666666667,25.96" Label="Mike Judd" />
-    <Node Id="Mike Lansing" Category="Medium" Bounds="788.448790662507,615.553021396326,89.6133333333333,25.96" />
-    <Node Id="Mike Stanton" Category="Leaf" Bounds="438.80604288737,560.050137071427,90.0466666666666,25.96" />
+    <Node Id="Mike Bell" Category="Leaf" Bounds="558.9923011446598,558.8492301238587,68.18000000000006,25.960000000000036" />
+    <Node Id="Mike Judd" Bounds="54.82367209705171,530.0907017562123,74.41666666666674,25.960000000000036" Label="Mike Judd" />
+    <Node Id="Mike Lansing" Category="Medium" Bounds="788.4147928337001,615.5613219685481,89.61333333333323,25.960000000000036" />
+    <Node Id="Mike Stanton" Category="Leaf" Bounds="438.9455344779931,559.6000000000004,90.04666666666662,25.960000000000036" />
     <Node Id="Mo Vaughn" IsHiddenByHub="True" Label="Mo Vaughn" Visibility="Hidden" />
     <Node Id="Nock Logan" IsHiddenByHub="True" Label="Nock Logan" Visibility="Hidden" />
-    <Node Id="Paul Lo Duca" Category="Medium" Bounds="227.962357209559,447.413051524846,88.22,25.96" ErrorMessage="Node 'Paul Lo Duca' has a hub value of 10." Hub="10" IsHub="True" />
+    <Node Id="Paul Lo Duca" Category="Medium" Bounds="227.9803250070563,447.37743176828553,88.22000000000003,25.960000000000036" ErrorMessage="Node 'Paul Lo Duca' has a hub value of 10." Hub="10" IsHub="True" />
     <Node Id="Phil Hiatt" Category="Leaf" IsHiddenByHub="True" Visibility="Hidden" />
     <Node Id="Ricky Stone" IsHiddenByHub="True" Label="Ricky Stone" Visibility="Hidden" />
     <Node Id="Roger Clemens" IsHiddenByHub="True" Label="Roger Clemens" Visibility="Hidden" />
-    <Node Id="Ron Villone" Category="Medium" Bounds="865.974730297809,391.720256590659,80.2033333333334,25.96" IsHub="True" />
-    <Node Id="Rondell White" Category="Leaf" Bounds="424.53182800293,616.010237071427,94.34,25.96" IsHub="True" />
+    <Node Id="Ron Villone" Category="Medium" Bounds="866.0254671718194,391.72199470148126,80.20333333333338,25.960000000000036" IsHub="True" />
+    <Node Id="Rondell White" Category="Leaf" Bounds="424.4978261670331,615.5600000000004,94.33999999999986,25.960000000000036" IsHub="True" />
     <Node Id="Ryan Franklin" IsHiddenByHub="True" Label="Ryan Franklin" Visibility="Hidden" />
     <Node Id="Stephen Randolph" IsHiddenByHub="True" Label="Stephen Randolph" Visibility="Hidden" />
     <Node Id="Tim Laker" IsHiddenByHub="True" Label="Tim Laker" Visibility="Hidden" />
-    <Node Id="Todd Hundley" Category="Hub" Bounds="346.182461751302,448.129937071427,93.7233333333334,25.96" IsHub="True" />
+    <Node Id="Todd Hundley" Category="Hub" Bounds="346.2004250070562,447.68000000000023,93.72333333333336,25.960000000000036" IsHub="True" />
     <Node Id="Todd Pratt" Category="Leaf" IsHiddenByHub="True" Visibility="Hidden" />
-    <Node Id="Todd Seyler" Category="Medium" Bounds="159.254436806494,526.328211120659,81.38,25.96" ErrorMessage="Node 'Todd Seyler' has a hub value of 8." Hub="8" IsHub="True" />
+    <Node Id="Todd Seyler" Category="Medium" Bounds="159.24043876371843,526.2752762844797,81.38000000000011,25.960000000000036" ErrorMessage="Node 'Todd Seyler' has a hub value of 8." Hub="8" IsHub="True" />
     <Node Id="Todd Williams" Category="Leaf" IsHiddenByHub="True" Visibility="Hidden" />
   </Nodes>
   <Links>
     <Link Source="Adam Platt" Target="Miguel Tejada" />
-    <Link Source="Adam Riggs" Target="Bart Miadich" Bounds="164.668318728205,332.899823527086,16.3713968823508,41.0731205139726" />
-    <Link Source="Adam Riggs" Target="Brendan Donnelly" Bounds="123.288997340935,386.013597140231,21.0011026590655,0.313508105168069" />
-    <Link Source="Brian McNamee" Target="Andy Pettitte" Bounds="670.024252111194,87.4133972277944,36.8767211794443,24.9559398436327" />
-    <Link Source="Brian McNamee" Target="Chuck Knoblauch" Bounds="642.445237930068,34.9214299491955,7.19325304193296,77.4479071222316" />
-    <Link Source="Brian McNamee" Target="David Justice" Bounds="605.697491331586,138.329337071427,29.4158378469594,24.2720886067573" />
-    <Link Source="Brian McNamee" Target="Jason Grimsley" Bounds="651.953201749609,138.329337071427,6.57907458437774,76.9928791381854" />
+    <Link Source="Adam Riggs" Target="Bart Miadich" Bounds="161.24325741459634,324.57233361243584,19.773260753666023,49.3863987443188" />
+    <Link Source="Adam Riggs" Target="Brendan Donnelly" Bounds="114.28999999999962,385.8653359012084,30.000100000000202,0.44772613755509383" />
+    <Link Source="Brian McNamee" Target="Andy Pettitte" Bounds="666.3890365739738,81.92000000000007,36.005672481719444,30.00000000000017" />
+    <Link Source="Brian McNamee" Target="Chuck Knoblauch" Bounds="641.5495283579841,25.960000000000036,8.046090510967474,85.9600000000002" />
+    <Link Source="Brian McNamee" Target="David Justice" Bounds="598.7385992283364,137.8800000000001,36.34619570861821,29.999999999999943" />
+    <Link Source="Brian McNamee" Target="Jason Grimsley" Bounds="651.9297213535406,137.8800000000001,7.411494202073641,85.95999999999998" />
     <Link Source="Brian McNamee" Target="Roger Clemens" />
-    <Link Source="Chris Donnels" Target="Chad Allen" Bounds="738.499143322614,256.859212839361,21.6163961543627,23.3904242320658" />
+    <Link Source="Chris Donnels" Target="Chad Allen" Bounds="738.5964310778689,249.80000000000018,27.693594847186546,30" />
     <Link Source="Chris Donnels" Target="Stephen Randolph" />
     <Link Source="David Segui" Target="F P Santangelo" />
-    <Link Source="David Segui" Target="Jerry Hairston Jr" Bounds="675.500850074512,641.970237071427,28.5866002013171,28.7834766602103" />
-    <Link Source="David Segui" Target="Larry Bigbie" Bounds="726.651864930052,641.970237071427,37.9229003838391,50.8869261501686" />
-    <Link Source="David Segui" Target="Mike Lansing" Bounds="758.448668212891,628.74461168111,21.000197334722,0.0825702797037593" />
+    <Link Source="David Segui" Target="Jerry Hairston Jr" Bounds="669.0519510161365,641.5200000000004,35.10926598135484,35.649011135702835" />
+    <Link Source="David Segui" Target="Larry Bigbie" Bounds="726.5815694128033,641.5200000000004,43.40846252135441,58.467267781444434" />
+    <Link Source="David Segui" Target="Mike Lansing" Bounds="758.4146928336999,628.5404714788456,30.000100000000316,0.00034107577789654897" />
     <Link Source="David Segui" Target="Tim Laker" />
-    <Link Source="Denny Neagle" Target="Gary Bennett Jr" Bounds="804.364824685311,367.416470643889,30.2778279505163,24.753366427538" />
-    <Link Source="Denny Neagle" Target="Ron Villone" Bounds="835.974612223307,404.887979632766,21.0001723925366,0.0802935488000003" />
+    <Link Source="Denny Neagle" Target="Gary Bennett Jr" Bounds="804.5477972436577,361.72000000000025,37.00099400270756,30" />
+    <Link Source="Denny Neagle" Target="Ron Villone" Bounds="836.0253671718192,404.7008055360691,30.000100000000202,0.000508904168555091" />
     <Link Source="F P Santangelo" Target="Adam Platt" />
     <Link Source="Glenallen Hill" Target="Mo Vaughn" />
-    <Link Source="Jason Grimsley" Target="Gregg Zaun" Bounds="673.558790950736,200.611591317504,23.9900762142134,23.6779457539228" />
-    <Link Source="Kirk Radomski" Target="Chris Donnels" Bounds="600.667297363281,312.240417480469,104.777282714844,105.706207275391" />
-    <Link Source="Kirk Radomski" Target="Cody McKay" Bounds="501.772186985685,313.421988029308,78.0199964150493,104.52463245409" />
-    <Link Source="Kirk Radomski" Target="David Justice" Bounds="555.584411621094,203.248046875,30.81787109375,214.698577880859" />
-    <Link Source="Kirk Radomski" Target="David Segui" Bounds="593.99169921875,443.906616210938,87.1434936523438,168.284118652344" />
-    <Link Source="Kirk Radomski" Target="Denny Neagle" Bounds="636.965804443359,412.456723805189,95.1100350686938,12.3193105561733" />
-    <Link Source="Kirk Radomski" Target="Fernando Vina" Bounds="593.873657226563,443.906616210938,43.2933349609375,165.325805664063" />
+    <Link Source="Jason Grimsley" Target="Gregg Zaun" Bounds="673.6029694534765,193.84000000000023,30.37584320001133,29.999999999999858" />
+    <Link Source="Kirk Radomski" Target="Chris Donnels" Bounds="600.6793823242188,305.760009765625,111.59393310546875,112.18658447265625" />
+    <Link Source="Kirk Radomski" Target="Cody McKay" Bounds="496.46171976317476,305.7600000000002,83.4132054938317,112.18657912488783" />
+    <Link Source="Kirk Radomski" Target="David Justice" Bounds="555.6861572265625,193.83999633789062,30.7432861328125,224.10659790039062" />
+    <Link Source="Kirk Radomski" Target="David Segui" Bounds="594.0565185546875,443.9065856933594,95.2625732421875,171.65341186523438" />
+    <Link Source="Kirk Radomski" Target="Denny Neagle" Bounds="637.010842646195,410.95795154197117,104.0411911922912,13.710895679846146" />
+    <Link Source="Kirk Radomski" Target="Fernando Vina" Bounds="593.9274291992188,443.9065856933594,43.37908935546875,171.65341186523438" />
     <Link Source="Kirk Radomski" Target="Glenallen Hill" />
-    <Link Source="Kirk Radomski" Target="Hal Morris" Bounds="490.360760140285,367.045264460006,78.9799243190407,50.9013560233927" />
-    <Link Source="Kirk Radomski" Target="Jason Christiansen" Bounds="611.571797859403,443.906620483398,94.6680295009276,55.6240726607447" />
-    <Link Source="Kirk Radomski" Target="Jason Grimsley" Bounds="597.485961914063,259.249481201172,62.8494262695313,158.697143554688" />
-    <Link Source="Kirk Radomski" Target="Jim Parque" Bounds="485.96220633534,413.273824638489,56.0335981080198,9.55528461489024" />
-    <Link Source="Kirk Radomski" Target="Josias Manzanillo" Bounds="532.587206716553,258.794862590747,52.6034021955754,159.151757892652" />
-    <Link Source="Kirk Radomski" Target="Kent Mercker" Bounds="590.925824532371,315.154378864585,11.4435172676192,102.792241618814" />
-    <Link Source="Kirk Radomski" Target="Kevin Young" Bounds="479.869374586898,443.906620483398,88.8105491205516,55.41885183711" />
-    <Link Source="Kirk Radomski" Target="Lenny Dykstra" Bounds="599.954405701118,443.906620483398,88.0648671612826,109.139344493054" />
-    <Link Source="Kirk Radomski" Target="Mark Carreon" Bounds="636.965804443359,439.605548906176,62.66023421489,11.452536331589" />
-    <Link Source="Kirk Radomski" Target="Matt Franco" Bounds="610.850178200234,366.842049177585,84.1350296547608,51.1045713058133" />
-    <Link Source="Kirk Radomski" Target="Mike Bell" Bounds="589.799720730596,443.906620483398,2.6030808415577,105.94626450767" />
-    <Link Source="Kirk Radomski" Target="Mike Stanton" Bounds="498.84959902597,443.906620483398,80.9808070932874,108.920983442277" />
+    <Link Source="Kirk Radomski" Target="Hal Morris" Bounds="482.7330467907532,361.72000000000025,86.76333467224686,56.22657912488785" />
+    <Link Source="Kirk Radomski" Target="Jason Christiansen" Bounds="611.7338172356515,443.90657912488814,102.20017665144849,59.73342087511219" />
+    <Link Source="Kirk Radomski" Target="Jason Grimsley" Bounds="597.5071411132812,249.8000030517578,62.9200439453125,168.14659118652344" />
+    <Link Source="Kirk Radomski" Target="Jim Parque" Bounds="477.1376392098325,411.42654179194307,64.90320343636233,11.261100821434752" />
+    <Link Source="Kirk Radomski" Target="Josias Manzanillo" Bounds="529.805004631278,249.80000000000018,55.44108801257653,168.14657912488786" />
+    <Link Source="Kirk Radomski" Target="Kent Mercker" Bounds="590.9723343112985,305.7600000000002,12.502076397584233,112.18657912488783" />
+    <Link Source="Kirk Radomski" Target="Kevin Young" Bounds="472.3913748674246,443.90657912488814,96.22491114575485,59.73342087511219" />
+    <Link Source="Kirk Radomski" Target="Lenny Dykstra" Bounds="600.0413794644456,443.90657912488814,93.7271515286302,115.69342087511222" />
+    <Link Source="Kirk Radomski" Target="Mark Carreon" Bounds="637.010842646195,439.4758546680305,71.51916754318631,12.876425606883402" />
+    <Link Source="Kirk Radomski" Target="Matt Franco" Bounds="610.7775173068294,361.72000000000014,92.05770160574207,56.22657912488796" />
+    <Link Source="Kirk Radomski" Target="Mike Bell" Bounds="589.853464809318,443.90657912488814,2.9012141722187152,114.94265099897052" />
+    <Link Source="Kirk Radomski" Target="Mike Stanton" Bounds="493.64127476692374,443.90657912488814,86.21216092367376,115.69342087511222" />
     <Link Source="Kirk Radomski" Target="Phil Hiatt" />
-    <Link Source="Kirk Radomski" Target="Rondell White" Bounds="506.379241943359,443.906616210938,79.1346130371094,168.155517578125" />
+    <Link Source="Kirk Radomski" Target="Rondell White" Bounds="498.3260803222656,443.9065856933594,87.22940063476562,171.65341186523438" />
     <Link Source="Kirk Radomski" Target="Todd Pratt" />
     <Link Source="Kirk Radomski" Target="Todd Williams" />
-    <Link Source="Larry Bigbie" Target="Brian Roberts" Bounds="820.769289022103,712.703681679194,21.0002427652818,0.118286322132235" />
-    <Link Source="Larry Bigbie" Target="Howie Clark" Bounds="776.897260683712,726.033712635645,2.33491213462116,76.9641388254513" />
-    <Link Source="Larry Bigbie" Target="Jack Cust" Bounds="791.982351166091,726.033712635645,22.353249688283,23.4813770315493" />
-    <Link Source="Paul Lo Duca" Target="Adam Riggs" Bounds="208.227705986798,405.783025724572,48.6697165706097,41.6300258002744" />
-    <Link Source="Paul Lo Duca" Target="Eric Gagné" Bounds="275.638184780076,393.629005721133,14.7753954838881,53.7840458037132" />
-    <Link Source="Paul Lo Duca" Target="Kevin Brown" Bounds="206.961960999868,459.8647833678,21.0003962096909,0.170385088230603" />
-    <Link Source="Paul Lo Duca" Target="Matt Herges" Bounds="278.699243544826,473.373051524846,24.0709997150039,47.1475683290303" />
-    <Link Source="Paul Lo Duca" Target="Todd Hundley" Bounds="316.182364807129,460.654449652056,21.0002549718505,0.124448770024173" />
+    <Link Source="Larry Bigbie" Target="Brian Roberts" Bounds="820.7702418465949,712.5434218833188,30.000099999999748,0.17872934623210313" />
+    <Link Source="Larry Bigbie" Target="Howie Clark" Bounds="776.6170103177994,725.9472677814449,2.615027783322148,85.96000000000004" />
+    <Link Source="Larry Bigbie" Target="Jack Cust" Bounds="791.9829954766907,725.9472677814449,28.55798219590804,30" />
+    <Link Source="Paul Lo Duca" Target="Adam Riggs" Bounds="201.39596942916955,399.91873235675473,55.51181948205033,47.4586994115308" />
+    <Link Source="Paul Lo Duca" Target="Eric Gagné" Bounds="275.653324499637,384.91018255561045,17.147209341115513,62.46724921267503" />
+    <Link Source="Paul Lo Duca" Target="Kevin Brown" Bounds="197.98022500705605,459.7474521895126,30.00010000000026,0.2469224621359558" />
+    <Link Source="Paul Lo Duca" Target="Matt Herges" Bounds="278.7118197130756,473.3374317682856,28.142224344623457,55.16670906059079" />
+    <Link Source="Paul Lo Duca" Target="Todd Hundley" Bounds="316.2003250070561,460.4677573844908,30.00010000000009,0.07503467510127848" />
     <Link Source="Ron Villone" Target="Ryan Franklin" />
     <Link Source="Rondell White" Target="Nock Logan" />
-    <Link Source="Todd Hundley" Target="Kirk Radomski" Bounds="439.905795084635,439.589735677414,93.1944075857423,14.3197103784766" />
-    <Link Source="Todd Seyler" Target="Jeff Williams" Bounds="181.208490634864,552.288211120659,14.6215730869904,46.1280527470135" />
-    <Link Source="Todd Seyler" Target="Matt Herges" Bounds="240.634436806494,540.099525453278,21.0018014219493,0.408430240256052" />
-    <Link Source="Todd Seyler" Target="Mike Judd" Bounds="138.248693818204,540.749796300054,21.0057429882899,0.744201714772544" />
-    <Link Source="Todd Seyler" Target="Paul Lo Duca" Bounds="211.808068732564,480.016278431278,42.3287922351107,46.311932689381" />
+    <Link Source="Todd Hundley" Target="Kirk Radomski" Bounds="439.92375834038955,438.1131032712816,102.11708430580529,15.454709742507475" />
+    <Link Source="Todd Seyler" Target="Jeff Williams" Bounds="178.37558394392096,552.2352762844797,17.419035963980036,54.668517818288706" />
+    <Link Source="Todd Seyler" Target="Matt Herges" Bounds="240.62043876371825,540.0540117500481,30.00010000000026,0.588895154598049" />
+    <Link Source="Todd Seyler" Target="Mike Judd" Bounds="129.2403387637181,540.6941262997082,30.00010000000026,1.0608415911000293" />
+    <Link Source="Todd Seyler" Target="Paul Lo Duca" Bounds="211.80193321558863,473.3374317682856,48.4168973395972,52.93784451619405" />
     <Link Source="Todd Seyler" Target="Ricky Stone" />
   </Links>
   <Categories>
@@ -131,6 +131,7 @@
     <Property Id="Bounds" DataType="System.Windows.Rect" />
     <Property Id="ErrorMessage" Label="Error" Description="Error" DataType="System.String" />
     <Property Id="Expression" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
     <Property Id="GroupLabel" DataType="System.String" />
     <Property Id="Hub" Label="Hub" Description="Node is in the top 10% of highly connected nodes" DataType="System.Int32" />
     <Property Id="IsEnabled" DataType="System.Boolean" />
@@ -138,11 +139,12 @@
     <Property Id="IsHub" Label="Hub" Description="Node is in the top 25% of highly connected nodes.  Other nodes not directly connecting these hubs have been hidden to simplify the graph." DataType="System.Boolean" />
     <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
     <Property Id="Layout" DataType="System.String" />
+    <Property Id="Offset" DataType="System.String" />
     <Property Id="TargetType" DataType="System.Type" />
-    <Property Id="UseManualLocation" DataType="System.Boolean" />
     <Property Id="Value" DataType="System.String" />
     <Property Id="ValueLabel" DataType="System.String" />
-    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="Microsoft.VisualStudio.GraphModel.GraphObjectVisibility" />
+    <Property Id="ZoomLevel" DataType="System.String" />
   </Properties>
   <Styles>
     <Style TargetType="Node" GroupLabel="Root" ValueLabel="Has category">
