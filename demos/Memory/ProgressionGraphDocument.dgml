@@ -1,0 +1,1508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(Address=036ff734 @7)" Label="DataSource" />
+    <Node Id="(Address=037017cc @288)" Label="BindingExpression" />
+    <Node Id="(Address=037019a8 @288)" Label="BindingExpression" />
+    <Node Id="(Address=03701bf4 @7)" Label="DataSource" />
+    <Node Id="(Address=03703918 @288)" Label="BindingExpression" />
+    <Node Id="(Address=03703a58 @97)" Label="PropertyPathWorker" />
+    <Node Id="(Address=03703c94 @288)" Label="BindingExpression" />
+    <Node Id="(Address=03703e70 @288)" Label="BindingExpression" />
+    <Node Id="(Address=037040bc @7)" Label="DataSource" />
+    <Node Id="(Address=03704218 @63)" Label="VsButton" />
+    <Node Id="(Address=037043ec @288)" Label="BindingExpression" />
+    <Node Id="(Address=03704568 @97)" Label="PropertyPathWorker" />
+    <Node Id="(Address=03704914 @288)" Label="BindingExpression" />
+    <Node Id="(Address=03704a54 @97)" Label="PropertyPathWorker" />
+    <Node Id="(Address=03704b30 @288)" Label="BindingExpression" />
+    <Node Id="(Address=03704c70 @97)" Label="PropertyPathWorker" />
+    <Node Id="(Address=03704d60 @288)" Label="BindingExpression" />
+    <Node Id="(Address=03baeb04 @150)" Label="EventHandler" />
+    <Node Id="(Address=03bc2bd0 @150)" Label="EventHandler" />
+    <Node Id="(Address=17a17d58 @150)" Label="EventHandler" />
+    <Node Id="(Address=17a19c1c @150)" Label="EventHandler" />
+    <Node Id="(Address=17a1cb08 @150)" Label="EventHandler" />
+    <Node Id="(Address=17a1e9cc @150)" Label="EventHandler" />
+    <Node Id="(Address=17a65208 @150)" Label="EventHandler" />
+    <Node Id="(Address=17ab5e84 @150)" Label="EventHandler" />
+    <Node Id="@1" Label="NewProjectDialog" />
+    <Node Id="@10" Label="DataSource" />
+    <Node Id="@100" Label="FlowDocumentView" />
+    <Node Id="@101" Label="LoadedOrUnloadedOperation" />
+    <Node Id="@102" Label="WeakEventTable" />
+    <Node Id="@104" Label="ObjectWriterFrame" />
+    <Node Id="@105" Label="ObjectWriterFrame" />
+    <Node Id="@106" Label="ObjectWriterFrame" />
+    <Node Id="@107" Label="ObjectWriterFrame" />
+    <Node Id="@108" Label="XamlObjectWriterFactory" />
+    <Node Id="@109" Label="FrugalMap" />
+    <Node Id="@11" Label="DataSource" />
+    <Node Id="@110" Label="FrugalMap" />
+    <Node Id="@111" Label="SingleObjectMap" />
+    <Node Id="@112" Label="SingleObjectMap" />
+    <Node Id="@113" Label="SingleObjectMap" />
+    <Node Id="@115" Label="ArrayList" />
+    <Node Id="@116" Label="ArrayList" />
+    <Node Id="@117" Label="ArrayList" />
+    <Node Id="@118" Label="ArrayList" />
+    <Node Id="@119" Label="Hashtable" />
+    <Node Id="@12" Label="DataSource" />
+    <Node Id="@120" Label="Hashtable" />
+    <Node Id="@121" Label="CollectionChangedEventManager" />
+    <Node Id="@122" Label="HybridDictionary" />
+    <Node Id="@123" Label="ListDictionary" />
+    <Node Id="@124" Label="ListDictionary" />
+    <Node Id="@125" Label="ListDictionary+DictionaryNode" />
+    <Node Id="@126" Label="ListDictionary+DictionaryNode" />
+    <Node Id="@128" Label="NotifyCollectionChangedEventHandler" />
+    <Node Id="@129" Label="NotifyCollectionChangedEventHandler" />
+    <Node Id="@13" Label="DataSource" />
+    <Node Id="@130" Label="NotifyCollectionChangedEventHandler" />
+    <Node Id="@131" Label="NotifyCollectionChangedEventHandler" />
+    <Node Id="@132" Label="NotifyCollectionChangedEventHandler" />
+    <Node Id="@133" Label="NotifyCollectionChangedEventHandler" />
+    <Node Id="@134" Label="NotifyCollectionChangedEventHandler" />
+    <Node Id="@135" Label="CancelEventHandler" />
+    <Node Id="@136" Label="CancelEventHandler" />
+    <Node Id="@138" Label="PropertyChangedEventHandler" />
+    <Node Id="@139" Label="PropertyChangedEventHandler" />
+    <Node Id="@14" Label="DataSource" />
+    <Node Id="@140" Label="PropertyChangedEventHandler" />
+    <Node Id="@141" Label="PropertyChangedEventHandler" />
+    <Node Id="@142" Label="PropertyChangedEventHandler" />
+    <Node Id="@143" Label="PropertyChangedEventHandler" />
+    <Node Id="@144" Label="PropertyChangedEventHandler" />
+    <Node Id="@145" Label="PropertyChangedEventHandler" />
+    <Node Id="@146" Label="PropertyChangedEventManager" />
+    <Node Id="@147" Label="ReflectPropertyDescriptor" />
+    <Node Id="@148" Label="SortDescriptionCollection" />
+    <Node Id="@149" Label="SortDescriptionCollection" />
+    <Node Id="@15" Label="DataSource+VsUIDataSourcePropertyChangeEvents" />
+    <Node Id="@151" Label="EventHandler" />
+    <Node Id="@152" Label="EventHandler" />
+    <Node Id="@153" Label="EventHandler" />
+    <Node Id="@154" Label="EventHandler" />
+    <Node Id="@155" Label="EventHandler" />
+    <Node Id="@156" Label="EventHandler" />
+    <Node Id="@157" Label="EventHandler" />
+    <Node Id="@159" Label="ContextLayoutManager+LayoutQueue+Request" />
+    <Node Id="@16" Label="DataSource+VsUIDataSourcePropertyChangeEvents" />
+    <Node Id="@160" Label="ContextLayoutManager+LayoutQueue+Request" />
+    <Node Id="@161" Label="ContextLayoutManager+LayoutQueue+Request" />
+    <Node Id="@162" Label="ContextLayoutManager+LayoutQueue+Request" />
+    <Node Id="@163" Label="ContextLayoutManager+LayoutQueue+Request" />
+    <Node Id="@164" Label="ContextLayoutManager+LayoutQueue+Request" />
+    <Node Id="@165" Label="ContextLayoutManager+LayoutQueue+Request" />
+    <Node Id="@166" Label="ContextLayoutManager+LayoutQueue+Request" />
+    <Node Id="@167" Label="ContextLayoutManager+LayoutQueue+Request" />
+    <Node Id="@168" Label="AccessText" />
+    <Node Id="@169" Label="AccessText" />
+    <Node Id="@17" Label="DataSourceCollection" />
+    <Node Id="@170" Label="AccessText" />
+    <Node Id="@172" Label="Border" />
+    <Node Id="@173" Label="Border" />
+    <Node Id="@174" Label="Border" />
+    <Node Id="@175" Label="Border" />
+    <Node Id="@176" Label="Border" />
+    <Node Id="@177" Label="Border" />
+    <Node Id="@178" Label="Border" />
+    <Node Id="@179" Label="Border" />
+    <Node Id="@18" Label="DataSourceCollection" />
+    <Node Id="@180" Label="Border" />
+    <Node Id="@181" Label="Border" />
+    <Node Id="@182" Label="Border" />
+    <Node Id="@183" Label="Border" />
+    <Node Id="@184" Label="Button" />
+    <Node Id="@185" Label="ContentControl" />
+    <Node Id="@187" Label="ContentPresenter" />
+    <Node Id="@188" Label="ContentPresenter" />
+    <Node Id="@189" Label="ContentPresenter" />
+    <Node Id="@19" Label="DataSourceCollection" />
+    <Node Id="@190" Label="ContentPresenter" />
+    <Node Id="@191" Label="ContentPresenter" />
+    <Node Id="@192" Label="ContentPresenter" />
+    <Node Id="@193" Label="ContentPresenter" />
+    <Node Id="@194" Label="ContentPresenter" />
+    <Node Id="@195" Label="ContentPresenter" />
+    <Node Id="@196" Label="ControlTemplate" />
+    <Node Id="@197" Label="DockPanel" />
+    <Node Id="@198" Label="DockPanel" />
+    <Node Id="@20" Label="GenericPaneContentPresenter" />
+    <Node Id="@200" Label="Grid" />
+    <Node Id="@201" Label="Grid" />
+    <Node Id="@202" Label="Grid" />
+    <Node Id="@203" Label="Grid" />
+    <Node Id="@204" Label="Grid" />
+    <Node Id="@205" Label="Grid" />
+    <Node Id="@206" Label="Grid" />
+    <Node Id="@207" Label="Grid" />
+    <Node Id="@208" Label="Grid" />
+    <Node Id="@209" Label="Grid" />
+    <Node Id="@21" Label="DocumentView" />
+    <Node Id="@210" Label="Grid" />
+    <Node Id="@211" Label="Grid" />
+    <Node Id="@212" Label="Grid" />
+    <Node Id="@213" Label="Grid" />
+    <Node Id="@214" Label="Grid" />
+    <Node Id="@215" Label="Grid" />
+    <Node Id="@216" Label="Grid" />
+    <Node Id="@218" Label="ItemCollection" />
+    <Node Id="@219" Label="ItemCollection" />
+    <Node Id="@22" Label="GenericPaneClientHwndHost" />
+    <Node Id="@220" Label="ItemCollection" />
+    <Node Id="@221" Label="ItemCollection" />
+    <Node Id="@222" Label="ItemCollection" />
+    <Node Id="@223" Label="ItemCollection" />
+    <Node Id="@224" Label="ItemContainerGenerator" />
+    <Node Id="@225" Label="ItemContainerGenerator" />
+    <Node Id="@226" Label="ItemContainerGenerator" />
+    <Node Id="@227" Label="ItemContainerGenerator+ItemBlock" />
+    <Node Id="@228" Label="ItemContainerGenerator+RealizedItemBlock" />
+    <Node Id="@229" Label="ItemsPresenter" />
+    <Node Id="@23" Label="GenericPaneClientHwndHost" />
+    <Node Id="@230" Label="ItemsPresenter" />
+    <Node Id="@231" Label="ListBox" />
+    <Node Id="@232" Label="ListBoxItem" />
+    <Node Id="@233" Label="Menu" />
+    <Node Id="@234" Label="Menu" />
+    <Node Id="@235" Label="MenuItem" />
+    <Node Id="@236" Label="Popup" />
+    <Node Id="@237" Label="Popup" />
+    <Node Id="@238" Label="PopupRoot" />
+    <Node Id="@239" Label="RepeatButton" />
+    <Node Id="@24" Label="ToolWindowView" />
+    <Node Id="@240" Label="Selector+InternalSelectedItemsStorage" />
+    <Node Id="@241" Label="StatusBarItem" />
+    <Node Id="@243" Label="ScrollContentPresenter" />
+    <Node Id="@244" Label="ScrollContentPresenter" />
+    <Node Id="@245" Label="ScrollContentPresenter" />
+    <Node Id="@246" Label="ScrollContentPresenter" />
+    <Node Id="@247" Label="ScrollContentPresenter" />
+    <Node Id="@248" Label="ScrollContentPresenter" />
+    <Node Id="@249" Label="ScrollContentPresenter" />
+    <Node Id="@25" Label="ToolWindowView" />
+    <Node Id="@250" Label="ScrollContentPresenter" />
+    <Node Id="@251" Label="ScrollViewer" />
+    <Node Id="@252" Label="TabControl" />
+    <Node Id="@253" Label="TabItem" />
+    <Node Id="@254" Label="TabItem" />
+    <Node Id="@255" Label="TextBlock" />
+    <Node Id="@256" Label="TextBlock+ComplexContent" />
+    <Node Id="@257" Label="TextBox" />
+    <Node Id="@258" Label="TextBox" />
+    <Node Id="@259" Label="TextBoxView" />
+    <Node Id="@26" Label="ToolWindowView" />
+    <Node Id="@260" Label="TextBoxView" />
+    <Node Id="@261" Label="ToolBarTray+ToolBarCollection" />
+    <Node Id="@262" Label="ToolBarTray+ToolBarCollection" />
+    <Node Id="@263" Label="ToolTip" />
+    <Node Id="@264" Label="TreeView" />
+    <Node Id="@265" Label="TreeView" />
+    <Node Id="@267" Label="UIElementCollection" />
+    <Node Id="@268" Label="UIElementCollection" />
+    <Node Id="@269" Label="UIElementCollection" />
+    <Node Id="@27" Label="UIElementDocumentObject" />
+    <Node Id="@270" Label="UIElementCollection" />
+    <Node Id="@271" Label="UIElementCollection" />
+    <Node Id="@272" Label="UIElementCollection" />
+    <Node Id="@273" Label="UIElementCollection" />
+    <Node Id="@274" Label="UIElementCollection" />
+    <Node Id="@275" Label="UIElementCollection" />
+    <Node Id="@276" Label="UIElementCollection" />
+    <Node Id="@277" Label="UIElementCollection" />
+    <Node Id="@278" Label="UIElementCollection" />
+    <Node Id="@279" Label="UIElementCollection" />
+    <Node Id="@280" Label="UIElementCollection" />
+    <Node Id="@281" Label="UIElementCollection" />
+    <Node Id="@282" Label="UIElementCollection" />
+    <Node Id="@283" Label="UIElementCollection" />
+    <Node Id="@284" Label="UIElementCollection" />
+    <Node Id="@285" Label="UIElementCollection" />
+    <Node Id="@286" Label="VirtualizingStackPanel" />
+    <Node Id="@287" Label="Binding" />
+    <Node Id="@289" Label="CollectionContainer" />
+    <Node Id="@29" Label="WindowFrame+MarshalingWindowFrame" />
+    <Node Id="@291" Label="ListCollectionView" />
+    <Node Id="@292" Label="ListCollectionView" />
+    <Node Id="@293" Label="ListCollectionView" />
+    <Node Id="@294" Label="ListCollectionView" />
+    <Node Id="@295" Label="ListCollectionView" />
+    <Node Id="@296" Label="DataTemplate" />
+    <Node Id="@297" Label="DataTrigger" />
+    <Node Id="@299" Label="AdornerLayer" />
+    <Node Id="@3" Label="BuiltInPropertyValue" />
+    <Node Id="@30" Label="WindowFrame+MarshalingWindowFrame" />
+    <Node Id="@300" Label="AdornerLayer" />
+    <Node Id="@301" Label="AdornerLayer" />
+    <Node Id="@302" Label="AdornerLayer" />
+    <Node Id="@303" Label="AdornerLayer" />
+    <Node Id="@304" Label="AdornerLayer" />
+    <Node Id="@305" Label="AdornerLayer" />
+    <Node Id="@306" Label="Hyperlink" />
+    <Node Id="@307" Label="NonLogicalAdornerDecorator" />
+    <Node Id="@308" Label="TextContainer" />
+    <Node Id="@309" Label="TextTreeRootNode" />
+    <Node Id="@31" Label="WindowFrame+MarshalingWindowFrame" />
+    <Node Id="@310" Label="TextTreeTextElementNode" />
+    <Node Id="@311" Label="TextTreeTextElementNode" />
+    <Node Id="@312" Label="TextTreeTextElementNode" />
+    <Node Id="@313" Label="EventHandlersStore" />
+    <Node Id="@314" Label="InputManager" />
+    <Node Id="@315" Label="InputProviderSite" />
+    <Node Id="@316" Label="StylusLogic" />
+    <Node Id="@317" Label="HwndAppCommandInputProvider" />
+    <Node Id="@318" Label="HwndSource" />
+    <Node Id="@319" Label="HwndSource" />
+    <Node Id="@32" Label="WindowFrame+MarshalingWindowFrame" />
+    <Node Id="@320" Label="HwndStylusInputProvider" />
+    <Node Id="@321" Label="AnimationClock" />
+    <Node Id="@322" Label="AnimationClock" />
+    <Node Id="@323" Label="AnimationLayer" />
+    <Node Id="@324" Label="AnimationStorage" />
+    <Node Id="@325" Label="DoubleIndependentAnimationStorage" />
+    <Node Id="@326" Label="TimeManager" />
+    <Node Id="@327" Label="LinearGradientBrush" />
+    <Node Id="@328" Label="MediaContext" />
+    <Node Id="@33" Label="WindowManagerService" />
+    <Node Id="@330" Label="VisualCollection" />
+    <Node Id="@331" Label="VisualCollection" />
+    <Node Id="@332" Label="VisualCollection" />
+    <Node Id="@333" Label="VisualCollection" />
+    <Node Id="@334" Label="VisualCollection" />
+    <Node Id="@335" Label="VisualCollection" />
+    <Node Id="@336" Label="VisualCollection" />
+    <Node Id="@337" Label="VisualCollection" />
+    <Node Id="@338" Label="VisualCollection" />
+    <Node Id="@339" Label="VisualCollection" />
+    <Node Id="@34" Label="ComboBoxDataSource" />
+    <Node Id="@340" Label="VisualCollection" />
+    <Node Id="@341" Label="VisualCollection" />
+    <Node Id="@342" Label="VisualCollection" />
+    <Node Id="@343" Label="VisualCollection" />
+    <Node Id="@344" Label="VisualCollection" />
+    <Node Id="@345" Label="VisualCollection" />
+    <Node Id="@346" Label="VisualCollection" />
+    <Node Id="@347" Label="VisualCollection" />
+    <Node Id="@348" Label="VisualCollection" />
+    <Node Id="@349" Label="ModifiedValue" />
+    <Node Id="@35" Label="ComboBoxDataSource" />
+    <Node Id="@350" Label="ModifiedValue" />
+    <Node Id="@351" Label="RoutedEventHandler" />
+    <Node Id="@352" Label="Setter" />
+    <Node Id="@353" Label="SetterBaseCollection" />
+    <Node Id="@354" Label="TemplateContent" />
+    <Node Id="@355" Label="Dispatcher" />
+    <Node Id="@357" Label="DispatcherOperation" />
+    <Node Id="@358" Label="DispatcherOperation" />
+    <Node Id="@359" Label="DispatcherOperation" />
+    <Node Id="@36" Label="DockLocationFilteringCollectionViewSource" />
+    <Node Id="@360" Label="DispatcherOperationCallback" />
+    <Node Id="@361" Label="DispatcherOperationCallback" />
+    <Node Id="@362" Label="DispatcherTimer" />
+    <Node Id="@363" Label="DispatcherTimer" />
+    <Node Id="@364" Label="TriggerCollection" />
+    <Node Id="@365" Label="XamlSavedContext" />
+    <Node Id="@367" Label="Hashtable+bucket" />
+    <Node Id="@368" Label="Hashtable+bucket" />
+    <Node Id="@37" Label="MainWindow" />
+    <Node Id="@370" Label="Object" />
+    <Node Id="@371" Label="Object" />
+    <Node Id="@372" Label="Object" />
+    <Node Id="@373" Label="Object" />
+    <Node Id="@374" Label="Object" />
+    <Node Id="@375" Label="Object" />
+    <Node Id="@376" Label="Object" />
+    <Node Id="@377" Label="Object" />
+    <Node Id="@378" Label="Object" />
+    <Node Id="@379" Label="Object" />
+    <Node Id="@38" Label="MainWindowDataSource" />
+    <Node Id="@380" Label="Object" />
+    <Node Id="@381" Label="Object" />
+    <Node Id="@382" Label="Object" />
+    <Node Id="@383" Label="Object" />
+    <Node Id="@384" Label="Object" />
+    <Node Id="@385" Label="Object" />
+    <Node Id="@386" Label="Object" />
+    <Node Id="@387" Label="Object" />
+    <Node Id="@388" Label="Object" />
+    <Node Id="@389" Label="Object" />
+    <Node Id="@39" Label="DocumentGroupContainerControl" />
+    <Node Id="@390" Label="Object" />
+    <Node Id="@391" Label="Object" />
+    <Node Id="@392" Label="Object" />
+    <Node Id="@393" Label="Object" />
+    <Node Id="@394" Label="Object" />
+    <Node Id="@395" Label="Object" />
+    <Node Id="@396" Label="Object" />
+    <Node Id="@397" Label="Object" />
+    <Node Id="@398" Label="Object" />
+    <Node Id="@399" Label="Object" />
+    <Node Id="@4" Label="BuiltInPropertyValue" />
+    <Node Id="@40" Label="DragUndockHeader" />
+    <Node Id="@400" Label="Object" />
+    <Node Id="@401" Label="Object" />
+    <Node Id="@402" Label="Object" />
+    <Node Id="@403" Label="Object" />
+    <Node Id="@404" Label="Object" />
+    <Node Id="@405" Label="Object" />
+    <Node Id="@406" Label="Object" />
+    <Node Id="@407" Label="Object" />
+    <Node Id="@408" Label="Object" />
+    <Node Id="@409" Label="Object" />
+    <Node Id="@41" Label="DragUndockHeader" />
+    <Node Id="@410" Label="Object" />
+    <Node Id="@411" Label="Object" />
+    <Node Id="@412" Label="Object" />
+    <Node Id="@413" Label="ItemContainerGenerator+BlockEntry" />
+    <Node Id="@415" Label="EffectiveValueEntry" />
+    <Node Id="@416" Label="EffectiveValueEntry" />
+    <Node Id="@417" Label="EffectiveValueEntry" />
+    <Node Id="@418" Label="EffectiveValueEntry" />
+    <Node Id="@419" Label="EffectiveValueEntry" />
+    <Node Id="@42" Label="SingleRowTabPanel" />
+    <Node Id="@420" Label="EffectiveValueEntry" />
+    <Node Id="@421" Label="EffectiveValueEntry" />
+    <Node Id="@422" Label="EffectiveValueEntry" />
+    <Node Id="@423" Label="EffectiveValueEntry" />
+    <Node Id="@424" Label="EffectiveValueEntry" />
+    <Node Id="@425" Label="EffectiveValueEntry" />
+    <Node Id="@426" Label="EffectiveValueEntry" />
+    <Node Id="@427" Label="EffectiveValueEntry" />
+    <Node Id="@428" Label="EffectiveValueEntry" />
+    <Node Id="@429" Label="EffectiveValueEntry" />
+    <Node Id="@43" Label="TabGroupControl" />
+    <Node Id="@430" Label="EffectiveValueEntry" />
+    <Node Id="@431" Label="EffectiveValueEntry" />
+    <Node Id="@432" Label="EffectiveValueEntry" />
+    <Node Id="@434" Label="List`1" />
+    <Node Id="@435" Label="List`1" />
+    <Node Id="@436" Label="GelCookieTable`1" />
+    <Node Id="@437" Label="GelCookieTable`1" />
+    <Node Id="@439" Label="List`1" />
+    <Node Id="@44" Label="TabGroupControl" />
+    <Node Id="@440" Label="List`1" />
+    <Node Id="@441" Label="List`1" />
+    <Node Id="@442" Label="List`1" />
+    <Node Id="@443" Label="List`1" />
+    <Node Id="@444" Label="List`1" />
+    <Node Id="@446" Label="FrugalObjectList`1" />
+    <Node Id="@447" Label="ThreeItemList`1" />
+    <Node Id="@449" Label="SecurityCriticalDataClass`1" />
+    <Node Id="@45" Label="ViewPresenter" />
+    <Node Id="@450" Label="SecurityCriticalDataClass`1" />
+    <Node Id="@451" Label="SecurityCriticalDataClass`1" />
+    <Node Id="@452" Label="SecurityCriticalDataClass`1" />
+    <Node Id="@453" Label="SecurityCriticalDataClass`1" />
+    <Node Id="@454" Label="FrugalObjectList`1" />
+    <Node Id="@455" Label="SingleItemList`1" />
+    <Node Id="@456" Label="List`1" />
+    <Node Id="@457" Label="SecurityCriticalDataForMultipleGetAndSet`1" />
+    <Node Id="@458" Label="FrugalObjectList`1" />
+    <Node Id="@459" Label="SingleItemList`1" />
+    <Node Id="@460" Label="List`1" />
+    <Node Id="@461" Label="List`1" />
+    <Node Id="@462" Label="List`1" />
+    <Node Id="@463" Label="List`1" />
+    <Node Id="@464" Label="List`1" />
+    <Node Id="@465" Label="XamlContextStack`1" />
+    <Node Id="@466" Label="PriorityChain`1" />
+    <Node Id="@468" Label="PriorityItem`1" />
+    <Node Id="@469" Label="PriorityItem`1" />
+    <Node Id="@47" Label="DockGroup" />
+    <Node Id="@470" Label="PriorityItem`1" />
+    <Node Id="@471" Label="PriorityItem`1" />
+    <Node Id="@472" Label="PriorityItem`1" />
+    <Node Id="@473" Label="PriorityItem`1" />
+    <Node Id="@474" Label="PriorityItem`1" />
+    <Node Id="@475" Label="PriorityQueue`1" />
+    <Node Id="@478" Label="Dictionary`2" />
+    <Node Id="@479" Label="Dictionary`2" />
+    <Node Id="@48" Label="DockGroup" />
+    <Node Id="@481" Label="Dictionary`2+Entry" />
+    <Node Id="@482" Label="Dictionary`2+Entry" />
+    <Node Id="@484" Label="Dictionary`2" />
+    <Node Id="@485" Label="Dictionary`2" />
+    <Node Id="@486" Label="Dictionary`2" />
+    <Node Id="@487" Label="Dictionary`2" />
+    <Node Id="@489" Label="Dictionary`2+Entry" />
+    <Node Id="@49" Label="DockGroup" />
+    <Node Id="@490" Label="Dictionary`2+Entry" />
+    <Node Id="@491" Label="Dictionary`2+Entry" />
+    <Node Id="@492" Label="Dictionary`2+Entry" />
+    <Node Id="@493" Label="Dictionary`2" />
+    <Node Id="@494" Label="Dictionary`2+Entry" />
+    <Node Id="@495" Label="Dictionary`2" />
+    <Node Id="@496" Label="Dictionary`2+Entry" />
+    <Node Id="@497" Label="SortedList`2" />
+    <Node Id="@5" Label="BuiltInPropertyValue" />
+    <Node Id="@50" Label="DockGroup" />
+    <Node Id="@51" Label="DocumentGroup" />
+    <Node Id="@52" Label="DocumentGroupContainer" />
+    <Node Id="@53" Label="TabGroup" />
+    <Node Id="@54" Label="TabGroup" />
+    <Node Id="@55" Label="ViewManager" />
+    <Node Id="@56" Label="SplitterItem" />
+    <Node Id="@57" Label="SplitterItem" />
+    <Node Id="@58" Label="SplitterItem" />
+    <Node Id="@59" Label="SplitterPanel" />
+    <Node Id="@6" Label="BuiltInPropertyValue" />
+    <Node Id="@60" Label="SplitterPanel" />
+    <Node Id="@61" Label="SplitterPanel" />
+    <Node Id="@62" Label="StartPageToolWindow" />
+    <Node Id="@64" Label="VsButton" />
+    <Node Id="@65" Label="VsButton" />
+    <Node Id="@66" Label="VsButton" />
+    <Node Id="@67" Label="VsButton" />
+    <Node Id="@68" Label="VsButton" />
+    <Node Id="@69" Label="VsComboBox" />
+    <Node Id="@70" Label="VsComboBox" />
+    <Node Id="@71" Label="VsCommand" />
+    <Node Id="@72" Label="VsCommand" />
+    <Node Id="@73" Label="VsMenuController" />
+    <Node Id="@74" Label="VsQuickCustomizeButton" />
+    <Node Id="@75" Label="VsResizeGrip" />
+    <Node Id="@76" Label="VsToolBar" />
+    <Node Id="@77" Label="VsToolBar" />
+    <Node Id="@78" Label="VsToolBar" />
+    <Node Id="@79" Label="VsToolBarHostControl" />
+    <Node Id="@8" Label="DataSource" />
+    <Node Id="@80" Label="VsToolBarPanel" />
+    <Node Id="@81" Label="VsToolBarPanel" />
+    <Node Id="@82" Label="VsToolBarTray" />
+    <Node Id="@83" Label="VsToolBarTray" />
+    <Node Id="@84" Label="VsToolWindowToolBarTray" />
+    <Node Id="@85" Label="GraphControl" />
+    <Node Id="@86" Label="GraphDocumentWindowPane" />
+    <Node Id="@87" Label="MapZoom" />
+    <Node Id="@88" Label="VirtualCanvas" />
+    <Node Id="@89" Label="ButtonChrome" />
+    <Node Id="@9" Label="DataSource" />
+    <Node Id="@90" Label="ButtonChrome+LocalResources" />
+    <Node Id="@91" Label="ListBoxChrome" />
+    <Node Id="@92" Label="InnerItemCollectionView" />
+    <Node Id="@93" Label="InnerItemCollectionView" />
+    <Node Id="@94" Label="InnerItemCollectionView" />
+    <Node Id="@95" Label="DataBindEngine" />
+    <Node Id="@96" Label="ExplicitObjectRef" />
+    <Node Id="@98" Label="ViewRecord" />
+    <Node Id="@99" Label="ViewTable" />
+  </Nodes>
+  <Links>
+    <Link Source="(Address=036ff734 @7)" Target="@139" />
+    <Link Source="(Address=037017cc @288)" Target="@95" />
+    <Link Source="(Address=037019a8 @288)" Target="@71" />
+    <Link Source="(Address=03701bf4 @7)" Target="@140" />
+    <Link Source="(Address=03703918 @288)" Target="@95" />
+    <Link Source="(Address=03703a58 @97)" Target="@95" />
+    <Link Source="(Address=03703c94 @288)" Target="@95" />
+    <Link Source="(Address=03703e70 @288)" Target="@72" />
+    <Link Source="(Address=037040bc @7)" Target="@141" />
+    <Link Source="(Address=03704218 @63)" Target="@176" />
+    <Link Source="(Address=037043ec @288)" Target="@95" />
+    <Link Source="(Address=03704568 @97)" Target="@95" />
+    <Link Source="(Address=03704914 @288)" Target="@95" />
+    <Link Source="(Address=03704a54 @97)" Target="@95" />
+    <Link Source="(Address=03704b30 @288)" Target="@95" />
+    <Link Source="(Address=03704c70 @97)" Target="@95" />
+    <Link Source="(Address=03704d60 @288)" Target="@95" />
+    <Link Source="(Address=03baeb04 @150)" Target="@299" />
+    <Link Source="(Address=03bc2bd0 @150)" Target="@300" />
+    <Link Source="(Address=17a17d58 @150)" Target="@301" />
+    <Link Source="(Address=17a19c1c @150)" Target="@302" />
+    <Link Source="(Address=17a1cb08 @150)" Target="@303" />
+    <Link Source="(Address=17a1e9cc @150)" Target="@304" />
+    <Link Source="(Address=17a65208 @150)" Target="@305" />
+    <Link Source="(Address=17ab5e84 @150)" Target="@319" />
+    <Link Source="@1" Target="@184" />
+    <Link Source="@10" Target="@486" />
+    <Link Source="@100" Target="@210" />
+    <Link Source="@101" Target="@215" />
+    <Link Source="@102" Target="@119" />
+    <Link Source="@104" Target="@105" />
+    <Link Source="@105" Target="@106" />
+    <Link Source="@106" Target="@107" />
+    <Link Source="@107" Target="@353" />
+    <Link Source="@108" Target="@365" />
+    <Link Source="@109" Target="@111" />
+    <Link Source="@11" Target="@487" />
+    <Link Source="@110" Target="@112" />
+    <Link Source="@111" Target="@324" />
+    <Link Source="@112" Target="@325" />
+    <Link Source="@113" Target="@458" />
+    <Link Source="@115" Target="@378" />
+    <Link Source="@116" Target="@379" />
+    <Link Source="@117" Target="@380" />
+    <Link Source="@118" Target="@412" />
+    <Link Source="@119" Target="@367" />
+    <Link Source="@12" Target="@138" />
+    <Link Source="@120" Target="@368" />
+    <Link Source="@121" Target="@102" />
+    <Link Source="@122" Target="@124" />
+    <Link Source="@123" Target="@125" />
+    <Link Source="@124" Target="@126" />
+    <Link Source="@125" Target="@98" />
+    <Link Source="@126" Target="@147" />
+    <Link Source="@128" Target="@121" />
+    <Link Source="@129" Target="@36" />
+    <Link Source="@13" Target="@436" />
+    <Link Source="@130" Target="@381" />
+    <Link Source="@131" Target="@121" />
+    <Link Source="@132" Target="@408" />
+    <Link Source="@133" Target="@121" />
+    <Link Source="@134" Target="@409" />
+    <Link Source="@135" Target="@29" />
+    <Link Source="@136" Target="@30" />
+    <Link Source="@138" Target="@146" />
+    <Link Source="@139" Target="@146" />
+    <Link Source="@14" Target="@144" />
+    <Link Source="@14" Target="@437" />
+    <Link Source="@140" Target="@146" />
+    <Link Source="@141" Target="@146" />
+    <Link Source="@142" Target="@69" />
+    <Link Source="@143" Target="@146" />
+    <Link Source="@144" Target="@146" />
+    <Link Source="@145" Target="@70" />
+    <Link Source="@146" Target="@102" />
+    <Link Source="@147" Target="@120" />
+    <Link Source="@148" Target="@132" />
+    <Link Source="@149" Target="@134" />
+    <Link Source="@15" Target="@34" />
+    <Link Source="@151" Target="@33" />
+    <Link Source="@152" Target="@376" />
+    <Link Source="@153" Target="@64" />
+    <Link Source="@154" Target="@65" />
+    <Link Source="@155" Target="@86" />
+    <Link Source="@156" Target="@403" />
+    <Link Source="@157" Target="@88" />
+    <Link Source="@159" Target="@161" />
+    <Link Source="@159" Target="@162" />
+    <Link Source="@159" Target="@263" />
+    <Link Source="@16" Target="@35" />
+    <Link Source="@160" Target="@161" />
+    <Link Source="@161" Target="@159" />
+    <Link Source="@161" Target="@183" />
+    <Link Source="@162" Target="@159" />
+    <Link Source="@162" Target="@60" />
+    <Link Source="@163" Target="@165" />
+    <Link Source="@164" Target="@183" />
+    <Link Source="@165" Target="@166" />
+    <Link Source="@166" Target="@167" />
+    <Link Source="@167" Target="@164" />
+    <Link Source="@168" Target="@416" />
+    <Link Source="@169" Target="@417" />
+    <Link Source="@17" Target="@130" />
+    <Link Source="@170" Target="@418" />
+    <Link Source="@172" Target="@423" />
+    <Link Source="@173" Target="@83" />
+    <Link Source="@174" Target="@201" />
+    <Link Source="@175" Target="@202" />
+    <Link Source="@176" Target="@203" />
+    <Link Source="@177" Target="@178" />
+    <Link Source="@178" Target="@193" />
+    <Link Source="@179" Target="@194" />
+    <Link Source="@18" Target="@434" />
+    <Link Source="@180" Target="@204" />
+    <Link Source="@181" Target="@207" />
+    <Link Source="@182" Target="@211" />
+    <Link Source="@183" Target="@198" />
+    <Link Source="@184" Target="@89" />
+    <Link Source="@185" Target="@189" />
+    <Link Source="@187" Target="@39" />
+    <Link Source="@187" Target="@56" />
+    <Link Source="@188" Target="@57" />
+    <Link Source="@189" Target="@58" />
+    <Link Source="@19" Target="@435" />
+    <Link Source="@190" Target="@185" />
+    <Link Source="@191" Target="@43" />
+    <Link Source="@192" Target="@44" />
+    <Link Source="@192" Target="@45" />
+    <Link Source="@193" Target="@40" />
+    <Link Source="@194" Target="@422" />
+    <Link Source="@195" Target="@296" />
+    <Link Source="@195" Target="@41" />
+    <Link Source="@196" Target="@364" />
+    <Link Source="@197" Target="@271" />
+    <Link Source="@198" Target="@285" />
+    <Link Source="@20" Target="@32" />
+    <Link Source="@20" Target="@85" />
+    <Link Source="@200" Target="@267" />
+    <Link Source="@201" Target="@268" />
+    <Link Source="@202" Target="@269" />
+    <Link Source="@203" Target="@270" />
+    <Link Source="@204" Target="@273" />
+    <Link Source="@205" Target="@274" />
+    <Link Source="@206" Target="@275" />
+    <Link Source="@207" Target="@277" />
+    <Link Source="@208" Target="@278" />
+    <Link Source="@209" Target="@425" />
+    <Link Source="@21" Target="@431" />
+    <Link Source="@210" Target="@279" />
+    <Link Source="@211" Target="@280" />
+    <Link Source="@212" Target="@281" />
+    <Link Source="@213" Target="@283" />
+    <Link Source="@214" Target="@282" />
+    <Link Source="@215" Target="@284" />
+    <Link Source="@216" Target="@160" />
+    <Link Source="@218" Target="@92" />
+    <Link Source="@219" Target="@93" />
+    <Link Source="@22" Target="@191" />
+    <Link Source="@220" Target="@293" />
+    <Link Source="@221" Target="@294" />
+    <Link Source="@222" Target="@295" />
+    <Link Source="@223" Target="@94" />
+    <Link Source="@224" Target="@220" />
+    <Link Source="@224" Target="@227" />
+    <Link Source="@225" Target="@221" />
+    <Link Source="@226" Target="@222" />
+    <Link Source="@227" Target="@228" />
+    <Link Source="@228" Target="@413" />
+    <Link Source="@229" Target="@225" />
+    <Link Source="@23" Target="@192" />
+    <Link Source="@230" Target="@226" />
+    <Link Source="@231" Target="@286" />
+    <Link Source="@232" Target="@181" />
+    <Link Source="@233" Target="@218" />
+    <Link Source="@234" Target="@223" />
+    <Link Source="@235" Target="@219" />
+    <Link Source="@236" Target="@216" />
+    <Link Source="@237" Target="@238" />
+    <Link Source="@238" Target="@307" />
+    <Link Source="@238" Target="@432" />
+    <Link Source="@239" Target="@426" />
+    <Link Source="@24" Target="@135" />
+    <Link Source="@240" Target="@493" />
+    <Link Source="@241" Target="@172" />
+    <Link Source="@243" Target="@231" />
+    <Link Source="@244" Target="@259" />
+    <Link Source="@245" Target="@100" />
+    <Link Source="@246" Target="@264" />
+    <Link Source="@247" Target="@229" />
+    <Link Source="@248" Target="@265" />
+    <Link Source="@249" Target="@230" />
+    <Link Source="@25" Target="@421" />
+    <Link Source="@250" Target="@260" />
+    <Link Source="@251" Target="@243" />
+    <Link Source="@252" Target="@240" />
+    <Link Source="@253" Target="@177" />
+    <Link Source="@254" Target="@424" />
+    <Link Source="@255" Target="@256" />
+    <Link Source="@256" Target="@308" />
+    <Link Source="@257" Target="@91" />
+    <Link Source="@258" Target="@70" />
+    <Link Source="@259" Target="@257" />
+    <Link Source="@26" Target="@136" />
+    <Link Source="@260" Target="@258" />
+    <Link Source="@261" Target="@461" />
+    <Link Source="@262" Target="@462" />
+    <Link Source="@263" Target="@163" />
+    <Link Source="@263" Target="@237" />
+    <Link Source="@264" Target="@221" />
+    <Link Source="@265" Target="@222" />
+    <Link Source="@267" Target="@330" />
+    <Link Source="@268" Target="@331" />
+    <Link Source="@269" Target="@332" />
+    <Link Source="@27" Target="@62" />
+    <Link Source="@270" Target="@333" />
+    <Link Source="@271" Target="@334" />
+    <Link Source="@272" Target="@335" />
+    <Link Source="@273" Target="@336" />
+    <Link Source="@274" Target="@337" />
+    <Link Source="@275" Target="@338" />
+    <Link Source="@276" Target="@339" />
+    <Link Source="@277" Target="@340" />
+    <Link Source="@278" Target="@341" />
+    <Link Source="@279" Target="@342" />
+    <Link Source="@280" Target="@343" />
+    <Link Source="@281" Target="@344" />
+    <Link Source="@282" Target="@345" />
+    <Link Source="@283" Target="@346" />
+    <Link Source="@284" Target="@347" />
+    <Link Source="@285" Target="@348" />
+    <Link Source="@286" Target="@276" />
+    <Link Source="@287" Target="@96" />
+    <Link Source="@289" Target="@128" />
+    <Link Source="@29" Target="@27" />
+    <Link Source="@291" Target="@10" />
+    <Link Source="@291" Target="@117" />
+    <Link Source="@292" Target="@99" />
+    <Link Source="@293" Target="@52" />
+    <Link Source="@294" Target="@148" />
+    <Link Source="@295" Target="@149" />
+    <Link Source="@296" Target="@354" />
+    <Link Source="@297" Target="@287" />
+    <Link Source="@299" Target="@244" />
+    <Link Source="@3" Target="@9" />
+    <Link Source="@30" Target="@22" />
+    <Link Source="@300" Target="@245" />
+    <Link Source="@301" Target="@246" />
+    <Link Source="@302" Target="@247" />
+    <Link Source="@303" Target="@248" />
+    <Link Source="@304" Target="@249" />
+    <Link Source="@305" Target="@250" />
+    <Link Source="@306" Target="@429" />
+    <Link Source="@307" Target="@263" />
+    <Link Source="@308" Target="@309" />
+    <Link Source="@309" Target="@312" />
+    <Link Source="@31" Target="@23" />
+    <Link Source="@310" Target="@306" />
+    <Link Source="@311" Target="@310" />
+    <Link Source="@312" Target="@311" />
+    <Link Source="@313" Target="@113" />
+    <Link Source="@314" Target="@359" />
+    <Link Source="@315" Target="@449" />
+    <Link Source="@316" Target="@495" />
+    <Link Source="@317" Target="@450" />
+    <Link Source="@318" Target="@84" />
+    <Link Source="@319" Target="@238" />
+    <Link Source="@319" Target="@452" />
+    <Link Source="@319" Target="@453" />
+    <Link Source="@32" Target="@143" />
+    <Link Source="@320" Target="@451" />
+    <Link Source="@321" Target="@326" />
+    <Link Source="@322" Target="@326" />
+    <Link Source="@323" Target="@456" />
+    <Link Source="@324" Target="@497" />
+    <Link Source="@325" Target="@454" />
+    <Link Source="@326" Target="@328" />
+    <Link Source="@327" Target="@428" />
+    <Link Source="@328" Target="@446" />
+    <Link Source="@33" Target="@31" />
+    <Link Source="@330" Target="@384" />
+    <Link Source="@331" Target="@385" />
+    <Link Source="@332" Target="@386" />
+    <Link Source="@333" Target="@387" />
+    <Link Source="@334" Target="@388" />
+    <Link Source="@335" Target="@389" />
+    <Link Source="@336" Target="@392" />
+    <Link Source="@337" Target="@393" />
+    <Link Source="@338" Target="@394" />
+    <Link Source="@339" Target="@397" />
+    <Link Source="@34" Target="@142" />
+    <Link Source="@340" Target="@395" />
+    <Link Source="@341" Target="@396" />
+    <Link Source="@342" Target="@400" />
+    <Link Source="@343" Target="@401" />
+    <Link Source="@344" Target="@402" />
+    <Link Source="@345" Target="@404" />
+    <Link Source="@346" Target="@405" />
+    <Link Source="@347" Target="@406" />
+    <Link Source="@348" Target="@407" />
+    <Link Source="@349" Target="@292" />
+    <Link Source="@35" Target="@14" />
+    <Link Source="@35" Target="@145" />
+    <Link Source="@350" Target="@21" />
+    <Link Source="@351" Target="@86" />
+    <Link Source="@352" Target="@196" />
+    <Link Source="@353" Target="@463" />
+    <Link Source="@354" Target="@108" />
+    <Link Source="@355" Target="@475" />
+    <Link Source="@357" Target="@360" />
+    <Link Source="@358" Target="@361" />
+    <Link Source="@359" Target="@471" />
+    <Link Source="@36" Target="@79" />
+    <Link Source="@360" Target="@363" />
+    <Link Source="@361" Target="@362" />
+    <Link Source="@362" Target="@157" />
+    <Link Source="@363" Target="@263" />
+    <Link Source="@364" Target="@464" />
+    <Link Source="@365" Target="@465" />
+    <Link Source="@367" Target="@122" />
+    <Link Source="@368" Target="@55" />
+    <Link Source="@37" Target="@38" />
+    <Link Source="@37" Target="@75" />
+    <Link Source="@370" Target="@48" />
+    <Link Source="@371" Target="@24" />
+    <Link Source="@372" Target="@51" />
+    <Link Source="@373" Target="@49" />
+    <Link Source="@373" Target="@52" />
+    <Link Source="@374" Target="@26" />
+    <Link Source="@375" Target="@53" />
+    <Link Source="@376" Target="@151" />
+    <Link Source="@377" Target="@76" />
+    <Link Source="@378" Target="@235" />
+    <Link Source="@379" Target="@74" />
+    <Link Source="@38" Target="@8" />
+    <Link Source="@380" Target="@11" />
+    <Link Source="@381" Target="@129" />
+    <Link Source="@382" Target="@13" />
+    <Link Source="@383" Target="@78" />
+    <Link Source="@384" Target="@173" />
+    <Link Source="@385" Target="@168" />
+    <Link Source="@386" Target="@169" />
+    <Link Source="@387" Target="@170" />
+    <Link Source="@388" Target="@187" />
+    <Link Source="@389" Target="@253" />
+    <Link Source="@39" Target="@60" />
+    <Link Source="@390" Target="@352" />
+    <Link Source="@391" Target="@297" />
+    <Link Source="@392" Target="@205" />
+    <Link Source="@393" Target="@206" />
+    <Link Source="@394" Target="@252" />
+    <Link Source="@395" Target="@208" />
+    <Link Source="@396" Target="@209" />
+    <Link Source="@397" Target="@232" />
+    <Link Source="@398" Target="@321" />
+    <Link Source="@399" Target="@323" />
+    <Link Source="@4" Target="@17" />
+    <Link Source="@40" Target="@179" />
+    <Link Source="@400" Target="@182" />
+    <Link Source="@401" Target="@212" />
+    <Link Source="@402" Target="@239" />
+    <Link Source="@403" Target="@155" />
+    <Link Source="@404" Target="@255" />
+    <Link Source="@405" Target="@214" />
+    <Link Source="@406" Target="@20" />
+    <Link Source="@407" Target="@195" />
+    <Link Source="@408" Target="@131" />
+    <Link Source="@409" Target="@133" />
+    <Link Source="@41" Target="@430" />
+    <Link Source="@410" Target="@14" />
+    <Link Source="@411" Target="@68" />
+    <Link Source="@412" Target="@73" />
+    <Link Source="@413" Target="@56" />
+    <Link Source="@415" Target="@349" />
+    <Link Source="@416" Target="@37" />
+    <Link Source="@417" Target="@37" />
+    <Link Source="@418" Target="@37" />
+    <Link Source="@419" Target="@47" />
+    <Link Source="@42" Target="@272" />
+    <Link Source="@420" Target="@50" />
+    <Link Source="@421" Target="@54" />
+    <Link Source="@422" Target="@25" />
+    <Link Source="@423" Target="@12" />
+    <Link Source="@424" Target="@251" />
+    <Link Source="@425" Target="@109" />
+    <Link Source="@426" Target="@1" />
+    <Link Source="@427" Target="@1" />
+    <Link Source="@428" Target="@110" />
+    <Link Source="@429" Target="@313" />
+    <Link Source="@43" Target="@190" />
+    <Link Source="@430" Target="@350" />
+    <Link Source="@431" Target="@215" />
+    <Link Source="@432" Target="@457" />
+    <Link Source="@434" Target="@382" />
+    <Link Source="@435" Target="@410" />
+    <Link Source="@436" Target="@478" />
+    <Link Source="@437" Target="@479" />
+    <Link Source="@439" Target="@370" />
+    <Link Source="@44" Target="@42" />
+    <Link Source="@440" Target="@373" />
+    <Link Source="@441" Target="@372" />
+    <Link Source="@442" Target="@371" />
+    <Link Source="@443" Target="@375" />
+    <Link Source="@444" Target="@374" />
+    <Link Source="@446" Target="@447" />
+    <Link Source="@447" Target="@101" />
+    <Link Source="@449" Target="@314" />
+    <Link Source="@45" Target="@37" />
+    <Link Source="@450" Target="@315" />
+    <Link Source="@451" Target="@316" />
+    <Link Source="@452" Target="@317" />
+    <Link Source="@453" Target="@320" />
+    <Link Source="@454" Target="@455" />
+    <Link Source="@455" Target="@322" />
+    <Link Source="@456" Target="@398" />
+    <Link Source="@457" Target="@319" />
+    <Link Source="@458" Target="@459" />
+    <Link Source="@459" Target="@351" />
+    <Link Source="@460" Target="@411" />
+    <Link Source="@461" Target="@377" />
+    <Link Source="@462" Target="@383" />
+    <Link Source="@463" Target="@390" />
+    <Link Source="@464" Target="@391" />
+    <Link Source="@465" Target="@104" />
+    <Link Source="@466" Target="@472" />
+    <Link Source="@468" Target="@357" />
+    <Link Source="@469" Target="@358" />
+    <Link Source="@469" Target="@468" />
+    <Link Source="@47" Target="@439" />
+    <Link Source="@470" Target="@469" />
+    <Link Source="@471" Target="@470" />
+    <Link Source="@472" Target="@473" />
+    <Link Source="@473" Target="@471" />
+    <Link Source="@474" Target="@466" />
+    <Link Source="@475" Target="@474" />
+    <Link Source="@478" Target="@481" />
+    <Link Source="@479" Target="@482" />
+    <Link Source="@48" Target="@440" />
+    <Link Source="@481" Target="@15" />
+    <Link Source="@482" Target="@16" />
+    <Link Source="@484" Target="@489" />
+    <Link Source="@485" Target="@490" />
+    <Link Source="@486" Target="@491" />
+    <Link Source="@487" Target="@492" />
+    <Link Source="@489" Target="@3" />
+    <Link Source="@49" Target="@443" />
+    <Link Source="@490" Target="@4" />
+    <Link Source="@491" Target="@5" />
+    <Link Source="@492" Target="@6" />
+    <Link Source="@493" Target="@494" />
+    <Link Source="@494" Target="@254" />
+    <Link Source="@495" Target="@496" />
+    <Link Source="@496" Target="@318" />
+    <Link Source="@497" Target="@399" />
+    <Link Source="@5" Target="@18" />
+    <Link Source="@50" Target="@419" />
+    <Link Source="@51" Target="@442" />
+    <Link Source="@52" Target="@441" />
+    <Link Source="@53" Target="@444" />
+    <Link Source="@54" Target="@420" />
+    <Link Source="@55" Target="@152" />
+    <Link Source="@56" Target="@197" />
+    <Link Source="@56" Target="@59" />
+    <Link Source="@57" Target="@59" />
+    <Link Source="@58" Target="@61" />
+    <Link Source="@59" Target="@224" />
+    <Link Source="@6" Target="@19" />
+    <Link Source="@60" Target="@162" />
+    <Link Source="@60" Target="@187" />
+    <Link Source="@61" Target="@188" />
+    <Link Source="@62" Target="@180" />
+    <Link Source="@64" Target="@174" />
+    <Link Source="@65" Target="@175" />
+    <Link Source="@66" Target="@80" />
+    <Link Source="@67" Target="@81" />
+    <Link Source="@68" Target="@234" />
+    <Link Source="@69" Target="@66" />
+    <Link Source="@70" Target="@35" />
+    <Link Source="@70" Target="@67" />
+    <Link Source="@71" Target="@153" />
+    <Link Source="@72" Target="@154" />
+    <Link Source="@73" Target="@236" />
+    <Link Source="@74" Target="@289" />
+    <Link Source="@75" Target="@241" />
+    <Link Source="@76" Target="@233" />
+    <Link Source="@77" Target="@82" />
+    <Link Source="@78" Target="@81" />
+    <Link Source="@79" Target="@200" />
+    <Link Source="@8" Target="@484" />
+    <Link Source="@80" Target="@77" />
+    <Link Source="@81" Target="@460" />
+    <Link Source="@82" Target="@262" />
+    <Link Source="@83" Target="@415" />
+    <Link Source="@84" Target="@261" />
+    <Link Source="@85" Target="@213" />
+    <Link Source="@87" Target="@156" />
+    <Link Source="@88" Target="@87" />
+    <Link Source="@89" Target="@90" />
+    <Link Source="@9" Target="@485" />
+    <Link Source="@90" Target="@327" />
+    <Link Source="@91" Target="@427" />
+    <Link Source="@92" Target="@115" />
+    <Link Source="@93" Target="@116" />
+    <Link Source="@94" Target="@118" />
+    <Link Source="@95" Target="@355" />
+    <Link Source="@96" Target="@55" />
+    <Link Source="@98" Target="@291" />
+    <Link Source="@99" Target="@123" />
+  </Links>
+  <Properties>
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="A" Label="A" ValueType="System.Int32" />
+    <Name Id="Address" Label="Address" ValueType="System.String" />
+    <Name Id="AssemblyName" Label="AssemblyName" ValueType="System.String" />
+    <Name Id="Name" Label="Name" ValueType="System.String" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Id="(Address=030e59e4 Name=Microsoft.VisualStudio.Dialogs.NewProjectDialog)" />
+    <Alias n="2" Id="Name=Microsoft.VisualStudio.Gel.BuiltInPropertyValue" />
+    <Alias n="3" Id="(Address=035e6248 @2)" />
+    <Alias n="4" Id="(Address=035e65b0 @2)" />
+    <Alias n="5" Id="(Address=036951b0 @2)" />
+    <Alias n="6" Id="(Address=0369e10c @2)" />
+    <Alias n="7" Id="Name=Microsoft.VisualStudio.Gel.DataSource" />
+    <Alias n="8" Id="(Address=03164100 @7)" />
+    <Alias n="9" Id="(Address=035e60ec @7)" />
+    <Alias n="10" Id="(Address=035e6828 @7)" />
+    <Alias n="11" Id="(Address=035e7300 @7)" />
+    <Alias n="12" Id="(Address=035fd000 @7)" />
+    <Alias n="13" Id="(Address=0371d8f4 @7)" />
+    <Alias n="14" Id="(Address=17a25fa0 @7)" />
+    <Alias n="15" Id="(Address=0378efc4 Name=Microsoft.VisualStudio.Gel.DataSource+VsUIDataSourcePropertyChangeEvents)" />
+    <Alias n="16" Id="(Address=17a5d1b0 Name=Microsoft.VisualStudio.Gel.DataSource+VsUIDataSourcePropertyChangeEvents)" />
+    <Alias n="17" Id="(Address=035e65c0 Name=Microsoft.VisualStudio.Gel.DataSourceCollection)" />
+    <Alias n="18" Id="(Address=036951c0 Name=Microsoft.VisualStudio.Gel.DataSourceCollection)" />
+    <Alias n="19" Id="(Address=0369e11c Name=Microsoft.VisualStudio.Gel.DataSourceCollection)" />
+    <Alias n="20" Id="(Address=179be984 Name=Microsoft.VisualStudio.Platform.WindowManagement.Controls.GenericPaneContentPresenter)" />
+    <Alias n="21" Id="(Address=17978dc4 Name=Microsoft.VisualStudio.Platform.WindowManagement.DocumentView)" />
+    <Alias n="22" Id="(Address=03235414 Name=Microsoft.VisualStudio.Platform.WindowManagement.GenericPaneClientHwndHost)" />
+    <Alias n="23" Id="(Address=0352e6d8 Name=Microsoft.VisualStudio.Platform.WindowManagement.GenericPaneClientHwndHost)" />
+    <Alias n="24" Id="(Address=032052a4 Name=Microsoft.VisualStudio.Platform.WindowManagement.ToolWindowView)" />
+    <Alias n="25" Id="(Address=0320c3d8 Name=Microsoft.VisualStudio.Platform.WindowManagement.ToolWindowView)" />
+    <Alias n="26" Id="(Address=03213b30 Name=Microsoft.VisualStudio.Platform.WindowManagement.ToolWindowView)" />
+    <Alias n="27" Id="(Address=038ee2b8 Name=Microsoft.VisualStudio.Platform.WindowManagement.UIElementDocumentObject)" />
+    <Alias n="28" Id="Name=Microsoft.VisualStudio.Platform.WindowManagement.WindowFrame+MarshalingWindowFrame" />
+    <Alias n="29" Id="(Address=032305c4 @28)" />
+    <Alias n="30" Id="(Address=03234edc @28)" />
+    <Alias n="31" Id="(Address=0352e1f0 @28)" />
+    <Alias n="32" Id="(Address=17978b24 @28)" />
+    <Alias n="33" Id="(Address=03169120 Name=Microsoft.VisualStudio.Platform.WindowManagement.WindowManagerService)" />
+    <Alias n="34" Id="(Address=0378ee7c Name=Microsoft.VisualStudio.PlatformUI.CommandBars.ComboBoxDataSource)" />
+    <Alias n="35" Id="(Address=17a5d068 Name=Microsoft.VisualStudio.PlatformUI.CommandBars.ComboBoxDataSource)" />
+    <Alias n="36" Id="(Address=035e1338 Name=Microsoft.VisualStudio.PlatformUI.DockLocationFilteringCollectionViewSource)" />
+    <Alias n="37" Id="(Address=030cfe74 Name=Microsoft.VisualStudio.PlatformUI.MainWindow)" />
+    <Alias n="38" Id="(Address=031642a4 Name=Microsoft.VisualStudio.PlatformUI.MainWindowDataSource)" />
+    <Alias n="39" Id="(Address=03842560 Name=Microsoft.VisualStudio.PlatformUI.Shell.Controls.DocumentGroupContainerControl)" />
+    <Alias n="40" Id="(Address=038a0860 Name=Microsoft.VisualStudio.PlatformUI.Shell.Controls.DragUndockHeader)" />
+    <Alias n="41" Id="(Address=179f7fdc Name=Microsoft.VisualStudio.PlatformUI.Shell.Controls.DragUndockHeader)" />
+    <Alias n="42" Id="(Address=03895a60 Name=Microsoft.VisualStudio.PlatformUI.Shell.Controls.SingleRowTabPanel)" />
+    <Alias n="43" Id="(Address=0384c2b0 Name=Microsoft.VisualStudio.PlatformUI.Shell.Controls.TabGroupControl)" />
+    <Alias n="44" Id="(Address=03892250 Name=Microsoft.VisualStudio.PlatformUI.Shell.Controls.TabGroupControl)" />
+    <Alias n="45" Id="(Address=038a2650 Name=Microsoft.VisualStudio.PlatformUI.Shell.Controls.ViewPresenter)" />
+    <Alias n="46" Id="Name=Microsoft.VisualStudio.PlatformUI.Shell.DockGroup" />
+    <Alias n="47" Id="(Address=031ff108 @46)" />
+    <Alias n="48" Id="(Address=03202fa4 @46)" />
+    <Alias n="49" Id="(Address=03207ce8 @46)" />
+    <Alias n="50" Id="(Address=0320bb88 @46)" />
+    <Alias n="51" Id="(Address=03204df0 Name=Microsoft.VisualStudio.PlatformUI.Shell.DocumentGroup)" />
+    <Alias n="52" Id="(Address=03203cc4 Name=Microsoft.VisualStudio.PlatformUI.Shell.DocumentGroupContainer)" />
+    <Alias n="53" Id="(Address=03207f98 Name=Microsoft.VisualStudio.PlatformUI.Shell.TabGroup)" />
+    <Alias n="54" Id="(Address=0320bc80 Name=Microsoft.VisualStudio.PlatformUI.Shell.TabGroup)" />
+    <Alias n="55" Id="(Address=0316bdac Name=Microsoft.VisualStudio.PlatformUI.Shell.ViewManager)" />
+    <Alias n="56" Id="(Address=0383f06c Name=Microsoft.VisualStudio.PlatformUI.SplitterItem)" />
+    <Alias n="57" Id="(Address=0384010c Name=Microsoft.VisualStudio.PlatformUI.SplitterItem)" />
+    <Alias n="58" Id="(Address=038464f0 Name=Microsoft.VisualStudio.PlatformUI.SplitterItem)" />
+    <Alias n="59" Id="(Address=0383ee54 Name=Microsoft.VisualStudio.PlatformUI.SplitterPanel)" />
+    <Alias n="60" Id="(Address=03844a30 Name=Microsoft.VisualStudio.PlatformUI.SplitterPanel)" />
+    <Alias n="61" Id="(Address=038462d8 Name=Microsoft.VisualStudio.PlatformUI.SplitterPanel)" />
+    <Alias n="62" Id="(Address=038f6afc Name=Microsoft.VisualStudio.PlatformUI.StartPageToolWindow)" />
+    <Alias n="63" Id="Name=Microsoft.VisualStudio.PlatformUI.VsButton" />
+    <Alias n="64" Id="(Address=036ff890 @63)" />
+    <Alias n="65" Id="(Address=03701d50 @63)" />
+    <Alias n="66" Id="(Address=0371da50 @63)" />
+    <Alias n="67" Id="(Address=17a3a004 @63)" />
+    <Alias n="68" Id="(Address=17a516f4 @63)" />
+    <Alias n="69" Id="(Address=0378e844 Name=Microsoft.VisualStudio.PlatformUI.VsComboBox)" />
+    <Alias n="70" Id="(Address=17a5ca30 Name=Microsoft.VisualStudio.PlatformUI.VsComboBox)" />
+    <Alias n="71" Id="(Address=03701b58 Name=Microsoft.VisualStudio.PlatformUI.VsCommand)" />
+    <Alias n="72" Id="(Address=03704020 Name=Microsoft.VisualStudio.PlatformUI.VsCommand)" />
+    <Alias n="73" Id="(Address=17a81cac Name=Microsoft.VisualStudio.PlatformUI.VsMenuController)" />
+    <Alias n="74" Id="(Address=0356abac Name=Microsoft.VisualStudio.PlatformUI.VsQuickCustomizeButton)" />
+    <Alias n="75" Id="(Address=0368002c Name=Microsoft.VisualStudio.PlatformUI.VsResizeGrip)" />
+    <Alias n="76" Id="(Address=035312d0 Name=Microsoft.VisualStudio.PlatformUI.VsToolBar)" />
+    <Alias n="77" Id="(Address=03694618 Name=Microsoft.VisualStudio.PlatformUI.VsToolBar)" />
+    <Alias n="78" Id="(Address=0369d6a4 Name=Microsoft.VisualStudio.PlatformUI.VsToolBar)" />
+    <Alias n="79" Id="(Address=035da6a8 Name=Microsoft.VisualStudio.PlatformUI.VsToolBarHostControl)" />
+    <Alias n="80" Id="(Address=036f0770 Name=Microsoft.VisualStudio.PlatformUI.VsToolBarPanel)" />
+    <Alias n="81" Id="(Address=17a33e74 Name=Microsoft.VisualStudio.PlatformUI.VsToolBarPanel)" />
+    <Alias n="82" Id="(Address=036941fc Name=Microsoft.VisualStudio.PlatformUI.VsToolBarTray)" />
+    <Alias n="83" Id="(Address=036e7fe8 Name=Microsoft.VisualStudio.PlatformUI.VsToolBarTray)" />
+    <Alias n="84" Id="(Address=0352f948 Name=Microsoft.VisualStudio.PlatformUI.VsToolWindowToolBarTray)" />
+    <Alias n="85" Id="(Address=1791ffd4 Name=Microsoft.VisualStudio.Progression.GraphControl)" />
+    <Alias n="86" Id="(Address=1791a810 Name=Microsoft.VisualStudio.Progression.GraphDocumentWindowPane)" />
+    <Alias n="87" Id="(Address=179cdaa0 Name=Microsoft.VisualStudio.Progression.MapZoom)" />
+    <Alias n="88" Id="(Address=1792a1c4 Name=Microsoft.VisualStudio.Progression.VirtualCanvas)" />
+    <Alias n="89" Id="(Address=03b6f3e0 Name=Microsoft.Windows.Themes.ButtonChrome)" />
+    <Alias n="90" Id="(Address=178188d0 Name=Microsoft.Windows.Themes.ButtonChrome+LocalResources)" />
+    <Alias n="91" Id="(Address=03bad9a4 Name=Microsoft.Windows.Themes.ListBoxChrome)" />
+    <Alias n="92" Id="(Address=0356a64c Name=MS.Internal.Controls.InnerItemCollectionView)" />
+    <Alias n="93" Id="(Address=0356bca0 Name=MS.Internal.Controls.InnerItemCollectionView)" />
+    <Alias n="94" Id="(Address=17a82014 Name=MS.Internal.Controls.InnerItemCollectionView)" />
+    <Alias n="95" Id="(Address=031420a4 Name=MS.Internal.Data.DataBindEngine)" />
+    <Alias n="96" Id="(Address=039087d0 Name=MS.Internal.Data.ExplicitObjectRef)" />
+    <Alias n="97" Id="Name=MS.Internal.Data.PropertyPathWorker" />
+    <Alias n="98" Id="(Address=035e6b4c Name=MS.Internal.Data.ViewRecord)" />
+    <Alias n="99" Id="(Address=035e6b08 Name=MS.Internal.Data.ViewTable)" />
+    <Alias n="100" Id="(Address=03bc1ce0 Name=MS.Internal.Documents.FlowDocumentView)" />
+    <Alias n="101" Id="(Address=17ac5108 Name=MS.Internal.LoadedOrUnloadedOperation)" />
+    <Alias n="102" Id="(Address=0317212c Name=MS.Internal.WeakEventTable)" />
+    <Alias n="103" Id="Name=MS.Internal.Xaml.Context.ObjectWriterFrame" />
+    <Alias n="104" Id="(Address=03908a9c @103)" />
+    <Alias n="105" Id="(Address=03908adc @103)" />
+    <Alias n="106" Id="(Address=03908b1c @103)" />
+    <Alias n="107" Id="(Address=03908b5c @103)" />
+    <Alias n="108" Id="(Address=03908a74 Name=MS.Internal.Xaml.Context.XamlObjectWriterFactory)" />
+    <Alias n="109" Id="(Address=03aca428 Name=MS.Utility.FrugalMap)" />
+    <Alias n="110" Id="(Address=17819570 Name=MS.Utility.FrugalMap)" />
+    <Alias n="111" Id="(Address=03aca418 Name=MS.Utility.SingleObjectMap)" />
+    <Alias n="112" Id="(Address=17819560 Name=MS.Utility.SingleObjectMap)" />
+    <Alias n="113" Id="(Address=17976400 Name=MS.Utility.SingleObjectMap)" />
+    <Alias n="114" Id="Name=System.Collections.ArrayList" />
+    <Alias n="115" Id="(Address=0356a6d4 @114)" />
+    <Alias n="116" Id="(Address=0356bd28 @114)" />
+    <Alias n="117" Id="(Address=035e6c48 @114)" />
+    <Alias n="118" Id="(Address=17a8209c @114)" />
+    <Alias n="119" Id="(Address=03172184 Name=System.Collections.Hashtable)" />
+    <Alias n="120" Id="(Address=038084f4 Name=System.Collections.Hashtable)" />
+    <Alias n="121" Id="(Address=0355a320 Name=System.Collections.Specialized.CollectionChangedEventManager)" />
+    <Alias n="122" Id="(Address=03807ee4 Name=System.Collections.Specialized.HybridDictionary)" />
+    <Alias n="123" Id="(Address=035e6b80 Name=System.Collections.Specialized.ListDictionary)" />
+    <Alias n="124" Id="(Address=0380855c Name=System.Collections.Specialized.ListDictionary)" />
+    <Alias n="125" Id="(Address=035e6b9c Name=System.Collections.Specialized.ListDictionary+DictionaryNode)" />
+    <Alias n="126" Id="(Address=03808578 Name=System.Collections.Specialized.ListDictionary+DictionaryNode)" />
+    <Alias n="127" Id="Name=System.Collections.Specialized.NotifyCollectionChangedEventHandler" />
+    <Alias n="128" Id="(Address=0356b710 @127)" />
+    <Alias n="129" Id="(Address=035ed7b0 @127)" />
+    <Alias n="130" Id="(Address=035ed7d0 @127)" />
+    <Alias n="131" Id="(Address=179fc8dc @127)" />
+    <Alias n="132" Id="(Address=179fc914 @127)" />
+    <Alias n="133" Id="(Address=17a0d1d8 @127)" />
+    <Alias n="134" Id="(Address=17a0d210 @127)" />
+    <Alias n="135" Id="(Address=03230998 Name=System.ComponentModel.CancelEventHandler)" />
+    <Alias n="136" Id="(Address=032352c4 Name=System.ComponentModel.CancelEventHandler)" />
+    <Alias n="137" Id="Name=System.ComponentModel.PropertyChangedEventHandler" />
+    <Alias n="138" Id="(Address=0367ff64 @137)" />
+    <Alias n="139" Id="(Address=036ffc88 @137)" />
+    <Alias n="140" Id="(Address=03702148 @137)" />
+    <Alias n="141" Id="(Address=03704610 @137)" />
+    <Alias n="142" Id="(Address=0378f078 @137)" />
+    <Alias n="143" Id="(Address=179d929c @137)" />
+    <Alias n="144" Id="(Address=17a3a3fc @137)" />
+    <Alias n="145" Id="(Address=17a5d264 @137)" />
+    <Alias n="146" Id="(Address=03172288 Name=System.ComponentModel.PropertyChangedEventManager)" />
+    <Alias n="147" Id="(Address=03807994 Name=System.ComponentModel.ReflectPropertyDescriptor)" />
+    <Alias n="148" Id="(Address=179fc51c Name=System.ComponentModel.SortDescriptionCollection)" />
+    <Alias n="149" Id="(Address=17a0ce18 Name=System.ComponentModel.SortDescriptionCollection)" />
+    <Alias n="150" Id="Name=System.EventHandler" />
+    <Alias n="151" Id="(Address=031b04c8 @150)" />
+    <Alias n="152" Id="(Address=0321b4c4 @150)" />
+    <Alias n="153" Id="(Address=03701bac @150)" />
+    <Alias n="154" Id="(Address=03704074 @150)" />
+    <Alias n="155" Id="(Address=17973768 @150)" />
+    <Alias n="156" Id="(Address=179737a8 @150)" />
+    <Alias n="157" Id="(Address=179be1f8 @150)" />
+    <Alias n="158" Id="Name=System.Windows.ContextLayoutManager+LayoutQueue+Request" />
+    <Alias n="159" Id="(Address=0344cf60 @158)" />
+    <Alias n="160" Id="(Address=0344cf74 @158)" />
+    <Alias n="161" Id="(Address=0344cf88 @158)" />
+    <Alias n="162" Id="(Address=0344cfec @158)" />
+    <Alias n="163" Id="(Address=0344db7c @158)" />
+    <Alias n="164" Id="(Address=0344dc1c @158)" />
+    <Alias n="165" Id="(Address=0344dc30 @158)" />
+    <Alias n="166" Id="(Address=0344dc80 @158)" />
+    <Alias n="167" Id="(Address=0344dc94 @158)" />
+    <Alias n="168" Id="(Address=0374ffa0 Name=System.Windows.Controls.AccessText)" />
+    <Alias n="169" Id="(Address=03752318 Name=System.Windows.Controls.AccessText)" />
+    <Alias n="170" Id="(Address=037546b4 Name=System.Windows.Controls.AccessText)" />
+    <Alias n="171" Id="Name=System.Windows.Controls.Border" />
+    <Alias n="172" Id="(Address=03692148 @171)" />
+    <Alias n="173" Id="(Address=036e7d94 @171)" />
+    <Alias n="174" Id="(Address=0374ee98 @171)" />
+    <Alias n="175" Id="(Address=03751210 @171)" />
+    <Alias n="176" Id="(Address=037535ac @171)" />
+    <Alias n="177" Id="(Address=0389f874 @171)" />
+    <Alias n="178" Id="(Address=038a0248 @171)" />
+    <Alias n="179" Id="(Address=038a1578 @171)" />
+    <Alias n="180" Id="(Address=038f91cc @171)" />
+    <Alias n="181" Id="(Address=03aa9a4c @171)" />
+    <Alias n="182" Id="(Address=03bb13a4 @171)" />
+    <Alias n="183" Id="(Address=179f4908 @171)" />
+    <Alias n="184" Id="(Address=03b57734 Name=System.Windows.Controls.Button)" />
+    <Alias n="185" Id="(Address=0384b17c Name=System.Windows.Controls.ContentControl)" />
+    <Alias n="186" Id="Name=System.Windows.Controls.ContentPresenter" />
+    <Alias n="187" Id="(Address=038414d8 @186)" />
+    <Alias n="188" Id="(Address=038450d4 @186)" />
+    <Alias n="189" Id="(Address=03847a10 @186)" />
+    <Alias n="190" Id="(Address=0384bf5c @186)" />
+    <Alias n="191" Id="(Address=03869540 @186)" />
+    <Alias n="192" Id="(Address=03894b1c @186)" />
+    <Alias n="193" Id="(Address=038a0580 @186)" />
+    <Alias n="194" Id="(Address=038a1670 @186)" />
+    <Alias n="195" Id="(Address=179f65c0 @186)" />
+    <Alias n="196" Id="(Address=03902f34 Name=System.Windows.Controls.ControlTemplate)" />
+    <Alias n="197" Id="(Address=0384117c Name=System.Windows.Controls.DockPanel)" />
+    <Alias n="198" Id="(Address=179f50c8 Name=System.Windows.Controls.DockPanel)" />
+    <Alias n="199" Id="Name=System.Windows.Controls.Grid" />
+    <Alias n="200" Id="(Address=03693a64 @199)" />
+    <Alias n="201" Id="(Address=0374efec @199)" />
+    <Alias n="202" Id="(Address=03751364 @199)" />
+    <Alias n="203" Id="(Address=03753700 @199)" />
+    <Alias n="204" Id="(Address=0396632c @199)" />
+    <Alias n="205" Id="(Address=0396e768 @199)" />
+    <Alias n="206" Id="(Address=0398b300 @199)" />
+    <Alias n="207" Id="(Address=03aa9ba8 @199)" />
+    <Alias n="208" Id="(Address=03aaafc4 @199)" />
+    <Alias n="209" Id="(Address=03aac174 @199)" />
+    <Alias n="210" Id="(Address=03bb0be0 @199)" />
+    <Alias n="211" Id="(Address=03bb154c @199)" />
+    <Alias n="212" Id="(Address=03bb19e8 @199)" />
+    <Alias n="213" Id="(Address=1795b4fc @199)" />
+    <Alias n="214" Id="(Address=179746fc @199)" />
+    <Alias n="215" Id="(Address=179beb70 @199)" />
+    <Alias n="216" Id="(Address=17a84e4c @199)" />
+    <Alias n="217" Id="Name=System.Windows.Controls.ItemCollection" />
+    <Alias n="218" Id="(Address=0356a2a4 @217)" />
+    <Alias n="219" Id="(Address=0356a928 @217)" />
+    <Alias n="220" Id="(Address=0383e1ac @217)" />
+    <Alias n="221" Id="(Address=179fbd6c @217)" />
+    <Alias n="222" Id="(Address=17a0c730 @217)" />
+    <Alias n="223" Id="(Address=17a81aa0 @217)" />
+    <Alias n="224" Id="(Address=0383e268 Name=System.Windows.Controls.ItemContainerGenerator)" />
+    <Alias n="225" Id="(Address=179fbe28 Name=System.Windows.Controls.ItemContainerGenerator)" />
+    <Alias n="226" Id="(Address=17a0c7ec Name=System.Windows.Controls.ItemContainerGenerator)" />
+    <Alias n="227" Id="(Address=0383f00c Name=System.Windows.Controls.ItemContainerGenerator+ItemBlock)" />
+    <Alias n="228" Id="(Address=0383f164 Name=System.Windows.Controls.ItemContainerGenerator+RealizedItemBlock)" />
+    <Alias n="229" Id="(Address=17a18e40 Name=System.Windows.Controls.ItemsPresenter)" />
+    <Alias n="230" Id="(Address=17a1dbf0 Name=System.Windows.Controls.ItemsPresenter)" />
+    <Alias n="231" Id="(Address=0398e420 Name=System.Windows.Controls.ListBox)" />
+    <Alias n="232" Id="(Address=03aa0340 Name=System.Windows.Controls.ListBoxItem)" />
+    <Alias n="233" Id="(Address=03569fc4 Name=System.Windows.Controls.Menu)" />
+    <Alias n="234" Id="(Address=17a81918 Name=System.Windows.Controls.Menu)" />
+    <Alias n="235" Id="(Address=0356a4cc Name=System.Windows.Controls.MenuItem)" />
+    <Alias n="236" Id="(Address=17a8520c Name=System.Windows.Controls.Primitives.Popup)" />
+    <Alias n="237" Id="(Address=17ab1e08 Name=System.Windows.Controls.Primitives.Popup)" />
+    <Alias n="238" Id="(Address=17ab423c Name=System.Windows.Controls.Primitives.PopupRoot)" />
+    <Alias n="239" Id="(Address=03bbece8 Name=System.Windows.Controls.Primitives.RepeatButton)" />
+    <Alias n="240" Id="(Address=0398b6b8 Name=System.Windows.Controls.Primitives.Selector+InternalSelectedItemsStorage)" />
+    <Alias n="241" Id="(Address=0367ec44 Name=System.Windows.Controls.Primitives.StatusBarItem)" />
+    <Alias n="242" Id="Name=System.Windows.Controls.ScrollContentPresenter" />
+    <Alias n="243" Id="(Address=039b0da0 @242)" />
+    <Alias n="244" Id="(Address=03bae738 @242)" />
+    <Alias n="245" Id="(Address=03bc2804 @242)" />
+    <Alias n="246" Id="(Address=17a1798c @242)" />
+    <Alias n="247" Id="(Address=17a19850 @242)" />
+    <Alias n="248" Id="(Address=17a1c73c @242)" />
+    <Alias n="249" Id="(Address=17a1e600 @242)" />
+    <Alias n="250" Id="(Address=17a64e3c @242)" />
+    <Alias n="251" Id="(Address=0398c3bc Name=System.Windows.Controls.ScrollViewer)" />
+    <Alias n="252" Id="(Address=0398b588 Name=System.Windows.Controls.TabControl)" />
+    <Alias n="253" Id="(Address=0389c334 Name=System.Windows.Controls.TabItem)" />
+    <Alias n="254" Id="(Address=0398bd3c Name=System.Windows.Controls.TabItem)" />
+    <Alias n="255" Id="(Address=17975690 Name=System.Windows.Controls.TextBlock)" />
+    <Alias n="256" Id="(Address=179759c8 Name=System.Windows.Controls.TextBlock+ComplexContent)" />
+    <Alias n="257" Id="(Address=1777499c Name=System.Windows.Controls.TextBox)" />
+    <Alias n="258" Id="(Address=17a62dd4 Name=System.Windows.Controls.TextBox)" />
+    <Alias n="259" Id="(Address=03badc8c Name=System.Windows.Controls.TextBoxView)" />
+    <Alias n="260" Id="(Address=17a6437c Name=System.Windows.Controls.TextBoxView)" />
+    <Alias n="261" Id="(Address=03531294 Name=System.Windows.Controls.ToolBarTray+ToolBarCollection)" />
+    <Alias n="262" Id="(Address=036945ec Name=System.Windows.Controls.ToolBarTray+ToolBarCollection)" />
+    <Alias n="263" Id="(Address=17ab1810 Name=System.Windows.Controls.ToolTip)" />
+    <Alias n="264" Id="(Address=179f2534 Name=System.Windows.Controls.TreeView)" />
+    <Alias n="265" Id="(Address=17a03814 Name=System.Windows.Controls.TreeView)" />
+    <Alias n="266" Id="Name=System.Windows.Controls.UIElementCollection" />
+    <Alias n="267" Id="(Address=03693f4c @266)" />
+    <Alias n="268" Id="(Address=0374f2a4 @266)" />
+    <Alias n="269" Id="(Address=0375161c @266)" />
+    <Alias n="270" Id="(Address=037539b8 @266)" />
+    <Alias n="271" Id="(Address=03841280 @266)" />
+    <Alias n="272" Id="(Address=0389c06c @266)" />
+    <Alias n="273" Id="(Address=0396e73c @266)" />
+    <Alias n="274" Id="(Address=0396effc @266)" />
+    <Alias n="275" Id="(Address=0398b480 @266)" />
+    <Alias n="276" Id="(Address=039b5188 @266)" />
+    <Alias n="277" Id="(Address=03aa9e58 @266)" />
+    <Alias n="278" Id="(Address=03aab26c @266)" />
+    <Alias n="279" Id="(Address=03bb1010 @266)" />
+    <Alias n="280" Id="(Address=03bb181c @266)" />
+    <Alias n="281" Id="(Address=03bb1d90 @266)" />
+    <Alias n="282" Id="(Address=17974a28 @266)" />
+    <Alias n="283" Id="(Address=17976410 @266)" />
+    <Alias n="284" Id="(Address=179bf100 @266)" />
+    <Alias n="285" Id="(Address=179f52ac @266)" />
+    <Alias n="286" Id="(Address=039b4fd4 Name=System.Windows.Controls.VirtualizingStackPanel)" />
+    <Alias n="287" Id="(Address=03908764 Name=System.Windows.Data.Binding)" />
+    <Alias n="288" Id="Name=System.Windows.Data.BindingExpression" />
+    <Alias n="289" Id="(Address=0356acd8 Name=System.Windows.Data.CollectionContainer)" />
+    <Alias n="290" Id="Name=System.Windows.Data.ListCollectionView" />
+    <Alias n="291" Id="(Address=035e674c @290)" />
+    <Alias n="292" Id="(Address=035ecc64 @290)" />
+    <Alias n="293" Id="(Address=0383e3b8 @290)" />
+    <Alias n="294" Id="(Address=179fc10c @290)" />
+    <Alias n="295" Id="(Address=17a0cad0 @290)" />
+    <Alias n="296" Id="(Address=0390895c Name=System.Windows.DataTemplate)" />
+    <Alias n="297" Id="(Address=0390871c Name=System.Windows.DataTrigger)" />
+    <Alias n="298" Id="Name=System.Windows.Documents.AdornerLayer" />
+    <Alias n="299" Id="(Address=03bae840 @298)" />
+    <Alias n="300" Id="(Address=03bc290c @298)" />
+    <Alias n="301" Id="(Address=17a17a94 @298)" />
+    <Alias n="302" Id="(Address=17a19958 @298)" />
+    <Alias n="303" Id="(Address=17a1c844 @298)" />
+    <Alias n="304" Id="(Address=17a1e708 @298)" />
+    <Alias n="305" Id="(Address=17a64f44 @298)" />
+    <Alias n="306" Id="(Address=17975cd8 Name=System.Windows.Documents.Hyperlink)" />
+    <Alias n="307" Id="(Address=17ab449c Name=System.Windows.Documents.NonLogicalAdornerDecorator)" />
+    <Alias n="308" Id="(Address=1797598c Name=System.Windows.Documents.TextContainer)" />
+    <Alias n="309" Id="(Address=17975a24 Name=System.Windows.Documents.TextTreeRootNode)" />
+    <Alias n="310" Id="(Address=17975dc8 Name=System.Windows.Documents.TextTreeTextElementNode)" />
+    <Alias n="311" Id="(Address=17975fb0 Name=System.Windows.Documents.TextTreeTextElementNode)" />
+    <Alias n="312" Id="(Address=17976100 Name=System.Windows.Documents.TextTreeTextElementNode)" />
+    <Alias n="313" Id="(Address=179763d4 Name=System.Windows.EventHandlersStore)" />
+    <Alias n="314" Id="(Address=030d2248 Name=System.Windows.Input.InputManager)" />
+    <Alias n="315" Id="(Address=17ab4098 Name=System.Windows.Input.InputProviderSite)" />
+    <Alias n="316" Id="(Address=030d2840 Name=System.Windows.Input.StylusLogic)" />
+    <Alias n="317" Id="(Address=17ab4078 Name=System.Windows.Interop.HwndAppCommandInputProvider)" />
+    <Alias n="318" Id="(Address=0355bd1c Name=System.Windows.Interop.HwndSource)" />
+    <Alias n="319" Id="(Address=17ab39e0 Name=System.Windows.Interop.HwndSource)" />
+    <Alias n="320" Id="(Address=17ab3fb0 Name=System.Windows.Interop.HwndStylusInputProvider)" />
+    <Alias n="321" Id="(Address=03ac9928 Name=System.Windows.Media.Animation.AnimationClock)" />
+    <Alias n="322" Id="(Address=17abf890 Name=System.Windows.Media.Animation.AnimationClock)" />
+    <Alias n="323" Id="(Address=03aca3ac Name=System.Windows.Media.Animation.AnimationLayer)" />
+    <Alias n="324" Id="(Address=03aca2e0 Name=System.Windows.Media.Animation.AnimationStorage)" />
+    <Alias n="325" Id="(Address=1781948c Name=System.Windows.Media.Animation.DoubleIndependentAnimationStorage)" />
+    <Alias n="326" Id="(Address=03162f98 Name=System.Windows.Media.Animation.TimeManager)" />
+    <Alias n="327" Id="(Address=17819050 Name=System.Windows.Media.LinearGradientBrush)" />
+    <Alias n="328" Id="(Address=03162a40 Name=System.Windows.Media.MediaContext)" />
+    <Alias n="329" Id="Name=System.Windows.Media.VisualCollection" />
+    <Alias n="330" Id="(Address=03693f60 @329)" />
+    <Alias n="331" Id="(Address=0374f2b8 @329)" />
+    <Alias n="332" Id="(Address=03751630 @329)" />
+    <Alias n="333" Id="(Address=037539cc @329)" />
+    <Alias n="334" Id="(Address=03841294 @329)" />
+    <Alias n="335" Id="(Address=0389c080 @329)" />
+    <Alias n="336" Id="(Address=0396e750 @329)" />
+    <Alias n="337" Id="(Address=0396f010 @329)" />
+    <Alias n="338" Id="(Address=0398b494 @329)" />
+    <Alias n="339" Id="(Address=039b519c @329)" />
+    <Alias n="340" Id="(Address=03aa9e6c @329)" />
+    <Alias n="341" Id="(Address=03aab280 @329)" />
+    <Alias n="342" Id="(Address=03bb1024 @329)" />
+    <Alias n="343" Id="(Address=03bb1830 @329)" />
+    <Alias n="344" Id="(Address=03bb1da4 @329)" />
+    <Alias n="345" Id="(Address=17974a3c @329)" />
+    <Alias n="346" Id="(Address=17976424 @329)" />
+    <Alias n="347" Id="(Address=179bf114 @329)" />
+    <Alias n="348" Id="(Address=179f52c0 @329)" />
+    <Alias n="349" Id="(Address=036e84dc Name=System.Windows.ModifiedValue)" />
+    <Alias n="350" Id="(Address=179f9e14 Name=System.Windows.ModifiedValue)" />
+    <Alias n="351" Id="(Address=179763b4 Name=System.Windows.RoutedEventHandler)" />
+    <Alias n="352" Id="(Address=03902f0c Name=System.Windows.Setter)" />
+    <Alias n="353" Id="(Address=03902e48 Name=System.Windows.SetterBaseCollection)" />
+    <Alias n="354" Id="(Address=03908e94 Name=System.Windows.TemplateContent)" />
+    <Alias n="355" Id="(Address=030cf5d0 Name=System.Windows.Threading.Dispatcher)" />
+    <Alias n="356" Id="Name=System.Windows.Threading.DispatcherOperation" />
+    <Alias n="357" Id="(Address=17abb908 @356)" />
+    <Alias n="358" Id="(Address=17abcc60 @356)" />
+    <Alias n="359" Id="(Address=17abdcf4 @356)" />
+    <Alias n="360" Id="(Address=17abb8e8 Name=System.Windows.Threading.DispatcherOperationCallback)" />
+    <Alias n="361" Id="(Address=17abcc40 Name=System.Windows.Threading.DispatcherOperationCallback)" />
+    <Alias n="362" Id="(Address=179be218 Name=System.Windows.Threading.DispatcherTimer)" />
+    <Alias n="363" Id="(Address=17abb88c Name=System.Windows.Threading.DispatcherTimer)" />
+    <Alias n="364" Id="(Address=03907938 Name=System.Windows.TriggerCollection)" />
+    <Alias n="365" Id="(Address=03908e7c Name=System.Xaml.XamlSavedContext)" />
+    <Alias n="366" Id="A=[0]" />
+    <Alias n="367" Id="(Address=036d2284 (Name=System.Collections.Hashtable+bucket @366))" />
+    <Alias n="368" Id="(Address=0380852c (Name=System.Collections.Hashtable+bucket @366))" />
+    <Alias n="369" Id="(Name=System.Object @366)" />
+    <Alias n="370" Id="(Address=03202398 @369)" />
+    <Alias n="371" Id="(Address=03206a28 @369)" />
+    <Alias n="372" Id="(Address=0320779c @369)" />
+    <Alias n="373" Id="(Address=032078b4 @369)" />
+    <Alias n="374" Id="(Address=0320a084 @369)" />
+    <Alias n="375" Id="(Address=0320b448 @369)" />
+    <Alias n="376" Id="(Address=0321b4ac @369)" />
+    <Alias n="377" Id="(Address=0353151c @369)" />
+    <Alias n="378" Id="(Address=0356a6ec @369)" />
+    <Alias n="379" Id="(Address=0356bd40 @369)" />
+    <Alias n="380" Id="(Address=035e6c60 @369)" />
+    <Alias n="381" Id="(Address=035ecd30 @369)" />
+    <Alias n="382" Id="(Address=036951fc @369)" />
+    <Alias n="383" Id="(Address=036cd6ac @369)" />
+    <Alias n="384" Id="(Address=036e7e8c @369)" />
+    <Alias n="385" Id="(Address=037500a4 @369)" />
+    <Alias n="386" Id="(Address=0375241c @369)" />
+    <Alias n="387" Id="(Address=037547b8 @369)" />
+    <Alias n="388" Id="(Address=038415d4 @369)" />
+    <Alias n="389" Id="(Address=0389c430 @369)" />
+    <Alias n="390" Id="(Address=03902e9c @369)" />
+    <Alias n="391" Id="(Address=03907fec @369)" />
+    <Alias n="392" Id="(Address=0396e880 @369)" />
+    <Alias n="393" Id="(Address=0398b418 @369)" />
+    <Alias n="394" Id="(Address=0398baf0 @369)" />
+    <Alias n="395" Id="(Address=03aab0dc @369)" />
+    <Alias n="396" Id="(Address=03aac28c @369)" />
+    <Alias n="397" Id="(Address=03ac45e8 @369)" />
+    <Alias n="398" Id="(Address=03aca2cc @369)" />
+    <Alias n="399" Id="(Address=03aca398 @369)" />
+    <Alias n="400" Id="(Address=03bb149c @369)" />
+    <Alias n="401" Id="(Address=03bb1b00 @369)" />
+    <Alias n="402" Id="(Address=03bbede4 @369)" />
+    <Alias n="403" Id="(Address=17973788 @369)" />
+    <Alias n="404" Id="(Address=179757ec @369)" />
+    <Alias n="405" Id="(Address=1797643c @369)" />
+    <Alias n="406" Id="(Address=179bf12c @369)" />
+    <Alias n="407" Id="(Address=179f67a8 @369)" />
+    <Alias n="408" Id="(Address=179fc8fc @369)" />
+    <Alias n="409" Id="(Address=17a0d1f8 @369)" />
+    <Alias n="410" Id="(Address=17a27d74 @369)" />
+    <Alias n="411" Id="(Address=17a577e8 @369)" />
+    <Alias n="412" Id="(Address=17a820b4 @369)" />
+    <Alias n="413" Id="(Address=0383f17c (Name=System.Windows.Controls.ItemContainerGenerator+BlockEntry @366))" />
+    <Alias n="414" Id="(Name=System.Windows.EffectiveValueEntry @366)" />
+    <Alias n="415" Id="(Address=036e857c @414)" />
+    <Alias n="416" Id="(Address=03750840 @414)" />
+    <Alias n="417" Id="(Address=03752bb8 @414)" />
+    <Alias n="418" Id="(Address=03754f54 @414)" />
+    <Alias n="419" Id="(Address=0383ba94 @414)" />
+    <Alias n="420" Id="(Address=03890720 @414)" />
+    <Alias n="421" Id="(Address=0389fcb4 @414)" />
+    <Alias n="422" Id="(Address=038c5a7c @414)" />
+    <Alias n="423" Id="(Address=038c79cc @414)" />
+    <Alias n="424" Id="(Address=0399a530 @414)" />
+    <Alias n="425" Id="(Address=03ad8404 @414)" />
+    <Alias n="426" Id="(Address=03bc139c @414)" />
+    <Alias n="427" Id="(Address=03bc8dcc @414)" />
+    <Alias n="428" Id="(Address=1781957c @414)" />
+    <Alias n="429" Id="(Address=17975d24 @414)" />
+    <Alias n="430" Id="(Address=17a201e4 @414)" />
+    <Alias n="431" Id="(Address=17a254e0 @414)" />
+    <Alias n="432" Id="(Address=17ab5e40 @414)" />
+    <Alias n="433" Id="Name=System.Collections.Generic.List`1" />
+    <Alias n="434" Id="(Address=036951e4 (@433 (Name=Microsoft.VisualStudio.Gel.IDataSource AssemblyName=Microsoft.VisualStudio.Gel)))" />
+    <Alias n="435" Id="(Address=0369e140 (@433 (Name=Microsoft.VisualStudio.Gel.IDataSource AssemblyName=Microsoft.VisualStudio.Gel)))" />
+    <Alias n="436" Id="(Address=0371d91c (Name=Microsoft.VisualStudio.Gel.GelCookieTable`1 (Name=Microsoft.VisualStudio.Shell.Interop.IVsUIDataSourcePropertyChangeEvents AssemblyName=Microsoft.VisualStudio.Shell.Interop.10.0)))" />
+    <Alias n="437" Id="(Address=17a25fc8 (Name=Microsoft.VisualStudio.Gel.GelCookieTable`1 (Name=Microsoft.VisualStudio.Shell.Interop.IVsUIDataSourcePropertyChangeEvents AssemblyName=Microsoft.VisualStudio.Shell.Interop.10.0)))" />
+    <Alias n="438" Id="(@433 (Name=Microsoft.VisualStudio.PlatformUI.Shell.ViewElement AssemblyName=Microsoft.VisualStudio.Shell.ViewManager))" />
+    <Alias n="439" Id="(Address=031ff18c @438)" />
+    <Alias n="440" Id="(Address=03203028 @438)" />
+    <Alias n="441" Id="(Address=03203d48 @438)" />
+    <Alias n="442" Id="(Address=03204e74 @438)" />
+    <Alias n="443" Id="(Address=03207d6c @438)" />
+    <Alias n="444" Id="(Address=0320801c @438)" />
+    <Alias n="445" Id="AssemblyName=PresentationCore" />
+    <Alias n="446" Id="(Address=17ac001c (Name=MS.Utility.FrugalObjectList`1 (Name=MS.Internal.LoadedOrUnloadedOperation @445)))" />
+    <Alias n="447" Id="(Address=17ac29a0 (Name=MS.Utility.ThreeItemList`1 (Name=MS.Internal.LoadedOrUnloadedOperation @445)))" />
+    <Alias n="448" Id="Name=MS.Internal.SecurityCriticalDataClass`1" />
+    <Alias n="449" Id="(Address=17ab40ac (@448 (Name=System.Windows.Input.InputManager @445)))" />
+    <Alias n="450" Id="(Address=17ab408c (@448 (Name=System.Windows.Input.InputProviderSite @445)))" />
+    <Alias n="451" Id="(Address=17ab4060 (@448 (Name=System.Windows.Input.StylusLogic @445)))" />
+    <Alias n="452" Id="(Address=17ab40d0 (@448 (Name=System.Windows.Interop.HwndAppCommandInputProvider @445)))" />
+    <Alias n="453" Id="(Address=17ab406c (@448 (Name=System.Windows.Interop.HwndStylusInputProvider @445)))" />
+    <Alias n="454" Id="(Address=17abfa2c (Name=MS.Utility.FrugalObjectList`1 (Name=System.Windows.Media.Animation.AnimationClock @445)))" />
+    <Alias n="455" Id="(Address=17abfa38 (Name=MS.Utility.SingleItemList`1 (Name=System.Windows.Media.Animation.AnimationClock @445)))" />
+    <Alias n="456" Id="(Address=03aca2b4 (@433 (Name=System.Windows.Media.Animation.AnimationClock @445)))" />
+    <Alias n="457" Id="(Address=17ab5ea4 (Name=MS.Internal.SecurityCriticalDataForMultipleGetAndSet`1 (Name=System.Windows.PresentationSource @445)))" />
+    <Alias n="458" Id="(Address=179763e0 (Name=MS.Utility.FrugalObjectList`1 (Name=System.Windows.RoutedEventHandlerInfo @445)))" />
+    <Alias n="459" Id="(Address=179763ec (Name=MS.Utility.SingleItemList`1 (Name=System.Windows.RoutedEventHandlerInfo @445)))" />
+    <Alias n="460" Id="(Address=17a577d0 (@433 (Name=System.Windows.UIElement @445)))" />
+    <Alias n="461" Id="(Address=035312a8 (@433 (Name=System.Windows.Controls.ToolBar AssemblyName=PresentationFramework)))" />
+    <Alias n="462" Id="(Address=03694600 (@433 (Name=System.Windows.Controls.ToolBar AssemblyName=PresentationFramework)))" />
+    <Alias n="463" Id="(Address=03902e5c (@433 (Name=System.Windows.SetterBase AssemblyName=PresentationFramework)))" />
+    <Alias n="464" Id="(Address=03907950 (@433 (Name=System.Windows.TriggerBase AssemblyName=PresentationFramework)))" />
+    <Alias n="465" Id="(Address=03908a84 (Name=MS.Internal.Xaml.Context.XamlContextStack`1 (@103 AssemblyName=System.Xaml)))" />
+    <Alias n="466" Id="(Address=03161e48 (Name=System.Windows.Threading.PriorityChain`1 (@356 AssemblyName=WindowsBase)))" />
+    <Alias n="467" Id="(Name=System.Windows.Threading.PriorityItem`1 (@356 AssemblyName=WindowsBase))" />
+    <Alias n="468" Id="(Address=17abb970 @467)" />
+    <Alias n="469" Id="(Address=17abccc8 @467)" />
+    <Alias n="470" Id="(Address=17abce50 @467)" />
+    <Alias n="471" Id="(Address=17abdd5c @467)" />
+    <Alias n="472" Id="(Address=17ac00a0 @467)" />
+    <Alias n="473" Id="(Address=17ac0200 @467)" />
+    <Alias n="474" Id="(Address=17ac51a4 @467)" />
+    <Alias n="475" Id="(Address=030cf684 (Name=System.Windows.Threading.PriorityQueue`1 (@356 AssemblyName=WindowsBase)))" />
+    <Alias n="476" Id="Name=System.Collections.Generic.Dictionary`2" />
+    <Alias n="477" Id="AssemblyName=mscorlib" />
+    <Alias n="478" Id="(Address=0371d950 (@476 ((Name=System.UInt32 @477) (Name=Microsoft.VisualStudio.Shell.Interop.IVsUIDataSourcePropertyChangeEvents AssemblyName=Microsoft.VisualStudio.Shell.Interop.10.0))))" />
+    <Alias n="479" Id="(Address=17a25ffc (@476 ((Name=System.UInt32 @477) (Name=Microsoft.VisualStudio.Shell.Interop.IVsUIDataSourcePropertyChangeEvents AssemblyName=Microsoft.VisualStudio.Shell.Interop.10.0))))" />
+    <Alias n="480" Id="Name=System.Collections.Generic.Dictionary`2+Entry" />
+    <Alias n="481" Id="(Address=0378f03c (@480 ((Name=System.UInt32 @477) (Name=Microsoft.VisualStudio.Shell.Interop.IVsUIDataSourcePropertyChangeEvents AssemblyName=Microsoft.VisualStudio.Shell.Interop.10.0))))" />
+    <Alias n="482" Id="(Address=17a5d228 (@480 ((Name=System.UInt32 @477) (Name=Microsoft.VisualStudio.Shell.Interop.IVsUIDataSourcePropertyChangeEvents AssemblyName=Microsoft.VisualStudio.Shell.Interop.10.0))))" />
+    <Alias n="483" Id="(@476 ((Name=System.String @477) (Name=Microsoft.VisualStudio.Shell.Interop.IVsUIObject AssemblyName=Microsoft.VisualStudio.Shell.Interop.10.0)))" />
+    <Alias n="484" Id="(Address=03164220 @483)" />
+    <Alias n="485" Id="(Address=035e61e8 @483)" />
+    <Alias n="486" Id="(Address=035e6924 @483)" />
+    <Alias n="487" Id="(Address=035e73fc @483)" />
+    <Alias n="488" Id="(@480 ((Name=System.String @477) (Name=Microsoft.VisualStudio.Shell.Interop.IVsUIObject AssemblyName=Microsoft.VisualStudio.Shell.Interop.10.0)))" />
+    <Alias n="489" Id="(Address=0344ec08 @488)" />
+    <Alias n="490" Id="(Address=035e66f8 @488)" />
+    <Alias n="491" Id="(Address=03696218 @488)" />
+    <Alias n="492" Id="(Address=0369efc8 @488)" />
+    <Alias n="493" Id="(Address=0398b6f4 (@476 ((Name=System.Object @477) (Name=System.Object @477))))" />
+    <Alias n="494" Id="(Address=0398b740 (@480 ((Name=System.Object @477) (Name=System.Object @477))))" />
+    <Alias n="495" Id="(Address=030d29b4 (@476 ((Name=System.Object @477) (Name=System.Windows.Input.PenContexts @445))))" />
+    <Alias n="496" Id="(Address=03516fa4 (@480 ((Name=System.Object @477) (Name=System.Windows.Input.PenContexts @445))))" />
+    <Alias n="497" Id="(Address=03aca35c (Name=System.Collections.Generic.SortedList`2 ((Name=System.Int64 @477) (Name=System.Windows.Media.Animation.AnimationLayer @445))))" />
+  </IdentifierAliases>
+</DirectedGraph>

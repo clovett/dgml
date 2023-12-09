@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" Layout="Sugiyama" ZoomLevel="1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="0" Label="SHELL32!CDesktopBrowser" Address="0x35D7338" Size="0x2BC" Group="Expanded" Category="Class" />
+    <Node Id="1:_psb" Label="_psb" Offset="0xBC" Category="Member Variable" />
+    <Node Id="2:_psb" Label="_psb" Offset="0x48" Category="Member Variable" />
+    <Node Id="2:_punkSiteProffer" Label="_punkSiteProffer" Offset="0x360" Category="Member Variable" />
+    <Node Id="1:_psp" Label="_psp" Offset="0xB8" Category="Member Variable" />
+    <Node Id="1:_pmsc" Label="_pmsc" Offset="0xC0" Category="Member Variable" />
+    <Node Id="1:_pbs" Label="_pbs" Offset="0xA8" Category="Member Variable" />
+    <Node Id="1" Label="EXPLORERFRAME!CIEFrameAuto" Address="0x18B690" Size="0xCC" Group="Expanded" Category="Class" />
+    <Node Id="3:+0x8" Label="+0x8" Offset="0x8" Category="Member Variable" />
+    <Node Id="0:_pss" Label="_pss" Offset="0x48" Category="Member Variable" />
+    <Node Id="2" Label="SHELL32!CDefView" Address="0x35DE598" Size="0x398" Group="Expanded" Category="Class" />
+    <Node Id="4:_punkSite" Label="_punkSite" Offset="0x10" Category="Member Variable" />
+    <Node Id="5:_pdv" Label="_pdv" Offset="0x10" Category="Member Variable" />
+    <Node Id="6:_punkSite" Label="_punkSite" Offset="0x4" Category="Member Variable" />
+    <Node Id="7:_punkSite" Label="_punkSite" Offset="0x4" Category="Member Variable" />
+    <Node Id="0:_psv" Label="_psv" Offset="0x44" Category="Member Variable" />
+    <Node Id="8:_punkSite" Label="_punkSite" Offset="0x4" Category="Member Variable" />
+    <Node Id="0:_pdtView" Label="_pdtView" Offset="0x50" Category="Member Variable" />
+    <Node Id="9:+0x0" Label="+0x0" Offset="0x0" Category="Member Variable" />
+    <Node Id="9:+0x18" Label="+0x18" Offset="0x18" Category="Member Variable" />
+    <Node Id="6:_plch" Label="_plch" Offset="0x48" Category="Member Variable" />
+    <Node Id="8:_pcfcb" Label="_pcfcb" Offset="0x18C" Category="Member Variable" />
+    <Node Id="10:+0x4" Label="+0x4" Offset="0x4" Category="Member Variable" />
+    <Node Id="3" Label="Allocation of size 0x20" Address="0x3645B38" Size="0x20" Group="Expanded" Category="Class" />
+    <Node Id="11:+0x0" Label="+0x0" Offset="0x0" Category="Member Variable" />
+    <Node Id="4" Label="SHELL32!CDesktopViewCallBack" Address="0x156538" Size="0x30" Group="Expanded" Category="Class" />
+    <Node Id="7:_psfvcb" Label="_psfvcb" Offset="0x28" Category="Member Variable" />
+    <Node Id="2:_cCallback" Label="_cCallback" Offset="0x1E4" Category="Member Variable" />
+    <Node Id="7:_pfvs" Label="_pfvs" Offset="0x2C" Category="Member Variable" />
+    <Node Id="2:_cCallback._psff" Label="_cCallback._psff" Offset="0x1E8" Category="Member Variable" />
+    <Node Id="5" Label="SHELL32!CDefViewSink" Address="0x195740" Size="0x18" Group="Expanded" Category="Class" />
+    <Node Id="2:_pCollectionSink" Label="_pCollectionSink" Offset="0x318" Category="Member Variable" />
+    <Node Id="12:+0x4" Label="+0x4" Offset="0x4" Category="Member Variable" />
+    <Node Id="6" Label="SHELL32!CListViewHost" Address="0x35D3998" Size="0x100" Group="Expanded" Category="Class" />
+    <Node Id="13:+0x28" Label="+0x28" Offset="0x28" Category="Member Variable" />
+    <Node Id="14:+0x28" Label="+0x28" Offset="0x28" Category="Member Variable" />
+    <Node Id="15:+0x28" Label="+0x28" Offset="0x28" Category="Member Variable" />
+    <Node Id="16:_podCallback" Label="_podCallback" Offset="0x1B0" Category="Member Variable" />
+    <Node Id="16:_psiCallback" Label="_psiCallback" Offset="0x1B4" Category="Member Variable" />
+    <Node Id="2:_plc" Label="_plc" Offset="0x30C" Category="Member Variable" />
+    <Node Id="10:+0xC" Label="+0xC" Offset="0xC" Category="Member Variable" />
+    <Node Id="17:_pceSinkInner" Label="_pceSinkInner" Offset="0x10" Category="Member Variable" />
+    <Node Id="18:_pieSinkInner" Label="_pieSinkInner" Offset="0x10" Category="Member Variable" />
+    <Node Id="19:_pisSink" Label="_pisSink" Offset="0x10" Category="Member Variable" />
+    <Node Id="7" Label="SHELL32!CViewSettings" Address="0x35D69C8" Size="0x12C" Group="Expanded" Category="Class" />
+    <Node Id="6:_pvs" Label="_pvs" Offset="0xCC" Category="Member Variable" />
+    <Node Id="2:_pvs" Label="_pvs" Offset="0x344" Category="Member Variable" />
+    <Node Id="8" Label="SHELL32!CDefCollection" Address="0x35FF7B0" Size="0x1E8" Group="Expanded" Category="Class" />
+    <Node Id="20:_pdc" Label="_pdc" Offset="0x8" Category="Member Variable" />
+    <Node Id="21:_pvObject" Label="_pvObject" Offset="0x20" Category="Member Variable" />
+    <Node Id="22:_pic" Label="_pic" Offset="0x40" Category="Member Variable" />
+    <Node Id="21:_pUnk" Label="_pUnk" Offset="0x4" Category="Member Variable" />
+    <Node Id="23:_spDefItemCollection" Label="_spDefItemCollection" Offset="0x1C" Category="Member Variable" />
+    <Node Id="9" Label="Allocation of size 0x60" Address="0x361FAB0" Size="0x60" Group="Expanded" Category="Class" />
+    <Node Id="24:+0x4" Label="+0x4" Offset="0x4" Category="Member Variable" />
+    <Node Id="10" Label="Allocation of size 0x40" Address="0x154A90" Size="0x40" Group="Expanded" Category="Class" />
+    <Node Id="25:+0x4" Label="+0x4" Offset="0x4" Category="Member Variable" />
+    <Node Id="11" Label="Allocation of size 0x20" Address="0x3645B70" Size="0x20" Group="Expanded" Category="Class" />
+    <Node Id="26:+0x4" Label="+0x4" Offset="0x4" Category="Member Variable" />
+    <Node Id="12" Label="Allocation of size 0x40" Address="0x35FFDB0" Size="0x40" Group="Expanded" Category="Class" />
+    <Node Id="27:+0x4" Label="+0x4" Offset="0x4" Category="Member Variable" />
+    <Node Id="13" Label="Allocation of size 0x44" Address="0x189450" Size="0x44" Group="Expanded" Category="Class" />
+    <Node Id="14" Label="Allocation of size 0x44" Address="0x35EFED8" Size="0x44" Group="Expanded" Category="Class" />
+    <Node Id="15" Label="Allocation of size 0x44" Address="0x35F5380" Size="0x44" Group="Expanded" Category="Class" />
+    <Node Id="16" Label="comctl32!CListView" Address="0x35D4500" Size="0x204" Group="Expanded" Category="Class" />
+    <Node Id="28:+0x0" Label="+0x0" Offset="0x0" Category="Member Variable" />
+    <Node Id="29:+0x0" Label="+0x0" Offset="0x0" Category="Member Variable" />
+    <Node Id="30:_plv" Label="_plv" Offset="0x4" Category="Member Variable" />
+    <Node Id="31:+0x0" Label="+0x0" Offset="0x0" Category="Member Variable" />
+    <Node Id="32:+0x0" Label="+0x0" Offset="0x0" Category="Member Variable" />
+    <Node Id="33:+0x74" Label="+0x74" Offset="0x74" Category="Member Variable" />
+    <Node Id="34:+0x28" Label="+0x28" Offset="0x28" Category="Member Variable" />
+    <Node Id="35:+0x34" Label="+0x34" Offset="0x34" Category="Member Variable" />
+    <Node Id="36:+0x50" Label="+0x50" Offset="0x50" Category="Member Variable" />
+    <Node Id="37:+0x14" Label="+0x14" Offset="0x14" Category="Member Variable" />
+    <Node Id="38:+0x28" Label="+0x28" Offset="0x28" Category="Member Variable" />
+    <Node Id="39:+0x24" Label="+0x24" Offset="0x24" Category="Member Variable" />
+    <Node Id="40:+0x20" Label="+0x20" Offset="0x20" Category="Member Variable" />
+    <Node Id="41:+0x0" Label="+0x0" Offset="0x0" Category="Member Variable" />
+    <Node Id="42:+0xC" Label="+0xC" Offset="0xC" Category="Member Variable" />
+    <Node Id="43:_plv" Label="_plv" Offset="0x4" Category="Member Variable" />
+    <Node Id="44:+0xC" Label="+0xC" Offset="0xC" Category="Member Variable" />
+    <Node Id="45:+0x8" Label="+0x8" Offset="0x8" Category="Member Variable" />
+    <Node Id="6:_plv" Label="_plv" Offset="0xA0" Category="Member Variable" />
+    <Node Id="46:+0x10" Label="+0x10" Offset="0x10" Category="Member Variable" />
+    <Node Id="47:+0x30" Label="+0x30" Offset="0x30" Category="Member Variable" />
+    <Node Id="48:+0x0" Label="+0x0" Offset="0x0" Category="Member Variable" />
+    <Node Id="49:+0x14" Label="+0x14" Offset="0x14" Category="Member Variable" />
+    <Node Id="50:+0x30" Label="+0x30" Offset="0x30" Category="Member Variable" />
+    <Node Id="51:+0xC" Label="+0xC" Offset="0xC" Category="Member Variable" />
+    <Node Id="52:_plv" Label="_plv" Offset="0x4" Category="Member Variable" />
+    <Node Id="53:_plv" Label="_plv" Offset="0x10" Category="Member Variable" />
+    <Node Id="54:+0x0" Label="+0x0" Offset="0x0" Category="Member Variable" />
+    <Node Id="55:_plv" Label="_plv" Offset="0x4" Category="Member Variable" />
+    <Node Id="56:_plv" Label="_plv" Offset="0x4" Category="Member Variable" />
+    <Node Id="17" Label="SHELL32!CCollectionSink" Address="0x36015D8" Size="0x14" Group="Expanded" Category="Class" />
+    <Node Id="12:+0xC" Label="+0xC" Offset="0xC" Category="Member Variable" />
+    <Node Id="18" Label="SHELL32!CItemEventSink" Address="0x360C898" Size="0x14" Group="Expanded" Category="Class" />
+    <Node Id="57:+0x4" Label="+0x4" Offset="0x4" Category="Member Variable" />
+    <Node Id="19" Label="SHELL32!CImageServicesSink" Address="0x35DEAC0" Size="0x14" Group="Expanded" Category="Class" />
+    <Node Id="58:+0x4" Label="+0x4" Offset="0x4" Category="Member Variable" />
+    <Node Id="6:_pisSink" Label="_pisSink" Offset="0xFC" Category="Member Variable" />
+    <Node Id="20" Label="SHELL32!CItemTaskSchedulerHelper" Address="0x35F8B38" Size="0xC" Group="Expanded" Category="Class" />
+    <Node Id="8:_pSchedulerHelper" Label="_pSchedulerHelper" Offset="0x1E4" Category="Member Variable" />
+    <Node Id="21" Label="SHELL32!_RefTrackerThunk" Address="0x3600048" Size="0x40" Group="Expanded" Category="Class" />
+    <Node Id="6:_pic" Label="_pic" Offset="0xB0" Category="Member Variable" />
+    <Node Id="2:_pic" Label="_pic" Offset="0x314" Category="Member Variable" />
+    <Node Id="59:+0x8" Label="+0x8" Offset="0x8" Category="Member Variable" />
+    <Node Id="22" Label="SHELL32!CCollectionLock" Address="0x3600228" Size="0x68" Group="Expanded" Category="Class" />
+    <Node Id="60:_pcl" Label="_pcl" Offset="0x14" Category="Member Variable" />
+    <Node Id="8:_pTaskLock" Label="_pTaskLock" Offset="0x9C" Category="Member Variable" />
+    <Node Id="23" Label="SHELL32!CDefItem" Address="0x3667EA8" Size="0x34" Group="Expanded" Category="Class" />
+    <Node Id="61:_pUnk" Label="_pUnk" Offset="0x4" Category="Member Variable" />
+    <Node Id="61:_pvObject" Label="_pvObject" Offset="0x20" Category="Member Variable" />
+    <Node Id="62:+0x4" Label="+0x4" Offset="0x4" Category="Member Variable" />
+    <Node Id="24" Label="Allocation of size 0x14" Address="0x35FF9E0" Size="0x14" Group="Expanded" Category="Class" />
+    <Node Id="0:+0x2C" Label="+0x2C" Offset="0x2C" Category="Member Variable" />
+    <Node Id="25" Label="Allocation of size 0x14" Address="0x35D4760" Size="0x14" Group="Expanded" Category="Class" />
+    <Node Id="7:_escSinks" Label="_escSinks" Offset="0xF8" Category="Member Variable" />
+    <Node Id="26" Label="Allocation of size 0x14" Address="0xCFB20" Size="0x14" Group="Expanded" Category="Class" />
+    <Node Id="63:m_hdpa" Label="m_hdpa" Offset="0x40" Category="Member Variable" />
+    <Node Id="27" Label="Allocation of size 0x14" Address="0x199688" Size="0x14" Group="Expanded" Category="Class" />
+    <Node Id="8:_escSinks" Label="_escSinks" Offset="0x178" Category="Member Variable" />
+    <Node Id="28" Label="Allocation of size 0x4" Address="0xEFAE0" Size="0x4" Group="Expanded" Category="Class" />
+    <Node Id="16:_pHitTest" Label="_pHitTest" Offset="0xC4" Category="Member Variable" />
+    <Node Id="29" Label="Allocation of size 0x4" Address="0x109350" Size="0x4" Group="Expanded" Category="Class" />
+    <Node Id="16:_pAccess" Label="_pAccess" Offset="0xF8" Category="Member Variable" />
+    <Node Id="30" Label="comctl32!CLVListView" Address="0x1287C0" Size="0x10" Group="Expanded" Category="Class" />
+    <Node Id="16:_pViewList" Label="_pViewList" Offset="0x15C" Category="Member Variable" />
+    <Node Id="31" Label="Allocation of size 0x4" Address="0x12BBB0" Size="0x4" Group="Expanded" Category="Class" />
+    <Node Id="16:_pDrawItem" Label="_pDrawItem" Offset="0xB8" Category="Member Variable" />
+    <Node Id="32" Label="Allocation of size 0x8" Address="0x15B690" Size="0x8" Group="Expanded" Category="Class" />
+    <Node Id="16:_pSubitems" Label="_pSubitems" Offset="0x100" Category="Member Variable" />
+    <Node Id="33" Label="Allocation of size 0x78" Address="0x18B8B0" Size="0x78" Group="Expanded" Category="Class" />
+    <Node Id="16:_pGroups" Label="_pGroups" Offset="0xA4" Category="Member Variable" />
+    <Node Id="34" Label="Allocation of size 0x30" Address="0x18B940" Size="0x30" Group="Expanded" Category="Class" />
+    <Node Id="16:_pImageLists" Label="_pImageLists" Offset="0xC8" Category="Member Variable" />
+    <Node Id="35" Label="Allocation of size 0x38" Address="0x18B988" Size="0x38" Group="Expanded" Category="Class" />
+    <Node Id="16:_pEdit" Label="_pEdit" Offset="0xCC" Category="Member Variable" />
+    <Node Id="36" Label="Allocation of size 0x5C" Address="0x18B9D8" Size="0x5C" Group="Expanded" Category="Class" />
+    <Node Id="16:_pMouse" Label="_pMouse" Offset="0xD8" Category="Member Variable" />
+    <Node Id="37" Label="Allocation of size 0x18" Address="0x18BA50" Size="0x18" Group="Expanded" Category="Class" />
+    <Node Id="16:_pScrolling" Label="_pScrolling" Offset="0xDC" Category="Member Variable" />
+    <Node Id="38" Label="Allocation of size 0x2C" Address="0x18BA80" Size="0x2C" Group="Expanded" Category="Class" />
+    <Node Id="16:_pSelection" Label="_pSelection" Offset="0xE0" Category="Member Variable" />
+    <Node Id="39" Label="Allocation of size 0x28" Address="0x18BAC8" Size="0x28" Group="Expanded" Category="Class" />
+    <Node Id="16:_pThemes" Label="_pThemes" Offset="0xE8" Category="Member Variable" />
+    <Node Id="40" Label="Allocation of size 0x24" Address="0x18BB08" Size="0x24" Group="Expanded" Category="Class" />
+    <Node Id="16:_pTooltips" Label="_pTooltips" Offset="0xEC" Category="Member Variable" />
+    <Node Id="41" Label="Allocation of size 0x3C" Address="0x18BB48" Size="0x3C" Group="Expanded" Category="Class" />
+    <Node Id="16:_pFooter" Label="_pFooter" Offset="0xF4" Category="Member Variable" />
+    <Node Id="42" Label="Allocation of size 0x24" Address="0x18BBA0" Size="0x24" Group="Expanded" Category="Class" />
+    <Node Id="16:_pItems" Label="_pItems" Offset="0xFC" Category="Member Variable" />
+    <Node Id="43" Label="comctl32!CLVIconView" Address="0x18BBE0" Size="0xC" Group="Expanded" Category="Class" />
+    <Node Id="16:_pView" Label="_pView" Offset="0x158" Category="Member Variable" />
+    <Node Id="16:_pViewIcon" Label="_pViewIcon" Offset="0x160" Category="Member Variable" />
+    <Node Id="44" Label="Allocation of size 0x10" Address="0x35D15B8" Size="0x10" Group="Expanded" Category="Class" />
+    <Node Id="16:_pDragDrop" Label="_pDragDrop" Offset="0xB0" Category="Member Variable" />
+    <Node Id="45" Label="Allocation of size 0xC" Address="0x35D2590" Size="0xC" Group="Expanded" Category="Class" />
+    <Node Id="16:_pWorkAreas" Label="_pWorkAreas" Offset="0xF0" Category="Member Variable" />
+    <Node Id="46" Label="Allocation of size 0x20" Address="0x35D4720" Size="0x20" Group="Expanded" Category="Class" />
+    <Node Id="16:_pHeaderControl" Label="_pHeaderControl" Offset="0xC0" Category="Member Variable" />
+    <Node Id="47" Label="Allocation of size 0x34" Address="0x35D4DE0" Size="0x34" Group="Expanded" Category="Class" />
+    <Node Id="16:_pBackground" Label="_pBackground" Offset="0xA8" Category="Member Variable" />
+    <Node Id="48" Label="Allocation of size 0xC" Address="0x35D4F70" Size="0xC" Group="Expanded" Category="Class" />
+    <Node Id="16:_pKeyboard" Label="_pKeyboard" Offset="0xD4" Category="Member Variable" />
+    <Node Id="49" Label="Allocation of size 0x18" Address="0x35D6B48" Size="0x18" Group="Expanded" Category="Class" />
+    <Node Id="16:_pSlots" Label="_pSlots" Offset="0xE4" Category="Member Variable" />
+    <Node Id="50" Label="Allocation of size 0x34" Address="0x35D6C08" Size="0x34" Group="Expanded" Category="Class" />
+    <Node Id="16:_pFocus" Label="_pFocus" Offset="0xBC" Category="Member Variable" />
+    <Node Id="51" Label="Allocation of size 0x10" Address="0x35D6C58" Size="0x10" Group="Expanded" Category="Class" />
+    <Node Id="16:_pInsertionMark" Label="_pInsertionMark" Offset="0xD0" Category="Member Variable" />
+    <Node Id="52" Label="comctl32!CLVSmallIconView" Address="0x35DE948" Size="0xC" Group="Expanded" Category="Class" />
+    <Node Id="16:_pViewSmall" Label="_pViewSmall" Offset="0x164" Category="Member Variable" />
+    <Node Id="53" Label="comctl32!CLVDrawManager" Address="0x35DE980" Size="0x18" Group="Expanded" Category="Class" />
+    <Node Id="16:_pDraw" Label="_pDraw" Offset="0xB4" Category="Member Variable" />
+    <Node Id="54" Label="Allocation of size 0x4" Address="0x35DEAF0" Size="0x4" Group="Expanded" Category="Class" />
+    <Node Id="16:_pCompute" Label="_pCompute" Offset="0xAC" Category="Member Variable" />
+    <Node Id="55" Label="comctl32!CLVReportView" Address="0x35DFA98" Size="0x1C" Group="Expanded" Category="Class" />
+    <Node Id="16:_pViewReport" Label="_pViewReport" Offset="0x168" Category="Member Variable" />
+    <Node Id="56" Label="comctl32!CLVTileView" Address="0x35DFAD0" Size="0x38" Group="Expanded" Category="Class" />
+    <Node Id="16:_pViewTile" Label="_pViewTile" Offset="0x16C" Category="Member Variable" />
+    <Node Id="57" Label="Allocation of size 0x40" Address="0x361E2D0" Size="0x40" Group="Expanded" Category="Class" />
+    <Node Id="64:+0x4" Label="+0x4" Offset="0x4" Category="Member Variable" />
+    <Node Id="58" Label="Allocation of size 0x40" Address="0x19D8B8" Size="0x40" Group="Expanded" Category="Class" />
+    <Node Id="65:+0x4" Label="+0x4" Offset="0x4" Category="Member Variable" />
+    <Node Id="59" Label="Allocation of size 0x800" Address="0x361E648" Size="0x800" Group="Expanded" Category="Class" />
+    <Node Id="60" Label="SHELL32!CImageManager" Address="0x35FEDD8" Size="0x60" Group="Expanded" Category="Class" />
+    <Node Id="8:_pim" Label="_pim" Offset="0x98" Category="Member Variable" />
+    <Node Id="6:_pis" Label="_pis" Offset="0xB8" Category="Member Variable" />
+    <Node Id="61" Label="SHELL32!_RefTrackerThunk" Address="0x360C8E8" Size="0x40" Group="Expanded" Category="Class" />
+    <Node Id="66:+0x0" Label="+0x0" Offset="0x0" Category="Member Variable" />
+    <Node Id="59:+0xC" Label="+0xC" Offset="0xC" Category="Member Variable" />
+    <Node Id="62" Label="Allocation of size 0x40" Address="0x3668148" Size="0x40" Group="Expanded" Category="Class" />
+    <Node Id="67:+0x4" Label="+0x4" Offset="0x4" Category="Member Variable" />
+    <Node Id="63" Label="EXPLORERFRAME!CSDWindows" Address="0xCFA90" Size="0x78" Group="Expanded" Category="Class" />
+    <Node Id="68:_pswWinList" Label="_pswWinList" Offset="0x8" Category="Member Variable" />
+    <Node Id="63:m_cpWindowsEvents.m_punk" Label="m_cpWindowsEvents.m_punk" Offset="0x64" Category="Member Variable" />
+    <Node Id="64" Label="Allocation of size 0x14" Address="0x361E2A0" Size="0x14" Group="Expanded" Category="Class" />
+    <Node Id="23:_escSinks" Label="_escSinks" Offset="0x28" Category="Member Variable" />
+    <Node Id="65" Label="Allocation of size 0x14" Address="0x198828" Size="0x14" Group="Expanded" Category="Class" />
+    <Node Id="60:_escImageSinks" Label="_escImageSinks" Offset="0x58" Category="Member Variable" />
+    <Node Id="66" Label="Allocation of size 0x8" Address="0x19D940" Size="0x8" Group="Expanded" Category="Class" />
+    <Node Id="69:+0x4" Label="+0x4" Offset="0x4" Category="Member Variable" />
+    <Node Id="67" Label="Allocation of size 0x14" Address="0x3665D80" Size="0x14" Group="Expanded" Category="Class" />
+    <Node Id="70:_escSinks" Label="_escSinks" Offset="0x8" Category="Member Variable" />
+    <Node Id="68" Label="EXPLORERFRAME!CShellWindowListCF" Address="0xCFA68" Size="0xC" Group="Expanded" Category="Class" />
+    <Node Id="71:_pUnk" Label="_pUnk" Offset="0x20" Category="Member Variable" />
+    <Node Id="69" Label="Allocation of size 0x14" Address="0x19D910" Size="0x14" Group="Expanded" Category="Class" />
+    <Node Id="6:_dsaWindow" Label="_dsaWindow" Offset="0x4C" Category="Member Variable" />
+    <Node Id="70" Label="SHELL32!CDefEventSinkContainer" Address="0x36538B8" Size="0x10" Group="Expanded" Category="Class" />
+    <Node Id="72:+0x34" Label="+0x34" Offset="0x34" Category="Member Variable" />
+    <Node Id="71" Label="ole32!CClassCache::CLSvrClassEntry" Address="0xDB180" Size="0x440" Group="Expanded" Category="Class" />
+    <Node Id="73:+0x15C" Label="+0x15C" Offset="0x15C" Category="Member Variable" />
+    <Node Id="73:+0x160" Label="+0x160" Offset="0x160" Category="Member Variable" />
+    <Node Id="71:_cUsing._pgalloc._cEntriesPerPage" Label="_cUsing._pgalloc._cEntriesPerPage" Offset="0x60" Category="Member Variable" />
+    <Node Id="71:+0x27C" Label="+0x27C" Offset="0x27C" Category="Member Variable" />
+    <Node Id="74:+0x0" Label="+0x0" Offset="0x0" Category="Member Variable" />
+    <Node Id="72" Label="Allocation of size 0x3000" Address="0x3654B60" Size="0x3000" Group="Expanded" Category="Class" />
+    <Node Id="75:+0x4" Label="+0x4" Offset="0x4" Category="Member Variable" />
+    <Node Id="73" Label="ole32!CClassCache::CClassEntry" Address="0xBCEE8" Size="0x11F8" Group="Expanded" Category="Class" />
+    <Node Id="73:_pTreatAsList" Label="_pTreatAsList" Offset="0x44" Category="Member Variable" />
+    <Node Id="76:_pClassEntry" Label="_pClassEntry" Offset="0xC" Category="Member Variable" />
+    <Node Id="77:+0x0" Label="+0x0" Offset="0x0" Category="Member Variable" />
+    <Node Id="74" Label="Allocation of size 0x4" Address="0xDB5D8" Size="0x4" Group="Expanded" Category="Class" />
+    <Node Id="75" Label="Allocation of size 0x14" Address="0x36044B0" Size="0x14" Group="Expanded" Category="Class" />
+    <Node Id="78:_dsaItems" Label="_dsaItems" Offset="0x1C" Category="Member Variable" />
+    <Node Id="76" Label="ole32!CClassCache::CDllClassEntry" Address="0xBECB0" Size="0xA28" Group="Expanded" Category="Class" />
+    <Node Id="73:_pBCEListFront" Label="_pBCEListFront" Offset="0x48" Category="Member Variable" />
+    <Node Id="73:_pBCEListBack" Label="_pBCEListBack" Offset="0x4C" Category="Member Variable" />
+    <Node Id="79:+0x24" Label="+0x24" Offset="0x24" Category="Member Variable" />
+    <Node Id="80:+0x0" Label="+0x0" Offset="0x0" Category="Member Variable" />
+    <Node Id="77" Label="Allocation of size 0x8" Address="0x35D1470" Size="0x8" Group="Expanded" Category="Class" />
+    <Node Id="78" Label="SHELL32!CItemStore" Address="0x3601590" Size="0x2C" Group="Expanded" Category="Class" />
+    <Node Id="8:_pisView" Label="_pisView" Offset="0x4C" Category="Member Variable" />
+    <Node Id="81:_punkCtrl" Label="_punkCtrl" Offset="0x4" Category="Member Variable" />
+    <Node Id="82:_pis" Label="_pis" Offset="0x8" Category="Member Variable" />
+    <Node Id="79" Label="Allocation of size 0x384" Address="0xBE910" Size="0x384" Group="Expanded" Category="Class" />
+    <Node Id="79:+0x3C" Label="+0x3C" Offset="0x3C" Category="Member Variable" />
+    <Node Id="76:_pDllPathEntry" Label="_pDllPathEntry" Offset="0x1C" Category="Member Variable" />
+    <Node Id="83:+0x0" Label="+0x0" Offset="0x0" Category="Member Variable" />
+    <Node Id="80" Label="Allocation of size 0x8" Address="0x1031F8" Size="0x8" Group="Expanded" Category="Class" />
+    <Node Id="81" Label="ole32!CFreeMarshaler" Address="0x3600778" Size="0x8" Group="Expanded" Category="Class" />
+    <Node Id="84:_pfm" Label="_pfm" Offset="0x4" Category="Member Variable" />
+    <Node Id="82" Label="SHELL32!CItemImageStoreOverItemStore" Address="0x360F780" Size="0x14" Group="Expanded" Category="Class" />
+    <Node Id="23:_spiis" Label="_spiis" Offset="0x24" Category="Member Variable" />
+    <Node Id="83" Label="Allocation of size 0x8" Address="0x173848" Size="0x8" Group="Expanded" Category="Class" />
+    <Node Id="84" Label="ole32!CFmCtrlUnknown" Address="0x19E2E0" Size="0xC" Group="Expanded" Category="Class" />
+    <Node Id="78:_punkFTM" Label="_punkFTM" Offset="0x10" Category="Member Variable" />
+  </Nodes>
+  <Links>
+    <Link Source="1" Target="1:_psb" Category="Contains" />
+    <Link Source="1:_psb" Target="0" Label="_psb" Category="References" />
+    <Link Source="2" Target="2:_psb" Category="Contains" />
+    <Link Source="2:_psb" Target="0" Label="_psb" Category="References" />
+    <Link Source="2" Target="2:_punkSiteProffer" Category="Contains" />
+    <Link Source="2:_punkSiteProffer" Target="0" Label="_punkSiteProffer" Category="References" />
+    <Link Source="1" Target="1:_psp" Category="Contains" />
+    <Link Source="1:_psp" Target="0" Label="_psp" Category="References" />
+    <Link Source="1" Target="1:_pmsc" Category="Contains" />
+    <Link Source="1:_pmsc" Target="0" Label="_pmsc" Category="References" />
+    <Link Source="1" Target="1:_pbs" Category="Contains" />
+    <Link Source="1:_pbs" Target="0" Label="_pbs" Category="References" />
+    <Link Source="3" Target="3:+0x8" Category="Contains" />
+    <Link Source="3:+0x8" Target="1" Label="+0x8" Category="References" />
+    <Link Source="0" Target="0:_pss" Category="Contains" />
+    <Link Source="0:_pss" Target="1" Label="_pss" Category="References" />
+    <Link Source="4" Target="4:_punkSite" Category="Contains" />
+    <Link Source="4:_punkSite" Target="2" Label="_punkSite" Category="References" />
+    <Link Source="5" Target="5:_pdv" Category="Contains" />
+    <Link Source="5:_pdv" Target="2" Label="_pdv" Category="References" />
+    <Link Source="6" Target="6:_punkSite" Category="Contains" />
+    <Link Source="6:_punkSite" Target="2" Label="_punkSite" Category="References" />
+    <Link Source="7" Target="7:_punkSite" Category="Contains" />
+    <Link Source="7:_punkSite" Target="2" Label="_punkSite" Category="References" />
+    <Link Source="0" Target="0:_psv" Category="Contains" />
+    <Link Source="0:_psv" Target="2" Label="_psv" Category="References" />
+    <Link Source="8" Target="8:_punkSite" Category="Contains" />
+    <Link Source="8:_punkSite" Target="2" Label="_punkSite" Category="References" />
+    <Link Source="0" Target="0:_pdtView" Category="Contains" />
+    <Link Source="0:_pdtView" Target="2" Label="_pdtView" Category="References" />
+    <Link Source="9" Target="9:+0x0" Category="Contains" />
+    <Link Source="9:+0x0" Target="2" Label="+0x0" Category="References" />
+    <Link Source="9" Target="9:+0x18" Category="Contains" />
+    <Link Source="9:+0x18" Target="2" Label="+0x18" Category="References" />
+    <Link Source="6" Target="6:_plch" Category="Contains" />
+    <Link Source="6:_plch" Target="2" Label="_plch" Category="References" />
+    <Link Source="8" Target="8:_pcfcb" Category="Contains" />
+    <Link Source="8:_pcfcb" Target="2" Label="_pcfcb" Category="References" />
+    <Link Source="10" Target="10:+0x4" Category="Contains" />
+    <Link Source="10:+0x4" Target="2" Label="+0x4" Category="References" />
+    <Link Source="11" Target="11:+0x0" Category="Contains" />
+    <Link Source="11:+0x0" Target="3" Label="+0x0" Category="References" />
+    <Link Source="7" Target="7:_psfvcb" Category="Contains" />
+    <Link Source="7:_psfvcb" Target="4" Label="_psfvcb" Category="References" />
+    <Link Source="2" Target="2:_cCallback" Category="Contains" />
+    <Link Source="2:_cCallback" Target="4" Label="_cCallback" Category="References" />
+    <Link Source="7" Target="7:_pfvs" Category="Contains" />
+    <Link Source="7:_pfvs" Target="4" Label="_pfvs" Category="References" />
+    <Link Source="2" Target="2:_cCallback._psff" Category="Contains" />
+    <Link Source="2:_cCallback._psff" Target="4" Label="_cCallback._psff" Category="References" />
+    <Link Source="2" Target="2:_pCollectionSink" Category="Contains" />
+    <Link Source="2:_pCollectionSink" Target="5" Label="_pCollectionSink" Category="References" />
+    <Link Source="12" Target="12:+0x4" Category="Contains" />
+    <Link Source="12:+0x4" Target="5" Label="+0x4" Category="References" />
+    <Link Source="13" Target="13:+0x28" Category="Contains" />
+    <Link Source="13:+0x28" Target="6" Label="+0x28" Category="References" />
+    <Link Source="14" Target="14:+0x28" Category="Contains" />
+    <Link Source="14:+0x28" Target="6" Label="+0x28" Category="References" />
+    <Link Source="15" Target="15:+0x28" Category="Contains" />
+    <Link Source="15:+0x28" Target="6" Label="+0x28" Category="References" />
+    <Link Source="16" Target="16:_podCallback" Category="Contains" />
+    <Link Source="16:_podCallback" Target="6" Label="_podCallback" Category="References" />
+    <Link Source="16" Target="16:_psiCallback" Category="Contains" />
+    <Link Source="16:_psiCallback" Target="6" Label="_psiCallback" Category="References" />
+    <Link Source="2" Target="2:_plc" Category="Contains" />
+    <Link Source="2:_plc" Target="6" Label="_plc" Category="References" />
+    <Link Source="10" Target="10:+0xC" Category="Contains" />
+    <Link Source="10:+0xC" Target="6" Label="+0xC" Category="References" />
+    <Link Source="17" Target="17:_pceSinkInner" Category="Contains" />
+    <Link Source="17:_pceSinkInner" Target="6" Label="_pceSinkInner" Category="References" />
+    <Link Source="18" Target="18:_pieSinkInner" Category="Contains" />
+    <Link Source="18:_pieSinkInner" Target="6" Label="_pieSinkInner" Category="References" />
+    <Link Source="19" Target="19:_pisSink" Category="Contains" />
+    <Link Source="19:_pisSink" Target="6" Label="_pisSink" Category="References" />
+    <Link Source="6" Target="6:_pvs" Category="Contains" />
+    <Link Source="6:_pvs" Target="7" Label="_pvs" Category="References" />
+    <Link Source="2" Target="2:_pvs" Category="Contains" />
+    <Link Source="2:_pvs" Target="7" Label="_pvs" Category="References" />
+    <Link Source="20" Target="20:_pdc" Category="Contains" />
+    <Link Source="20:_pdc" Target="8" Label="_pdc" Category="References" />
+    <Link Source="21" Target="21:_pvObject" Category="Contains" />
+    <Link Source="21:_pvObject" Target="8" Label="_pvObject" Category="References" />
+    <Link Source="22" Target="22:_pic" Category="Contains" />
+    <Link Source="22:_pic" Target="8" Label="_pic" Category="References" />
+    <Link Source="21" Target="21:_pUnk" Category="Contains" />
+    <Link Source="21:_pUnk" Target="8" Label="_pUnk" Category="References" />
+    <Link Source="23" Target="23:_spDefItemCollection" Category="Contains" />
+    <Link Source="23:_spDefItemCollection" Target="8" Label="_spDefItemCollection" Category="References" />
+    <Link Source="24" Target="24:+0x4" Category="Contains" />
+    <Link Source="24:+0x4" Target="9" Label="+0x4" Category="References" />
+    <Link Source="25" Target="25:+0x4" Category="Contains" />
+    <Link Source="25:+0x4" Target="10" Label="+0x4" Category="References" />
+    <Link Source="26" Target="26:+0x4" Category="Contains" />
+    <Link Source="26:+0x4" Target="11" Label="+0x4" Category="References" />
+    <Link Source="27" Target="27:+0x4" Category="Contains" />
+    <Link Source="27:+0x4" Target="12" Label="+0x4" Category="References" />
+    <Link Source="28" Target="28:+0x0" Category="Contains" />
+    <Link Source="28:+0x0" Target="16" Label="+0x0" Category="References" />
+    <Link Source="29" Target="29:+0x0" Category="Contains" />
+    <Link Source="29:+0x0" Target="16" Label="+0x0" Category="References" />
+    <Link Source="30" Target="30:_plv" Category="Contains" />
+    <Link Source="30:_plv" Target="16" Label="_plv" Category="References" />
+    <Link Source="31" Target="31:+0x0" Category="Contains" />
+    <Link Source="31:+0x0" Target="16" Label="+0x0" Category="References" />
+    <Link Source="32" Target="32:+0x0" Category="Contains" />
+    <Link Source="32:+0x0" Target="16" Label="+0x0" Category="References" />
+    <Link Source="33" Target="33:+0x74" Category="Contains" />
+    <Link Source="33:+0x74" Target="16" Label="+0x74" Category="References" />
+    <Link Source="34" Target="34:+0x28" Category="Contains" />
+    <Link Source="34:+0x28" Target="16" Label="+0x28" Category="References" />
+    <Link Source="35" Target="35:+0x34" Category="Contains" />
+    <Link Source="35:+0x34" Target="16" Label="+0x34" Category="References" />
+    <Link Source="36" Target="36:+0x50" Category="Contains" />
+    <Link Source="36:+0x50" Target="16" Label="+0x50" Category="References" />
+    <Link Source="37" Target="37:+0x14" Category="Contains" />
+    <Link Source="37:+0x14" Target="16" Label="+0x14" Category="References" />
+    <Link Source="38" Target="38:+0x28" Category="Contains" />
+    <Link Source="38:+0x28" Target="16" Label="+0x28" Category="References" />
+    <Link Source="39" Target="39:+0x24" Category="Contains" />
+    <Link Source="39:+0x24" Target="16" Label="+0x24" Category="References" />
+    <Link Source="40" Target="40:+0x20" Category="Contains" />
+    <Link Source="40:+0x20" Target="16" Label="+0x20" Category="References" />
+    <Link Source="41" Target="41:+0x0" Category="Contains" />
+    <Link Source="41:+0x0" Target="16" Label="+0x0" Category="References" />
+    <Link Source="42" Target="42:+0xC" Category="Contains" />
+    <Link Source="42:+0xC" Target="16" Label="+0xC" Category="References" />
+    <Link Source="43" Target="43:_plv" Category="Contains" />
+    <Link Source="43:_plv" Target="16" Label="_plv" Category="References" />
+    <Link Source="44" Target="44:+0xC" Category="Contains" />
+    <Link Source="44:+0xC" Target="16" Label="+0xC" Category="References" />
+    <Link Source="45" Target="45:+0x8" Category="Contains" />
+    <Link Source="45:+0x8" Target="16" Label="+0x8" Category="References" />
+    <Link Source="6" Target="6:_plv" Category="Contains" />
+    <Link Source="6:_plv" Target="16" Label="_plv" Category="References" />
+    <Link Source="46" Target="46:+0x10" Category="Contains" />
+    <Link Source="46:+0x10" Target="16" Label="+0x10" Category="References" />
+    <Link Source="47" Target="47:+0x30" Category="Contains" />
+    <Link Source="47:+0x30" Target="16" Label="+0x30" Category="References" />
+    <Link Source="48" Target="48:+0x0" Category="Contains" />
+    <Link Source="48:+0x0" Target="16" Label="+0x0" Category="References" />
+    <Link Source="49" Target="49:+0x14" Category="Contains" />
+    <Link Source="49:+0x14" Target="16" Label="+0x14" Category="References" />
+    <Link Source="50" Target="50:+0x30" Category="Contains" />
+    <Link Source="50:+0x30" Target="16" Label="+0x30" Category="References" />
+    <Link Source="51" Target="51:+0xC" Category="Contains" />
+    <Link Source="51:+0xC" Target="16" Label="+0xC" Category="References" />
+    <Link Source="52" Target="52:_plv" Category="Contains" />
+    <Link Source="52:_plv" Target="16" Label="_plv" Category="References" />
+    <Link Source="53" Target="53:_plv" Category="Contains" />
+    <Link Source="53:_plv" Target="16" Label="_plv" Category="References" />
+    <Link Source="54" Target="54:+0x0" Category="Contains" />
+    <Link Source="54:+0x0" Target="16" Label="+0x0" Category="References" />
+    <Link Source="55" Target="55:_plv" Category="Contains" />
+    <Link Source="55:_plv" Target="16" Label="_plv" Category="References" />
+    <Link Source="56" Target="56:_plv" Category="Contains" />
+    <Link Source="56:_plv" Target="16" Label="_plv" Category="References" />
+    <Link Source="12" Target="12:+0xC" Category="Contains" />
+    <Link Source="12:+0xC" Target="17" Label="+0xC" Category="References" />
+    <Link Source="57" Target="57:+0x4" Category="Contains" />
+    <Link Source="57:+0x4" Target="18" Label="+0x4" Category="References" />
+    <Link Source="58" Target="58:+0x4" Category="Contains" />
+    <Link Source="58:+0x4" Target="19" Label="+0x4" Category="References" />
+    <Link Source="6" Target="6:_pisSink" Category="Contains" />
+    <Link Source="6:_pisSink" Target="19" Label="_pisSink" Category="References" />
+    <Link Source="8" Target="8:_pSchedulerHelper" Category="Contains" />
+    <Link Source="8:_pSchedulerHelper" Target="20" Label="_pSchedulerHelper" Category="References" />
+    <Link Source="6" Target="6:_pic" Category="Contains" />
+    <Link Source="6:_pic" Target="21" Label="_pic" Category="References" />
+    <Link Source="2" Target="2:_pic" Category="Contains" />
+    <Link Source="2:_pic" Target="21" Label="_pic" Category="References" />
+    <Link Source="59" Target="59:+0x8" Category="Contains" />
+    <Link Source="59:+0x8" Target="21" Label="+0x8" Category="References" />
+    <Link Source="60" Target="60:_pcl" Category="Contains" />
+    <Link Source="60:_pcl" Target="22" Label="_pcl" Category="References" />
+    <Link Source="8" Target="8:_pTaskLock" Category="Contains" />
+    <Link Source="8:_pTaskLock" Target="22" Label="_pTaskLock" Category="References" />
+    <Link Source="61" Target="61:_pUnk" Category="Contains" />
+    <Link Source="61:_pUnk" Target="23" Label="_pUnk" Category="References" />
+    <Link Source="61" Target="61:_pvObject" Category="Contains" />
+    <Link Source="61:_pvObject" Target="23" Label="_pvObject" Category="References" />
+    <Link Source="62" Target="62:+0x4" Category="Contains" />
+    <Link Source="62:+0x4" Target="23" Label="+0x4" Category="References" />
+    <Link Source="0" Target="0:+0x2C" Category="Contains" />
+    <Link Source="0:+0x2C" Target="24" Label="+0x2C" Category="References" />
+    <Link Source="7" Target="7:_escSinks" Category="Contains" />
+    <Link Source="7:_escSinks" Target="25" Label="_escSinks" Category="References" />
+    <Link Source="63" Target="63:m_hdpa" Category="Contains" />
+    <Link Source="63:m_hdpa" Target="26" Label="m_hdpa" Category="References" />
+    <Link Source="8" Target="8:_escSinks" Category="Contains" />
+    <Link Source="8:_escSinks" Target="27" Label="_escSinks" Category="References" />
+    <Link Source="16" Target="16:_pHitTest" Category="Contains" />
+    <Link Source="16:_pHitTest" Target="28" Label="_pHitTest" Category="References" />
+    <Link Source="16" Target="16:_pAccess" Category="Contains" />
+    <Link Source="16:_pAccess" Target="29" Label="_pAccess" Category="References" />
+    <Link Source="16" Target="16:_pViewList" Category="Contains" />
+    <Link Source="16:_pViewList" Target="30" Label="_pViewList" Category="References" />
+    <Link Source="16" Target="16:_pDrawItem" Category="Contains" />
+    <Link Source="16:_pDrawItem" Target="31" Label="_pDrawItem" Category="References" />
+    <Link Source="16" Target="16:_pSubitems" Category="Contains" />
+    <Link Source="16:_pSubitems" Target="32" Label="_pSubitems" Category="References" />
+    <Link Source="16" Target="16:_pGroups" Category="Contains" />
+    <Link Source="16:_pGroups" Target="33" Label="_pGroups" Category="References" />
+    <Link Source="16" Target="16:_pImageLists" Category="Contains" />
+    <Link Source="16:_pImageLists" Target="34" Label="_pImageLists" Category="References" />
+    <Link Source="16" Target="16:_pEdit" Category="Contains" />
+    <Link Source="16:_pEdit" Target="35" Label="_pEdit" Category="References" />
+    <Link Source="16" Target="16:_pMouse" Category="Contains" />
+    <Link Source="16:_pMouse" Target="36" Label="_pMouse" Category="References" />
+    <Link Source="16" Target="16:_pScrolling" Category="Contains" />
+    <Link Source="16:_pScrolling" Target="37" Label="_pScrolling" Category="References" />
+    <Link Source="16" Target="16:_pSelection" Category="Contains" />
+    <Link Source="16:_pSelection" Target="38" Label="_pSelection" Category="References" />
+    <Link Source="16" Target="16:_pThemes" Category="Contains" />
+    <Link Source="16:_pThemes" Target="39" Label="_pThemes" Category="References" />
+    <Link Source="16" Target="16:_pTooltips" Category="Contains" />
+    <Link Source="16:_pTooltips" Target="40" Label="_pTooltips" Category="References" />
+    <Link Source="16" Target="16:_pFooter" Category="Contains" />
+    <Link Source="16:_pFooter" Target="41" Label="_pFooter" Category="References" />
+    <Link Source="16" Target="16:_pItems" Category="Contains" />
+    <Link Source="16:_pItems" Target="42" Label="_pItems" Category="References" />
+    <Link Source="16" Target="16:_pView" Category="Contains" />
+    <Link Source="16:_pView" Target="43" Label="_pView" Category="References" />
+    <Link Source="16" Target="16:_pViewIcon" Category="Contains" />
+    <Link Source="16:_pViewIcon" Target="43" Label="_pViewIcon" Category="References" />
+    <Link Source="16" Target="16:_pDragDrop" Category="Contains" />
+    <Link Source="16:_pDragDrop" Target="44" Label="_pDragDrop" Category="References" />
+    <Link Source="16" Target="16:_pWorkAreas" Category="Contains" />
+    <Link Source="16:_pWorkAreas" Target="45" Label="_pWorkAreas" Category="References" />
+    <Link Source="16" Target="16:_pHeaderControl" Category="Contains" />
+    <Link Source="16:_pHeaderControl" Target="46" Label="_pHeaderControl" Category="References" />
+    <Link Source="16" Target="16:_pBackground" Category="Contains" />
+    <Link Source="16:_pBackground" Target="47" Label="_pBackground" Category="References" />
+    <Link Source="16" Target="16:_pKeyboard" Category="Contains" />
+    <Link Source="16:_pKeyboard" Target="48" Label="_pKeyboard" Category="References" />
+    <Link Source="16" Target="16:_pSlots" Category="Contains" />
+    <Link Source="16:_pSlots" Target="49" Label="_pSlots" Category="References" />
+    <Link Source="16" Target="16:_pFocus" Category="Contains" />
+    <Link Source="16:_pFocus" Target="50" Label="_pFocus" Category="References" />
+    <Link Source="16" Target="16:_pInsertionMark" Category="Contains" />
+    <Link Source="16:_pInsertionMark" Target="51" Label="_pInsertionMark" Category="References" />
+    <Link Source="16" Target="16:_pViewSmall" Category="Contains" />
+    <Link Source="16:_pViewSmall" Target="52" Label="_pViewSmall" Category="References" />
+    <Link Source="16" Target="16:_pDraw" Category="Contains" />
+    <Link Source="16:_pDraw" Target="53" Label="_pDraw" Category="References" />
+    <Link Source="16" Target="16:_pCompute" Category="Contains" />
+    <Link Source="16:_pCompute" Target="54" Label="_pCompute" Category="References" />
+    <Link Source="16" Target="16:_pViewReport" Category="Contains" />
+    <Link Source="16:_pViewReport" Target="55" Label="_pViewReport" Category="References" />
+    <Link Source="16" Target="16:_pViewTile" Category="Contains" />
+    <Link Source="16:_pViewTile" Target="56" Label="_pViewTile" Category="References" />
+    <Link Source="64" Target="64:+0x4" Category="Contains" />
+    <Link Source="64:+0x4" Target="57" Label="+0x4" Category="References" />
+    <Link Source="65" Target="65:+0x4" Category="Contains" />
+    <Link Source="65:+0x4" Target="58" Label="+0x4" Category="References" />
+    <Link Source="8" Target="8:_pim" Category="Contains" />
+    <Link Source="8:_pim" Target="60" Label="_pim" Category="References" />
+    <Link Source="6" Target="6:_pis" Category="Contains" />
+    <Link Source="6:_pis" Target="60" Label="_pis" Category="References" />
+    <Link Source="66" Target="66:+0x0" Category="Contains" />
+    <Link Source="66:+0x0" Target="61" Label="+0x0" Category="References" />
+    <Link Source="59" Target="59:+0xC" Category="Contains" />
+    <Link Source="59:+0xC" Target="61" Label="+0xC" Category="References" />
+    <Link Source="67" Target="67:+0x4" Category="Contains" />
+    <Link Source="67:+0x4" Target="62" Label="+0x4" Category="References" />
+    <Link Source="68" Target="68:_pswWinList" Category="Contains" />
+    <Link Source="68:_pswWinList" Target="63" Label="_pswWinList" Category="References" />
+    <Link Source="63" Target="63:m_cpWindowsEvents.m_punk" Category="Contains" />
+    <Link Source="63:m_cpWindowsEvents.m_punk" Target="63" Label="m_cpWindowsEvents.m_punk" Category="References" />
+    <Link Source="23" Target="23:_escSinks" Category="Contains" />
+    <Link Source="23:_escSinks" Target="64" Label="_escSinks" Category="References" />
+    <Link Source="60" Target="60:_escImageSinks" Category="Contains" />
+    <Link Source="60:_escImageSinks" Target="65" Label="_escImageSinks" Category="References" />
+    <Link Source="69" Target="69:+0x4" Category="Contains" />
+    <Link Source="69:+0x4" Target="66" Label="+0x4" Category="References" />
+    <Link Source="70" Target="70:_escSinks" Category="Contains" />
+    <Link Source="70:_escSinks" Target="67" Label="_escSinks" Category="References" />
+    <Link Source="71" Target="71:_pUnk" Category="Contains" />
+    <Link Source="71:_pUnk" Target="68" Label="_pUnk" Category="References" />
+    <Link Source="6" Target="6:_dsaWindow" Category="Contains" />
+    <Link Source="6:_dsaWindow" Target="69" Label="_dsaWindow" Category="References" />
+    <Link Source="72" Target="72:+0x34" Category="Contains" />
+    <Link Source="72:+0x34" Target="70" Label="+0x34" Category="References" />
+    <Link Source="73" Target="73:+0x15C" Category="Contains" />
+    <Link Source="73:+0x15C" Target="71" Label="+0x15C" Category="References" />
+    <Link Source="73" Target="73:+0x160" Category="Contains" />
+    <Link Source="73:+0x160" Target="71" Label="+0x160" Category="References" />
+    <Link Source="71" Target="71:_cUsing._pgalloc._cEntriesPerPage" Category="Contains" />
+    <Link Source="71:_cUsing._pgalloc._cEntriesPerPage" Target="71" Label="_cUsing._pgalloc._cEntriesPerPage" Category="References" />
+    <Link Source="71" Target="71:+0x27C" Category="Contains" />
+    <Link Source="71:+0x27C" Target="71" Label="+0x27C" Category="References" />
+    <Link Source="74" Target="74:+0x0" Category="Contains" />
+    <Link Source="74:+0x0" Target="71" Label="+0x0" Category="References" />
+    <Link Source="75" Target="75:+0x4" Category="Contains" />
+    <Link Source="75:+0x4" Target="72" Label="+0x4" Category="References" />
+    <Link Source="73" Target="73:_pTreatAsList" Category="Contains" />
+    <Link Source="73:_pTreatAsList" Target="73" Label="_pTreatAsList" Category="References" />
+    <Link Source="76" Target="76:_pClassEntry" Category="Contains" />
+    <Link Source="76:_pClassEntry" Target="73" Label="_pClassEntry" Category="References" />
+    <Link Source="77" Target="77:+0x0" Category="Contains" />
+    <Link Source="77:+0x0" Target="73" Label="+0x0" Category="References" />
+    <Link Source="78" Target="78:_dsaItems" Category="Contains" />
+    <Link Source="78:_dsaItems" Target="75" Label="_dsaItems" Category="References" />
+    <Link Source="73" Target="73:_pBCEListFront" Category="Contains" />
+    <Link Source="73:_pBCEListFront" Target="76" Label="_pBCEListFront" Category="References" />
+    <Link Source="73" Target="73:_pBCEListBack" Category="Contains" />
+    <Link Source="73:_pBCEListBack" Target="76" Label="_pBCEListBack" Category="References" />
+    <Link Source="79" Target="79:+0x24" Category="Contains" />
+    <Link Source="79:+0x24" Target="76" Label="+0x24" Category="References" />
+    <Link Source="80" Target="80:+0x0" Category="Contains" />
+    <Link Source="80:+0x0" Target="76" Label="+0x0" Category="References" />
+    <Link Source="8" Target="8:_pisView" Category="Contains" />
+    <Link Source="8:_pisView" Target="78" Label="_pisView" Category="References" />
+    <Link Source="81" Target="81:_punkCtrl" Category="Contains" />
+    <Link Source="81:_punkCtrl" Target="78" Label="_punkCtrl" Category="References" />
+    <Link Source="82" Target="82:_pis" Category="Contains" />
+    <Link Source="82:_pis" Target="78" Label="_pis" Category="References" />
+    <Link Source="79" Target="79:+0x3C" Category="Contains" />
+    <Link Source="79:+0x3C" Target="79" Label="+0x3C" Category="References" />
+    <Link Source="76" Target="76:_pDllPathEntry" Category="Contains" />
+    <Link Source="76:_pDllPathEntry" Target="79" Label="_pDllPathEntry" Category="References" />
+    <Link Source="83" Target="83:+0x0" Category="Contains" />
+    <Link Source="83:+0x0" Target="79" Label="+0x0" Category="References" />
+    <Link Source="84" Target="84:_pfm" Category="Contains" />
+    <Link Source="84:_pfm" Target="81" Label="_pfm" Category="References" />
+    <Link Source="23" Target="23:_spiis" Category="Contains" />
+    <Link Source="23:_spiis" Target="82" Label="_spiis" Category="References" />
+    <Link Source="78" Target="78:_punkFTM" Category="Contains" />
+    <Link Source="78:_punkFTM" Target="84" Label="_punkFTM" Category="References" />
+  </Links>
+  <Properties>
+    <Property Id="Address" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Progression.Layout.GraphDirection" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="Offset" DataType="System.String" />
+    <Property Id="Size" DataType="System.String" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node">
+      <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style TargetType="Node">
+      <Condition Expression="HasCategory('Class')" />
+      <Setter Property="Background" Value="#800080FF" />
+    </Style>
+    <Style TargetType="Node">
+      <Condition Expression="HasCategory('Member Variable')" />
+      <Setter Property="Background" Value="#80FF8080" />
+    </Style>
+  </Styles>
+</DirectedGraph>
