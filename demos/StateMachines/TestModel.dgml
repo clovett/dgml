@@ -1,161 +1,161 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DirectedGraph Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+<DirectedGraph Layout="ForceDirected" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
-    <Node Id="(@16 @2 @3 Member=NetWorthReport)" Category="CodeSchema_Method" Bounds="2227.72799072266,304.90117019669,136.546666666667,34" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="NetWorthReport" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+    <Node Id="(@16 @2 @3 Member=NetWorthReport)" Category="CodeSchema_Method" Bounds="842.922101236979,806.416927189046,136.546666666667,34" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="NetWorthReport" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
       <Category Ref="EntryPoint" />
       <Category Ref="Singleton" />
     </Node>
-    <Node Id="(@16 @2 @3 Member=PortfolioReport)" Category="CodeSchema_Method" Bounds="2358.70799072266,240.90117019669,129.603333333333,34" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="PortfolioReport" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+    <Node Id="(@16 @2 @3 Member=PortfolioReport)" Category="CodeSchema_Method" Bounds="842.921966145834,870.417049259359,129.603333333333,34" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="PortfolioReport" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
       <Category Ref="EntryPoint" />
       <Category Ref="Singleton" />
     </Node>
-    <Node Id="(@16 @2 @3 Member=Save)" Category="CodeSchema_Method" Bounds="1490.98620299727,401.826128354336,60.5033333333331,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="Save" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
-    <Node Id="(@16 @2 @3 Member=SearchTransactionView)" Category="CodeSchema_Method" Bounds="2454.31594738743,1440.89237548828,156.423333333333,25.96" CodeSchemaProperty_IsPrivate="True" Disabled="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="SearchTransactionView" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
-    <Node Id="(@16 @2 @3 Member=SelectPayee)" Category="CodeSchema_Method" Bounds="1876.15005257938,795.054946476184,111.219999999999,34" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="SelectPayee" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+    <Node Id="(@16 @2 @3 Member=Save)" Category="CodeSchema_Method" Bounds="1644.43059641934,590.249409887613,60.5033333333331,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="Save" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="(@16 @2 @3 Member=SearchTransactionView)" Category="CodeSchema_Method" Bounds="2640.94483936736,822.663294923172,156.423333333333,25.96" CodeSchemaProperty_IsPrivate="True" Disabled="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="SearchTransactionView" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@16 @2 @3 Member=SelectPayee)" Category="CodeSchema_Method" Bounds="1901.99127229355,685.856945724801,111.219999999999,34" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="SelectPayee" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
       <Category Ref="Active" />
       <Category Ref="EntryPoint" />
     </Node>
-    <Node Id="(@16 @2 @3 Member=TaxReport)" Category="CodeSchema_Method" Bounds="2227.72799072266,240.90117019669,100.98,34" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="TaxReport" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+    <Node Id="(@16 @2 @3 Member=TaxReport)" Category="CodeSchema_Method" Bounds="1009.468984375,806.417049259359,100.98,34" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="TaxReport" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
       <Category Ref="Active" />
       <Category Ref="EntryPoint" />
       <Category Ref="Singleton" />
     </Node>
-    <Node Id="(@16 @2 @3 Member=ViewBudget)" Category="CodeSchema_Method" Bounds="1494.88172309139,846.598019290549,112.456666666667,34" CodeSchemaProperty_IsInternal="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="ViewBudget" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+    <Node Id="(@16 @2 @3 Member=ViewBudget)" Category="CodeSchema_Method" Bounds="1066.26525797526,465.222933906802,112.456666666667,34" CodeSchemaProperty_IsInternal="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="ViewBudget" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
       <Category Ref="EntryPoint" />
       <Category Ref="Singleton" />
     </Node>
-    <Node Id="(@16 @2 @3 Member=ViewExpenses)" Category="CodeSchema_Method" Bounds="1355.9261428505,974.598151102073,122.469999999999,34" CodeSchemaProperty_IsInternal="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="ViewExpenses" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+    <Node Id="(@16 @2 @3 Member=ViewExpenses)" Category="CodeSchema_Method" Bounds="927.311997070313,593.22321701227,122.469999999999,34" CodeSchemaProperty_IsInternal="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="ViewExpenses" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
       <Category Ref="EntryPoint" />
       <Category Ref="Singleton" />
     </Node>
-    <Node Id="(@16 @2 @3 Member=ViewIncomes)" Category="CodeSchema_Method" Bounds="1355.92800401575,910.598119290549,118.573333333333,34" CodeSchemaProperty_IsInternal="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="ViewIncomes" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+    <Node Id="(@16 @2 @3 Member=ViewIncomes)" Category="CodeSchema_Method" Bounds="927.311935628255,529.22311701227,118.573333333333,34" CodeSchemaProperty_IsInternal="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="ViewIncomes" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
       <Category Ref="EntryPoint" />
       <Category Ref="Singleton" />
     </Node>
-    <Node Id="(@16 @2 @3 Member=ViewTrends)" Category="CodeSchema_Method" Bounds="1355.92593126196,846.598009549338,108.953333333333,34" CodeSchemaProperty_IsInternal="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="ViewTrends" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+    <Node Id="(@16 @2 @3 Member=ViewTrends)" Category="CodeSchema_Method" Bounds="927.311907552083,465.22296442438,108.953333333333,34" CodeSchemaProperty_IsInternal="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="ViewTrends" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
       <Category Ref="EntryPoint" />
       <Category Ref="Singleton" />
     </Node>
     <Node Id="(@16)" Category="CodeSchema_Assembly" Visibility="Hidden" />
-    <Node Id="4f1bf513-92f1-426b-b5d4-0f853382cb8b1" Category="CodeSchema_Method" Bounds="1743.52504650852,1356.77347900391,119.726666666667,25.96" Label="CategoryDetails" UseManualLocation="True" />
-    <Node Id="643d6fac-fa74-45b2-8057-28b6b57a0d101" Category="Comment" Bounds="2227.72799072266,153.02117019669,239.976666666667,57.8800000000001" Label="Nodes with &quot;Singleton&quot; category can only be called once per group select and are mutually exclusive." />
-    <Node Id="83fc53c9-fc94-4003-a420-a1b4c04e36371" Category="Comment" Bounds="1702.0898046875,-26.7792759825092,248.42,89.8000000000001" Label="When a group becomes the current state it can then choose to navigate away from the grou pif the group has a valid outgoing link, or it can navigate inside to any entry points inside the group.  " />
-    <Node Id="@17" Category="CodeSchema_Method" Bounds="1702.0898038737,-82.7393686033587,101.376666666667,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="AddAccount" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+    <Node Id="4f1bf513-92f1-426b-b5d4-0f853382cb8b1" Category="CodeSchema_Method" Bounds="2026.82021127491,974.583277833328,119.726666666667,25.96" Label="CategoryDetails" />
+    <Node Id="643d6fac-fa74-45b2-8057-28b6b57a0d101" Category="Comment" Bounds="842.921944986979,718.536863712484,239.976666666667,57.8800000000001" Label="Nodes with &quot;Singleton&quot; category can only be called once per group select and are mutually exclusive." />
+    <Node Id="83fc53c9-fc94-4003-a420-a1b4c04e36371" Category="Comment" Bounds="1371.89751149857,1284.71380110135,248.42,89.8000000000002" Label="When a group becomes the current state it can then choose to navigate away from the grou pif the group has a valid outgoing link, or it can navigate inside to any entry points inside the group.  " />
+    <Node Id="@17" Category="CodeSchema_Method" Bounds="1649.51311127071,1051.2963987576,101.376666666667,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="AddAccount" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
       <Category Ref="Active" />
     </Node>
-    <Node Id="@18" Category="CodeSchema_Method" Bounds="2133.81734712701,970.905345458984,141.65,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="AddNewTransaction" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
-    <Node Id="@19" Category="CodeSchema_Method" Bounds="785.740168421037,974.00095363281,141.186666666667,25.96" CodeSchemaProperty_IsInternal="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="AddOnlineAccounts" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
-    <Node Id="@20" Category="CodeSchema_Method" Bounds="604.492551452574,862.024577636719,121.68244992,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="AddSampleData" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+    <Node Id="@18" Category="CodeSchema_Method" Bounds="2201.21627165902,1304.7992812513,141.65,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="AddNewTransaction" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@19" Category="CodeSchema_Method" Bounds="1576.1501969401,109.834124775942,141.186666666667,25.96" CodeSchemaProperty_IsInternal="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="AddOnlineAccounts" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@20" Category="CodeSchema_Method" Bounds="1395.81410951266,5.83402560602023,121.68244992,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="AddSampleData" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
       <Category Ref="Active" />
     </Node>
-    <Node Id="@21" Category="CodeSchema_Method" Bounds="2094.59481457493,1402.79374267578,99.4866666666667,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="AddTransfer" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
-    <Node Id="@22" Category="CodeSchema_Method" Bounds="921.743762171037,904.60349269531,127.296666666667,25.96" CodeSchemaProperty_IsInternal="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="AnswerChallenge" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
-    <Node Id="@23" Category="CodeSchema_Method" Bounds="2234.6106306313,697.400493164062,160.95,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="CloseAttachmentDialog" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
-    <Node Id="@24" Category="CodeSchema_Method" Bounds="790.34193518536,747.288692890623,130.813333333333,34" CodeSchemaProperty_IsInternal="True" Disabled="" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="ConnectToBank" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+    <Node Id="@21" Category="CodeSchema_Method" Bounds="2080.32595346241,1184.83913720833,99.4866666666667,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="AddTransfer" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@22" Category="CodeSchema_Method" Bounds="1569.67246744792,221.754429854067,127.296666666667,25.96" CodeSchemaProperty_IsInternal="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="AnswerChallenge" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@23" Category="CodeSchema_Method" Bounds="976.014901551898,1285.93977705639,160.95,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="CloseAttachmentDialog" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@24" Category="CodeSchema_Method" Bounds="1415.33674153646,101.794183272036,130.813333333333,34" CodeSchemaProperty_IsInternal="True" Disabled="" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="ConnectToBank" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
       <Category Ref="EntryPoint" />
     </Node>
-    <Node Id="@26" Category="CodeSchema_Method" Bounds="794.00504253936,319.692217146718,199.93,149.96" ChildPriority="1" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Group="Expanded" Icon="CodeSchema_Method" Label="CreateNewDatabase" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
-    <Node Id="@29" Category="CodeSchema_Method" Bounds="819.394983825637,423.692649407643,149.15,25.96" CodeSchemaProperty_IsPrivate="True" Disabled="False" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="CreateSqliteDatabase" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+    <Node Id="@26" Category="CodeSchema_Method" Bounds="1349.66553420574,439.647007644944,261.919333496094,152.399890534459" ChildPriority="1" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Group="Expanded" Icon="CodeSchema_Method" Label="CreateNewDatabase" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@29" Category="CodeSchema_Method" Bounds="1369.66551394405,479.647288292099,149.15,25.96" CodeSchemaProperty_IsPrivate="True" Disabled="False" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="CreateSqliteDatabase" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
       <Category Ref="Active" />
     </Node>
-    <Node Id="@31" Category="CodeSchema_Method" Bounds="1833.91856445312,-82.7393762327533,113.72,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="DeleteAccount" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
-    <Node Id="@32" Category="CodeSchema_Method" Bounds="2249.4626140541,1435.79374267578,174.853333333333,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="DeleteSelectedTransaction" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
-    <Node Id="@33" Category="CodeSchema_Method" Bounds="776.792430383928,1029.96105363281,159.156666666667,25.96" CodeSchemaProperty_IsInternal="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="DismissOnlineAccounts" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+    <Node Id="@31" Category="CodeSchema_Method" Bounds="1641.91621267045,1228.75367414822,113.72,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="DeleteAccount" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@32" Category="CodeSchema_Method" Bounds="2110.92380909392,1360.75942529427,174.853333333333,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="DeleteSelectedTransaction" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@33" Category="CodeSchema_Method" Bounds="1652.27957682292,165.794224775942,159.156666666667,25.96" CodeSchemaProperty_IsInternal="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="DismissOnlineAccounts" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
       <Category Ref="Active" />
     </Node>
-    <Node Id="@34" Category="CodeSchema_Method" Bounds="756.792430383928,707.288592890623,312.247998453777,368.632560742188" ChildPriority="5" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Group="Expanded" Icon="CodeSchema_Method" Label="DownloadAccounts" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+    <Node Id="@34" Category="CodeSchema_Method" Bounds="1395.33674153646,61.7940832720359,436.099501953126,205.920446582031" ChildPriority="5" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Group="Expanded" Icon="CodeSchema_Method" Label="DownloadAccounts" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
       <Category Ref="Active" />
     </Node>
-    <Node Id="@35" Category="CodeSchema_Method" Bounds="989.127684697079,1114.44142832031,226.403333333334,149.960363574219" ChildPriority="1" CodeSchemaProperty_IsInternal="True" FunctionTypeFlags="Method" Group="Expanded" Icon="CodeSchema_Method" Label="DownloadTransactions" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+    <Node Id="@35" Category="CodeSchema_Method" Bounds="1109.21666829427,222.804872871645,256.120014648437,152.417761035156" ChildPriority="1" CodeSchemaProperty_IsInternal="True" FunctionTypeFlags="Method" Group="Expanded" Icon="CodeSchema_Method" Label="DownloadTransactions" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
       <Category Ref="Active" />
     </Node>
-    <Node Id="@36" Category="CodeSchema_Method" Bounds="1901.45361828587,1313.87021972656,104.066666666667,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="EditCategory" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
-    <Node Id="@37" Category="CodeSchema_Method" Bounds="1904.71073038873,1073.95420476953,94.0435866666667,33.9935679999999" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="EditDate" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+    <Node Id="@36" Category="CodeSchema_Method" Bounds="2105.39349740772,1030.54329980598,104.066666666667,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="EditCategory" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@37" Category="CodeSchema_Method" Bounds="2485.7673711772,1041.48531707552,94.0435866666667,33.9935679999999" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="EditDate" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
       <Category Ref="EntryPoint" />
     </Node>
-    <Node Id="@38" Category="CodeSchema_Method" Bounds="1773.22337694733,1258.81547119141,97.0178719999999,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="EditDeposit" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
-    <Node Id="@39" Category="CodeSchema_Method" Bounds="1893.25222008014,1385.83018066406,90.6030079999996,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="EditMemo" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
-    <Node Id="@40" Category="CodeSchema_Method" Bounds="1908.28827486139,1137.94901611328,86.8866666666668,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="EditPayee" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
-    <Node Id="@41" Category="CodeSchema_Method" Bounds="1900.83110119602,1249.869609375,101.803333333333,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="EditPayment" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
-    <Node Id="@42" Category="CodeSchema_Method" Bounds="1902.02240165175,1193.90952636719,99.4200000000001,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="EditSalesTax" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
-    <Node Id="@43" Category="CodeSchema_Method" Bounds="1723.52504650852,1033.95410476953,341.069816894531,453.796442007812" ChildPriority="10" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Group="Expanded" Icon="CodeSchema_Method" Label="EditSelectedTransaction" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
-    <Node Id="@44" Category="CodeSchema_Method" Bounds="1759.28103160703,-182.602299353251,124.994211199999,33.9659747200001" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="EnterAccounts" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+    <Node Id="@38" Category="CodeSchema_Method" Bounds="2185.76927413559,974.583277833328,97.0178719999999,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="EditDeposit" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@39" Category="CodeSchema_Method" Bounds="1984.79035610949,1030.54329980598,90.6030079999991,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="EditMemo" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@40" Category="CodeSchema_Method" Bounds="2368.88070451053,1045.50832666145,86.8866666666668,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="EditPayee" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@41" Category="CodeSchema_Method" Bounds="2169.63044971892,1104.56942285286,101.803333333333,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="EditPayment" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@42" Category="CodeSchema_Method" Bounds="2239.46035132043,1045.44600976692,99.4200000000001,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="EditSalesTax" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@43" Category="CodeSchema_Method" Bounds="1912.07785775929,934.583177833328,687.733100084582,220.255854296875" ChildPriority="10" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Group="Expanded" Icon="CodeSchema_Method" Label="EditSelectedTransaction" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@44" Category="CodeSchema_Method" Bounds="1639.05101869154,1133.58351149525,124.994211199999,33.9659747200001" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="EnterAccounts" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
       <Category Ref="EntryPoint" />
     </Node>
-    <Node Id="@45" Category="CodeSchema_Method" Bounds="1842.65803718434,258.737157833704,132.803333333333,34" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="EnterCategories" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+    <Node Id="@45" Category="CodeSchema_Method" Bounds="1965.52205731089,381.896849093942,132.803333333333,34" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="EnterCategories" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
       <Category Ref="EntryPoint" />
     </Node>
-    <Node Id="@46" Category="CodeSchema_Method" Bounds="814.005014343215,359.692577386158,159.93,34" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="EnterCreateDatabase" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+    <Node Id="@46" Category="CodeSchema_Method" Bounds="1431.65472536983,538.046798179403,159.93,34" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="EnterCreateDatabase" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
       <Category Ref="EntryPoint" />
       <Category Ref="Singleton" />
     </Node>
-    <Node Id="@47" Category="CodeSchema_Method" Bounds="2315.92977062962,1066.32434082031,164.476666666667,34" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="FocusTransactionView" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+    <Node Id="@47" Category="CodeSchema_Method" Bounds="2283.18758188038,1240.79917871223,164.476666666667,34" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="FocusTransactionView" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
       <Category Ref="EntryPoint" />
     </Node>
-    <Node Id="@48" Category="CodeSchema_Method" Bounds="1475.77217436826,545.77053306117,288.893333333333,149.800199997544" ChildPriority="1" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Group="Expanded" Icon="CodeSchema_Method" Label="Interactive" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
-    <Node Id="@49" Category="CodeSchema_Method" Bounds="2094.59486340306,1463.04301025391,124.866666666666,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="NavigateTransfer" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
-    <Node Id="@50" Category="CodeSchema_Method" Bounds="2372.89331129536,559.792114257813,174.38,34" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="OpenAttachmentDialog" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+    <Node Id="@48" Category="CodeSchema_Method" Bounds="1494.92688430323,646.209482501331,288.893333333333,149.8002" ChildPriority="1" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Group="Expanded" Icon="CodeSchema_Method" Label="Interactive" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@49" Category="CodeSchema_Method" Bounds="2066.42495492725,878.623072755203,124.866666666666,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="NavigateTransfer" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@50" Category="CodeSchema_Method" Bounds="983.550389833148,1221.93955244701,174.38,34" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="OpenAttachmentDialog" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
       <Category Ref="EntryPoint" />
     </Node>
-    <Node Id="@51" Category="CodeSchema_Method" Bounds="2423.7747338214,430.224803466797,158.616666666667,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="PasteImageAttachment" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
-    <Node Id="@52" Category="CodeSchema_Method" Bounds="2313.78420810526,639.753123779297,146.603333333333,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="PasteTextAttachment" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
-    <Node Id="@53" Category="CodeSchema_Method" Bounds="584.492551452574,586.451987402344,651.038466577839,697.949904492187" ChildPriority="5" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Group="Expanded" Icon="CodeSchema_Method" Label="PopulateData" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
-    <Node Id="@54" Category="CodeSchema_Method" Bounds="2427.1297338214,487.873057861328,151.906666666668,25.9600000000001" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="RotateAttachmentLeft" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
-    <Node Id="@55" Category="CodeSchema_Method" Bounds="2491.00420810526,639.753062744141,160.163333333334,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="RotateAttachmentRight" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
-    <Node Id="@56" Category="CodeSchema_Method" Bounds="1978.30455973307,-82.7393762327533,110.946666666666,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="SelectAccount" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
-    <Node Id="@57" Category="CodeSchema_Method" Bounds="1851.35933764006,386.737229855188,115.4,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="SelectCategory" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+    <Node Id="@51" Category="CodeSchema_Method" Bounds="973.336719585752,998.099170366935,158.616666666667,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="PasteImageAttachment" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@52" Category="CodeSchema_Method" Bounds="986.997683127419,1054.05928389233,146.603333333333,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="PasteTextAttachment" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@53" Category="CodeSchema_Method" Bounds="1089.21666829427,-34.1660743939798,762.219575195313,429.388808300781" ChildPriority="5" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Group="Expanded" Icon="CodeSchema_Method" Label="PopulateData" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@54" Category="CodeSchema_Method" Bounds="992.779488140439,1110.01936690014,151.906666666668,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="RotateAttachmentLeft" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@55" Category="CodeSchema_Method" Bounds="929.758820822731,1165.97957197826,160.163333333334,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="RotateAttachmentRight" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@56" Category="CodeSchema_Method" Bounds="1498.10433197383,1137.9331175076,110.946666666666,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="SelectAccount" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@57" Category="CodeSchema_Method" Bounds="1901.43643149708,445.896936374216,115.4,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="SelectCategory" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
       <Category Ref="Active" />
     </Node>
-    <Node Id="@58" Category="CodeSchema_Method" Bounds="1009.12768469708,1218.44169189453,186.403333333334,25.96" CodeSchemaProperty_IsInternal="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="SelectDownloadTransactions" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+    <Node Id="@58" Category="CodeSchema_Method" Bounds="1129.21666829427,262.804972871645,186.403333333334,25.96" CodeSchemaProperty_IsInternal="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="SelectDownloadTransactions" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
       <Category Ref="Active" />
     </Node>
-    <Node Id="@59" Category="CodeSchema_Method" Bounds="1683.69623046875,809.251903558033,122.38,34" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="SelectSecurity" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+    <Node Id="@59" Category="CodeSchema_Method" Bounds="1904.75536456565,561.857411935739,122.38,34" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="SelectSecurity" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
       <Category Ref="Active" />
       <Category Ref="EntryPoint" />
     </Node>
-    <Node Id="@60" Category="CodeSchema_Method" Bounds="2163.91657889785,1187.03348876953,127.293333333333,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="SelectTransaction" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
-    <Node Id="@61" Category="CodeSchema_Method" Bounds="794.883726363746,817.231788593748,112.86,25.96" CodeSchemaProperty_IsInternal="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="SignOnToBank" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
-    <Node Id="@62" Category="CodeSchema_Method" Bounds="2172.27684256972,1258.95328857422,111.613333333333,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="SortByColumn" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+    <Node Id="@60" Category="CodeSchema_Method" Bounds="2273.85505421111,878.622950684891,127.293333333333,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="SelectTransaction" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@61" Category="CodeSchema_Method" Bounds="1507.73687011719,165.794285811098,112.86,25.96" CodeSchemaProperty_IsInternal="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="SignOnToBank" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@62" Category="CodeSchema_Method" Bounds="2363.69993702361,822.662867677203,111.613333333333,25.96" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="CodeSchema_Method" Label="SortByColumn" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
       <Category Ref="Active" />
     </Node>
-    <Node Id="@63" Category="CodeSchema_Method" Bounds="1436.81998435555,243.139585045893,73.4000000000001,34" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="Start" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
+    <Node Id="@63" Category="CodeSchema_Method" Bounds="1391.52678430323,643.389652503075,73.4000000000001,34" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="Start" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True">
       <Category Ref="EntryPoint" />
     </Node>
-    <Node Id="@64" Category="CodeSchema_Method" Bounds="1046.05101803041,1154.44152832031,112.556666666666,34" CodeSchemaProperty_IsInternal="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="Synchronize" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
+    <Node Id="@64" Category="CodeSchema_Method" Bounds="1232.78001627604,321.222533906802,112.556666666666,34" CodeSchemaProperty_IsInternal="True" FunctionTypeFlags="Method" Icon="pack://application:,,,/Microsoft.VisualStudio.Progression.GraphControl;component/Icons/kpi_green_cat1_large.png" Label="Synchronize" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}">
       <Category Ref="EntryPoint" />
     </Node>
-    <Node Id="@65" Category="CodeSchema_Method" Bounds="1703.5249819738,930.905276774516,927.214271039834,578.097768749877" ChildPriority="3" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Group="Expanded" Icon="CodeSchema_Method" Label="TransactionView" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
-    <Node Id="@66" Category="CodeSchema_Method" Bounds="1682.0898038737,-242.539370031581,490.266220703125,325.560194049072" ChildPriority="5" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Group="Expanded" Icon="CodeSchema_Method" Label="ViewAccounts" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
-    <Node Id="@67" Category="CodeSchema_Method" Bounds="1822.6579677655,218.736787514151,258.305348307292,213.960605175781" ChildPriority="2" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Group="Expanded" Icon="CodeSchema_Method" Label="ViewCategories" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
-    <Node Id="@68" Category="CodeSchema_Method" Bounds="1335.92593126196,806.597899808127,291.412458495972,222.00039833874" ChildPriority="1" CodeSchemaProperty_IsInternal="True" FunctionTypeFlags="Method" Group="Expanded" Icon="CodeSchema_Method" Label="ViewCharts" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
-    <Node Id="@69" Category="CodeSchema_Method" Bounds="1856.15142184956,755.054797390914,151.22,94.0002" ChildPriority="2" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Group="Expanded" Icon="CodeSchema_Method" Label="ViewPayees" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
-    <Node Id="@70" Category="CodeSchema_Method" Bounds="1663.69623046875,769.25186559876,162.38,94.0002" ChildPriority="2" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Group="Expanded" Icon="CodeSchema_Method" Label="ViewSecurities" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
-    <Node Id="Attachments" Bounds="2214.61030046243,390.224720090074,456.556910807292,353.135889687765" Group="Expanded" Label="Attachments" UseManualLocation="True" />
-    <Node Id="EditOperation" Bounds="2370.30509615045,1250.95328857422,93.5599999999995,25.96" Label="EditOperation" UseManualLocation="True" />
-    <Node Id="EditSelection" Bounds="2244.9426547442,1330.87308837891,88.2799999999997,25.96" Label="EditSelection" />
-    <Node Id="EmptyCategories" Category="CodeSchema_Method" Bounds="1935.20338549163,322.736924679407,125.760000000001,25.96" Label="EmptyCategories" UseManualLocation="True" />
-    <Node Id="EnterPopulate" Category="EntryPoint" Bounds="794.64824377911,626.452087402344,122.883333333333,34" Label="EnterPopulate">
+    <Node Id="@65" Category="CodeSchema_Method" Bounds="1892.07785775928,782.662767677203,925.290314941407,624.056791601563" ChildPriority="3" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Group="Expanded" Icon="CodeSchema_Method" Label="TransactionView" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@66" Category="CodeSchema_Method" Bounds="1351.8972185003,994.092870796454,468.91747264882,400.421030078125" ChildPriority="5" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Group="Expanded" Icon="CodeSchema_Method" Label="ViewAccounts" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@67" Category="CodeSchema_Method" Bounds="1881.43643149708,341.896288384395,311.159956054688,149.9603" ChildPriority="2" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Group="Expanded" Icon="CodeSchema_Method" Label="ViewCategories" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@68" Category="CodeSchema_Method" Bounds="907.311907552083,425.222833906802,291.410017089844,222.000483105469" ChildPriority="1" CodeSchemaProperty_IsInternal="True" FunctionTypeFlags="Method" Group="Expanded" Icon="CodeSchema_Method" Label="ViewCharts" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" UseManualLocation="True" />
+    <Node Id="@69" Category="CodeSchema_Method" Bounds="1881.99127229355,645.856788384395,151.219999999998,94.0001999999999" ChildPriority="2" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Group="Expanded" Icon="CodeSchema_Method" Label="ViewPayees" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@70" Category="CodeSchema_Method" Bounds="1884.75536456565,521.856588384395,162.38,94.0001999999999" ChildPriority="2" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Method" Group="Expanded" Icon="CodeSchema_Method" Label="ViewSecurities" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="Attachments" Bounds="898.624638880179,958.099458459283,342.169210765672,373.800793164063" Group="Expanded" Label="Attachments" UseManualLocation="True" />
+    <Node Id="EditOperation" Bounds="2271.16202849496,1184.83913720833,93.5599999999995,25.96" Label="EditOperation" />
+    <Node Id="EditSelection" Bounds="2164.90749724496,1240.79922021614,88.2799999999997,25.96" Label="EditSelection" />
+    <Node Id="EmptyCategories" Category="CodeSchema_Method" Bounds="2046.83638755177,445.896936374216,125.760000000001,25.96" Label="EmptyCategories" />
+    <Node Id="EnterPopulate" Category="EntryPoint" Bounds="1395.33677571615,297.714629854067,122.883333333333,34" Label="EnterPopulate">
       <Category Ref="Singleton" />
     </Node>
-    <Node Id="ViewReports" Bounds="2207.72799072266,113.02117019669,300.583333333332,245.88" ChildPriority="1" Group="Expanded" Label="ViewReports" UseManualLocation="True" />
-    <Node Id="ac29eb58-92fc-4e51-947b-f9c643ad086b1" Category="Comment" Bounds="1309.57519734682,-65.7346845709454,247.563333333332,185.56" Label="This is the entry point to the model based test, each node (or group) represents a &quot;state&quot; and when it enters the state it calls the same named method on the ScenarioTests class.  From there it can navigate links, if the link label is true.   The link label represents a boolean property on the ScenarioTests class.  If it has no label then the link can be traversed any time.  The links can be weighted and those transitions are more likely to be chosen." UseManualLocation="True" />
-    <Node Id="ad0c7473-d65d-4be6-8ee7-f26249fd53c51" Category="Comment" Bounds="1915.20269124349,-202.539270031581,237.153333333333,73.8400000000001" Label="Once the machine reaches an end point state like this it bubbles up to the parent, and if that is stuck it bubbles up to the root." />
-    <Node Id="aea1706b-ade5-4fb0-9b7b-412760db9bf71" Category="Comment" Bounds="1495.77216157077,585.770629706173,248.893333333333,89.8" Label="The state represents a place where the user can decide to do something entirely different.  At this point the MainWindow should be interactive with no blocking modal dialogs on top." />
-    <Node Id="b3777c7b-fc99-42e3-b97d-6ac094e023831" Category="CodeSchema_Method" Bounds="1895.20819673639,1441.79044677734,149.386666666667,25.96" Label="VerifyNewTransaction" UseManualLocation="True" />
+    <Node Id="ViewReports" Bounds="822.921944986979,678.536763712484,307.527039388021,245.880385546875" ChildPriority="1" Group="Expanded" Label="ViewReports" UseManualLocation="True" />
+    <Node Id="ac29eb58-92fc-4e51-947b-f9c643ad086b1" Category="Comment" Bounds="1217.3634509699,707.389652503075,247.563333333332,185.56" Label="This is the entry point to the model based test, each node (or group) represents a &quot;state&quot; and when it enters the state it calls the same named method on the ScenarioTests class.  From there it can navigate links, if the link label is true.   The link label represents a boolean property on the ScenarioTests class.  If it has no label then the link can be traversed any time.  The links can be weighted and those transitions are more likely to be chosen." UseManualLocation="True" />
+    <Node Id="ad0c7473-d65d-4be6-8ee7-f26249fd53c51" Category="Comment" Bounds="1371.89717783972,1034.09297102322,237.153333333333,73.8400000000001" Label="Once the machine reaches an end point state like this it bubbles up to the parent, and if that is stuck it bubbles up to the root." />
+    <Node Id="aea1706b-ade5-4fb0-9b7b-412760db9bf71" Category="Comment" Bounds="1514.92688430323,686.209515460383,248.893333333333,89.8" Label="The state represents a place where the user can decide to do something entirely different.  At this point the MainWindow should be interactive with no blocking modal dialogs on top." />
+    <Node Id="b3777c7b-fc99-42e3-b97d-6ac094e023831" Category="CodeSchema_Method" Bounds="1932.07785775929,1108.8789321302,149.386666666667,25.96" Label="VerifyNewTransaction" />
   </Nodes>
   <Links>
-    <Link Source="4f1bf513-92f1-426b-b5d4-0f853382cb8b1" Target="@39" Bounds="1861.79111494182,1382.30840467291,22.6621216464305,4.87171109856013" />
-    <Link Source="@17" Target="@48" Bounds="1636.2962584974,-56.7793710630763,113.989779831385,593.7113310897" Priority="1" />
-    <Link Source="@18" Target="@43" Bounds="2071.31194060867,996.865345458984,118.775027224375,105.919593178244" Priority="1" />
-    <Link Source="@19" Target="@33" Bounds="856.342144703156,999.96095363281,0.0139832670287205,21.0001019952019" Priority="1" />
-    <Link Source="@21" Target="@49" Bounds="2147.07207050036,1428.75374267578,5.36727056127575,25.4824961345846" />
-    <Link Source="@22" Target="@19" Bounds="888.399123459363,930.56349269531,72.8540406742519,39.1751164717027" />
-    <Link Source="@23" Target="@48" Bounds="1773.59141476649,640.471595514733,461.046822962729,59.5228429293074" />
-    <Link Source="@24" Target="@61" Bounds="852.791031822366,781.288692890623,1.81392101717597,26.9633925753267" Priority="1" />
+    <Link Source="4f1bf513-92f1-426b-b5d4-0f853382cb8b1" Target="@39" Bounds="2049.61818836826,1000.54314937643,23.9390393902459,23.6718292948849" />
+    <Link Source="@17" Target="@48" Bounds="1695.985078974,698.193103810547,121.119393023592,362.727653025391" Priority="1" />
+    <Link Source="@18" Target="@43" Bounds="2262.96585936316,1163.82343578524,8.31026530684358,140.975845466052" Priority="1" />
+    <Link Source="@19" Target="@33" Bounds="1666.48596351628,135.796185209111,38.1093503255884,25.0556898599201" Priority="1" />
+    <Link Source="@21" Target="@49" Bounds="1901.94360351563,901.929626464844,178.38232421875,288.727355957031" />
+    <Link Source="@22" Target="@19" Bounds="1634.87752746742,144.73214896661,9.23762128280214,77.0240362425009" />
+    <Link Source="@23" Target="@48" Bounds="1137.15721134613,697.368796544032,481.27668134822,800.138979090713" />
+    <Link Source="@24" Target="@61" Bounds="1504.38799795658,135.796185209111,34.4183093969036,24.7461562183974" Priority="1" />
     <Link Source="@26" Target="@29" Category="Contains" />
     <Link Source="@26" Target="@46" Category="Contains" />
-    <Link Source="@26" Target="@53" Bounds="896.194359369644,469.652217146718,3.19804809503626,107.803727823807" Label="DatabaseLoaded" LabelBounds="901.793383804057,515.514776211145,88.4199999999991,15.9599999999995" Priority="1" />
-    <Link Source="@31" Target="@48" Bounds="1652.85374534085,-56.7793762327533,232.838329032361,594.170334230627" Priority="1" />
+    <Link Source="@26" Target="@53" Bounds="1477.19672134978,404.218492024067,1.08812700847193,35.4285156208765" Label="DatabaseLoaded" LabelBounds="1385.32078440952,414.014147504324,88.4199999999992,15.9599999999996" Priority="1" />
+    <Link Source="@31" Target="@48" Bounds="1688.08386603521,698.410711599416,128.832619826093,539.967320627147" Priority="1" />
     <Link Source="@33" Target="@35" Bounds="878.165755110572,1055.92105363281,103.229352753548,61.4782072890532" Priority="1" />
     <Link Source="@34" Target="@19" Category="Contains" />
     <Link Source="@34" Target="@22" Category="Contains" />
@@ -164,16 +164,16 @@
     <Link Source="@34" Target="@61" Category="Contains" />
     <Link Source="@35" Target="@58" Category="Contains" />
     <Link Source="@35" Target="@64" Category="Contains" />
-    <Link Source="@36" Target="4f1bf513-92f1-426b-b5d4-0f853382cb8b1" Bounds="1857.45281153409,1339.83021972656,50.6231504659977,14.4698122317959" Label="CategoryDialogShowing" LabelBounds="1761.47535865807,1327.10204158752,128.016666666667,15.96" />
-    <Link Source="@36" Target="@39" Bounds="1943.07608097113,1339.83021972656,7.71724365145678,37.1877111127699" Label="NoCategoryDialog" LabelBounds="1950.93559171421,1350.85045970392,98.3933333333337,15.96" Priority="1" />
-    <Link Source="@37" Target="@40" Bounds="1951.73194370577,1107.94777276953,0.000320570937446973,21.0012433447987" Priority="1" />
-    <Link Source="@38" Target="@36" Bounds="1852.79548652388,1284.77547119141,61.3241162299955,25.6247812768918" Priority="1" />
+    <Link Source="@36" Target="4f1bf513-92f1-426b-b5d4-0f853382cb8b1" Bounds="2110.15134679518,1006.12670245875,30.8666886159754,24.4164175780064" Label="CategoryDialogShowing" LabelBounds="2165.19794579827,1143.16179852592,128.016666666667,15.96" />
+    <Link Source="@36" Target="@39" Bounds="2084.39361151273,1043.52310734245,21.0001000000011,0" Label="NoCategoryDialog" LabelBounds="2084.06945875384,1189.87855197391,98.3933333333334,15.96" Priority="1" />
+    <Link Source="@37" Target="@40" Bounds="2464.76724483373,1058.48439144374,21.0001000123448,0.00109991963381617" Priority="1" />
+    <Link Source="@38" Target="@36" Bounds="2182.52834474064,1000.54314937643,33.9241729235073,24.7022083292429" Priority="1" />
     <Link Source="@39" Target="@60" Bounds="1957.42397565785,1218.0940363577,243.853870703925,167.736144306365" />
-    <Link Source="@39" Target="b3777c7b-fc99-42e3-b97d-6ac094e023831" Bounds="1945.82485679636,1411.79018066406,12.4070360368578,22.1483136181951" />
-    <Link Source="@40" Target="@42" Bounds="1951.73179223651,1163.90901611328,0.000297763589969691,21.0005102548146" />
-    <Link Source="@41" Target="@36" Bounds="1952.08853486295,1275.829609375,0.79606262411744,29.0439890531841" Priority="1" />
-    <Link Source="@42" Target="@38" Bounds="1855.78212408061,1219.86952636719,69.952641207426,34.9256859419615" />
-    <Link Source="@42" Target="@41" Bounds="1951.73248659476,1219.86952636719,0.00013742760279456,21.0000830080028" />
+    <Link Source="@39" Target="b3777c7b-fc99-42e3-b97d-6ac094e023831" Bounds="2013.20334892136,1056.50309464815,13.0245576060038,43.7499480561034" />
+    <Link Source="@40" Target="@42" Bounds="2347.88047702247,1058.45556231722,21.0001011569393,0.0106480428485156" />
+    <Link Source="@41" Target="@36" Bounds="2174.33083180954,1063.35217162267,35.136497572953,41.2170284955378" Priority="1" />
+    <Link Source="@42" Target="@38" Bounds="2249.84442329926,1007.65816017542,29.2713869955369,37.7876460945864" />
+    <Link Source="@42" Target="@41" Bounds="2242.4202955619,1071.4057808814,31.6813459396481,27.289662560901" />
     <Link Source="@43" Target="4f1bf513-92f1-426b-b5d4-0f853382cb8b1" Category="Contains" />
     <Link Source="@43" Target="@36" Category="Contains" />
     <Link Source="@43" Target="@37" Category="Contains" />
@@ -182,54 +182,54 @@
     <Link Source="@43" Target="@40" Category="Contains" />
     <Link Source="@43" Target="@41" Category="Contains" />
     <Link Source="@43" Target="@42" Category="Contains" />
-    <Link Source="@43" Target="@48" Bounds="1655.79731218388,703.845478091024,141.205721476285,330.108626678505" Priority="2" />
+    <Link Source="@43" Target="@48" Bounds="1820.80842517474,681.96694708043,321.595150536348,141.564182547444" Priority="2" />
     <Link Source="@43" Target="@60" Bounds="753.095703125,1310.89721679688,0,34.9599609375" Priority="1" />
     <Link Source="@43" Target="b3777c7b-fc99-42e3-b97d-6ac094e023831" Category="Contains" />
-    <Link Source="@44" Target="@17" Bounds="1757.275390625,-148.636291503906,46.9249267578125,57.1152496337891" Priority="1" />
-    <Link Source="@44" Target="@31" Bounds="1840.4912109375,-148.636291503906,48.11865234375,56.9627838134766" Label="IsAccountSelected" LabelBounds="1791.20208089193,-113.699273007045,96.5766666666659,15.96" Priority="1" />
-    <Link Source="@44" Target="@56" Bounds="1853.72692871094,-148.636291503906,135.740478515625,62.8330078125" Label="HasAccounts" LabelBounds="1934.46208089193,-113.699273007045,68.3166666666675,15.96" Priority="1" />
-    <Link Source="@45" Target="@57" Bounds="1909.05940256416,292.736935730876,0.000251072568744348,85.0004051758201" Priority="1" />
-    <Link Source="@45" Target="EmptyCategories" Bounds="1934.29144884461,292.736935730876,37.0628107783671,24.9712330000189" Label="HasNoCategories" LabelBounds="1963.20608292838,293.846705712913,92.1533333333325,15.96" />
-    <Link Source="@46" Target="@29" Bounds="893.970031738281,393.692230224609,0,21" />
-    <Link Source="@47" Target="@60" Bounds="2253.96918473306,1100.32434082031,119.344143582412,81.628193699134" Label="HasTransaction" LabelBounds="2229.21265109285,1126.07852162545,79.5700000000006,15.96" Priority="1" />
-    <Link Source="@47" Target="EditOperation" Bounds="2399.94868499832,1100.32434082031,14.839353174269,141.677912407498" Label="IsEditable" LabelBounds="2411.36842110773,1162.97495658243,50.7399999999998,15.96" />
-    <Link Source="@48" Target="(@16 @2 @3 Member=Save)" Bounds="1531.37863152893,435.897282439398,52.8278101548347,109.873350620544" Label="IsDirty" LabelBounds="1522.33672458745,491.700601037343,33.6533333333327,15.96" Priority="1" />
-    <Link Source="@48" Target="@26" Bounds="1002.52857110003,428.454105033356,473.243603268226,147.266756105123" Label="StartOver" LabelBounds="1310.25748320769,541.757923020715,49.6433333333334,15.9599999999999" Priority="1" />
-    <Link Source="@48" Target="@53" Bounds="1243.80004882813,680.870910644531,231.97216796875,108.554626464844" Priority="1" />
-    <Link Source="@48" Target="@65" Bounds="1711.40661621094,695.570617675781,159.561889648438,226.841125488281" Label="IsAccountSelected" LabelBounds="1874.97515967446,911.837457455188,96.5766666666696,15.96" Priority="10" />
-    <Link Source="@48" Target="@66" Bounds="1623.23315429688,91.1488037109375,69.7198486328125,454.621826171875" Priority="5" />
-    <Link Source="@48" Target="@67" Bounds="1729.04724121094,439.180603027344,108.528442382813,106.590026855469" Priority="1" />
-    <Link Source="@48" Target="@68" Bounds="1537.24626733958,695.570633059942,48.0140617259467,102.872033753089" Priority="3" />
-    <Link Source="@48" Target="@69" Bounds="1751.67468261719,695.570617675781,98.650146484375,55.6864624023438" Priority="1" />
-    <Link Source="@48" Target="@70" Bounds="1670.33081054688,695.570617675781,40.7994384765625,65.9103393554688" Priority="1" />
-    <Link Source="@48" Target="Attachments" Bounds="1764.66552734375,666.54052734375,441.086669921875,63.2906494140625" Label="HasAttachableTransaction" LabelBounds="1845.66045136347,664.156885213476,136.226666666667,15.96" />
-    <Link Source="@48" Target="ViewReports" Bounds="1764.66552734375,358.543914794922,435.9619140625,207.814483642578" Priority="1" />
+    <Link Source="@44" Target="@17" Bounds="1700.54423492376,1086.25529058877,0.738623362099815,47.3280507206618" Priority="1" />
+    <Link Source="@44" Target="@31" Bounds="1699.4442147795,1167.54927668935,1.58733830773099,52.2083008203999" Label="IsAccountSelected" LabelBounds="1712.48142605048,1244.61072632565,96.5766666666659,15.96" Priority="1" />
+    <Link Source="@44" Target="@56" Bounds="1618.05070112473,1150.71264116653,21.0001173533681,0.0491701771416047" Label="HasAccounts" LabelBounds="1602.64066921357,1213.6137319212,68.3166666666675,15.96" Priority="1" />
+    <Link Source="@45" Target="@57" Bounds="1981.83354802206,415.896994662704,29.4599985500654,24.2765155963755" Priority="1" />
+    <Link Source="@45" Target="EmptyCategories" Bounds="2053.97212906355,415.896994662704,31.7820956716514,24.504630844222" Label="HasNoCategories" LabelBounds="1962.21191626136,546.280728547898,92.1533333333321,15.96" />
+    <Link Source="@46" Target="@29" Bounds="1464.85428636982,511.724037444174,28.4148749954563,26.3232921653797" />
+    <Link Source="@47" Target="@60" Bounds="2410.08374023438,900.353515625,199.861328125,340.445678710938" Label="HasTransaction" LabelBounds="2425.38613828305,1186.73057637757,79.5700000000006,15.96" Priority="1" />
+    <Link Source="@47" Target="EditOperation" Bounds="2333.80409801264,1217.8555675377,18.163572525365,22.9436111745335" Label="IsEditable" LabelBounds="2344.45397990407,1212.1259722634,50.7399999999998,15.96" />
+    <Link Source="@48" Target="(@16 @2 @3 Member=Save)" Bounds="1661.80840914108,624.830950677293,6.40352054777372,21.3785318240375" Label="IsDirty" LabelBounds="1669.01386105251,629.123871169924,33.6533333333327,15.96" Priority="1" />
+    <Link Source="@48" Target="@26" Bounds="1545.06356979381,599.166175021865,36.3828888707781,47.0433074794659" Label="StartOver" LabelBounds="1512.02961937532,623.91138151698,49.6433333333332,15.9599999999998" Priority="1" />
+    <Link Source="@48" Target="@53" Bounds="1615.27563476563,404.117492675781,18.114990234375,242.091979980469" Priority="1" />
+    <Link Source="@48" Target="@65" Bounds="1783.82019042969,783.508728027344,100.720703125,15.8486938476563" Label="IsAccountSelected" LabelBounds="1765.8191521089,803.346273729063,96.5766666666696,15.96" Priority="10" />
+    <Link Source="@48" Target="@66" Bounds="1783.82019042969,789.808044433594,42.9093017578125,196.946594238281" Priority="5" />
+    <Link Source="@48" Target="@67" Bounds="1747.498046875,496.598693847656,141.663940429688,149.610778808594" Priority="1" />
+    <Link Source="@48" Target="@68" Bounds="1203.28601074219,651.315307617188,291.640869140625,48.4042358398438" Priority="3" />
+    <Link Source="@48" Target="@69" Bounds="1783.82019042969,684.626647949219,89.1920166015625,3.030029296875" Priority="1" />
+    <Link Source="@48" Target="@70" Bounds="1783.82019042969,608.366088867188,92.8096923828125,46.316650390625" Priority="1" />
+    <Link Source="@48" Target="Attachments" Bounds="1248.43981933594,796.009704589844,259.79638671875,169.826232910156" Label="HasAttachableTransaction" LabelBounds="1474.3526200816,881.718828362277,136.226666666666,15.96" />
+    <Link Source="@48" Target="ViewReports" Bounds="1139.38352148535,738.627325042678,355.543362817887,43.1184549692759" Priority="1" />
     <Link Source="@48" Target="aea1706b-ade5-4fb0-9b7b-412760db9bf71" Category="Contains" />
-    <Link Source="@50" Target="@51" Bounds="2315.08544921875,456.603668212891,100.609619140625,103.188995361328" />
-    <Link Source="@50" Target="@52" Bounds="2386.9326171875,593.792663574219,41.68701171875,36.96240234375" />
-    <Link Source="@50" Target="@54" Bounds="2460.08544921875,519.61181640625,20.57958984375,40.1808471679688" Label="HasAttachmentImage" LabelBounds="2346.935309101,529.261127230244,114.483333333333,15.96" />
-    <Link Source="@50" Target="@55" Bounds="2478.1640625,593.792663574219,60.233642578125,41.7759399414063" Label="HasAttachmentImage" LabelBounds="2502.60208919941,608.792664933957,114.483333333334,15.9599999999996" />
-    <Link Source="@51" Target="@23" Bounds="2283.08544921875,453.59228515625,140.719482421875,236.794738769531" />
-    <Link Source="@51" Target="@54" Bounds="2503.08544921875,456.185150146484,0,22.6875" />
-    <Link Source="@51" Target="@55" Bounds="2568.38232421875,456.185150146484,79.703125,179.759246826172" />
-    <Link Source="@52" Target="@23" Bounds="2338.32250976563,665.712646484375,32.55126953125,26.0624389648438" />
+    <Link Source="@50" Target="@51" Bounds="1086.13879394531,1027.15026855469,65.2152099609375,194.788696289063" />
+    <Link Source="@50" Target="@52" Bounds="1086.13879394531,1082.44396972656,65.2152099609375,139.494995117188" />
+    <Link Source="@50" Target="@54" Bounds="1075.65209960938,1144.27587890625,27.83544921875,77.6630859375" Label="HasAttachmentImage" LabelBounds="1033.45077124498,962.791212312374,114.483333333334,15.9599999999999" />
+    <Link Source="@50" Target="@55" Bounds="1014.46661376953,1197.54028320313,39.7630004882813,24.398681640625" Label="HasAttachmentImage" LabelBounds="962.321690524715,981.226188864229,114.483333333334,15.9599999999996" />
+    <Link Source="@51" Target="@23" Bounds="919.624755859375,1024.05895996094,103.073120117188,258.548095703125" />
+    <Link Source="@51" Target="@54" Bounds="978.41064453125,1024.05895996094,44.2872314453125,83.60693359375" />
+    <Link Source="@51" Target="@55" Bounds="978.41064453125,1024.05895996094,44.2872314453125,133.820678710938" />
+    <Link Source="@52" Target="@23" Bounds="1097.65222167969,1080.01892089844,67.63427734375,203.37841796875" />
     <Link Source="@53" Target="@20" Category="Contains" />
     <Link Source="@53" Target="@34" Category="Contains" />
     <Link Source="@53" Target="@35" Category="Contains" />
     <Link Source="@53" Target="@48" Bounds="946.424926757813,-15.3708648681641,502.52783203125,204.332641601563" Priority="1" />
     <Link Source="@53" Target="EnterPopulate" Category="Contains" />
-    <Link Source="@54" Target="@50" Bounds="2503.0361328125,513.832641601563,25.83447265625,42.0028076171875" />
-    <Link Source="@55" Target="@50" Bounds="2436.5615234375,600.658325195313,80.38037109375,39.0943603515625" />
-    <Link Source="@56" Target="@48" Bounds="1669.7077785138,-56.7793762327533,356.29525451566,594.829023498723" Priority="1" />
-    <Link Source="@58" Target="@48" Bounds="1113.33580853753,702.435105531768,437.550415577294,516.006586362762" Priority="1" />
-    <Link Source="@59" Target="@48" Bounds="1670.30601728361,703.266303823664,64.271171908063,105.985599734369" Priority="1" />
-    <Link Source="@60" Target="@62" Bounds="2227.65714213374,1212.99348876953,0.267366757409036,36.9600352800846" Priority="1" />
-    <Link Source="@60" Target="EditOperation" Bounds="2266.04887330619,1212.99348876953,104.022567280741,35.0835624240594" Label="IsEditable" LabelBounds="2312.44114472053,1210.56946538988,50.7400000000002,15.96" Priority="5" />
-    <Link Source="@61" Target="@19" Bounds="851.729348176582,843.191788593748,3.90049785213489,121.813775305144" Label="NoChallenge" LabelBounds="781.12292991091,896.182683782502,68.5566666666664,15.96" Priority="1" />
-    <Link Source="@61" Target="@22" Bounds="871.232500403249,843.191788593748,86.7005066616333,56.4980843819088" Label="IsChallenged" LabelBounds="915.674669227322,853.805205362483,67.9033333333336,15.96" />
-    <Link Source="@63" Target="@26" Bounds="1002.70193649143,268.658863958471,434.11804786412,100.773098930196" Label="CreateDatabasePrompt" LabelBounds="1316.50632625874,298.640805890691,122.933333333335,15.96" Priority="1" />
-    <Link Source="@63" Target="@48" Bounds="1485.029296875,277.139587402344,114.051879882813,259.905456542969" Label="DatabaseLoaded" LabelBounds="1535.42959079497,339.317811714505,88.4200000000001,15.96" Priority="1" />
-    <Link Source="@64" Target="@58" Bounds="1102.32934570313,1188.44165039063,0,21" Priority="1" />
+    <Link Source="@54" Target="@50" Bounds="1090.09106445313,1135.97900390625,18.1763916015625,79.3555908203125" />
+    <Link Source="@55" Target="@50" Bounds="1017.07934570313,1191.93896484375,41.0078125,25.257568359375" />
+    <Link Source="@56" Target="@48" Bounds="1669.15295926006,698.655763108978,5.50268871103231,448.90171247696" Priority="1" />
+    <Link Source="@58" Target="@48" Bounds="1105.25702649283,268.860493164063,433.31679479321,266.283852960509" Priority="1" />
+    <Link Source="@59" Target="@48" Bounds="1820.967259164,466.3074671875,231.69472623115,89.4447128987954" Priority="1" />
+    <Link Source="@60" Target="@62" Bounds="2356.52283953409,853.695848309582,36.5286110969773,24.9271023753084" Priority="1" />
+    <Link Source="@60" Target="EditOperation" Bounds="2373.66552734375,899.276245117188,236.279541015625,292.274780273438" Label="IsEditable" LabelBounds="2475.89695892084,890.313513402704,50.7400000000002,15.96" Priority="5" />
+    <Link Source="@61" Target="@19" Bounds="1583.32070058516,140.845116663498,36.8187129889736,24.9510685456132" Label="NoChallenge" LabelBounds="1668.03354877703,103.100633808257,68.5566666666664,15.9600000000001" Priority="1" />
+    <Link Source="@61" Target="@22" Bounds="1580.20727443664,191.756185209111,30.0769235651758,24.3385429758475" Label="IsChallenged" LabelBounds="1664.36761401847,171.316368129878,67.9033333333336,15.9600000000001" />
+    <Link Source="@63" Target="@26" Bounds="1434.38945102327,600.508090007928,15.5450647388911,42.8815078192201" Label="CreateDatabasePrompt" LabelBounds="1315.2210253325,611.175608543829,122.933333333335,15.96" Priority="1" />
+    <Link Source="@63" Target="@48" Bounds="1464.92674560547,670.943657312861,21.3506791507591,6.13984630307471" Label="DatabaseLoaded" LabelBounds="1393.86599609109,678.016737465995,88.4199999999998,15.96" Priority="1" />
+    <Link Source="@64" Target="@58" Bounds="1242.83965914631,294.920080984982,28.0744920926018,26.304063736044" Priority="1" />
     <Link Source="@65" Target="(@16 @2 @3 Member=SearchTransactionView)" Category="Contains" />
     <Link Source="@65" Target="@18" Category="Contains" />
     <Link Source="@65" Target="@21" Category="Contains" />
@@ -248,42 +248,42 @@
     <Link Source="@66" Target="@44" Category="Contains" />
     <Link Source="@66" Target="@48" Bounds="1032.50266964306,152.234909956569,215.794973128811,67.6456100508804" Priority="1" />
     <Link Source="@66" Target="@56" Category="Contains" />
-    <Link Source="@66" Target="@65" Bounds="2024.95544433594,83.0207290649414,164.199096679688,838.890098571777" Label="IsAccountSelected" LabelBounds="2083.90462835079,165.272206275435,96.57666666667,15.9599999999996" Priority="1" />
+    <Link Source="@66" Target="@65" Bounds="1820.81469114912,1155.82624408526,62.3378575045026,8.08157044076756" Label="IsAccountSelected" LabelBounds="1770.70608768141,1139.90689040651,96.5766666666696,15.9599999999996" Priority="1" />
     <Link Source="@66" Target="ad0c7473-d65d-4be6-8ee7-f26249fd53c51" Category="Contains" />
     <Link Source="@67" Target="@45" Category="Contains" />
     <Link Source="@67" Target="@57" Category="Contains" />
-    <Link Source="@67" Target="@65" Bounds="1977.57020541349,432.697392689932,117.855560597161,489.457965276465" Label="IsCategorySelected" LabelBounds="2011.95643047744,550.437579992913,101.030000000001,15.96" Priority="1" />
+    <Link Source="@67" Target="@65" Bounds="2072.16124788495,491.856588384395,132.487507709086,282.656960867203" Label="IsCategorySelected" LabelBounds="2140.2159391674,616.376242786241,101.030000000001,15.96" Priority="1" />
     <Link Source="@67" Target="EmptyCategories" Category="Contains" />
     <Link Source="@68" Target="(@16 @2 @3 Member=ViewBudget)" Category="Contains" />
     <Link Source="@68" Target="(@16 @2 @3 Member=ViewExpenses)" Category="Contains" />
     <Link Source="@68" Target="(@16 @2 @3 Member=ViewIncomes)" Category="Contains" />
     <Link Source="@68" Target="(@16 @2 @3 Member=ViewTrends)" Category="Contains" />
     <Link Source="@69" Target="(@16 @2 @3 Member=SelectPayee)" Category="Contains" />
-    <Link Source="@69" Target="@48" Bounds="1740.23669433594,697.635437011719,115.914672851563,67.1090698242188" Priority="1" />
-    <Link Source="@69" Target="@65" Bounds="1958.23292743629,849.054897390914,41.6833985701362,74.0086250998262" Label="IsPayeeSelected" LabelBounds="1980.81723878442,869.117729835235,83.8500000000008,15.9599999999998" Priority="1" />
+    <Link Source="@69" Target="@48" Bounds="1792.74108886719,690.638671875,89.250244140625,2.49151611328125" Priority="1" />
+    <Link Source="@69" Target="@65" Bounds="2004.05017620011,739.856988384395,35.9774582768639,36.4043926668282" Label="IsPayeeSelected" LabelBounds="2023.46143569988,740.693337154558,83.8500000000004,15.96" Priority="1" />
     <Link Source="@70" Target="@59" Category="Contains" />
-    <Link Source="@70" Target="@65" Bounds="1794.04513252303,863.25196559876,64.2557026534128,61.4337973084896" Label="IsSecuritySelected" LabelBounds="1729.78086965701,895.414464598282,95.0099999999998,15.96" Priority="1" />
+    <Link Source="@70" Target="@65" Bounds="2024.32629394531,615.856811523438,109.984985351563,159.398254394531" Label="IsSecuritySelected" LabelBounds="1936.26266977764,629.44563093286,95.0099999999989,15.96" Priority="1" />
     <Link Source="Attachments" Target="@23" Category="Contains" />
     <Link Source="Attachments" Target="@50" Category="Contains" />
     <Link Source="Attachments" Target="@51" Category="Contains" />
     <Link Source="Attachments" Target="@52" Category="Contains" />
     <Link Source="Attachments" Target="@54" Category="Contains" />
     <Link Source="Attachments" Target="@55" Category="Contains" />
-    <Link Source="EditOperation" Target="@18" Bounds="2219.92825784579,1004.03565830852,187.310285419287,246.917630265703" Label="IsEditable" LabelBounds="2246.6163816516,1109.41277976206,50.7399999999998,15.96" />
-    <Link Source="EditOperation" Target="EditSelection" Bounds="2317.50606671214,1276.91328857422,78.7897920589139,49.1933148994926" Label="HasSelectedTransaction" LabelBounds="2357.96018160942,1303.20642926587,124.356666666667,15.96" />
-    <Link Source="EditSelection" Target="@21" Bounds="2178.52103234317,1356.83308837891,84.4386161923326,41.9558617955586" Label="CanTransfer" LabelBounds="2221.63029432852,1379.60210332696,61.9399999999991,15.96" />
-    <Link Source="EditSelection" Target="@32" Bounds="2294.99693358028,1356.83308837891,32.2463766422752,70.7707533610339" />
-    <Link Source="EditSelection" Target="@43" Bounds="2073.40253854907,1298.53515061832,171.540116195134,36.0433981876336" />
-    <Link Source="EmptyCategories" Target="@48" Bounds="1726.7263698923,348.697035730876,254.14480260445,191.654584961677" />
-    <Link Source="EnterPopulate" Target="@20" Bounds="674.919311523438,660.452087402344,145.972534179688,193.373168945313" Label="NoSampleData" LabelBounds="659.207736303355,704.027091947205,79.7533333333326,15.96" Priority="1" />
-    <Link Source="EnterPopulate" Target="@34" Bounds="859.9828783303,660.452087402344,8.71649083625653,38.0635927682417" Label="NoAccountsDownloaded" LabelBounds="870.521552716489,680.573341880841,131.963333333333,15.96" Priority="1" />
-    <Link Source="EnterPopulate" Target="@35" Bounds="917.474609375,658.034057617188,181.007080078125,447.4169921875" Label="AccountsDownloaded" LabelBounds="1000.62103415376,659.769899995041,115.956666666666,15.96" Priority="1" />
+    <Link Source="EditOperation" Target="@18" Bounds="2272.29663085938,1210.79919433594,27.90625,85.000732421875" Label="IsEditable" LabelBounds="2287.94930152531,1223.89121207119,50.7399999999998,15.96" />
+    <Link Source="EditOperation" Target="EditSelection" Bounds="2242.31056810026,1210.79913720833,50.3732595548718,25.8864403354939" Label="HasSelectedTransaction" LabelBounds="2132.78140222842,1210.85720493554,124.356666666667,15.96" />
+    <Link Source="EditSelection" Target="@21" Bounds="2155.73183223857,1216.002357175,34.9965861821552,24.7968630411381" Label="CanTransfer" LabelBounds="2110.13385422594,1230.03267016637,61.9399999999991,15.96" />
+    <Link Source="EditSelection" Target="@32" Bounds="2197.84326171875,1266.75927734375,8.135986328125,85.0006103515625" />
+    <Link Source="EditSelection" Target="@43" Bounds="2211.95909329749,1163.6208081679,17.312200297355,77.1784120482423" />
+    <Link Source="EmptyCategories" Target="@48" Bounds="1771.85162736528,299.622105102539,302.767710778498,234.72008675789" />
+    <Link Source="EnterPopulate" Target="@20" Bounds="1385.20251464844,35.5530586242676,38.570068359375,262.161571502686" Label="NoSampleData" LabelBounds="1301.44920684342,196.04320401122,79.7533333333326,15.96" Priority="1" />
+    <Link Source="EnterPopulate" Target="@34" Bounds="1474.53205076259,273.939029476406,24.8295704764168,23.7756003776609" Label="NoAccountsDownloaded" LabelBounds="1494.5374507582,281.327469814679,131.963333333333,15.96" Priority="1" />
+    <Link Source="EnterPopulate" Target="@35" Bounds="1374.31374673484,308.815962074915,21.0230289813021,1.50376913050843" Label="AccountsDownloaded" LabelBounds="1296.75778585676,313.56785966273,115.956666666666,15.96" Priority="1" />
     <Link Source="ViewReports" Target="(@16 @2 @3 Member=NetWorthReport)" Category="Contains" />
     <Link Source="ViewReports" Target="(@16 @2 @3 Member=PortfolioReport)" Category="Contains" />
     <Link Source="ViewReports" Target="(@16 @2 @3 Member=TaxReport)" Category="Contains" />
     <Link Source="ViewReports" Target="643d6fac-fa74-45b2-8057-28b6b57a0d101" Category="Contains" />
-    <Link Source="ac29eb58-92fc-4e51-947b-f9c643ad086b1" Target="@63" Bounds="1449.34324716852,119.825315429055,19.7193476450059,114.444965866339" Priority="1" />
-    <Link Source="ad0c7473-d65d-4be6-8ee7-f26249fd53c51" Target="@56" Bounds="2033.77880859375,-128.699279785156,0,36.9600067138672" Priority="1" />
+    <Link Source="ac29eb58-92fc-4e51-947b-f9c643ad086b1" Target="@63" Bounds="1398.94613295029,685.028660170899,13.9308286225423,22.3612239966742" Priority="1" />
+    <Link Source="ad0c7473-d65d-4be6-8ee7-f26249fd53c51" Target="@56" Bounds="1519.63273004767,1107.93282041863,18.11523393628,22.937077059707" Priority="1" />
     <Link Source="b3777c7b-fc99-42e3-b97d-6ac094e023831" Target="@60" Bounds="1983.02952898004,1219.32127262432,225.005783964573,222.469174153021" />
   </Links>
   <Categories>
