@@ -1,88 +1,88 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DirectedGraph ImportFrom="file:///C:/temp/set.dgml" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
-    <Node Id="Set.AboutForm" Category="Help" Label="AboutForm" />
-    <Node Id="Set.Board" Category="Model" Label="Board" />
-    <Node Id="Set.BoardData" Category="Model" Label="BoardData" />
-    <Node Id="Set.Card" Category="Model" Label="Card" />
-    <Node Id="Set.CardArray" Category="Model" Label="CardArray" />
-    <Node Id="Set.CardGraphics" Category="Form" Label="CardGraphics" />
-    <Node Id="Set.Deck" Category="Model" Label="Deck" />
-    <Node Id="Set.ErrorLog" Category="Config" Label="ErrorLog" />
-    <Node Id="Set.GameClient" Category="Web" Label="GameClient" />
-    <Node Id="Set.GameListener" Category="Web" Label="GameListener" />
-    <Node Id="Set.GameNetwork" Category="Web" Label="GameNetwork" />
-    <Node Id="Set.GameServer" Category="Web" Label="GameServer" />
-    <Node Id="Set.GameZoneForm" Category="Form" Label="GameZoneForm" />
-    <Node Id="Set.HostForm" Category="Form" Label="HostForm" />
-    <Node Id="Set.IPInfo" Category="Web" Label="IPInfo" />
-    <Node Id="Set.InfiniteProgress" Category="Form" Label="InfiniteProgress" />
-    <Node Id="Set.JoinForm" Category="Form" Label="JoinForm" />
-    <Node Id="Set.Player" Category="Model" Label="Player" />
-    <Node Id="Set.Players" Category="Model" Label="Players" />
-    <Node Id="Set.SetForm" Category="Form" Label="SetForm" />
-    <Node Id="Set.Settings" Category="Config" Label="Settings" />
-    <Node Id="Set.SettingsForm" Category="Form" Label="SettingsForm" />
-    <Node Id="Set.SoapMessage" Category="Web" Label="SoapMessage" />
-    <Node Id="Set.Status" Category="Form" Label="Status" />
-    <Node Id="Set.UDDIHandler" Category="Web" Label="UDDIHandler" />
-    <Node Id="Set.UDDIQuery" Category="Web" Label="UDDIQuery" />
-    <Node Id="Set.WinnerForm" Category="Form" Label="WinnerForm" />
-    <Node Id="Set.XmlMessage" Category="Model" Label="XmlMessage" />
-    <Node Id="setsharp.localhost.SetService" Category="Web" Label="SetService" />
+    <Node Id="Set.AboutForm" Category="Help" Bounds="673.011666666667,92.96,80.08,62.96" Label="AboutForm" />
+    <Node Id="Set.Board" Category="Model" Bounds="883.051666666667,92.96,52,62.96" Label="Board" />
+    <Node Id="Set.BoardData" Category="Model" Bounds="1021.07666666667,185.92,75.95,62.96" Label="BoardData" />
+    <Node Id="Set.Card" Category="Model" Bounds="1033.05166666667,371.84,52,62.96" Label="Card" />
+    <Node Id="Set.CardArray" Category="Model" Bounds="1022.66333333333,278.88,72.7766666666666,62.96" Label="CardArray" />
+    <Node Id="Set.CardGraphics" Category="Form" Bounds="1013.71333333333,464.8,90.6766666666667,62.96" Label="CardGraphics" />
+    <Node Id="Set.Deck" Category="Model" Bounds="1126.05166666667,278.88,52,62.96" Label="Deck" />
+    <Node Id="Set.ErrorLog" Category="Config" Bounds="348.368333333333,464.8,65.3666666666667,62.96" Label="ErrorLog" />
+    <Node Id="Set.GameClient" Category="Web" Bounds="705.386666666667,185.92,81.33,62.96" Label="GameClient" />
+    <Node Id="Set.GameListener" Category="Web" Bounds="411.958333333333,371.84,92.1866666666667,62.96" Label="GameListener" />
+    <Node Id="Set.GameNetwork" Category="Web" Bounds="332.995,278.88,96.1133333333333,62.96" Label="GameNetwork" />
+    <Node Id="Set.GameServer" Category="Web" Bounds="495.065,185.92,83.9733333333334,62.96" Label="GameServer" />
+    <Node Id="Set.GameZoneForm" Category="Form" Bounds="103.405,92.9600000000001,105.293333333333,62.96" Label="GameZoneForm" />
+    <Node Id="Set.HostForm" Category="Form" Bounds="538.996666666667,92.9600000000001,72.11,62.96" Label="HostForm" />
+    <Node Id="Set.IPInfo" Category="Web" Bounds="573.051666666667,464.8,52,62.96" Label="IPInfo" />
+    <Node Id="Set.InfiniteProgress" Category="Form" Bounds="186.895,185.92,102.313333333333,62.96" Label="InfiniteProgress" />
+    <Node Id="Set.JoinForm" Category="Form" Bounds="783.846666666667,92.96,68.41,62.96" Label="JoinForm" />
+    <Node Id="Set.Player" Category="Model" Bounds="938.051666666667,371.84,52,62.96" Label="Player" />
+    <Node Id="Set.Players" Category="Model" Bounds="935.51,278.88,57.0833333333334,62.96" Label="Players" />
+    <Node Id="Set.SetForm" Category="Form" Bounds="475.993333333333,3.5527136788005E-15,64.1166666666667,62.96" Label="SetForm" />
+    <Node Id="Set.Settings" Category="Config" Bounds="370.731666666667,185.92,62.64,62.96" Label="Settings" />
+    <Node Id="Set.SettingsForm" Category="Form" Bounds="387.031666666667,92.9600000000001,90.04,62.96" Label="SettingsForm" />
+    <Node Id="Set.SoapMessage" Category="Web" Bounds="120.425,278.88,93.2533333333333,62.96" Label="SoapMessage" />
+    <Node Id="Set.Status" Category="Form" Bounds="880.996666666667,185.92,52.11,62.96" Label="Status" />
+    <Node Id="Set.UDDIHandler" Category="Web" Bounds="0,278.88,90.1033333333333,62.96" Label="UDDIHandler" />
+    <Node Id="Set.UDDIQuery" Category="Web" Bounds="44.8733333333335,185.92,80.3566666666667,62.96" Label="UDDIQuery" />
+    <Node Id="Set.WinnerForm" Category="Form" Bounds="271.278333333333,92.9600000000001,85.5466666666667,62.96" Label="WinnerForm" />
+    <Node Id="Set.XmlMessage" Category="Model" Bounds="630.546666666667,371.84,87.01,62.96" Label="XmlMessage" />
+    <Node Id="setsharp.localhost.SetService" Category="Web" Bounds="276.045,371.84,74.0133333333333,62.96" Label="SetService" />
   </Nodes>
   <Links>
-    <Link Source="Set.Board" Target="Set.Players" Category="Method: .ctor, argument: players&#xD;&#xA;Method: get_Players&#xD;&#xA;Property: Players" />
-    <Link Source="Set.Board" Target="Set.Status" Category="Method: .ctor, argument: status" />
-    <Link Source="Set.Board" Target="Set.XmlMessage" Category="Method: ValidateMove, argument: msg" />
-    <Link Source="Set.BoardData" Target="Set.CardArray" Category="Field: hand" />
-    <Link Source="Set.BoardData" Target="Set.Deck" Category="Field: deck" />
-    <Link Source="Set.BoardData" Target="Set.Players" Category="Field: players" />
-    <Link Source="Set.Card" Target="Set.CardGraphics" />
-    <Link Source="Set.CardArray" Target="Set.Card" Category="Method: get_Item&#xD;&#xA;Method: set_Item, argument: value&#xD;&#xA;Property: Item" />
-    <Link Source="Set.Deck" Target="Set.Card" Category="Method: Next&#xD;&#xA;Method: get_Item&#xD;&#xA;Method: Find&#xD;&#xA;Property: Item" />
-    <Link Source="Set.GameClient" Target="Set.GameNetwork" Category="Inherits" />
-    <Link Source="Set.GameClient" Target="Set.IPInfo" Category="Method: AddClient, argument: client&#xD;&#xA;Method: Join, argument: host&#xD;&#xA;Method: SetHost, argument: host&#xD;&#xA;Method: SetTimeDelta, argument: toaddr" />
-    <Link Source="Set.GameClient" Target="Set.XmlMessage" Category="Method: HandleMessage, argument: msg&#xD;&#xA;Method: SendMessage, argument: msg" />
-    <Link Source="Set.GameListener" Target="Set.ErrorLog" />
-    <Link Source="Set.GameListener" Target="Set.IPInfo" Category="Field: local" />
-    <Link Source="Set.GameNetwork" Target="Set.ErrorLog" />
-    <Link Source="Set.GameNetwork" Target="Set.GameListener" Category="Field: udpListener&#xD;&#xA;Method: .ctor, argument: net" />
-    <Link Source="Set.GameNetwork" Target="Set.IPInfo" Category="Field: local&#xD;&#xA;Array&#xD;&#xA;Method: SetHost, argument: host&#xD;&#xA;Method: AddClient, argument: client&#xD;&#xA;Method: SetTimeDelta, argument: toaddr&#xD;&#xA;Method: SendMsg, argument: toaddr" />
-    <Link Source="Set.GameNetwork" Target="Set.XmlMessage" Category="Method: HandleMessage, argument: msg&#xD;&#xA;Method: SendMessage, argument: msg&#xD;&#xA;Method: SendMsg, argument: msg&#xD;&#xA;Method: TimeStamp, argument: msg&#xD;&#xA;Method: FireEvent, argument: msg" />
-    <Link Source="Set.GameNetwork" Target="setsharp.localhost.SetService" Category="Field: service" />
-    <Link Source="Set.GameServer" Target="Set.ErrorLog" />
-    <Link Source="Set.GameServer" Target="Set.GameNetwork" Category="Inherits" />
-    <Link Source="Set.GameServer" Target="Set.IPInfo" Category="Method: SetHost, argument: host&#xD;&#xA;Method: AddClient, argument: client&#xD;&#xA;Method: SetTimeDelta, argument: toaddr" />
-    <Link Source="Set.GameServer" Target="Set.XmlMessage" Category="Method: HandleMessage, argument: msg&#xD;&#xA;Method: SendMessage, argument: msg" />
-    <Link Source="Set.GameZoneForm" Target="Set.GameNetwork" Category="Method: .ctor, argument: net" />
-    <Link Source="Set.GameZoneForm" Target="Set.InfiniteProgress" />
-    <Link Source="Set.GameZoneForm" Target="Set.Settings" Category="Method: .ctor, argument: settings" />
-    <Link Source="Set.GameZoneForm" Target="Set.UDDIQuery" Category="Calls" />
-    <Link Source="Set.HostForm" Target="Set.GameNetwork" Category="Method: .ctor, argument: net" />
-    <Link Source="Set.HostForm" Target="Set.IPInfo" Category="Method: get_NetworkAdaptor&#xD;&#xA;Property: NetworkAdaptor" />
-    <Link Source="Set.HostForm" Target="Set.Settings" Category="Method: .ctor, argument: settings" />
-    <Link Source="Set.JoinForm" Target="Set.GameClient" Category="Method: .ctor, argument: net" />
-    <Link Source="Set.JoinForm" Target="Set.IPInfo" Category="Method: get_SelectedHost&#xD;&#xA;Property: SelectedHost" />
-    <Link Source="Set.JoinForm" Target="Set.Settings" Category="Method: .ctor, argument: settings" />
-    <Link Source="Set.JoinForm" Target="Set.Status" Category="Method: .ctor, argument: status" />
-    <Link Source="Set.JoinForm" Target="Set.XmlMessage" Category="Method: AddHost, argument: m" />
-    <Link Source="Set.Players" Target="Set.Player" />
-    <Link Source="Set.SetForm" Target="Set.AboutForm" />
-    <Link Source="Set.SetForm" Target="Set.Board" Category="Method: get_Board&#xD;&#xA;Property: Board" />
-    <Link Source="Set.SetForm" Target="Set.GameNetwork" Category="Method: get_Network&#xD;&#xA;Property: Network" />
-    <Link Source="Set.SetForm" Target="Set.GameZoneForm" />
-    <Link Source="Set.SetForm" Target="Set.HostForm" />
-    <Link Source="Set.SetForm" Target="Set.JoinForm" />
-    <Link Source="Set.SetForm" Target="Set.SettingsForm" />
-    <Link Source="Set.SetForm" Target="Set.WinnerForm" />
-    <Link Source="Set.SetForm" Target="Set.XmlMessage" Category="Method: HandleXmlMessage, argument: msg" />
-    <Link Source="Set.Settings" Target="Set.SetForm" Category="Method: .ctor, argument: frm" />
-    <Link Source="Set.SettingsForm" Target="Set.Settings" Category="Method: .ctor, argument: settings" />
-    <Link Source="Set.Status" Target="Set.Players" Category="Method: .ctor, argument: players&#xD;&#xA;Method: get_Players&#xD;&#xA;Method: set_Players, argument: value&#xD;&#xA;Property: Players" />
-    <Link Source="Set.UDDIQuery" Target="Set.SoapMessage" Category="Calls" />
-    <Link Source="Set.UDDIQuery" Target="Set.UDDIHandler" Category="Method: add_UDDIResult, argument: value&#xD;&#xA;Method: remove_UDDIResult, argument: value" />
-    <Link Source="Set.XmlMessage" Target="Set.IPInfo" Category="Field: from&#xD;&#xA;Field: to&#xD;&#xA;Method: .ctor, argument: from&#xD;&#xA;Method: .ctor, argument: to" />
+    <Link Source="Set.Board" Target="Set.Players" Category="Method: .ctor, argument: players&#xD;&#xA;Method: get_Players&#xD;&#xA;Property: Players" Bounds="927.676879882813,155.919998168945,36.3748168945313,113.960006713867" />
+    <Link Source="Set.Board" Target="Set.Status" Category="Method: .ctor, argument: status" Bounds="907.922546386719,155.919998168945,0.45184326171875,21.0020904541016" />
+    <Link Source="Set.Board" Target="Set.XmlMessage" Category="Method: ValidateMove, argument: msg" Bounds="718.904724121094,155.919998168945,170.167175292969,210.171981811523" />
+    <Link Source="Set.BoardData" Target="Set.CardArray" Category="Field: hand" Bounds="1059.05163574219,248.880004882813,0,21" />
+    <Link Source="Set.BoardData" Target="Set.Deck" Category="Field: deck" Bounds="1090.54516601563,248.880004882813,29.14111328125,29.1286010742188" />
+    <Link Source="Set.BoardData" Target="Set.Players" Category="Field: players" Bounds="999.026000976563,248.880004882813,27.8548583984375,27.2567138671875" />
+    <Link Source="Set.Card" Target="Set.CardGraphics" Bounds="1059.05163574219,434.799987792969,0,21" />
+    <Link Source="Set.CardArray" Target="Set.Card" Category="Method: get_Item&#xD;&#xA;Method: set_Item, argument: value&#xD;&#xA;Property: Item" Bounds="1059.05163574219,341.839996337891,0,21" />
+    <Link Source="Set.Deck" Target="Set.Card" Category="Method: Next&#xD;&#xA;Method: get_Item&#xD;&#xA;Method: Find&#xD;&#xA;Property: Item" Bounds="1091.4169921875,336.348815917969,34.6346435546875,34.6197814941406" />
+    <Link Source="Set.GameClient" Target="Set.GameNetwork" Category="Inherits" Bounds="437.902313232422,243.252319335938,267.484344482422,54.7295837402344" />
+    <Link Source="Set.GameClient" Target="Set.IPInfo" Category="Method: AddClient, argument: client&#xD;&#xA;Method: Join, argument: host&#xD;&#xA;Method: SetHost, argument: host&#xD;&#xA;Method: SetTimeDelta, argument: toaddr" Bounds="633.3720703125,248.880004882813,115.679626464844,233.248199462891" />
+    <Link Source="Set.GameClient" Target="Set.XmlMessage" Category="Method: HandleMessage, argument: msg&#xD;&#xA;Method: SendMessage, argument: msg" Bounds="689.492858886719,248.880004882813,44.3677368164063,114.567352294922" />
+    <Link Source="Set.GameListener" Target="Set.ErrorLog" Bounds="412.868072509766,434.799987792969,19.1083068847656,23.0689392089844" />
+    <Link Source="Set.GameListener" Target="Set.IPInfo" Category="Field: local" Bounds="503.680877685547,433.402923583984,61.8568420410156,40.7816467285156" />
+    <Link Source="Set.GameNetwork" Target="Set.ErrorLog" Bounds="381.051666259766,341.839996337891,0,113.959991455078" />
+    <Link Source="Set.GameNetwork" Target="Set.GameListener" Category="Field: udpListener&#xD;&#xA;Method: .ctor, argument: net" Bounds="407.126953125,341.839996337891,19.1083068847656,23.0689392089844" />
+    <Link Source="Set.GameNetwork" Target="Set.IPInfo" Category="Field: local&#xD;&#xA;Array&#xD;&#xA;Method: SetHost, argument: host&#xD;&#xA;Method: AddClient, argument: client&#xD;&#xA;Method: SetTimeDelta, argument: toaddr&#xD;&#xA;Method: SendMsg, argument: toaddr" Bounds="429.108337402344,329.152374267578,144.567321777344,128.102478027344" />
+    <Link Source="Set.GameNetwork" Target="Set.XmlMessage" Category="Method: HandleMessage, argument: msg&#xD;&#xA;Method: SendMessage, argument: msg&#xD;&#xA;Method: SendMsg, argument: msg&#xD;&#xA;Method: TimeStamp, argument: msg&#xD;&#xA;Method: FireEvent, argument: msg" Bounds="429.108337402344,322.192108154297,193.200134277344,54.5309143066406" />
+    <Link Source="Set.GameNetwork" Target="setsharp.localhost.SetService" Category="Field: service" Bounds="341.392791748047,341.839996337891,16.63134765625,22.7359924316406" />
+    <Link Source="Set.GameServer" Target="Set.ErrorLog" Bounds="254.615478515625,240.536422729492,240.449523925781,236.206893920898" />
+    <Link Source="Set.GameServer" Target="Set.GameNetwork" Category="Inherits" Bounds="436.835754394531,242.41975402832,58.229248046875,34.6986541748047" />
+    <Link Source="Set.GameServer" Target="Set.IPInfo" Category="Method: SetHost, argument: host&#xD;&#xA;Method: AddClient, argument: client&#xD;&#xA;Method: SetTimeDelta, argument: toaddr" Bounds="540.099426269531,248.880004882813,45.1863403320313,207.410095214844" />
+    <Link Source="Set.GameServer" Target="Set.XmlMessage" Category="Method: HandleMessage, argument: msg&#xD;&#xA;Method: SendMessage, argument: msg" Bounds="550.935913085938,248.880004882813,84.1408081054688,116.69921875" />
+    <Link Source="Set.GameZoneForm" Target="Set.GameNetwork" Category="Method: .ctor, argument: net" Bounds="156.051666259766,155.919998168945,168.2548828125,139.108261108398" />
+    <Link Source="Set.GameZoneForm" Target="Set.InfiniteProgress" Bounds="183.820175170898,155.919998168945,20.5093536376953,23.2506103515625" />
+    <Link Source="Set.GameZoneForm" Target="Set.Settings" Category="Method: .ctor, argument: settings" Bounds="208.698333740234,144.658386230469,153.661773681641,57.0763244628906" />
+    <Link Source="Set.GameZoneForm" Target="Set.UDDIQuery" Category="Calls" Bounds="114.557952880859,155.919998168945,17.4502563476563,22.8475494384766" />
+    <Link Source="Set.HostForm" Target="Set.GameNetwork" Category="Method: .ctor, argument: net" Bounds="415.152954101563,148.854782104492,123.843688964844,123.311782836914" />
+    <Link Source="Set.HostForm" Target="Set.IPInfo" Category="Method: get_NetworkAdaptor&#xD;&#xA;Property: NetworkAdaptor" Bounds="586.904052734375,155.919998168945,18.9628295898438,299.887008666992" />
+    <Link Source="Set.HostForm" Target="Set.Settings" Category="Method: .ctor, argument: settings" Bounds="441.299621582031,143.813827514648,97.697021484375,52.4966430664063" />
+    <Link Source="Set.JoinForm" Target="Set.GameClient" Category="Method: .ctor, argument: net" Bounds="775.94482421875,155.919998168945,17.7247314453125,22.8846435546875" />
+    <Link Source="Set.JoinForm" Target="Set.IPInfo" Category="Method: get_SelectedHost&#xD;&#xA;Property: SelectedHost" Bounds="633.428833007813,155.919998168945,184.622863769531,326.859481811523" />
+    <Link Source="Set.JoinForm" Target="Set.Settings" Category="Method: .ctor, argument: settings" Bounds="440.950714111328,146.191543579102,342.895965576172,46.1335144042969" />
+    <Link Source="Set.JoinForm" Target="Set.Status" Category="Method: .ctor, argument: status" Bounds="848.190673828125,155.919998168945,26.58203125,27.7647857666016" />
+    <Link Source="Set.JoinForm" Target="Set.XmlMessage" Category="Method: AddHost, argument: m" Bounds="678.464660644531,143.935989379883,105.382019042969,218.957168579102" />
+    <Link Source="Set.Players" Target="Set.Player" Bounds="964.051696777344,341.839996337891,0,21" />
+    <Link Source="Set.SetForm" Target="Set.AboutForm" Bounds="540.109985351563,46.0172805786133,124.705017089844,56.5491714477539" />
+    <Link Source="Set.SetForm" Target="Set.Board" Category="Method: get_Board&#xD;&#xA;Property: Board" Bounds="540.109985351563,36.3837432861328,335.678283691406,63.7184295654297" />
+    <Link Source="Set.SetForm" Target="Set.GameNetwork" Category="Method: get_Network&#xD;&#xA;Property: Network" Bounds="250.31884765625,38.623966217041,225.674499511719,232.731410980225" />
+    <Link Source="Set.SetForm" Target="Set.GameZoneForm" Bounds="217.123474121094,37.7141990661621,258.869873046875,58.1086921691895" />
+    <Link Source="Set.SetForm" Target="Set.HostForm" Bounds="530.740539550781,62.9599990844727,16.3599243164063,22.6987533569336" />
+    <Link Source="Set.SetForm" Target="Set.JoinForm" Bounds="540.109985351563,37.7147102355957,235.873107910156,57.5684547424316" />
+    <Link Source="Set.SetForm" Target="Set.SettingsForm" Bounds="463.48486328125,62.9599990844727,18.8301391601563,23.0322494506836" />
+    <Link Source="Set.SetForm" Target="Set.WinnerForm" Bounds="364.941314697266,46.8415603637695,111.052032470703,53.21337890625" />
+    <Link Source="Set.SetForm" Target="Set.XmlMessage" Category="Method: HandleXmlMessage, argument: msg" Bounds="540.109985351563,47.1942939758301,126.750610351563,315.785381317139" />
+    <Link Source="Set.Settings" Target="Set.SetForm" Category="Method: .ctor, argument: frm" Bounds="433.371673583984,71.9599990844727,74.6799926757813,122.42652130127" />
+    <Link Source="Set.SettingsForm" Target="Set.Settings" Category="Method: .ctor, argument: settings" Bounds="414.974975585938,155.919998168945,6.91748046875,21.4349670410156" />
+    <Link Source="Set.Status" Target="Set.Players" Category="Method: .ctor, argument: players&#xD;&#xA;Method: get_Players&#xD;&#xA;Method: set_Players, argument: value&#xD;&#xA;Property: Players" Bounds="926.354187011719,248.880004882813,13.6904296875,22.3274841308594" />
+    <Link Source="Set.UDDIQuery" Target="Set.SoapMessage" Category="Calls" Bounds="112.820167541504,248.880004882813,20.5093612670898,23.2506103515625" />
+    <Link Source="Set.UDDIQuery" Target="Set.UDDIHandler" Category="Method: add_UDDIResult, argument: value&#xD;&#xA;Method: remove_UDDIResult, argument: value" Bounds="62.1545677185059,248.880004882813,9.35149002075195,21.7328491210938" />
+    <Link Source="Set.XmlMessage" Target="Set.IPInfo" Category="Field: from&#xD;&#xA;Field: to&#xD;&#xA;Method: .ctor, argument: from&#xD;&#xA;Method: .ctor, argument: to" Bounds="629.573059082031,434.799987792969,19.08056640625,23.6497497558594" />
   </Links>
   <Categories>
     <Category Id="Calls" Label="Calls" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Called by" IsContainment="True" OutgoingActionLabel="Calls" />
@@ -104,61 +104,75 @@
     <Category Id="Method: .ctor, argument: players&#xD;&#xA;Method: get_Players&#xD;&#xA;Property: Players" />
     <Category Id="Method: .ctor, argument: settings" />
     <Category Id="Method: .ctor, argument: status" />
-    <Category Id="Method: add_UDDIResult, argument: value&#xD;&#xA;Method: remove_UDDIResult, argument: value" />
     <Category Id="Method: AddClient, argument: client&#xD;&#xA;Method: Join, argument: host&#xD;&#xA;Method: SetHost, argument: host&#xD;&#xA;Method: SetTimeDelta, argument: toaddr" />
     <Category Id="Method: AddHost, argument: m" />
-    <Category Id="Method: get_Board&#xD;&#xA;Property: Board" />
-    <Category Id="Method: get_Item&#xD;&#xA;Method: set_Item, argument: value&#xD;&#xA;Property: Item" />
-    <Category Id="Method: get_Network&#xD;&#xA;Property: Network" />
-    <Category Id="Method: get_NetworkAdaptor&#xD;&#xA;Property: NetworkAdaptor" />
-    <Category Id="Method: get_SelectedHost&#xD;&#xA;Property: SelectedHost" />
     <Category Id="Method: HandleMessage, argument: msg&#xD;&#xA;Method: SendMessage, argument: msg" />
     <Category Id="Method: HandleMessage, argument: msg&#xD;&#xA;Method: SendMessage, argument: msg&#xD;&#xA;Method: SendMsg, argument: msg&#xD;&#xA;Method: TimeStamp, argument: msg&#xD;&#xA;Method: FireEvent, argument: msg" />
     <Category Id="Method: HandleXmlMessage, argument: msg" />
     <Category Id="Method: Next&#xD;&#xA;Method: get_Item&#xD;&#xA;Method: Find&#xD;&#xA;Property: Item" />
     <Category Id="Method: SetHost, argument: host&#xD;&#xA;Method: AddClient, argument: client&#xD;&#xA;Method: SetTimeDelta, argument: toaddr" />
     <Category Id="Method: ValidateMove, argument: msg" />
+    <Category Id="Method: add_UDDIResult, argument: value&#xD;&#xA;Method: remove_UDDIResult, argument: value" />
+    <Category Id="Method: get_Board&#xD;&#xA;Property: Board" />
+    <Category Id="Method: get_Item&#xD;&#xA;Method: set_Item, argument: value&#xD;&#xA;Property: Item" />
+    <Category Id="Method: get_Network&#xD;&#xA;Property: Network" />
+    <Category Id="Method: get_NetworkAdaptor&#xD;&#xA;Property: NetworkAdaptor" />
+    <Category Id="Method: get_SelectedHost&#xD;&#xA;Property: SelectedHost" />
     <Category Id="Model" />
     <Category Id="Web" />
   </Categories>
   <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
     <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
     <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GroupLabel" DataType="System.String" />
     <Property Id="ImportFrom" DataType="System.String" />
     <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
     <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
     <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
     <Property Id="Layout" DataType="System.String" />
     <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
   </Properties>
   <Styles>
     <Style TargetType="Node" GroupLabel="Web" ValueLabel="Has category">
       <Condition Expression="HasCategory('Web')" />
       <Setter Property="Icon" Value="../Icons/Web.png" />
       <Setter Property="Shape" Value="None" />
+      <Setter Property="IconPlacement" Value="Top" />
     </Style>
     <Style TargetType="Node" GroupLabel="Model" ValueLabel="Has category">
       <Condition Expression="HasCategory('Model')" />
       <Setter Property="Icon" Value="../Icons/model.png" />
       <Setter Property="Shape" Value="None" />
+      <Setter Property="IconPlacement" Value="Top" />
     </Style>
     <Style TargetType="Node" GroupLabel="Help" ValueLabel="Has category">
       <Condition Expression="HasCategory('Help')" />
       <Setter Property="Icon" Value="../Icons/Help.png" />
       <Setter Property="Shape" Value="None" />
+      <Setter Property="IconPlacement" Value="Top" />
     </Style>
     <Style TargetType="Node" GroupLabel="Form" ValueLabel="Has category">
       <Condition Expression="HasCategory('Form')" />
       <Setter Property="Icon" Value="../Icons/winform.png" />
       <Setter Property="Shape" Value="None" />
+      <Setter Property="IconPlacement" Value="Top" />
     </Style>
     <Style TargetType="Node" GroupLabel="Config" ValueLabel="Has category">
       <Condition Expression="HasCategory('Config')" />
       <Setter Property="Icon" Value="../Icons/settings.png" />
       <Setter Property="Shape" Value="None" />
+      <Setter Property="IconPlacement" Value="Top" />
     </Style>
     <Style TargetType="Node">
       <Setter Property="HorizontalAlignment" Value="Center" />
+      <Setter Property="Shape" Value="None" />
+      <Setter Property="IconPlacement" Value="Top" />
     </Style>
   </Styles>
 </DirectedGraph>

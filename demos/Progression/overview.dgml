@@ -1,75 +1,75 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DirectedGraph Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+<DirectedGraph Layout="ForceDirected" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
-    <Node Id="ActionManager" Category="Model" Label="ActionManager" />
-    <Node Id="AdvancedSelector" Category="Styles" Label="Advanced Selector" />
-    <Node Id="Automation" Category="Test" Label="Automation" />
-    <Node Id="AutomationPeer" Category="Test" Label="AutomationPeer" />
+    <Node Id="ActionManager" Category="Model" Bounds="1250.87666666667,221.0625,138.373333333333,42" Label="ActionManager" />
+    <Node Id="AdvancedSelector" Category="Styles" Bounds="521.428333333333,294.75,155.27,42" Label="Advanced Selector" />
+    <Node Id="Automation" Category="Test" Bounds="1234.13166666667,73.6875,119.863333333333,42" Label="Automation" />
+    <Node Id="AutomationPeer" Category="Test" Bounds="347.63,294.75,142.866666666667,42" Label="AutomationPeer" />
     <Node Id="C# Provider" Category="Provider" Label="C# Provider" />
-    <Node Id="CascadeBrowser" Category="UI" Label="CascadeBrowser" />
+    <Node Id="CascadeBrowser" Category="UI" Bounds="1048.60166666667,147.375,142.923333333333,42" Label="CascadeBrowser" />
     <Node Id="CircularAnalyzer" Category="Analyzer" Label="Circular Analyzer" />
-    <Node Id="Commands" Category="Test" Label="Commands" />
+    <Node Id="Commands" Category="Test" Bounds="997.468333333333,1.13686837721616E-13,117.19,42" Label="Commands" />
     <Node Id="DSL Provider" Category="Provider" Label="DSL Provider" />
     <Node Id="DependencyMatrixLayout" Category="Layout" Label="DependencyMatrixLayout" />
-    <Node Id="Explorer" Category="VS" Label="Architecture Explorer" />
-    <Node Id="Gestures" Category="UI" Label="Gestures" />
-    <Node Id="GraphCommandLine" Category="Console" Label="GraphCommandLine" />
-    <Node Id="GraphControl" Category="UI" Label="GraphControl" />
-    <Node Id="GraphDocument" Category="VS" Label="GraphDocument" />
-    <Node Id="GraphDocumentWindowPane" Category="VS" Label="GraphDocumentWindowPane" />
-    <Node Id="GraphModel" Category="Model" Label="GraphModel" />
+    <Node Id="Explorer" Category="VS" Bounds="1036.15166666667,73.6875,167.823333333333,42" Label="Architecture Explorer" />
+    <Node Id="Gestures" Category="UI" Bounds="1023.56166666667,294.75,103.003333333333,42" Label="Gestures" />
+    <Node Id="GraphCommandLine" Category="Console" Bounds="1384.025,73.6875,166.076666666667,42" Label="GraphCommandLine" />
+    <Node Id="GraphControl" Category="UI" Bounds="534.671666666667,221.0625,128.783333333333,42" Label="GraphControl" />
+    <Node Id="GraphDocument" Category="VS" Bounds="826.761666666666,147.375,144.603333333333,42" Label="GraphDocument" />
+    <Node Id="GraphDocumentWindowPane" Category="VS" Bounds="792.181666666667,73.6875000000001,213.763333333333,42" Label="GraphDocumentWindowPane" />
+    <Node Id="GraphModel" Category="Model" Bounds="1096.35666666667,368.4375,123.413333333333,42" Label="GraphModel" />
     <Node Id="HubAnalyzer" Category="Analyzer" Label="Hub Analyzer" />
-    <Node Id="IGraphLayout" Category="Group" Group="Collapsed" Label="IGraphLayout" />
-    <Node Id="IProvider" Category="Group" Group="Collapsed" Label="IProvider" />
-    <Node Id="IProvider(Analyzer)" Category="Group" Group="Collapsed" Label="IProvider (Analyzer)" />
+    <Node Id="IGraphLayout" Category="Group" Bounds="881.563333333333,303.25,111,25" Group="Collapsed" Label="IGraphLayout" />
+    <Node Id="IProvider" Category="Group" Bounds="1376.42,303.25,87.2866666666669,25" Group="Collapsed" Label="IProvider" />
+    <Node Id="IProvider(Analyzer)" Category="Group" Bounds="707.543333333333,303.25,143.04,25" Group="Collapsed" Label="IProvider (Analyzer)" />
     <Node Id="LMR Provider" Category="Provider" Label="LMR Provider" />
-    <Node Id="Legend" Category="Styles" Label="Legend" />
+    <Node Id="Legend" Category="Styles" Bounds="0,294.75,96.1266666666667,42" Label="Legend" />
     <Node Id="MSAGL" Category="Layout" Label="SugiyamaLayout" />
     <Node Id="MSBuild Provider" Category="Provider" Label="MSBuild Provider" />
     <Node Id="MdsLayout" Category="Layout" Label="MdsLayout" />
-    <Node Id="ProgressionPackage" Category="VS" Label="ProgressionPackage" />
-    <Node Id="QueryManager" Category="Query" Label="QueryManager" />
+    <Node Id="ProgressionPackage" Category="VS" Bounds="1144.7,0,162.726666666667,42" Label="ProgressionPackage" />
+    <Node Id="QueryManager" Category="Query" Bounds="1252.86833333333,147.375,136.39,42" Label="QueryManager" />
     <Node Id="StackLayout" Category="Layout" Label="StackLayout" />
-    <Node Id="StyleSet" Category="Styles" Label="StyleSet" />
+    <Node Id="StyleSet" Category="Styles" Bounds="77.6833333333332,368.4375,98.76,42" Label="StyleSet" />
     <Node Id="TFS Provider" Category="Provider" Label="TFS Provider" />
     <Node Id="UnreferencedAnalyzer" Category="Analyzer" Label="Unreferenced Analyzer" />
     <Node Id="UnusedAnalyzer" Category="Analyzer" Label="Unused Analyzer" />
     <Node Id="VB Provider" Category="Provider" Label="VB Provider" />
     <Node Id="VS Provider" Category="Provider" Label="VS Provider" />
-    <Node Id="VirtualCanvas" Category="UI" Label="VirtualCanvas" />
-    <Node Id="XmlEditor" Category="VS" Label="XmlEditor" />
+    <Node Id="VirtualCanvas" Category="UI" Bounds="157.725,294.75,128.676666666667,42" Label="VirtualCanvas" />
+    <Node Id="XmlEditor" Category="VS" Bounds="844.746666666667,221.0625,108.633333333333,42" Label="XmlEditor" />
   </Nodes>
   <Links>
-    <Link Source="ActionManager" Target="GraphModel" />
-    <Link Source="ActionManager" Target="IProvider" />
+    <Link Source="ActionManager" Target="GraphModel" Bounds="1174.73254394531,263.0625,89.9691162109375,97.58642578125" />
+    <Link Source="ActionManager" Target="IProvider" Bounds="1348.56201171875,263.0625,47.2923583984375,34.8485412597656" />
     <Link Source="C# Provider" Target="GraphModel" />
     <Link Source="CircularAnalyzer" Target="GraphModel" />
-    <Link Source="Commands" Target="Explorer" />
-    <Link Source="Commands" Target="GraphDocumentWindowPane" />
+    <Link Source="Commands" Target="Explorer" Bounds="1077.41040039063,42,22.0350341796875,24.5532608032227" />
+    <Link Source="Commands" Target="GraphDocumentWindowPane" Bounds="951.95361328125,42,59.36669921875,27.8636093139648" />
     <Link Source="DSL Provider" Target="GraphModel" />
     <Link Source="DependencyMatrixLayout" Target="GraphModel" />
-    <Link Source="Explorer" Target="ActionManager" />
-    <Link Source="Explorer" Target="CascadeBrowser" />
-    <Link Source="Explorer" Target="GraphModel" />
-    <Link Source="Explorer" Target="IProvider" />
-    <Link Source="Explorer" Target="QueryManager" />
-    <Link Source="GraphCommandLine" Target="ActionManager" />
-    <Link Source="GraphCommandLine" Target="IProvider" />
-    <Link Source="GraphCommandLine" Target="QueryManager" />
-    <Link Source="GraphControl" Target="AdvancedSelector" />
-    <Link Source="GraphControl" Target="AutomationPeer" />
-    <Link Source="GraphControl" Target="Gestures" />
-    <Link Source="GraphControl" Target="GraphModel" />
-    <Link Source="GraphControl" Target="IGraphLayout" />
-    <Link Source="GraphControl" Target="IProvider(Analyzer)" />
-    <Link Source="GraphControl" Target="Legend" />
-    <Link Source="GraphControl" Target="StyleSet" />
-    <Link Source="GraphControl" Target="VirtualCanvas" />
-    <Link Source="GraphDocument" Target="GraphControl" />
-    <Link Source="GraphDocument" Target="GraphModel" />
-    <Link Source="GraphDocument" Target="XmlEditor" />
-    <Link Source="GraphDocumentWindowPane" Target="GraphControl" />
-    <Link Source="GraphDocumentWindowPane" Target="GraphDocument" />
+    <Link Source="Explorer" Target="ActionManager" Bounds="1177.73352050781,115.6875,78.7862548828125,101.525177001953" />
+    <Link Source="Explorer" Target="CascadeBrowser" Bounds="1120.06335449219,115.6875,0,22.6875" />
+    <Link Source="Explorer" Target="GraphModel" Bounds="1028.71899414063,115.6875,148.235961914063,244.105010986328" />
+    <Link Source="Explorer" Target="IProvider" Bounds="1203.17517089844,114.726982116699,213.176513671875,179.655799865723" />
+    <Link Source="Explorer" Target="QueryManager" Bounds="1196.27587890625,115.6875,78.351318359375,27.7313537597656" />
+    <Link Source="GraphCommandLine" Target="ActionManager" Bounds="1397.52697753906,115.6875,66.6865234375,104.318176269531" />
+    <Link Source="GraphCommandLine" Target="IProvider" Bounds="1449.57653808594,115.6875,34.48681640625,183.072265625" />
+    <Link Source="GraphCommandLine" Target="QueryManager" Bounds="1385.73107910156,115.6875,54.4161376953125,28.3733215332031" />
+    <Link Source="GraphControl" Target="AdvancedSelector" Bounds="599.063354492188,263.0625,0,22.6875" />
+    <Link Source="GraphControl" Target="AutomationPeer" Bounds="478.690124511719,263.0625,69.0755004882813,28.2777709960938" />
+    <Link Source="GraphControl" Target="Gestures" Bounds="663.455017089844,251.771636962891,351.225036621094,53.6070556640625" />
+    <Link Source="GraphControl" Target="GraphModel" Bounds="317.063323974609,250.475372314453,770.301910400391,135.864898681641" />
+    <Link Source="GraphControl" Target="IGraphLayout" Bounds="663.455017089844,256.100555419922,211.489807128906,46.1069641113281" />
+    <Link Source="GraphControl" Target="IProvider(Analyzer)" Bounds="650.361022949219,263.0625,89.8388671875,36.7777709960938" />
+    <Link Source="GraphControl" Target="Legend" Bounds="84.4008712768555,246.76969909668,450.270820617676,44.8280181884766" />
+    <Link Source="GraphControl" Target="StyleSet" Bounds="127.063331604004,247.088836669922,407.608360290527,112.348663330078" />
+    <Link Source="GraphControl" Target="VirtualCanvas" Bounds="266.940704345703,249.618011474609,267.730987548828,41.7849426269531" />
+    <Link Source="GraphDocument" Target="GraphControl" Bounds="672.337707519531,189.375,184.175354003906,40.7419128417969" />
+    <Link Source="GraphDocument" Target="GraphModel" Bounds="971.364990234375,184.087890625,186.698364257813,175.349609375" />
+    <Link Source="GraphDocument" Target="XmlEditor" Bounds="921.101379394531,189.375,7.21197509765625,24.3088531494141" />
+    <Link Source="GraphDocumentWindowPane" Target="GraphControl" Bounds="643.741516113281,115.6875,195.171813964844,100.919662475586" />
+    <Link Source="GraphDocumentWindowPane" Target="GraphDocument" Bounds="899.063354492188,115.6875,0,22.6875" />
     <Link Source="IGraphLayout" Target="DependencyMatrixLayout" Category="Contains" />
     <Link Source="IGraphLayout" Target="MSAGL" Category="Contains" />
     <Link Source="IGraphLayout" Target="MdsLayout" Category="Contains" />
@@ -86,27 +86,27 @@
     <Link Source="IProvider(Analyzer)" Target="UnreferencedAnalyzer" Category="Contains" />
     <Link Source="IProvider(Analyzer)" Target="UnusedAnalyzer" Category="Contains" />
     <Link Source="LMR Provider" Target="GraphModel" />
-    <Link Source="Legend" Target="StyleSet" />
+    <Link Source="Legend" Target="StyleSet" Bounds="70.5773315429688,336.75,27.3906021118164,25.5486755371094" />
     <Link Source="MSAGL" Target="GraphModel" />
     <Link Source="MSBuild Provider" Target="GraphModel" />
     <Link Source="MdsLayout" Target="GraphModel" />
-    <Link Source="ProgressionPackage" Target="Automation" />
-    <Link Source="ProgressionPackage" Target="Explorer" />
-    <Link Source="ProgressionPackage" Target="GraphDocumentWindowPane" />
-    <Link Source="ProgressionPackage" Target="IProvider" />
-    <Link Source="QueryManager" Target="ActionManager" />
+    <Link Source="ProgressionPackage" Target="Automation" Bounds="1245.44250488281,42,23.1380615234375,25.0734100341797" />
+    <Link Source="ProgressionPackage" Target="Explorer" Bounds="1157.66186523438,42,38.19287109375,26.5503463745117" />
+    <Link Source="ProgressionPackage" Target="GraphDocumentWindowPane" Bounds="1001.03399658203,39.330623626709,143.684265136719,32.3783912658691" />
+    <Link Source="ProgressionPackage" Target="IProvider" Bounds="1307.42663574219,29.4443111419678,273.63671875,274.445123672485" />
+    <Link Source="QueryManager" Target="ActionManager" Bounds="1320.11267089844,189.375,0.3831787109375,22.6876220703125" />
     <Link Source="StackLayout" Target="GraphModel" />
     <Link Source="TFS Provider" Target="GraphModel" />
     <Link Source="UnreferencedAnalyzer" Target="GraphModel" />
     <Link Source="UnusedAnalyzer" Target="GraphModel" />
     <Link Source="VB Provider" Target="GraphModel" />
     <Link Source="VS Provider" Target="GraphModel" />
-    <Link Source="XmlEditor" Target="GraphDocument" />
+    <Link Source="XmlEditor" Target="GraphDocument" Bounds="869.813354492188,196.753646850586,7.2119140625,24.3088531494141" />
   </Links>
   <Categories>
     <Category Id="Analyzer" Icon="..\Icons\Gears.png" Shape="None" />
     <Category Id="Console" Icon="..\Icons\Console.png" Shape="None" />
-    <Category Id="Contains" Label="Contains" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
     <Category Id="Group" Label="Group" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="Groups" />
     <Category Id="Layout" Icon="..\Icons\DgmlFile.png" Shape="None" />
     <Category Id="Model" Icon="..\Icons\XSD.png" Shape="None" />
@@ -118,19 +118,27 @@
     <Category Id="VS" Icon="..\Icons\VisualStudio.png" Shape="None" />
   </Categories>
   <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
     <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
     <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
     <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
-    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.Progression.GraphModel.GroupStyle" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
     <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
     <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
     <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
     <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
     <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
     <Property Id="Layout" DataType="System.String" />
     <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
     <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
     <Property Id="Shape" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="ZoomLevel" DataType="System.String" />
   </Properties>
   <Styles>
     <Style TargetType="Node" GroupLabel="Group" ValueLabel="Has category">

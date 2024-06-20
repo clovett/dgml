@@ -1,148 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<groupBy>
-
-  <group DisplayName="MSBuild">
-    <patterns>
-      <pattern RegEx="Microsoft\.Build.*"/>
-      <pattern RegEx="^ReferenceAssemblyBuildTask.*"/>
-    </patterns>
-  </group>
-
-
-  <group DisplayName="IEHost">
-    <patterns>
-      <pattern RegEx="^IE.*"/> 
-      <pattern RegEx="^IIE.*"/>     
-    </patterns>
-  </group>
-
-
-
-  <group DisplayName="Install">
-    <patterns>
-      <pattern RegEx="System\.Configuration\.Install.*"/> 
-    </patterns>
-  </group>
-
-  <group DisplayName="Entities">
-    <patterns>
-      <pattern RegEx="System\.Data\.Services.*"/>  
-      <pattern RegEx="System\.Data\.Entity.*"/>  
-    </patterns>
-  </group>
-
-  <group DisplayName="Data">
-    <patterns>
-      <pattern RegEx="System\.Data.*"/>  
-      <pattern RegEx="System\.Xml.*"/>  
-      <pattern RegEx="^ADODB.*"/>     
-    </patterns>
-  </group>
-
-
-  <group DisplayName="Workflow">
-    <patterns>
-      <pattern RegEx="System\.Activities.*"/>    
-      <pattern RegEx="System\.Workflow.*"/>   
-      <pattern RegEx="Microsoft\.Workflow.*"/> 
-    </patterns>
-  </group>
-
-  <group DisplayName="WinForms">
-    <patterns>
-      <pattern RegEx="System\.Windows.*"/>   
-      <pattern RegEx="System\.Drawing.*"/>    
-      <pattern RegEx="System\.Design.*"/>     
-    </patterns>
-  </group>
-
-  <group DisplayName="Speech">
-    <patterns>
-      <pattern RegEx="System\.Speech.*"/>   
-      <pattern RegEx="^sysglobl.*"/> 
-    </patterns>
-  </group>
-
-  <group DisplayName="Web">
-    <patterns>
-      <pattern RegEx="System\.Web.*"/>    
-    </patterns>
-  </group>
-
-
-  <group DisplayName="ServiceModel">
-    <patterns>
-      <pattern RegEx="System\.ServiceModel.*"/>  
-      <pattern RegEx="System\.ServiceProcess.*"/>    
-    </patterns>
-  </group>
-
-
-  <group DisplayName="Enterprise">
-    <patterns>
-      <pattern RegEx="System\.Enterprise.*"/>    
-      <pattern RegEx="System\.Identity.*"/>      
-      <pattern RegEx="System\.Directory.*"/>     
-      <pattern RegEx="System\.Deployment.*"/>     
-      <pattern RegEx="System\.Transactions.*"/>   
-      <pattern RegEx="Microsoft\.Transactions.*"/>   
-      <pattern RegEx="System\.Management.*"/>    
-      <pattern RegEx="System\.Messaging.*"/>   
-      <pattern RegEx="System\.IO.Log.*"/>  
-    </patterns>
-  </group>
-
-  <group DisplayName="Automation">
-    <patterns>
-      <pattern RegEx="^Accessibility.*"/>
-      <pattern RegEx="^UIAutomation.*"/>       
-    </patterns>
-  </group>
-
-  <group DisplayName="WPF">
-    <patterns>
-      <pattern RegEx="Presentation.*"/>
-      <pattern RegEx="^Reach.*"/>
-      <pattern RegEx="^WindowsBase.*"/>    
-      <pattern RegEx="^WindowsFormsIntegration.*"/> 
-      <pattern RegEx="^System\.Xaml.*"/>       
-      <pattern RegEx="^System\.Printing.*"/>   
-      <pattern RegEx="^XamlBuildTask.*"/>       
-    </patterns>
-  </group>
-
-  <group DisplayName="Compilers">
-    <patterns>
-      <pattern RegEx="Microsoft\.CSharp.*"/>
-      <pattern RegEx="Microsoft\.VisualBasic.*"/>
-      <pattern RegEx="Microsoft\.JScript.*"/>
-      <pattern RegEx="Microsoft\.VisualC.*"/>
-      <pattern RegEx="Microsoft\.VSA.*"/>
-      <pattern RegEx="CustomMarshalers.*"/>
-      <pattern RegEx="ISymWrapper.*"/>
-      <pattern RegEx="MSDATASRC.*"/>
-      <pattern RegEx="Microsoft\.StdFormat.*"/>
-      <pattern RegEx="stdole.*"/>
-    </patterns>
-  </group>
-
-  <group DisplayName=".Net runtime">
-    <patterns>
-      <pattern RegEx="^mscorlib.*"/>
-      <pattern RegEx="^mscoree\.dll"/>
-      <pattern RegEx="^System.*"/>
-      <pattern RegEx="^SMDiagnostics.*"/>
-      <pattern RegEx="System\.Runtime.*"/> 
-      <pattern RegEx="System\.Security.*"/>    
-      <pattern RegEx="System\.Configuration.*"/> 
-      <pattern RegEx="System\.Caching.*"/>  
-    </patterns>
-  </group>
-
-
-  <group DisplayName="Misc">
-    <patterns>
-      <pattern RegEx=".*"/>
-    </patterns>
-  </group>
-</groupBy>
+<Groups>
+  <Group Name="MSBuild" Terms="Microsoft.build, ReferenceAssemblyBuildTask" />
+  <Group Name="Install" Terms="System.Configuration.Install" />
+  <Group Name="Entities" Terms="System.Data.Services, System.Data.Entity" />
+  <Group Name="Data" Terms="System.Data, System.Xml, ADODB" />
+  <Group Name="Workflow" Terms="System.Activities, System.Workflow, Microsoft.Workflow" />
+  <Group Name="WinForms" Terms="System.Windows.Forms, System.Drawing, System.Design" />
+  <Group Name="Speech" Terms="System.Speech, sysglobal" />
+  <Group Name="Web" Terms="System.Web" />
+  <Group Name="ServiceModel" Terms="System.ServiceModel, System.ServiceProcess" />
+  <Group Name="Enterprise" Terms="System.Enterprise, System.Identity, System.Directory, System.Deployment, System.Transactions, Microsoft.Transactions, System.Management, System.Messaging, System.IO.Log" />
+  <Group Name="Automation" Terms="Accessibility, UIAutomation" />
+  <Group Name="WPF" Terms="Presentation, Reach, WindowsBase, WindowsFormsIntegration, System.Xaml, System.Printing, XamlBuildTask" />
+  <Group Name="Compilers" Terms="Microsoft.CSharp, Microsoft.VisualBasic, Microsoft.VisualC, Microsoft.VSA, CustomMarshalers, ISymWrapper, MSDATASRC, Microsoft.StdFormat, stdole" />
+  <Group Name=".NET Runtime" Terms="mscorlib, mscoree, SMDiagnostics, System.Runtime, System.Security, System.Configuration, System.Cachine" />
+</Groups>
