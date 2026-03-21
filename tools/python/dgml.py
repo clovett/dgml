@@ -117,6 +117,9 @@ class DirectedGraph:
         for style in other.styles:
             self.styles.append(style)
 
+    def is_empty(self) -> bool:
+        return len(self.nodes) == 0 and len(self.links) == 0
+
     def compare(self, other: "DirectedGraph") -> "DirectedGraph":
         """Return all nodes and links in this graph that are not in the other graph"""
         diff = DirectedGraph()
