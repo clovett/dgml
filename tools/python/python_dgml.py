@@ -8,6 +8,7 @@ from typing import Set
 
 from dgml import DirectedGraph, GraphNode
 
+# Create a Directed Graph of type dependencies in a given python file or folder.
 
 def group_node(graph: DirectedGraph, node: GraphNode, group_name: str):
     # create dgml group that is expanded by default
